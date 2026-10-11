@@ -6,7 +6,6 @@ import datetime as dt
 import json
 import re
 import shutil
-import zipfile
 from pathlib import Path
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
@@ -92,6 +91,28 @@ def load_papers(root=ROOT):
             p["versionUpdatedAt"] = versions[key].get("updated")
             p["latestPaperUrl"] = versions[key].get("url")
             p["reviewedVersion"] = paper_version(p)
+    enrichments = read_json(root / "data/enrichments.json", {})
+    for key, p in merged.items():
+        enrichment = enrichments.get(key, {})
+        version = p.get("latestVersion") or paper_version(p)
+        figure = enrichment.get("figure", {})
+        if figure and enrichment.get("version") == version:
+            relative = str(figure.get("path", ""))
+            if relative.startswith("assets/papers/") and ".." not in relative.split("/") and (root / "web" / relative).is_file():
+                p["figure"] = dict(figure)
+        pdf = enrichment.get("pdf", {})
+        if pdf:
+            p["pdf"] = {k: v for k, v in pdf.items() if k != "textPath"}
+        ai = enrichment.get("ai", {})
+        if ai.get("status") == "ready" and ai.get("version", enrichment.get("version")) == version:
+            p["aiAnalysis"] = ai
+            p["social"] = ai.get("social", {})
+            # An automatic draft cannot overwrite a source-checked/editorial reading.
+            if p.get("review") == "candidate":
+                for field in ["summaryZh", "problem", "method", "findings", "limitations", "role", "evidence"]:
+                    if field in ai:
+                        p[field] = ai[field]
+                p.update(review="ai-draft", curated=False, deepRead=False, reviewedVersion=version)
     return sorted(merged.values(), key=lambda p: (p.get("date", ""), p.get("title", "")), reverse=True)
 
 
@@ -120,7 +141,7 @@ def bibtex(papers):
     return "\n\n".join(entries) + "\n"
 
 
-def update_readme(path, papers, english=False):
+def update_readme(path, papers, english=False, focus_since="2026-09-01"):
     if not path.exists():
         return
     start, end = "<!-- ATLAS:START -->", "<!-- ATLAS:END -->"
@@ -131,24 +152,35 @@ def update_readme(path, papers, english=False):
     candidates = sum(p.get("review") == "candidate" for p in papers)
     checked = sum(p.get("review") == "source-checked" for p in papers)
     reviewed = sum(p.get("review") == "full-review" for p in papers)
-    counts = (f"{len(papers)} papers · {len(curated)} curated · {checked} source-checked · {reviewed} full-review · {candidates} discovery candidates"
-              if english else f"共 {len(papers)} 篇 · 精选 {len(curated)} 篇 · 来源核对 {checked} 篇 · 全文核读 {reviewed} 篇 · 自动候选 {candidates} 篇")
+    drafts = sum(p.get("review") == "ai-draft" for p in papers)
+    counts = (f"{len(papers)} papers · {len(curated)} curated · {checked} source-checked · {reviewed} full-review · {drafts} AI drafts · {candidates} discovery candidates"
+              if english else f"共 {len(papers)} 篇 · 精选 {len(curated)} 篇 · 来源核对 {checked} 篇 · 全文核读 {reviewed} 篇 · AI 草稿 {drafts} 篇 · 自动候选 {candidates} 篇")
     lines = [start, "", counts, ""]
-    for cat in CATEGORIES:
-        members = [p for p in curated if cat["id"] in p.get("categories", [])]
-        if not members:
+    for recent in [True, False]:
+        subset = [p for p in curated if ((p.get("date", "") >= focus_since) == recent)]
+        if not subset:
             continue
-        lines += ["### " + (cat["en"] if english else cat["label"]), ""]
-        for p in members:
-            links = p.get("links", {})
-            extra = ""
-            for k, label in [("code", "Code"), ("project", "Project")]:
-                if safe_url(links.get(k)):
-                    extra += f" · [{label}]({safe_url(links[k])})"
-            lines.append(f"- **[{md(p['title'])}]({safe_url(links.get('paper'))})** ({p.get('year', '')}){extra}")
-            if not english:
-                lines.append("  " + md(p.get("summaryZh", "")))
-        lines.append("")
+        if recent:
+            lines += ["## " + (f"Recent embodied agents · since {focus_since}" if english else f"近期具身 Agent · {focus_since} 起"), ""]
+        else:
+            lines += ["<details>", "<summary>" + ("Foundations and earlier work" if english else "背景阅读与早期工作（展开）") + "</summary>", ""]
+        for cat in CATEGORIES:
+            members = [p for p in subset if cat["id"] in p.get("categories", [])]
+            if not members:
+                continue
+            lines += ["### " + (cat["en"] if english else cat["label"]), ""]
+            for p in members:
+                links = p.get("links", {})
+                extra = ""
+                for k, label in [("code", "Code"), ("project", "Project")]:
+                    if safe_url(links.get(k)):
+                        extra += f" · [{label}]({safe_url(links[k])})"
+                lines.append(f"- **[{md(p['title'])}]({safe_url(links.get('paper'))})** ({p.get('date') or p.get('year', '')}){extra}")
+                if not english:
+                    lines.append("  " + md(p.get("summaryZh", "")))
+            lines.append("")
+        if not recent:
+            lines += ["</details>", ""]
     lines.append(end)
     before = content.split(start, 1)[0]
     after = content.split(end, 1)[1]
@@ -185,36 +217,6 @@ def make_rss(papers, events, config, updated):
     return ET.tostring(rss, encoding="utf-8", xml_declaration=True)
 
 
-def package_source(root, out):
-    """Create a portable source snapshot from an explicit allowlist, never from dist."""
-    destination = out / "downloads/awesome-embodied-agents.zip"
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    files = []
-    for directory in ["web", "scripts", "data", "docs", "tests", ".github/workflows"]:
-        source = root / directory
-        if source.exists() and not source.is_symlink():
-            files.extend(p for p in source.rglob("*") if p.is_file())
-    for name in ["README.md", "README.zh-CN.md", "CONTRIBUTING.md", "config.json", ".gitignore", "LICENSE", "LICENSE.md"]:
-        if (root / name).is_file():
-            files.append(root / name)
-    with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for path in sorted(set(files)):
-            relative = path.relative_to(root)
-            # Skip caches and symbolic links, including a file reached through a linked directory.
-            if any(part in {"__pycache__", ".git", ".openai", "node_modules", ".venv"} for part in relative.parts):
-                continue
-            if path.suffix in {".pyc", ".pyo", ".tmp"} or any(parent.is_symlink() for parent in [path, *path.parents] if parent != root):
-                continue
-            name = "awesome-embodied-agents/" + relative.as_posix()
-            if relative.as_posix() == "config.json":
-                config = read_json(path, {})
-                config.update(siteUrl="", repositoryUrl="")
-                archive.writestr(name, json.dumps(config, ensure_ascii=False, indent=2) + "\n")
-            else:
-                archive.write(path, name)
-    return destination
-
-
 def build(root=ROOT):
     root = Path(root)
     out = root / "dist"
@@ -224,7 +226,7 @@ def build(root=ROOT):
     events = read_json(root / "data/events.json", [])
     config = read_json(root / "config.json", {})
     updated = utc_now()
-    result = {"papers": papers, "categories": CATEGORIES, "updatedAt": updated, "updateStatus": status, "events": events, "site": {"title": "Embodied Agent Atlas", "url": config.get("siteUrl", ""), "repository": config.get("repositoryUrl", "")}}
+    result = {"papers": papers, "categories": CATEGORIES, "updatedAt": updated, "updateStatus": status, "events": events, "site": {"title": "Embodied Agent Atlas", "url": config.get("siteUrl", ""), "repository": config.get("repositoryUrl", ""), "focusSince": config.get("focusSince", "2026-09-01")}}
     write_json(out / "data.json", result)
     write_json(out / "papers.json", papers)
     payload = json.dumps(result, ensure_ascii=False).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
@@ -237,9 +239,10 @@ def build(root=ROOT):
             shutil.copy2(root / "web" / name, out / name)
     if (root / "web/assets").exists():
         shutil.copytree(root / "web/assets", out / "assets", dirs_exist_ok=True)
-    update_readme(root / "README.md", papers, english=True)
-    update_readme(root / "README.zh-CN.md", papers)
-    package_source(root, out)
+    update_readme(root / "README.md", papers, english=True, focus_since=config.get("focusSince", "2026-09-01"))
+    update_readme(root / "README.zh-CN.md", papers, focus_since=config.get("focusSince", "2026-09-01"))
+    # The public site is a literature collection, not a downloadable project template.
+    shutil.rmtree(out / "downloads", ignore_errors=True)
     print(f"Built {len(papers)} papers → {out}")
     return result
 

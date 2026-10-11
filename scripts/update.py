@@ -58,6 +58,7 @@ def parse_feed(xml):
         if not title or not updated or not published:
             raise ValueError(f"Incomplete arXiv entry: {base}")
         parse_date(updated)
+        parse_date(published)
         entries.append({"id": base, "version": version, "title": title,
                         "authors": [clean(a.findtext(ATOM + "name")) for a in item.findall(ATOM + "author")],
                         "abstractEn": clean(item.findtext(ATOM + "summary")),
@@ -116,7 +117,7 @@ def discover(client, settings, cutoff):
 def relevant(record):
     text = (record["title"] + " " + record["abstractEn"]).lower()
     body = bool(re.search(r"\b(robot\w*|embodied|manipulation|navigation)\b", text))
-    agent = bool(re.search(r"\b(agent\w*|planning|reasoning|memory|recovery|replanning|language|world.model|self.improvement)\b", text))
+    agent = bool(re.search(r"\b(agent\w*|planning|reasoning|memory|recovery|replanning|tool.use|code.generation|in.context.learning|self.improvement)\b", text))
     return body and agent
 
 
@@ -145,10 +146,11 @@ def make_candidate(record, today):
     }
 
 
-def merge_discovery(existing, candidates, versions, events, incoming, timestamp):
+def merge_discovery(existing, candidates, versions, events, incoming, timestamp, since=None):
     """Return new stores; never mutate input or editorial content."""
     known = {paper_key(p): p for p in existing}
-    discovered = {paper_key(p): dict(p) for p in candidates if paper_key(p) not in {paper_key(x) for x in existing if x.get("review") != "candidate"}}
+    automatic_states = {"candidate", "ai-draft"}
+    discovered = {paper_key(p): dict(p) for p in candidates if paper_key(p) not in {paper_key(x) for x in existing if x.get("review") not in automatic_states}}
     versions = {k: dict(v) for k, v in versions.items()}
     events = list(events)
     event_ids = {e.get("id") for e in events}
@@ -160,12 +162,15 @@ def merge_discovery(existing, candidates, versions, events, incoming, timestamp)
             latest[key] = record
     for key, record in latest.items():
         old = known.get(key)
+        # New collection entries use original publication dates, not revision dates.
+        if old is None and since and record["published"][:10] < since:
+            continue
         if old is None and not relevant(record):
             continue
         previous = versions.get(key, {}).get("version", paper_version(old) if old else None)
         if previous is not None and record["version"] < previous:
             continue
-        if old is None or old.get("review") == "candidate":
+        if old is None or old.get("review") in automatic_states:
             candidate = make_candidate(record, timestamp[:10])
             if key in discovered:
                 candidate["discoveredAt"] = discovered[key].get("discoveredAt", timestamp[:10])
@@ -197,6 +202,12 @@ def run_update(root=ROOT, client=None, now=None):
     try:
         previous_success = status.get("lastSuccess")
         cutoff = parse_date(previous_success) - dt.timedelta(days=max(7, int(settings.get("overlapDays", 7)))) if previous_success else current - dt.timedelta(days=int(settings.get("initialLookbackDays", 7)))
+        since = settings.get("since")
+        if since:
+            since_date = parse_date(since)
+            # Once per changed scope, backfill the entire requested period.
+            if status.get("discoverySince") != since or status.get("discoveryQuery") != settings.get("query"):
+                cutoff = min(cutoff, since_date)
         existing = load_papers(root)
         candidates = read_json(root / "data/candidates.json", [])
         versions = read_json(root / "data/versions.json", {})
@@ -211,14 +222,15 @@ def run_update(root=ROOT, client=None, now=None):
             if {r["id"] for r in records} != set(batch):
                 raise ValueError("Incomplete known-paper version lookup; previous data retained")
             incoming.extend(records)
-        new_candidates, new_versions, new_events, counts = merge_discovery(existing, candidates, versions, events, incoming, timestamp)
+        new_candidates, new_versions, new_events, counts = merge_discovery(existing, candidates, versions, events, incoming, timestamp, since)
         # Stage only after all network requests and parsing succeed.
         write_json(root / "data/candidates.json", new_candidates)
         write_json(root / "data/versions.json", new_versions)
         write_json(root / "data/events.json", new_events)
         write_json(status_path, {"mode": "active", "scheduleEnabled": os.environ.get("GITHUB_ACTIONS") == "true", "lastSuccess": timestamp, "lastAttempt": timestamp,
                                 "message": f"最近发现 {counts['newCandidates']} 篇候选，记录 {counts['versionChanges']} 次版本变化。",
-                                "fetched": len({r['id'] for r in incoming}), **counts})
+                                "fetched": len({r['id'] for r in incoming}), "discoverySince": since,
+                                "discoveryQuery": settings.get("query"), **counts})
         print(f"Update succeeded: {counts['newCandidates']} candidates, {counts['versionChanges']} revisions")
         return True
     except Exception as exc:

@@ -7,7 +7,6 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
-import zipfile
 from unittest.mock import patch
 
 SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
@@ -189,27 +188,49 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("1 source-checked", content)
         self.assertIn("0 discovery candidates", content)
 
-    def test_portable_source_zip_excludes_internal_files_and_sanitizes_urls(self):
-        config = {"siteUrl": "https://private.example/secret/", "repositoryUrl": "https://private.example/repo", "arxiv": {"pageSize": 100}}
-        build.write_json(self.root / "config.json", config)
-        (self.root / "README.md").write_text("Intro\n<!-- ATLAS:START -->\n<!-- ATLAS:END -->\nFooter")
-        (self.root / "web/index.html").write_text("<main>Atlas</main>")
-        for name in [".openai/private.json", ".git/config", "scripts/__pycache__/build.pyc", "dist/stale.zip"]:
-            path = self.root / name
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text("must not package")
+    def test_public_build_does_not_ship_source_archive(self):
+        stale = self.root / "dist/downloads/awesome-embodied-agents.zip"
+        stale.parent.mkdir(parents=True)
+        stale.write_bytes(b"old source archive")
         build.build(self.root)
-        build.build(self.root)  # A repeated build cannot include the previous archive.
-        with zipfile.ZipFile(self.root / "dist/downloads/awesome-embodied-agents.zip") as archive:
-            names = archive.namelist()
-            self.assertIn("awesome-embodied-agents/README.md", names)
-            self.assertIn("awesome-embodied-agents/web/index.html", names)
-            self.assertFalse(any(".openai" in n or "/.git/" in n or "/dist/" in n or "__pycache__" in n for n in names))
-            packaged = json.loads(archive.read("awesome-embodied-agents/config.json"))
-            self.assertEqual(packaged["siteUrl"], "")
-            self.assertEqual(packaged["repositoryUrl"], "")
-            self.assertEqual(packaged["arxiv"], config["arxiv"])
-        self.assertEqual(build.read_json(self.root / "config.json", {}), config)
+        self.assertFalse(stale.exists())
+
+    def test_new_old_paper_revision_does_not_enter_recent_discovery(self):
+        old = source()
+        old["published"] = "2024-01-01T00:00:00Z"
+        candidate, versions, events, counts = update.merge_discovery([], [], {}, [], [old], "2026-10-11T00:00:00Z", since="2026-09-01")
+        self.assertEqual(candidate, [])
+        self.assertEqual(counts["newCandidates"], 0)
+        # Existing background papers still get revision tracking.
+        candidate, versions, events, counts = update.merge_discovery([paper()], [], {}, [], [old], "2026-10-11T00:00:00Z", since="2026-09-01")
+        self.assertEqual(counts["versionChanges"], 1)
+
+    def test_enrichment_draft_does_not_overwrite_editorial(self):
+        self.put("seed-a.json", [paper()])
+        ai = {"status": "ready", "version": 1, "summaryZh": "模型草稿", "social": {"wechat": {"title": "草稿"}}}
+        self.put("enrichments.json", {"2610.00001": {"version": 1, "ai": ai}})
+        loaded = build.load_papers(self.root)[0]
+        self.assertEqual(loaded["summaryZh"], paper()["summaryZh"])
+        self.assertEqual(loaded["review"], "full-review")
+        self.assertEqual(loaded["social"]["wechat"]["title"], "草稿")
+
+    def test_discovery_preserves_candidate_that_has_an_ai_draft(self):
+        candidate = update.make_candidate(source(1), "2026-10-11")
+        display_record = dict(candidate, review="ai-draft")
+        result, versions, events, counts = update.merge_discovery([display_record], [candidate], {}, [], [source(2)], "2026-10-11T00:00:00Z")
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["version"], 2)
+        self.assertEqual(result[0]["review"], "candidate")
+
+    def test_current_ai_draft_is_visible_but_never_curated(self):
+        self.put("candidates.json", [update.make_candidate(source(1), "2026-10-11")])
+        self.put("enrichments.json", {"2610.00001": {"version": 1, "ai": {"status": "ready", "version": 1, "summaryZh": "模型草稿"}}})
+        loaded = build.load_papers(self.root)[0]
+        self.assertEqual(loaded["review"], "ai-draft")
+        self.assertFalse(loaded["curated"])
+        self.assertFalse(loaded["deepRead"])
+        self.put("versions.json", {"2610.00001": {"version": 2}})
+        self.assertEqual(build.load_papers(self.root)[0]["review"], "candidate")
 
 
 if __name__ == "__main__":

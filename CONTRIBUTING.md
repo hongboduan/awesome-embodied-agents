@@ -12,6 +12,7 @@ We welcome paper suggestions, corrections, source checks, and improvements to th
 6. Run the commands below, inspect the website and both card orientations, then open a pull request.
 
 ```bash
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python scripts/build.py
 python -m http.server 8000 --directory dist
@@ -32,4 +33,4 @@ Seeds override automatic candidates during builds, so an old candidate entry can
 
 For a correction, include the paper ID, affected text, original-source link, and proposed replacement. Correct the seed record and rebuild; do not edit generated README sections or `dist/data.js` directly.
 
-The first version deliberately keeps automatic discovery and human curation separate. Automated code-release monitoring and model-generated full readings are future work, not existing features.
+Prioritize embodied-agent papers first published from September 2026 onward. Earlier papers belong to background reading. Automatic PDF covers and optional AI drafts are separate from editorial curation; an AI draft must not promote itself to a reviewed or curated paper. Automated code-release monitoring is not implemented.

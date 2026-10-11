@@ -17,6 +17,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'config.json'
+      - 'requirements.txt'
       - 'README*'
       - '.github/workflows/update-and-deploy.yml'
 
@@ -30,18 +31,27 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     permissions:
       contents: write
       pages: read
     outputs:
       update_outcome: ${{ steps.update.outcome }}
+      enrichment_outcome: ${{ steps.enrich.outcome }}
       pages_ready: ${{ steps.pages.outcome == 'success' }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v7
         with:
           python-version: '3.13'
+      - name: Install PDF reader
+        run: python -m pip install -r requirements.txt
+      - name: Restore PDF and extracted text cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/papers
+          key: papers-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: papers-${{ runner.os }}-
       - name: Verify data pipeline
         run: python -m unittest discover -s tests -v
       - name: Discover candidates and check revisions
@@ -49,6 +59,14 @@ jobs:
         if: github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh)
         continue-on-error: true
         run: python scripts/update.py
+      - name: Extract original paper figures and prepare Chinese reading drafts
+        id: enrich
+        continue-on-error: true
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python scripts/enrich.py
       - name: Build site and Awesome index
         run: python scripts/build.py
       - name: Preserve update state and generated index
@@ -56,7 +74,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data README.md README.zh-CN.md
+          git add data web/assets/papers README.md README.zh-CN.md
           if ! git diff --cached --quiet; then
             git commit -m 'chore: update paper discovery and Awesome index'
             git push
@@ -92,11 +110,11 @@ jobs:
 
   report:
     needs: [build, deploy]
-    if: always() && needs.build.outputs.update_outcome == 'failure'
+    if: always() && (needs.build.outputs.update_outcome == 'failure' || needs.build.outputs.enrichment_outcome == 'failure')
     runs-on: ubuntu-latest
     permissions: {}
     steps:
       - name: Signal failed discovery after publishing preserved data
         run: |
-          echo 'arXiv discovery failed. Existing papers were retained; inspect the build logs and site update status.'
+          echo 'Discovery or enrichment reported a failure. Existing papers were retained; inspect logs and data status files.'
           exit 1

@@ -1,0 +1,692 @@
+[
+  {
+    "id": "2610.12424",
+    "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+    "shortTitle": "RoboRSI",
+    "date": "2026-10-08",
+    "year": 2026,
+    "authors": "Zimo Wen and Yijin Chen and Yuxuan Cao and Wendi Chen and Yanwen Zou and Wenye Yu and Fuhang Kuang and Han Xue and Jun Lv and Chuan Wen and Cewu Lu",
+    "categories": [
+      "code",
+      "learning",
+      "recovery",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation",
+      "navigation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "把机器人自我改进组织成分层技能工程：定位负责的分支、局部修复、验证后再复用。",
+    "abstractEn": "A generalist robot in complex real-world environments should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before it is reused. We introduce RoboRSI, a robot self-improvement system built on Top-Down Skill Refinement (TSR). TSR decomposes tasks into compound, atomic, and base skills with scoped responsibilities and explicit input–output contracts, attributes each execution outcome to the responsible branch, and confines revision to that branch. Building upon this structure, a Manager, Planner, Engineer, and Reviewer coordinate planning, execution, diagnosis, and the validated release of new skills, while people steer the process through objectives and corrections; stable skill sequences are further consolidated into reusable compound skills. On a mobile manipulator, RoboRSI develops multi-object household cleanup over 104 rounds. In simulation, it achieves the highest success rate on LIBERO, LIBERO-PRO, LIBERO-Plus, and RoboTwin, exceeding the strongest baseline by 2.7 to 11.0 percentage points. Project page: https://lab.noematrix.ai/blog/2-roborsi-research-preview/ Code: https://github.com/nssmd/RoboRSI",
+    "problem": "程序可以被修复，但如何把失败归因到正确能力，并避免补丁破坏已有技能？",
+    "method": "TSR 以明确输入输出组织复合、原子和基础技能；Manager、Planner、Engineer、Reviewer 协作执行和验证。",
+    "findings": [
+      "移动操作机器人经过 104 轮开发，形成多物体家居清理能力。",
+      "论文报告在 LIBERO、LIBERO-PRO、LIBERO-Plus 和 RoboTwin 上，比各自最强基线高 2.7–11.0 个百分点。"
+    ],
+    "limitations": [
+      "作者流程包含人类目标引导与纠正，不能称为完全无人参与的自我进化。",
+      "作者将仿真经验迁移到真机、跨平台技能共享列为后续工作。"
+    ],
+    "role": {
+      "model": "多 Agent 协作规划、执行、诊断和评审",
+      "output": "分层技能与经验证的代码修改",
+      "memory": "可复用技能库和执行证据",
+      "recovery": "沿技能分支归因后局部修订",
+      "adaptation": "测试通过后发布技能，稳定序列合成为复合技能"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12424v1",
+      "project": "https://lab.noematrix.ai/blog/2-roborsi-research-preview/",
+      "code": "https://github.com/nssmd/RoboRSI"
+    },
+    "evidence": [
+      {
+        "claim": "TSR 技能分层和四类 Agent 分工",
+        "source": "https://arxiv.org/html/2610.12424v1",
+        "label": "第 3 节 / Figure 2"
+      },
+      {
+        "claim": "104 轮真机开发与四套仿真基准",
+        "source": "https://arxiv.org/html/2610.12424v1",
+        "label": "第 4 节"
+      },
+      {
+        "claim": "人类纠正及跨平台迁移边界",
+        "source": "https://arxiv.org/html/2610.12424v1",
+        "label": "附录 D.5 / 第 5 节"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "递归改进",
+      "技能库",
+      "失败归因",
+      "代码Agent"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 2",
+      "page": 7
+    }
+  },
+  {
+    "id": "2610.10787",
+    "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+    "shortTitle": "NavGPT-3",
+    "date": "2026-10-07",
+    "year": 2026,
+    "authors": "Gengze Zhou and Yicong Hong and Jiazhao Zhang and Xunyi Zhao and Jian Zhou and Zixing Lei and Zun Wang and Chongyang Zhao and Xionghui Chen and Stephen Gould and Anton van den Hengel and Qi Wu",
+    "categories": [
+      "planning",
+      "recovery",
+      "memory",
+      "policies"
+    ],
+    "tasks": [
+      "navigation",
+      "qa"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "让推理、导航执行和监控拥有各自上下文，由运行时分配运动控制权，连接前沿模型与导航 VLA。",
+    "abstractEn": "Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3 , a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot’s motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 74.51 SR on R2R-CE and leads RxR-CE with 78.19 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interaction between the two models, showing how tools and the action policy shape the path from language-model reasoning to physical control: when NavGPT VLA executes the route, the reasoning loop shortens and the system’s minimum reaction time falls from 3–19 s per language-model decision to 0.5–1 s per action-policy step (1–2 Hz). These results show that designing this embodied interface is central to connecting frontier language-model intelligence with low-level physical control. We will release all models, code, and evaluation records.",
+    "problem": "大模型擅长长程决策，却不能让机器人在等待推理时停止响应环境。",
+    "method": "Planner 通过空间工具检查和修复路线，或把执行交给 NavGPT VLA；运行时支持并发监控、中断与恢复。",
+    "findings": [
+      "官方报告 Astra Planner + 8B VLA 在 R2R-CE / RxR-CE 的成功率为 81.51% / 90.43%。",
+      "独立 VLA 对应为 74.51% / 78.19%；VLA 执行提供 0.5–1 秒级动作更新。"
+    ],
+    "limitations": [
+      "官方说明：所引用人类 RxR 成绩来自离散导航，不能把接近的数值理解为完全相同协议。",
+      "官方仓库当前发布仿真 harness 与 VLA 推理，Unitree 上的部署运行时代码另行发布。"
+    ],
+    "role": {
+      "model": "前沿 Planner 与学习型导航 VLA 协作",
+      "output": "空间工具请求、导航子指令和路点",
+      "memory": "路线状态、历史观测和空间引用",
+      "recovery": "检查路线，局部修复，中断后恢复",
+      "adaptation": "harness 迭代并结合专门训练的导航策略"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10787v1",
+      "project": "https://metacognitionai.github.io/NavGPT3/",
+      "code": "https://github.com/metacognitionai/NavGPT-3"
+    },
+    "evidence": [
+      {
+        "claim": "Planner、VLA 与运行时分工",
+        "source": "https://arxiv.org/html/2610.10787v1",
+        "label": "第 3 节 / Figure 1–2"
+      },
+      {
+        "claim": "Astra Planner 增益与人类对照的协议差异",
+        "source": "https://metacognitionai.github.io/NavGPT3/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "仿真代码与真机运行时的发布范围",
+        "source": "https://github.com/metacognitionai/NavGPT-3",
+        "label": "官方仓库 README"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "GPT-6 Astra",
+      "Agent与VLA",
+      "运行时调度",
+      "导航"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1",
+      "page": 1
+    }
+  },
+  {
+    "id": "2610.08432",
+    "title": "EMHO: EMbodied Agent Harness Optimization via Experience Traces",
+    "shortTitle": "EMHO",
+    "date": "2026-10-06",
+    "year": 2026,
+    "authors": "Hyun Jung Lee and Jungtaek Kim and Jongwon Jeong and Tae-Eui Kam and Donghyun Kim and Yong Jae Lee",
+    "categories": [
+      "learning",
+      "recovery",
+      "planning",
+      "code"
+    ],
+    "tasks": [
+      "navigation",
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "冻结具身模型，把执行轨迹变成改进规划、感知工具和失败恢复逻辑的依据。",
+    "abstractEn": "Improving embodied agents often focuses on optimizing the underlying model through training, while the surrounding agent harness that controls planning, context, and tool use is typically engineered. We ask whether this harness can instead improve itself directly from experience traces under sparse environmental feedback. We propose EMbodied Agent Harness Optimization (EMHO) , a self-evolving framework that keeps the embodied model frozen and iteratively revises its harness by analyzing execution trajectories and prior harness history. EMHO optimizes beyond skills or recovery prompts, modifying how the agent monitors progress, uses vision tools, grounds observations, and responds to failures. To support multiple subtasks with a single harness, we introduce EMHO-Merge , which addresses trade-offs in jointly optimizing a single shared harness across subtasks by using episode-level gains and losses to guide evidence-supported refinement of when and how revised behaviors are applied. We evaluate EMHO on EmbodiedBench across navigation and manipulation tasks, and EMHO consistently improves task success for both Qwen 9B and 27B models. Qualitative analysis shows that EMHO goes beyond recovering from failures and unproductive actions to reshape how the embodied agent interprets and interacts with its environment. The code can be found here .",
+    "problem": "具身 Agent 的提升能否来自外部运行逻辑，而不依赖重新训练模型？",
+    "method": "内循环采集轨迹，外循环结合历史修改 harness；EMHO-Merge 根据各回合的收益和损失调整共享行为。",
+    "findings": [
+      "在 EmbodiedBench 导航与操作上，Qwen 9B 和 27B 配置均获得任务成功率提升。",
+      "优化不仅增加恢复提示，也改变进度检查、视觉工具使用和观测到动作的连接。"
+    ],
+    "limitations": [
+      "作者指出：搜索集持续变好时，留出集可能停滞或下降，出现 harness 对已见轨迹过拟合。",
+      "编辑提示：主表包含各划分在迭代中的最好分数，不能视为同一固定迭代的一次无选择测试。"
+    ],
+    "role": {
+      "model": "冻结 Qwen 具身模型与外层代码优化器",
+      "output": "harness 代码与交互流程修订",
+      "memory": "执行轨迹与历次 harness 版本",
+      "recovery": "从失败轨迹归纳条件化恢复规则",
+      "adaptation": "改外部系统，不更新底层模型权重"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08432v1",
+      "project": "https://hyunjung00.github.io/emho/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "经验轨迹驱动 harness 优化与 EMHO-Merge",
+        "source": "https://arxiv.org/html/2610.08432v1",
+        "label": "第 3 节 / Figure 1"
+      },
+      {
+        "claim": "模型、数据划分及成功率报告口径",
+        "source": "https://arxiv.org/html/2610.08432v1",
+        "label": "第 4 节 / Table 1"
+      },
+      {
+        "claim": "搜索集与留出集分化的过拟合风险",
+        "source": "https://arxiv.org/html/2610.08432v1",
+        "label": "第 6 节"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "Harness优化",
+      "轨迹学习",
+      "无需模型微调"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1"
+    }
+  },
+  {
+    "id": "2610.06843",
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
+    "shortTitle": "RV-ICL",
+    "date": "2026-10-05",
+    "year": 2026,
+    "authors": "Wenrui Bao and Xinxin Liu and Bingxin Xu and Yuzhang Shang",
+    "categories": [
+      "memory",
+      "planning",
+      "policies",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "把一段任务示范变成可按需查询的层级视频记忆，让 Agent 在接触细节需要时再读取短片。",
+    "abstractEn": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent’s context. The full video slows every turn, fixed keyframes lose the contact detail that decides whether a grasp holds, and what the agent needs shifts from the task’s structure while planning to the frames around each contact. We introduce Recursive Video In-Context Learning ( RV-ICL ) , a training-free method that turns a demonstration into a hierarchy the agent navigates rather than a prompt it receives. The hierarchy is built from the sub-events of the demonstration, such as grasps and releases. Its levels grow finer, from keyframes of the whole task to phases, moments and short clips, and are exposed through read-only tools. The agent reads the coarse levels before planning. During execution it re-enters the hierarchy whenever a step needs more detail and loads only the clip of its current sub-goal. One demonstration per task is enough. Built on RPent, RV-ICL raises success from 92.6% to 96.5% on LIBERO-PRO and from 86.7% to 95.8% on LIBERO-Plus.",
+    "problem": "整段视频占用上下文，而固定关键帧又容易丢掉决定抓取成败的接触细节。",
+    "method": "按抓取和释放等子事件构建关键帧、阶段、时刻、短片四层结构；Agent 先读概览，执行时按子目标取细节。",
+    "findings": [
+      "在 RPent / HarnessVLA 基础上，LIBERO-PRO 成功率从 92.6% 到 96.5%，LIBERO-Plus 从 86.7% 到 95.8%。",
+      "每任务使用一次示范，不训练策略；执行仍使用冻结 VLA 与解析动作工具。"
+    ],
+    "limitations": [
+      "实验全部为仿真，且需要同一基础任务的示范。",
+      "作者说明：引用基线与本文结果来自不同运行；LIBERO-PRO 基线单元 100 回合、本文 50 回合，不能逐回合配对。"
+    ],
+    "role": {
+      "model": "LLM Agent 组织示范查询并调用冻结策略",
+      "output": "只读视频查询与机器人工具调用",
+      "memory": "四层示范树与文本经验",
+      "recovery": "在细节不足或执行受阻时再次查询示范",
+      "adaptation": "无需训练，策略参数保持冻结"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.06843v1",
+      "project": "https://bwr-hhh.github.io/rvicl/",
+      "code": "https://github.com/BWR-hhh/rvicl"
+    },
+    "evidence": [
+      {
+        "claim": "四层示范树与只读查询工具",
+        "source": "https://arxiv.org/html/2610.06843v1",
+        "label": "第 3 节 / Figure 2"
+      },
+      {
+        "claim": "LIBERO-PRO 与 LIBERO-Plus 结果及评测次数",
+        "source": "https://arxiv.org/html/2610.06843v1",
+        "label": "第 4 节 / Table 1"
+      },
+      {
+        "claim": "全部实验为仿真",
+        "source": "https://arxiv.org/html/2610.06843v1",
+        "label": "Ethics Statement"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "视频上下文学习",
+      "Agent与VLA",
+      "按需检索"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 2"
+    }
+  },
+  {
+    "id": "2610.04929",
+    "title": "RobotUse: Allocating Computation, Context, and Decisions",
+    "shortTitle": "RobotUse",
+    "date": "2026-10-04",
+    "year": 2026,
+    "authors": "Junhoo Lee and Injun Baek and Seungyeon Kim and Suhyun Jeon and Minkyu Kim and Baekseung Kim and Nojun Kwak",
+    "categories": [
+      "planning",
+      "memory",
+      "recovery",
+      "code"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "主 Agent 管目标，子 Agent 在图像中选点和姿态，几何后端执行；跨回合经验沉淀到可更新的操作手册。",
+    "abstractEn": "Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise their choices over repeated attempts. Existing interfaces often leave these choices inside predefined tools or require agents to manage detailed execution code and its growing history. We introduce RobotUse, a robot agent harness that organizes computation, context, and decisions around specifying and revising physical actions. Agents visually select targets and poses, while the backend handles geometry, motion planning, and control. Subagents retain detailed interactions within each subgoal and return the information needed for subsequent decisions. Continual harnessing lets agents learn from execution by updating a persistent playbook. On RoboLab, RobotUse achieves 45% task success, outperforming CaP-X by 6.7 percentage points while maintaining compact decision contexts and reducing reliance on predefined action abstractions. Furthermore, we show that RobotUse learns from real-world execution despite imperfect feedback and transfers what it learns to subsequent tasks. Project page is available at https://robotuse-team.github.io/ .",
+    "problem": "高层技能隐藏了关键动作选择，而把全部底层代码交给 Agent 又会放大上下文和执行负担。",
+    "method": "按子目标分配交互上下文，以视觉动作接口连接 Agent 与几何控制；回合间读取记录并改进持久化 playbook。",
+    "findings": [
+      "RoboLab 40 项任务、120 回合中成功 54 次，成功率 45.00%，比 CaP-X 高 6.67 个百分点。",
+      "官方提供真实 Franka Panda 操作记录，展示经验如何影响后续尝试。"
+    ],
+    "limitations": [
+      "官方说明：真机演示是选定执行记录，不能据此推算总体真机成功率。",
+      "不同方法的停止规则和评测次数存在差异；公开代码未包含物理 Panda 适配器。"
+    ],
+    "role": {
+      "model": "主 Agent 和子 Agent 分配语言与视觉决策",
+      "output": "图像目标、夹爪姿态与执行请求",
+      "memory": "子目标局部上下文与持久化 playbook",
+      "recovery": "检查新观测并修改选点和姿态",
+      "adaptation": "跨回合更新操作手册"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04929v1",
+      "project": "https://robotuse-team.github.io/",
+      "code": "https://github.com/robotuse-team/RobotUse"
+    },
+    "evidence": [
+      {
+        "claim": "语言与视觉分工、子目标上下文和 playbook",
+        "source": "https://arxiv.org/html/2610.04929v1",
+        "label": "第 4 节 / Figure 1"
+      },
+      {
+        "claim": "54/120 成功、评测差异、真机演示与代码范围",
+        "source": "https://robotuse-team.github.io/",
+        "label": "官方项目页"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "Agent分工",
+      "视觉动作接口",
+      "经验复用"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1"
+    }
+  },
+  {
+    "id": "2610.00854",
+    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+    "shortTitle": "Embodied Agent Arena",
+    "date": "2026-10-01",
+    "year": 2026,
+    "authors": "Haojian Huang and Pukun Zhao and Zexi Li and Yehang Zhang and Yangkai Wei and Wenqian Li and Han Yang and Kaiwen Zhou and Ying-Cong Chen and Yinchuan Li",
+    "categories": [
+      "evaluation",
+      "spatial",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation",
+      "navigation",
+      "qa"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "用几何、空间关系、可供性、规划和操作五个维度，检查前沿 VLM 的局部优势能否转化为完整任务成功。",
+    "abstractEn": "Frontier vision-language models (VLMs) combine scene estimation, interaction grounding, and executable actions. Understanding how these abilities support complete robotic tasks is central to evaluating their readiness as robot generalists. We introduce Embodied Agent Arena to examine where local competence supports, or falls short of, complete task success across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. The arena contains 1,000 cases drawn from 32 established sources and GeoProbe, our new benchmark for geometric estimation on Blender renders and real-scene images. A minimal harness preserves source observations and operations while separating metric precision, functional grounding, and native goal completion. We evaluate seven VLMs, analyze Astra’s task-specific advantages, and compare richer-observation execution protocols and multi-round review. Across the arena, Astra’s advantage is strongest in precise estimation and usable-contact localization; completing coordinated, goal-directed actions remains the key gap to robot generalism.",
+    "problem": "局部估计更准确，并不自动意味着机器人能协调多个动作完成目标。",
+    "method": "整合 32 个既有来源与 GeoProbe，构建 1,000 个案例；区分度量精度、功能接触定位和原生目标完成。",
+    "findings": [
+      "论文评测七个 VLM；Astra 的优势主要体现在精确几何估计与有效接触区域定位。",
+      "协调动作并维持目标条件，仍是从局部能力走向通用机器人的主要缺口。"
+    ],
+    "limitations": [
+      "作者说明：公开任务资产不能证明未见环境泛化，不同来源的辅助工具也不同。",
+      "真机迁移、多小时任务及持续错误恢复仍需进一步评测。"
+    ],
+    "role": {
+      "model": "七个前沿 VLM 的具身能力评估",
+      "output": "估计、判断、规划与交互动作",
+      "memory": "依任务和模型接口而定",
+      "recovery": "评估多轮复核与执行协议",
+      "adaptation": "基准分析，不提出通用训练方案"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.00854v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "五个能力域、1,000 案例与七模型比较",
+        "source": "https://arxiv.org/html/2610.00854v1",
+        "label": "第 3 节 / Figure 1"
+      },
+      {
+        "claim": "局部能力与完整任务差距",
+        "source": "https://arxiv.org/html/2610.00854v1",
+        "label": "第 4 节"
+      },
+      {
+        "claim": "公开任务、预算和真机迁移限制",
+        "source": "https://arxiv.org/html/2610.00854v1",
+        "label": "第 5 节"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "GPT-6 Astra",
+      "空间推理",
+      "Agent基准"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1"
+    }
+  },
+  {
+    "id": "2609.39507",
+    "title": "LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation",
+    "shortTitle": "LIBERO-Agent",
+    "date": "2026-09-30",
+    "year": 2026,
+    "authors": "Zijie Diao and Yitong Chen and Sicheng Xie and Tianyi Lu and Wujian Peng and Guojin Zhong and Houze Xu and Ziyi Ye and Zuxuan Wu and Yu-Gang Jiang",
+    "categories": [
+      "evaluation",
+      "planning",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "让通用 Agent 自己选择观测、处理图像和发出原生机器人命令，拆开评估感知、短程动作与长程组合。",
+    "abstractEn": "General-purpose agents can plan, use tools, and revise their behavior from feedback, but it remains unclear whether these capabilities transfer from digital environments to embodied manipulation. To investigate this question, we introduce LIBERO-Agent , an agent-native benchmark for evaluating these agents in robot manipulation tasks. Rather than asking agents to submit task-level Python control programs or operate through high-level robot skills, LIBERO-Agent provides an interactive robotic environment where agents can select which observations to inspect, process them with their own tools, and issue native action commands. LIBERO-Agent integrates 200 tasks into a common interaction framework and provides a 30-task primary suite that separates perception, short-horizon execution, and long-horizon composition. Results reveal a pronounced reliability gap: while agents perform well on perception and easy short-horizon tasks, their performance degrades substantially on hard short-horizon and long-horizon tasks. Richer observations improve short-horizon manipulation, while demonstration benefits depend on the agent and format. Among these agents, GPT-6 Astra achieves the strongest overall performance. Further analysis shows its major advantage lies in mechanism interaction, especially when sustained physical contact is needed, while its remaining failures stem from cross-stage interference and geometric errors.",
+    "problem": "看懂场景、调用工具的能力，是否能够可靠转化为完整操作任务？",
+    "method": "统一接入 200 项任务，选取 30 项主评测；保留原生控制接口，并固定动作与时间预算。",
+    "findings": [
+      "七个 Agent 中，Astra 的综合 Performance Score 最高，为 45.0/100。",
+      "困难短程和长程任务仍有明显可靠性缺口；几何误差、后续动作破坏已完成状态是主要问题。"
+    ],
+    "limitations": [
+      "编辑提示：45.0 是综合评分，不是成功率；200 项是框架任务总量，主结果来自 30 项子集。",
+      "实验基于仿真；更丰富观测和示范格式会改变结果。"
+    ],
+    "role": {
+      "model": "通用 Agent 自主组织观察与控制",
+      "output": "原生末端动作序列",
+      "memory": "由被测 Agent 管理",
+      "recovery": "由被测 Agent 根据反馈处理",
+      "adaptation": "评测接口，不提出新策略训练方法"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.39507v1",
+      "project": null,
+      "code": "https://github.com/dzj441/Libero-Agent"
+    },
+    "evidence": [
+      {
+        "claim": "200 项接入与 30 项主评测接口",
+        "source": "https://arxiv.org/html/2609.39507v1",
+        "label": "第 3 节 / Figure 1"
+      },
+      {
+        "claim": "Astra 45.0 综合评分及可靠性差距",
+        "source": "https://arxiv.org/html/2609.39507v1",
+        "label": "Table 1 / 第 6 节"
+      },
+      {
+        "claim": "跨阶段干扰与几何错误案例",
+        "source": "https://arxiv.org/html/2609.39507v1",
+        "label": "Figure 4"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "GPT-6 Astra",
+      "Agent基准",
+      "长时序可靠性"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1"
+    }
+  },
+  {
+    "id": "2609.34261",
+    "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+    "shortTitle": "RoboICL",
+    "date": "2026-09-28",
+    "year": 2026,
+    "authors": "Fangcheng Liu and Yeqing Shen and Anda Cheng and Weishi Mi and Chao Tang and Chenyuan Liu and Yushun Xiang and Tingguang Li and Yong-Lu Li and Yehui Tang",
+    "categories": [
+      "memory",
+      "recovery",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "给冻结的 GPT-6 Astra 配上示范和交互记忆，用上下文适应机器人任务，无需训练机器人专用策略。",
+    "abstractEn": "General-purpose vision-language models offer a promising way to zero-shot robot control: GPT-6 Astra excels at open-ended and language- or image-conditioned manipulation but remains substantially weaker on high-precision and long-horizon tasks. We introduce RoboICL , an in-context robot-control framework that narrows these gaps without robot-specific parameter updates or a learned VLA. RoboICL separates demonstration context , which provides recorded examples when available, from interaction memory , which accumulates the model’s own actions and observed outcomes. Both use a shared observation–action–receipt–observation grammar. To preserve experience across task stages, RoboICL combines sampled demonstration blocks with bounded anchored memory. Fixed anchors keep earlier rollout interactions available for in-context learning, while the latest interaction supports immediate error correction. Across 30 RoboDojo tasks, using zero shot for Open and one demonstration elsewhere, RoboICL improves on official zero-shot GPT-6 Astra by 20–27 progress-score points in every category. It leads the leaderboard baselines on Memory and Open, achieves comparable performance to the strongest Precision baseline, and remains competitive on Long-Horizon. Its 30-task Overall score is 50.64, versus 33.68 for the strongest baseline. On a separate ten-task subset, RoboICL scores 60.60, within 2.00 points of the π 0.5 \\pi_{0.5} + GPT-6 Astra hybrid approach. On three real-robot tasks, mean progress rises from 14.45 at zero shot to 63.33 at one shot and 78.89 at three shots. On two development tasks, optional Jev-gated action reuse reduces GPT-6 Astra calls by 33–48%. Code is available at https://github.com/Mosi-AI/RoboICL .",
+    "problem": "通用模型能理解任务，但精细控制和长时序执行仍需要有效的经验组织。",
+    "method": "示范与在线经历共用“观测—动作—回执—结果观测”格式；固定时间锚点保留早期经验，最新记录支持即时修正。",
+    "findings": [
+      "30 项 RoboDojo 任务的 Overall 进度分数为 50.64；Open 使用零示范，其他类别使用一次示范。",
+      "三项真机任务的平均进度分数随示范数增加，由零示范 14.45 提升到三示范 78.89。"
+    ],
+    "limitations": [
+      "作者说明：验证覆盖 Astra、RoboDojo 和三项真机任务；Jev 门控只在开发布局上评估，成功率收益并不一致。",
+      "编辑提示：进度分数不是完整任务成功率；不同任务子集的分数不能直接混比。"
+    ],
+    "role": {
+      "model": "冻结 GPT-6 Astra 直接生成动作块",
+      "output": "笛卡尔增量与夹爪动作序列",
+      "memory": "有界时间锚点与示范上下文",
+      "recovery": "根据执行回执和最新视觉反馈修正",
+      "adaptation": "上下文学习，不更新模型参数"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34261v1",
+      "project": null,
+      "code": "https://github.com/Mosi-AI/RoboICL"
+    },
+    "evidence": [
+      {
+        "claim": "共享交互格式与时间锚点记忆",
+        "source": "https://arxiv.org/html/2609.34261v1",
+        "label": "第 3 节 / Figure 2"
+      },
+      {
+        "claim": "30 项仿真任务与三项真机进度分数",
+        "source": "https://arxiv.org/html/2609.34261v1",
+        "label": "第 4 节"
+      },
+      {
+        "claim": "评测范围与 Jev 开发布局限制",
+        "source": "https://arxiv.org/html/2609.34261v1",
+        "label": "第 5 节"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "GPT-6 Astra",
+      "上下文学习",
+      "交互记忆",
+      "直接控制"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 2",
+      "page": 4
+    }
+  },
+  {
+    "id": "2609.24170",
+    "title": "An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond",
+    "shortTitle": "Astra on RoboDojo",
+    "date": "2026-09-21",
+    "year": 2026,
+    "authors": "Wenbo Zhang and Kaixuan Wang and Yutao Ouyang and Xiaoyu Huang and Liyang Li and Kailun Su and Weiyang Jin and Wenhao Chai and Haotian Liang and Zhiyang Dou and Yue Chen and Tianxing Chen",
+    "categories": [
+      "evaluation",
+      "planning",
+      "policies"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "系统测试 GPT-6 Astra 直接充当机器人策略的能力，揭示语义泛化与精细动作之间的明显差距。",
+    "abstractEn": "Embodied AI systems are often organized into System 1 and System 2. System 1 is typically a pretrained policy that generates actions at high frequency, whereas System 2 is often instantiated as a vision-enabled language model for high-level planning. We ask whether a large language model (LLM) can act as the policy for robot manipulation without task-specific finetuning. We call this setting LLM as policy. We evaluate three LLMs on all 42 RoboDojo tasks and compare their scores with 40 public policies. Astra and GPT-5.5 use the official 50-episode-per-task protocol; DeepSeek-Flash uses 10 episodes per task. GPT-6 Astra achieves 22.48% average success rate and 28.97 Score over 2,100 trials, ranking above every public entry. Yet GPT-5.5 and DeepSeek-Flash reach only 0.88% and 1.92% average success rate with the same post-processing. We find that Astra exhibits a sharply polarized capability profile. It generalizes well to tasks that require semantic understanding but not high-precision control. In contrast, it performs poorly on tasks that require precision, dynamic control, or complex bimanual coordination. In-context experiments show no aggregate benefit from one-shot demonstrations, while selected interaction traces show within-episode corrections under perturbations. Overall, the evaluated LLMs vary substantially in manipulation performance. Astra stands out and provides initial evidence for the potential of a general-purpose manipulation model, although reliable precision and dynamic control remain limitations in the evaluated setting.",
+    "problem": "通用大模型不经过机器人任务微调，能否直接输出可执行的操作动作？",
+    "method": "冻结模型读取多相机 RGB 和本体状态，输出末端目标；确定性程序进行校验、运动规划和执行，再返回观测。",
+    "findings": [
+      "42 项任务、2,100 次试验中，Astra 报告平均成功率 22.48%，进度 Score 为 28.97。",
+      "在论文采用的 2026-09-10 榜单快照中领先对照条目；语义任务较强，精细控制、动态动作和复杂双臂协调较弱。"
+    ],
+    "limitations": [
+      "作者说明：公开策略未使用提供给 LLM 的额外任务文字重新评测，输入信息并不完全一致。",
+      "编辑提示：结果属于固定接口与榜单快照，不能表述为今天所有机器人策略的实时排名。"
+    ],
+    "role": {
+      "model": "冻结通用语言模型直接决策",
+      "output": "世界坐标末端目标和夹爪命令",
+      "memory": "近期图像与历史文字",
+      "recovery": "接收目标拒绝、执行结果与到位误差",
+      "adaptation": "无任务专用微调"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.24170v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "模型接口、相同后处理和不同模型的评测次数",
+        "source": "https://arxiv.org/html/2609.24170v1",
+        "label": "第 3 节 / Figure 2"
+      },
+      {
+        "claim": "22.48% 成功率、28.97 Score 与历史榜单",
+        "source": "https://arxiv.org/html/2609.24170v1",
+        "label": "Table 1"
+      },
+      {
+        "claim": "基线未统一额外文字信息",
+        "source": "https://arxiv.org/html/2609.24170v1",
+        "label": "第 3.3 节"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "GPT-6 Astra",
+      "直接控制",
+      "能力评测"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 2"
+    }
+  }
+]

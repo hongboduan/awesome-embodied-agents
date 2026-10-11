@@ -4,12 +4,32 @@
   "arxiv": {
     "endpoint": "https://export.arxiv.org/api/query",
     "userAgent": "EmbodiedAgentAtlas/1.0 (+https://github.com/hongboduan/awesome-embodied-agents)",
-    "query": "(cat:cs.RO OR cat:cs.AI OR cat:cs.CV) AND (all:\"embodied agent\" OR all:\"robot agent\" OR all:\"robotic agent\" OR all:\"robot planning\" OR all:\"code as policies\" OR all:\"vision language action\" OR all:\"embodied memory\" OR all:\"robot self-improvement\")",
+    "query": "(cat:cs.RO OR cat:cs.AI OR cat:cs.CV) AND (all:\"embodied agent\" OR all:\"robot agent\" OR all:\"robotic agent\" OR all:\"agentic robot\" OR all:\"robot planning\" OR all:\"robot reasoning\" OR all:\"code as policies\" OR all:\"embodied memory\" OR all:\"robot self-improvement\" OR (all:\"robot\" AND (all:\"GPT-6\" OR all:\"Astra\" OR all:\"in-context learning\" OR all:\"tool use\")))",
     "initialLookbackDays": 7,
     "overlapDays": 7,
     "pageSize": 100,
     "maxPages": 30,
     "minRequestIntervalSeconds": 3.1,
-    "timeoutSeconds": 45
+    "timeoutSeconds": 45,
+    "since": "2026-09-01"
+  },
+  "focusSince": "2026-09-01",
+  "pdf": {
+    "timeoutSeconds": 45,
+    "maxDownloadBytes": 50000000,
+    "maxPagesToInspect": 12,
+    "minRequestIntervalSeconds": 3.1,
+    "renderScale": 2.0
+  },
+  "enrichment": {
+    "enabled": true,
+    "since": "2026-09-01",
+    "maxPapersPerRun": 12,
+    "llm": {
+      "enabled": true,
+      "maxPapersPerRun": 3,
+      "maxInputChars": 45000,
+      "maxOutputTokens": 5000
+    }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "lastAttempt": "2026-10-11T08:59:54Z",
+  "pdfExtracted": 12,
+  "pdfFailed": 0,
+  "llmCalls": 0,
+  "aiDraftsGenerated": 0,
+  "aiFailed": 0,
+  "eligible": 243,
+  "deferred": 231,
+  "llmMode": "not-configured",
+  "mode": "active",
+  "lastFinished": "2026-10-11T09:00:31Z",
+  "message": "PDF 图片更新 12 篇；新增 AI 草稿 0 篇。未配置 LLM_API_KEY / LLM_MODEL，未调用大模型；PDF 图片照常更新。"
+}

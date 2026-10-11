@@ -70,7 +70,11 @@
     "curated": true,
     "deepRead": true,
     "year": 2026,
-    "lastChecked": "2026-10-11"
+    "lastChecked": "2026-10-11",
+    "figureHint": {
+      "figureLabel": "Figure 3",
+      "page": 6
+    }
   },
   {
     "id": "2209.07753",

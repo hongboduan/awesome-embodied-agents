@@ -8,7 +8,7 @@
   const CATEGORY = { planning: '推理与规划', spatial: '空间理解', memory: '记忆与知识', code: '代码与工具', recovery: '监控与恢复', policies: 'VLA / WAM', learning: '自我改进', evaluation: '基准与评测' };
   const TASK = { navigation: '导航', manipulation: '操作', mobile: '移动操作', qa: '问答', general: '通用任务' };
   const ENVIRONMENT = { real: '真机', simulation: '仿真', virtual: '虚拟环境' };
-  const REVIEW = { 'full-review': '全文核读', 'source-checked': '原始来源核对', candidate: '候选 · 待审核' };
+  const REVIEW = { 'full-review': '全文核读', 'source-checked': '原始来源核对', candidate: '候选 · 待审核', 'ai-draft': 'AI 解读 · 待复核' };
   const clean = value => String(value == null ? '' : value).replace(/\r\n?/g, '\n').trim();
   const arr = value => Array.isArray(value) ? value.map(clean).filter(Boolean) : [];
   const fallback = (value, other) => clean(value) || other;
@@ -86,7 +86,7 @@
     const o = options || {}, layout = fitted(ctx, value, w, h, o);
     font(ctx, layout.size, o.weight, o.serif); ctx.fillStyle = o.color || C.ink;
     layout.lines.forEach((part, i) => ctx.fillText(part, x, y + i * layout.size * layout.leading));
-    if (layout.clipped && ctx.canvas.atlasWarnings) ctx.canvas.atlasWarnings.push((o.name || '文本') + '过长，已明确标记省略；请查看完整论文页。');
+    if (layout.clipped && o.warn !== false && ctx.canvas.atlasWarnings) ctx.canvas.atlasWarnings.push((o.name || '文本') + '过长，已明确标记省略；请查看完整论文页。');
     return y + layout.height;
   }
   function tiny(ctx, value, x, y, color, size) {
@@ -142,18 +142,54 @@
     return all.length ? all.map((v, i) => String(i + 1).padStart(2, '0') + '  ' + v).join('\n\n') : none;
   }
 
-  function portrait(ctx, p, page) {
+  const imageCache = new Map();
+  function validFigurePath(p) {
+    const path = clean(p.figure && p.figure.path);
+    return /^assets\/papers\/[a-zA-Z0-9._/-]+\.(png|jpe?g|webp)$/i.test(path) && !path.includes('..') ? path : '';
+  }
+  async function loadFigure(p) {
+    const path = validFigurePath(p);
+    if (!path || typeof global.Image !== 'function') return null;
+    if (!imageCache.has(path)) imageCache.set(path, new Promise(resolve => {
+      const img = new global.Image();
+      let settled = false;
+      const finish = value => { if (settled) return; settled = true; global.clearTimeout(timer); resolve(value); };
+      const timer = global.setTimeout(() => finish(null), 12000);
+      img.onload = () => finish(img);
+      img.onerror = () => finish(null);
+      img.src = path;
+    }));
+    return imageCache.get(path);
+  }
+  function figure(ctx, p, img, x, y, width, height) {
+    box(ctx, x, y, width, height, '#ffffff', C.line, 12);
+    const f = p.figure || {};
+    const label = f.kind === 'page-preview' ? 'PDF 页面预览' : (clean(f.figureLabel) || '论文原图');
+    const source = clean(f.sourceUrl).match(/arxiv\.org\/(?:pdf|abs)\/([0-9]{4}\.[0-9]{4,5})(v[0-9]+)/);
+    const version = source ? 'arXiv:' + source[1] + source[2] : (f.version ? 'PDF v' + f.version : '图像版本未记录');
+    tiny(ctx, img ? label + '  ·  ' + version + (f.page ? '  ·  PDF p.' + f.page : '') : '论文插图待提取', x + 22, y + 18, C.muted, 18);
+    if (img) {
+      const iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+      const areaW = width - 36, areaH = height - 94, scale = Math.min(areaW / iw, areaH / ih);
+      ctx.drawImage(img, x + (width - iw * scale) / 2, y + 54 + (areaH - ih * scale) / 2, iw * scale, ih * scale);
+      text(ctx, clean(f.caption) || '原图与版权归论文作者；请结合原文阅读。', x + 22, y + height - 35, width - 44, 25, { size: 16, min: 15, leading: 1.1, color: C.muted, tail: '…', warn: false, name: '原图图注' });
+    } else {
+      text(ctx, validFigurePath(p) ? '原文图像暂时无法加载' : '原文图像正在整理', x + 45, y + height / 2 - 30, width - 90, 66, { size: 30, min: 23, leading: 1.3, color: C.muted });
+      tiny(ctx, '完整框架请查看来源 PDF', x + 45, y + height / 2 + 45, C.muted, 19);
+      if (validFigurePath(p)) ctx.canvas.atlasWarnings.push('原图暂未加载，已保留 PDF 来源。');
+    }
+  }
+
+  function portrait(ctx, p, page, img) {
     header(ctx, p, page, 5);
     if (page === 0) {
-      tiny(ctx, '论文精读  /  EMBODIED AGENTS', 80, 165, C.muted, 21);
-      text(ctx, titleOf(p), 73, 234, 934, 217, { size: 112, min: 51, leading: 1.12, serif: true, name: '论文简称' });
-      text(ctx, fallback(p.title, titleOf(p)), 80, 463, 915, 145, { size: 29, min: 23, leading: 1.4, name: '论文标题' });
-      box(ctx, 64, 643, 952, 355, C.ink, null, 15);
-      tiny(ctx, '一句话读懂', 101, 678, C.lime, 22);
-      text(ctx, fallback(p.summaryZh, '摘要尚待整理，请查看原文。'), 100, 732, 871, 232, { size: 42, min: 28, leading: 1.5, color: C.paper, name: '核心结论' });
-      tiny(ctx, '阅读线索', 80, 1059, C.muted, 20);
-      pills(ctx, tagNames(p), 80, 1102, 920, 2);
-      tiny(ctx, '问题  /  方法  /  证据  /  边界', 80, 1228, C.muted, 20);
+      tiny(ctx, '论文阅读  /  EMBODIED AGENTS', 80, 157, C.muted, 21);
+      text(ctx, titleOf(p), 73, 208, 934, 165, { size: 96, min: 44, leading: 1.12, serif: true, name: '论文简称' });
+      text(ctx, fallback(p.title, titleOf(p)), 80, 391, 915, 111, { size: 28, min: 22, leading: 1.35, name: '论文标题' });
+      figure(ctx, p, img, 72, 529, 936, 443);
+      box(ctx, 72, 995, 936, 271, C.ink, null, 13);
+      tiny(ctx, '一句话读懂', 103, 1022, C.lime, 22);
+      text(ctx, fallback(p.summaryZh, '中文摘要尚待整理，请查看原文。'), 103, 1073, 874, 156, { size: 35, min: 26, leading: 1.5, color: C.paper, name: '核心结论' });
     } else if (page === 1) {
       section(ctx, '02', '它在解决什么问题？');
       box(ctx, 80, 374, 8, 35, C.lime);
@@ -166,17 +202,25 @@
       pills(ctx, scope.length ? scope : ['适用场景待核实'], 80, 1196, 920, 1);
     } else if (page === 2) {
       section(ctx, '03', '方法如何运转？');
-      text(ctx, fallback(p.method, '方法细节尚未核实，请查看原文。'), 80, 375, 918, 280, { size: 33, min: 23, leading: 1.5, name: '方法概述' });
-      tiny(ctx, '系统分工  /  逐项理解方法', 80, 687, C.muted, 21);
-      const rows = [['model', '模型角色'], ['output', '输出接口'], ['memory', '状态与记忆'], ['recovery', '失败恢复'], ['adaptation', '适配方式']];
-      const role = p.role || {};
-      rows.forEach(([key, label], i) => {
-        const y = 739 + i * 105;
-        box(ctx, 80, y, 920, 94, i % 2 ? C.paper : C.pale, C.line, 7);
-        tiny(ctx, label, 102, y + 34, C.muted, 22);
-        ctx.beginPath(); ctx.moveTo(268, y + 18); ctx.lineTo(268, y + 76); ctx.strokeStyle = C.line; ctx.lineWidth = 1.5; ctx.stroke();
-        text(ctx, fallback(role[key], '未核实'), 291, y + 19, 681, 65, { size: 25, min: 19, leading: 1.32, name: label });
-      });
+      if (img) {
+        figure(ctx, p, img, 80, 365, 920, 385);
+        text(ctx, fallback(p.method, '方法细节尚未核实，请查看原文。'), 80, 787, 918, 211, { size: 32, min: 23, leading: 1.5, name: '方法概述' });
+        line(ctx, 80, 1022, 1000);
+        tiny(ctx, '模型角色与输出接口', 80, 1054, C.muted, 21);
+        text(ctx, fallback(p.role && p.role.model, '模型角色未核实') + '\n' + fallback(p.role && p.role.output, '输出接口未核实'), 80, 1101, 918, 157, { size: 27, min: 22, leading: 1.5, name: '系统接口' });
+      } else {
+        text(ctx, fallback(p.method, '方法细节尚未核实，请查看原文。'), 80, 375, 918, 280, { size: 33, min: 23, leading: 1.5, name: '方法概述' });
+        tiny(ctx, '系统分工  /  逐项理解方法', 80, 687, C.muted, 21);
+        const rows = [['model', '模型角色'], ['output', '输出接口'], ['memory', '状态与记忆'], ['recovery', '失败恢复'], ['adaptation', '适配方式']];
+        const role = p.role || {};
+        rows.forEach(([key, label], i) => {
+          const y = 739 + i * 105;
+          box(ctx, 80, y, 920, 94, i % 2 ? C.paper : C.pale, C.line, 7);
+          tiny(ctx, label, 102, y + 34, C.muted, 22);
+          ctx.beginPath(); ctx.moveTo(268, y + 18); ctx.lineTo(268, y + 76); ctx.strokeStyle = C.line; ctx.lineWidth = 1.5; ctx.stroke();
+          text(ctx, fallback(role[key], '未核实'), 291, y + 19, 681, 65, { size: 25, min: 19, leading: 1.32, name: label });
+        });
+      }
     } else if (page === 3) {
       section(ctx, '04', '结果与证据');
       tiny(ctx, '论文报告 · 请结合评测设置阅读', 80, 374, C.muted, 21);
@@ -184,7 +228,7 @@
       box(ctx, 64, 910, 952, 353, C.pale, null, 12);
       tiny(ctx, '原始来源索引', 92, 937, C.ink, 22);
       const evidence = Array.isArray(p.evidence) ? p.evidence : [];
-      const evidenceText = evidence.length ? evidence.map((e, i) => '[' + (i + 1) + '] ' + fallback(e.label, '原始来源') + '：' + fallback(e.claim, '具体结论请核对原文') + '\n' + fallback(e.source, paperUrl(p))).join('\n\n') : '尚未提供逐条证据，请先核对论文原文。';
+      const evidenceText = evidence.length ? evidence.map((e, i) => '[' + (i + 1) + '] ' + fallback(e.label, e.page ? 'PDF p.' + e.page : '原始来源') + '：' + fallback(e.claim, '具体结论请核对原文') + '\n' + fallback(e.source, paperUrl(p))).join('\n\n') : '尚未提供逐条证据，请先核对论文原文。';
       text(ctx, evidenceText, 92, 985, 884, 253, { size: 23, min: 17, leading: 1.3, name: '证据索引' });
     } else {
       section(ctx, '05', '边界与进一步思考');
@@ -198,11 +242,12 @@
     footer(ctx, p);
   }
 
-  function landscape(ctx, p) {
+  function landscape(ctx, p, img) {
     header(ctx, p, 0, 1);
-    text(ctx, titleOf(p), 70, 153, 1776, 108, { size: 83, min: 47, serif: true, leading: 1.12, name: '论文简称' });
-    text(ctx, fallback(p.title, titleOf(p)), 74, 273, 1760, 65, { size: 26, min: 21, leading: 1.26, name: '论文标题' });
-    text(ctx, fallback(p.summaryZh, '摘要尚待整理，请查看原文。'), 74, 341, 1760, 93, { size: 31, min: 25, leading: 1.45, name: '核心结论' });
+    text(ctx, titleOf(p), 70, 149, 1776, 108, { size: 83, min: 42, serif: true, leading: 1.12, name: '论文简称' });
+    text(ctx, fallback(p.title, titleOf(p)), 74, 268, 1760, 66, { size: 26, min: 21, leading: 1.26, name: '论文标题' });
+    text(ctx, fallback(p.summaryZh, '中文摘要尚待整理，请查看原文。'), 74, 342, 1760, 71, { size: 29, min: 23, leading: 1.35, name: '核心结论' });
+    figure(ctx, p, img, 72, 438, 890, 474);
     const blocks = [
       ['01', '研究问题', fallback(p.problem, '尚待核实')],
       ['02', '核心方法', fallback(p.method, '尚待核实')],
@@ -210,19 +255,20 @@
       ['04', '适用边界', numbered(p.limitations, '尚待核实').replace(/\n\n/g, '\n')]
     ];
     blocks.forEach(([n, heading, content], i) => {
-      const x = 72 + i * 450, dark = i === 2;
-      box(ctx, x, 455, 426, 456, dark ? C.ink : C.white, dark ? null : C.line, 10);
-      tiny(ctx, n, x + 26, 478, dark ? C.lime : C.muted, 21);
-      text(ctx, heading, x + 26, 520, 374, 46, { size: 32, min: 26, leading: 1.1, color: dark ? C.paper : C.ink, serif: true });
-      line(ctx, x + 26, 580, x + 400, dark ? '#567263' : C.line);
-      text(ctx, content, x + 26, 607, 374, 277, { size: 24, min: 19, leading: 1.43, color: dark ? C.paper : C.ink, name: heading });
+      const x = 986 + (i % 2) * 442, y = 438 + Math.floor(i / 2) * 249, dark = i === 2;
+      box(ctx, x, y, 418, 225, dark ? C.ink : C.white, dark ? null : C.line, 10);
+      tiny(ctx, n + '  /  ' + heading, x + 21, y + 20, dark ? C.lime : C.ink, 23);
+      line(ctx, x + 21, y + 59, x + 397, dark ? '#567263' : C.line);
+      text(ctx, content, x + 21, y + 77, 376, 130, { size: 22, min: 18, leading: 1.4, color: dark ? C.paper : C.ink, name: heading });
     });
     footer(ctx, p);
   }
 
-  function render(paper, options) {
+  async function render(paper, options) {
     if (!paper || typeof paper !== 'object') throw new TypeError('AtlasCards.render 需要论文记录。');
     if (typeof document === 'undefined') throw new Error('卡片渲染需要浏览器 Canvas。');
+    await ready();
+    const img = await loadFigure(paper);
     const o = options || {}, format = o.format === 'landscape' ? 'landscape' : 'portrait';
     const page = format === 'landscape' ? 0 : clamp(Math.floor(Number(o.page) || 0), 0, 4);
     const canvas = document.createElement('canvas');
@@ -235,7 +281,7 @@
     const ctx = canvas.getContext('2d');
     if (!ctx) throw new Error('当前浏览器不支持 Canvas 2D。');
     ctx.fillStyle = C.paper; ctx.fillRect(0, 0, canvas.width, canvas.height);
-    if (format === 'landscape') landscape(ctx, paper); else portrait(ctx, paper, page);
+    if (format === 'landscape') landscape(ctx, paper, img); else portrait(ctx, paper, page, img);
     canvas.dataset.truncated = canvas.atlasWarnings.length ? 'true' : 'false';
     return canvas;
   }
@@ -256,7 +302,7 @@
   async function ready() { if (document.fonts && document.fonts.ready) await document.fonts.ready; }
   async function download(paper, options) {
     await ready();
-    const canvas = render(paper, options), blob = await toBlob(canvas);
+    const canvas = await render(paper, options), blob = await toBlob(canvas);
     const name = filename(paper, canvas.dataset.format + '-' + (Number(canvas.dataset.page) + 1) + '.png');
     save(blob, name);
     return { filename: name, width: canvas.width, height: canvas.height, warnings: canvas.atlasWarnings.slice() };
@@ -295,7 +341,7 @@
     await ready();
     const files = [], warnings = [];
     for (let page = 0; page < 5; page++) {
-      const canvas = render(paper, { format: 'portrait', page }), blob = await toBlob(canvas);
+      const canvas = await render(paper, { format: 'portrait', page }), blob = await toBlob(canvas);
       files.push({ name: filename(paper, 'portrait-' + String(page + 1).padStart(2, '0') + '.png'), bytes: new Uint8Array(await blob.arrayBuffer()) });
       warnings.push(...canvas.atlasWarnings.map(w => '第 ' + (page + 1) + ' 页：' + w));
     }

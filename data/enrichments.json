@@ -1,0 +1,470 @@
+{
+  "2610.12424": {
+    "arxivId": "2610.12424",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12424",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12424v1",
+      "version": 1,
+      "pageCount": 32,
+      "textPages": 32,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12424-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 | RoboRSI framework. Given a task, the Manager organizes its skill hierarchy, the Planner composes an execution plan, and the Engineer runs the required skills. The Reviewer diagnoses failures from observations and tool traces, returning them for TSR-guided revision. Tested updates enter the next iteration, and stable branches become parameterized skills for subsequent tasks.",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.12424-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12424v1",
+      "page": 7,
+      "version": 1,
+      "width": 940,
+      "height": 503,
+      "crop": [
+        59.67,
+        118.25,
+        529.05,
+        369.19
+      ]
+    },
+    "extractionFingerprint": "47369276b41514cd",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.12369": {
+    "arxivId": "2610.12369",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12369",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12369v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12369-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. Code-Only-as-Policy. Development (left): coding agents improve the code offline in a loop. They run the current code 𝜃𝑘on development layouts, read the state, and run alternative diffs on branches in parallel. Shared library (middle): task programs call the library from the shared code. Execution (right): at runtime the robot runs one fixed task program across episode, and an agent and a VLA are not required.",
+      "figureLabel": "Figure 3",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.12369-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12369v1",
+      "page": 6,
+      "version": 1,
+      "width": 932,
+      "height": 586,
+      "crop": [
+        64.87,
+        79.04,
+        530.43,
+        371.81
+      ]
+    },
+    "extractionFingerprint": "f11b24867e650c50",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.08432": {
+    "arxivId": "2610.08432",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08432",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08432v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08432-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of EMHO and EMHO-Merge. During harness optimization, EMHO uses trace- guided revision, while EMHO-Merge adds gain–loss refinement.",
+      "figureLabel": "Figure 1",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.08432-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08432v1",
+      "page": 2,
+      "version": 1,
+      "width": 801,
+      "height": 210,
+      "crop": [
+        102.89,
+        79.23,
+        502.96,
+        183.65
+      ]
+    },
+    "extractionFingerprint": "e322812ec93c343e",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.06843": {
+    "arxivId": "2610.06843",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06843",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06843v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06843-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Architecture of RV-ICL on RPent. Each demonstration is segmented offline at its sub-events into a four-level hierarchy. During an episode the LLM agent acts through the harness. Robot tools execute on the environment, and read-only demonstration tools load a level of the hierarchy into the agent’s context. The agent reads the coarse levels (L0–L2) before planning and loads a clip whenever its current sub-goal needs more detail.",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.06843-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06843v1",
+      "page": 4,
+      "version": 1,
+      "width": 932,
+      "height": 407,
+      "crop": [
+        64.87,
+        64.86,
+        530.43,
+        267.73
+      ]
+    },
+    "extractionFingerprint": "94bad81fdac2b943",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.00854": {
+    "arxivId": "2610.00854",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.00854",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00854v2",
+      "version": 2,
+      "pageCount": 44,
+      "textPages": 44,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.00854-v2.text.json",
+      "extractedAt": "2026-10-11T09:00:06Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of Embodied Agent Arena. Each row illustrates six tasks in one capability domain, spanning camera and scene estimation, spatial relations, functional grounding, goal-directed planning, and robot manipulation. Fixed-input probes test estimates and judgments; interactive episodes test goal completion. Spatial-tracing overlays show reference paths and a 3D target region.",
+      "figureLabel": "Figure 1",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.00854-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00854v2",
+      "page": 2,
+      "version": 2,
+      "width": 1013,
+      "height": 641,
+      "crop": [
+        49.25,
+        50.69,
+        555.5,
+        370.91
+      ]
+    },
+    "extractionFingerprint": "e322812ec93c343e",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 2,
+      "message": "人工内容保留。"
+    }
+  },
+  "2609.39507": {
+    "arxivId": "2609.39507",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39507",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39507v1",
+      "version": 1,
+      "pageCount": 27,
+      "textPages": 27,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39507-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of LIBERO-Agent: agent-native interaction, benchmark task suite, and key findings.",
+      "figureLabel": "Figure 1",
+      "selection": "source-hint",
+      "path": "assets/papers/2609.39507-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39507v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 456,
+      "crop": [
+        64.87,
+        71.95,
+        547.14,
+        299.16
+      ]
+    },
+    "extractionFingerprint": "e322812ec93c343e",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2609.34261": {
+    "arxivId": "2609.34261",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34261",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34261v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34261-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: A shared interaction grammar for demonstration context and interaction memory. Both sources use observation–action–receipt–observation records. Synthetic demonstration receipts describe recorded intervals, action counts, target tracking, and result states. Execution receipts report realized actions and controller feedback. The general action dimension is da, with da = 14 for the illustrated RoboDojo interface. The lower panel shows a bottle-task request at step 687: four fixed anchors and the latest interaction, with explicit gaps between retained intervals.",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
+      "path": "assets/papers/2609.34261-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34261v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 467,
+      "crop": [
+        102.0,
+        75.86,
+        509.98,
+        308.84
+      ]
+    },
+    "extractionFingerprint": "6c664d96a20d5408",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2609.24170": {
+    "arxivId": "2609.24170",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.24170",
+      "sourceUrl": "https://arxiv.org/pdf/2609.24170v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.24170-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: The model-facing context and execution loop. A frozen language model chooses world- frame end-effector (EEF) targets at the grasp point through move_eef. The action conversion module is non-learned. It validates the request, converts grasp-point targets to flange poses, plans joint paths, and constructs executable joint commands. Requested gripper changes follow the arm- motion phase. The two return routes are the two branches of a request. A rejected target returns an error as the tool result and causes no motion, so the model retries against the same observation; this is the dashed route. An accepted target returns its planned duration, executes, and only then produces the next observation with the achieved state and arrival error; this is the solid route. give_up requests termination, but only the environment determines success. The context retains the latest two RGB frames from each camera.",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
+      "path": "assets/papers/2609.24170-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.24170v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 577,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        363.7
+      ]
+    },
+    "extractionFingerprint": "94bad81fdac2b943",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.10787": {
+    "arxivId": "2610.10787",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10787",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10787v1",
+      "version": 1,
+      "pageCount": 36,
+      "textPages": 36,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10787-v1.text.json",
+      "extractedAt": "2026-10-11T08:59:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of NAVGPT-3: (a) runtime abstraction with the planner, VLA, and spatial tools; (b) synchronous tool use versus asynchronous thread coordination; and (c) benchmark performance. NAVGPT-3 reaches human performance on RxR-CE.",
+      "figureLabel": "Figure 1",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.10787-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10787v1",
+      "page": 1,
+      "version": 1,
+      "width": 816,
+      "height": 285,
+      "crop": [
+        102.0,
+        539.13,
+        509.98,
+        681.43
+      ]
+    },
+    "extractionFingerprint": "050c3aec1a4c75a8",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.04929": {
+    "arxivId": "2610.04929",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.04929",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04929v2",
+      "version": 2,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.04929-v2.text.json",
+      "extractedAt": "2026-10-11T09:00:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: RobotUse. The main agent decides in language: from the current state, the playbook, and returned reports, it issues an instruction. The subagent decides on the image, selecting points and poses that the robot backend plans and executes, and returns a report of the outcome and its cause. Between episodes (dashed), a refiner reads only the main-agent turns and edits the playbook.",
+      "figureLabel": "Figure 1",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.04929-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04929v2",
+      "page": 2,
+      "version": 2,
+      "width": 817,
+      "height": 295,
+      "crop": [
+        102.0,
+        75.86,
+        510.06,
+        222.52
+      ]
+    },
+    "extractionFingerprint": "e322812ec93c343e",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 2,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.10962": {
+    "arxivId": "2610.10962",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10962",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10962v1",
+      "version": 1,
+      "pageCount": 7,
+      "textPages": 7,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10962-v1.text.json",
+      "extractedAt": "2026-10-11T09:00:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: System architecture of the robot-description generation and embodied-agent execution stages. The generation agent extracts resolved robot evidence from the ROS 2 environment and records it in iAm.md. During task execution, the embodied agent combines this description with the semantic map and NL request, produces code for successive subgoals, and uses execution outcomes for introspective revision.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.10962-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10962v1",
+      "page": 3,
+      "version": 1,
+      "width": 729,
+      "height": 485,
+      "crop": [
+        115.64,
+        59.6,
+        479.63,
+        301.98
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.10409": {
+    "arxivId": "2610.10409",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10409",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10409v1",
+      "version": 1,
+      "pageCount": 62,
+      "textPages": 62,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10409-v1.text.json",
+      "extractedAt": "2026-10-11T09:00:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of RobotWorld. RobotWorld evaluates whether general-purpose multimodal models can turn digital capabilities into reliable robot use. Agents interpret instructions and observations, perform auxiliary computation, and act through a feedback loop across diverse robots and tasks. Trajectory analysis examines emerging capabilities—including image segmentation, geometric calibration, dynamics modelling and control program generation—alongside failure mechanisms and differences between models on shared tasks. These findings inform training and agent design. The scene illustrates task families evaluated in separate simulation environments.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.10409-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10409v1",
+      "page": 3,
+      "version": 1,
+      "width": 960,
+      "height": 681,
+      "crop": [
+        66.0,
+        66.0,
+        545.93,
+        406.47
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  }
+}
