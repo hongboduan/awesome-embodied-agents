@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "2411.17735",
+    "title": "3D-Mem: 3D Scene Memory for Embodied Exploration and Reasoning",
+    "shortTitle": "3D-Mem",
+    "date": "2024-11-23",
+    "year": 2024,
+    "authors": "Yuncong Yang、Han Yang、Jiachen Zhou 等",
+    "categories": [
+      "memory",
+      "spatial",
+      "planning"
+    ],
+    "tasks": [
+      "navigation",
+      "qa"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "把探索过程中看到的场景保存为多视角记忆快照，让具身 Agent 在已有记忆和未知区域之间选择下一步。",
+    "problem": "物体列表与文字关系难以保存细致空间信息，也不便支持持续探索。",
+    "method": "增量构建记忆快照，并以探索前沿快照表示未知区域；检索相关记忆交给视觉语言模型推理。",
+    "findings": [
+      "作者在三个基准上报告探索与推理能力提升。",
+      "官方项目页另展示真机演示。"
+    ],
+    "limitations": [
+      "编辑提示：项目真机演示不等于跨场景量化验证；本条未逐项核对全文实验。"
+    ],
+    "role": {
+      "model": "视觉语言模型结合场景记忆进行探索与问答",
+      "output": "探索选择与问题答案",
+      "memory": "多视角记忆快照与增量更新",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "项目称无需额外训练；仍依赖预训练感知模型和模型调用"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2411.17735",
+      "project": "https://umass-embodied-agi.github.io/3D-Mem/",
+      "code": "https://github.com/UMass-Embodied-AGI/3D-Mem"
+    },
+    "evidence": [
+      {
+        "claim": "增量构建记忆快照，并以探索前沿快照表示未知区域；检索相关记忆交给视觉语言模型推理。",
+        "source": "https://arxiv.org/abs/2411.17735",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "项目展示真机演示，并说明无需额外训练。",
+        "source": "https://umass-embodied-agi.github.io/3D-Mem/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "官方仓库提供 A-EQA 与 GOAT-Bench 评测脚本；本站未运行复现。",
+        "source": "https://github.com/UMass-Embodied-AGI/3D-Mem",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "场景记忆",
+      "主动探索",
+      "无需额外训练",
+      "视觉语言模型"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2309.16650",
+    "title": "ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning",
+    "shortTitle": "ConceptGraphs",
+    "date": "2023-09-28",
+    "year": 2023,
+    "authors": "Qiao Gu、Alihusein Kuwajerwala、Sacha Morin 等",
+    "categories": [
+      "spatial",
+      "planning",
+      "memory"
+    ],
+    "tasks": [
+      "navigation",
+      "qa"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "把多视角观测组织为开放词汇三维场景图，为语言查询和机器人规划提供显式空间接口。",
+    "problem": "逐点特征地图较难表达对象间关系，给高层规划带来负担。",
+    "method": "利用二维基础模型检测与描述物体，通过多视角关联构建三维对象，再生成对象关系图。",
+    "findings": [
+      "作者展示复杂语言查询和下游规划任务。",
+      "项目演示将可通行性判断接入 Jackal 机器人导航。"
+    ],
+    "limitations": [
+      "编辑提示：表示层的开放词汇能力不等于任意任务均可完成；实际控制还依赖下游模块。"
+    ],
+    "role": {
+      "model": "基础视觉模型建图，语言模型处理关系与任务查询",
+      "output": "三维对象、关系与任务相关目标",
+      "memory": "显式三维对象图",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "作者称无需收集大规模三维训练集或微调模型"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.16650",
+      "project": "https://concept-graphs.github.io/",
+      "code": "https://github.com/concept-graphs/concept-graphs"
+    },
+    "evidence": [
+      {
+        "claim": "利用二维基础模型检测与描述物体，通过多视角关联构建三维对象，再生成对象关系图。",
+        "source": "https://arxiv.org/abs/2309.16650",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "项目描述带位姿 RGB-D 建图，并展示真实机器人可通行性任务。",
+        "source": "https://concept-graphs.github.io/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "仓库提供建图与机器人导航相关代码；本站未运行复现。",
+        "source": "https://github.com/concept-graphs/concept-graphs",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "三维场景图",
+      "开放词汇",
+      "空间推理",
+      "无需额外训练"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2302.07241",
+    "title": "ConceptFusion: Open-set Multimodal 3D Mapping",
+    "shortTitle": "ConceptFusion",
+    "date": "2023-02-14",
+    "year": 2023,
+    "authors": "Krishna Murthy Jatavallabhula、Alihusein Kuwajerwala、Qiao Gu 等",
+    "categories": [
+      "spatial",
+      "memory"
+    ],
+    "tasks": [
+      "navigation",
+      "manipulation",
+      "qa"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "把基础模型的开放集合特征融合进三维地图，让语言、图像、音频和几何查询共享空间表示。",
+    "problem": "固定类别语义地图限制了机器人理解新对象和组合查询的能力。",
+    "method": "生成像素对齐的开放集合特征，经多视角融合形成可多模态查询的三维地图。",
+    "findings": [
+      "作者评测真实数据与仿真场景，并展示桌面操作和自动驾驶平台应用。"
+    ],
+    "limitations": [
+      "编辑提示：主要贡献在地图与查询接口；复杂任务的执行、监控和恢复需结合其他模块。"
+    ],
+    "role": {
+      "model": "预训练跨模态特征用于地图构建和查询",
+      "output": "相关三维区域与空间查询结果",
+      "memory": "融合多视角特征的三维地图",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "作者称空间推理无需额外训练或微调"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2302.07241",
+      "project": "https://concept-fusion.github.io/",
+      "code": "https://github.com/concept-fusion/concept-fusion"
+    },
+    "evidence": [
+      {
+        "claim": "生成像素对齐的开放集合特征，经多视角融合形成可多模态查询的三维地图。",
+        "source": "https://arxiv.org/abs/2302.07241",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目给出机器人应用与代码仓库入口；本站未运行复现。",
+        "source": "https://concept-fusion.github.io/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方代码仓库存在。",
+        "source": "https://github.com/concept-fusion/concept-fusion",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "多模态地图",
+      "开放集合",
+      "空间检索",
+      "无需额外训练"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2210.05714",
+    "title": "Visual Language Maps for Robot Navigation",
+    "shortTitle": "VLMaps",
+    "date": "2022-10-11",
+    "year": 2022,
+    "authors": "Chenguang Huang、Oier Mees、Andy Zeng、Wolfram Burgard",
+    "categories": [
+      "spatial",
+      "code",
+      "planning"
+    ],
+    "tasks": [
+      "navigation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "把视觉语言特征写入三维地图，再把自然语言指令转成具有空间位置的导航目标。",
+    "problem": "图像与语言匹配缺少几何地图的空间精度，难以执行带空间关系的指令。",
+    "method": "融合预训练视觉语言特征与三维重建，并通过语言模型生成调用导航接口的代码。",
+    "findings": [
+      "作者在仿真和真实环境中验证复杂语言指令导航。"
+    ],
+    "limitations": [
+      "编辑提示：需要建图与导航接口支持；生成代码本身不能保证目标可达或控制成功。"
+    ],
+    "role": {
+      "model": "视觉语言模型提供语义特征，语言模型解析任务",
+      "output": "导航接口调用与空间目标",
+      "memory": "带语言特征的三维地图",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "不需要额外标注数据；项目使用提示示例生成代码"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2210.05714",
+      "project": "https://vlmaps.github.io/",
+      "code": "https://github.com/vlmaps/vlmaps"
+    },
+    "evidence": [
+      {
+        "claim": "融合预训练视觉语言特征与三维重建，并通过语言模型生成调用导航接口的代码。",
+        "source": "https://arxiv.org/abs/2210.05714",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "项目明确描述用 GPT-3 将指令解析为导航 API 调用代码。",
+        "source": "https://vlmaps.github.io/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方实现仓库存在。",
+        "source": "https://github.com/vlmaps/vlmaps",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "语言导航",
+      "三维地图",
+      "代码策略",
+      "空间关系"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2211.15654",
+    "title": "OpenScene: 3D Scene Understanding with Open Vocabularies",
+    "shortTitle": "OpenScene",
+    "date": "2022-11-28",
+    "year": 2022,
+    "authors": "Songyou Peng、Kyle Genova、Chiyu Max Jiang 等",
+    "categories": [
+      "spatial",
+      "learning"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [],
+    "summaryZh": "将三维点特征与语言、图像嵌入对齐，支持不预先固定类别的三维场景查询。",
+    "problem": "依赖固定标注类别的三维理解模型难以响应开放词汇查询。",
+    "method": "学习与文本和图像特征共嵌入的三维稠密表示，再通过相似度完成开放词汇查询。",
+    "findings": [
+      "作者展示零样本三维语义分割，以及对象、材料和场景属性查询。"
+    ],
+    "limitations": [
+      "编辑提示：辅助阅读。它是空间感知组件，真实扫描数据评测不等同于机器人闭环执行验证。",
+      "编辑提示：零样本查询不意味着模型构建过程没有训练。"
+    ],
+    "role": {
+      "model": "训练三维特征模型并与视觉语言空间对齐",
+      "output": "点级语义特征与查询热力图",
+      "memory": "三维场景特征；未核实跨任务记忆机制",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "有表示学习训练；无需带语义标签的三维训练数据"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.15654",
+      "project": "https://pengsongyou.github.io/openscene",
+      "code": "https://github.com/pengsongyou/openscene"
+    },
+    "evidence": [
+      {
+        "claim": "学习与文本和图像特征共嵌入的三维稠密表示，再通过相似度完成开放词汇查询。",
+        "source": "https://arxiv.org/abs/2211.15654",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目提供场景理解演示与代码入口。",
+        "source": "https://pengsongyou.github.io/openscene",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方代码仓库存在。",
+        "source": "https://github.com/pengsongyou/openscene",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "辅助阅读",
+      "开放词汇感知",
+      "三维特征",
+      "感知组件"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2312.03275",
+    "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+    "shortTitle": "VLFM",
+    "date": "2023-12-06",
+    "year": 2023,
+    "authors": "Naoki Yokoyama、Sehoon Ha、Dhruv Batra、Jiuguang Wang、Bernadette Bucher",
+    "categories": [
+      "planning",
+      "spatial"
+    ],
+    "tasks": [
+      "navigation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "用视觉语言模型评估哪里更可能找到目标，再选择相应探索前沿。",
+    "problem": "未知环境里的目标搜索需要把语义常识转为实际探索方向。",
+    "method": "深度观测建立占据地图，RGB 观测与预训练视觉语言模型产生目标相关价值地图，以此选择前沿。",
+    "findings": [
+      "作者报告三个仿真数据集上的目标导航结果，并展示 Spot 在办公环境中寻找物体。"
+    ],
+    "limitations": [
+      "编辑提示：零样本指该导航方案的任务适配方式，不能解释为不依赖预训练模型或导航组件。"
+    ],
+    "role": {
+      "model": "预训练视觉语言模型为候选探索区域赋值",
+      "output": "探索前沿与导航目标",
+      "memory": "占据地图和语言相关价值地图",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "作者定义为零样本导航；底层组件的训练来源需分别理解"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.03275",
+      "project": "https://naoki.io/portfolio/vlfm.html",
+      "code": "https://github.com/rai-opensource/vlfm"
+    },
+    "evidence": [
+      {
+        "claim": "深度观测建立占据地图，RGB 观测与预训练视觉语言模型产生目标相关价值地图，以此选择前沿。",
+        "source": "https://arxiv.org/abs/2312.03275",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方仓库提供算法目录、配置与评测相关脚本；本站未运行复现。",
+        "source": "https://github.com/rai-opensource/vlfm",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "目标导航",
+      "前沿探索",
+      "零样本",
+      "语义地图"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2207.04429",
+    "title": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
+    "shortTitle": "LM-Nav",
+    "date": "2022-07-10",
+    "year": 2022,
+    "authors": "Dhruv Shah、Blazej Osinski、Brian Ichter、Sergey Levine",
+    "categories": [
+      "planning",
+      "policies"
+    ],
+    "tasks": [
+      "navigation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "组合现成的语言、图文和导航模型，让移动机器人根据自然语言完成户外长程导航。",
+    "problem": "自然语言导航常需要昂贵的语言标注轨迹，限制实际部署。",
+    "method": "组合 GPT-3、CLIP 与 ViNG，将语言指令关联到可由导航策略执行的目标。",
+    "findings": [
+      "作者在真实移动机器人上展示复杂户外环境中的长程指令导航。"
+    ],
+    "limitations": [
+      "编辑提示：无需本任务微调不等于没有预训练数据；迁移仍依赖导航模型及其环境适配范围。"
+    ],
+    "role": {
+      "model": "语言模型解析指令，图文模型关联视觉目标，导航策略执行",
+      "output": "导航目标与移动动作",
+      "memory": "未核实记忆管理细节",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "作者称不需要微调或带语言标注的机器人数据"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2207.04429",
+      "project": "https://sites.google.com/view/lmnav",
+      "code": "https://github.com/blazejosinski/lm_nav"
+    },
+    "evidence": [
+      {
+        "claim": "组合 GPT-3、CLIP 与 ViNG，将语言指令关联到可由导航策略执行的目标。",
+        "source": "https://arxiv.org/abs/2207.04429",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目提供实验视频、代码和交互式示例。",
+        "source": "https://sites.google.com/view/lmnav",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方代码仓库存在。",
+        "source": "https://github.com/blazejosinski/lm_nav",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "户外导航",
+      "模型组合",
+      "无需额外训练",
+      "语言导航"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2401.12202",
+    "title": "OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
+    "shortTitle": "OK-Robot",
+    "date": "2024-01-22",
+    "year": 2024,
+    "authors": "Peiqi Liu、Yaswanth Orru、Jay Vakil、Chris Paxton、Nur Muhammad Mahi Shafiullah、Lerrel Pinto",
+    "categories": [
+      "policies",
+      "spatial",
+      "planning"
+    ],
+    "tasks": [
+      "mobile",
+      "manipulation",
+      "navigation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "把开放词汇感知、语义记忆、导航和抓取组件组合起来，执行自然语言指定的家庭取放任务。",
+    "problem": "识别、导航和抓取分别可用，并不代表组合后的机器人系统可靠。",
+    "method": "用环境扫描建立语义记忆，按语言查询定位目标，再串联导航与操作模块。",
+    "findings": [
+      "作者在十个真实家庭环境中评测取放任务。",
+      "作者强调模块衔接、场景杂乱程度和机器人本体限制对结果的重要性。"
+    ],
+    "limitations": [
+      "编辑提示：预先环境扫描与系统工程条件需要一并考虑，不能仅以无需训练概括部署成本。"
+    ],
+    "role": {
+      "model": "视觉语言模型检索对象，导航与抓取模块执行",
+      "output": "目标位置、导航与取放动作",
+      "memory": "扫描构建的语义记忆",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "作者称不需要额外训练；需要环境扫描和组件集成"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.12202",
+      "project": "https://ok-robot.github.io/",
+      "code": "https://github.com/ok-robot/ok-robot"
+    },
+    "evidence": [
+      {
+        "claim": "用环境扫描建立语义记忆，按语言查询定位目标，再串联导航与操作模块。",
+        "source": "https://arxiv.org/abs/2401.12202",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "项目展示家庭取放实验与模块错误分析。",
+        "source": "https://ok-robot.github.io/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方模块化代码仓库存在。",
+        "source": "https://github.com/ok-robot/ok-robot",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "移动操作",
+      "系统集成",
+      "语义记忆",
+      "无需额外训练"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2410.06237",
+    "title": "BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation",
+    "shortTitle": "BUMBLE",
+    "date": "2024-10-08",
+    "year": 2024,
+    "authors": "Rutav Shah、Albert Yu、Yifeng Zhu、Yuke Zhu、Roberto Martín-Martín",
+    "categories": [
+      "planning",
+      "memory",
+      "policies"
+    ],
+    "tasks": [
+      "mobile",
+      "navigation",
+      "manipulation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "在楼宇尺度下，用视觉语言模型组织导航与操作技能，并利用双层记忆支持长时序任务。",
+    "problem": "跨房间与楼层的任务需要持续组织不同粒度的技能，并处理未知物体和场景。",
+    "method": "结合开放世界 RGB-D 感知、由粗到细的运动技能与双层记忆，由视觉语言模型连接推理与行动。",
+    "findings": [
+      "作者在不同建筑、任务与布局下评估长时序移动操作。"
+    ],
+    "limitations": [
+      "编辑提示：系统能力依赖可调用技能和感知接口；不能将楼宇任务演示推广为任意环境通用能力。"
+    ],
+    "role": {
+      "model": "视觉语言模型组织楼宇尺度推理与技能执行",
+      "output": "技能选择及执行所需决策",
+      "memory": "双层记忆",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "未核实各技能与模型的完整训练或适配需求"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.06237",
+      "project": "https://robin-lab.cs.utexas.edu/BUMBLE/",
+      "code": "https://github.com/UT-Austin-RobIn/BUMBLE"
+    },
+    "evidence": [
+      {
+        "claim": "结合开放世界 RGB-D 感知、由粗到细的运动技能与双层记忆，由视觉语言模型连接推理与行动。",
+        "source": "https://arxiv.org/abs/2410.06237",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目描述 RGB-D 感知、运动技能与双层记忆，并给出真机任务结果。",
+        "source": "https://robin-lab.cs.utexas.edu/BUMBLE/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方代码仓库存在。",
+        "source": "https://github.com/UT-Austin-RobIn/BUMBLE",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "长时序任务",
+      "移动操作",
+      "双层记忆",
+      "技能组合"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2406.09246",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "shortTitle": "OpenVLA",
+    "date": "2024-06-13",
+    "year": 2024,
+    "authors": "Moo Jin Kim、Karl Pertsch、Siddharth Karamcheti 等",
+    "categories": [
+      "policies",
+      "learning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "提供可训练、可微调的视觉语言动作模型，将图像与语言指令映射为机器人控制动作。",
+    "problem": "封闭模型与高适配成本限制了视觉语言动作策略的研究和使用。",
+    "method": "将融合视觉编码器与语言模型结合，在机器人演示上训练动作预测，并研究高效微调。",
+    "findings": [
+      "作者报告跨任务和机器人平台的操作结果，并发布模型与微调工具。"
+    ],
+    "limitations": [
+      "编辑提示：辅助阅读。它可作为 Agent 的执行层，但不是完整的任务记忆、监督和失败恢复系统。",
+      "编辑提示：模型已开源不代表对新机器人无需适配。"
+    ],
+    "role": {
+      "model": "在线视觉语言动作策略",
+      "output": "可解码为连续控制量的动作符号",
+      "memory": "未核实独立长期记忆机制",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "使用机器人演示训练；支持进一步微调与低秩适配"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.09246",
+      "project": "https://openvla.github.io/",
+      "code": "https://github.com/openvla/openvla"
+    },
+    "evidence": [
+      {
+        "claim": "将融合视觉编码器与语言模型结合，在机器人演示上训练动作预测，并研究高效微调。",
+        "source": "https://arxiv.org/abs/2406.09246",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "项目说明动作符号解码、微调方式，并链接模型权重和代码。",
+        "source": "https://openvla.github.io/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方代码仓库存在；本站未运行复现。",
+        "source": "https://github.com/openvla/openvla",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "辅助阅读",
+      "视觉语言动作模型",
+      "执行策略",
+      "模型微调"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2307.15818",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "shortTitle": "RT-2",
+    "date": "2023-07-28",
+    "year": 2023,
+    "authors": "Anthony Brohan、Noah Brown、Justice Carbajal 等",
+    "categories": [
+      "policies",
+      "learning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "把机器人动作写成与文本兼容的符号，使视觉语言模型直接学习控制并利用网络知识。",
+    "problem": "互联网视觉语言知识如何进入端到端机器人控制，而不仅停留在高层文字推理？",
+    "method": "联合微调机器人轨迹与视觉语言任务，将动作编码为文本符号并交由模型预测。",
+    "findings": [
+      "作者报告对新物体和未出现在机器人训练数据中的指令具有一定泛化能力。"
+    ],
+    "limitations": [
+      "编辑提示：辅助阅读。语义泛化不等于任意新动作技能；本条未核实官方策略实现和权重开放状态。"
+    ],
+    "role": {
+      "model": "视觉语言动作模型在线预测控制动作",
+      "output": "动作符号及其对应控制量",
+      "memory": "未核实独立长期记忆机制",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "联合使用机器人轨迹与视觉语言任务微调"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2307.15818",
+      "project": "https://robotics-transformer2.github.io/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "联合微调机器人轨迹与视觉语言任务，将动作编码为文本符号并交由模型预测。",
+        "source": "https://arxiv.org/abs/2307.15818",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目展示视觉语言动作建模及机器人控制示例。",
+        "source": "https://robotics-transformer2.github.io/",
+        "label": "官方项目页"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "辅助阅读",
+      "视觉语言动作模型",
+      "知识迁移",
+      "端到端控制"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2303.03378",
+    "title": "PaLM-E: An Embodied Multimodal Language Model",
+    "shortTitle": "PaLM-E",
+    "date": "2023-03-06",
+    "year": 2023,
+    "authors": "Danny Driess、Fei Xia、Mehdi S. M. Sajjadi 等",
+    "categories": [
+      "planning",
+      "learning"
+    ],
+    "tasks": [
+      "manipulation",
+      "qa"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "把图像、连续状态和文本联合输入语言模型，使它能够进行具身任务规划与多模态推理。",
+    "problem": "语言模型需要把词语与实际观测、机器人状态连接起来。",
+    "method": "将视觉与连续状态编码嵌入多模态序列，与预训练语言模型共同训练。",
+    "findings": [
+      "作者评测顺序操作规划、视觉问答等任务，并报告多领域联合训练的正迁移。"
+    ],
+    "limitations": [
+      "编辑提示：高层推理与物理执行的接口仍需区分；本条未核实官方完整实现或权重开放状态。"
+    ],
+    "role": {
+      "model": "具身多模态语言模型进行规划与问答",
+      "output": "规划文本与多模态推理答案",
+      "memory": "多模态输入序列；未核实独立长期记忆",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "需要联合训练多模态编码与语言模型"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.03378",
+      "project": "https://palm-e.github.io/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "将视觉与连续状态编码嵌入多模态序列，与预训练语言模型共同训练。",
+        "source": "https://arxiv.org/abs/2303.03378",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目展示机器人任务与多模态推理应用。",
+        "source": "https://palm-e.github.io/",
+        "label": "官方项目页"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "具身多模态模型",
+      "任务规划",
+      "状态输入",
+      "联合训练"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2405.12213",
+    "title": "Octo: An Open-Source Generalist Robot Policy",
+    "shortTitle": "Octo",
+    "date": "2024-05-20",
+    "year": 2024,
+    "authors": "Octo Model Team、Dibya Ghosh、Homer Walke、Karl Pertsch 等",
+    "categories": [
+      "policies",
+      "learning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "提供通用机器人策略初始化，支持用少量目标数据适配新的观测输入和动作空间。",
+    "problem": "通用策略需要兼容不同机器人、传感器和动作定义，并能高效适配。",
+    "method": "在多来源机器人轨迹上预训练 Transformer 策略，支持语言或目标图像条件及新平台微调。",
+    "findings": [
+      "作者在多个机器人平台评估策略迁移和适配，并进行架构与数据消融。"
+    ],
+    "limitations": [
+      "编辑提示：辅助阅读。它适合作为 Agent 的动作执行模块，但不直接提供完整的高层规划和记忆管理。"
+    ],
+    "role": {
+      "model": "通用机器人动作策略",
+      "output": "机器人控制动作",
+      "memory": "未核实独立长期记忆机制",
+      "recovery": "未核实独立失败恢复机制",
+      "adaptation": "预训练后可使用目标机器人数据微调"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.12213",
+      "project": "https://octo-models.github.io/",
+      "code": "https://github.com/octo-models/octo"
+    },
+    "evidence": [
+      {
+        "claim": "在多来源机器人轨迹上预训练 Transformer 策略，支持语言或目标图像条件及新平台微调。",
+        "source": "https://arxiv.org/abs/2405.12213",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目提供预训练策略、微调介绍与代码入口。",
+        "source": "https://octo-models.github.io/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方代码仓库存在；本站未运行复现。",
+        "source": "https://github.com/octo-models/octo",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "辅助阅读",
+      "通用策略",
+      "跨机器人",
+      "策略微调"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2403.09227",
+    "title": "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+    "shortTitle": "BEHAVIOR-1K",
+    "date": "2024-03-14",
+    "year": 2024,
+    "authors": "Chengshu Li、Ruohan Zhang、Josiah Wong 等",
+    "categories": [
+      "evaluation"
+    ],
+    "tasks": [
+      "mobile",
+      "manipulation",
+      "navigation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "以日常生活活动为目标，提供需要长时序决策与复杂交互的具身任务及仿真环境。",
+    "problem": "短任务和简单物体交互难以衡量机器人完成实际生活活动的能力。",
+    "method": "定义日常活动、场景和对象属性，并以 OmniGibson 支持多种物理对象与交互。",
+    "findings": [
+      "作者指出长时序执行和复杂操作仍是挑战，并提供初步仿真到现实研究。"
+    ],
+    "limitations": [
+      "编辑提示：这是任务与仿真平台；支持某类物理现象不等于已验证任意真实场景的保真度。"
+    ],
+    "role": {
+      "model": "评测平台，不限定单一模型",
+      "output": "环境观测、任务定义与评测结果",
+      "memory": "由被测 Agent 决定",
+      "recovery": "由被测 Agent 决定",
+      "adaptation": "由被测方案和具体任务决定"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.09227",
+      "project": "https://behavior.stanford.edu/",
+      "code": "https://github.com/StanfordVL/BEHAVIOR-1K"
+    },
+    "evidence": [
+      {
+        "claim": "定义日常活动、场景和对象属性，并以 OmniGibson 支持多种物理对象与交互。",
+        "source": "https://arxiv.org/abs/2403.09227",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "当前官方主页提供任务、文档与源代码入口；项目持续更新，配置应按版本核对。",
+        "source": "https://behavior.stanford.edu/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方项目仓库存在。",
+        "source": "https://github.com/StanfordVL/BEHAVIOR-1K",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "仿真基准",
+      "日常活动",
+      "长时序任务",
+      "移动操作"
+    ],
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2310.13724",
+    "title": "Habitat 3.0: A Co-Habitat for Humans, Avatars and Robots",
+    "shortTitle": "Habitat 3.0",
+    "date": "2023-10-19",
+    "year": 2023,
+    "authors": "Xavier Puig、Eric Undersander、Andrew Szot 等",
+    "categories": [
+      "evaluation"
+    ],
+    "tasks": [
+      "navigation",
+      "mobile"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "面向人与机器人共同生活的场景，提供人形角色、人在环交互和协作任务仿真。",
+    "problem": "具身评测需要考虑动态的人类伙伴，而非只有静态房间和独立机器人。",
+    "method": "引入人形角色仿真和交互接口，评测社会导航与协作整理任务。",
+    "findings": [
+      "作者比较学习与启发式策略，并研究仿真人形伙伴评测与真实人类参与评测的关系。"
+    ],
+    "limitations": [
+      "编辑提示：人在环指人与仿真机器人交互，不能当成物理机器人真机实验。"
+    ],
+    "role": {
+      "model": "仿真与协作评测平台，不限定单一模型",
+      "output": "协作任务观测、交互与评测结果",
+      "memory": "由被测 Agent 决定",
+      "recovery": "由被测 Agent 决定",
+      "adaptation": "由被测策略和任务决定"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.13724",
+      "project": "https://aihabitat.org/habitat3/",
+      "code": "https://github.com/facebookresearch/habitat-lab"
+    },
+    "evidence": [
+      {
+        "claim": "引入人形角色仿真和交互接口，评测社会导航与协作整理任务。",
+        "source": "https://arxiv.org/abs/2310.13724",
+        "label": "论文摘要"
+      },
+      {
+        "claim": "官方项目提供平台介绍及 Habitat-Lab 仓库入口。",
+        "source": "https://aihabitat.org/habitat3/",
+        "label": "官方项目页"
+      },
+      {
+        "claim": "已核对官方仿真任务库存在；具体版本兼容性未运行验证。",
+        "source": "https://github.com/facebookresearch/habitat-lab",
+        "label": "官方代码仓库"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "repository",
+    "lastChecked": "2026-10-11",
+    "tags": [
+      "人机协作",
+      "仿真平台",
+      "社会导航",
+      "人在环评测"
+    ],
+    "curated": true,
+    "deepRead": false
+  }
+]

@@ -1,0 +1,937 @@
+[
+  {
+    "id": "2610.12369",
+    "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+    "shortTitle": "COAP",
+    "date": "2026-10-08",
+    "authors": "Kairui Hu、Siyuan Hu、Fangzhou Hong、Zhaoxi Chen、Ziwei Liu",
+    "categories": [
+      "code",
+      "memory",
+      "recovery",
+      "learning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "让编码智能体离线改进策略库，机器人执行时只运行固定代码，以显式状态连接感知、决策和恢复。",
+    "problem": "机器人决策是否必须持续调用大模型？如何把已验证的经验保存为跨回合复用的程序？",
+    "method": "代码从相机图像和本体信息测量状态；共享库提供感知与操作模块，任务程序维护进度。编码智能体离线分析失败、修改分支并验证补丁。",
+    "findings": [
+      "论文 v1 Table 2：RoboDojo 42 项双臂仿真任务总体成功率 70.24%；每任务使用 3 个种子、各 50 种布局。",
+      "运行时程序固定，场景与任务状态持续更新；离线开发仍依赖大模型和仿真评估。",
+      "编辑解读：可把能力积累理解为经过验证的代码修改，而非只有模型权重更新。"
+    ],
+    "limitations": [
+      "作者说明：实验仅在仿真中进行；感知依赖基准公开的相机参数、机器人模型和物体几何。",
+      "作者说明：新任务需要离线开发，泛化仍受状态估计与程序逻辑限制。",
+      "编辑提示：该结果不能直接代表开放世界或真实机器人能力，也不能据此比较不同路线的全部开发成本。"
+    ],
+    "role": {
+      "model": "开发期：编码智能体；执行期：不调用 VLM/VLA",
+      "output": "固定程序计算轨迹片段",
+      "memory": "显式机器人、环境和任务状态",
+      "recovery": "检查、重测、回退与重试分支",
+      "adaptation": "离线代码修改与验证"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12369v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "运行时固定代码、显式状态与离线开发流程",
+        "source": "https://arxiv.org/html/2610.12369v1#S3",
+        "label": "原文第 3 节"
+      },
+      {
+        "claim": "70.24% 结果及 42 项任务评测协议",
+        "source": "https://arxiv.org/html/2610.12369v1#S4",
+        "label": "原文 Table 2 与第 4.1 节"
+      },
+      {
+        "claim": "仿真、环境先验与新任务开发成本",
+        "source": "https://arxiv.org/html/2610.12369v1#S5.SS4",
+        "label": "原文第 5.4 节"
+      }
+    ],
+    "review": "full-review",
+    "codeStatus": "unknown",
+    "tags": [
+      "代码策略",
+      "显式状态",
+      "离线改进",
+      "双臂操作"
+    ],
+    "curated": true,
+    "deepRead": true,
+    "year": 2026,
+    "lastChecked": "2026-10-11"
+  },
+  {
+    "id": "2209.07753",
+    "title": "Code as Policies: Language Model Programs for Embodied Control",
+    "shortTitle": "Code as Policies",
+    "date": "2022-09-16",
+    "authors": "Jacky Liang、Wenlong Huang 等",
+    "categories": [
+      "code",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation",
+      "navigation",
+      "mobile"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "把语言指令转换为调用感知和控制接口的程序，用代码表达几何计算、分支和反馈控制。",
+    "problem": "语言模型输出的文字计划如何变成机器人可执行的控制逻辑？",
+    "method": "给出指令与程序示例，让语言模型组合 API，并递归补全未定义函数；程序读取感知结果并参数化控制原语。",
+    "findings": [
+      "作者在多种真实机器人平台展示操作、绘图和移动任务。",
+      "代码能够表达反馈循环及航点策略，而不局限于固定动作列表。"
+    ],
+    "limitations": [
+      "编辑提示：能力取决于可调用的感知与控制接口，生成程序并不意味着自行解决底层感知。"
+    ],
+    "role": {
+      "model": "任务编程：语言模型生成策略代码",
+      "output": "控制 API 调用与程序",
+      "memory": "程序变量；跨任务持久记忆未核实",
+      "recovery": "可表达反馈循环；通用恢复机制未核实",
+      "adaptation": "示例提示与分层代码生成"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.07753",
+      "project": "https://code-as-policies.github.io/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "程序生成、反馈循环与真实机器人演示",
+        "source": "https://arxiv.org/abs/2209.07753",
+        "label": "作者摘要"
+      },
+      {
+        "claim": "官方页面提供代码入口；本次未核实仓库内容",
+        "source": "https://code-as-policies.github.io/",
+        "label": "作者项目页"
+      }
+    ],
+    "codeStatus": "announced",
+    "tags": [
+      "代码策略",
+      "控制接口",
+      "分层生成"
+    ],
+    "year": 2022,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2204.01691",
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "shortTitle": "SayCan",
+    "date": "2022-04-04",
+    "authors": "Michael Ahn、Anthony Brohan 等",
+    "categories": [
+      "planning",
+      "policies"
+    ],
+    "tasks": [
+      "mobile",
+      "manipulation"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "让语言模型判断下一步是否符合指令，再用技能价值函数判断机器人在当前环境中能否完成。",
+    "problem": "语义上合理的计划，可能超出当前机器人的能力或环境条件。",
+    "method": "把语言模型的任务知识与预训练技能的可行性估计结合，逐步选择可执行的高层技能。",
+    "findings": [
+      "作者展示了真实移动操作机器人完成抽象、长时序语言指令。",
+      "论文修订版补充了仿真桌面环境的开源版本说明。"
+    ],
+    "limitations": [
+      "编辑提示：可选动作受已有技能库约束，规划能力与底层技能质量应分别评估。"
+    ],
+    "role": {
+      "model": "在线高层技能选择",
+      "output": "技能序列",
+      "memory": "已执行技能的语言上下文；持久记忆未核实",
+      "recovery": "通用失败恢复机制未核实",
+      "adaptation": "使用预训练技能及其价值函数"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2204.01691",
+      "project": "https://say-can.github.io/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "技能价值函数落地语言规划及移动操作实验",
+        "source": "https://arxiv.org/abs/2204.01691",
+        "label": "作者摘要与版本说明"
+      }
+    ],
+    "codeStatus": "announced",
+    "tags": [
+      "技能选择",
+      "可行性",
+      "移动操作"
+    ],
+    "year": 2022,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2207.05608",
+    "title": "Inner Monologue: Embodied Reasoning through Planning with Language Models",
+    "shortTitle": "Inner Monologue",
+    "date": "2022-07-12",
+    "authors": "Wenlong Huang、Fei Xia 等",
+    "categories": [
+      "planning",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation",
+      "mobile"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "把成功检测、场景描述和人类反馈写进语言上下文，让高层计划随执行结果更新。",
+    "problem": "环境变化和动作失败后，一次性生成的计划难以持续有效。",
+    "method": "将环境反馈转为自然语言，交给语言模型继续推理和选择动作，构成闭环规划。",
+    "findings": [
+      "作者在仿真及真实桌面任务、真实厨房移动操作中评估语言反馈。",
+      "论文报告反馈闭环提升了所测试任务中的高层指令完成能力。"
+    ],
+    "limitations": [
+      "编辑提示：反馈本身的准确性和底层技能能力会影响整个闭环，不能把所有增益归因于语言推理。"
+    ],
+    "role": {
+      "model": "执行期读取反馈并更新计划",
+      "output": "高层技能与动作计划",
+      "memory": "含反馈的语言上下文",
+      "recovery": "利用成功检测及场景反馈调整计划",
+      "adaptation": "无需额外训练语言规划器；底层模块另计"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2207.05608",
+      "project": "https://innermonologue.github.io/",
+      "code": null
+    },
+    "tags": [
+      "语言反馈",
+      "闭环规划",
+      "执行监测"
+    ],
+    "year": 2022,
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false,
+    "evidence": [
+      {
+        "claim": "论文问题、方法与实验范围",
+        "source": "https://arxiv.org/abs/2207.05608",
+        "label": "作者摘要"
+      }
+    ]
+  },
+  {
+    "id": "2209.11302",
+    "title": "ProgPrompt: Generating Situated Robot Task Plans using Large Language Models",
+    "shortTitle": "ProgPrompt",
+    "date": "2022-09-22",
+    "authors": "Ishika Singh、Valts Blukis 等",
+    "categories": [
+      "code",
+      "planning",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation",
+      "general"
+    ],
+    "environment": [
+      "virtual",
+      "real"
+    ],
+    "summaryZh": "把可用动作、环境对象和示例计划写成程序式提示，让语言模型生成带前置条件检查的任务程序。",
+    "problem": "自由文本计划可能包含机器人无法执行的动作，或缺少必要步骤。",
+    "method": "提示中列出动作函数和对象，生成包含注释、动作调用及断言的程序；检查前置条件并触发恢复动作。",
+    "findings": [
+      "作者在 VirtualHome 家务任务中评估，并提供真实机械臂桌面操作演示。",
+      "程序结构把规划与前置条件检查连接起来。"
+    ],
+    "limitations": [
+      "作者项目页指出：需要离散动作空间及对象形式化，规划主要使用语义状态，未处理完整连续低层状态。"
+    ],
+    "role": {
+      "model": "生成计划并参与前置条件检查",
+      "output": "含断言的任务程序",
+      "memory": "环境对象与语义状态",
+      "recovery": "前置条件断言触发恢复动作",
+      "adaptation": "程序式示例提示"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.11302",
+      "project": "https://progprompt.github.io/",
+      "code": "https://github.com/NVlabs/progprompt-vh"
+    },
+    "evidence": [
+      {
+        "claim": "程序式提示、断言与局限",
+        "source": "https://progprompt.github.io/",
+        "label": "作者项目页与常见问题"
+      },
+      {
+        "claim": "公开 VirtualHome 实现仓库",
+        "source": "https://github.com/NVlabs/progprompt-vh",
+        "label": "作者代码仓库"
+      }
+    ],
+    "codeStatus": "repository",
+    "tags": [
+      "程序提示",
+      "前置条件",
+      "任务计划"
+    ],
+    "year": 2022,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2307.05973",
+    "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+    "shortTitle": "VoxPoser",
+    "date": "2023-07-12",
+    "authors": "Wenlong Huang、Chen Wang、Ruohan Zhang、Yunzhu Li、Jiajun Wu、Li Fei-Fei",
+    "categories": [
+      "spatial",
+      "code",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "语言模型写代码构建三维可供性与约束地图，再由运动规划器生成闭环操作轨迹。",
+    "problem": "如何将自由语言中的空间要求转化为连续轨迹，而非只选择预定义动作？",
+    "method": "结合语言模型、视觉语言模型和三维价值地图，把语言约束落地到观测空间，并用模型规划器求解轨迹。",
+    "findings": [
+      "作者在仿真与真实机械臂任务中评估。",
+      "项目页说明可缓存语言模型输出，再利用视觉反馈重算地图和重新规划。"
+    ],
+    "limitations": [
+      "编辑提示：零样本轨迹生成不等同于整套系统不依赖预训练模型；涉及复杂接触时作者另讨论在线动力学学习。"
+    ],
+    "role": {
+      "model": "生成空间约束代码；视觉语言模型提供感知",
+      "output": "三维价值地图与末端轨迹",
+      "memory": "当前三维地图；持久记忆未核实",
+      "recovery": "视觉反馈与闭环运动重规划",
+      "adaptation": "基础流程无需额外训练；接触场景可学习动力学"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2307.05973",
+      "project": "https://voxposer.github.io/",
+      "code": "https://github.com/huangwl18/VoxPoser"
+    },
+    "evidence": [
+      {
+        "claim": "价值地图、闭环轨迹及在线动力学学习",
+        "source": "https://voxposer.github.io/",
+        "label": "作者项目页"
+      },
+      {
+        "claim": "官方实现仓库",
+        "source": "https://github.com/huangwl18/VoxPoser",
+        "label": "作者代码仓库"
+      }
+    ],
+    "codeStatus": "repository",
+    "tags": [
+      "三维价值地图",
+      "语言到轨迹",
+      "闭环控制"
+    ],
+    "year": 2023,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2305.16291",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "shortTitle": "Voyager",
+    "date": "2023-05-25",
+    "authors": "Guanzhi Wang、Yuqi Xie 等",
+    "categories": [
+      "code",
+      "memory",
+      "learning"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [
+      "virtual"
+    ],
+    "summaryZh": "在 Minecraft 中自动提出探索任务，生成并修复代码，把成功行为积累为可检索的技能库。",
+    "problem": "智能体如何在开放任务中持续探索，并保存可组合、可复用的行为？",
+    "method": "组合自动课程、可执行代码技能库，以及利用环境反馈、执行错误和自验证的迭代提示。",
+    "findings": [
+      "作者展示了持续探索与技能组合，并在新的 Minecraft 世界中测试技能复用。",
+      "系统通过模型查询和上下文学习工作，不需要微调语言模型参数。"
+    ],
+    "limitations": [
+      "编辑提示：游戏接口与真实机器人传感、接触及安全条件不同，结果不能直接外推到物理世界。"
+    ],
+    "role": {
+      "model": "在线提出任务、编写代码与评估",
+      "output": "游戏 API 程序",
+      "memory": "持久化、可检索代码技能库",
+      "recovery": "执行错误与自验证反馈驱动修复",
+      "adaptation": "上下文迭代与技能库增长"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.16291",
+      "project": "https://voyager.minedojo.org/",
+      "code": "https://github.com/MineDojo/Voyager"
+    },
+    "evidence": [
+      {
+        "claim": "自动课程、技能记忆与反馈修复",
+        "source": "https://voyager.minedojo.org/",
+        "label": "作者项目页"
+      },
+      {
+        "claim": "实现、安装步骤与技能库已公开",
+        "source": "https://github.com/MineDojo/Voyager",
+        "label": "作者代码仓库"
+      }
+    ],
+    "codeStatus": "code",
+    "tags": [
+      "自我改进",
+      "技能库",
+      "开放探索"
+    ],
+    "year": 2023,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2212.04088",
+    "title": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models",
+    "shortTitle": "LLM-Planner",
+    "date": "2022-12-08",
+    "authors": "Chan Hee Song、Jiaman Wu、Clayton Washington、Brian M. Sadler、Wei-Lun Chao、Yu Su",
+    "categories": [
+      "planning",
+      "recovery"
+    ],
+    "tasks": [
+      "mobile",
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "利用少量示例和当前观测进行高层规划，并根据已完成子目标和可见物体更新计划。",
+    "problem": "依赖大量轨迹训练的规划器难以快速适应多种具身任务。",
+    "method": "检索相关示例作为提示，把环境中观察到的对象及已完成子目标加入动态重规划上下文。",
+    "findings": [
+      "作者在 ALFRED 上评估少样本具身规划，并与低层执行系统结合。",
+      "项目页给出了静态规划和动态重规划的对照。"
+    ],
+    "limitations": [
+      "编辑提示：高层计划正确率与端到端任务成功率是不同指标，仍需考虑感知和低层执行误差。"
+    ],
+    "role": {
+      "model": "在线高层计划生成与更新",
+      "output": "高层子目标序列",
+      "memory": "已完成子目标与观测对象",
+      "recovery": "环境反馈驱动动态重规划",
+      "adaptation": "检索少样本提示；底层执行器另计"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.04088",
+      "project": "https://dki-lab.github.io/LLM-Planner/",
+      "code": "https://github.com/OSU-NLP-Group/LLM-Planner/"
+    },
+    "evidence": [
+      {
+        "claim": "检索提示、环境落地与动态重规划",
+        "source": "https://dki-lab.github.io/LLM-Planner/",
+        "label": "作者项目页"
+      },
+      {
+        "claim": "官方实现仓库",
+        "source": "https://github.com/OSU-NLP-Group/LLM-Planner/",
+        "label": "作者代码仓库"
+      }
+    ],
+    "codeStatus": "repository",
+    "tags": [
+      "少样本",
+      "动态重规划",
+      "指令执行"
+    ],
+    "year": 2022,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2307.00329",
+    "title": "DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment",
+    "shortTitle": "DoReMi",
+    "date": "2023-07-01",
+    "authors": "Yanjiang Guo、Yen-Jen Wang、Lihan Zha、Jianyu Chen",
+    "categories": [
+      "recovery",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation",
+      "mobile"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "持续检查执行是否偏离计划，在物体掉落或其他异常出现时及时重规划。",
+    "problem": "等待一个技能结束再检查，可能错过执行过程中已经发生的失败。",
+    "method": "语言模型同时生成高层计划和执行约束，视觉语言模型持续检测约束违反，并触发恢复。",
+    "findings": [
+      "作者在机械臂和人形机器人相关任务中研究执行偏差。",
+      "项目页展示仿真人形机器人及真实人形机器人案例；部分检测器采用微调。"
+    ],
+    "limitations": [
+      "编辑提示：不能把整套方法称为完全无需训练；检测质量及监测延迟应单独核对。"
+    ],
+    "role": {
+      "model": "语言模型规划与生成约束；视觉语言模型在线监测",
+      "output": "高层计划、约束与恢复请求",
+      "memory": "当前计划及执行约束",
+      "recovery": "检测偏差后及时中断和重规划",
+      "adaptation": "部分视觉语言检测器使用微调"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2307.00329",
+      "project": "https://sites.google.com/view/doremi-paper/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "约束监测与恢复框架",
+        "source": "https://arxiv.org/abs/2307.00329",
+        "label": "作者摘要"
+      },
+      {
+        "claim": "真实及仿真实验、检测器微调说明",
+        "source": "https://sites.google.com/view/doremi-paper/",
+        "label": "作者项目页"
+      }
+    ],
+    "tags": [
+      "执行监测",
+      "失败恢复",
+      "约束检测"
+    ],
+    "year": 2023,
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2109.12098",
+    "title": "CLIPort: What and Where Pathways for Robotic Manipulation",
+    "shortTitle": "CLIPort",
+    "date": "2021-09-24",
+    "authors": "Mohit Shridhar、Lucas Manuelli、Dieter Fox",
+    "categories": [
+      "policies",
+      "spatial"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "把 CLIP 的语义特征与 Transporter 的空间结构结合，学习语言条件的桌面操作策略。",
+    "problem": "语言与视觉语义泛化，如何与精确的抓取、放置位置预测结合？",
+    "method": "以语义和空间双分支处理语言及视觉观测，预测抓取与放置动作。",
+    "findings": [
+      "作者在仿真和真实桌面任务中研究少样本及多任务策略。",
+      "作者不依赖显式对象姿态、分割、符号状态或记忆表示。"
+    ],
+    "limitations": [
+      "编辑提示：它是学习得到的执行策略，并非语言模型驱动的高层任务规划器；可作为智能体的动作层参考。"
+    ],
+    "role": {
+      "model": "学习策略在线预测动作",
+      "output": "抓取与放置动作",
+      "memory": "无显式记忆表示",
+      "recovery": "通用失败恢复机制未核实",
+      "adaptation": "语言条件模仿学习"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2109.12098",
+      "project": "https://cliport.github.io/",
+      "code": "https://github.com/cliport/cliport"
+    },
+    "evidence": [
+      {
+        "claim": "双分支操作策略与实验范围",
+        "source": "https://cliport.github.io/",
+        "label": "作者项目页"
+      },
+      {
+        "claim": "训练、评估和权重下载说明",
+        "source": "https://github.com/cliport/cliport",
+        "label": "作者代码仓库"
+      }
+    ],
+    "codeStatus": "code",
+    "tags": [
+      "动作执行层",
+      "模仿学习",
+      "语义与几何"
+    ],
+    "year": 2021,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2310.12931",
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "shortTitle": "Eureka",
+    "date": "2023-10-19",
+    "authors": "Yecheng Jason Ma、William Liang、Guanzhi Wang 等",
+    "categories": [
+      "code",
+      "learning",
+      "policies"
+    ],
+    "tasks": [
+      "manipulation",
+      "general"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "由语言模型生成奖励函数代码，再用强化学习训练结果作为反馈，迭代改进奖励。",
+    "problem": "复杂机器人技能的奖励设计需要大量人工试错，能否由代码智能体辅助搜索？",
+    "method": "以环境代码和任务描述作为上下文，交替进行奖励生成、并行强化学习评估及奖励反思。",
+    "findings": [
+      "作者在多种仿真机器人与灵巧操作任务中评估奖励设计。",
+      "演示包括通过生成的奖励学习灵巧手转笔，以及使用人类反馈修改奖励。"
+    ],
+    "limitations": [
+      "编辑提示：语言模型无需参数更新，不等于机器人策略无需训练；计算成本包含反复强化学习评估。"
+    ],
+    "role": {
+      "model": "训练期生成并改进奖励代码",
+      "output": "奖励函数；强化学习输出机器人策略",
+      "memory": "奖励候选及训练统计反馈",
+      "recovery": "依据训练反馈修订奖励；在线恢复未核实",
+      "adaptation": "奖励代码搜索与强化学习训练"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.12931",
+      "project": "https://eureka-research.github.io/",
+      "code": "https://github.com/eureka-research/Eureka"
+    },
+    "evidence": [
+      {
+        "claim": "奖励生成、评估与反思循环",
+        "source": "https://eureka-research.github.io/",
+        "label": "作者项目页"
+      },
+      {
+        "claim": "奖励搜索实现与演示策略",
+        "source": "https://github.com/eureka-research/Eureka",
+        "label": "作者代码仓库"
+      }
+    ],
+    "codeStatus": "code",
+    "tags": [
+      "奖励设计",
+      "代码改进",
+      "强化学习"
+    ],
+    "year": 2023,
+    "review": "source-checked",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2303.12153",
+    "title": "Text2Motion: From Natural Language Instructions to Feasible Plans",
+    "shortTitle": "Text2Motion",
+    "date": "2023-03-21",
+    "authors": "Kevin Lin、Christopher Agia、Toki Migimatsu、Marco Pavone、Jeannette Bohg",
+    "categories": [
+      "planning",
+      "spatial"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "在执行前联合检查语义目标与整段技能序列的几何可行性。",
+    "problem": "每个动作单独可行，不能保证整段长时序操作能够实现目标。",
+    "method": "语言模型推断符号目标，结合技能价值函数、混合搜索和几何可行性规划，验证动作序列。",
+    "findings": [
+      "作者研究含长期几何依赖、抽象目标和部分可供性感知的操作任务。",
+      "项目页展示了真实机器人规划演示。"
+    ],
+    "limitations": [
+      "编辑提示：执行前的可行性判断依赖技能模型和场景信息，不应理解为对任意实际接触结果的保证。"
+    ],
+    "role": {
+      "model": "推断符号目标并辅助任务规划",
+      "output": "任务与运动层计划",
+      "memory": "符号目标及候选序列状态",
+      "recovery": "执行前验证与搜索；通用在线恢复未核实",
+      "adaptation": "使用独立学习的技能及可行性模型"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2303.12153",
+      "project": "https://sites.google.com/stanford.edu/text2motion",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "跨技能几何验证与规划流程",
+        "source": "https://sites.google.com/stanford.edu/text2motion",
+        "label": "作者项目页"
+      }
+    ],
+    "tags": [
+      "任务与运动规划",
+      "几何可行性",
+      "执行前验证"
+    ],
+    "year": 2023,
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2307.06135",
+    "title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
+    "shortTitle": "SayPlan",
+    "date": "2023-07-12",
+    "authors": "Krishan Rana、Jesse Haviland、Sourav Garg、Jad Abou-Chakra、Ian Reid、Niko Suenderhauf",
+    "categories": [
+      "planning",
+      "spatial",
+      "memory"
+    ],
+    "tasks": [
+      "mobile",
+      "navigation",
+      "manipulation"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "在分层三维场景图上检索任务相关区域，再结合路径规划与仿真反馈生成长时序计划。",
+    "problem": "多楼层、多房间场景的信息量，容易超过语言模型的上下文与规划能力。",
+    "method": "通过展开和收缩场景图进行语义搜索，用传统路径规划补充导航步骤，再用场景图模拟器校验并修订计划。",
+    "findings": [
+      "作者研究大范围场景中的长时序规划，并展示真实移动操作机器人执行。",
+      "分层场景表示使语言模型聚焦于任务相关子图。"
+    ],
+    "limitations": [
+      "编辑提示：项目演示使用预构建场景图；开放世界中的在线建图与状态更新需要另外验证。"
+    ],
+    "role": {
+      "model": "语义搜索与高层任务规划",
+      "output": "场景图操作和任务计划",
+      "memory": "分层三维场景图",
+      "recovery": "场景图模拟反馈驱动计划修订",
+      "adaptation": "预训练语言模型结合场景图与经典规划"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2307.06135",
+      "project": "https://sayplan.github.io/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "语义搜索、路径规划及场景图校验",
+        "source": "https://sayplan.github.io/",
+        "label": "作者项目页"
+      }
+    ],
+    "tags": [
+      "三维场景图",
+      "大范围规划",
+      "移动操作"
+    ],
+    "year": 2023,
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false
+  },
+  {
+    "id": "2201.07207",
+    "title": "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents",
+    "shortTitle": "Zero-Shot Planners",
+    "date": "2022-01-18",
+    "authors": "Wenlong Huang、Pieter Abbeel、Deepak Pathak、Igor Mordatch",
+    "categories": [
+      "planning"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [
+      "virtual"
+    ],
+    "summaryZh": "研究语言模型能否拆解高层任务，再把生成步骤映射到环境允许执行的动作。",
+    "problem": "语言模型的常识计划与实际动作接口之间存在表达不匹配。",
+    "method": "利用预训练语言模型生成步骤，并结合示例条件和语义匹配转换为有效动作。",
+    "findings": [
+      "作者在 VirtualHome 中评估动作可执行性。",
+      "论文指出可执行性与任务正确性之间仍存在权衡。"
+    ],
+    "limitations": [
+      "作者报告：可执行性与正确性存在权衡。",
+      "编辑提示：标题中的零样本不能被解读为完全不使用提示示例，也不代表真实机器人验证。"
+    ],
+    "role": {
+      "model": "语言计划生成与动作映射",
+      "output": "离散动作序列",
+      "memory": "任务提示与已生成步骤；持久记忆未核实",
+      "recovery": "通用在线失败恢复未核实",
+      "adaptation": "预训练模型提示，无额外参数训练"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2201.07207",
+      "project": "https://huangwl18.github.io/language-planner",
+      "code": null
+    },
+    "tags": [
+      "早期工作",
+      "动作落地",
+      "语言规划"
+    ],
+    "year": 2022,
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false,
+    "evidence": [
+      {
+        "claim": "论文问题、方法与实验范围",
+        "source": "https://arxiv.org/abs/2201.07207",
+        "label": "作者摘要"
+      }
+    ]
+  },
+  {
+    "id": "2401.12963",
+    "title": "AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents",
+    "shortTitle": "AutoRT",
+    "date": "2024-01-23",
+    "authors": "Michael Ahn、Debidatta Dwibedi 等",
+    "categories": [
+      "planning",
+      "learning"
+    ],
+    "tasks": [
+      "mobile",
+      "manipulation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "利用视觉语言模型理解场景，再由语言模型给机器人群提出任务，组织多样化的真实数据采集。",
+    "problem": "如何在新的真实场景中扩大机器人数据收集，同时选择合适的任务与自主程度？",
+    "method": "视觉语言模型负责场景落地，语言模型提出可执行指令，系统协调人工遥操作和自主策略采集。",
+    "findings": [
+      "作者展示跨建筑、多个真实机器人的任务提议与数据收集。",
+      "论文分析了基础模型在数据多样性和人类偏好对齐中的作用。"
+    ],
+    "limitations": [
+      "编辑提示：自动提出任务和组织采集，不等于所有回合均为完全自主执行；论文包含遥操作数据。"
+    ],
+    "role": {
+      "model": "场景理解、任务提议与数据采集调度",
+      "output": "采集任务指令",
+      "memory": "持久记忆形式未核实",
+      "recovery": "具体失败恢复机制未核实",
+      "adaptation": "组织遥操作与自主策略产生训练数据"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.12963",
+      "project": null,
+      "code": null
+    },
+    "tags": [
+      "数据引擎",
+      "机器人协同",
+      "任务提议"
+    ],
+    "year": 2024,
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-11",
+    "curated": true,
+    "deepRead": false,
+    "evidence": [
+      {
+        "claim": "论文问题、方法与实验范围",
+        "source": "https://arxiv.org/abs/2401.12963",
+        "label": "作者摘要"
+      }
+    ]
+  }
+]

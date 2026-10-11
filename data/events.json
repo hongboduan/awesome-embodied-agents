@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "discovered-2610.06999",
+    "paperId": "2610.06999",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ProactiveVLA: Augmenting Embodied Memory through Proactive Environment Exploration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06999v1"
+  },
+  {
+    "id": "discovered-2610.05062",
+    "paperId": "2610.05062",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05062v1"
+  },
+  {
+    "id": "discovered-2610.05230",
+    "paperId": "2610.05230",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Vela: Scaling Vision-Language-Action Models with Adaptive Action Curve Parametrization",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05230v1"
+  },
+  {
+    "id": "discovered-2610.05249",
+    "paperId": "2610.05249",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ArticuTable: Generating Instance-Level Interactive Rigid-Articulated 3D Tabletop Scenes from a Single Image",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05249v1"
+  },
+  {
+    "id": "discovered-2610.05273",
+    "paperId": "2610.05273",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05273v1"
+  },
+  {
+    "id": "discovered-2603.07904",
+    "paperId": "2603.07904",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2603.07904v3"
+  },
+  {
+    "id": "discovered-2610.05418",
+    "paperId": "2610.05418",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "EvoMem-VLA: State-Evolution Memory for Long-Horizon Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05418v1"
+  },
+  {
+    "id": "discovered-2604.01142",
+    "paperId": "2604.01142",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Planning for Change: Reinforcement Learning Combined with Bounded Extremum Seeking for Robotic Control under Distribution Shift",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2604.01142v2"
+  },
+  {
+    "id": "discovered-2607.00218",
+    "paperId": "2607.00218",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "EgoSafetyBench: A Diagnostic Egocentric Video Benchmark for Evaluating Embodied VLMs as Runtime Safety Guards",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.00218v2"
+  },
+  {
+    "id": "discovered-2610.05719",
+    "paperId": "2610.05719",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05719v1"
+  },
+  {
+    "id": "discovered-2610.00575",
+    "paperId": "2610.00575",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Token-World: World Modeling in Vision-Language Model Token Space for Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.00575v2"
+  },
+  {
+    "id": "discovered-2610.05818",
+    "paperId": "2610.05818",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "What the Guard Misses, the Robot Executes: Implied Harm in VLA Instructions",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05818v1"
+  },
+  {
+    "id": "discovered-2610.05994",
+    "paperId": "2610.05994",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "How (and How Not) to Use Data Augmentation in VLA Post-Training",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.05994v1"
+  },
+  {
+    "id": "discovered-2607.05543",
+    "paperId": "2607.05543",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "GEM-Occ: From Visual Geometry Evidence to Embodied Semantic Occupancy Memory",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.05543v2"
+  },
+  {
+    "id": "discovered-2607.03751",
+    "paperId": "2607.03751",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Look Before You Leap: Distilling Tree Search into Action Evaluation for Frozen VLA Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.03751v2"
+  },
+  {
+    "id": "discovered-2610.00854",
+    "paperId": "2610.00854",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.00854v2"
+  },
+  {
+    "id": "discovered-2605.12160",
+    "paperId": "2605.12160",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Premover: Fast Vision-Language-Action Control via Early Execution During Instruction Delivery",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2605.12160v2"
+  },
+  {
+    "id": "discovered-2610.06122",
+    "paperId": "2610.06122",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Benchmarking Jailbreak Guardrails for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06122v1"
+  },
+  {
+    "id": "discovered-2610.06184",
+    "paperId": "2610.06184",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Arm-wise Compositional Generalization in Dual-Arm Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06184v1"
+  },
+  {
+    "id": "discovered-2610.06235",
+    "paperId": "2610.06235",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Encoded but Not in Control: Revealing the Grounding Gap in Vision-Language Robot Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06235v1"
+  },
+  {
+    "id": "discovered-2610.06271",
+    "paperId": "2610.06271",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "VLA-ZO: Fast Zeroth-Order Adaptation for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06271v1"
+  },
+  {
+    "id": "discovered-2610.06306",
+    "paperId": "2610.06306",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Inspect Robots: Evaluating the Capabilities and Safety of Embodied AI",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06306v1"
+  },
+  {
+    "id": "discovered-2608.21031",
+    "paperId": "2608.21031",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2608.21031v2"
+  },
+  {
+    "id": "discovered-2610.06469",
+    "paperId": "2610.06469",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Odyssey: A Closed-Loop Benchmark for Long-Horizon Real-World Driving with Explicit Navigation Routes",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06469v1"
+  },
+  {
+    "id": "discovered-2610.06598",
+    "paperId": "2610.06598",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06598v1"
+  },
+  {
+    "id": "discovered-2610.06843",
+    "paperId": "2610.06843",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06843v1"
+  },
+  {
+    "id": "discovered-2610.08862",
+    "paperId": "2610.08862",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08862v1"
+  },
+  {
+    "id": "discovered-2610.07346",
+    "paperId": "2610.07346",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ScanSTL: Parallel Robustness Evaluation for Signal Temporal Logic",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07346v1"
+  },
+  {
+    "id": "discovered-2609.36416",
+    "paperId": "2609.36416",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "FineART: Fine-Grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.36416v3"
+  },
+  {
+    "id": "discovered-2610.07558",
+    "paperId": "2610.07558",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Seeing the Invisible: Physics-Guided Visual Prompting for Temperature- and Radiation-Aware VLA Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07558v1"
+  },
+  {
+    "id": "discovered-2605.13335",
+    "paperId": "2605.13335",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2605.13335v2"
+  },
+  {
+    "id": "discovered-2610.07594",
+    "paperId": "2610.07594",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07594v1"
+  },
+  {
+    "id": "discovered-2608.27550",
+    "paperId": "2608.27550",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2608.27550v2"
+  },
+  {
+    "id": "discovered-2610.07652",
+    "paperId": "2610.07652",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "SMART: Zero-Shot Sim-to-Real Articulated Object Manipulation via Large-Scale Synthetic Pretraining",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07652v1"
+  },
+  {
+    "id": "discovered-2610.07696",
+    "paperId": "2610.07696",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ESP: Energy-Score Policy for One-Step Multimodal Action Generation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07696v1"
+  },
+  {
+    "id": "discovered-2607.12423",
+    "paperId": "2607.12423",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.12423v2"
+  },
+  {
+    "id": "discovered-2610.04929",
+    "paperId": "2610.04929",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RobotUse: Allocating Computation, Context, and Decisions",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.04929v2"
+  },
+  {
+    "id": "discovered-2610.07784",
+    "paperId": "2610.07784",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Multi-Robot Multi-Goal Motion Planning with Stochastic Skills",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07784v1"
+  },
+  {
+    "id": "discovered-2610.07785",
+    "paperId": "2610.07785",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07785v1"
+  },
+  {
+    "id": "discovered-2610.07946",
+    "paperId": "2610.07946",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Adapting Vision-Language-Action Models to Unknown Visual Disruptions During Execution",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07946v1"
+  },
+  {
+    "id": "discovered-2606.03240",
+    "paperId": "2606.03240",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "GeoAlign: Beyond Semantics with State-Guided Spatial Alignment in VLA Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2606.03240v2"
+  },
+  {
+    "id": "discovered-2610.08150",
+    "paperId": "2610.08150",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ViDAL: A Visual Dynamics-Grounded Action Latent Space for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08150v1"
+  },
+  {
+    "id": "discovered-2610.08220",
+    "paperId": "2610.08220",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08220v1"
+  },
+  {
+    "id": "discovered-2607.02092",
+    "paperId": "2607.02092",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Guided Action Flow: Value-Guided Sampling for Frozen Vision-Language-Action Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.02092v4"
+  },
+  {
+    "id": "discovered-2610.08425",
+    "paperId": "2610.08425",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "MIM-VLA: Learning Physical Interaction Representations from Gripper Motor Feedback",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08425v1"
+  },
+  {
+    "id": "discovered-2610.08432",
+    "paperId": "2610.08432",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "EMHO: EMbodied Agent Harness Optimization via Experience Traces",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08432v1"
+  },
+  {
+    "id": "discovered-2610.08444",
+    "paperId": "2610.08444",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ActTune: Action-Aware Precision and GPU Operating-Point Adaptation for Energy-Efficient Vision-Language-Action Inference",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08444v1"
+  },
+  {
+    "id": "discovered-2610.08526",
+    "paperId": "2610.08526",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "WareFly-VLA: A Vision-Language-Action Framework for UAV Navigation and Human Tracking in Smart Warehouses",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08526v1"
+  },
+  {
+    "id": "discovered-2610.08595",
+    "paperId": "2610.08595",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "One for All, All for One: Coordinated Multi-Agent Diffusion Steering via Stochastic Optimal Control",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08595v1"
+  },
+  {
+    "id": "discovered-2610.08713",
+    "paperId": "2610.08713",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "SpaTime: Streaming Vision-Language Models for Spatio-temporal Reasoning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08713v1"
+  },
+  {
+    "id": "discovered-2610.08933",
+    "paperId": "2610.08933",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Toward Evidence-Driven Human-Agent-Robot Teaming for Earth-Independent Anomaly Triage",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08933v1"
+  },
+  {
+    "id": "discovered-2610.08941",
+    "paperId": "2610.08941",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08941v1"
+  },
+  {
+    "id": "discovered-2610.09016",
+    "paperId": "2610.09016",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09016v1"
+  },
+  {
+    "id": "discovered-2606.15568",
+    "paperId": "2606.15568",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2606.15568v2"
+  },
+  {
+    "id": "discovered-2610.09170",
+    "paperId": "2610.09170",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09170v1"
+  },
+  {
+    "id": "discovered-2610.09228",
+    "paperId": "2610.09228",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Co-Evolving Robot Orchestrators and Policies through Deployment",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09228v1"
+  },
+  {
+    "id": "discovered-2609.14156",
+    "paperId": "2609.14156",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Visible Touch: Rendering Contact for Visuomotor Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.14156v2"
+  },
+  {
+    "id": "discovered-2610.09280",
+    "paperId": "2610.09280",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09280v1"
+  },
+  {
+    "id": "discovered-2509.19571",
+    "paperId": "2509.19571",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Agentic Scene Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2509.19571v2"
+  },
+  {
+    "id": "discovered-2610.09294",
+    "paperId": "2610.09294",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RT-Safe: Benchmarking Agent Safety in Real-Time Embodied Environment",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09294v1"
+  },
+  {
+    "id": "discovered-2609.06114",
+    "paperId": "2609.06114",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.06114v2"
+  },
+  {
+    "id": "discovered-2610.09369",
+    "paperId": "2610.09369",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09369v1"
+  },
+  {
+    "id": "discovered-2610.09451",
+    "paperId": "2610.09451",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "TempoBridge: Language-Guided Tempo Control for Vision-Language-Action Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09451v1"
+  },
+  {
+    "id": "discovered-2610.09454",
+    "paperId": "2610.09454",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RobotAPO: Adversarial Physics Preference Optimization for Robotic Manipulation Video Generation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09454v1"
+  },
+  {
+    "id": "discovered-2610.09496",
+    "paperId": "2610.09496",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09496v1"
+  },
+  {
+    "id": "discovered-2610.01083",
+    "paperId": "2610.01083",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "WBAG: A Whole-Body and Attached-Geometry Safety Framework for Vision-Language-Action Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.01083v2"
+  },
+  {
+    "id": "discovered-2610.09696",
+    "paperId": "2610.09696",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09696v1"
+  },
+  {
+    "id": "discovered-2505.12224",
+    "paperId": "2505.12224",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2505.12224v5"
+  },
+  {
+    "id": "discovered-2610.09718",
+    "paperId": "2610.09718",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09718v1"
+  },
+  {
+    "id": "discovered-2610.09940",
+    "paperId": "2610.09940",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09940v1"
+  },
+  {
+    "id": "discovered-2610.09943",
+    "paperId": "2610.09943",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.09943v1"
+  },
+  {
+    "id": "discovered-2608.09196",
+    "paperId": "2608.09196",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "SAIN: Structure-Aware Interactive Navigation with Active Dialogue Grounding for Mobile Robot",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2608.09196v2"
+  },
+  {
+    "id": "discovered-2610.10384",
+    "paperId": "2610.10384",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.10384v1"
+  },
+  {
+    "id": "discovered-2610.10437",
+    "paperId": "2610.10437",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Q-Learning with Scalar Adjoint Matching",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.10437v1"
+  },
+  {
+    "id": "discovered-2610.10515",
+    "paperId": "2610.10515",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RoboJEPA: Scaling Robotic Latent World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.10515v1"
+  },
+  {
+    "id": "discovered-2606.16253",
+    "paperId": "2606.16253",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Learned Image Compression for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2606.16253v2"
+  },
+  {
+    "id": "discovered-2608.25585",
+    "paperId": "2608.25585",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2608.25585v2"
+  },
+  {
+    "id": "discovered-2610.07756",
+    "paperId": "2610.07756",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "StairVLA: Stage-Aware Hierarchical Action Generation for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.07756v2"
+  },
+  {
+    "id": "discovered-2610.10787",
+    "paperId": "2610.10787",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.10787v1"
+  },
+  {
+    "id": "discovered-2607.04517",
+    "paperId": "2607.04517",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "VLA Grounder: Language-Conditioning Space Optimization for Black-Box VLA Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.04517v2"
+  },
+  {
+    "id": "discovered-2610.10912",
+    "paperId": "2610.10912",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "When Listening Becomes Easier: Scrubbing Visual Cues for Shortcut-Free VLAs",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.10912v1"
+  },
+  {
+    "id": "discovered-2610.10962",
+    "paperId": "2610.10962",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.10962v1"
+  },
+  {
+    "id": "discovered-2512.14014",
+    "paperId": "2512.14014",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "MobileWorldBench: Towards Semantic World Modeling For Mobile Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2512.14014v2"
+  },
+  {
+    "id": "discovered-2609.39166",
+    "paperId": "2609.39166",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Beyond the Remembered World: Predictive 4D Belief for Persistent Navigation in Evolving Worlds",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.39166v3"
+  },
+  {
+    "id": "discovered-2607.12659",
+    "paperId": "2607.12659",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "EagleVLA: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2607.12659v6"
+  },
+  {
+    "id": "discovered-2609.26467",
+    "paperId": "2609.26467",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Generalists Act, Specialists Intervene: Modular Stage-Selective Reinforcement Learning for Vision-Language-Action Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.26467v2"
+  },
+  {
+    "id": "discovered-2609.25562",
+    "paperId": "2609.25562",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "IndustrialVLA-Bench: A Traceable Multi-Axis Evaluation of Open Robot Policy Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.25562v2"
+  },
+  {
+    "id": "discovered-2603.12717",
+    "paperId": "2603.12717",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Altered Thoughts, Altered Actions: Reasoning Chain as Control Surface for a Vision-Language-Action Policy",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2603.12717v3"
+  },
+  {
+    "id": "discovered-2603.08260",
+    "paperId": "2603.08260",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Seed2Scale: A Self-Evolving Data Engine with Parallel Worlds Expansion for Scalable Robot Learning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2603.08260v2"
+  },
+  {
+    "id": "discovered-2610.08133",
+    "paperId": "2610.08133",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "VLA-ACL: Action-Consistent Visual Token Pruning for Efficient Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.08133v2"
+  },
+  {
+    "id": "discovered-2610.11416",
+    "paperId": "2610.11416",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Rewiring Semantics, Dynamics, and Control: A Simple yet Effective Action-Centric Tri-Stream Transformer",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.11416v1"
+  },
+  {
+    "id": "discovered-2610.11418",
+    "paperId": "2610.11418",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Experience-Guided Initiation Search for Learned Skills in Skill Composition",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.11418v1"
+  },
+  {
+    "id": "discovered-2610.02054",
+    "paperId": "2610.02054",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "UniWAM: Unified World-Action Model",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.02054v3"
+  },
+  {
+    "id": "discovered-2608.25757",
+    "paperId": "2608.25757",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "LM-X: Explainable Vision--Language--Action Modeling via Progress, Event, and Uncertainty Prediction",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2608.25757v5"
+  },
+  {
+    "id": "discovered-2610.11480",
+    "paperId": "2610.11480",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RoboAware: Learning to Coordinate Embodied Skills from Counterfactual Outcomes",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.11480v1"
+  },
+  {
+    "id": "discovered-2610.11508",
+    "paperId": "2610.11508",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.11508v1"
+  },
+  {
+    "id": "discovered-2603.17524",
+    "paperId": "2603.17524",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ExecVLA: Following Fine-Grained Execution Constraints in Vision-Language-Action Models with Bi-Level Action Representation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2603.17524v2"
+  },
+  {
+    "id": "discovered-2610.11771",
+    "paperId": "2610.11771",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "PathTime-VLA: Path-Time Decoupling for Factorized Post-Training of Vision-Language-Action Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.11771v1"
+  },
+  {
+    "id": "discovered-2609.20659",
+    "paperId": "2609.20659",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "HIL-UMI: Bringing Human-in-the-Loop Post-Training of Vision-Language-Action Models to Universal Manipulation Interface",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.20659v2"
+  },
+  {
+    "id": "discovered-2610.02626",
+    "paperId": "2610.02626",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.02626v2"
+  },
+  {
+    "id": "discovered-2610.11952",
+    "paperId": "2610.11952",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Tell Robot What Not to Do: A Negation Understanding Perspective",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.11952v1"
+  },
+  {
+    "id": "discovered-2610.12007",
+    "paperId": "2610.12007",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12007v1"
+  },
+  {
+    "id": "discovered-2610.12026",
+    "paperId": "2610.12026",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Humanoid World Action Model With Joint State--Action Generation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12026v1"
+  },
+  {
+    "id": "discovered-2606.17924",
+    "paperId": "2606.17924",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "PearlVLA: Progressive Embodied Action-Plan Refinement in Latent Space",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2606.17924v2"
+  },
+  {
+    "id": "discovered-2610.12089",
+    "paperId": "2610.12089",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ManiUnit: A Manipulation Skill Dataset and Benchmark for Long-Horizon Tasks",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12089v1"
+  },
+  {
+    "id": "discovered-2610.12090",
+    "paperId": "2610.12090",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Recompose and Refine Latent Reasoning Flows for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12090v1"
+  },
+  {
+    "id": "discovered-2602.15397",
+    "paperId": "2602.15397",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ActionCodec: What Makes for Good Action Tokenizers",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2602.15397v2"
+  },
+  {
+    "id": "discovered-2610.04681",
+    "paperId": "2610.04681",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.04681v3"
+  },
+  {
+    "id": "discovered-2610.12157",
+    "paperId": "2610.12157",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Instance-anchored interaction evidence: Grounding robot plans in human pointing and handling",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12157v1"
+  },
+  {
+    "id": "discovered-2610.12231",
+    "paperId": "2610.12231",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "Residual Modeling Closes the Regression and Generative Policy Gap in Robot Learning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12231v1"
+  },
+  {
+    "id": "discovered-2610.12285",
+    "paperId": "2610.12285",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12285v1"
+  },
+  {
+    "id": "discovered-2610.06955",
+    "paperId": "2610.06955",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.06955v2"
+  },
+  {
+    "id": "discovered-2610.12424",
+    "paperId": "2610.12424",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12424v1"
+  },
+  {
+    "id": "discovered-2610.12451",
+    "paperId": "2610.12451",
+    "type": "discovered",
+    "date": "2026-10-11T08:13:06Z",
+    "title": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12451v1"
+  }
+]

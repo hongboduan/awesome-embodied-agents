@@ -1,0 +1,15 @@
+{
+  "siteUrl": "https://hongboduan.github.io/awesome-embodied-agents/",
+  "repositoryUrl": "https://github.com/hongboduan/awesome-embodied-agents",
+  "arxiv": {
+    "endpoint": "https://export.arxiv.org/api/query",
+    "userAgent": "EmbodiedAgentAtlas/1.0 (+https://github.com/hongboduan/awesome-embodied-agents)",
+    "query": "(cat:cs.RO OR cat:cs.AI OR cat:cs.CV) AND (all:\"embodied agent\" OR all:\"robot agent\" OR all:\"robotic agent\" OR all:\"robot planning\" OR all:\"code as policies\" OR all:\"vision language action\" OR all:\"embodied memory\" OR all:\"robot self-improvement\")",
+    "initialLookbackDays": 7,
+    "overlapDays": 7,
+    "pageSize": 100,
+    "maxPages": 30,
+    "minRequestIntervalSeconds": 3.1,
+    "timeoutSeconds": 45
+  }
+}

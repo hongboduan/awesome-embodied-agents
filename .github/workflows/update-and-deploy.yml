@@ -1,0 +1,102 @@
+name: Update papers and deploy Atlas
+
+on:
+  schedule:
+    - cron: '17 0 * * *' # 08:17 Asia/Shanghai; GitHub may delay scheduled runs.
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: Discover papers before building
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'data/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'config.json'
+      - 'README*'
+      - '.github/workflows/update-and-deploy.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: atlas-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pages: read
+    outputs:
+      update_outcome: ${{ steps.update.outcome }}
+      pages_ready: ${{ steps.pages.outcome == 'success' }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Verify data pipeline
+        run: python -m unittest discover -s tests -v
+      - name: Discover candidates and check revisions
+        id: update
+        if: github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh)
+        continue-on-error: true
+        run: python scripts/update.py
+      - name: Build site and Awesome index
+        run: python scripts/build.py
+      - name: Preserve update state and generated index
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data README.md README.zh-CN.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: update paper discovery and Awesome index'
+            git push
+          fi
+      - name: Check Pages configuration
+        id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+      - name: Explain one-time Pages setup
+        if: steps.pages.outcome != 'success'
+        run: |
+          echo '## Paper updates are independent of Pages' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The repository update is complete. Enable Settings → Pages → Source: GitHub Actions, then rerun this workflow to publish the website.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.pages_ready == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  report:
+    needs: [build, deploy]
+    if: always() && needs.build.outputs.update_outcome == 'failure'
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Signal failed discovery after publishing preserved data
+        run: |
+          echo 'arXiv discovery failed. Existing papers were retained; inspect the build logs and site update status.'
+          exit 1
