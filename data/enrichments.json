@@ -466,5 +466,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.09294": {
+    "arxivId": "2610.09294",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09294",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09294v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09294-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the RT-SAFE environment. Agents navigate toward a goal while encoun- tering moving actors, static obstacles, environmental hazards, and traffic rules. Safe completion requires reaching the goal without any recorded collision, hazard interaction, or traffic violation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09294-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09294v1",
+      "page": 3,
+      "version": 1,
+      "width": 658,
+      "height": 382,
+      "crop": [
+        141.6,
+        75.86,
+        470.4,
+        266.06
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08995": {
+    "arxivId": "2610.08995",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08995",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08995v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08995-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Physical RSI in PhysEvo: execute, diagnose, revise, test, and inherit. The lower panel compares success on eight challenging tasks for Direct Astra (table 3).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08995-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08995v1",
+      "page": 1,
+      "version": 1,
+      "width": 961,
+      "height": 407,
+      "crop": [
+        66.0,
+        458.92,
+        546.01,
+        661.96
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08595": {
+    "arxivId": "2610.08595",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08595",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08595v1",
+      "version": 1,
+      "pageCount": 66,
+      "textPages": 66,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08595-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of CMDS. Frozen component diffusion models are sampled concurrently, while a joint control conditions on the multi-agent state and applies component-wise controls throughout the reverse process, yielding a coordinated assembled output.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08595-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08595v1",
+      "page": 3,
+      "version": 1,
+      "width": 816,
+      "height": 262,
+      "crop": [
+        102.0,
+        75.84,
+        509.97,
+        206.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08933": {
+    "arxivId": "2610.08933",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08933",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08933v1",
+      "version": 1,
+      "pageCount": 4,
+      "textPages": 4,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08933-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Human–Agent–Robot architecture and proof-of-concept components. The Agentic Orchestrator coordinates the crew interface and mobile inspection robot with authoritative triage state and bounded services, while system-governed checks and crew authorization constrain operational actions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08933-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08933v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 388,
+      "crop": [
+        48.0,
+        44.08,
+        563.98,
+        237.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07594": {
+    "arxivId": "2610.07594",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07594",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07594v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07594-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: BiGym 2.0: Auditing learned and agent-developed household manipulation on a walking humanoid. The suite evaluates data-driven policies and coding agents across 20 tasks spanning reaching, tabletop, dishwasher and kitchen-counter scenes. Tasks test hand choice, bimanual coordination, articulated fixtures, multi-object transport and cross-workspace block stacking. Human demonstrations, learned policies and agent programs execute through the same frozen whole-body controller, evaluating manipulation reliability under dynamic balance and footfall disturbances.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07594-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07594v1",
+      "page": 1,
+      "version": 1,
+      "width": 882,
+      "height": 703,
+      "crop": [
+        85.79,
+        151.85,
+        526.38,
+        502.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07785": {
+    "arxivId": "2610.07785",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07785",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07785v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07785-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Policy architecture of Attacca.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07785-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07785v1",
+      "page": 4,
+      "version": 1,
+      "width": 433,
+      "height": 361,
+      "crop": [
+        102.0,
+        75.86,
+        318.24,
+        255.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08862": {
+    "arxivId": "2610.08862",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08862",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08862v1",
+      "version": 1,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08862-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of CIRRA: (1) instruction assessment and ambiguity resolution, (2) rule-constrained can- didate generation within location-matched segments, and (3) conflict-gated LLM arbitration that yields the revised sequence P′",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08862-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08862v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 397,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        273.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06122": {
+    "arxivId": "2610.06122",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06122",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06122v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06122-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Usability and efficiency of guardrail methods on safe tasks with GPT-4o as the embodied agent model.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06122-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06122v1",
+      "page": 7,
+      "version": 1,
+      "width": 817,
+      "height": 459,
+      "crop": [
+        102.0,
+        75.86,
+        510.01,
+        304.95
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.04916": {
+    "arxivId": "2610.04916",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.04916",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04916v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.04916-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of PreAct-Nav. A shared VLM coordinates Navigation Memory and the Predictive Sandbox through Action Preview, Action Review, Action Execute, and Memory Update. Memory provides observed experience and the current subgoal; the sandbox supplies predicted visual cues. Revised actions return to preview. After execution, real observations are checked against expected cues to update subgoal status and open-question progress.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.04916-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04916v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 301,
+      "crop": [
+        102.0,
+        75.86,
+        509.94,
+        225.51
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02788": {
+    "arxivId": "2610.02788",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02788",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02788v1",
+      "version": 1,
+      "pageCount": 40,
+      "textPages": 40,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02788-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Skill2Real pipeline. All in-context skill learning occurs in simulated scenes. Stage I learns reusable Cerebellum skills for local manipulation; Stage II freezes the Cerebellum and learns Brain skills that compositionally organize the local library into task programs. In both stages, the Proposer generates programs from public observations, the Veriﬁer converts privileged execution evidence into publicly grounded feedback, and the Governor admits only updates supported by validation rollouts.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02788-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02788v1",
+      "page": 4,
+      "version": 1,
+      "width": 789,
+      "height": 412,
+      "crop": [
+        108.97,
+        87.86,
+        502.88,
+        293.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02717": {
+    "arxivId": "2610.02717",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02717",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02717v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02717-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:50Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: RoboBridge framework. (a) Agent loop: The agent consults the active skill, invokes manipulation tools, and uses observations and execution feedback to guide subsequent actions. (b) Skill evolution: Execution logs inform candidate insertions, deletions, and replacements in the skill. Candidates are evaluated through task execution in the current environment, with validated improve- ments retained and unsuccessful updates rejected. (c) Self-guided action tool: When needed, the agent configures a reward function to guide action refinement during denoising, adapting execution to the current subtask while keeping the pretrained model parameters fixed.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02717-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02717v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 495,
+      "crop": [
+        102.43,
+        76.23,
+        509.59,
+        323.2
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02848": {
+    "arxivId": "2610.02848",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02848",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02848v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02848-v1.text.json",
+      "extractedAt": "2026-10-11T09:07:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Three-agent PPO results. The ID/position baseline is diverse but order-sensitive. Weak equivariance regularization improves permutation consistency but reduces diversity; stronger regular- ization moves toward homogeneous behavior.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02848-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02848v1",
+      "page": 7,
+      "version": 1,
+      "width": 961,
+      "height": 253,
+      "crop": [
+        66.0,
+        66.0,
+        546.01,
+        191.68
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }

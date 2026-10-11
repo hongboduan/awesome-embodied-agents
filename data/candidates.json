@@ -55,61 +55,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2610.12424",
-    "arxivId": "2610.12424",
-    "version": 1,
-    "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
-    "shortTitle": "RoboRSI",
-    "date": "2026-10-08",
-    "year": 2026,
-    "authors": "Zimo Wen and Yijin Chen and Yuxuan Cao and Wendi Chen and Yanwen Zou and Wenye Yu and Fuhang Kuang and Han Xue and Jun Lv and Chuan Wen and Cewu Lu",
-    "categories": [
-      "planning",
-      "code",
-      "learning"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before it is reused. We introduce RoboRSI, a robot self-improvement system built on Top-Down Skill Refinement (TSR). TSR decomposes tasks into compound, atomic, and base skills with scoped responsibilities and explicit input--output contracts, attributes each execution outcome to the responsible branch, and confines revision to that branch. Building upon this structure, a Manager, Planner, Engineer, and Reviewer coordinate planning, execution, diagnosis, and the validated release of new skills, while people steer the process through objectives and corrections; stable skill sequences are further consolidated into reusable compound skills. On a mobile manipulator, RoboRSI develops multi-object household cleanup over 104 rounds. In simulation, it achieves the highest success rate on LIBERO, LIBERO-PRO, LIBERO-Plus, and RoboTwin, exceeding the strongest baseline by 2.7 to 11.0 percentage points.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.12424v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.12424v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-08T17:55:12Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2610.12285",
     "arxivId": "2610.12285",
     "version": 1,
@@ -981,64 +926,6 @@
     "curated": false,
     "deepRead": false,
     "sourceUpdatedAt": "2026-10-07T21:11:23Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2610.10787",
-    "arxivId": "2610.10787",
-    "version": 1,
-    "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
-    "shortTitle": "NavGPT-3",
-    "date": "2026-10-07",
-    "year": 2026,
-    "authors": "Gengze Zhou and Yicong Hong and Jiazhao Zhang and Xunyi Zhao and Jian Zhou and Zixing Lei and Zun Wang and Chongyang Zhao and Xionghui Chen and Stephen Gould and Anton van den Hengel and Qi Wu",
-    "categories": [
-      "planning",
-      "memory",
-      "code",
-      "recovery",
-      "policies",
-      "evaluation"
-    ],
-    "tasks": [
-      "navigation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot's motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 74.51 SR on R2R-CE and leads RxR-CE with 78.19 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interaction between the two models, showing how tools and the action policy shape the path from language-model reasoning to physical control: when NavGPT VLA executes the route, the reasoning loop shortens and the system's minimum reaction time falls from 3-19 s per language-model decision to 0.5-1 s per action-policy step (1-2 Hz). These results show that designing this embodied interface is central to connecting frontier language-model intelligence with low-level physical control. We will release all models, code, and evaluation records.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.10787v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.10787v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-07T18:45:56Z",
     "discoveredAt": "2026-10-11"
   },
   {
@@ -2407,62 +2294,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2610.08432",
-    "arxivId": "2610.08432",
-    "version": 1,
-    "title": "EMHO: EMbodied Agent Harness Optimization via Experience Traces",
-    "shortTitle": "EMHO",
-    "date": "2026-10-06",
-    "year": 2026,
-    "authors": "Hyun Jung Lee and Jungtaek Kim and Jongwon Jeong and Tae-Eui Kam and Donghyun Kim and Yong Jae Lee",
-    "categories": [
-      "planning",
-      "code",
-      "recovery"
-    ],
-    "tasks": [
-      "navigation",
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Improving embodied agents often focuses on optimizing the underlying model through training, while the surrounding agent harness that controls planning, context, and tool use is typically engineered. We ask whether this harness can instead improve itself directly from experience traces under sparse environmental feedback. We propose EMbodied Agent Harness Optimization (EMHO), a self-evolving framework that keeps the embodied model frozen and iteratively revises its harness by analyzing execution trajectories and prior harness history. EMHO optimizes beyond skills or recovery prompts, modifying how the agent monitors progress, uses vision tools, grounds observations, and responds to failures. To support multiple subtasks with a single harness, we introduce EMHO-Merge, which addresses trade-offs in jointly optimizing a single shared harness across subtasks by using episode-level gains and losses to guide evidence-supported refinement of when and how revised behaviors are applied. We evaluate EMHO on EmbodiedBench across navigation and manipulation tasks, and EMHO consistently improves task success for both Qwen 9B and 27B models. Qualitative analysis shows that EMHO goes beyond recovering from failures and unproductive actions to reshape how the embodied agent interprets and interacts with its environment.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.08432v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.08432v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-06T14:30:42Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2610.08425",
     "arxivId": "2610.08425",
     "version": 1,
@@ -3171,62 +3002,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2610.06843",
-    "arxivId": "2610.06843",
-    "version": 1,
-    "title": "Recursive Video In-Context Learning for Agentic Robot",
-    "shortTitle": "Recursive Video In-Context Learning for Agentic Robot",
-    "date": "2026-10-05",
-    "year": 2026,
-    "authors": "Wenrui Bao and Xinxin Liu and Bingxin Xu and Yuzhang Shang",
-    "categories": [
-      "planning",
-      "memory",
-      "policies"
-    ],
-    "tasks": [
-      "navigation",
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyframes lose the contact detail that decides whether a grasp holds, and what the agent needs shifts from the task's structure while planning to the frames around each contact. We introduce Recursive Video In-Context Learning (RV-ICL), a training-free method that turns a demonstration into a hierarchy the agent navigates rather than a prompt it receives. The hierarchy is built from the sub-events of the demonstration, such as grasps and releases. Its levels grow finer, from keyframes of the whole task to phases, moments and short clips, and are exposed through read-only tools. The agent reads the coarse levels before planning. During execution it re-enters the hierarchy whenever a step needs more detail and loads only the clip of its current sub-goal. One demonstration per task is enough. Built on RPent, RV-ICL raises success from 92.6% to 96.5% on LIBERO-PRO and from 86.7% to 95.8% on LIBERO-Plus.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.06843v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.06843v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-05T17:59:11Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2610.06598",
     "arxivId": "2610.06598",
     "version": 1,
@@ -3769,61 +3544,6 @@
     "curated": false,
     "deepRead": false,
     "sourceUpdatedAt": "2026-10-05T03:07:36Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2610.04929",
-    "arxivId": "2610.04929",
-    "version": 2,
-    "title": "RobotUse: Allocating Computation, Context, and Decisions",
-    "shortTitle": "RobotUse",
-    "date": "2026-10-04",
-    "year": 2026,
-    "authors": "Junhoo Lee and Injun Baek and Seungyeon Kim and Suhyun Jeon and Minkyu Kim and Baekseung Kim and Nojun Kwak",
-    "categories": [
-      "planning",
-      "code",
-      "learning"
-    ],
-    "tasks": [
-      "general"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise their choices over repeated attempts. Existing interfaces often leave these choices inside predefined tools or require agents to manage detailed execution code and its growing history. We introduce RobotUse, a robot agent harness that organizes computation, context, and decisions around specifying and revising physical actions. Agents visually select targets and poses, while the backend handles geometry, motion planning, and control. Subagents retain detailed interactions within each subgoal and return the information needed for subsequent decisions. Continual harnessing lets agents learn from execution by updating a persistent playbook. On RoboLab, RobotUse achieves 45% task success, outperforming CaP-X by 6.7 percentage points while maintaining compact decision contexts and reducing reliance on predefined action abstractions. Furthermore, we show that RobotUse learns from real-world execution despite imperfect feedback and transfers what it learns to subsequent tasks. Project page is available at https://robotuse-team.github.io/.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.04929v2",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.04929v2",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-06T05:04:47Z",
     "discoveredAt": "2026-10-11"
   },
   {
@@ -4979,61 +4699,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2610.00854",
-    "arxivId": "2610.00854",
-    "version": 2,
-    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
-    "shortTitle": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
-    "date": "2026-10-01",
-    "year": 2026,
-    "authors": "Haojian Huang and Pukun Zhao and Zexi Li and Yehang Zhang and Yangkai Wei and Wenqian Li and Han Yang and Kaiwen Zhou and Ying-Cong Chen and Yinchuan Li",
-    "categories": [
-      "planning",
-      "spatial",
-      "evaluation"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Frontier vision-language models (VLMs) increasingly estimate scenes, ground interactions, and generate executable actions. How far these native capabilities support embodied generalism across diverse tasks remains unclear. We introduce Embodied Agent Arena to assess seven VLM agents across Geometry, Spatial Reasoning, Affordance, Task Planning, and Manipulation. The arena contains 1,000 cases drawn from 32 established sources and GeoProbe, our new benchmark for geometric estimation on Blender renders and real-scene images. A minimal harness preserves source observations and operations while leaving perception, reasoning, and action selection to the model. Separate measures of metric precision, functional grounding, and native goal completion connect local competence to complete task outcomes. Astra's strengths in precise estimation and usable-contact localization coexist with endpoint errors in tracing and low household-task completion. Supplementary comparisons of richer observations and multi-round review show model- and task-dependent effects. Current VLM agents thus fall short of embodied generalism: they often make partial progress without satisfying all task goals within allotted time and interaction budgets.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.00854v2",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.00854v2",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-05T09:07:06Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2610.02368",
     "arxivId": "2610.02368",
     "version": 1,
@@ -5742,62 +5407,6 @@
     "curated": false,
     "deepRead": false,
     "sourceUpdatedAt": "2026-09-30T15:06:45Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2609.39507",
-    "arxivId": "2609.39507",
-    "version": 1,
-    "title": "LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation",
-    "shortTitle": "LIBERO-Agent",
-    "date": "2026-09-30",
-    "year": 2026,
-    "authors": "Zijie Diao and Yitong Chen and Sicheng Xie and Tianyi Lu and Wujian Peng and Guojin Zhong and Houze Xu and Ziyi Ye and Zuxuan Wu and Yu-Gang Jiang",
-    "categories": [
-      "planning",
-      "code",
-      "recovery",
-      "evaluation"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "General-purpose agents can plan, use tools, and revise their behavior from feedback, but it remains unclear whether these capabilities transfer from digital environments to embodied manipulation. To investigate this question, we introduce LIBERO-Agent, an agent-native benchmark for evaluating these agents in robot manipulation tasks. Rather than asking agents to submit task-level Python control programs or operate through high-level robot skills, LIBERO-Agent provides an interactive robotic environment where agents can select which observations to inspect, process them with their own tools, and issue native action commands. LIBERO-Agent integrates 200 tasks into a common interaction framework and provides a 30-task primary suite that separates perception, short-horizon execution, and long-horizon composition. Results reveal a pronounced reliability gap: while agents perform well on perception and easy short-horizon tasks, their performance degrades substantially on hard short-horizon and long-horizon tasks. Richer observations improve short-horizon manipulation, while demonstration benefits depend on the agent and format. Among these agents, GPT-6 Astra achieves the strongest overall performance. Further analysis shows its major advantage lies in mechanism interaction, especially when sustained physical contact is needed, while its remaining failures stem from cross-stage interference and geometric errors.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.39507v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2609.39507v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-09-30T11:10:10Z",
     "discoveredAt": "2026-10-11"
   },
   {
@@ -7670,62 +7279,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2609.34261",
-    "arxivId": "2609.34261",
-    "version": 1,
-    "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
-    "shortTitle": "RoboICL",
-    "date": "2026-09-28",
-    "year": 2026,
-    "authors": "Fangcheng Liu and Yeqing Shen and Anda Cheng and Weishi Mi and Chao Tang and Chenyuan Liu and Yushun Xiang and Tingguang Li and Yong-Lu Li and Yehui Tang",
-    "categories": [
-      "planning",
-      "memory",
-      "code",
-      "policies"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "General-purpose vision-language models offer a promising way to zero-shot robot control: \\gptastra{} excels at open-ended and language- or image-conditioned manipulation but remains substantially weaker on high-precision and long-horizon tasks. We introduce \\emph{RoboICL}, an in-context robot-control framework that narrows these gaps without robot-specific parameter updates or a learned VLA. RoboICL separates \\emph{demonstration context}, which provides recorded examples when available, from \\emph{interaction memory}, which accumulates the model's own actions and observed outcomes. Both use a shared observation--action--receipt--observation grammar. To preserve experience across task stages, RoboICL combines sampled demonstration blocks with bounded anchored memory. Fixed anchors keep earlier rollout interactions available for in-context learning, while the latest interaction supports immediate error correction. Across 30 RoboDojo tasks, using zero shot for Open and one demonstration elsewhere, RoboICL improves on official zero-shot \\gptastra{} by 20--27 progress-score points in every category. It leads the leaderboard baselines on Memory and Open, achieves comparable performance to the strongest Precision baseline, and remains competitive on Long-Horizon. Its 30-task Overall score is 50.64, versus 33.68 for the strongest baseline. On a separate ten-task subset, RoboICL scores 60.60, within 2.00 points of the $π_{0.5}$ + \\gptastra{} hybrid approach. On three real-robot tasks, mean progress rises from 14.45 at zero shot to 63.33 at one shot and 78.89 at three shots. On two development tasks, optional Jev-gated action reuse reduces \\gptastra{} calls by 33--48\\%. Code is available at \\href{https://github.com/Mosi-AI/RoboICL}{https://github.com/Mosi-AI/RoboICL}.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.34261v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2609.34261v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-09-28T04:07:36Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2609.33299",
     "arxivId": "2609.33299",
     "version": 2,
@@ -9593,60 +9146,6 @@
     "curated": false,
     "deepRead": false,
     "sourceUpdatedAt": "2026-09-21T07:01:14Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2609.24170",
-    "arxivId": "2609.24170",
-    "version": 1,
-    "title": "An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond",
-    "shortTitle": "An Unexpected Robot Policy",
-    "date": "2026-09-21",
-    "year": 2026,
-    "authors": "Wenbo Zhang and Kaixuan Wang and Yutao Ouyang and Xiaoyu Huang and Liyang Li and Kailun Su and Weiyang Jin and Wenhao Chai and Haotian Liang and Zhiyang Dou and Yue Chen and Tianxing Chen",
-    "categories": [
-      "planning",
-      "evaluation"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Embodied AI systems are often organized into System 1 and System 2. System 1 is typically a pretrained policy that generates actions at high frequency, whereas System 2 is often instantiated as a vision-enabled language model for high-level planning. We ask whether a large language model (LLM) can act as the policy for robot manipulation without task-specific finetuning. We call this setting LLM as policy. We evaluate three LLMs on all 42 RoboDojo tasks and compare their scores with 40 public policies. Astra and GPT-5.5 use the official 50-episode-per-task protocol; DeepSeek-Flash uses 10 episodes per task. GPT-6 Astra achieves 22.48% average success rate and 28.97 Score over 2,100 trials, ranking above every public entry. Yet GPT-5.5 and DeepSeek-Flash reach only 0.88% and 1.92% average success rate with the same post-processing. We find that Astra exhibits a sharply polarized capability profile. It generalizes well to tasks that require semantic understanding but not high-precision control. In contrast, it performs poorly on tasks that require precision, dynamic control, or complex bimanual coordination. In-context experiments show no aggregate benefit from one-shot demonstrations, while selected interaction traces show within-episode corrections under perturbations. Overall, the evaluated LLMs vary substantially in manipulation performance. Astra stands out and provides initial evidence for the potential of a general-purpose manipulation model, although reliable precision and dynamic control remain limitations in the evaluated setting.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.24170v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2609.24170v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-09-21T06:39:47Z",
     "discoveredAt": "2026-10-11"
   },
   {
