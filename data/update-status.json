@@ -1,8 +1,8 @@
 {
   "mode": "active",
   "scheduleEnabled": true,
-  "lastSuccess": "2026-10-12T08:00:40Z",
-  "lastAttempt": "2026-10-12T08:00:40Z",
+  "lastSuccess": "2026-10-12T09:05:03Z",
+  "lastAttempt": "2026-10-12T09:05:03Z",
   "message": "最近发现 0 篇候选，记录 0 次版本变化。",
   "fetched": 311,
   "discoverySince": "2026-09-01",

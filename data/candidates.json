@@ -1,61 +1,5 @@
 [
   {
-    "id": "2610.13862",
-    "arxivId": "2610.13862",
-    "version": 1,
-    "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
-    "shortTitle": "BT-Agent",
-    "date": "2026-10-09",
-    "year": 2026,
-    "authors": "Fabio Hübel and Adam Lilja and Yue Yin and Siming He and Claire Tomlin and Shankar Sastry and Jonas Frey and Marco Pavone",
-    "categories": [
-      "planning",
-      "memory",
-      "recovery",
-      "evaluation"
-    ],
-    "tasks": [
-      "navigation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Deploying language-model agents onboard mobile robots requires task reasoning and responsive execution within limited compute and memory. We propose BT-Agent, an onboard architecture combining LLM-driven task decisions with predefined behavior-tree (BT) skills. These skills enforce execution conditions and return structured failure feedback. We demonstrate fully onboard operation with a 9B model on a quadruped across five task categories. Intervention tests show that local checks stop ongoing navigation without waiting for another model decision, while the agent remains active to retry or report constraints. To compare agent designs efficiently, we introduce a 161-task multi-fidelity benchmark, evaluated in text on all tasks and in Habitat on 39. Text supports 10.9$\\times$ higher evaluation throughput, while simulation reveals how perception and motion failures change task outcomes. BT-Agent's largest success gains over the strongest Act/ReAct baseline occur at 4B and 9B: approximately 10 and 5 percentage points. Ablations identify structured tool calls and informative failure feedback as the most useful components.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.13862v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.13862v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-12",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-09T17:08:45Z",
-    "discoveredAt": "2026-10-12"
-  },
-  {
     "id": "2610.13643",
     "arxivId": "2610.13643",
     "version": 1,
@@ -1093,63 +1037,6 @@
     "deepRead": false,
     "sourceUpdatedAt": "2026-10-08T17:59:58Z",
     "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2610.12710",
-    "arxivId": "2610.12710",
-    "version": 1,
-    "title": "REMM: Revisable Embodied Memory for Manipulation",
-    "shortTitle": "REMM",
-    "date": "2026-10-08",
-    "year": 2026,
-    "authors": "Revanth Krishna Senthilkumaran and Ruwan Wickramarachchi and Alessandro Oltramari and Jonathan Francis",
-    "categories": [
-      "planning",
-      "spatial",
-      "memory",
-      "recovery",
-      "policies"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Long-horizon manipulation requires robots to retain task-relevant history while revising conclusions no longer supported by physical evidence. Retaining observations alone does not specify which completed conditions should be withdrawn after a disturbance or which obligations require repair. We introduce REMM, Revisable Embodied Memory for Manipulation, a supervisory memory layer for a frozen G0.5 vision-language-action executor. REMM separates an append-only evidence history from revisable task state and explicitly links derived relations and completed conditions to their supporting facts. When accepted evidence changes a supporting fact, it withdraws dependent conclusions and schedules targeted recovery at verified skill boundaries without updating the executor. Across 51 physical trials, including operator-assisted runs, REMM improves mean recorded task progress over the strongest baseline from 57% to 91% in intervention recovery and from 43% to 70% in sequence recall. Complementary video diagnostics show improved grounding of retained history into the next instruction, including comparisons with $π_{0.5}$-compatible high-level planner adaptations. These results support revisable memory as a practical interface for continued manipulation without policy retraining. Project: https://revanthsenthil.github.io/remm/.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.12710v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.12710v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-12",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-08T20:42:35Z",
-    "discoveredAt": "2026-10-12"
   },
   {
     "id": "2610.12684",
@@ -3276,61 +3163,6 @@
     "curated": false,
     "deepRead": false,
     "sourceUpdatedAt": "2026-10-06T00:44:06Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2610.08995",
-    "arxivId": "2610.08995",
-    "version": 1,
-    "title": "PhysEvo: Astra Can Act, Let It",
-    "shortTitle": "PhysEvo",
-    "date": "2026-10-06",
-    "year": 2026,
-    "authors": "Wenqing Tian and Zeyu Zhang and Zhaocheng Liu and Fengwei Liu and Qiang Liu and Liang Wang",
-    "categories": [
-      "recovery",
-      "learning",
-      "evaluation"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Astra can act, yet reliable manipulation depends on the system through which it observes and controls the world. We introduce PhysEvo, a framework for physical recursive self-improvement (RSI) around a single frozen model. A task agent executes robot tasks; a meta-agent uses the resulting trajectories to diagnose failures, revise tools and skills, and test corrections. The meta-agent can also improve its own diagnostic tools, so retained revisions support both later action and later self-improvement. This process develops joint-level control, evidence-seeking observation, and reusable manipulation skills without model-weight updates or a separately trained action policy. Across 42 RoboDojo tasks, held-out-layout evaluation of retained task-specific deployment versions yields a five-dimension average score of 68.14/100 and 62.00% success, compared with 47.17% for RoboDawn's one-shot Astra agent, the strongest published reference in our comparison. On eight manipulation tasks challenging direct Astra, PhysEvo achieves 55.00% success, compared with 1.25% for the direct-Astra reference. Deploying the simulation-evolved harness on AgileX PiPER and continuing skill revision yields 90.60/100 average score and 84.00% success across 25 trials on five real-world tasks. PhysEvo turns the consequences of action into persistent, testable changes to how a frozen model acts and improves.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.08995v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.08995v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-12",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-06T18:54:15Z",
     "discoveredAt": "2026-10-11"
   },
   {
@@ -6015,60 +5847,6 @@
     "curated": false,
     "deepRead": false,
     "sourceUpdatedAt": "2026-09-30T07:47:02Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
-    "id": "2609.39018",
-    "arxivId": "2609.39018",
-    "version": 1,
-    "title": "Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools",
-    "shortTitle": "Make Code as Policy Great Again",
-    "date": "2026-09-30",
-    "year": 2026,
-    "authors": "Shijia Ge and Alex Zhou and Jianshu Zeng and Yexing Wan and Di Wu and Zelin Zheng and Yazhe Wang and Zhiqi Jia and Xuan Shangguan and Jay Zhu and Yijun Liu and Lingyu He and Sihang Wu and Xiao He and Hongcheng Gao",
-    "categories": [
-      "planning",
-      "code"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Frontier models can control robots, but reasoning through every reach, grasp, and retreat makes manipulation slow and token-intensive. We revisit code as policy with a different division of labor: models build executable tools, code handles multi-phase motions, and models decide what to do next. We introduce URAI (Universal Robot-Agent Interface), which couples a programming agent that constructs robot tools with an execution agent that uses them in a feedback loop. The programming agent writes reusable and task-specific tools from task intent and refines them through execution feedback and human guidance. The execution agent selects and parameterizes these tools from current observations; each call runs a complete motion locally before returning control to the agent. Unlike delegating subsequent decisions to a generated program, this design retains model-level decision-making between tool executions. Validated tool revisions persist across episodes without updating foundation-model weights, and a shared GUI and API make the same tools available to humans and agents. Across five RoboDojo tasks and four frozen execution agents, URAI raises aggregate success from 18.0% to 53.0% relative to direct fingertip control, with the largest gain on Swap Blocks; with the same tools, a program written in advance reaches only 24% against 56% for two agents deciding after each call. Three of the four agents also finish episodes 1.3-1.5 times faster with 1.5-1.7 times fewer execution-agent output tokens; DeepSeek-V4-Flash's cost barely changes. We further evaluate URAI on seven real-world AgileX dual-arm tasks, spanning object manipulation, cloth folding, and human-interactive tic-tac-toe. URAI connects the coding and decision-making capabilities of frontier agents, organizing robot control around reusable tools that agents can both invoke and revise.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2609.39018v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2609.39018v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-12",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-09-30T05:23:25Z",
     "discoveredAt": "2026-10-11"
   },
   {

@@ -542,7 +542,7 @@
     "ai": {
       "status": "editorial-preserved",
       "version": 1,
-      "message": "已核对的中文解读保留。"
+      "message": "人工内容保留。"
     }
   },
   "2610.08595": {
@@ -1010,7 +1010,7 @@
     "ai": {
       "status": "editorial-preserved",
       "version": 1,
-      "message": "已核对的中文解读保留。"
+      "message": "人工内容保留。"
     }
   },
   "2610.13534": {
@@ -1361,7 +1361,7 @@
     "ai": {
       "status": "editorial-preserved",
       "version": 1,
-      "message": "已核对的中文解读保留。"
+      "message": "人工内容保留。"
     }
   },
   "2609.39207": {
@@ -1868,7 +1868,475 @@
     "ai": {
       "status": "editorial-preserved",
       "version": 1,
-      "message": "已核对的中文解读保留。"
+      "message": "人工内容保留。"
+    }
+  },
+  "2609.34823": {
+    "arxivId": "2609.34823",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34823",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34823v2",
+      "version": 2,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34823-v2.text.json",
+      "extractedAt": "2026-10-12T09:05:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: AGRO-SUVIDE: Agents automatically identify and im- prove modular skills from one expert demonstration, build each as model-based or model-free, and a monitor executes them at runtime. Here the monitor confirms that the model-based skill “lift” has met its post-condition of ∆z ≥0.029 m, and holds the model-free skill “cut” running until its post-condition is met.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.34823-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34823v2",
+      "page": 1,
+      "version": 2,
+      "width": 540,
+      "height": 279,
+      "crop": [
+        293.88,
+        147.98,
+        563.32,
+        286.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.33807": {
+    "arxivId": "2609.33807",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.33807",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33807v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.33807-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Robot-control paradigms and agentic Code-as-Policy. (a) VLA learns action policies from large-scale robot datasets; Code-as-Policy generates programs that compose robot APIs to perform tasks. (b) CodeActionBench evaluates agents that autonomously construct task-relevant 3D estimates, manipulation targets, and policies, without depth sensing, external perception/grasp specialists, or privileged scene state.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.33807-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33807v1",
+      "page": 2,
+      "version": 1,
+      "width": 928,
+      "height": 472,
+      "crop": [
+        65.7,
+        51.13,
+        529.19,
+        286.8
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.33299": {
+    "arxivId": "2609.33299",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.33299",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33299v2",
+      "version": 2,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.33299-v2.text.json",
+      "extractedAt": "2026-10-12T09:05:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of AquaWAM. Cameras supply the goal and the object pose; the predictor imagines each candidate two seconds ahead and executes the first 0.5 s of the best.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.33299-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33299v2",
+      "page": 4,
+      "version": 2,
+      "width": 794,
+      "height": 312,
+      "crop": [
+        107.94,
+        75.86,
+        504.05,
+        231.49
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.32862": {
+    "arxivId": "2609.32862",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.32862",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32862v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.32862-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of RoboFoundry. (a) The inner loop runs task-specific System-as-Policy through context/skill surfaces and semantic/execution bindings, producing embodiment-specific rollouts and traces. (b) The general system supplies reusable context and skill rules to task-level systems. (c) The outer loop diagnoses capability failures and validates targeted edits through held-in repair and held-out retention. Accepted edits update the task-specific system or promote the general system.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.32862-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32862v1",
+      "page": 4,
+      "version": 1,
+      "width": 872,
+      "height": 537,
+      "crop": [
+        88.38,
+        57.78,
+        523.61,
+        325.52
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.32803": {
+    "arxivId": "2609.32803",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.32803",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32803v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.32803-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. High-level overview of Nutri-ATLAS. Given a user dietary query, e.g., “I had oatmeal and apple for breakfast, suggest a lunch,” the system parses the reported intake and identifies nutritional gaps with respect to the user’s dietary preferences and restrictions. Nutritional reasoning is then coupled with embodied evidence acquisition: the robot navigates to the kitchen, inspects the refrigerator via camera-based food detection, and updates its knowledge base with newly observed food items and landmarks. Combining the user’s reported intake, nutritional targets, and food present at hand, Nutri-ATLAS produces a grounded personalized recommendation, illustrated here with Pan-Seared Salmon with Quinoa & Avocado Salad, and can return feedback after completing the search.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.32803-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32803v1",
+      "page": 2,
+      "version": 1,
+      "width": 1054,
+      "height": 652,
+      "crop": [
+        42.96,
+        48.07,
+        569.06,
+        373.97
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.32416": {
+    "arxivId": "2609.32416",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.32416",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32416v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.32416-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:50Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: RE-0 overview. RE-0 localizes harmful segments in the current student’s trajectories, requests bounded teacher repairs, and verifies them by paired counterfactual rollout from the same snapshot (LCB gate). Verified interventions µn are distilled into the standalone student via cold-start SFT (Stage I) and RE-OPD refinement (Stage II); the student then regenerates trajectories, closing the loop. Left: simulation, real-robot, and stage-level results.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.32416-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32416v1",
+      "page": 3,
+      "version": 1,
+      "width": 817,
+      "height": 492,
+      "crop": [
+        102.0,
+        75.85,
+        510.13,
+        321.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.32801": {
+    "arxivId": "2609.32801",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.32801",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32801v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.32801-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Pipeline of PlanGuard. (a)-(c) MSP-Safe Construction: Producing complete multi- step plans with structured Result-Reason safety supervision. (d) PlanGuard Training: Task- oriented SFT first establishes task-specific plan-safety capabilities. STAC-OPD then transfers fine-grained knowledge from a strong teacher through on-policy distillation and probability- routed hard compensation. Probability Routing retains student-generated targets when the reference safety decision is already preferred and switches to teacher-reconstructed targets otherwise. Hard Compensation learns from these routed complete-response targets, consolidating stable student behavior while providing explicit sequence-level supervision for difficult cases after soft distillation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.32801-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32801v1",
+      "page": 4,
+      "version": 1,
+      "width": 932,
+      "height": 411,
+      "crop": [
+        64.87,
+        79.04,
+        530.41,
+        284.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.30971": {
+    "arxivId": "2609.30971",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.30971",
+      "sourceUrl": "https://arxiv.org/pdf/2609.30971v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.30971-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:57Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of the SciHorizon-eLab protocol-to-task compilation framework. Given a natural-language scientific protocol, SciHorizon-eLab progressively compiles it into a simulator-ready embodied task through semantic- preserving environment compilation, executable task specification generation, and simulation-based certification and task instantiation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.30971-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.30971v1",
+      "page": 5,
+      "version": 1,
+      "width": 931,
+      "height": 312,
+      "crop": [
+        65.09,
+        97.51,
+        530.2,
+        253.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.00282": {
+    "arxivId": "2610.00282",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.00282",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00282v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.00282-v1.text.json",
+      "extractedAt": "2026-10-12T09:05:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Semantic arbitration results. (a) Paired mean differences and 95% checkpoint-bootstrap CIs; negative values favor Semantic GAVA. U is the unseen exploratory cohort and S the prospectively frozen seen replication. Matched baselines appear only in S. (b) Seen interaction cost versus incorrect fixed-decision (IFD) rate. Dashed contours show equal declared joint cost. All methods complete every task.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.00282-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00282v1",
+      "page": 7,
+      "version": 1,
+      "width": 978,
+      "height": 283,
+      "crop": [
+        55.71,
+        117.25,
+        544.13,
+        258.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.31418": {
+    "arxivId": "2609.31418",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.31418",
+      "sourceUrl": "https://arxiv.org/pdf/2609.31418v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.31418-v1.text.json",
+      "extractedAt": "2026-10-12T09:06:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Architecture of CognitiveReality, showing the data flow between the robot backend, online geometric and semantic reconstruction, the shared scene-aware agent, and the two VR delivery modes. A common 3D scene representation connects robot sensing, semantic object state, agent reasoning, operator interaction, and robot control.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.31418-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.31418v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 504,
+      "crop": [
+        48.0,
+        52.06,
+        563.98,
+        303.53
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.29837": {
+    "arxivId": "2609.29837",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.29837",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29837v2",
+      "version": 2,
+      "pageCount": 55,
+      "textPages": 55,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.29837-v2.text.json",
+      "extractedAt": "2026-10-12T09:06:11Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2609.29837-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29837v2",
+      "page": 1,
+      "version": 2,
+      "width": 1191,
+      "height": 1684,
+      "crop": [
+        0.0,
+        0.0,
+        595.28,
+        841.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.29964": {
+    "arxivId": "2609.29964",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.29964",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29964v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.29964-v1.text.json",
+      "extractedAt": "2026-10-12T09:06:13Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of the World Action Agent (WAA) harness. (A) The main agent observes global and Contact views in the visual action workspace, rehearses action proposals with an Imagination Agent, consults skills through a Skill Agent, and executes planned motions and local corrections. (B) Expert videos and human teaching are distilled into a multimodal skill library through extraction, editing, and review. (C) Interaction traces train a smaller VLM to operate the same harness. Insets are from two recorded bowl-manipulation tasks; dashed arrows indicate target guides.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.29964-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29964v1",
+      "page": 5,
+      "version": 1,
+      "width": 1000,
+      "height": 671,
+      "crop": [
+        56.36,
+        50.69,
+        555.64,
+        385.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }
 }
