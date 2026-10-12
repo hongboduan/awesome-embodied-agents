@@ -1363,5 +1363,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2609.39207": {
+    "arxivId": "2609.39207",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39207",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39207v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39207-v1.text.json",
+      "extractedAt": "2026-10-12T08:01:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Navigation policy architecture and atomic training examples. Left: language and monocular history enter a shared autoregressive decoder. Separate token blocks encode trajectories and pixel goals; visual QA uses text tokens. Motion tokens decode to body-frame waypoints. Architecture glyphs are schematic. Right: recorded training observations with instructions and overlaid trajectories. The overlays do not use metric camera projection. More examples appear in Fig. 6.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39207-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39207v1",
+      "page": 4,
+      "version": 1,
+      "width": 966,
+      "height": 493,
+      "crop": [
+        56.53,
+        77.52,
+        539.08,
+        323.85
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.39304": {
+    "arxivId": "2609.39304",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39304",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39304v2",
+      "version": 2,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39304-v2.text.json",
+      "extractedAt": "2026-10-12T08:01:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview. (a) The task agent is an unmodified coding agent that controls a robot through a visual interface; the agent’s harness is what we evolve. (b) Each round, an optimizer agent reads the full trajectories of B rollouts and proposes one bounded revision; under Champion–Challenger selection the revision is promoted only if it strictly beats the incumbent on the same fixed cases, whereas accepting every revision drifts downward within ten rounds (inset: training success at B = 100). (c) Held-out success of the evolved harness rises with the number of rollouts per round, from 47% at B = 5 to 67% at B = 100.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39304-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39304v2",
+      "page": 2,
+      "version": 2,
+      "width": 948,
+      "height": 249,
+      "crop": [
+        69.16,
+        201.75,
+        542.85,
+        325.6
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.40137": {
+    "arxivId": "2609.40137",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.40137",
+      "sourceUrl": "https://arxiv.org/pdf/2609.40137v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.40137-v1.text.json",
+      "extractedAt": "2026-10-12T08:01:41Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of GGSD. Top: We jointly learn a hierarchical policy through self-play against opponents sampled from a pool of past checkpoints. Bottom: After training, a human can replace the high-level policy and directly control the agent across diverse scenarios.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.40137-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.40137v1",
+      "page": 4,
+      "version": 1,
+      "width": 778,
+      "height": 394,
+      "crop": [
+        111.9,
+        72.45,
+        500.0,
+        268.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.36595": {
+    "arxivId": "2609.36595",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.36595",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36595v1",
+      "version": 1,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.36595-v1.text.json",
+      "extractedAt": "2026-10-12T08:01:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: SimpleARM overview. Given the instruction, SimpleARM first specifies what historical state may be needed, then maintains that state online with frozen perception and event tools, and re- trieves it only when the current subgoal depends on interaction history. Retrieved memory resolves historical identity, progress, or procedure; current perception provides any required spatial ground- ing, and the resulting memory-conditioned grounded subgoal is executed by the frozen VLA.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.36595-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36595v1",
+      "page": 5,
+      "version": 1,
+      "width": 816,
+      "height": 414,
+      "crop": [
+        102.0,
+        75.86,
+        509.85,
+        282.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.37583": {
+    "arxivId": "2609.37583",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.37583",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37583v2",
+      "version": 2,
+      "pageCount": 39,
+      "textPages": 39,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.37583-v2.text.json",
+      "extractedAt": "2026-10-12T08:01:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of RoboHarn-Evo. Top: The inner loop executes manipulation operations and records their outcomes. Bottom: The outer loop organizes this experience into Task and Action Knowledge for subsequent decisions. Concrete motions are computed from the current scene.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.37583-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37583v2",
+      "page": 4,
+      "version": 2,
+      "width": 816,
+      "height": 459,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        304.92
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.37810": {
+    "arxivId": "2609.37810",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.37810",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37810v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.37810-v1.text.json",
+      "extractedAt": "2026-10-12T08:01:50Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 The RoboSkill framework. The agent explores to acquire missing information, executes with visual and tactile feedback, and produce skills to guide the next cycle. The example illustrates a nested exploration loop that verifies table height through contact before resuming grasping.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.37810-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37810v1",
+      "page": 4,
+      "version": 1,
+      "width": 995,
+      "height": 547,
+      "crop": [
+        57.62,
+        63.18,
+        554.72,
+        336.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.38537": {
+    "arxivId": "2609.38537",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.38537",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38537v1",
+      "version": 1,
+      "pageCount": 46,
+      "textPages": 46,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.38537-v1.text.json",
+      "extractedAt": "2026-10-12T08:01:57Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Control modes, interfaces, and low-level control. Direct uses Astra-generated commands with analytic control. Hybrid combines Astra with a learned task policy or whole-body controller: Astra reviews policy proposals or supplies commands or motion references to frozen controllers. Observations of the resulting motion inform subsequent decisions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.38537-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38537v1",
+      "page": 2,
+      "version": 1,
+      "width": 968,
+      "height": 466,
+      "crop": [
+        63.29,
+        58.47,
+        546.96,
+        290.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.38536": {
+    "arxivId": "2609.38536",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.38536",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38536v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.38536-v1.text.json",
+      "extractedAt": "2026-10-12T08:01:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Task-blind corruption analyzed over 208 failed states in ALFWorld.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.38536-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38536v1",
+      "page": 2,
+      "version": 1,
+      "width": 777,
+      "height": 352,
+      "crop": [
+        121.02,
+        75.47,
+        509.15,
+        250.52
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35432": {
+    "arxivId": "2609.35432",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35432",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35432v1",
+      "version": 1,
+      "pageCount": 40,
+      "textPages": 40,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35432-v1.text.json",
+      "extractedAt": "2026-10-12T08:02:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Physical Coding brings AI into the physical world through an explicit executable interface. Code as World represents task-relevant objects, relations, observations, constraints, and progress predicates, while Code as Policy organizes planning, tool calls, action execution, verification, and recovery. Together they form the core interface through which the agent interacts with physical environments and accumulates reusable artifacts for continual improvement.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35432-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35432v1",
+      "page": 2,
+      "version": 1,
+      "width": 956,
+      "height": 637,
+      "crop": [
+        64.87,
+        18.44,
+        542.43,
+        336.22
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35032": {
+    "arxivId": "2609.35032",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35032",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35032v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35032-v1.text.json",
+      "extractedAt": "2026-10-12T08:02:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of JRDB-AVR. Unlike passive visual reasoning, where relevant image/video observations are pre-selected and only the final answer is evaluated, JRDB-AVR requires an agent to actively observe across time and view angle, then evaluates both the answer and visual evidence.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35032-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35032v1",
+      "page": 2,
+      "version": 1,
+      "width": 822,
+      "height": 365,
+      "crop": [
+        101.96,
+        65.79,
+        512.36,
+        247.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35575": {
+    "arxivId": "2609.35575",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35575",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35575v2",
+      "version": 2,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35575-v2.text.json",
+      "extractedAt": "2026-10-12T08:02:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of the F4R architecture. (A) An initial policy is deployed in the real world to collect failure trajectories and task-relevant observations. (B) F4R reconstructs the failure scene in two stages. The resulting PBR meshes drive physical simulation, while the aligned Gaussians enable photorealistic rendering. (C) The policy first acquires corrective behaviors through failure-conditioned sim-real co-training and then improves them through targeted RL in the reconstructed environments. (D) The refined policy is redeployed and discovers new failure cases, closing the real-to-sim-to-real learning loop.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35575-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35575v2",
+      "page": 4,
+      "version": 2,
+      "width": 966,
+      "height": 484,
+      "crop": [
+        64.87,
+        57.78,
+        547.12,
+        299.08
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35916": {
+    "arxivId": "2609.35916",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35916",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35916v2",
+      "version": 2,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35916-v2.text.json",
+      "extractedAt": "2026-10-12T08:02:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 VehicleArena architecture. Left: the shared 3D world and observation examples. Right: agent roles, support interfaces, and configurable cabin capabilities. Bottom: PA asks DA to play music after leaving an intersection and registers a verification trigger; DA sets a wake-up time to carry out the request, while Judge checks are triggered independently of DA wakes. The timeline is illustrative and not to scale. The main image is a native Web3D capture from a SUMO-only reference rollout; the smaller images are separate observation examples.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35916-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35916v2",
+      "page": 2,
+      "version": 2,
+      "width": 921,
+      "height": 603,
+      "crop": [
+        75.79,
+        79.55,
+        535.85,
+        381.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
