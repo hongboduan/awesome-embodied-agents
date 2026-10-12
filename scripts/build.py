@@ -173,7 +173,9 @@ def update_readme(path, papers, english=False, focus_since="2026-09-01"):
             status = "Project preview" if english else "项目预览"
             if not p.get("links", {}).get("paper") and not p.get("links", {}).get("code"):
                 status += "; paper and code pending" if english else "；论文与代码待公开"
-            lines += [f"- **[{md(p['title'])}]({url})** ({md(date)}) · {status}",
+            code = safe_url(p.get("links", {}).get("code"))
+            extra = f" · [Code]({code})" if code else ""
+            lines += [f"- **[{md(p['title'])}]({url})** ({md(date)}) · {status}{extra}",
                       "  " + md(p.get("summaryEn") if english else p.get("summaryZh", "")), ""]
     for recent in [True, False]:
         subset = [p for p in curated if p.get("sourceType") != "project" and ((entry_date(p) >= focus_since) == recent)]

@@ -32,9 +32,12 @@ Automatically extracted illustrations retain their PDF source and page. A page p
 
 <!-- ATLAS:START -->
 
-308 entries · 40 curated (including 1 projects) · 39 source-checked · 1 full-review · 0 AI drafts · 268 discovery candidates
+309 entries · 45 curated (including 2 projects) · 44 source-checked · 1 full-review · 0 AI drafts · 264 discovery candidates
 
 ## Projects and systems
+
+- **[Physical RSI 1.0: Recursive Self-Harness for Scaling Embodied Skills](https://mmlab.hk/research/PhysicalRSI)** (added 2026-10-12) · Project preview · [Code](https://github.com/PhysicalRSI/PhysicalRSI)
+  A preview system for embodied self-harness: propose changes to skills, memory and tools, evaluate frozen candidates on fresh paired cases, select a survivor and preserve evidence and lineage.
 
 - **[LoopROS: A Recursively Self-Evolving Robot Operating System for Agentic Manipulation](https://loopmaster.ai/loopros/)** (added 2026-10-12) · Project preview; paper and code pending
   An agentic robot runtime combining within-episode observation and action feedback with background consolidation of reusable cross-episode Skills. The official project reports 82/100 successes on a selected ten-task simulation subset; component ablations are ongoing.
@@ -43,22 +46,28 @@ Automatically extracted illustrations retain their PDF source and page. A page p
 
 ### Reasoning & Planning
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)** (2026-10-08) · [Code](https://github.com/nssmd/RoboRSI) · [Project](https://lab.noematrix.ai/blog/2-roborsi-research-preview/)
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
 - **[Recursive Video In-Context Learning for Agentic Robot](https://arxiv.org/abs/2610.06843v1)** (2026-10-05) · [Code](https://github.com/BWR-hhh/rvicl) · [Project](https://bwr-hhh.github.io/rvicl/)
 - **[RobotUse: Allocating Computation, Context, and Decisions](https://arxiv.org/abs/2610.04929v1)** (2026-10-04) · [Code](https://github.com/robotuse-team/RobotUse) · [Project](https://robotuse-team.github.io/)
 - **[Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena](https://arxiv.org/abs/2610.00854v1)** (2026-10-01)
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
 - **[LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation](https://arxiv.org/abs/2609.39507v1)** (2026-09-30) · [Code](https://github.com/dzj441/Libero-Agent)
 - **[RoboICL: Embodied In-Context Learning with GPT-6 Astra](https://arxiv.org/abs/2609.34261v1)** (2026-09-28) · [Code](https://github.com/Mosi-AI/RoboICL)
 - **[An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond](https://arxiv.org/abs/2609.24170v1)** (2026-09-21)
 
 ### Spatial Understanding
 
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
 - **[Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena](https://arxiv.org/abs/2610.00854v1)** (2026-10-01)
 
 ### Memory & Knowledge
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
 - **[Recursive Video In-Context Learning for Agentic Robot](https://arxiv.org/abs/2610.06843v1)** (2026-10-05) · [Code](https://github.com/BWR-hhh/rvicl) · [Project](https://bwr-hhh.github.io/rvicl/)
@@ -69,22 +78,29 @@ Automatically extracted illustrations retain their PDF source and page. A page p
 
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)** (2026-10-08) · [Code](https://github.com/nssmd/RoboRSI) · [Project](https://lab.noematrix.ai/blog/2-roborsi-research-preview/)
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
 - **[RobotUse: Allocating Computation, Context, and Decisions](https://arxiv.org/abs/2610.04929v1)** (2026-10-04) · [Code](https://github.com/robotuse-team/RobotUse) · [Project](https://robotuse-team.github.io/)
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
 
 ### Monitoring & Recovery
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)** (2026-10-08) · [Code](https://github.com/nssmd/RoboRSI) · [Project](https://lab.noematrix.ai/blog/2-roborsi-research-preview/)
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
 - **[Recursive Video In-Context Learning for Agentic Robot](https://arxiv.org/abs/2610.06843v1)** (2026-10-05) · [Code](https://github.com/BWR-hhh/rvicl) · [Project](https://bwr-hhh.github.io/rvicl/)
 - **[RobotUse: Allocating Computation, Context, and Decisions](https://arxiv.org/abs/2610.04929v1)** (2026-10-04) · [Code](https://github.com/robotuse-team/RobotUse) · [Project](https://robotuse-team.github.io/)
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
 - **[LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation](https://arxiv.org/abs/2609.39507v1)** (2026-09-30) · [Code](https://github.com/dzj441/Libero-Agent)
 - **[RoboICL: Embodied In-Context Learning with GPT-6 Astra](https://arxiv.org/abs/2609.34261v1)** (2026-09-28) · [Code](https://github.com/Mosi-AI/RoboICL)
 
 ### VLA & World Models
 
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
 - **[Recursive Video In-Context Learning for Agentic Robot](https://arxiv.org/abs/2610.06843v1)** (2026-10-05) · [Code](https://github.com/BWR-hhh/rvicl) · [Project](https://bwr-hhh.github.io/rvicl/)
 - **[An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond](https://arxiv.org/abs/2609.24170v1)** (2026-09-21)
@@ -93,10 +109,13 @@ Automatically extracted illustrations retain their PDF source and page. A page p
 
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)** (2026-10-08) · [Code](https://github.com/nssmd/RoboRSI) · [Project](https://lab.noematrix.ai/blog/2-roborsi-research-preview/)
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
 
 ### Benchmarks & Evaluation
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
 - **[Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena](https://arxiv.org/abs/2610.00854v1)** (2026-10-01)
 - **[LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation](https://arxiv.org/abs/2609.39507v1)** (2026-09-30) · [Code](https://github.com/dzj441/Libero-Agent)
 - **[An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond](https://arxiv.org/abs/2609.24170v1)** (2026-09-21)

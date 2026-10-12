@@ -32,9 +32,12 @@
 
 <!-- ATLAS:START -->
 
-共 308 条 · 精选 40 条（含 1 个项目）· 来源核对 39 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 268 篇
+共 309 条 · 精选 45 条（含 2 个项目）· 来源核对 44 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 264 篇
 
 ## 项目与系统
+
+- **[Physical RSI 1.0: Recursive Self-Harness for Scaling Embodied Skills](https://mmlab.hk/research/PhysicalRSI)** (收录于 2026-10-12) · 项目预览 · [Code](https://github.com/PhysicalRSI/PhysicalRSI)
+  让大模型依据执行证据修改技能、记忆与工具，再用新场景成对评测，选择下一轮继承的控制程序。
 
 - **[LoopROS: A Recursively Self-Evolving Robot Operating System for Agentic Manipulation](https://loopmaster.ai/loopros/)** (收录于 2026-10-12) · 项目预览；论文与代码待公开
   前台用历史观察与动作反馈驱动代码执行，后台把失败和修正整理为跨回合 Skills，让操作经验有机会被后续任务复用。
@@ -43,8 +46,12 @@
 
 ### 推理与规划
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
+  让机载小模型选择行为树技能，由本地检查及时中断异常执行，并用结构化反馈支持重试。
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)** (2026-10-08) · [Code](https://github.com/nssmd/RoboRSI) · [Project](https://lab.noematrix.ai/blog/2-roborsi-research-preview/)
   把机器人自我改进组织成分层技能工程：定位负责的分支、局部修复、验证后再复用。
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
+  给冻结 VLA 加一层可撤销的任务记忆：证据变了，依赖它的“已完成”状态也必须重审。
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
   让推理、导航执行和监控拥有各自上下文，由运行时分配运动控制权，连接前沿模型与导航 VLA。
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
@@ -55,6 +62,8 @@
   主 Agent 管目标，子 Agent 在图像中选点和姿态，几何后端执行；跨回合经验沉淀到可更新的操作手册。
 - **[Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena](https://arxiv.org/abs/2610.00854v1)** (2026-10-01)
   用几何、空间关系、可供性、规划和操作五个维度，检查前沿 VLM 的局部优势能否转化为完整任务成功。
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
+  把多阶段动作封装成可执行工具，每次工具运行后再由 Agent 根据反馈决定下一步。
 - **[LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation](https://arxiv.org/abs/2609.39507v1)** (2026-09-30) · [Code](https://github.com/dzj441/Libero-Agent)
   让通用 Agent 自己选择观测、处理图像和发出原生机器人命令，拆开评估感知、短程动作与长程组合。
 - **[RoboICL: Embodied In-Context Learning with GPT-6 Astra](https://arxiv.org/abs/2609.34261v1)** (2026-09-28) · [Code](https://github.com/Mosi-AI/RoboICL)
@@ -64,11 +73,17 @@
 
 ### 空间理解
 
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
+  冻结 Astra，让执行 Agent 行动、元 Agent 根据轨迹修订工具和技能，连诊断工具本身也能迭代。
 - **[Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena](https://arxiv.org/abs/2610.00854v1)** (2026-10-01)
   用几何、空间关系、可供性、规划和操作五个维度，检查前沿 VLM 的局部优势能否转化为完整任务成功。
 
 ### 记忆与知识
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
+  让机载小模型选择行为树技能，由本地检查及时中断异常执行，并用结构化反馈支持重试。
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
+  给冻结 VLA 加一层可撤销的任务记忆：证据变了，依赖它的“已完成”状态也必须重审。
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
   让编码智能体离线改进策略库，机器人执行时只运行固定代码，以显式状态连接感知、决策和恢复。
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
@@ -86,25 +101,37 @@
   把机器人自我改进组织成分层技能工程：定位负责的分支、局部修复、验证后再复用。
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
   让编码智能体离线改进策略库，机器人执行时只运行固定代码，以显式状态连接感知、决策和恢复。
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
+  冻结 Astra，让执行 Agent 行动、元 Agent 根据轨迹修订工具和技能，连诊断工具本身也能迭代。
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
   冻结具身模型，把执行轨迹变成改进规划、感知工具和失败恢复逻辑的依据。
 - **[RobotUse: Allocating Computation, Context, and Decisions](https://arxiv.org/abs/2610.04929v1)** (2026-10-04) · [Code](https://github.com/robotuse-team/RobotUse) · [Project](https://robotuse-team.github.io/)
   主 Agent 管目标，子 Agent 在图像中选点和姿态，几何后端执行；跨回合经验沉淀到可更新的操作手册。
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
+  把多阶段动作封装成可执行工具，每次工具运行后再由 Agent 根据反馈决定下一步。
 
 ### 监控与恢复
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
+  让机载小模型选择行为树技能，由本地检查及时中断异常执行，并用结构化反馈支持重试。
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)** (2026-10-08) · [Code](https://github.com/nssmd/RoboRSI) · [Project](https://lab.noematrix.ai/blog/2-roborsi-research-preview/)
   把机器人自我改进组织成分层技能工程：定位负责的分支、局部修复、验证后再复用。
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
+  给冻结 VLA 加一层可撤销的任务记忆：证据变了，依赖它的“已完成”状态也必须重审。
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
   让编码智能体离线改进策略库，机器人执行时只运行固定代码，以显式状态连接感知、决策和恢复。
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
   让推理、导航执行和监控拥有各自上下文，由运行时分配运动控制权，连接前沿模型与导航 VLA。
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
+  冻结 Astra，让执行 Agent 行动、元 Agent 根据轨迹修订工具和技能，连诊断工具本身也能迭代。
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
   冻结具身模型，把执行轨迹变成改进规划、感知工具和失败恢复逻辑的依据。
 - **[Recursive Video In-Context Learning for Agentic Robot](https://arxiv.org/abs/2610.06843v1)** (2026-10-05) · [Code](https://github.com/BWR-hhh/rvicl) · [Project](https://bwr-hhh.github.io/rvicl/)
   把一段任务示范变成可按需查询的层级视频记忆，让 Agent 在接触细节需要时再读取短片。
 - **[RobotUse: Allocating Computation, Context, and Decisions](https://arxiv.org/abs/2610.04929v1)** (2026-10-04) · [Code](https://github.com/robotuse-team/RobotUse) · [Project](https://robotuse-team.github.io/)
   主 Agent 管目标，子 Agent 在图像中选点和姿态，几何后端执行；跨回合经验沉淀到可更新的操作手册。
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
+  把多阶段动作封装成可执行工具，每次工具运行后再由 Agent 根据反馈决定下一步。
 - **[LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation](https://arxiv.org/abs/2609.39507v1)** (2026-09-30) · [Code](https://github.com/dzj441/Libero-Agent)
   让通用 Agent 自己选择观测、处理图像和发出原生机器人命令，拆开评估感知、短程动作与长程组合。
 - **[RoboICL: Embodied In-Context Learning with GPT-6 Astra](https://arxiv.org/abs/2609.34261v1)** (2026-09-28) · [Code](https://github.com/Mosi-AI/RoboICL)
@@ -112,6 +139,8 @@
 
 ### VLA / WAM
 
+- **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)** (2026-10-08) · [Project](https://revanthsenthil.github.io/remm/)
+  给冻结 VLA 加一层可撤销的任务记忆：证据变了，依赖它的“已完成”状态也必须重审。
 - **[NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)** (2026-10-07) · [Code](https://github.com/metacognitionai/NavGPT-3) · [Project](https://metacognitionai.github.io/NavGPT3/)
   让推理、导航执行和监控拥有各自上下文，由运行时分配运动控制权，连接前沿模型与导航 VLA。
 - **[Recursive Video In-Context Learning for Agentic Robot](https://arxiv.org/abs/2610.06843v1)** (2026-10-05) · [Code](https://github.com/BWR-hhh/rvicl) · [Project](https://bwr-hhh.github.io/rvicl/)
@@ -125,11 +154,17 @@
   把机器人自我改进组织成分层技能工程：定位负责的分支、局部修复、验证后再复用。
 - **[Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement](https://arxiv.org/abs/2610.12369v1)** (2026-10-08)
   让编码智能体离线改进策略库，机器人执行时只运行固定代码，以显式状态连接感知、决策和恢复。
+- **[PhysEvo: Astra Can Act, Let It](https://arxiv.org/abs/2610.08995v1)** (2026-10-06)
+  冻结 Astra，让执行 Agent 行动、元 Agent 根据轨迹修订工具和技能，连诊断工具本身也能迭代。
 - **[EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)** (2026-10-06) · [Project](https://hyunjung00.github.io/emho/)
   冻结具身模型，把执行轨迹变成改进规划、感知工具和失败恢复逻辑的依据。
+- **[Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools](https://arxiv.org/abs/2609.39018v1)** (2026-09-30) · [Project](https://hexafuture.ai/blog/urai/)
+  把多阶段动作封装成可执行工具，每次工具运行后再由 Agent 根据反馈决定下一步。
 
 ### 基准与评测
 
+- **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)** (2026-10-09)
+  让机载小模型选择行为树技能，由本地检查及时中断异常执行，并用结构化反馈支持重试。
 - **[Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena](https://arxiv.org/abs/2610.00854v1)** (2026-10-01)
   用几何、空间关系、可供性、规划和操作五个维度，检查前沿 VLM 的局部优势能否转化为完整任务成功。
 - **[LIBERO-Agent: Evaluating General-Purpose Agents for Direct Embodied Manipulation](https://arxiv.org/abs/2609.39507v1)** (2026-09-30) · [Code](https://github.com/dzj441/Libero-Agent)

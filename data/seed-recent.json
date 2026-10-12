@@ -688,5 +688,378 @@
     "figureHint": {
       "figureLabel": "Figure 2"
     }
+  },
+  {
+    "id": "2609.39018",
+    "arxivId": "2609.39018",
+    "version": 1,
+    "title": "Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools",
+    "shortTitle": "URAI",
+    "date": "2026-09-30",
+    "year": 2026,
+    "authors": "Shijia Ge and Alex Zhou and Jianshu Zeng and Yexing Wan and Di Wu and Zelin Zheng and Yazhe Wang and Zhiqi Jia and Xuan Shangguan and Jay Zhu and Yijun Liu and Lingyu He and Sihang Wu and Xiao He and Hongcheng Gao",
+    "categories": [
+      "code",
+      "planning",
+      "recovery",
+      "learning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "把多阶段动作封装成可执行工具，每次工具运行后再由 Agent 根据反馈决定下一步。",
+    "problem": "逐个末端位姿询问大模型很慢；如何减少决策次数，同时保留执行后的观察与调整？",
+    "method": "编程 Agent 编写并验证工具，执行 Agent 选择工具及参数；一次调用在本地完成多阶段动作，然后把反馈交还模型。工具改进在回合间进行，评测前冻结，模型权重保持不变。",
+    "findings": [
+      "5 个 RoboDojo 任务 × 5 个种子 × 4 种执行 Agent：工具接口的汇总成功率为 53%，直接末端控制为 18%；Astra 分别为 52% 和 16%。",
+      "两种 Agent 在相同工具上的对照：预先写好程序成功 12/50，调用间继续决策成功 28/50。",
+      "7 项真机任务中，折衣成功 8/10、投块成功 7/10；3 种仿真 Agent 的执行阶段耗时减少、输出 tokens 降低，DeepSeek 的成本变化较小。"
+    ],
+    "limitations": [
+      "每个仿真条件每任务仅 5 次；换块任务的工具同时改变了动作语义，不能把增益全部归因于调用粒度。URAI 与直接控制的时限分别为 45 和 60 分钟。",
+      "工具开发和作者指导的时间与 tokens 未计入执行成本；真机对照来自其他硬件上的公开结果，不是同机配对实验。",
+      "部分真机任务仅 3 次；折衣的 90% 平均进度不等于 80% 整体成功率。工具可移植性和无人工指导的持续改进尚未建立。"
+    ],
+    "role": {
+      "model": "工具调用之间观察、选择与参数化下一步",
+      "output": "一次完整多阶段动作的工具调用",
+      "memory": "当前回合的观察与执行反馈；持久化工具版本",
+      "recovery": "工具完成或中断后重新观察；开发阶段修订工具",
+      "adaptation": "代码与调用策略的验证迭代；模型权重固定"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.39018v1",
+      "project": "https://hexafuture.ai/blog/urai/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "工具开发与在线反馈决策的分工",
+        "source": "https://arxiv.org/pdf/2609.39018v1#page=5",
+        "label": "Figure 2 / 第 3 节",
+        "page": 5
+      },
+      {
+        "claim": "5 任务、4 模型的成功率及相同工具程序对照",
+        "source": "https://arxiv.org/pdf/2609.39018v1#page=6",
+        "label": "Table 1 / 第 4.1 节",
+        "page": 6
+      },
+      {
+        "claim": "真机成功率、进度指标及成本口径",
+        "source": "https://arxiv.org/pdf/2609.39018v1#page=7",
+        "label": "Table 3 / 第 4.2 节",
+        "page": 7
+      },
+      {
+        "claim": "小样本、跨硬件对照与未计入的工具开发成本",
+        "source": "https://arxiv.org/pdf/2609.39018v1#page=8",
+        "label": "第 5 节局限",
+        "page": 8
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "2026新工作",
+      "GPT-6 Astra",
+      "代码工具",
+      "动作粒度",
+      "执行反馈"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1",
+      "page": 2
+    }
+  },
+  {
+    "id": "2610.08995",
+    "arxivId": "2610.08995",
+    "version": 1,
+    "title": "PhysEvo: Astra Can Act, Let It",
+    "shortTitle": "PhysEvo",
+    "date": "2026-10-06",
+    "year": 2026,
+    "authors": "Wenqing Tian and Zeyu Zhang and Zhaocheng Liu and Fengwei Liu and Qiang Liu and Liang Wang",
+    "categories": [
+      "code",
+      "learning",
+      "recovery",
+      "spatial"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "冻结 Astra，让执行 Agent 行动、元 Agent 根据轨迹修订工具和技能，连诊断工具本身也能迭代。",
+    "problem": "模型能提出动作，但失败可能来自关节控制权限、观察视角或诊断接口不足。",
+    "method": "同一冻结模型承担执行与元 Agent 两种角色；开发阶段检验并保留工具、技能和诊断代码修改，部署版本在留出测试中固定。",
+    "findings": [
+      "RoboDojo 42 项任务、每项 5 个留出布局：五能力维度等权的成功率 62.00%，Score 68.14；42 项任务等权时成功率为 58.57%。",
+      "AgileX PiPER 上继续修订技能后，5 项任务共 25 次试验成功率 84.00%；这是继续适应后的结果。",
+      "演化出的接口支持关节级姿态控制、空闲手臂主动观察，以及历史图像与机器人状态对齐回看。"
+    ],
+    "limitations": [
+      "每项任务保留自己的部署版本，结果不等于同一个未经任务适配的通用策略。",
+      "基线来自公开报告，开发预算和评测记录不同；真机样本仅 25 次，且进行了部署后技能修订。"
+    ],
+    "role": {
+      "model": "冻结 Astra 分别承担在线执行和离线修订",
+      "output": "动作/观察工具调用与经测试的软件修订",
+      "memory": "回合内观测历史、跨回合技能和诊断工具",
+      "recovery": "检查失败轨迹，调整姿态、观察方式或技能",
+      "adaptation": "开发中修改 task/meta harness；留出评测冻结版本"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08995v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "同一冻结模型及 task/meta harness 的修订边界",
+        "source": "https://arxiv.org/html/2610.08995v1#S3",
+        "label": "第 3 节 / Figure 2"
+      },
+      {
+        "claim": "关节级控制、主动观察与轨迹回看",
+        "source": "https://arxiv.org/html/2610.08995v1#S4",
+        "label": "第 4 节"
+      },
+      {
+        "claim": "五维等权与任务等权结果、每任务部署版本",
+        "source": "https://arxiv.org/html/2610.08995v1#S5.SS2",
+        "label": "第 5.1–5.2 节 / Table 1"
+      },
+      {
+        "claim": "真机继续适应后的 25 次试验",
+        "source": "https://arxiv.org/pdf/2610.08995v1#page=11",
+        "label": "第 5.6 节 / Table 4，PDF 第 11 页"
+      },
+      {
+        "claim": "基线来自不同公开记录及聚合方式",
+        "source": "https://arxiv.org/pdf/2610.08995v1#page=17",
+        "label": "附录 B.2，PDF 第 17 页"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "GPT-6 Astra",
+      "递归改进",
+      "主动观察",
+      "可演化工具"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 2",
+      "page": 4
+    }
+  },
+  {
+    "id": "2610.12710",
+    "arxivId": "2610.12710",
+    "version": 1,
+    "title": "REMM: Revisable Embodied Memory for Manipulation",
+    "shortTitle": "REMM",
+    "date": "2026-10-08",
+    "year": 2026,
+    "authors": "Revanth Krishna Senthilkumaran and Ruwan Wickramarachchi and Alessandro Oltramari and Jonathan Francis",
+    "categories": [
+      "memory",
+      "planning",
+      "recovery",
+      "policies"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "real"
+    ],
+    "summaryZh": "给冻结 VLA 加一层可撤销的任务记忆：证据变了，依赖它的“已完成”状态也必须重审。",
+    "problem": "历史记录仍然正确，不代表它支持的当前任务状态依然成立；物理干预后需要撤销过期结论。",
+    "method": "分离只追加的证据账本与当前状态，用显式支持依赖连接事实和任务条件；接受新证据后撤销下游结论，在已验证的技能边界安排修复。",
+    "findings": [
+      "51 次真机试验（包含操作员辅助）中，干预恢复和序列回忆的平均记录任务进度分别为 91% 和 70%，最强基线为 57% 和 43%；这些不是成功率。",
+      "REMM 的 17 次试验有 10 次完整完成，其中 2 次包含任务辅助；另 7 次为部分完成。",
+      "冻结 G0.5 执行动作，Qwen3-VL-4B 与检测器提供受约束的分解和验证；不进行 REMM 专用参数训练。"
+    ],
+    "limitations": [
+      "依赖规则来自任务编译器和固定谓词体系，并非从轨迹自动发现因果结构。",
+      "小规模、单机器人且含人工辅助；恢复仅在静止技能边界触发，不能中断正在执行的动作块。",
+      "物理基线和视频诊断中的部分方法是受控适配；视频决策结果不能当作低层策略的真机成功率。"
+    ],
+    "role": {
+      "model": "冻结 G0.5 执行；冻结 Qwen 提供分解与验证",
+      "output": "当前原子指令、支持依赖撤销和恢复队列",
+      "memory": "只追加证据账本、可修订状态投影、显式支持图",
+      "recovery": "新事实使依赖结论失效，在技能边界插入修复",
+      "adaptation": "更新外部记忆与指令；不训练执行器权重"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12710v1",
+      "project": "https://revanthsenthil.github.io/remm/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "证据账本、状态投影和依赖撤销机制",
+        "source": "https://arxiv.org/html/2610.12710v1#S3",
+        "label": "第 III 节 / Figure 2"
+      },
+      {
+        "claim": "任务进度定义和缺失记录回退规则",
+        "source": "https://arxiv.org/html/2610.12710v1#S4.SS3",
+        "label": "第 IV-C 节"
+      },
+      {
+        "claim": "17 次 REMM 试验、辅助情况与任务进度",
+        "source": "https://arxiv.org/html/2610.12710v1#S5",
+        "label": "第 V-A/V-B 节"
+      },
+      {
+        "claim": "人工依赖规则、技能边界和评测限制",
+        "source": "https://arxiv.org/html/2610.12710v1#S6.SS2",
+        "label": "第 VI-B 节"
+      },
+      {
+        "claim": "实现和试验材料计划经项目页发布",
+        "source": "https://arxiv.org/html/2610.12710v1#S6.SS2",
+        "label": "第 VI-B 节末"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "announced",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "可修订记忆",
+      "冻结VLA",
+      "支持依赖",
+      "失败恢复"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 2",
+      "page": 3
+    }
+  },
+  {
+    "id": "2610.13862",
+    "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+    "shortTitle": "BT-Agent",
+    "date": "2026-10-09",
+    "year": 2026,
+    "authors": "Fabio Hübel and Adam Lilja and Yue Yin and Siming He and Claire Tomlin and Shankar Sastry and Jonas Frey and Marco Pavone",
+    "categories": [
+      "planning",
+      "recovery",
+      "evaluation",
+      "memory"
+    ],
+    "tasks": [
+      "navigation",
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "让机载小模型选择行为树技能，由本地检查及时中断异常执行，并用结构化反馈支持重试。",
+    "problem": "有限机载算力下，如何兼顾任务推理、失败恢复，以及不等待模型推理的及时执行检查？",
+    "method": "Actor 根据任务、历史摘要和对象存储选择技能与参数；Supervisor BT 逐个调度固定技能，局部 guard 每次 tick 检查取消、超时和运行条件，并返回失败原因。",
+    "findings": [
+      "161 项文本任务、每项 3 个种子，9B BT-Agent 成功率 54.7%，ReAct 为 49.7%；方法共用技能和执行检查。",
+      "Spot + Jetson Thor 上的 9B 系统在 5 项任务、每项 3 次中完成 11/15；推理与控制均在机载运行，运动需操作者批准。",
+      "9 次运动中干预，局部接受后速度命令归零的中位延迟为 19 ms；这是指令响应时间，不是机器人完全停稳时间。"
+    ],
+    "limitations": [
+      "技能实现和 guard 在运行时固定；新能力仍需人工编写技能及平台适配，不能据此声称系统自动学习新技能。",
+      "场景记忆与导航图预先构建；真机仅 15 次任务试验，视觉读表任务 0/3，尚不足以证明开放环境中的广泛可靠性。",
+      "161 项任务主要在文本环境评测，仅 39 项做 Habitat 配对；四方法合计只有 168/293 次文本成功同时在仿真成功。"
+    ],
+    "role": {
+      "model": "机载 Qwen3.5 9B 选择技能；视觉由感知技能处理",
+      "output": "结构化技能名称与参数",
+      "memory": "历史摘要、类型化对象存储及预建场景图",
+      "recovery": "局部 guard 中断 + 失败诊断反馈 + Actor 重试",
+      "adaptation": "模型权重不变；运行时不修改技能与 guard"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13862v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "Actor、Supervisor BT 与逐 tick guard 的职责；模型不能修改技能和检查逻辑",
+        "source": "https://arxiv.org/html/2610.13862v1#S3",
+        "label": "第 III 节 / Figure 1（PDF 第 1–2 页）"
+      },
+      {
+        "claim": "161 项文本任务、三种子、共享技能条件及 9B 54.7% 对 49.7%",
+        "source": "https://arxiv.org/html/2610.13862v1#S5.T5",
+        "label": "第 V-B 节 / Table V（PDF 第 5–6 页）"
+      },
+      {
+        "claim": "39 项任务的文本与 Habitat 差距；168/293 为四种方法汇总",
+        "source": "https://arxiv.org/html/2610.13862v1#S5.F4",
+        "label": "Figure 4 / 第 V-C 节（PDF 第 6–7 页）"
+      },
+      {
+        "claim": "机载配置、运动批准和 11/15 次真机任务成功",
+        "source": "https://arxiv.org/html/2610.13862v1#S5.SS4",
+        "label": "第 V-D 节 / Figure 5（PDF 第 7 页）"
+      },
+      {
+        "claim": "19 ms 是速度命令归零的中位延迟，而非物理停稳时间",
+        "source": "https://arxiv.org/html/2610.13862v1#S5.F7",
+        "label": "Figure 7 / 第 V-D2 节（PDF 第 7–8 页）"
+      },
+      {
+        "claim": "新技能仍需编写与平台适配，技能和 guard 在运行时固定",
+        "source": "https://arxiv.org/html/2610.13862v1#S6.SS1",
+        "label": "第 VI-A 节（PDF 第 8 页）"
+      },
+      {
+        "claim": "作者宣布将以 Apache-2.0 公开实现与基准；当前正文未给出仓库链接",
+        "source": "https://arxiv.org/html/2610.13862v1#S1",
+        "label": "第 I 节末（PDF 第 2 页）"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "announced",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "2026新工作",
+      "arXiv预印本",
+      "机载Agent",
+      "行为树",
+      "失败恢复",
+      "Qwen3.5"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1",
+      "page": 1
+    }
   }
 ]

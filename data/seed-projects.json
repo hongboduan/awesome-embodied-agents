@@ -8,9 +8,20 @@
     "year": null,
     "addedAt": "2026-10-12",
     "authors": "LoopMaster（官方项目）",
-    "categories": ["code", "memory", "learning", "planning", "recovery"],
-    "tasks": ["manipulation"],
-    "environment": ["simulation", "real"],
+    "categories": [
+      "code",
+      "memory",
+      "learning",
+      "planning",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
     "summaryZh": "前台用历史观察与动作反馈驱动代码执行，后台把失败和修正整理为跨回合 Skills，让操作经验有机会被后续任务复用。",
     "summaryEn": "An agentic robot runtime combining within-episode observation and action feedback with background consolidation of reusable cross-episode Skills. The official project reports 82/100 successes on a selected ten-task simulation subset; component ablations are ongoing.",
     "problem": "通用智能体能调用机器人工具，但如何持续理解执行进度，并把一次操作中的失败和修正留给后续任务？",
@@ -68,7 +79,15 @@
     "review": "source-checked",
     "codeStatus": "announced",
     "lastChecked": "2026-10-12",
-    "tags": ["项目预览", "GPT-6 Astra", "Code as Policy", "具身上下文", "技能库", "并行学习", "双臂操作"],
+    "tags": [
+      "项目预览",
+      "GPT-6 Astra",
+      "Code as Policy",
+      "具身上下文",
+      "技能库",
+      "并行学习",
+      "双臂操作"
+    ],
     "curated": true,
     "deepRead": false,
     "figure": {
@@ -84,11 +103,132 @@
       "xiaohongshu": {
         "title": "LoopROS：让机器人把经验存成 Skills",
         "body": "机器人做完一次任务，下一次能留下什么？\n\nLoopROS 给出一种系统设计：前台把当前与历史图像、动作回执和任务进度放进具身上下文，由 GPT-6 Astra 规划并调用机器人工具；后台回放执行记录，把失败、修正和适用条件整理成可检索 Skills，供后续回合复用。\n\n我觉得值得关注的是：能力积累的载体可以是上下文与技能库。哪些经验该存、何时该取、换了环境还是否适用，成为系统设计的核心问题。\n\n作者报告 RoboDojo 10 个选定任务、100 回合，Score 88.90、成功率 82%。这是仿真子集结果；官网另有双臂削皮和定厚切片演示，但没有公布真机统计成功率。\n\n截至 2026-10-12，论文和代码仍待公开，Skills 等模块的消融也在进行。因此更适合关注它的机制和后续证据，暂不能把这个成绩解释成已证明的持续自我进化。\n\n项目：https://loopmaster.ai/loopros/",
-        "tags": ["具身智能", "EmbodiedAgent", "机器人", "GPT6Astra", "论文与项目解读"]
+        "tags": [
+          "具身智能",
+          "EmbodiedAgent",
+          "机器人",
+          "GPT6Astra",
+          "论文与项目解读"
+        ]
       },
       "wechat": {
         "title": "LoopROS：把一次机器人操作，变成后续任务可用的经验",
         "body": "机器人在任务里发现了一种更好的操作方式，这段经验如何进入下一次执行？LoopROS 尝试把答案放在具身上下文和可检索 Skills 中。\n\n它把机器人结构、坐标系、传感器、工具接口与任务约束组织成上下文。前台执行时，GPT-6 Astra 结合当前和历史图像、动作回执与任务进度规划，通过代码调用机器人工具，并继续根据反馈修正行动。后台则回放执行记录，把问题、修正方法和适用条件整理为 Skills。后续任务复用这些经验前，还要检查目标、环境和工具是否匹配。\n\n与 COAP 在执行阶段运行固定代码的设计相比，按公开介绍理解，LoopROS 将智能体保留在在线观察和决策过程中。它值得讨论的地方，是经验如何跨回合保存、检索和应用。这是对系统分工的理解，尚不能视为某条路线已经胜出的实验结论。\n\n官方报告在 RoboDojo 的 10 个选定任务中完成 100 回合，任务等权平均 Score 为 88.90，最终成功率为 82%，失败回合包含在内。这里的 Score 和成功率是两个指标；子集与不同对照方法的评测条件也不完全一致。官网另有双臂削黄瓜皮和 4/8/10 mm 定厚切片演示，视频无剪辑但加速播放，主要压缩模型 API 等待；这些演示没有给出真机重复试验成功率。\n\n截至 2026-10-12，Paper 与 GitHub 仍显示 Coming soon，历史图像、回合内上下文和跨回合 Skills 的消融仍在进行。因而目前可以确认的是团队公开的系统设计和自报结果，持续自我改进究竟带来多少增益，仍需后续证据。\n\n项目：https://loopmaster.ai/loopros/"
+      }
+    }
+  },
+  {
+    "id": "physicalrsi",
+    "sourceType": "project",
+    "title": "Physical RSI 1.0: Recursive Self-Harness for Scaling Embodied Skills",
+    "shortTitle": "PhysicalRSI",
+    "date": null,
+    "year": null,
+    "addedAt": "2026-10-12",
+    "releaseDate": "2026-10-05",
+    "releaseVersion": "0.2.0",
+    "authors": "MMLab & PhysicalRSI contributors",
+    "categories": [
+      "code",
+      "memory",
+      "learning",
+      "recovery",
+      "planning"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "让大模型依据执行证据修改技能、记忆与工具，再用新场景成对评测，选择下一轮继承的控制程序。",
+    "summaryEn": "A preview system for embodied self-harness: propose changes to skills, memory and tools, evaluate frozen candidates on fresh paired cases, select a survivor and preserve evidence and lineage.",
+    "problem": "机器人可以根据一次失败修改程序，但怎样验证修改确实有效、保留正确经验，并防止新补丁破坏已有技能？",
+    "method": "系统分为两种时间尺度：System 1 读取观察、任务和记忆快照，执行绑定的代码或 VLA 技能；System 2 根据开发阶段的成功与失败证据提出修改，将 Memory、Skill、Tool 的相关依赖作为一个候选，在新验证场景中与父版本成对比较，通过选择与回归检查后继承。公开架构明确指出 System 2 并非每个动作步骤都会调用。",
+    "findings": [
+      "官网展示截至 2026-09-28 的 RoboDojo-Sim 榜单快照，并列出作者提供的总体结果：Score 36.00、成功率 31%；这是带日期的历史展示，并非当前实时排名。",
+      "公开 RoboDojo 集成提供 π0.5、带因果视觉历史的 π0.5-sparse-memory，以及 code-policy 三类技能接口。",
+      "项目页展示跨任务视觉定位复用和 40 个任务中的 212 段技能视频；这些数字描述展示素材规模，不代表 212 个独立验证的新技能。",
+      "官方仓库已公开 Apache-2.0 许可的 preview；CITATION.cff 标注软件 v0.2.0 发布于 2026-10-05，项目首发日期未核实。"
+    ],
+    "limitations": [
+      "当前按项目与开源软件收录，未在官方项目页及引用信息中核实独立论文或 arXiv 链接。软件版本日期不等于项目或论文首发日期。",
+      "历史榜单成绩、选取的 rollout、开发迭代和软件示例是不同证据，不能相互替代；部分任务或类别均值由可用结果估计，官网用 ≈ 标记。",
+      "公开核心文档说明，CPU 测试和证据一致性检查不等于具身基准增益或真机验证；传感器、评分器准确性和物理可复现性仍需实际评估。",
+      "当前 Self-Harness 在单次迭代中固定基础模型，主要改进外围控制程序、记忆、工具和技能，不能解读为基础模型权重自动递归提升。"
+    ],
+    "role": {
+      "model": "System 2 理解任务并依据执行证据提出修改",
+      "output": "带版本的代码、技能、工具和记忆候选",
+      "memory": "不可变记忆快照、回合状态与版本证据链",
+      "recovery": "失败归因后提出候选，与父版本成对验证",
+      "adaptation": "提出、评估、选择、继承；限制任务退化并保留证据"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://mmlab.hk/research/PhysicalRSI",
+      "code": "https://github.com/PhysicalRSI/PhysicalRSI"
+    },
+    "evidence": [
+      {
+        "claim": "System 1 / System 2 分工、三类技能、带依赖的候选与成对评测",
+        "source": "https://github.com/PhysicalRSI/PhysicalRSI/blob/main/docs/architecture.md",
+        "label": "官方架构文档：Self-Harness and lineage"
+      },
+      {
+        "claim": "Self-Harness 改进流程、固定基础模型及软件验证边界",
+        "source": "https://github.com/PhysicalRSI/PhysicalRSI/blob/main/PhysicalRSI_core/README.md",
+        "label": "官方核心模块说明"
+      },
+      {
+        "claim": "2026-09-28 历史榜单快照、技能视频与估计值标记",
+        "source": "https://mmlab.hk/research/PhysicalRSI",
+        "label": "官方项目页：评测与数据来源"
+      },
+      {
+        "claim": "软件 v0.2.0 的 2026-10-05 发布日期与项目作者署名",
+        "source": "https://github.com/PhysicalRSI/PhysicalRSI/blob/main/CITATION.cff",
+        "label": "官方软件引用元数据"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "项目预览",
+      "开源",
+      "Self-Harness",
+      "System 1/2",
+      "递归改进",
+      "技能库",
+      "VLA工具调用"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figure": {
+      "kind": "project-image",
+      "path": "assets/papers/physicalrsi-project.jpg",
+      "figureLabel": "官方仿真演示",
+      "sourceLabel": "PhysicalRSI 项目演示",
+      "sourceUrl": "https://mmlab.hk/research/PhysicalRSI",
+      "originalUrl": "https://yanming03.github.io/PhysicalRSI/v2/media/cover_blocks-0.jpg",
+      "caption": "Cover blocks 任务的初始可见方块布局，来自项目维护者发布的演示素材。此图为仿真演示画面，非论文框架图；图像归原作者。"
+    },
+    "social": {
+      "xiaohongshu": {
+        "title": "PhysicalRSI：让机器人验证自己的补丁",
+        "body": "机器人失败后，会改代码还不够。更难的问题是：改完真的更好吗？\n\nPhysicalRSI 把改进组织成“提出—评估—选择—继承”：System 1 执行已有技能，System 2 从成功和失败记录中提出技能、工具或记忆修改，再让候选与原版本在新场景中成对评测，检查退化后决定是否保留。\n\n它最值得研究的地方，是如何把改进变成可核查的实验：固定比较条件，保留失败与证据，追踪每个技能版本。代码技能和 π0.5 也可以作为同一系统中的不同工具。\n\n官网的历史展示标注 2026-09-28，作者提供的总体 Score 为 36、成功率 31%。这不代表当前实时排名，也不能直接与 LoopROS 的十任务子集成绩比较。\n\n目前代码已开源，仍是 preview。公开文档也明确：软件检查通过，不等于真机成功；这套循环也不是基础模型权重在自动递归提升。\n\n项目：https://mmlab.hk/research/PhysicalRSI",
+        "tags": [
+          "具身智能",
+          "EmbodiedAgent",
+          "机器人",
+          "递归自改进",
+          "代码策略"
+        ]
+      },
+      "wechat": {
+        "title": "PhysicalRSI：机器人自我改进，关键在于如何验证下一版",
+        "body": "如果一台机器人在操作失败后可以修改自己的程序，下一步的问题就是：什么证据足以让它采用新版本？PhysicalRSI 把这个问题放到系统设计的中心。\n\n它把执行与改进分成两种时间尺度。System 1 读取观察、目标和记忆快照，执行已经绑定的技能并记录当前回合状态；System 2 使用开发阶段的成功与失败证据，提出代码、记忆或工具修改，在新验证输入上比较候选和父版本，再决定下一轮继承什么。官方架构文档明确指出，System 2 并不是每个动作步骤都要调用。\n\n公开的 RoboDojo 集成提供 π0.5、带因果视觉历史的 π0.5-sparse-memory 和 code-policy 三类技能。这里的一个启发是，学习策略与代码策略可以成为统一系统中可选择、可组合的能力。持续改进需要处理的，既包括动作质量，也包括记忆如何更新、技能如何调用、补丁如何避免破坏已有能力。\n\n官网标注 2026-09-28 的历史评测展示中，作者提供的总体 Score 为 36.00、成功率为 31%。两个指标含义不同，这也不是当前实时榜单；更不能直接与只选择十个任务评测的系统成绩比较。网站还展示了跨任务视觉定位复用，以及四十个任务中的二百一十二段技能视频，这些数字代表展示素材规模，而非经过独立统计验证的新技能数。\n\n目前项目已提供 Apache-2.0 许可的开源 preview。软件引用文件标注 v0.2.0 发布于 2026-10-05，项目首发日期没有核实，也未在官方资源中找到独立论文链接。公开核心文档对边界说得很清楚：CPU 测试和证据一致性检查，不能代替具身基准增益或真机验证；当前 Self-Harness 主要改进外围系统，并不自动提升基础模型权重。\n\n我的理解是，它值得关注的研究问题是如何衡量、筛选和继承一次改进。让机器人持续修改程序只是起点，让每次修改留下足够的对照证据，才决定这条路线能走多远。\n\n项目：https://mmlab.hk/research/PhysicalRSI"
       }
     }
   }

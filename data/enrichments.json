@@ -518,31 +518,31 @@
       "textPages": 30,
       "textTruncated": false,
       "textPath": ".cache/papers/2610.08995-v1.text.json",
-      "extractedAt": "2026-10-11T09:07:22Z"
+      "extractedAt": "2026-10-12T08:59:04Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: Physical RSI in PhysEvo: execute, diagnose, revise, test, and inherit. The lower panel compares success on eight challenging tasks for Direct Astra (table 3).",
-      "figureLabel": "Figure 1",
-      "selection": "automatic",
+      "caption": "Figure 2: Physical RSI in PhysEvo. A frozen Astra acts through the task harness and revises both task and meta resources from execution feedback. Accepted revisions support later episodes and improvement rounds.",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
       "path": "assets/papers/2610.08995-v1.png",
       "sourceUrl": "https://arxiv.org/pdf/2610.08995v1",
-      "page": 1,
+      "page": 4,
       "version": 1,
-      "width": 961,
-      "height": 407,
+      "width": 959,
+      "height": 398,
       "crop": [
-        66.0,
-        458.92,
-        546.01,
-        661.96
+        64.21,
+        140.1,
+        543.48,
+        338.98
       ]
     },
-    "extractionFingerprint": "3ab234daa08f83f5",
+    "extractionFingerprint": "6c664d96a20d5408",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "已核对的中文解读保留。"
     }
   },
   "2610.08595": {
@@ -986,13 +986,13 @@
       "textPages": 9,
       "textTruncated": false,
       "textPath": ".cache/papers/2610.13862-v1.text.json",
-      "extractedAt": "2026-10-12T06:07:10Z"
+      "extractedAt": "2026-10-12T08:59:07Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Fig. 1. BT-Agent separates onboard task reasoning from reactive execution. The Actor selects skills, a supervisor dispatches them,",
+      "caption": "Fig. 1. BT-Agent separates onboard task reasoning from reactive execution. The Actor selects skills, a supervisor dispatches them, and local guards enforce execution conditions. Observations and failure feedback guide subsequent decisions.",
       "figureLabel": "Figure 1",
-      "selection": "automatic",
+      "selection": "source-hint",
       "path": "assets/papers/2610.13862-v1.png",
       "sourceUrl": "https://arxiv.org/pdf/2610.13862v1",
       "page": 1,
@@ -1006,11 +1006,11 @@
         314.04
       ]
     },
-    "extractionFingerprint": "3ab234daa08f83f5",
+    "extractionFingerprint": "050c3aec1a4c75a8",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "已核对的中文解读保留。"
     }
   },
   "2610.13534": {
@@ -1337,13 +1337,13 @@
       "textPages": 20,
       "textTruncated": false,
       "textPath": ".cache/papers/2609.39018-v1.text.json",
-      "extractedAt": "2026-10-12T06:07:40Z"
+      "extractedAt": "2026-10-12T08:54:39Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1. URAI overview. (a) A programming agent writes and validates reusable and task-specific tools. An execution agent selects tools from observations and feedback, while a shared GUI/API backend grounds, checks, and executes multi-phase motions locally. Fading outlines in the demonstration-video frames indicate earlier arm poses within one tool call. (b) Decision boundaries: direct control queries the model for each end-effector command; Code as Policies delegates subsequent decisions to generated code, which may query perception; URAI returns control to the agent between tool executions.",
       "figureLabel": "Figure 1",
-      "selection": "automatic",
+      "selection": "source-hint",
       "path": "assets/papers/2609.39018-v1.png",
       "sourceUrl": "https://arxiv.org/pdf/2609.39018v1",
       "page": 2,
@@ -1357,11 +1357,11 @@
         284.64
       ]
     },
-    "extractionFingerprint": "3ab234daa08f83f5",
+    "extractionFingerprint": "4a2bfa93464262c7",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "已核对的中文解读保留。"
     }
   },
   "2609.39207": {
@@ -1830,6 +1830,45 @@
       "status": "not-configured",
       "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12710": {
+    "arxivId": "2610.12710",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12710",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12710v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12710-v1.text.json",
+      "extractedAt": "2026-10-12T08:59:05Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. System and memory architecture. Left: REMM converts a long-horizon instruction and multi-view observations into the current atomic instruction for a frozen G0.5 executor, which predicts action-code tokens and action chunks for the Galaxea R1 Lite; new observations and robot state close the loop after execution. Right: a task decomposer and skill contracts define the active skill, frozen perception and visual verification produce accepted typed events, and an append-only ledger maintains an active-state projection and support graph. When new evidence supersedes a supporting fact, dependency invalidation withdraws affected goal records before REMM schedules a repair skill or issues the revised next query. Snowflakes denote frozen models.",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
+      "path": "assets/papers/2610.12710-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12710v1",
+      "page": 3,
+      "version": 1,
+      "width": 1039,
+      "height": 333,
+      "crop": [
+        46.99,
+        46.08,
+        565.82,
+        212.33
+      ]
+    },
+    "extractionFingerprint": "181c139118a0c367",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "已核对的中文解读保留。"
     }
   }
 }
