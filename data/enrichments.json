@@ -625,27 +625,27 @@
   },
   "2610.07594": {
     "arxivId": "2610.07594",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.07594",
-      "sourceUrl": "https://arxiv.org/pdf/2610.07594v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.07594v2",
+      "version": 2,
       "pageCount": 23,
       "textPages": 23,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.07594-v1.text.json",
-      "extractedAt": "2026-10-11T09:07:31Z"
+      "textPath": ".cache/papers/2610.07594-v2.text.json",
+      "extractedAt": "2026-10-12T06:07:22Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1: BiGym 2.0: Auditing learned and agent-developed household manipulation on a walking humanoid. The suite evaluates data-driven policies and coding agents across 20 tasks spanning reaching, tabletop, dishwasher and kitchen-counter scenes. Tasks test hand choice, bimanual coordination, articulated fixtures, multi-object transport and cross-workspace block stacking. Human demonstrations, learned policies and agent programs execute through the same frozen whole-body controller, evaluating manipulation reliability under dynamic balance and footfall disturbances.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.07594-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.07594v1",
+      "path": "assets/papers/2610.07594-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07594v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 882,
       "height": 703,
       "crop": [
@@ -658,7 +658,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -926,6 +926,435 @@
         66.0,
         546.01,
         191.68
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12957": {
+    "arxivId": "2610.12957",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12957",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12957v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12957-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:06Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 JoyInside-VLM-Agent overview. Top: Real-world quadruped interactions show navigation with visual reporting (left), greeting (center), and dialogue (right). Bottom: Product-conditioned data construction (Stage 1) supplies trajectories and executable environments for SFT, multi-teacher OPD, and DPER (Stage 2). The right panel summarizes agent capabilities.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12957-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12957v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 739,
+      "crop": [
+        64.87,
+        71.95,
+        547.17,
+        441.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.13862": {
+    "arxivId": "2610.13862",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.13862",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13862v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.13862-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. BT-Agent separates onboard task reasoning from reactive execution. The Actor selects skills, a supervisor dispatches them,",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.13862-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13862v1",
+      "page": 1,
+      "version": 1,
+      "width": 1033,
+      "height": 302,
+      "crop": [
+        48.0,
+        163.63,
+        564.02,
+        314.04
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.13534": {
+    "arxivId": "2610.13534",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.13534",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13534v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.13534-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The 12 scenario families in MAGMA-Bench span manipulation, navigation, and coordination with one to three robots.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.13534-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13534v1",
+      "page": 1,
+      "version": 1,
+      "width": 1025,
+      "height": 437,
+      "crop": [
+        42.19,
+        379.11,
+        554.08,
+        597.32
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.13021": {
+    "arxivId": "2610.13021",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.13021",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13021v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.13021-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the construction process of EmbodiedCLBench. During task generation, basic tasks connect a few atomic actions into simple household operations, and advanced tasks com- bine elements from multiple basic tasks into compositional tasks. For each task, a state-transition graph is built, with each graph node as an intermediate state and paired with action options and a first-person-view image. During evaluation, the agent observes the current state and selects from candidate actions. After each selection, the agent transitions to the next node on the graph.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.13021-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13021v1",
+      "page": 4,
+      "version": 1,
+      "width": 817,
+      "height": 405,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        277.85
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12561": {
+    "arxivId": "2610.12561",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12561",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12561v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12561-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:18Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of our embodied agent memory evaluation protocol, on a real robot. During the experience phase, the agent takes in an instruction (1) and executes corresponding actions (2) while writing into its memory (3). During the request phase, the agent receives another instruction (4) and reads its memory (5) for relevant information in order to perform the correct actions (6).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12561-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12561v1",
+      "page": 3,
+      "version": 1,
+      "width": 971,
+      "height": 536,
+      "crop": [
+        62.08,
+        23.16,
+        547.13,
+        290.98
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02985": {
+    "arxivId": "2610.02985",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02985",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02985v1",
+      "version": 1,
+      "pageCount": 34,
+      "textPages": 34,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02985-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:24Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2610.02985-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02985v1",
+      "page": 1,
+      "version": 1,
+      "width": 1224,
+      "height": 1584,
+      "crop": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02204": {
+    "arxivId": "2610.02204",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02204",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02204v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02204-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. RPG constructs simulation practice tasks from an offline dataset to develop and refine reusable robot skills. In Reconstruct, an agent identifies manipulation capabilities from an offline dataset and constructs related practice tasks in simulation. In Practice, agents use execution feedback to revise shared skills and the system prompt, then validate the changes across tasks before retaining them. Skill revisions can benefit other tasks that use the same library. In Go Real, the improved system is calibrated and frozen for deployment on the physical robot. The bottom panel shows qualitative examples of real-world deployment. Quantitative evaluation is conducted on the three tasks reported in Sec. IV-E.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02204-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02204v1",
+      "page": 1,
+      "version": 1,
+      "width": 1016,
+      "height": 731,
+      "crop": [
+        52.4,
+        203.82,
+        559.68,
+        568.73
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.01939": {
+    "arxivId": "2610.01939",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.01939",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01939v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.01939-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 PyRUA-Lean combines primitive composition with selective feedback. (a) The tool-calling agent invokes robot primitives through tool calls. Operations that depend on preceding results generally require another VLM turn, and motion calls automatically return images and state. (b) PyRUA-Lean instead generates Python cells that compose robot primitives with helper functions, conditional checks, and local retries. Intermediate execution stays within the runtime, while explicitly requested images and state messages are recorded and returned at cell end for replanning. (c) A recorded placement example illustrates both mechanisms: one PyRUA-Lean cell replaces baseline steps 14–17, reducing four LLM turns to one. The cell computes a placement target from scene geometry (compose), conditionally executes lowering and release (compose), and requests an image only if the task remains",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.01939-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01939v1",
+      "page": 4,
+      "version": 1,
+      "width": 946,
+      "height": 376,
+      "crop": [
+        69.57,
+        71.95,
+        542.37,
+        259.2
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.40306": {
+    "arxivId": "2609.40306",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.40306",
+      "sourceUrl": "https://arxiv.org/pdf/2609.40306v1",
+      "version": 1,
+      "pageCount": 37,
+      "textPages": 37,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.40306-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of DynaHarness. The slow brain plans; the fast brain governs execution; the offline loop evaluates updates from recorded evidence.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.40306-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.40306v1",
+      "page": 3,
+      "version": 1,
+      "width": 802,
+      "height": 376,
+      "crop": [
+        105.96,
+        75.86,
+        506.05,
+        263.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.39915": {
+    "arxivId": "2609.39915",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39915",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39915v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39915-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: NavHarness framework. Adaptive goals guide execution; observation-based verification provides feedback for the next step and goal revision or advancement. Verified completion triggers multimodal memory compression. The two situations illustrate route following and recovery.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39915-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39915v1",
+      "page": 4,
+      "version": 1,
+      "width": 806,
+      "height": 461,
+      "crop": [
+        104.82,
+        78.56,
+        507.33,
+        308.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.39018": {
+    "arxivId": "2609.39018",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39018",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39018v1",
+      "version": 1,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39018-v1.text.json",
+      "extractedAt": "2026-10-12T06:07:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. URAI overview. (a) A programming agent writes and validates reusable and task-specific tools. An execution agent selects tools from observations and feedback, while a shared GUI/API backend grounds, checks, and executes multi-phase motions locally. Fading outlines in the demonstration-video frames indicate earlier arm poses within one tool call. (b) Decision boundaries: direct control queries the model for each end-effector command; Code as Policies delegates subsequent decisions to generated code, which may query perception; URAI returns control to the agent between tool executions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39018-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39018v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 534,
+      "crop": [
+        64.87,
+        18.44,
+        547.16,
+        284.64
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

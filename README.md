@@ -30,7 +30,7 @@ Automatically extracted illustrations retain their PDF source and page. A page p
 
 <!-- ATLAS:START -->
 
-299 papers · 39 curated · 38 source-checked · 1 full-review · 0 AI drafts · 260 discovery candidates
+307 papers · 39 curated · 38 source-checked · 1 full-review · 0 AI drafts · 268 discovery candidates
 
 ## Recent embodied agents · since 2026-09-01
 

@@ -1,5 +1,99 @@
 [
   {
+    "id": "version-2610.07594-v2",
+    "paperId": "2610.07594",
+    "type": "version",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.07594v2"
+  },
+  {
+    "id": "discovered-2610.12561",
+    "paperId": "2610.12561",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12561v1"
+  },
+  {
+    "id": "discovered-2610.12684",
+    "paperId": "2610.12684",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "Non-Prehensile Multi-Object Placement with Mobile Robots via Diffusion-Based Trajectory Planning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12684v1"
+  },
+  {
+    "id": "discovered-2610.12710",
+    "paperId": "2610.12710",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "REMM: Revisable Embodied Memory for Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12710v1"
+  },
+  {
+    "id": "discovered-2610.12957",
+    "paperId": "2610.12957",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.12957v1"
+  },
+  {
+    "id": "discovered-2610.13021",
+    "paperId": "2610.13021",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.13021v1"
+  },
+  {
+    "id": "version-2609.39304-v2",
+    "paperId": "2609.39304",
+    "type": "version",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.39304v2"
+  },
+  {
+    "id": "discovered-2610.13534",
+    "paperId": "2610.13534",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.13534v1"
+  },
+  {
+    "id": "discovered-2610.13643",
+    "paperId": "2610.13643",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.13643v1"
+  },
+  {
+    "id": "discovered-2610.13862",
+    "paperId": "2610.13862",
+    "type": "discovered",
+    "date": "2026-10-12T06:06:45Z",
+    "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.13862v1"
+  },
+  {
     "id": "discovered-2609.00619",
     "paperId": "2609.00619",
     "type": "discovered",

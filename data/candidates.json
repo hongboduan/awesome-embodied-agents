@@ -1,5 +1,282 @@
 [
   {
+    "id": "2610.13862",
+    "arxivId": "2610.13862",
+    "version": 1,
+    "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+    "shortTitle": "BT-Agent",
+    "date": "2026-10-09",
+    "year": 2026,
+    "authors": "Fabio Hübel and Adam Lilja and Yue Yin and Siming He and Claire Tomlin and Shankar Sastry and Jonas Frey and Marco Pavone",
+    "categories": [
+      "planning",
+      "memory",
+      "recovery",
+      "evaluation"
+    ],
+    "tasks": [
+      "navigation"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Deploying language-model agents onboard mobile robots requires task reasoning and responsive execution within limited compute and memory. We propose BT-Agent, an onboard architecture combining LLM-driven task decisions with predefined behavior-tree (BT) skills. These skills enforce execution conditions and return structured failure feedback. We demonstrate fully onboard operation with a 9B model on a quadruped across five task categories. Intervention tests show that local checks stop ongoing navigation without waiting for another model decision, while the agent remains active to retry or report constraints. To compare agent designs efficiently, we introduce a 161-task multi-fidelity benchmark, evaluated in text on all tasks and in Habitat on 39. Text supports 10.9$\\times$ higher evaluation throughput, while simulation reveals how perception and motion failures change task outcomes. BT-Agent's largest success gains over the strongest Act/ReAct baseline occur at 4B and 9B: approximately 10 and 5 percentage points. Ablations identify structured tool calls and informative failure feedback as the most useful components.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13862v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.13862v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-09T17:08:45Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
+    "id": "2610.13643",
+    "arxivId": "2610.13643",
+    "version": 1,
+    "title": "AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
+    "shortTitle": "AutoBio+",
+    "date": "2026-10-09",
+    "year": 2026,
+    "authors": "Xuanye Wu and Yue Shi and Yongcan Yang and Yiqun Wang and Zhaoqi Wan and Dayu Xia and Jiezhang Cao and Xiangfei Li and Yao Mu and Guangtao Zhai",
+    "categories": [
+      "spatial",
+      "code",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Automating biological laboratories requires robots to perform dexterous tool interactions under realistic visual conditions while handling dynamic experimental phenomena, presenting significant challenges for robotic manipulation. To enable systematic evaluation under these conditions, we introduce AutoBio+, a simulation benchmark and framework for dexterous manipulation in realistic biological laboratory environments. AutoBio+ comprises 14 tasks across 4 robot embodiments, spanning functional tool use, precision manipulation, language-conditioned visual grounding, and instrument operation. We introduce controllable dynamic experimental phenomena, including flames, vapor, and bubbles, to capture the evolving visual conditions of laboratory procedures. To further enhance environmental realism, we develop a hybrid rendering pipeline that integrates interactive simulated foreground objects with Gaussian-splatting backgrounds reconstructed from 6 real laboratory scenes. For efficient large-scale data generation and evaluation, we further build a parallel simulation framework on top of mjlab, proposing Parallel Finite-State Machine (PFSM) and integrating batched rendering with decoupled trajectory replay for demonstration generation and model-independent closed-loop policy evaluation. Our evaluation reveals substantial variation in policy performance across tasks, exposing distinct strengths and weaknesses of current manipulation policies. Real-world experiments further demonstrate a reduced sim-to-real gap, supporting the validity of AutoBio+ for realistic manipulation evaluation. Supplementary materials are available at https://autobio-plus.github.io/AutoBioPlus.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13643v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.13643v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-09T14:21:41Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
+    "id": "2610.13534",
+    "arxivId": "2610.13534",
+    "version": 1,
+    "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents under Dynamic Tasks and Execution Failures",
+    "shortTitle": "MAGMA-Bench",
+    "date": "2026-10-09",
+    "year": 2026,
+    "authors": "Loan Bernat and Matthieu Grard and Ariane Herbulot and Florent Lamiraux",
+    "categories": [
+      "planning",
+      "recovery",
+      "learning",
+      "evaluation"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Long-horizon embodied agents must maintain task-relevant information, coordinate heterogeneous robots, and adapt their decisions as execution unfolds. Existing benchmarks investigate dynamic task execution and embodied multi-agent coordination, but provide limited evaluation of their intersection. We introduce MAGMA-Bench, an architecture-agnostic benchmark for persistent task reasoning in dynamic multi-robot environments. MAGMA-Bench evaluates agents across increasing task horizons and controlled online perturbations, including execution failures, task interruptions, and mission updates, with scenarios requiring coordination across robots with heterogeneous capabilities. It uses a structured skill-level interface to separate task-level reasoning from perception and low-level control. We evaluate locally deployable open-weight planners, multi-agent state-tracking strategies, and frontier models. Even the strongest evaluated models fail on a substantial fraction of clean episodes, and their success rates decrease further under online perturbations. Supervised adaptation greatly improves a small model, but performance remains substantially lower on longer and multi-robot missions. We release the benchmark, 261,646 task-level training examples, and an architecture-agnostic expert-trace generation pipeline.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13534v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.13534v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-09T12:54:11Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
+    "id": "2610.13021",
+    "arxivId": "2610.13021",
+    "version": 1,
+    "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+    "shortTitle": "EmbodiedCLBench",
+    "date": "2026-10-09",
+    "year": 2026,
+    "authors": "Jie Huang and Yanan Chen and Ruixun Liu and Kaichen He and Xinyi He and Rui Huang and Zilong Zheng and Zhenliang Zhang and Yiwu Zhong",
+    "categories": [
+      "code",
+      "learning",
+      "evaluation"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCLBench, the first benchmark in embodied simulation for evaluating the continual learning capability of self-evolving agents. With compositional generalization as the core evaluation principle, our benchmark evaluates whether agents can first learn from basic tasks and then recombine the acquired skills to solve complex, unseen advanced tasks. Based on EmbodiedCLBench, we conduct extensive experiments across multiple agent harnesses and learning methods, revealing consistent limitations and distinctive behaviors. Our results show that while advanced tasks can be hardly solved under zero-shot setting, the experience from basic tasks enables consistent improvement. Such benefit from the experience remains stable even if the task complexity increases. However, this improvement does not scale accordingly with the number of learning samples, and current agents cannot extract meaningful information from additional experience. Collectively, our findings highlight continual learning as a fundamental yet underexplored capability, and our benchmark offers valuable resources for designing effective self-evolving agents in embodied environments. Our code and dataset are available at https://pku-value-lab.github.io/EmbodiedCLBench-homepage.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13021v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.13021v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-09T05:23:00Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
+    "id": "2610.12957",
+    "arxivId": "2610.12957",
+    "version": 1,
+    "title": "JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents",
+    "shortTitle": "JoyInside-VLM-Agent",
+    "date": "2026-10-09",
+    "year": 2026,
+    "authors": "Gangyi Li and LuYao Wang and Jingfu Sun and Jingyi Yuan and Hang Liu and Hao Zong and Yujia Hu and Tingting Gao and Jianyong Wang and Xu Yang",
+    "categories": [
+      "planning",
+      "recovery",
+      "evaluation"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Embodied agents must translate multimodal observations and user requests into executable actions while adapting to product constraints, changing goals, and execution feedback. We present JoyInside-VLM-Agent, a ReAct-style multimodal agent developed through product-conditioned trajectory construction and staged policy learning for robotic platforms and smart hardware. A closed-loop sandbox generates multimodal interaction trajectories covering goal revisions and failure recovery, which are checked against execution outcomes and semantic criteria. Supervised fine-tuning and multi-teacher on-policy distillation precede reinforcement learning with DPER (Dual-Source Privileged On-Policy Self-Distillation with Token-Level Evidence Routing). DPER routes token-level evidence between a frozen privileged teacher and a privileged student sharing the rollout policy's parameters, modulating reward-derived token advantages while preserving their signs. Training rewards combine generative process evaluation, multi-judge rankings, and task-queue consistency. JoyInside-VLM-Agent achieves a BFCL v4 overall score of 77.44, exceeding the evaluated baselines; results on the other public benchmarks are mixed. On JoyInside-Devices and JoyInside-Robotics, the evaluated system, which includes domain-specific skill refinement, leads the baselines on all reported metrics. Two real-world quadruped case studies illustrate visually grounded search, replanning after execution failure, and explicit failure reporting.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12957v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.12957v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-09T03:54:58Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
     "id": "2610.12451",
     "arxivId": "2610.12451",
     "version": 1,
@@ -44,7 +321,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -98,7 +375,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -152,7 +429,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -207,7 +484,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -262,7 +539,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -319,7 +596,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -372,7 +649,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -428,7 +705,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -483,7 +760,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -537,7 +814,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -591,7 +868,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -646,7 +923,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -700,7 +977,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -754,7 +1031,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -807,7 +1084,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -816,6 +1093,172 @@
     "deepRead": false,
     "sourceUpdatedAt": "2026-10-08T17:59:58Z",
     "discoveredAt": "2026-10-11"
+  },
+  {
+    "id": "2610.12710",
+    "arxivId": "2610.12710",
+    "version": 1,
+    "title": "REMM: Revisable Embodied Memory for Manipulation",
+    "shortTitle": "REMM",
+    "date": "2026-10-08",
+    "year": 2026,
+    "authors": "Revanth Krishna Senthilkumaran and Ruwan Wickramarachchi and Alessandro Oltramari and Jonathan Francis",
+    "categories": [
+      "planning",
+      "spatial",
+      "memory",
+      "recovery",
+      "policies"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Long-horizon manipulation requires robots to retain task-relevant history while revising conclusions no longer supported by physical evidence. Retaining observations alone does not specify which completed conditions should be withdrawn after a disturbance or which obligations require repair. We introduce REMM, Revisable Embodied Memory for Manipulation, a supervisory memory layer for a frozen G0.5 vision-language-action executor. REMM separates an append-only evidence history from revisable task state and explicitly links derived relations and completed conditions to their supporting facts. When accepted evidence changes a supporting fact, it withdraws dependent conclusions and schedules targeted recovery at verified skill boundaries without updating the executor. Across 51 physical trials, including operator-assisted runs, REMM improves mean recorded task progress over the strongest baseline from 57% to 91% in intervention recovery and from 43% to 70% in sequence recall. Complementary video diagnostics show improved grounding of retained history into the next instruction, including comparisons with $π_{0.5}$-compatible high-level planner adaptations. These results support revisable memory as a practical interface for continued manipulation without policy retraining. Project: https://revanthsenthil.github.io/remm/.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12710v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.12710v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-08T20:42:35Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
+    "id": "2610.12684",
+    "arxivId": "2610.12684",
+    "version": 1,
+    "title": "Non-Prehensile Multi-Object Placement with Mobile Robots via Diffusion-Based Trajectory Planning",
+    "shortTitle": "Non-Prehensile Multi-Object Placement with Mobile Robots via Diffusion-Based Trajectory Planning",
+    "date": "2026-10-08",
+    "year": 2026,
+    "authors": "Lance Pharand and Megnath Ramesh and Mark Chiu and Yash Vardhan Pant and Stephen L. Smith",
+    "categories": [
+      "planning",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Non-prehensile manipulation with mobile robots has primarily targeted placement in coarse goal regions. Precision placement has been studied with manipulators on benchmarks such as Push-T, where an omnidirectional end effector can readily re-approach an object from any side. For a mobile robot, correcting the same placement errors may require wide repositioning maneuvers around the object. We formalize multi-object pushing with a mobile robot as a multi-target assignment problem at tight tolerances. We propose a diffusion planner with a causal factorization: each robot denoising step is followed by an object step conditioned on the current clean robot estimate. This factorization allows us to sample multiple object outcomes for a single robot plan, capturing the multi-modality of pushing. We also design a set of pushing-specific costs for mobile robots, used for both guidance and best-of-$N$ sampling at inference. On Push-T, our planner attains the highest success rate of the methods we compare, while having the lowest rate of implausible object motion. Across three multi-box pushing environments resembling warehouse scenarios, it raises the fraction of boxes placed by $21.5$ percentage points over an unguided baseline, and replans $1.8\\times$ faster than a planner that denoises the two trajectories together. Lastly, we deploy the guided planner on a TurtleBot 3 Burger with object shapes absent from the training data, where it places $85.0\\%$ of objects within tolerance against Diffusion Policy's $37.5\\%$.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12684v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.12684v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-08T20:09:16Z",
+    "discoveredAt": "2026-10-12"
+  },
+  {
+    "id": "2610.12561",
+    "arxivId": "2610.12561",
+    "version": 1,
+    "title": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
+    "shortTitle": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
+    "date": "2026-10-08",
+    "year": 2026,
+    "authors": "Junxiang Wang and Yuchen Liu and Yi Wu and Guofei Chen and Nir Pechuk and Tao Chen and Zackory Erickson and Yuzhe Qin and Tianyu Li",
+    "categories": [
+      "spatial",
+      "memory",
+      "evaluation"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [],
+    "summaryZh": "自动发现候选；中文解读待审核。",
+    "abstractEn": "Memory allows large language model (LLM) agents to use past experience, often stored as textual records, when responding to requests. For embodied agents that control robots, visual and spatial observations introduce a broader choice of memory modalities, affecting both the information available for subsequent tasks and the model inference costs of constructing and using memory. We introduce MeMoREval, a benchmark for studying this problem through a controlled experience-request protocol. Agents first experience a sequence of events without knowing the subsequent tasks, and subsequently they use memory to respond to information and action requests without receiving new observations. The benchmark comprises 53 tasks across four simulated indoor environments and measures task success alongside the inference costs of memory construction and use. Our reference evaluations reveal that storing frames outperforms storing generated descriptions at lower write-time inference cost for the primary model, while storing frames with scene graphs achieves the highest aggregate task success for every tested model. Extensions to accumulated experience, selective frame retention, and visual input to memory writers demonstrate how the benchmark accommodates further memory-design investigations. Two physical-robot demonstrations establish the feasibility of applying its protocol beyond simulation.",
+    "problem": "未核实",
+    "method": "未核实",
+    "findings": [],
+    "limitations": [],
+    "role": {
+      "model": "未核实",
+      "output": "未核实",
+      "memory": "未核实",
+      "recovery": "未核实",
+      "adaptation": "未核实"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12561v1",
+      "project": null,
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
+        "source": "https://arxiv.org/abs/2610.12561v1",
+        "label": "arXiv 元数据"
+      }
+    ],
+    "review": "candidate",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-12",
+    "tags": [
+      "自动候选",
+      "标签待审核"
+    ],
+    "curated": false,
+    "deepRead": false,
+    "sourceUpdatedAt": "2026-10-08T18:00:03Z",
+    "discoveredAt": "2026-10-12"
   },
   {
     "id": "2610.10962",
@@ -864,7 +1307,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -918,7 +1361,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -975,7 +1418,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1028,7 +1471,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1082,7 +1525,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1136,7 +1579,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1191,7 +1634,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1245,7 +1688,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1298,7 +1741,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1354,7 +1797,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1408,7 +1851,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1461,7 +1904,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1516,7 +1959,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1570,7 +2013,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1624,7 +2067,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1679,7 +2122,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1733,7 +2176,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1788,7 +2231,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1844,7 +2287,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1900,7 +2343,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -1954,7 +2397,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2009,7 +2452,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2063,7 +2506,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2118,7 +2561,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2173,7 +2616,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2228,7 +2671,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2283,7 +2726,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2337,7 +2780,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2392,7 +2835,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2446,7 +2889,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2499,7 +2942,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2553,7 +2996,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2607,7 +3050,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2662,7 +3105,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2716,7 +3159,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2729,7 +3172,7 @@
   {
     "id": "2610.07594",
     "arxivId": "2610.07594",
-    "version": 1,
+    "version": 2,
     "title": "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation",
     "shortTitle": "BiGym 2.0",
     "date": "2026-10-06",
@@ -2758,27 +3201,27 @@
       "adaptation": "未核实"
     },
     "links": {
-      "paper": "https://arxiv.org/abs/2610.07594v1",
+      "paper": "https://arxiv.org/abs/2610.07594v2",
       "project": null,
       "code": null
     },
     "evidence": [
       {
         "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.07594v1",
+        "source": "https://arxiv.org/abs/2610.07594v2",
         "label": "arXiv 元数据"
       }
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
     ],
     "curated": false,
     "deepRead": false,
-    "sourceUpdatedAt": "2026-10-06T01:33:35Z",
+    "sourceUpdatedAt": "2026-10-08T22:34:37Z",
     "discoveredAt": "2026-10-11"
   },
   {
@@ -2825,7 +3268,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2880,7 +3323,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2935,7 +3378,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -2991,7 +3434,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3046,7 +3489,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3103,7 +3546,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3156,7 +3599,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3210,7 +3653,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3266,7 +3709,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3320,7 +3763,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3374,7 +3817,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3427,7 +3870,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3481,7 +3924,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3536,7 +3979,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3593,7 +4036,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3646,7 +4089,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3701,7 +4144,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3755,7 +4198,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3809,7 +4252,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3865,7 +4308,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3921,7 +4364,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -3978,7 +4421,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4032,7 +4475,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4085,7 +4528,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4140,7 +4583,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4195,7 +4638,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4248,7 +4691,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4301,7 +4744,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4355,7 +4798,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4411,7 +4854,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4466,7 +4909,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4521,7 +4964,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4576,7 +5019,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4633,7 +5076,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4688,7 +5131,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4744,7 +5187,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4799,7 +5242,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4854,7 +5297,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4908,7 +5351,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -4964,7 +5407,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5017,7 +5460,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5072,7 +5515,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5127,7 +5570,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5181,7 +5624,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5235,7 +5678,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5290,7 +5733,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5343,7 +5786,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5399,7 +5842,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5412,7 +5855,7 @@
   {
     "id": "2609.39304",
     "arxivId": "2609.39304",
-    "version": 1,
+    "version": 2,
     "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
     "shortTitle": "Scale and Selection",
     "date": "2026-09-30",
@@ -5427,7 +5870,7 @@
     ],
     "environment": [],
     "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "When an off-the-shelf coding agent is used directly as a robot policy, observing a browser-based 3D interface through screenshots and acting by posing a virtual target gripper through a few tools, the agent's harness, its prompts, tools, and control rules, largely determines success, and until now it has been written by hand. We show that this harness can be improved automatically by another coding agent, the optimizer agent, and report two findings about what makes it work. First, the number of rollouts the optimizer agent sees per round governs whether the evolved harness is trustworthy, generalizes, and improves steadily. A single rollout is a noisy binary outcome, so with few rollouts per round a revision can be promoted on luck; enlarging the batch raises the signal-to-noise ratio of every promotion decision. Holding rounds fixed and growing the training set from 5 to 100 rollouts, held-out success rises from 47% to 67%, while small training sets overfit, reaching 70% on training tasks but only 54% held-out. Second, the optimizer agent must not be given free rein. With every revision it proposes accepted unconditionally, performance drifts downward within ten rounds as ill-judged edits accumulate; adding the most basic safeguard, Champion-Challenger selection that promotes a revision only if it strictly beats the incumbent on the same fixed evaluation set, turns the same loop into one that raises held-out success from 51% to 67% over 30 rounds. Automatic harness evolution for visual-interface robot agents is thus feasible, but its gains hinge on the rollout scale behind each decision and on how the optimizer agent's revisions are selected.",
+    "abstractEn": "When an off-the-shelf coding agent is used directly as a robot policy, observing a browser-based 3D interface through screenshots and acting by posing a virtual target gripper through a few tools, the agent's harness, its prompts, tools, and control rules, largely determines success, and until now it has been written by hand. We show that this harness can be improved automatically by another coding agent, the optimizer agent, and report two findings about what makes it work. First, the number of rollouts the optimizer agent sees per round governs whether the evolved harness generalizes: with rounds fixed, held-out success rises as the training batch grows from 5 to 100 rollouts, while small batches overfit the training tasks. Second, the optimizer agent must not be given free rein. Accepting every revision it proposes degrades the harness within a few rounds; a simple Champion-Challenger rule that promotes a revision only if it beats the incumbent on the same fixed cases turns the same loop into one that raises held-out success on LIBERO tasks from 51% to 67% over 30 rounds. Combining the evolved harness with a pretrained policy, through one tool that hands it control, reaches 71.2% on the RoboCasa365 leaderboard benchmark, 13.1 points above the best published entry. Automatic harness evolution for visual-interface robot agents is thus feasible, but its gains hinge on the rollout scale behind each decision and on how the optimizer agent's revisions are selected.",
     "problem": "未核实",
     "method": "未核实",
     "findings": [],
@@ -5440,27 +5883,27 @@
       "adaptation": "未核实"
     },
     "links": {
-      "paper": "https://arxiv.org/abs/2609.39304v1",
+      "paper": "https://arxiv.org/abs/2609.39304v2",
       "project": null,
       "code": null
     },
     "evidence": [
       {
         "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2609.39304v1",
+        "source": "https://arxiv.org/abs/2609.39304v2",
         "label": "arXiv 元数据"
       }
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
     ],
     "curated": false,
     "deepRead": false,
-    "sourceUpdatedAt": "2026-09-30T08:46:38Z",
+    "sourceUpdatedAt": "2026-10-09T10:29:04Z",
     "discoveredAt": "2026-10-11"
   },
   {
@@ -5510,7 +5953,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5564,7 +6007,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5618,7 +6061,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5673,7 +6116,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5730,7 +6173,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5784,7 +6227,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5838,7 +6281,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5893,7 +6336,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -5948,7 +6391,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6004,7 +6447,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6058,7 +6501,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6115,7 +6558,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6170,7 +6613,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6223,7 +6666,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6278,7 +6721,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6333,7 +6776,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6389,7 +6832,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6443,7 +6886,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6498,7 +6941,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6552,7 +6995,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6609,7 +7052,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6665,7 +7108,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6719,7 +7162,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6772,7 +7215,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6829,7 +7272,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6884,7 +7327,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6940,7 +7383,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -6996,7 +7439,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7050,7 +7493,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7104,7 +7547,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7160,7 +7603,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7214,7 +7657,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7268,7 +7711,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7322,7 +7765,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7375,7 +7818,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7432,7 +7875,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7489,7 +7932,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7543,7 +7986,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7597,7 +8040,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7653,7 +8096,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7707,7 +8150,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7761,7 +8204,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7817,7 +8260,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7871,7 +8314,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7927,7 +8370,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -7981,7 +8424,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8036,7 +8479,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8092,7 +8535,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8145,7 +8588,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8199,7 +8642,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8256,7 +8699,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8311,7 +8754,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8369,7 +8812,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8423,7 +8866,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8479,7 +8922,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8534,7 +8977,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8589,7 +9032,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8643,7 +9086,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8700,7 +9143,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8756,7 +9199,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8809,7 +9252,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8866,7 +9309,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8920,7 +9363,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -8973,7 +9416,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9027,7 +9470,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9083,7 +9526,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9138,7 +9581,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9194,7 +9637,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9249,7 +9692,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9305,7 +9748,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9358,7 +9801,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9416,7 +9859,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9469,7 +9912,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9523,7 +9966,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9578,7 +10021,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9633,7 +10076,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9687,7 +10130,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9743,7 +10186,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9796,7 +10239,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9850,7 +10293,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9903,7 +10346,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -9958,7 +10401,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10013,7 +10456,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10066,7 +10509,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10121,7 +10564,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10177,7 +10620,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10233,7 +10676,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10287,7 +10730,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10341,7 +10784,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10396,7 +10839,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10454,7 +10897,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10509,7 +10952,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10565,7 +11008,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10620,7 +11063,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10676,7 +11119,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10732,7 +11175,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10785,7 +11228,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10841,7 +11284,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10895,7 +11338,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -10949,7 +11392,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11003,7 +11446,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11058,7 +11501,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11112,7 +11555,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11167,7 +11610,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11223,7 +11666,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11278,7 +11721,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11335,7 +11778,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11389,7 +11832,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11444,7 +11887,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11497,7 +11940,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11552,7 +11995,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11608,7 +12051,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11661,7 +12104,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11715,7 +12158,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11768,7 +12211,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11824,7 +12267,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11878,7 +12321,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11935,7 +12378,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -11991,7 +12434,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12045,7 +12488,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12101,7 +12544,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12158,7 +12601,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12212,7 +12655,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12270,7 +12713,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12327,7 +12770,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12382,7 +12825,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12437,7 +12880,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12494,7 +12937,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12549,7 +12992,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12604,7 +13047,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12659,7 +13102,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12715,7 +13158,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12770,7 +13213,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12824,7 +13267,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12879,7 +13322,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12935,7 +13378,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -12991,7 +13434,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13047,7 +13490,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13102,7 +13545,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13156,7 +13599,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13211,7 +13654,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13265,7 +13708,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13321,7 +13764,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13374,7 +13817,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13428,7 +13871,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13484,7 +13927,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13540,7 +13983,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13594,7 +14037,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13648,7 +14091,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13703,7 +14146,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13756,7 +14199,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13810,7 +14253,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13866,7 +14309,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13920,7 +14363,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -13974,7 +14417,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -14028,7 +14471,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -14083,7 +14526,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -14139,7 +14582,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -14195,7 +14638,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
@@ -14250,7 +14693,7 @@
     ],
     "review": "candidate",
     "codeStatus": "unknown",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-12",
     "tags": [
       "自动候选",
       "标签待审核"
