@@ -6,7 +6,7 @@
   const SANS = '"Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif';
   const SERIF = '"Noto Serif SC", "Songti SC", Georgia, "Times New Roman", serif';
   const CATEGORY = { planning: '推理与规划', spatial: '空间理解', memory: '记忆与知识', code: '代码与工具', recovery: '监控与恢复', policies: 'VLA / WAM', learning: '自我改进', evaluation: '基准与评测' };
-  const TASK = { navigation: '导航', manipulation: '操作', mobile: '移动操作', qa: '问答', general: '通用任务' };
+  const TASK = { navigation: '导航', manipulation: '操作', mobile: '移动操作', locomotion: '运动控制', driving: '驾驶', aerial: '飞行', qa: '问答', general: '通用任务' };
   const ENVIRONMENT = { real: '真机', simulation: '仿真', virtual: '虚拟环境' };
   const REVIEW = { 'full-review': '全文核读', 'source-checked': '原始来源核对', candidate: '候选 · 待审核', 'ai-draft': 'AI 解读 · 待复核' };
   const clean = value => String(value == null ? '' : value).replace(/\r\n?/g, '\n').trim();
@@ -14,7 +14,8 @@
   const fallback = (value, other) => clean(value) || other;
   const titleOf = p => fallback(p.shortTitle, fallback(p.title, '未命名论文'));
   const isProject = p => p.sourceType === 'project';
-  const paperUrl = p => clean(p.links && (p.links.paper || p.links.project)) || '来源链接未提供';
+  const isArticle = p => p.sourceType === 'article';
+  const paperUrl = p => clean(p.links && (p.links.paper || p.links.article || p.links.project)) || '来源链接未提供';
   const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
 
   function font(ctx, size, weight, serif) {
@@ -111,14 +112,14 @@
   }
   function sourceId(p) {
     const url = paperUrl(p), match = url.match(/(?:abs|pdf)\/([\d.]+(?:v\d+)?)/i);
-    return match ? 'arXiv:' + match[1] : isProject(p) ? titleOf(p) + ' · 项目解读' : fallback(p.id, '论文来源见链接');
+    return match ? 'arXiv:' + match[1] : isArticle(p) ? titleOf(p) + ' · 观点文章' : isProject(p) ? titleOf(p) + ' · 项目解读' : fallback(p.id, '论文来源见链接');
   }
   function header(ctx, p, page, total) {
     const W = ctx.canvas.width;
     box(ctx, 72, 56, 31, 31, C.ink, null, 4);
     tiny(ctx, 'EA', 77, 64, C.lime, 14);
     tiny(ctx, 'EMBODIED AGENT ATLAS', 117, 61, C.ink, 20);
-    const label = (isProject(p) ? '项目解读 · 官方来源' : REVIEW[p.review] || '来源待核实') + '  /  ' + String(page + 1).padStart(2, '0') + '—' + String(total).padStart(2, '0');
+    const label = (isArticle(p) ? '观点文章 · 原始来源' : isProject(p) ? '项目解读 · 官方来源' : REVIEW[p.review] || '来源待核实') + '  /  ' + String(page + 1).padStart(2, '0') + '—' + String(total).padStart(2, '0');
     font(ctx, 18, 500); ctx.fillStyle = C.muted; ctx.fillText(label, W - 72 - ctx.measureText(label).width, 62);
     line(ctx, 72, 115, W - 72);
   }
@@ -126,7 +127,7 @@
     const W = ctx.canvas.width, H = ctx.canvas.height, hasWarnings = ctx.canvas.atlasWarnings.length > 0;
     line(ctx, 72, H - 123, W - 72);
     tiny(ctx, sourceId(p) + (p.date ? '  ·  ' + clean(p.date) : isProject(p) && p.addedAt ? '  ·  收录 ' + clean(p.addedAt) : ''), 72, H - 100, C.ink, 18);
-    const right = isProject(p) && !p.date ? '发布日期未核实 · 以项目页为准' : '仅供研究阅读 · 结论以原文为准';
+    const right = isArticle(p) ? '作者观点 · 请结合原文阅读' : isProject(p) && !p.date ? '发布日期未核实 · 以项目页为准' : '仅供研究阅读 · 结论以原文为准';
     font(ctx, 17, 400); ctx.fillStyle = C.muted; ctx.fillText(right, W - 72 - ctx.measureText(right).width, H - 99);
     text(ctx, paperUrl(p), 72, H - 68, W - 144, 27, { size: 17, min: 14, leading: 1.1, color: C.muted, tail: '…', name: '来源链接' });
     if (hasWarnings) tiny(ctx, '部分文字已标记省略，完整内容请查看研究页。', 72, H - 33, C.ink, 16);
@@ -162,7 +163,15 @@
     }));
     return imageCache.get(path);
   }
+  function articleCover(ctx, p, x, y, width, height) {
+    box(ctx, x, y, width, height, C.pale, C.line, 12);
+    tiny(ctx, '观点导读 · 本站摘要', x + 30, y + 25, C.muted, 19);
+    box(ctx, x + 30, y + 78, 7, height - 160, C.lime, null, 3);
+    text(ctx, fallback(p.coverText, fallback(p.summaryZh, titleOf(p))).replace('，', '，\n'), x + 60, y + 91, width - 105, height - 189, { size: 52, min: 32, leading: 1.4, serif: true, name: '观点导读' });
+    text(ctx, fallback(p.authors, '作者见原文') + (p.date ? '  /  ' + p.date : ''), x + 31, y + height - 69, width - 62, 37, { size: 23, min: 18, leading: 1.2, color: C.muted, name: '文章作者' });
+  }
   function figure(ctx, p, img, x, y, width, height) {
+    if (isArticle(p) && !img) { articleCover(ctx, p, x, y, width, height); return; }
     box(ctx, x, y, width, height, '#ffffff', C.line, 12);
     const f = p.figure || {};
     const label = f.kind === 'page-preview' ? 'PDF 页面预览' : (clean(f.figureLabel) || (isProject(p) ? '项目原图' : '论文原图'));
@@ -184,26 +193,31 @@
   function portrait(ctx, p, page, img) {
     header(ctx, p, page, 5);
     if (page === 0) {
-      tiny(ctx, (isProject(p) ? '项目阅读' : '论文阅读') + '  /  EMBODIED AGENTS', 80, 157, C.muted, 21);
+      tiny(ctx, (isArticle(p) ? '观点阅读' : isProject(p) ? '项目阅读' : '论文阅读') + '  /  EMBODIED AGENTS', 80, 157, C.muted, 21);
       text(ctx, titleOf(p), 73, 208, 934, 165, { size: 96, min: 44, leading: 1.12, serif: true, name: '研究简称' });
-      text(ctx, fallback(p.title, titleOf(p)), 80, 391, 915, 111, { size: 28, min: 22, leading: 1.35, name: '研究标题' });
+      text(ctx, isArticle(p) ? fallback(p.authors, '作者见原文') + '  ·  观点文章' : fallback(p.title, titleOf(p)), 80, 391, 915, 111, { size: 28, min: 22, leading: 1.35, name: '研究标题' });
       figure(ctx, p, img, 72, 529, 936, 443);
       box(ctx, 72, 995, 936, 271, C.ink, null, 13);
       tiny(ctx, '一句话读懂', 103, 1022, C.lime, 22);
       text(ctx, fallback(p.summaryZh, '中文摘要尚待整理，请查看原文。'), 103, 1073, 874, 156, { size: 35, min: 26, leading: 1.5, color: C.paper, name: '核心结论' });
     } else if (page === 1) {
-      section(ctx, '02', '它在解决什么问题？');
+      section(ctx, '02', isArticle(p) ? '它在讨论什么问题？' : '它在解决什么问题？');
       box(ctx, 80, 374, 8, 35, C.lime);
       tiny(ctx, '研究问题', 107, 382, C.muted, 23);
       text(ctx, fallback(p.problem, '研究问题尚未核实，请查看原文。'), 80, 451, 916, 418, { size: 39, min: 25, leading: 1.6, name: '研究问题' });
       line(ctx, 80, 895, 1000);
-      tiny(ctx, isProject(p) ? '项目核心思路' : '论文核心思路', 80, 931, C.muted, 21);
+      tiny(ctx, isArticle(p) ? '文章核心思路' : isProject(p) ? '项目核心思路' : '论文核心思路', 80, 931, C.muted, 21);
       text(ctx, fallback(p.summaryZh, '核心思路尚待整理。'), 80, 977, 916, 179, { size: 31, min: 23, leading: 1.5, name: '核心思路' });
       const scope = arr(p.tasks).map(t => TASK[t] || t).concat(arr(p.environment).map(e => ENVIRONMENT[e] || e));
       pills(ctx, scope.length ? scope : ['适用场景待核实'], 80, 1196, 920, 1);
     } else if (page === 2) {
-      section(ctx, '03', '方法如何运转？');
-      if (img) {
+      section(ctx, '03', isArticle(p) ? '论证思路' : '方法如何运转？');
+      if (isArticle(p)) {
+        text(ctx, fallback(p.method, '论证思路尚待整理，请查看原文。'), 80, 375, 918, 480, { size: 38, min: 27, leading: 1.6, name: '论证思路' });
+        box(ctx, 64, 920, 952, 300, C.pale, null, 12);
+        tiny(ctx, '阅读视角  /  分清判断与证据', 94, 951, C.muted, 21);
+        text(ctx, '作者提出了什么判断？\n支撑这一判断的依据是什么？\n哪些环节仍需要实验验证？', 94, 1010, 873, 170, { size: 33, min: 27, leading: 1.6, name: '阅读视角' });
+      } else if (img) {
         figure(ctx, p, img, 80, 365, 920, 385);
         text(ctx, fallback(p.method, '方法细节尚未核实，请查看原文。'), 80, 787, 918, 211, { size: 32, min: 23, leading: 1.5, name: '方法概述' });
         line(ctx, 80, 1022, 1000);
@@ -223,22 +237,22 @@
         });
       }
     } else if (page === 3) {
-      section(ctx, '04', '结果与证据');
-      tiny(ctx, (isProject(p) ? '项目报告' : '论文报告') + ' · 请结合评测设置阅读', 80, 374, C.muted, 21);
-      text(ctx, numbered(p.findings, '量化结果尚未核实，请查看原文。'), 80, 429, 915, 446, { size: 34, min: 22, leading: 1.5, name: '主要结果' });
+      section(ctx, '04', isArticle(p) ? '核心观点与出处' : '结果与证据');
+      tiny(ctx, isArticle(p) ? '作者观点 · 未来预测不等于实验结果' : (isProject(p) ? '项目报告' : '论文报告') + ' · 请结合评测设置阅读', 80, 374, C.muted, 21);
+      text(ctx, numbered(p.findings, isArticle(p) ? '观点尚待整理，请查看原文。' : '量化结果尚未核实，请查看原文。'), 80, 429, 915, 446, { size: 34, min: 22, leading: 1.5, name: isArticle(p) ? '核心观点' : '主要结果' });
       box(ctx, 64, 910, 952, 353, C.pale, null, 12);
       tiny(ctx, '原始来源索引', 92, 937, C.ink, 22);
-      const evidence = Array.isArray(p.evidence) ? p.evidence : [];
-      const evidenceText = evidence.length ? evidence.map((e, i) => '[' + (i + 1) + '] ' + fallback(e.label, e.page ? 'PDF p.' + e.page : '原始来源') + '：' + fallback(e.claim, '具体结论请核对原文') + '\n' + fallback(e.source, paperUrl(p))).join('\n\n') : '尚未提供逐条证据，请先核对论文原文。';
+      const evidence = Array.isArray(p.cardEvidence) ? p.cardEvidence : Array.isArray(p.evidence) ? p.evidence : [];
+      const evidenceText = evidence.length ? evidence.map((e, i) => '[' + (i + 1) + '] ' + fallback(e.label, e.page ? 'PDF p.' + e.page : '原始来源') + '：' + fallback(e.claim, '具体结论请核对原文') + '\n' + fallback(e.source, paperUrl(p))).join('\n\n') : '尚未提供逐条索引，请先核对原文。';
       text(ctx, evidenceText, 92, 985, 884, 253, { size: 23, min: 17, leading: 1.3, name: '证据索引' });
     } else {
       section(ctx, '05', '边界与进一步思考');
       tiny(ctx, '局限与适用条件', 80, 374, C.muted, 21);
       text(ctx, numbered(p.limitations, '局限尚未整理；未披露不代表不存在。'), 80, 429, 915, 453, { size: 34, min: 22, leading: 1.5, name: '局限与边界' });
       box(ctx, 64, 920, 952, 252, C.ink, null, 12);
-      tiny(ctx, '编辑提问  /  用于选题与复现', 94, 947, C.lime, 21);
-      text(ctx, '模型何时介入？\n哪些状态需要显式保存？\n失败以后，系统如何恢复？', 94, 997, 873, 150, { size: 31, min: 27, leading: 1.5, color: C.paper, name: '编辑提问' });
-      text(ctx, '对照环境先验、评测协议与适配成本，再判断方法是否适合自己的任务。', 80, 1210, 917, 67, { size: 22, min: 19, leading: 1.4, color: C.muted, name: '阅读提示' });
+      tiny(ctx, isArticle(p) ? '编辑提问  /  用于研究讨论' : '编辑提问  /  用于选题与复现', 94, 947, C.lime, 21);
+      text(ctx, isArticle(p) ? '哪些是当下能力，哪些是未来预测？\n还缺少什么实验证据？\n如何设计一个可检验的问题？' : '模型何时介入？\n哪些状态需要显式保存？\n失败以后，系统如何恢复？', 94, 997, 873, 150, { size: 31, min: 27, leading: 1.5, color: C.paper, name: '编辑提问' });
+      text(ctx, isArticle(p) ? '观点文章提供问题视角；判断具体系统能力时，仍需回到实验与评测。' : '对照环境先验、评测协议与适配成本，再判断方法是否适合自己的任务。', 80, 1210, 917, 67, { size: 22, min: 19, leading: 1.4, color: C.muted, name: '阅读提示' });
     }
     footer(ctx, p);
   }
@@ -246,14 +260,14 @@
   function landscape(ctx, p, img) {
     header(ctx, p, 0, 1);
     text(ctx, titleOf(p), 70, 149, 1776, 108, { size: 83, min: 42, serif: true, leading: 1.12, name: '研究简称' });
-    text(ctx, fallback(p.title, titleOf(p)), 74, 268, 1760, 66, { size: 26, min: 21, leading: 1.26, name: '研究标题' });
+    text(ctx, isArticle(p) ? fallback(p.authors, '作者见原文') + '  ·  观点文章' : fallback(p.title, titleOf(p)), 74, 268, 1760, 66, { size: 26, min: 21, leading: 1.26, name: '研究标题' });
     text(ctx, fallback(p.summaryZh, '中文摘要尚待整理，请查看原文。'), 74, 342, 1760, 71, { size: 29, min: 23, leading: 1.35, name: '核心结论' });
     figure(ctx, p, img, 72, 438, 890, 474);
     const blocks = [
       ['01', '研究问题', fallback(p.problem, '尚待核实')],
-      ['02', '核心方法', fallback(p.method, '尚待核实')],
-      ['03', '结果与证据', numbered(p.findings, '尚待核实').replace(/\n\n/g, '\n')],
-      ['04', '适用边界', numbered(p.limitations, '尚待核实').replace(/\n\n/g, '\n')]
+      ['02', isArticle(p) ? '论证思路' : '核心方法', fallback(p.method, '尚待核实')],
+      ['03', isArticle(p) ? '核心观点' : '结果与证据', numbered(p.cardFindings || p.findings, '尚待核实').replace(/\n\n/g, '\n')],
+      ['04', '适用边界', numbered(p.cardLimitations || p.limitations, '尚待核实').replace(/\n\n/g, '\n')]
     ];
     blocks.forEach(([n, heading, content], i) => {
       const x = 986 + (i % 2) * 442, y = 438 + Math.floor(i / 2) * 249, dark = i === 2;
@@ -278,7 +292,7 @@
     canvas.atlasWarnings = [];
     canvas.dataset.format = format; canvas.dataset.page = String(page);
     canvas.setAttribute('role', 'img');
-    canvas.setAttribute('aria-label', titleOf(paper) + ' · ' + (format === 'landscape' ? '横版' : '竖版') + (isProject(paper) ? '项目卡片' : '论文卡片') + (format === 'portrait' ? ' ' + (page + 1) + '/5' : ''));
+    canvas.setAttribute('aria-label', titleOf(paper) + ' · ' + (format === 'landscape' ? '横版' : '竖版') + (isArticle(paper) ? '观点卡片' : isProject(paper) ? '项目卡片' : '论文卡片') + (format === 'portrait' ? ' ' + (page + 1) + '/5' : ''));
     const ctx = canvas.getContext('2d');
     if (!ctx) throw new Error('当前浏览器不支持 Canvas 2D。');
     ctx.fillStyle = C.paper; ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -363,8 +377,9 @@
     const fields = ['  title = {{' + bibEscape(fallback(p.title, titleOf(p))) + '}}'];
     if (clean(p.authors) && clean(p.authors) !== '未核实') fields.push('  author = {' + bibAuthors(p.authors) + '}');
     if (year) fields.push('  year = {' + year + '}');
+    if (isArticle(p)) fields.push('  note = {Perspective essay}');
     if (isProject(p)) fields.push('  note = {' + (year ? 'Project page' : 'Project page; publication date unverified') + '}');
-    const url = clean(p.links && (p.links.paper || p.links.project)), arxiv = url.replace(/\.pdf(?:$|[?#])/i, '').match(/(?:arxiv\.org\/(?:abs|pdf)\/)([\d.]+(?:v\d+)?)/i);
+    const url = clean(p.links && (p.links.paper || p.links.article || p.links.project)), arxiv = url.replace(/\.pdf(?:$|[?#])/i, '').match(/(?:arxiv\.org\/(?:abs|pdf)\/)([\d.]+(?:v\d+)?)/i);
     if (arxiv) { fields.push('  eprint = {' + arxiv[1] + '}'); fields.push('  archivePrefix = {arXiv}'); }
     if (/^https:\/\//i.test(url)) fields.push('  url = {' + bibEscape(url) + '}');
     return '@misc{' + key + ',\n' + fields.join(',\n') + '\n}\n';

@@ -26,3 +26,15 @@
 @media(max-width:1100px){.search-line{flex-wrap:wrap}.searchbox{flex-basis:60%}.sortbox{flex:0 0 auto}.card-art{height:165px}}
 @media(max-width:760px){.page-heading p{line-height:1.8;max-width:95%}.search-line{gap:8px}.searchbox{flex-basis:100%}.sortbox{flex:1}.sortbox select{width:100%;max-width:none}.card-art{height:135px;padding:25px 9px 8px}.card-art-label{font-size:7px}.figure-unavailable{font-size:9px;gap:4px}.figure-unavailable small{font-size:8px}.detail-figure .figure-frame{padding:10px;min-height:120px}.detail-figure figcaption{padding:13px;font-size:10px}.featured .feature-visual{display:flex;margin:0 25px 23px;padding:18px 0 0;border-left:0;border-top:1px solid #446052}.feature-paper-image{height:195px}.feature-visual>svg{display:none}.featured .feature-visual:has(>svg){display:none}}
 @media(max-width:480px){.card-art{height:190px;padding:29px 14px 11px}.card-art-label{font-size:9px}.figure-unavailable{font-size:12px}.figure-unavailable small{font-size:10px}.detail-meta{gap:7px}.feature-paper-image{height:175px}}
+
+/* Editorial covers identify essays without suggesting a missing paper figure. */
+.article-art{background:#f0f2e9}
+.article-cover{background:#e9efdf;padding:15px 20px;align-items:flex-start;justify-content:center;flex-direction:column;gap:10px;color:var(--ink)}
+.article-cover-kicker{font-size:8px;letter-spacing:2px;color:#7b8c68}
+.article-cover strong{font:500 19px/1.5 var(--serif);max-width:100%;padding-left:12px;border-left:3px solid #cadc9d;overflow-wrap:anywhere}
+.article-cover-byline{font-size:9px;color:#7c8a6e;line-height:1.5}
+.article-detail .article-cover{min-height:250px;padding:30px 38px;gap:19px;background:#e9efdf}
+.article-detail .article-cover strong{font-size:32px;padding-left:20px;border-left-width:5px}
+.article-detail .article-cover-kicker{font-size:10px}.article-detail .article-cover-byline{font-size:12px}
+@media(max-width:760px){.article-cover{padding:10px 12px;gap:5px}.article-cover strong{font-size:14px;line-height:1.45}.article-cover-kicker{font-size:7px}.article-cover-byline{font-size:8px}.article-detail .article-cover{min-height:210px;padding:23px;gap:17px}.article-detail .article-cover strong{font-size:26px}}
+@media(max-width:480px){.article-cover{padding:15px 21px;gap:10px}.article-cover strong{font-size:22px}.article-cover-kicker{font-size:9px}.article-cover-byline{font-size:11px}}

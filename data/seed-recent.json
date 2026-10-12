@@ -1061,5 +1061,124 @@
       "figureLabel": "Figure 1",
       "page": 1
     }
+  },
+  {
+    "id": "2610.10409",
+    "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+    "authors": "Zhiqin Yang and Chenxin Li and Xiaomeng Hu and Yibin Liu and Weidong Huang and Jiankai Sun and Haitao Li and Zijian Wu and Yuzhi Huang and Fanding Huang and Hanwen Sun and Jiashun Liu and Jingqi Tong and Mingxin Huang and Shaoli Hu and Shijue Huang and Tianyi Bai and Xinyuan Wang and Yunlong Lin and Zhengyang Tang and Zhexin Zhang and Zhuo Chen and Xierui Song and Juntao Dai and Boyuan Chen and Jiaming Ji and Fangneng Zhan and Mengkang Hu and Wei Xue and Yonggang Zhang and Han Hu and Tsung-Yi Ho and Yike Guo",
+    "date": "2026-10-07",
+    "year": 2026,
+    "shortTitle": "RobotWorld",
+    "version": 1,
+    "categories": [
+      "evaluation",
+      "spatial",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation",
+      "mobile",
+      "locomotion",
+      "driving",
+      "aerial"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "用 84 项仿真任务检验多模态 Agent 能否闭环使用机器人，并追踪空间判断、状态保持和失败恢复的断点。",
+    "summaryEn": "An 84-task simulation benchmark of multimodal robot-use agents across five domains, with trajectory-level diagnosis of state tracking and recovery failures.",
+    "problem": "会看图、会写代码的通用模型，能否持续把观察和反馈转化为有效的机器人动作？",
+    "method": "统一观察、辅助计算、机器人动作和隐藏判分接口，覆盖 20 个源项目的五类任务；从完整轨迹分析成功与失败。",
+    "findings": [
+      "84 项任务中，Astra 完成 16 项（19.0%），Opus 5.5 完成 13 项（15.5%）；Kimi K3、DeepSeek V4.1 Flash、Gemini 3.8 Flash 分别完成 2、1、1 项。",
+      "五个模型合计覆盖 21 项任务，仍有 63 项无模型完成；这是成功任务的并集，不是集成策略成绩。",
+      "轨迹揭示：到达末端位姿不等于保持物体状态；连续发出动作也不等于有效纠错。"
+    ],
+    "limitations": [
+      "只评估仿真，且模型思考和辅助计算时仿真暂停；不能据此推断真机实时控制能力。",
+      "每个模型—任务只保留一个结果，共 420 个计分回合；推理配置和历史批次不同，不是多种子受控比较。",
+      "本次主实验关闭环境内 code_control；允许的工作区计算，不等同于代码直接持续控制机器人。",
+      "非动作预算按 Astra 记录校准，部分历史轨迹再按预算边界裁决；任务与控制接口覆盖也不均衡。"
+    ],
+    "role": {
+      "model": "读取指令、观测和历史，选择工具与机器人动作",
+      "output": "有界机器人命令与辅助分析调用",
+      "memory": "回合内交互历史和工作区状态",
+      "recovery": "依据动作回执与新观测重新决策",
+      "adaptation": "评测期间模型固定；基准本身不提出训练或自进化算法"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10409v1",
+      "project": "https://robotworldai.github.io/",
+      "code": "https://github.com/robotworldai/robotworld"
+    },
+    "evidence": [
+      {
+        "claim": "统一接口、辅助工作区与隐藏判分",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=6",
+        "label": "Figure 3 / PDF p.6"
+      },
+      {
+        "claim": "关闭环境内代码控制及单回合计数",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=13",
+        "label": "实验协议 / PDF p.13"
+      },
+      {
+        "claim": "模型推理和工作区计算期间暂停仿真",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=8",
+        "label": "第 3.4 节 / PDF p.8"
+      },
+      {
+        "claim": "五模型 84 项任务结果",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=14",
+        "label": "Table 3 / PDF p.14"
+      },
+      {
+        "claim": "预算边界与历史轨迹重新裁决",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=62",
+        "label": "附录 H.5 / PDF p.62"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-12",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "2026新工作",
+      "Robot Use",
+      "评测基准",
+      "闭环反馈",
+      "84项仿真任务"
+    ],
+    "figureHint": {
+      "figureLabel": "Figure 3",
+      "page": 6
+    },
+    "cardFindings": [
+      "Astra 完成 16/84（19.0%），Opus 5.5 完成 13/84（15.5%）。",
+      "五模型的成功任务并集为 21/84；执行动作不等于达成目标。"
+    ],
+    "cardLimitations": [
+      "仿真在推理时暂停；环境内代码控制关闭。",
+      "每个模型—任务仅一个结果；配置不一，部分轨迹事后裁决。"
+    ],
+    "cardEvidence": [
+      {
+        "claim": "关闭代码控制；单回合计数",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=13",
+        "label": "协议 · p.13"
+      },
+      {
+        "claim": "五模型结果",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=14",
+        "label": "Table 3 · p.14"
+      },
+      {
+        "claim": "历史轨迹预算裁决",
+        "source": "https://arxiv.org/pdf/2610.10409v1#page=62",
+        "label": "附录 H.5 · p.62"
+      }
+    ]
   }
 ]

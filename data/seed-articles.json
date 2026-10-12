@@ -1,0 +1,66 @@
+[
+  {
+    "id": "robot-use-agents-isola",
+    "sourceType": "article",
+    "title": "Robot-Use Agents",
+    "shortTitle": "Robot-Use Agents",
+    "authors": "Phillip Isola",
+    "date": "2026-09-07",
+    "year": 2026,
+    "addedAt": "2026-10-12",
+    "categories": [
+      "code",
+      "planning"
+    ],
+    "tasks": [
+      "general"
+    ],
+    "environment": [],
+    "coverText": "让机器人，成为通用 Agent 的工具。",
+    "summaryZh": "Phillip Isola 讨论：当机器人能被通用 Agent 调用，智能的扩散方式可能怎样改变。",
+    "summaryEn": "Phillip Isola considers robot use as a tool capability of general-purpose agents and its implications for how capabilities spread across robots.",
+    "problem": "机器人能力能否随云端通用模型升级而扩散？",
+    "method": "从 computer use 类比 robot use：通过传感器与执行器接口，把不同机器人接入通用 Agent。",
+    "findings": [
+      "核心关注是能力在机器人生态中的传播速度，而非某台机器人已达到专用系统的性能。",
+      "云端更新可能推动跨机器人能力扩散；这是作者的前景判断。"
+    ],
+    "limitations": [
+      "观点文章，没有新基准或定量对照实验。",
+      "作者仍承认推理与网络延迟、可靠性不足，以及专用方案的性能优势。"
+    ],
+    "role": {
+      "model": "文中设想：云端通用 Agent",
+      "output": "机器人接口调用",
+      "memory": "未提出记忆机制",
+      "recovery": "未提出恢复算法",
+      "adaptation": "文中设想：云端模型更新"
+    },
+    "links": {
+      "article": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html"
+    },
+    "evidence": [
+      {
+        "claim": "通用 Agent 使用机器人及能力扩散的观点",
+        "source": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+        "label": "作者正文"
+      },
+      {
+        "claim": "延迟、可靠性及接口前提",
+        "source": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+        "label": "正文末段与脚注 12"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "not-applicable",
+    "lastChecked": "2026-10-12",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "观点文章",
+      "Robot Use",
+      "通用Agent",
+      "2026新观点"
+    ]
+  }
+]

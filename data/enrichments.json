@@ -440,27 +440,27 @@
       "textPages": 62,
       "textTruncated": false,
       "textPath": ".cache/papers/2610.10409-v1.text.json",
-      "extractedAt": "2026-10-11T09:00:31Z"
+      "extractedAt": "2026-10-12T13:07:51Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 2 Overview of RobotWorld. RobotWorld evaluates whether general-purpose multimodal models can turn digital capabilities into reliable robot use. Agents interpret instructions and observations, perform auxiliary computation, and act through a feedback loop across diverse robots and tasks. Trajectory analysis examines emerging capabilities—including image segmentation, geometric calibration, dynamics modelling and control program generation—alongside failure mechanisms and differences between models on shared tasks. These findings inform training and agent design. The scene illustrates task families evaluated in separate simulation environments.",
-      "figureLabel": "Figure 2",
-      "selection": "automatic",
+      "caption": "论文 Figure 3：Agent 通过观测、辅助工作区和动作接口交互，环境另行判分。图中的环境内代码控制是可选功能，本次主实验关闭。原图归作者。",
+      "figureLabel": "Figure 3",
+      "selection": "source-hint",
       "path": "assets/papers/2610.10409-v1.png",
       "sourceUrl": "https://arxiv.org/pdf/2610.10409v1",
-      "page": 3,
+      "page": 6,
       "version": 1,
       "width": 960,
-      "height": 681,
+      "height": 599,
       "crop": [
         66.0,
         66.0,
-        545.93,
-        406.47
+        545.99,
+        365.04
       ]
     },
-    "extractionFingerprint": "3ab234daa08f83f5",
+    "extractionFingerprint": "f11b24867e650c50",
     "ai": {
       "status": "not-configured",
       "version": 1,

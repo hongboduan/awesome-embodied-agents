@@ -273,8 +273,8 @@ def run_enrichment(root=ROOT, *, environ=None, extractor=None, text_reader=None,
     status["llmMode"] = "enabled" if llm_enabled and configured else ("not-configured" if llm_enabled else "disabled")
     since = settings.get("since", "2026-09-01")
     records = read_json(root / "data/enrichments.json", {})
-    # Project previews have no paper PDF; never submit them to arXiv extraction.
-    papers = [p for p in load_papers(root) if p.get("sourceType") != "project"
+    # Project previews and opinion articles have no paper PDF to extract.
+    papers = [p for p in load_papers(root) if p.get("sourceType") not in {"project", "article"}
               and arxiv_identity(paper_key(p))[0] and (p.get("date") or "") >= since]
 
     def failed_pdf_attempt(paper):

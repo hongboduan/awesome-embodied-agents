@@ -68,8 +68,8 @@ def paper_version(paper):
 
 
 def entry_date(paper):
-    """Project collection dates order entries without inventing publication dates."""
-    return paper.get("date") or (paper.get("addedAt", "") if paper.get("sourceType") == "project" else "")
+    """Collection dates order non-paper entries without inventing publication dates."""
+    return paper.get("date") or (paper.get("addedAt", "") if paper.get("sourceType") in {"project", "article"} else "")
 
 
 def load_papers(root=ROOT):
@@ -139,9 +139,11 @@ def bibtex(papers):
         key = re.sub(r"[^a-zA-Z0-9]", "", p["id"])
         fields = [("title", "{" + escape(p["title"]) + "}"), ("author", escape(p.get("authors") or "Unknown")),
                   ("year", str(p.get("year") or (p.get("date") or "")[:4])),
-                  ("url", safe_url(p.get("links", {}).get("paper")) or safe_url(p.get("links", {}).get("project")))]
+                  ("url", safe_url(p.get("links", {}).get("paper")) or safe_url(p.get("links", {}).get("article")) or safe_url(p.get("links", {}).get("project")))]
         if p.get("sourceType") == "project" and not p.get("date"):
             fields.append(("note", "Project page; publication date unverified"))
+        if p.get("sourceType") == "article":
+            fields.append(("note", "Web essay / Perspective"))
         if base:
             fields += [("eprint", base), ("archivePrefix", "arXiv")]
         # Bibliography exports are metadata; verify full author lists before manuscript submission.
@@ -150,58 +152,130 @@ def bibtex(papers):
 
 
 def update_readme(path, papers, english=False, focus_since="2026-09-01"):
+    """Generate a navigable reading list: one primary section per editorial entry."""
+    from urllib.parse import quote
+
     if not path.exists():
         return
     start, end = "<!-- ATLAS:START -->", "<!-- ATLAS:END -->"
     content = path.read_text(encoding="utf-8")
     if start not in content or end not in content:
         raise ValueError(f"Missing generated section markers: {path.name}")
-    curated = [p for p in papers if p.get("curated") and p.get("review") != "candidate"]
+    curated = sorted((p for p in papers if p.get("curated") and p.get("review") != "candidate"),
+                     key=lambda p: (entry_date(p), p.get("title", "")), reverse=True)
     candidates = sum(p.get("review") == "candidate" for p in papers)
     checked = sum(p.get("review") == "source-checked" for p in papers)
     reviewed = sum(p.get("review") == "full-review" for p in papers)
     drafts = sum(p.get("review") == "ai-draft" for p in papers)
     projects = [p for p in curated if p.get("sourceType") == "project"]
-    counts = (f"{len(papers)} entries · {len(curated)} curated (including {len(projects)} projects) · {checked} source-checked · {reviewed} full-review · {drafts} AI drafts · {candidates} discovery candidates"
-              if english else f"共 {len(papers)} 条 · 精选 {len(curated)} 条（含 {len(projects)} 个项目）· 来源核对 {checked} 条 · 全文核读 {reviewed} 篇 · AI 草稿 {drafts} 篇 · 自动候选 {candidates} 篇")
-    lines = [start, "", counts, ""]
-    if projects:
-        lines += ["## " + ("Projects and systems" if english else "项目与系统"), ""]
-        for p in projects:
-            url = safe_url(p.get("links", {}).get("project"))
-            date = p.get("date") or (("added " if english else "收录于 ") + p.get("addedAt", ""))
-            status = "Project preview" if english else "项目预览"
-            if not p.get("links", {}).get("paper") and not p.get("links", {}).get("code"):
-                status += "; paper and code pending" if english else "；论文与代码待公开"
-            code = safe_url(p.get("links", {}).get("code"))
-            extra = f" · [Code]({code})" if code else ""
-            lines += [f"- **[{md(p['title'])}]({url})** ({md(date)}) · {status}{extra}",
-                      "  " + md(p.get("summaryEn") if english else p.get("summaryZh", "")), ""]
-    for recent in [True, False]:
-        subset = [p for p in curated if p.get("sourceType") != "project" and ((entry_date(p) >= focus_since) == recent)]
-        if not subset:
-            continue
-        if recent:
-            lines += ["## " + (f"Recent embodied agents · since {focus_since}" if english else f"近期具身 Agent · {focus_since} 起"), ""]
+    articles = [p for p in curated if p.get("sourceType") == "article"]
+    research = [p for p in curated if p.get("sourceType") not in {"project", "article"}]
+    recent = [p for p in research if entry_date(p) >= focus_since]
+    earlier = [p for p in research if entry_date(p) < focus_since]
+    counts = (f"{len(curated)} curated entries · {len(research)} paper{'s' if len(research) != 1 else ''} · {len(projects)} project{'s' if len(projects) != 1 else ''} · {len(articles)} perspective{'s' if len(articles) != 1 else ''}"
+              if english else f"精选 {len(curated)} 条 · 论文 {len(research)} 篇 · 项目 {len(projects)} 个 · 观点 {len(articles)} 篇")
+    status = (f"{checked} source-checked · {reviewed} full-review · {drafts} AI drafts · {candidates} discovery candidates"
+              if english else f"来源核对 {checked} 条 · 全文核读 {reviewed} 篇 · AI 草稿 {drafts} 篇 · 自动候选 {candidates} 篇")
+    home = safe_url(read_json(path.parent / "config.json", {}).get("siteUrl"))
+    category_names = {c["id"]: c["en"] if english else c["label"] for c in CATEGORIES}
+    categories = CATEGORIES + [{"id": "other", "en": "Other agent research", "label": "其他 Agent 研究"}]
+
+    def primary(p):
+        return next((c for c in p.get("categories", []) if c in category_names), "other")
+
+    def badge(label, target, color, logo=None, message=None, alt=None):
+        target = safe_url(target)
+        if not target:
+            return ""
+        parts = [quote(label.replace("-", "--"), safe="")]
+        if message:
+            parts.append(quote(str(message).replace("-", "--"), safe=""))
+        parts.append(color)
+        image = "https://img.shields.io/badge/" + "-".join(parts) + "?style=flat-square"
+        if logo:
+            image += "&logo=" + logo + "&logoColor=white"
+        return f"[![{md(alt or label)}]({image})]({target})"
+
+    def entry(p, detailed=True):
+        links = p.get("links", {})
+        kind = p.get("sourceType", "paper")
+        target = next((safe_url(links.get(k)) for k in ("paper", "article", "project", "code") if safe_url(links.get(k))), "")
+        title = f"[{md(p['title'])}]({target})" if target else md(p["title"])
+        date = p.get("date") or (("added " if english else "收录于 ") + p.get("addedAt", ""))
+        meta = [md(date)] if date else []
+        if kind == "project":
+            meta.append("Project preview" if english else "项目预览")
+        elif kind == "article":
+            meta += [md(p.get("authors", "")), "Perspective / essay" if english else "观点文章"]
         else:
-            lines += ["<details>", "<summary>" + ("Foundations and earlier work" if english else "背景阅读与早期工作（展开）") + "</summary>", ""]
-        for cat in CATEGORIES:
-            members = [p for p in subset if cat["id"] in p.get("categories", [])]
-            if not members:
-                continue
-            lines += ["### " + (cat["en"] if english else cat["label"]), ""]
-            for p in members:
-                links = p.get("links", {})
-                extra = ""
-                for k, label in [("code", "Code"), ("project", "Project")]:
-                    if safe_url(links.get(k)):
-                        extra += f" · [{label}]({safe_url(links[k])})"
-                lines.append(f"- **[{md(p['title'])}]({safe_url(links.get('paper'))})** ({p.get('date') or p.get('year', '')}){extra}")
-                if not english:
-                    lines.append("  " + md(p.get("summaryZh", "")))
-            lines.append("")
-        if not recent:
-            lines += ["</details>", ""]
+            meta.extend(category_names[c] for c in p.get("categories", []) if c in category_names)
+        result = [f"- **{title}**<br>", "  " + " · ".join(v for v in meta if v) + "<br>"]
+        summary = (p.get("summaryEn") or p.get("summaryZh")) if english else p.get("summaryZh")
+        if detailed and summary:
+            result.append("  " + md(summary) + "<br>")
+        badges = []
+        paper_url = safe_url(links.get("paper"))
+        if paper_url:
+            base, _ = arxiv_identity(paper_url)
+            badges.append(badge("arXiv" if base else "Paper", paper_url, "B31B1B", "arxiv" if base else None,
+                                base, "arXiv: " + base if base else "Read the paper"))
+        if safe_url(links.get("code")):
+            github = urlparse(links["code"]).netloc.lower() == "github.com"
+            badges.append(badge("GitHub" if github else "Code", links["code"], "181717", "github" if github else None,
+                                alt="GitHub source code" if github else "Source code"))
+        if safe_url(links.get("project")):
+            badges.append(badge("Project", links["project"], "2563EB", alt="Project website"))
+        if safe_url(links.get("article")):
+            badges.append(badge("Article", links["article"], "7C3AED", alt="Read the original article"))
+        if home:
+            badges.append(badge("Reading card", home + "#paper=" + quote(str(p["id"]), safe=""), "0F766E", alt="中文阅读与横竖屏卡片"))
+        if badges:
+            result.append("  " + " ".join(badges))
+        return result + [""]
+
+    lines = [start, "", "**" + counts + "**", "", status, "", "## " + ("Contents" if english else "目录"), ""]
+    if recent:
+        lines.append("- [" + ("Recent papers" if english else "近期论文") + "](#recent-papers)")
+        for cat in categories:
+            members = [p for p in recent if primary(p) == cat["id"]]
+            if members:
+                label = cat["en"] if english else cat["label"]
+                lines.append(f"  - [{label} · {len(members)}](#recent-{cat['id']})")
+    if projects:
+        lines.append("- [" + ("Projects and systems" if english else "项目与系统") + "](#projects)")
+    if articles:
+        lines.append("- [" + ("Perspectives and essays" if english else "观点与讨论") + "](#perspectives)")
+    if earlier:
+        lines.append("- [" + ("Foundations and earlier work" if english else "背景阅读与早期工作") + "](#earlier-work)")
+    lines += ["", ("Each paper appears once under its primary topic; secondary topics remain visible as tags. English titles link to original sources; Chinese notes and reading cards are available alongside them."
+                    if english else "每篇论文只列在一个主分类下，其他研究方向保留为标签；点击徽章可直接打开原文、代码、项目主页或阅读卡片。"), ""]
+    if recent:
+        lines += ['<a id="recent-papers"></a>', "", "## " + (f"Recent embodied agents · since {focus_since}" if english else f"近期具身 Agent · {focus_since} 起"), ""]
+        for cat in categories:
+            members = [p for p in recent if primary(p) == cat["id"]]
+            if members:
+                lines += [f'<a id="recent-{cat["id"]}"></a>', "", "### " + (cat["en"] if english else cat["label"]), ""]
+                for p in members:
+                    lines += entry(p)
+    if projects:
+        lines += ['<a id="projects"></a>', "", "## " + ("Projects and systems" if english else "项目与系统"), "",
+                  "Project previews; collection dates are labeled when publication dates are unverified." if english else "官方项目预览；首发日期未核实时，明确标注收录日期。", ""]
+        for p in projects:
+            lines += entry(p)
+    if articles:
+        lines += ['<a id="perspectives"></a>', "", "## " + ("Perspectives and essays" if english else "观点与讨论"), "",
+                  "Author perspectives and essays, listed separately from experimental papers." if english else "作者观点与研究随笔，和报告实验结果的论文分开列出。", ""]
+        for p in articles:
+            lines += entry(p)
+    if earlier:
+        lines += ['<a id="earlier-work"></a>', "", "<details>", "<summary>" + (f"Foundations and earlier work ({len(earlier)} papers)" if english else f"背景阅读与早期工作（{len(earlier)} 篇，展开）") + "</summary>", ""]
+        for cat in categories:
+            members = [p for p in earlier if primary(p) == cat["id"]]
+            if members:
+                lines += ["### " + (cat["en"] if english else cat["label"]), ""]
+                for p in members:
+                    lines += entry(p, detailed=False)
+        lines += ["</details>", ""]
     lines.append(end)
     before = content.split(start, 1)[0]
     after = content.split(end, 1)[1]
@@ -222,7 +296,7 @@ def make_rss(papers, events, config, updated):
             rss_events.append({"id": "paper-" + paper_key(p), "paperId": paper_key(p), "type": "paper", "date": entry_date(p) or updated, "title": p["title"], "message": p.get("summaryZh", "")})
     for event in sorted(rss_events, key=lambda e: e.get("date", ""), reverse=True)[:100]:
         p = lookup.get(event.get("paperId"), {})
-        link = safe_url(event.get("url")) or safe_url(p.get("links", {}).get("paper")) or safe_url(p.get("links", {}).get("project")) or home
+        link = safe_url(event.get("url")) or safe_url(p.get("links", {}).get("paper")) or safe_url(p.get("links", {}).get("article")) or safe_url(p.get("links", {}).get("project")) or home
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = event.get("title") or p.get("title", "论文动态")
         ET.SubElement(item, "link").text = link
