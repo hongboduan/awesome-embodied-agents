@@ -19,6 +19,8 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 The website includes source-linked reading notes, original paper figures, method comparison, and landscape/portrait cards for reading and sharing. Publication dates refer to the first arXiv submission; revisions are tracked separately.
 
+Official project previews are listed separately from papers. When a release date is unverified, the website labels the collection date instead; project images retain their original source attribution.
+
 ## Reading labels
 
 - **Source-checked:** checked against an original abstract or author source; not necessarily a full-paper review.
@@ -30,7 +32,12 @@ Automatically extracted illustrations retain their PDF source and page. A page p
 
 <!-- ATLAS:START -->
 
-307 papers · 39 curated · 38 source-checked · 1 full-review · 0 AI drafts · 268 discovery candidates
+308 entries · 40 curated (including 1 projects) · 39 source-checked · 1 full-review · 0 AI drafts · 268 discovery candidates
+
+## Projects and systems
+
+- **[LoopROS: A Recursively Self-Evolving Robot Operating System for Agentic Manipulation](https://loopmaster.ai/loopros/)** (added 2026-10-12) · Project preview; paper and code pending
+  An agentic robot runtime combining within-episode observation and action feedback with background consolidation of reusable cross-episode Skills. The official project reports 82/100 successes on a selected ten-task simulation subset; component ablations are ongoing.
 
 ## Recent embodied agents · since 2026-09-01
 

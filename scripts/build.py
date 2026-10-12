@@ -67,6 +67,11 @@ def paper_version(paper):
     return None
 
 
+def entry_date(paper):
+    """Project collection dates order entries without inventing publication dates."""
+    return paper.get("date") or (paper.get("addedAt", "") if paper.get("sourceType") == "project" else "")
+
+
 def load_papers(root=ROOT):
     """Editorial seeds take precedence over discovery; highest versions deduplicate candidates."""
     merged = {}
@@ -113,7 +118,7 @@ def load_papers(root=ROOT):
                     if field in ai:
                         p[field] = ai[field]
                 p.update(review="ai-draft", curated=False, deepRead=False, reviewedVersion=version)
-    return sorted(merged.values(), key=lambda p: (p.get("date", ""), p.get("title", "")), reverse=True)
+    return sorted(merged.values(), key=lambda p: (entry_date(p), p.get("title", "")), reverse=True)
 
 
 def safe_url(value):
@@ -133,7 +138,10 @@ def bibtex(papers):
         base, _ = arxiv_identity(p.get("links", {}).get("paper"))
         key = re.sub(r"[^a-zA-Z0-9]", "", p["id"])
         fields = [("title", "{" + escape(p["title"]) + "}"), ("author", escape(p.get("authors") or "Unknown")),
-                  ("year", str(p.get("year") or p.get("date", "")[:4])), ("url", safe_url(p.get("links", {}).get("paper")))]
+                  ("year", str(p.get("year") or (p.get("date") or "")[:4])),
+                  ("url", safe_url(p.get("links", {}).get("paper")) or safe_url(p.get("links", {}).get("project")))]
+        if p.get("sourceType") == "project" and not p.get("date"):
+            fields.append(("note", "Project page; publication date unverified"))
         if base:
             fields += [("eprint", base), ("archivePrefix", "arXiv")]
         # Bibliography exports are metadata; verify full author lists before manuscript submission.
@@ -153,11 +161,22 @@ def update_readme(path, papers, english=False, focus_since="2026-09-01"):
     checked = sum(p.get("review") == "source-checked" for p in papers)
     reviewed = sum(p.get("review") == "full-review" for p in papers)
     drafts = sum(p.get("review") == "ai-draft" for p in papers)
-    counts = (f"{len(papers)} papers · {len(curated)} curated · {checked} source-checked · {reviewed} full-review · {drafts} AI drafts · {candidates} discovery candidates"
-              if english else f"共 {len(papers)} 篇 · 精选 {len(curated)} 篇 · 来源核对 {checked} 篇 · 全文核读 {reviewed} 篇 · AI 草稿 {drafts} 篇 · 自动候选 {candidates} 篇")
+    projects = [p for p in curated if p.get("sourceType") == "project"]
+    counts = (f"{len(papers)} entries · {len(curated)} curated (including {len(projects)} projects) · {checked} source-checked · {reviewed} full-review · {drafts} AI drafts · {candidates} discovery candidates"
+              if english else f"共 {len(papers)} 条 · 精选 {len(curated)} 条（含 {len(projects)} 个项目）· 来源核对 {checked} 条 · 全文核读 {reviewed} 篇 · AI 草稿 {drafts} 篇 · 自动候选 {candidates} 篇")
     lines = [start, "", counts, ""]
+    if projects:
+        lines += ["## " + ("Projects and systems" if english else "项目与系统"), ""]
+        for p in projects:
+            url = safe_url(p.get("links", {}).get("project"))
+            date = p.get("date") or (("added " if english else "收录于 ") + p.get("addedAt", ""))
+            status = "Project preview" if english else "项目预览"
+            if not p.get("links", {}).get("paper") and not p.get("links", {}).get("code"):
+                status += "; paper and code pending" if english else "；论文与代码待公开"
+            lines += [f"- **[{md(p['title'])}]({url})** ({md(date)}) · {status}",
+                      "  " + md(p.get("summaryEn") if english else p.get("summaryZh", "")), ""]
     for recent in [True, False]:
-        subset = [p for p in curated if ((p.get("date", "") >= focus_since) == recent)]
+        subset = [p for p in curated if p.get("sourceType") != "project" and ((entry_date(p) >= focus_since) == recent)]
         if not subset:
             continue
         if recent:
@@ -198,10 +217,10 @@ def make_rss(papers, events, config, updated):
     seen = {e.get("paperId") for e in events if e.get("type") == "discovered"}
     for p in papers:
         if paper_key(p) not in seen:
-            rss_events.append({"id": "paper-" + paper_key(p), "paperId": paper_key(p), "type": "paper", "date": p.get("date", updated), "title": p["title"], "message": p.get("summaryZh", "")})
+            rss_events.append({"id": "paper-" + paper_key(p), "paperId": paper_key(p), "type": "paper", "date": entry_date(p) or updated, "title": p["title"], "message": p.get("summaryZh", "")})
     for event in sorted(rss_events, key=lambda e: e.get("date", ""), reverse=True)[:100]:
         p = lookup.get(event.get("paperId"), {})
-        link = safe_url(event.get("url")) or safe_url(p.get("links", {}).get("paper")) or home
+        link = safe_url(event.get("url")) or safe_url(p.get("links", {}).get("paper")) or safe_url(p.get("links", {}).get("project")) or home
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = event.get("title") or p.get("title", "论文动态")
         ET.SubElement(item, "link").text = link

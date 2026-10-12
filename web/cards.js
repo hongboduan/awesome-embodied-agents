@@ -13,7 +13,8 @@
   const arr = value => Array.isArray(value) ? value.map(clean).filter(Boolean) : [];
   const fallback = (value, other) => clean(value) || other;
   const titleOf = p => fallback(p.shortTitle, fallback(p.title, '未命名论文'));
-  const paperUrl = p => clean(p.links && p.links.paper) || '来源链接未提供';
+  const isProject = p => p.sourceType === 'project';
+  const paperUrl = p => clean(p.links && (p.links.paper || p.links.project)) || '来源链接未提供';
   const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
 
   function font(ctx, size, weight, serif) {
@@ -75,7 +76,7 @@
     const count = Math.max(1, Math.floor(height / (size * leading)));
     if (lines.length > count) {
       clipped = true; lines = lines.slice(0, count);
-      const tail = o.tail || '…（全文见论文页）';
+      const tail = o.tail || '…（详见研究页）';
       let end = lines[count - 1];
       while (end && ctx.measureText(end + tail).width > width) end = Array.from(end).slice(0, -1).join('');
       lines[count - 1] = end + tail;
@@ -86,7 +87,7 @@
     const o = options || {}, layout = fitted(ctx, value, w, h, o);
     font(ctx, layout.size, o.weight, o.serif); ctx.fillStyle = o.color || C.ink;
     layout.lines.forEach((part, i) => ctx.fillText(part, x, y + i * layout.size * layout.leading));
-    if (layout.clipped && o.warn !== false && ctx.canvas.atlasWarnings) ctx.canvas.atlasWarnings.push((o.name || '文本') + '过长，已明确标记省略；请查看完整论文页。');
+    if (layout.clipped && o.warn !== false && ctx.canvas.atlasWarnings) ctx.canvas.atlasWarnings.push((o.name || '文本') + '过长，已明确标记省略；请查看完整研究页。');
     return y + layout.height;
   }
   function tiny(ctx, value, x, y, color, size) {
@@ -110,25 +111,25 @@
   }
   function sourceId(p) {
     const url = paperUrl(p), match = url.match(/(?:abs|pdf)\/([\d.]+(?:v\d+)?)/i);
-    return match ? 'arXiv:' + match[1] : fallback(p.id, '论文来源见链接');
+    return match ? 'arXiv:' + match[1] : isProject(p) ? titleOf(p) + ' · 项目解读' : fallback(p.id, '论文来源见链接');
   }
   function header(ctx, p, page, total) {
     const W = ctx.canvas.width;
     box(ctx, 72, 56, 31, 31, C.ink, null, 4);
     tiny(ctx, 'EA', 77, 64, C.lime, 14);
     tiny(ctx, 'EMBODIED AGENT ATLAS', 117, 61, C.ink, 20);
-    const label = (REVIEW[p.review] || '来源待核实') + '  /  ' + String(page + 1).padStart(2, '0') + '—' + String(total).padStart(2, '0');
+    const label = (isProject(p) ? '项目解读 · 官方来源' : REVIEW[p.review] || '来源待核实') + '  /  ' + String(page + 1).padStart(2, '0') + '—' + String(total).padStart(2, '0');
     font(ctx, 18, 500); ctx.fillStyle = C.muted; ctx.fillText(label, W - 72 - ctx.measureText(label).width, 62);
     line(ctx, 72, 115, W - 72);
   }
   function footer(ctx, p) {
     const W = ctx.canvas.width, H = ctx.canvas.height, hasWarnings = ctx.canvas.atlasWarnings.length > 0;
     line(ctx, 72, H - 123, W - 72);
-    tiny(ctx, sourceId(p) + (p.date ? '  ·  ' + clean(p.date) : ''), 72, H - 100, C.ink, 18);
-    const right = '仅供研究阅读 · 结论以原文为准';
+    tiny(ctx, sourceId(p) + (p.date ? '  ·  ' + clean(p.date) : isProject(p) && p.addedAt ? '  ·  收录 ' + clean(p.addedAt) : ''), 72, H - 100, C.ink, 18);
+    const right = isProject(p) && !p.date ? '发布日期未核实 · 以项目页为准' : '仅供研究阅读 · 结论以原文为准';
     font(ctx, 17, 400); ctx.fillStyle = C.muted; ctx.fillText(right, W - 72 - ctx.measureText(right).width, H - 99);
     text(ctx, paperUrl(p), 72, H - 68, W - 144, 27, { size: 17, min: 14, leading: 1.1, color: C.muted, tail: '…', name: '来源链接' });
-    if (hasWarnings) tiny(ctx, '部分文字已标记省略，完整内容请查看论文页。', 72, H - 33, C.ink, 16);
+    if (hasWarnings) tiny(ctx, '部分文字已标记省略，完整内容请查看研究页。', 72, H - 33, C.ink, 16);
   }
   function section(ctx, index, heading) {
     tiny(ctx, 'RESEARCH NOTE  /  ' + index, 80, 171, C.muted, 20);
@@ -164,28 +165,28 @@
   function figure(ctx, p, img, x, y, width, height) {
     box(ctx, x, y, width, height, '#ffffff', C.line, 12);
     const f = p.figure || {};
-    const label = f.kind === 'page-preview' ? 'PDF 页面预览' : (clean(f.figureLabel) || '论文原图');
+    const label = f.kind === 'page-preview' ? 'PDF 页面预览' : (clean(f.figureLabel) || (isProject(p) ? '项目原图' : '论文原图'));
     const source = clean(f.sourceUrl).match(/arxiv\.org\/(?:pdf|abs)\/([0-9]{4}\.[0-9]{4,5})(v[0-9]+)/);
-    const version = source ? 'arXiv:' + source[1] + source[2] : (f.version ? 'PDF v' + f.version : '图像版本未记录');
-    tiny(ctx, img ? label + '  ·  ' + version + (f.page ? '  ·  PDF p.' + f.page : '') : '论文插图待提取', x + 22, y + 18, C.muted, 18);
+    const version = f.kind === 'project-image' ? clean(f.sourceLabel) || '官方项目页' : source ? 'arXiv:' + source[1] + source[2] : (f.version ? 'PDF v' + f.version : '图像版本未记录');
+    tiny(ctx, img ? label + '  ·  ' + version + (f.page ? '  ·  PDF p.' + f.page : '') : (isProject(p) ? '项目原图待整理' : '论文插图待提取'), x + 22, y + 18, C.muted, 18);
     if (img) {
       const iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
       const areaW = width - 36, areaH = height - 94, scale = Math.min(areaW / iw, areaH / ih);
       ctx.drawImage(img, x + (width - iw * scale) / 2, y + 54 + (areaH - ih * scale) / 2, iw * scale, ih * scale);
-      text(ctx, clean(f.caption) || '原图与版权归论文作者；请结合原文阅读。', x + 22, y + height - 35, width - 44, 25, { size: 16, min: 15, leading: 1.1, color: C.muted, tail: '…', warn: false, name: '原图图注' });
+      text(ctx, clean(f.caption) || (isProject(p) ? '原图与版权归项目作者；请结合官方材料阅读。' : '原图与版权归论文作者；请结合原文阅读。'), x + 22, y + height - 35, width - 44, 25, { size: 16, min: 15, leading: 1.1, color: C.muted, tail: '…', warn: false, name: '原图图注' });
     } else {
       text(ctx, validFigurePath(p) ? '原文图像暂时无法加载' : '原文图像正在整理', x + 45, y + height / 2 - 30, width - 90, 66, { size: 30, min: 23, leading: 1.3, color: C.muted });
-      tiny(ctx, '完整框架请查看来源 PDF', x + 45, y + height / 2 + 45, C.muted, 19);
-      if (validFigurePath(p)) ctx.canvas.atlasWarnings.push('原图暂未加载，已保留 PDF 来源。');
+      tiny(ctx, isProject(p) ? '详细材料请查看官方项目页' : '完整框架请查看来源 PDF', x + 45, y + height / 2 + 45, C.muted, 19);
+      if (validFigurePath(p)) ctx.canvas.atlasWarnings.push(isProject(p) ? '原图暂未加载，已保留官方项目来源。' : '原图暂未加载，已保留 PDF 来源。');
     }
   }
 
   function portrait(ctx, p, page, img) {
     header(ctx, p, page, 5);
     if (page === 0) {
-      tiny(ctx, '论文阅读  /  EMBODIED AGENTS', 80, 157, C.muted, 21);
-      text(ctx, titleOf(p), 73, 208, 934, 165, { size: 96, min: 44, leading: 1.12, serif: true, name: '论文简称' });
-      text(ctx, fallback(p.title, titleOf(p)), 80, 391, 915, 111, { size: 28, min: 22, leading: 1.35, name: '论文标题' });
+      tiny(ctx, (isProject(p) ? '项目阅读' : '论文阅读') + '  /  EMBODIED AGENTS', 80, 157, C.muted, 21);
+      text(ctx, titleOf(p), 73, 208, 934, 165, { size: 96, min: 44, leading: 1.12, serif: true, name: '研究简称' });
+      text(ctx, fallback(p.title, titleOf(p)), 80, 391, 915, 111, { size: 28, min: 22, leading: 1.35, name: '研究标题' });
       figure(ctx, p, img, 72, 529, 936, 443);
       box(ctx, 72, 995, 936, 271, C.ink, null, 13);
       tiny(ctx, '一句话读懂', 103, 1022, C.lime, 22);
@@ -196,7 +197,7 @@
       tiny(ctx, '研究问题', 107, 382, C.muted, 23);
       text(ctx, fallback(p.problem, '研究问题尚未核实，请查看原文。'), 80, 451, 916, 418, { size: 39, min: 25, leading: 1.6, name: '研究问题' });
       line(ctx, 80, 895, 1000);
-      tiny(ctx, '论文核心思路', 80, 931, C.muted, 21);
+      tiny(ctx, isProject(p) ? '项目核心思路' : '论文核心思路', 80, 931, C.muted, 21);
       text(ctx, fallback(p.summaryZh, '核心思路尚待整理。'), 80, 977, 916, 179, { size: 31, min: 23, leading: 1.5, name: '核心思路' });
       const scope = arr(p.tasks).map(t => TASK[t] || t).concat(arr(p.environment).map(e => ENVIRONMENT[e] || e));
       pills(ctx, scope.length ? scope : ['适用场景待核实'], 80, 1196, 920, 1);
@@ -223,8 +224,8 @@
       }
     } else if (page === 3) {
       section(ctx, '04', '结果与证据');
-      tiny(ctx, '论文报告 · 请结合评测设置阅读', 80, 374, C.muted, 21);
-      text(ctx, numbered(p.findings, '量化结果尚未核实，请查看原文。'), 80, 429, 915, 446, { size: 34, min: 22, leading: 1.5, name: '论文主要结果' });
+      tiny(ctx, (isProject(p) ? '项目报告' : '论文报告') + ' · 请结合评测设置阅读', 80, 374, C.muted, 21);
+      text(ctx, numbered(p.findings, '量化结果尚未核实，请查看原文。'), 80, 429, 915, 446, { size: 34, min: 22, leading: 1.5, name: '主要结果' });
       box(ctx, 64, 910, 952, 353, C.pale, null, 12);
       tiny(ctx, '原始来源索引', 92, 937, C.ink, 22);
       const evidence = Array.isArray(p.evidence) ? p.evidence : [];
@@ -244,8 +245,8 @@
 
   function landscape(ctx, p, img) {
     header(ctx, p, 0, 1);
-    text(ctx, titleOf(p), 70, 149, 1776, 108, { size: 83, min: 42, serif: true, leading: 1.12, name: '论文简称' });
-    text(ctx, fallback(p.title, titleOf(p)), 74, 268, 1760, 66, { size: 26, min: 21, leading: 1.26, name: '论文标题' });
+    text(ctx, titleOf(p), 70, 149, 1776, 108, { size: 83, min: 42, serif: true, leading: 1.12, name: '研究简称' });
+    text(ctx, fallback(p.title, titleOf(p)), 74, 268, 1760, 66, { size: 26, min: 21, leading: 1.26, name: '研究标题' });
     text(ctx, fallback(p.summaryZh, '中文摘要尚待整理，请查看原文。'), 74, 342, 1760, 71, { size: 29, min: 23, leading: 1.35, name: '核心结论' });
     figure(ctx, p, img, 72, 438, 890, 474);
     const blocks = [
@@ -265,7 +266,7 @@
   }
 
   async function render(paper, options) {
-    if (!paper || typeof paper !== 'object') throw new TypeError('AtlasCards.render 需要论文记录。');
+    if (!paper || typeof paper !== 'object') throw new TypeError('AtlasCards.render 需要研究记录。');
     if (typeof document === 'undefined') throw new Error('卡片渲染需要浏览器 Canvas。');
     await ready();
     const img = await loadFigure(paper);
@@ -277,7 +278,7 @@
     canvas.atlasWarnings = [];
     canvas.dataset.format = format; canvas.dataset.page = String(page);
     canvas.setAttribute('role', 'img');
-    canvas.setAttribute('aria-label', titleOf(paper) + ' · ' + (format === 'landscape' ? '横版论文卡片' : '竖版论文卡片 ' + (page + 1) + '/5'));
+    canvas.setAttribute('aria-label', titleOf(paper) + ' · ' + (format === 'landscape' ? '横版' : '竖版') + (isProject(paper) ? '项目卡片' : '论文卡片') + (format === 'portrait' ? ' ' + (page + 1) + '/5' : ''));
     const ctx = canvas.getContext('2d');
     if (!ctx) throw new Error('当前浏览器不支持 Canvas 2D。');
     ctx.fillStyle = C.paper; ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -362,7 +363,8 @@
     const fields = ['  title = {{' + bibEscape(fallback(p.title, titleOf(p))) + '}}'];
     if (clean(p.authors) && clean(p.authors) !== '未核实') fields.push('  author = {' + bibAuthors(p.authors) + '}');
     if (year) fields.push('  year = {' + year + '}');
-    const url = clean(p.links && p.links.paper), arxiv = url.replace(/\.pdf(?:$|[?#])/i, '').match(/(?:arxiv\.org\/(?:abs|pdf)\/)([\d.]+(?:v\d+)?)/i);
+    if (isProject(p)) fields.push('  note = {' + (year ? 'Project page' : 'Project page; publication date unverified') + '}');
+    const url = clean(p.links && (p.links.paper || p.links.project)), arxiv = url.replace(/\.pdf(?:$|[?#])/i, '').match(/(?:arxiv\.org\/(?:abs|pdf)\/)([\d.]+(?:v\d+)?)/i);
     if (arxiv) { fields.push('  eprint = {' + arxiv[1] + '}'); fields.push('  archivePrefix = {arXiv}'); }
     if (/^https:\/\//i.test(url)) fields.push('  url = {' + bibEscape(url) + '}');
     return '@misc{' + key + ',\n' + fields.join(',\n') + '\n}\n';

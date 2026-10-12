@@ -78,6 +78,28 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(loaded["review"], "candidate")
         self.assertNotEqual(loaded["summaryZh"], loaded["abstractEn"])
 
+    def test_project_without_publication_date_builds_without_fabricated_citation(self):
+        project = {"id": "loopros", "title": "LoopROS", "sourceType": "project", "date": None,
+                   "year": None, "addedAt": "2026-10-12", "review": "source-checked", "curated": True,
+                   "links": {"paper": None, "project": "https://loopmaster.ai/loopros/", "code": None}}
+        self.put("seed-projects.json", [project])
+        self.put("seed-papers.json", [paper()])
+        self.assertEqual(build.load_papers(self.root)[0]["id"], "loopros")
+        citation = build.bibtex([project])
+        self.assertIn("https://loopmaster.ai/loopros/", citation)
+        self.assertNotIn("year =", citation)
+        self.assertNotIn("eprint =", citation)
+        readme = self.root / "README.md"
+        readme.write_text("<!-- ATLAS:START -->\n<!-- ATLAS:END -->")
+        result = build.build(self.root)
+        self.assertIsNone(result["papers"][0]["date"])
+        text = readme.read_text()
+        self.assertIn("Projects and systems", text)
+        self.assertIn("added 2026-10-12", text)
+        self.assertNotIn("]()", text)
+        rss = (self.root / "dist/feed.xml").read_text()
+        self.assertIn("<link>https://loopmaster.ai/loopros/</link>", rss)
+
     def test_unversioned_seed_establishes_baseline_without_false_revision(self):
         editorial = paper()
         editorial.pop("version")

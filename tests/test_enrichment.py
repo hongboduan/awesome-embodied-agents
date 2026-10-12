@@ -119,6 +119,15 @@ class OrchestrationTests(unittest.TestCase):
         result = self.run_pipeline(environ={})
         self.assertEqual(len(self.pdf_calls), 1)
 
+    def test_project_previews_are_not_sent_to_pdf_or_model_pipeline(self):
+        self.write("data/seed-projects.json", [{"id": "loopros", "title": "LoopROS",
+                   "sourceType": "project", "date": None, "addedAt": "2026-10-12",
+                   "curated": True, "links": {"paper": None, "project": "https://loopmaster.ai/loopros/"}}])
+        result = self.run_pipeline()
+        self.assertEqual(result["eligible"], 1)
+        self.assertEqual(self.pdf_calls, ["2610.12345"])
+        self.assertEqual(self.model_calls, ["2610.12345"])
+
     def test_successful_request_is_cached_and_new_version_is_reanalyzed(self):
         self.run_pipeline()
         self.run_pipeline()

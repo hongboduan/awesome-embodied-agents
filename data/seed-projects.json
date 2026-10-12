@@ -1,0 +1,95 @@
+[
+  {
+    "id": "loopros",
+    "sourceType": "project",
+    "title": "LoopROS: A Recursively Self-Evolving Robot Operating System for Agentic Manipulation",
+    "shortTitle": "LoopROS",
+    "date": null,
+    "year": null,
+    "addedAt": "2026-10-12",
+    "authors": "LoopMaster（官方项目）",
+    "categories": ["code", "memory", "learning", "planning", "recovery"],
+    "tasks": ["manipulation"],
+    "environment": ["simulation", "real"],
+    "summaryZh": "前台用历史观察与动作反馈驱动代码执行，后台把失败和修正整理为跨回合 Skills，让操作经验有机会被后续任务复用。",
+    "summaryEn": "An agentic robot runtime combining within-episode observation and action feedback with background consolidation of reusable cross-episode Skills. The official project reports 82/100 successes on a selected ten-task simulation subset; component ablations are ongoing.",
+    "problem": "通用智能体能调用机器人工具，但如何持续理解执行进度，并把一次操作中的失败和修正留给后续任务？",
+    "method": "LoopROS 将机器人结构、坐标系、传感器、工具接口、环境约束和示范组织为具身上下文。前台结合当前与历史图像、动作回执和任务进度，规划并通过代码调用工具；后台回放执行记录，总结问题、修正方法与适用条件，整理成可检索 Skills。后续回合在复用前检查目标、环境与工具条件。",
+    "findings": [
+      "作者自报：RoboDojo 10 个选定任务、每任务 10 回合，共 100 回合；任务等权平均 Score 88.90，最终成功 82/100（82%），包含失败回合。",
+      "有泛化设置的任务按标准场景与泛化场景 2:3 统计。装箱成功率为 30%、整理桌面为 60%，任务间能力仍不均衡。",
+      "官方展示双臂黄瓜削皮及指定 4/8/10 mm 厚度切片。视频无剪辑但加速播放，主要压缩模型 API 等待；未提供真机重复试验成功率。"
+    ],
+    "limitations": [
+      "这是项目页解读：Paper 与 GitHub 按钮仍为 Coming soon，未见公开论文或代码；首发日期未核实，收录日期不等于发布日期。",
+      "10 任务子集及对照协议与完整官方评测不同，各方法的场景比例和试验次数也不完全一致，不能据此声称全面超过 VLA 或 COAP。",
+      "历史图像、回合内上下文、跨回合 Skills 等消融实验仍在进行；当前成绩尚不能证明某个模块的独立增益或持续自我改进效果。",
+      "真机材料是任务演示，不能把 82% 仿真成功率外推为真机可靠性；代码、控制频率和复现细节有待公开。"
+    ],
+    "role": {
+      "model": "GPT-6 Astra 结合具身上下文进行在线规划",
+      "output": "Code as Policy：代码与机器人工具调用",
+      "memory": "回合内历史观察与反馈；跨回合可检索 Skills",
+      "recovery": "依据动作回执更新进度，记录失败与修正",
+      "adaptation": "后台总结经验供后续回合复用；模块增益待消融"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://loopmaster.ai/loopros/",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "具身上下文、前台执行闭环与后台 Skills 学习",
+        "source": "https://loopmaster.ai/loopros/#policy",
+        "label": "官方系统工作流"
+      },
+      {
+        "claim": "10 任务、100 回合、Score 88.90、成功率 82% 及评测协议边界",
+        "source": "https://loopmaster.ai/loopros/#results",
+        "label": "官方评测与协议说明"
+      },
+      {
+        "claim": "任务间差异：装箱 30%，整理桌面 60%",
+        "source": "https://loopmaster.ai/loopros/#tasks",
+        "label": "官方逐任务结果"
+      },
+      {
+        "claim": "双臂削皮与定厚切片；无剪辑、加速播放的真机演示",
+        "source": "https://loopmaster.ai/loopros/#real-world",
+        "label": "官方真机演示"
+      },
+      {
+        "claim": "Paper / GitHub 尚待发布，相关消融仍在进行",
+        "source": "https://loopmaster.ai/loopros/",
+        "label": "官方资源状态与研究进展（2026-10-12 核对）"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "announced",
+    "lastChecked": "2026-10-12",
+    "tags": ["项目预览", "GPT-6 Astra", "Code as Policy", "具身上下文", "技能库", "并行学习", "双臂操作"],
+    "curated": true,
+    "deepRead": false,
+    "figure": {
+      "kind": "project-image",
+      "path": "assets/papers/loopros-project.jpg",
+      "figureLabel": "官方真机演示",
+      "sourceLabel": "LoopMaster 官方项目页",
+      "sourceUrl": "https://loopmaster.ai/loopros/#real-world",
+      "originalUrl": "https://loopmaster.ai/loopros/media/real_experiments/peel-cucumber-poster.jpg",
+      "caption": "双臂协作削黄瓜皮：官方视频封面，画面标注 20 倍速。此图为真机演示画面，非论文框架图；图像归原作者。"
+    },
+    "social": {
+      "xiaohongshu": {
+        "title": "LoopROS：让机器人把经验存成 Skills",
+        "body": "机器人做完一次任务，下一次能留下什么？\n\nLoopROS 给出一种系统设计：前台把当前与历史图像、动作回执和任务进度放进具身上下文，由 GPT-6 Astra 规划并调用机器人工具；后台回放执行记录，把失败、修正和适用条件整理成可检索 Skills，供后续回合复用。\n\n我觉得值得关注的是：能力积累的载体可以是上下文与技能库。哪些经验该存、何时该取、换了环境还是否适用，成为系统设计的核心问题。\n\n作者报告 RoboDojo 10 个选定任务、100 回合，Score 88.90、成功率 82%。这是仿真子集结果；官网另有双臂削皮和定厚切片演示，但没有公布真机统计成功率。\n\n截至 2026-10-12，论文和代码仍待公开，Skills 等模块的消融也在进行。因此更适合关注它的机制和后续证据，暂不能把这个成绩解释成已证明的持续自我进化。\n\n项目：https://loopmaster.ai/loopros/",
+        "tags": ["具身智能", "EmbodiedAgent", "机器人", "GPT6Astra", "论文与项目解读"]
+      },
+      "wechat": {
+        "title": "LoopROS：把一次机器人操作，变成后续任务可用的经验",
+        "body": "机器人在任务里发现了一种更好的操作方式，这段经验如何进入下一次执行？LoopROS 尝试把答案放在具身上下文和可检索 Skills 中。\n\n它把机器人结构、坐标系、传感器、工具接口与任务约束组织成上下文。前台执行时，GPT-6 Astra 结合当前和历史图像、动作回执与任务进度规划，通过代码调用机器人工具，并继续根据反馈修正行动。后台则回放执行记录，把问题、修正方法和适用条件整理为 Skills。后续任务复用这些经验前，还要检查目标、环境和工具是否匹配。\n\n与 COAP 在执行阶段运行固定代码的设计相比，按公开介绍理解，LoopROS 将智能体保留在在线观察和决策过程中。它值得讨论的地方，是经验如何跨回合保存、检索和应用。这是对系统分工的理解，尚不能视为某条路线已经胜出的实验结论。\n\n官方报告在 RoboDojo 的 10 个选定任务中完成 100 回合，任务等权平均 Score 为 88.90，最终成功率为 82%，失败回合包含在内。这里的 Score 和成功率是两个指标；子集与不同对照方法的评测条件也不完全一致。官网另有双臂削黄瓜皮和 4/8/10 mm 定厚切片演示，视频无剪辑但加速播放，主要压缩模型 API 等待；这些演示没有给出真机重复试验成功率。\n\n截至 2026-10-12，Paper 与 GitHub 仍显示 Coming soon，历史图像、回合内上下文和跨回合 Skills 的消融仍在进行。因而目前可以确认的是团队公开的系统设计和自报结果，持续自我改进究竟带来多少增益，仍需后续证据。\n\n项目：https://loopmaster.ai/loopros/"
+      }
+    }
+  }
+]

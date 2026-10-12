@@ -18,7 +18,7 @@ from urllib.error import HTTPError
 from urllib.parse import urlparse
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 
-from build import ROOT, load_papers, paper_key, paper_version, read_json, utc_now, write_json
+from build import ROOT, arxiv_identity, load_papers, paper_key, paper_version, read_json, utc_now, write_json
 
 PROMPT_VERSION = "chinese-evidence-v1"
 ROLE_KEYS = ("model", "output", "memory", "recovery", "adaptation")
@@ -273,7 +273,9 @@ def run_enrichment(root=ROOT, *, environ=None, extractor=None, text_reader=None,
     status["llmMode"] = "enabled" if llm_enabled and configured else ("not-configured" if llm_enabled else "disabled")
     since = settings.get("since", "2026-09-01")
     records = read_json(root / "data/enrichments.json", {})
-    papers = [p for p in load_papers(root) if p.get("date", "") >= since]
+    # Project previews have no paper PDF; never submit them to arXiv extraction.
+    papers = [p for p in load_papers(root) if p.get("sourceType") != "project"
+              and arxiv_identity(paper_key(p))[0] and (p.get("date") or "") >= since]
 
     def failed_pdf_attempt(paper):
         attempt = records.get(paper_key(paper), {}).get("lastPdfAttempt", {})
