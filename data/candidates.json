@@ -1965,61 +1965,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2610.10409",
-    "arxivId": "2610.10409",
-    "version": 1,
-    "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
-    "shortTitle": "RobotWorld",
-    "date": "2026-10-07",
-    "year": 2026,
-    "authors": "Zhiqin Yang and Chenxin Li and Xiaomeng Hu and Yibin Liu and Weidong Huang and Jiankai Sun and Haitao Li and Zijian Wu and Yuzhi Huang and Fanding Huang and Hanwen Sun and Jiashun Liu and Jingqi Tong and Mingxin Huang and Shaoli Hu and Shijue Huang and Tianyi Bai and Xinyuan Wang and Yunlong Lin and Zhengyang Tang and Zhexin Zhang and Zhuo Chen and Xierui Song and Juntao Dai and Boyuan Chen and Jiaming Ji and Fangneng Zhan and Mengkang Hu and Wei Xue and Yonggang Zhang and Han Hu and Tsung-Yi Ho and Yike Guo",
-    "categories": [
-      "spatial",
-      "code",
-      "evaluation"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces. Its 84 tasks span manipulation, mobile manipulation, locomotion, driving, and aerial control, with explicit interaction budgets and executable success checks. By analysing task outcomes alongside execution traces, we identify both the capabilities that transfer and the gaps that prevent reliable completion. Furthermore, we find that current agents can construct sophisticated perception and control workflows, including image segmentation, camera calibration, spatial estimation, and dynamics-based computation. These capabilities, however, do not consistently compose into successful behaviour: agents lose task-relevant object states despite reaching commanded poses, fail to correct ineffective actions, recover too late, or mistake unfinished tasks for completion. This uneven transfer also differs across models: Astra succeeds more often on spatial and constrained-contact goals, whereas Opus 5.5 succeeds more often on continuous-balance and timed-interaction goals. By linking these outcomes to execution behaviour, RobotWorld provides both a rigorous proving ground and an empirical account of the remaining capability gaps, thereby establishing concrete targets for training and designing more reliable physical-world agents.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.10409v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.10409v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-10-12",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-07T16:55:24Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2610.08133",
     "arxivId": "2610.08133",
     "version": 2,

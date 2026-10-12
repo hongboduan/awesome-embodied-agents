@@ -462,9 +462,9 @@
     },
     "extractionFingerprint": "f11b24867e650c50",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "人工内容保留。"
     }
   },
   "2610.09294": {
@@ -2336,6 +2336,474 @@
     "ai": {
       "status": "not-configured",
       "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.29394": {
+    "arxivId": "2609.29394",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.29394",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29394v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.29394-v1.text.json",
+      "extractedAt": "2026-10-12T14:09:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4 Main benchmark overview. (a) In-domain native success on 90 LIBERO-90 tasks (seed 0). (b) Runtime computation across 180 paired LIBERO-PRO episodes, where bottom-left methods indicate fewer model calls and lower policy time. (c) LIBERO-Long results across 10 tasks (5 seeds).",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2609.29394-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29394v1",
+      "page": 8,
+      "version": 1,
+      "width": 932,
+      "height": 332,
+      "crop": [
+        73.02,
+        66.0,
+        539.0,
+        231.95
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.28973": {
+    "arxivId": "2609.28973",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.28973",
+      "sourceUrl": "https://arxiv.org/pdf/2609.28973v3",
+      "version": 3,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.28973-v3.text.json",
+      "extractedAt": "2026-10-12T14:09:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: AquaMend overview. (a) The restart and rollback-only baselines considered here can commit to recovery before re-checking a suspected belief. (b) AquaMend compares re- probing with admissible terminal recovery decisions under one expected-loss objective on a probe–belief–action graph. The closed-form threshold applies in the structured regime (Proposition 1); the general policy is myopic, without a global optimality guarantee. (c) Earlier discrete T4-Stress results on 4,600 paired episodes per method. Two-sided paired Wilcoxon comparisons yield Holm-adjusted p < 10−3 versus restart, decoupled, and greedy, but p = 0.317 versus depth-2 lookahead (Table 9).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.28973-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.28973v3",
+      "page": 2,
+      "version": 3,
+      "width": 817,
+      "height": 337,
+      "crop": [
+        102.0,
+        75.85,
+        510.0,
+        243.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.31770": {
+    "arxivId": "2609.31770",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.31770",
+      "sourceUrl": "https://arxiv.org/pdf/2609.31770v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.31770-v1.text.json",
+      "extractedAt": "2026-10-12T14:09:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Faster elevator-button manipulation with GPT-6-Astra in simulation and on a real robot. Robot geometry and camera information (blue), or synchronized images, actions, and robot states from a successful simulated attempt (orange), reduce task time relative to the same agent given neither resource. The sim2real arrow denotes reuse of simulation knowledge and experience on a calibrated physical robot. Bottom: researchers derived reusable skills from an agent-generated routine to accelerate the ﬁnal approach in simulation. STEP performs one short movement and returns an image to the agent; LOOP repeats movements and image checks internally until the button’s visual activation signal is detected or an execution limit is reached. Their baseline has no supplied skill. Bars show mean task time, including observation, model interaction, and execution (three trials per condition above; nine below). Percentages denote reductions relative to each baseline; bar pairs start at zero and are scaled independently. Images illustrate the task.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.31770-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.31770v1",
+      "page": 1,
+      "version": 1,
+      "width": 904,
+      "height": 602,
+      "crop": [
+        80.04,
+        263.25,
+        531.96,
+        563.83
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.29389": {
+    "arxivId": "2609.29389",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.29389",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29389v1",
+      "version": 1,
+      "pageCount": 35,
+      "textPages": 35,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.29389-v1.text.json",
+      "extractedAt": "2026-10-12T14:09:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Robo-Harness K1: perception-augmented Robot-Use Agents. (A) Agent harness loop. The VLM receives RGB views, the instruction, and robot state. It queries region grounding, calibrated geometry, anchor tracking, and grasp hypotheses as needed, while depth and calibration stay behind the tool interface. (B) Training. Qwen3.5-9B learns from tool-call traces via SFT, and generalizes well. Bars show epoch-5 accuracy on new-state and held-out-task evaluation. Qwen K1 RUA uses our harness, Qwen RUA is the RGB-only direct-action baseline. All methods share source episodes but differ in inputs and tools. (C) Transfer. Gemini with K1 transfers from LIBERO to RoboSuite (Panda, UR5e, IIWA) without target fine-tuning, using explicit embodiment adapters and the same Panda gripper.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.29389-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29389v1",
+      "page": 3,
+      "version": 1,
+      "width": 1060,
+      "height": 610,
+      "crop": [
+        66.0,
+        66.0,
+        596.0,
+        370.57
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.30249": {
+    "arxivId": "2609.30249",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.30249",
+      "sourceUrl": "https://arxiv.org/pdf/2609.30249v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.30249-v1.text.json",
+      "extractedAt": "2026-10-12T14:09:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of RAPID. E is a simulation environment reconstructed from the demonstration, Pi’s are manipulation primitives, ci’s are relational constraints connecting two consecutive primitives, and Π is the strategy program generated by the coding agent. geometry at execution time. At the task level, primitives are composed into a strategy through relational constraints that determine how the outcome of one phase specifies the next. For example, in Fig. 3, rather than replaying a fixed motion, the program first computes the goal position from the relation between the brown obstacle and the white fixture, and then determines how far to move the target object during the current primitive (press move) based on the state produced by the preceding primitive (flip). By expressing primitives and their composition relationally, RAPID preserves the invariant structure of the demonstrated strategy while adapting to changes in object appearance, pose, geometry, physical properties, and scene configuration.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.30249-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.30249v1",
+      "page": 2,
+      "version": 1,
+      "width": 1030,
+      "height": 236,
+      "crop": [
+        48.73,
+        44.79,
+        563.07,
+        162.17
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.27612": {
+    "arxivId": "2609.27612",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.27612",
+      "sourceUrl": "https://arxiv.org/pdf/2609.27612v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.27612-v1.text.json",
+      "extractedAt": "2026-10-12T14:09:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. RegenHarness architecture and execution authority. Versioned memory supplies role-isolated con- texts for planning (C1), supervision (C2), verification (C3), and recovery (C4). Only the identity- and version- bound commit gate accepts task progress. Blue paths carry execution and context; green paths carry accepted progress; amber paths denote bounded recovery. Interchangeable providers remain outside task-state commit authority.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.27612-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.27612v1",
+      "page": 4,
+      "version": 1,
+      "width": 985,
+      "height": 593,
+      "crop": [
+        51.6,
+        183.35,
+        543.82,
+        479.24
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.28247": {
+    "arxivId": "2609.28247",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.28247",
+      "sourceUrl": "https://arxiv.org/pdf/2609.28247v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.28247-v1.text.json",
+      "extractedAt": "2026-10-12T14:10:06Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Left: “Fly toward twelve o’clock” – the N = 1024 decentralized swarm individually decodes the language instruction and mobilizes north- bound at 5 m s−1, shown at 0, 15, and 30 s (agents black, communication graph at rc = 4 m). The center of mass is drawn as a red throughline. Top Right: the speed of every agent converges to the commanded 5 m s−1 over the rollout. Bottom Right: the coefficient of variation of the robots’ nearest-neighbor distances converges as the flock settles into an even lattice.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.28247-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.28247v1",
+      "page": 1,
+      "version": 1,
+      "width": 515,
+      "height": 600,
+      "crop": [
+        307.2,
+        174.74,
+        564.01,
+        474.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.27246": {
+    "arxivId": "2609.27246",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.27246",
+      "sourceUrl": "https://arxiv.org/pdf/2609.27246v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.27246-v1.text.json",
+      "extractedAt": "2026-10-12T14:10:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Representation of a participant speaking to the embodied AI counselor in VR",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.27246-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.27246v1",
+      "page": 1,
+      "version": 1,
+      "width": 1034,
+      "height": 392,
+      "crop": [
+        47.8,
+        265.23,
+        564.2,
+        460.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.25636": {
+    "arxivId": "2609.25636",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.25636",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25636v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.25636-v1.text.json",
+      "extractedAt": "2026-10-12T14:10:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of RoboFollow scene design. RoboFollow contains four diagnostic scenes targeting extrinsic spatial relations, intrinsic object properties, action and trajectory constraints, and elementary logical grounding. Each scene is evaluated under four levels, from in-distribution testing to combined visual-semantic perturbations.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.25636-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25636v1",
+      "page": 4,
+      "version": 1,
+      "width": 777,
+      "height": 516,
+      "crop": [
+        110.65,
+        66.01,
+        498.83,
+        323.61
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35808": {
+    "arxivId": "2609.35808",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35808",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35808v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35808-v1.text.json",
+      "extractedAt": "2026-10-12T14:10:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the failure mode and MATE pipeline. Top: a retrieved trajectory may remain semantically relevant while retaining obsolete control context and actions incompatible with the current execution specification, causing direct reuse to fail. Bottom: MATE filters legacy context, extracts condition, action, and effect transitions, normalizes supported actions, and renders task-conditioned memory within a fixed budget. The resulting memory is concise, auditable, and execution-ready.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35808-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35808v1",
+      "page": 3,
+      "version": 1,
+      "width": 919,
+      "height": 384,
+      "crop": [
+        77.25,
+        64.56,
+        536.16,
+        256.11
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.23841": {
+    "arxivId": "2609.23841",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.23841",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23841v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.23841-v1.text.json",
+      "extractedAt": "2026-10-12T14:10:18Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. WORLDS overview. Reasoners ground an instruction in a Structured World State (SWS), propose competing candidates and evidence requests, and the drone executes a sensing tour. If anything of interest is found, perception can update the graph. After the tour, an Examiner evaluates the observations and the Reasoners revise their rankings. Finally, a Judge selects the target or requests more evidence.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.23841-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23841v1",
+      "page": 1,
+      "version": 1,
+      "width": 974,
+      "height": 574,
+      "crop": [
+        63.12,
+        125.78,
+        549.56,
+        412.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.23407": {
+    "arxivId": "2609.23407",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.23407",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23407v2",
+      "version": 2,
+      "pageCount": 34,
+      "textPages": 34,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.23407-v2.text.json",
+      "extractedAt": "2026-10-12T14:10:26Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of OmniEcho and OmniEchoBench. Left: OmniEcho extends a traditional omni model with spatial sound for perception and navigation. Right: OmniEchoBench benchmarks spatial perception and spatial audio navigation through six tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.23407-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23407v2",
+      "page": 2,
+      "version": 2,
+      "width": 793,
+      "height": 279,
+      "crop": [
+        106.69,
+        70.14,
+        502.81,
+        209.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }
