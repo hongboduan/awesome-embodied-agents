@@ -8,9 +8,9 @@
 
 <!-- ATLAS:START -->
 
-**精选 47 条 · 论文 44 篇 · 项目 2 个 · 观点 1 篇**
+**精选 50 条 · 论文 46 篇 · 项目 3 个 · 观点 1 篇**
 
-来源核对 46 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 263 篇
+来源核对 49 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 263 篇
 
 ## 目录
 
@@ -20,6 +20,7 @@
   - [技能与代码 · 4](#recent-code)
   - [自我改进 · 1](#recent-learning)
   - [基准与评测 · 4](#recent-evaluation)
+- [重点补充 · 早期首发](#selected-earlier)
 - [项目与系统](#projects)
 - [观点与讨论](#perspectives)
 - [背景阅读与早期工作](#earlier-work)
@@ -125,11 +126,32 @@
   系统测试 GPT-6 Astra 直接充当机器人策略的能力，揭示语义泛化与精细动作之间的明显差距。<br>
   [![arXiv: 2609.24170](https://img.shields.io/badge/arXiv-2609.24170-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.24170v1) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2609.24170)
 
+<a id="selected-earlier"></a>
+
+## 重点补充 · 早期首发
+
+与当前具身 Agent 议题直接相关的早期工作，保留真实首发日期。
+
+- **[EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy](https://arxiv.org/abs/2608.29896v2)**<br>
+  2026-08-30 · VLA / WAM · 推理与规划 · 记忆与知识 · 监控与恢复<br>
+  主 Agent 统筹任务，子 Agent 分工处理感知与验证，把 VLA、世界模型和控制器作为可组合技能。<br>
+  [![arXiv: 2608.29896](https://img.shields.io/badge/arXiv-2608.29896-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.29896v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EMERGE-Policy/EMERGE-Policy) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://emerge-policy.github.io/EMERGE-Policy/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2608.29896)
+
+- **[ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2)**<br>
+  2026-06-18 · 自我改进 · 技能与代码 · 基准与评测 · 监控与恢复<br>
+  先把真机任务变成可复位、可判分的实验环境，再让 Coding Agent 改策略、跑实验、分析失败，持续改进代码或学习算法。<br>
+  [![arXiv: 2606.19980](https://img.shields.io/badge/arXiv-2606.19980-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19980v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/ENPIRE) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://research.nvidia.com/labs/gear/enpire/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2606.19980)
+
 <a id="projects"></a>
 
 ## 项目与系统
 
 官方项目预览；首发日期未核实时，明确标注收录日期。
+
+- **[RPent: Agentic Infrastructure for the Physical World](https://rpent.readthedocs.io/en/latest/)**<br>
+  收录于 2026-10-13 · 项目预览<br>
+  把规划器、记忆、感知与动作原语组织成可组合的机器人运行框架，让通用 Agent 调用冻结 VLA 和解析控制，并依据执行反馈调整操作。<br>
+  [![arXiv: 2607.08448](https://img.shields.io/badge/arXiv-2607.08448-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.08448v5) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RLinf/RPent) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://rpent.readthedocs.io/en/latest/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=rpent)
 
 - **[Physical RSI 1.0: Recursive Self-Harness for Scaling Embodied Skills](https://mmlab.hk/research/PhysicalRSI)**<br>
   收录于 2026-10-12 · 项目预览<br>

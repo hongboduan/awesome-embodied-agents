@@ -146,9 +146,23 @@ def make_candidate(record, today):
     }
 
 
+def related_paper_projects(papers):
+    """Index explicit project-paper links without changing the project's identity."""
+    result = {}
+    for project in papers:
+        related = project.get("relatedPaper")
+        if project.get("sourceType") != "project" or not isinstance(related, dict):
+            continue
+        key, _ = arxiv_identity(related.get("id"))
+        if key:
+            result.setdefault(key, []).append(project)
+    return result
+
+
 def merge_discovery(existing, candidates, versions, events, incoming, timestamp, since=None):
     """Return new stores; never mutate input or editorial content."""
     known = {paper_key(p): p for p in existing}
+    related_projects = related_paper_projects(existing)
     automatic_states = {"candidate", "ai-draft"}
     discovered = {paper_key(p): dict(p) for p in candidates if paper_key(p) not in {paper_key(x) for x in existing if x.get("review") not in automatic_states}}
     versions = {k: dict(v) for k, v in versions.items()}
@@ -162,6 +176,32 @@ def merge_discovery(existing, candidates, versions, events, incoming, timestamp,
             latest[key] = record
     for key, record in latest.items():
         old = known.get(key)
+        # A project's linked paper is explicitly watched, including pre-scope papers.
+        # Keep it as project metadata rather than creating a duplicate paper card.
+        if old is None and key in related_projects:
+            projects = related_projects[key]
+            baselines = [paper_version(p["relatedPaper"]) for p in projects]
+            previous = versions.get(key, {}).get("version")
+            if previous is None:
+                previous = max((v for v in baselines if v is not None), default=None)
+            if previous is not None and record["version"] < previous:
+                continue
+            versions[key] = {"version": record["version"], "updated": record["updated"],
+                             "url": record["url"], "checkedAt": timestamp}
+            if previous is not None and record["version"] > previous:
+                counts["versionChanges"] += 1
+                for project in projects:
+                    project_id = paper_key(project)
+                    event_id = f"related-version-{project_id}-{key}-v{record['version']}"
+                    if event_id in event_ids:
+                        continue
+                    events.insert(0, {"id": event_id, "paperId": project_id, "relatedPaperId": key,
+                                      "type": "version", "date": timestamp,
+                                      "title": project.get("shortTitle", project.get("title", project_id)) + " · 关联论文",
+                                      "message": f"关联论文 arXiv 更新至 v{record['version']}；项目解读保留，待复核新版本。",
+                                      "fromVersion": previous, "toVersion": record["version"], "url": record["url"]})
+                    event_ids.add(event_id)
+            continue
         # New collection entries use original publication dates, not revision dates.
         if old is None and since and record["published"][:10] < since:
             continue
@@ -214,8 +254,10 @@ def run_update(root=ROOT, client=None, now=None):
         events = read_json(root / "data/events.json", [])
         client = client or ArxivClient(settings)
         incoming = discover(client, settings, cutoff)
-        # Explicit lookup also checks old curated papers even if changed keywords leave the search query.
-        ids = sorted({paper_key(p) for p in existing if arxiv_identity(paper_key(p))[0]})
+        # Explicit lookup also checks old curated and project-linked papers even
+        # if changed keywords or first-publication dates leave the discovery scope.
+        ids = sorted({paper_key(p) for p in existing if arxiv_identity(paper_key(p))[0]}
+                     | set(related_paper_projects(existing)))
         for offset in range(0, len(ids), 50):
             batch = ids[offset:offset + 50]
             records, _ = client.fetch({"id_list": ",".join(batch), "start": 0, "max_results": len(batch)})

@@ -275,7 +275,9 @@ def run_enrichment(root=ROOT, *, environ=None, extractor=None, text_reader=None,
     records = read_json(root / "data/enrichments.json", {})
     # Project previews and opinion articles have no paper PDF to extract.
     papers = [p for p in load_papers(root) if p.get("sourceType") not in {"project", "article"}
-              and arxiv_identity(paper_key(p))[0] and (p.get("date") or "") >= since]
+              and arxiv_identity(paper_key(p))[0]
+              and ((p.get("date") or "") >= since
+                   or (p.get("curated") is True and p.get("featuredBackground") is True))]
 
     def failed_pdf_attempt(paper):
         attempt = records.get(paper_key(paper), {}).get("lastPdfAttempt", {})

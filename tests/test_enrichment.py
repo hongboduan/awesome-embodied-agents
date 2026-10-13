@@ -116,6 +116,19 @@ class OrchestrationTests(unittest.TestCase):
         self.assertEqual(result["pdfExtracted"], 1)
         self.assertEqual(result["llmMode"], "not-configured")
         self.assertEqual(self.model_calls, [])
+
+    def test_selected_earlier_paper_gets_cover_without_widening_discovery_scope(self):
+        selected = dict(self.papers[0], id="2606.19980", arxivId="2606.19980", date="2026-06-18",
+                        links={"paper": "https://arxiv.org/abs/2606.19980v1"},
+                        curated=True, review="source-checked", featuredBackground=True)
+        ordinary = dict(selected, id="2606.10001", arxivId="2606.10001",
+                        links={"paper": "https://arxiv.org/abs/2606.10001v1"}, featuredBackground=False)
+        self.write("data/candidates.json", [])
+        self.write("data/seed-selected.json", [selected, ordinary])
+        result = self.run_pipeline(environ={})
+        self.assertEqual(result["eligible"], 1)
+        self.assertEqual(self.pdf_calls, ["2606.19980"])
+        self.assertEqual(self.model_calls, [])
         result = self.run_pipeline(environ={})
         self.assertEqual(len(self.pdf_calls), 1)
 

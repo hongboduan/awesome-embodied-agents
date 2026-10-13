@@ -54,6 +54,34 @@ class ReadmeTests(unittest.TestCase):
         self.assertNotIn("logo=github", section)
         self.assertNotIn("]()", text)
 
+    def test_selected_earlier_papers_remain_visible_with_original_dates(self):
+        featured = self.paper(id="enpire", title="ENPIRE", date="2026-06-18", featuredBackground=True)
+        featured_later = self.paper(id="emerge", title="EMERGE", date="2026-08-30", featuredBackground=True)
+        old = self.paper(id="old-paper", title="Background paper", date="2024-01-01")
+        recent = self.paper(featuredBackground=True)
+        candidate = self.paper(id="candidate", title="Unreviewed candidate", date="2026-08-01",
+                               featuredBackground=True, review="candidate", curated=False)
+        project = self.paper(id="project", title="Project preview", sourceType="project", date="2026-08-01",
+                             featuredBackground=True, links={"project": "https://example.org/project/"})
+        for english in (True, False):
+            with self.subTest(english=english):
+                build.update_readme(self.path, [featured, old, candidate, recent, featured_later, project], english=english)
+                text = self.path.read_text()
+                label = "Selected earlier foundations" if english else "重点补充 · 早期首发"
+                self.assertIn(f"[{label}](#selected-earlier)", text)
+                self.assertIn('<a id="selected-earlier"></a>', text)
+                selected = text.split("## " + label, 1)[1].split('<a id="projects">', 1)[0]
+                for title, date in (("ENPIRE", "2026-06-18"), ("EMERGE", "2026-08-30")):
+                    self.assertIn(f"**[{title}]", selected)
+                    self.assertIn(date, selected)
+                    self.assertEqual(text.count(f"**[{title}]"), 1)
+                    self.assertLess(text.index(f"**[{title}]"), text.index("<details>"))
+                self.assertLess(selected.index("**[EMERGE]"), selected.index("**[ENPIRE]"))
+                self.assertLess(text.index("**[A robot benchmark]"), text.index("## " + label))
+                self.assertNotIn("Project preview", selected)
+                self.assertNotIn("Unreviewed candidate", text)
+                self.assertGreater(text.index("**[Background paper]"), text.index("<details>"))
+
     def test_badges_link_to_supplied_sources_and_reading_card(self):
         build.update_readme(self.path, [self.paper()], english=False)
         text = self.path.read_text()

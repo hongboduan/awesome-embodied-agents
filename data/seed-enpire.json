@@ -1,0 +1,128 @@
+[
+  {
+    "id": "2606.19980",
+    "arxivId": "2606.19980",
+    "version": 2,
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "shortTitle": "ENPIRE",
+    "date": "2026-06-18",
+    "year": 2026,
+    "sourceUpdatedAt": "2026-09-20T18:57:51Z",
+    "addedAt": "2026-10-13",
+    "featuredBackground": true,
+    "authors": "Wenli Xiao and Jia Xie and Tonghe Zhang and Haotian Lin and Letian Max Fu and Haoru Xue and Jalen Lu and Yi Yang and Cunxi Dai and Zi Wang and Jimmy Wu and Guanzhi Wang and S. Shankar Sastry and Ken Goldberg and Linxi Jim Fan and Yuke Zhu and Guanya Shi",
+    "categories": [
+      "learning",
+      "code",
+      "evaluation",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "real",
+      "simulation"
+    ],
+    "summaryZh": "先把真机任务变成可复位、可判分的实验环境，再让 Coding Agent 改策略、跑实验、分析失败，持续改进代码或学习算法。",
+    "summaryEn": "A physical autoresearch framework: human-guided environment construction enables coding agents to improve policy and training code through repeatable robot trials.",
+    "problem": "机器人策略开发能否形成可重复、可验证的自动实验循环，减少人工复位和逐轮调参？",
+    "method": "分两阶段：人类反馈帮助建立固定的复位、判分和约束接口；随后 EN、PI、R、E 四模块支持策略改进、机器人评测和多分支实验演化。可搜索启发式代码，也可改进 BC 或 RL 训练。",
+    "findings": [
+      "官网报告展示任务达到 99% pass@8：单次长程执行中，每个子任务最多允许 8 次结合失败反馈的重试，不是单次尝试成功率。",
+      "论文比较 1、4、8 组 Agent—机器人；插销任务从超过 1.5 小时降至约 40 分钟达到接近满分，体现硬件并行对迭代速度的作用。",
+      "在 RoboCasa365 中还研究了代码工具与 GR00T 的组合；主要贡献是自动实验闭环，并非一种统一的新 VLA。"
+    ],
+    "limitations": [
+      "自动改进之前仍需人类指导构建、校准和验证任务环境；复位可以直接回到精细接触阶段，不能理解为任意环境中的零准备学习。",
+      "99% 对应带反馈重试的协议，不能与其他工作的 pass@1 或不同预算结果直接比较。",
+      "机器人数量增加会带来更高 token 消耗，同时单台机器人利用率下降；更快收敛不代表单位成本更低。"
+    ],
+    "role": {
+      "model": "提出实验假设、修改策略或训练代码、分析轨迹与日志",
+      "output": "代码策略、训练配方与下一轮实验",
+      "memory": "实验记录、Git 分支和可迁移的改进经验",
+      "recovery": "固定接口完成任务判分、重试与场景复位",
+      "adaptation": "可改进启发式代码，也支持 BC、离线或在线 RL 更新策略"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.19980v2",
+      "project": "https://research.nvidia.com/labs/gear/enpire/",
+      "code": "https://github.com/NVlabs/ENPIRE"
+    },
+    "evidence": [
+      {
+        "claim": "两阶段设计与人类参与的环境构建",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=4",
+        "label": "第 2.1 节 / p.4"
+      },
+      {
+        "claim": "重试口径与实验任务",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=6",
+        "label": "第 3 节 / p.6"
+      },
+      {
+        "claim": "99% pass@8 的具体定义",
+        "source": "https://research.nvidia.com/labs/gear/enpire/",
+        "label": "Learned Manipulation Policy"
+      },
+      {
+        "claim": "1、4、8 机器人规模实验",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=7",
+        "label": "第 3.3 节 / p.7"
+      },
+      {
+        "claim": "资源利用和 token 成本限制",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=9",
+        "label": "第 4 节 / p.9"
+      },
+      {
+        "claim": "公开实现与任务环境需要先构建验证",
+        "source": "https://github.com/NVlabs/ENPIRE",
+        "label": "官方仓库"
+      }
+    ],
+    "cardFindings": [
+      "展示任务 99% pass@8，包含失败反馈后的重试。",
+      "插销：1→8 组 Agent—机器人，达标时间从 >1.5 小时降至约 40 分钟。"
+    ],
+    "cardLimitations": [
+      "需先构建并验证复位、判分和机器人接口。",
+      "更多机器人加快迭代，但 token 成本增加，单机利用率下降。"
+    ],
+    "cardEvidence": [
+      {
+        "claim": "系统与环境构建",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=4",
+        "label": "方法 · p.4"
+      },
+      {
+        "claim": "重试与规模实验",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=6",
+        "label": "实验 · p.6–7"
+      },
+      {
+        "claim": "资源与成本限制",
+        "source": "https://arxiv.org/pdf/2606.19980v2#page=9",
+        "label": "局限 · p.9"
+      }
+    ],
+    "figureHint": {
+      "figureLabel": "Figure 2",
+      "page": 2
+    },
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-13",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "真机自我改进",
+      "Coding Agent",
+      "自动复位",
+      "自动验证",
+      "策略学习",
+      "2026-09修订"
+    ]
+  }
+]

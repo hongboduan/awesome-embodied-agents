@@ -1,0 +1,125 @@
+[
+  {
+    "id": "2608.29896",
+    "arxivId": "2608.29896",
+    "version": 2,
+    "title": "EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy",
+    "shortTitle": "EMERGE-Policy",
+    "date": "2026-08-30",
+    "sourceUpdatedAt": "2026-09-09T03:05:03Z",
+    "year": 2026,
+    "authors": "Zhirui Fang and Qingchi Yu and Ziyang Chen and Longfei Li and Haoran Ma and Keru Zhou and Xinrun Xu and Samith Va and Yuxuan Hu and Peixuan Song and Qiang Du and Bin Qian and Yongkang Deng and Xin Li and Yezhen Wang and Zhe Li and Hao Luo and Shuyan Li and Ziwei Wang and Weijian Deng and Xiu Li",
+    "categories": [
+      "policies",
+      "planning",
+      "memory",
+      "recovery"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "主 Agent 统筹任务，子 Agent 分工处理感知与验证，把 VLA、世界模型和控制器作为可组合技能。",
+    "problem": "长任务中，如何控制高层上下文负担，并在执行偏差后恢复？",
+    "method": "用目标、变化和完成条件定义子任务；隔离子 Agent 上下文，通过结构化证据与 Branch Stack 完成局部恢复。",
+    "findings": [
+      "论文 v2 的世界模型版在 LIBERO 为 99.2%，LIBERO-Plus 为 93.9%；对应 Cosmos Policy 基线为 98.5% 和 82.2%。",
+      "LIBERO-Pro 整体显式／隐式指令为 72.2%／77.8%；95.7% 仅为空间隐式指令子集。"
+    ],
+    "limitations": [
+      "高层额外使用 5 路相机，交互步数预算也有所增加；不能把系统增益全部归于多 Agent 架构。",
+      "模型不额外微调，记忆在每个评测回合重置，未验证跨回合持续学习；真机主要为叠杯任务。"
+    ],
+    "role": {
+      "model": "codex-5.6-sol 规划并协调子 Agent",
+      "output": "调用动作、预测与评估技能",
+      "memory": "回合内计划、历史、文本记忆",
+      "recovery": "完成条件核验与 Branch Stack 局部恢复",
+      "adaptation": "固定模型；回合内状态更新，无跨回合记忆迁移"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.29896v2",
+      "project": "https://emerge-policy.github.io/EMERGE-Policy/",
+      "code": "https://github.com/EMERGE-Policy/EMERGE-Policy"
+    },
+    "evidence": [
+      {
+        "claim": "系统框架与角色分工",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=4",
+        "label": "Figure 2 / 第 2 节"
+      },
+      {
+        "claim": "模型、额外相机与增加交互预算",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=10",
+        "label": "第 3.1 节"
+      },
+      {
+        "claim": "LIBERO 与 LIBERO-Plus 结果",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=11",
+        "label": "Tables 1–2（第 11–12 页）"
+      },
+      {
+        "claim": "LIBERO-Pro 子集与整体结果",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=13",
+        "label": "Table 3"
+      },
+      {
+        "claim": "每回合重置记忆，不跨回合适应",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=6",
+        "label": "第 2.1.3 节"
+      },
+      {
+        "claim": "公开代码及 9 月 WAM、10 月 Web 更新",
+        "source": "https://github.com/EMERGE-Policy/EMERGE-Policy",
+        "label": "官方仓库 README"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-13",
+    "tags": [
+      "多Agent",
+      "VLA+Agent",
+      "WAM",
+      "闭环验证",
+      "上下文隔离",
+      "2026-09修订"
+    ],
+    "curated": true,
+    "deepRead": false,
+    "figureHint": {
+      "figureLabel": "Figure 1",
+      "page": 1
+    },
+    "featuredBackground": true,
+    "addedAt": "2026-10-13",
+    "cardFindings": [
+      "LIBERO：99.2%；LIBERO-Plus：93.9%（世界模型版，论文 v2）。",
+      "LIBERO-Pro 整体显式／隐式：72.2%／77.8%；95.7% 仅为空间隐式子集。"
+    ],
+    "cardLimitations": [
+      "高层多 5 路相机且增加交互预算，增益不等于多 Agent 的独立贡献。",
+      "模型固定、记忆每回合清空；真机主要验证叠杯。"
+    ],
+    "cardEvidence": [
+      {
+        "claim": "框架与恢复",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=4",
+        "label": "Figure 2 · p4"
+      },
+      {
+        "claim": "实验协议",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=10",
+        "label": "§3.1 · p10"
+      },
+      {
+        "claim": "评测结果",
+        "source": "https://arxiv.org/pdf/2608.29896v2#page=11",
+        "label": "Tables 1–3 · p11–13"
+      }
+    ]
+  }
+]

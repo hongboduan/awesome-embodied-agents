@@ -96,6 +96,12 @@ def load_papers(root=ROOT):
             p["versionUpdatedAt"] = versions[key].get("updated")
             p["latestPaperUrl"] = versions[key].get("url")
             p["reviewedVersion"] = paper_version(p)
+        related = p.get("relatedPaper") or {}
+        related_id, _ = arxiv_identity(related.get("id") or related.get("url"))
+        if related_id in versions:
+            latest = versions[related_id]
+            p["relatedPaper"] = {**related, "latestVersion": latest["version"],
+                                 "latestUrl": latest.get("url"), "latestUpdatedAt": latest.get("updated")}
     enrichments = read_json(root / "data/enrichments.json", {})
     for key, p in merged.items():
         enrichment = enrichments.get(key, {})
@@ -172,6 +178,8 @@ def update_readme(path, papers, english=False, focus_since="2026-09-01"):
     research = [p for p in curated if p.get("sourceType") not in {"project", "article"}]
     recent = [p for p in research if entry_date(p) >= focus_since]
     earlier = [p for p in research if entry_date(p) < focus_since]
+    selected_earlier = [p for p in earlier if p.get("featuredBackground") is True and entry_date(p)]
+    earlier = [p for p in earlier if p not in selected_earlier]
     counts = (f"{len(curated)} curated entries · {len(research)} paper{'s' if len(research) != 1 else ''} · {len(projects)} project{'s' if len(projects) != 1 else ''} · {len(articles)} perspective{'s' if len(articles) != 1 else ''}"
               if english else f"精选 {len(curated)} 条 · 论文 {len(research)} 篇 · 项目 {len(projects)} 个 · 观点 {len(articles)} 篇")
     status = (f"{checked} source-checked · {reviewed} full-review · {drafts} AI drafts · {candidates} discovery candidates"
@@ -214,7 +222,7 @@ def update_readme(path, papers, english=False, focus_since="2026-09-01"):
         if detailed and summary:
             result.append("  " + md(summary) + "<br>")
         badges = []
-        paper_url = safe_url(links.get("paper"))
+        paper_url = safe_url(links.get("paper")) or safe_url((p.get("relatedPaper") or {}).get("url"))
         if paper_url:
             base, _ = arxiv_identity(paper_url)
             badges.append(badge("arXiv" if base else "Paper", paper_url, "B31B1B", "arxiv" if base else None,
@@ -241,6 +249,8 @@ def update_readme(path, papers, english=False, focus_since="2026-09-01"):
             if members:
                 label = cat["en"] if english else cat["label"]
                 lines.append(f"  - [{label} · {len(members)}](#recent-{cat['id']})")
+    if selected_earlier:
+        lines.append("- [" + ("Selected earlier foundations" if english else "重点补充 · 早期首发") + "](#selected-earlier)")
     if projects:
         lines.append("- [" + ("Projects and systems" if english else "项目与系统") + "](#projects)")
     if articles:
@@ -257,6 +267,11 @@ def update_readme(path, papers, english=False, focus_since="2026-09-01"):
                 lines += [f'<a id="recent-{cat["id"]}"></a>', "", "### " + (cat["en"] if english else cat["label"]), ""]
                 for p in members:
                     lines += entry(p)
+    if selected_earlier:
+        lines += ['<a id="selected-earlier"></a>', "", "## " + ("Selected earlier foundations" if english else "重点补充 · 早期首发"), "",
+                  "Selected earlier work relevant to current embodied-agent research. Original publication dates are retained." if english else "与当前具身 Agent 议题直接相关的早期工作，保留真实首发日期。", ""]
+        for p in selected_earlier:
+            lines += entry(p)
     if projects:
         lines += ['<a id="projects"></a>', "", "## " + ("Projects and systems" if english else "项目与系统"), "",
                   "Project previews; collection dates are labeled when publication dates are unverified." if english else "官方项目预览；首发日期未核实时，明确标注收录日期。", ""]

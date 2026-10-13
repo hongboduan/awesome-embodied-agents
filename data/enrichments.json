@@ -3274,5 +3274,73 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2606.19980": {
+    "arxivId": "2606.19980",
+    "version": 2,
+    "extractionFingerprint": "29e2f62ea72eaefc",
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2606.19980",
+      "sourceUrl": "https://arxiv.org/pdf/2606.19980v2",
+      "version": 2,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2606.19980-v2.text.json",
+      "extractedAt": "2026-10-13T14:20:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "ENPIRE 论文 Figure 2：先构建可自动复位与验证的环境，再进行策略改进和多 Agent 实验。原图归作者。",
+      "figureLabel": "Figure 2",
+      "selection": "source-hint",
+      "path": "assets/papers/2606.19980-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2606.19980v2",
+      "page": 2,
+      "version": 2,
+      "width": 897,
+      "height": 800,
+      "crop": [
+        73.82,
+        184.95,
+        522.0,
+        584.03
+      ]
+    }
+  },
+  "2608.29896": {
+    "arxivId": "2608.29896",
+    "version": 2,
+    "extractionFingerprint": "050c3aec1a4c75a8",
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2608.29896",
+      "sourceUrl": "https://arxiv.org/pdf/2608.29896v2",
+      "version": 2,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2608.29896-v2.text.json",
+      "extractedAt": "2026-10-13T14:20:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "EMERGE-Policy 论文 Figure 1：主 Agent、子 Agent 与多种技能后端形成闭环；原图归作者。",
+      "figureLabel": "Figure 1",
+      "selection": "source-hint",
+      "path": "assets/papers/2608.29896-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2608.29896v2",
+      "page": 1,
+      "version": 2,
+      "width": 959,
+      "height": 514,
+      "crop": [
+        64.87,
+        362.99,
+        543.8,
+        619.25
+      ]
+    }
   }
 }

@@ -8,9 +8,9 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**47 curated entries · 44 papers · 2 projects · 1 perspective**
+**50 curated entries · 46 papers · 3 projects · 1 perspective**
 
-46 source-checked · 1 full-review · 0 AI drafts · 263 discovery candidates
+49 source-checked · 1 full-review · 0 AI drafts · 263 discovery candidates
 
 ## Contents
 
@@ -20,6 +20,7 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
   - [Skills & Code · 4](#recent-code)
   - [Self-improvement · 1](#recent-learning)
   - [Benchmarks & Evaluation · 4](#recent-evaluation)
+- [Selected earlier foundations](#selected-earlier)
 - [Projects and systems](#projects)
 - [Perspectives and essays](#perspectives)
 - [Foundations and earlier work](#earlier-work)
@@ -125,11 +126,32 @@ Each paper appears once under its primary topic; secondary topics remain visible
   系统测试 GPT-6 Astra 直接充当机器人策略的能力，揭示语义泛化与精细动作之间的明显差距。<br>
   [![arXiv: 2609.24170](https://img.shields.io/badge/arXiv-2609.24170-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.24170v1) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2609.24170)
 
+<a id="selected-earlier"></a>
+
+## Selected earlier foundations
+
+Selected earlier work relevant to current embodied-agent research. Original publication dates are retained.
+
+- **[EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy](https://arxiv.org/abs/2608.29896v2)**<br>
+  2026-08-30 · VLA & World Models · Reasoning & Planning · Memory & Knowledge · Monitoring & Recovery<br>
+  主 Agent 统筹任务，子 Agent 分工处理感知与验证，把 VLA、世界模型和控制器作为可组合技能。<br>
+  [![arXiv: 2608.29896](https://img.shields.io/badge/arXiv-2608.29896-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.29896v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EMERGE-Policy/EMERGE-Policy) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://emerge-policy.github.io/EMERGE-Policy/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2608.29896)
+
+- **[ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2)**<br>
+  2026-06-18 · Self-improvement · Skills & Code · Benchmarks & Evaluation · Monitoring & Recovery<br>
+  A physical autoresearch framework: human-guided environment construction enables coding agents to improve policy and training code through repeatable robot trials.<br>
+  [![arXiv: 2606.19980](https://img.shields.io/badge/arXiv-2606.19980-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19980v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/ENPIRE) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://research.nvidia.com/labs/gear/enpire/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2606.19980)
+
 <a id="projects"></a>
 
 ## Projects and systems
 
 Project previews; collection dates are labeled when publication dates are unverified.
+
+- **[RPent: Agentic Infrastructure for the Physical World](https://rpent.readthedocs.io/en/latest/)**<br>
+  added 2026-10-13 · Project preview<br>
+  An open embodied-agent framework composing planners, memory, perception and action services, including frozen VLA primitives and analytic control.<br>
+  [![arXiv: 2607.08448](https://img.shields.io/badge/arXiv-2607.08448-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.08448v5) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RLinf/RPent) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://rpent.readthedocs.io/en/latest/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=rpent)
 
 - **[Physical RSI 1.0: Recursive Self-Harness for Scaling Embodied Skills](https://mmlab.hk/research/PhysicalRSI)**<br>
   added 2026-10-12 · Project preview<br>

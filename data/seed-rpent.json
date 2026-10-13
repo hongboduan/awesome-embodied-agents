@@ -1,0 +1,149 @@
+[
+  {
+    "id": "rpent",
+    "sourceType": "project",
+    "title": "RPent: Agentic Infrastructure for the Physical World",
+    "shortTitle": "RPent",
+    "date": null,
+    "year": null,
+    "addedAt": "2026-10-13",
+    "authors": "RLinf / RPent contributors",
+    "categories": [
+      "policies",
+      "memory",
+      "planning",
+      "recovery",
+      "code"
+    ],
+    "tasks": [
+      "manipulation",
+      "mobile"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "把规划器、记忆、感知与动作原语组织成可组合的机器人运行框架，让通用 Agent 调用冻结 VLA 和解析控制，并依据执行反馈调整操作。",
+    "summaryEn": "An open embodied-agent framework composing planners, memory, perception and action services, including frozen VLA primitives and analytic control.",
+    "problem": "如何让通用 Agent 调度已有机器人能力，并把一次任务的经验变成后续执行能够读取和检查的记忆？",
+    "method": "规划器依据图像和记忆调用工具，组合冻结 VLA 接触原语与解析动作，用执行反馈闭环调整；探索阶段复位并整理经验，评测阶段固定记忆。",
+    "findings": [
+      "官方历史评测：Codex / GPT-6 Astra / low 在 LIBERO-PRO 上成功 741/800（92.63%），覆盖 8 个任务组；这是带记忆的系统结果。",
+      "相关 Harness VLA v5 的 Table 22 报告 Astra 在 RoboCasa365 Target50 上成功 148/250（59.20%）：50 项任务，每任务 5 个评测种子，并非完整 365 任务结果。",
+      "仓库公开规划器、工具、记忆、评测与机器人接口代码，并提供双臂 Franka 的目标改变、倒料、擦拭与收纳演示；真机材料属于定性展示。"
+    ],
+    "limitations": [
+      "92.63% 汇总 Long 157/200 与其余任务 584/600 两批评测，分别使用探索后冻结的记忆快照；800 回合没有共享同一记忆版本。",
+      "官方发布的 Astra 记忆合并版尚未重新评测；历史记忆生成早于场景种子修复。复现应锁定代码、记忆和种子协议，不能把历史成绩当作当前版本保证。",
+      "各环境依赖不同预训练或后训练 VLA、感知服务和机器人适配。运行时冻结不等于整个系统没有训练成本；真机演示未报告统计成功率。",
+      "相关论文 Harness VLA 首发于 2026-07-09，v5 更新于 2026-09-24；此处收录持续维护的 RPent 项目，不将论文修订算作 9 月后首次发表。框架图中部分能力仍属路线图。"
+    ],
+    "role": {
+      "model": "Codex、Claude Code 或 API 规划器统筹工具",
+      "output": "结构化工具调用；VLA 原语与解析动作组合",
+      "memory": "任务经验与通用规则；评测读取，探索写入",
+      "recovery": "检查执行反馈，重新定位、调整姿态并重试",
+      "adaptation": "跨回合整理和复用经验；冻结 VLA 参数"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://rpent.readthedocs.io/en/latest/",
+      "code": "https://github.com/RLinf/RPent"
+    },
+    "relatedPaper": {
+      "id": "2607.08448",
+      "version": 5,
+      "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+      "date": "2026-07-09",
+      "updatedAt": "2026-09-24",
+      "url": "https://arxiv.org/abs/2607.08448v5"
+    },
+    "evidence": [
+      {
+        "claim": "规划、工具执行与环境服务分工",
+        "source": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html",
+        "label": "官方架构文档"
+      },
+      {
+        "claim": "LIBERO-PRO 的 741/800 历史结果及分批记忆协议",
+        "source": "https://rpent.readthedocs.io/en/latest/rst_source/leaderboard/performance.html",
+        "label": "官方榜单与脚注 4"
+      },
+      {
+        "claim": "Astra 记忆合并版未复评，历史记忆早于场景种子修复",
+        "source": "https://rpent.readthedocs.io/en/latest/rst_source/guides/memory.html#release-provenance-and-compatibility",
+        "label": "官方记忆版本说明"
+      },
+      {
+        "claim": "LIBERO-PRO、RoboCasa365 Target50 的 Astra 结果",
+        "source": "https://arxiv.org/pdf/2607.08448v5#page=42",
+        "label": "Harness VLA v5 · Tables 21–22"
+      },
+      {
+        "claim": "双臂 Franka 目标调整和组合操作演示",
+        "source": "https://rpent.readthedocs.io/en/latest/rst_source/real_world_demos/franka.html",
+        "label": "官方真机演示"
+      },
+      {
+        "claim": "开放实现与路线图状态",
+        "source": "https://github.com/RLinf/RPent",
+        "label": "官方 GitHub 仓库"
+      },
+      {
+        "claim": "相关论文首发与修订日期",
+        "source": "https://arxiv.org/abs/2607.08448",
+        "label": "arXiv 版本历史"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-13",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "开源项目",
+      "Agent + VLA",
+      "GPT-6 Astra",
+      "记忆",
+      "工具编排",
+      "失败恢复",
+      "Harness VLA"
+    ],
+    "figure": {
+      "kind": "project-image",
+      "path": "assets/papers/rpent-framework.png",
+      "figureLabel": "框架概览",
+      "sourceLabel": "RPent 官方仓库",
+      "sourceUrl": "https://raw.githubusercontent.com/RLinf/misc/main/pic/rpent_framework.png",
+      "originalUrl": "https://raw.githubusercontent.com/RLinf/misc/main/pic/rpent_framework.png",
+      "width": 2008,
+      "height": 657,
+      "caption": "RPent 官方框架图，展示规划、记忆、工具与机器人接口的分工；图中包含路线图能力，不代表全部接口均已实现。原图归作者。"
+    },
+    "cardFindings": [
+      "历史 Astra + Codex：LIBERO-PRO 741/800（92.63%）。",
+      "RoboCasa365 Target50：148/250（59.20%），50 项任务各 5 个种子。"
+    ],
+    "cardLimitations": [
+      "92.63% 合并两批、两套冻结记忆；新合并记忆版尚未复评。",
+      "真机属于定性演示；相关论文首发于 7 月，此处收录持续维护的项目。"
+    ],
+    "cardEvidence": [
+      {
+        "claim": "历史成绩与分批记忆",
+        "source": "https://rpent.readthedocs.io/en/latest/rst_source/leaderboard/performance.html",
+        "label": "官方榜单 · 脚注 4"
+      },
+      {
+        "claim": "新版记忆尚未复评",
+        "source": "https://rpent.readthedocs.io/en/latest/rst_source/guides/memory.html#release-provenance-and-compatibility",
+        "label": "官方记忆版本说明"
+      },
+      {
+        "claim": "Astra 的两项结果",
+        "source": "https://arxiv.org/pdf/2607.08448v5#page=42",
+        "label": "Harness VLA v5 · p42"
+      }
+    ]
+  }
+]
