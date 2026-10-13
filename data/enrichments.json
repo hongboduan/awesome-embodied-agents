@@ -2806,5 +2806,473 @@
       "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2609.23133": {
+    "arxivId": "2609.23133",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.23133",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23133v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.23133-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. AquaCap system overview. AquaCap-Agent handles planning and code generation, AquaCap-Perception supplies structured observations, and AquaCap-Memory reuses failure corrections.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.23133-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23133v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 567,
+      "crop": [
+        48.0,
+        44.08,
+        564.0,
+        327.47
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.19610": {
+    "arxivId": "2609.19610",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.19610",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19610v2",
+      "version": 2,
+      "pageCount": 48,
+      "textPages": 48,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.19610-v2.text.json",
+      "extractedAt": "2026-10-13T06:52:29Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: SIMLIFE-BP distribution overview. Top: action taxonomy with log-scaled counts. Bottom-left: episode lengths distribution, where one in-game day corresponds to 24 real minutes, or 0.4 real hours. Bottom-right: composition over three dimensions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.19610-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19610v2",
+      "page": 2,
+      "version": 2,
+      "width": 433,
+      "height": 391,
+      "crop": [
+        102.0,
+        75.46,
+        318.24,
+        270.12
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.20330": {
+    "arxivId": "2609.20330",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.20330",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20330v2",
+      "version": 2,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.20330-v2.text.json",
+      "extractedAt": "2026-10-13T06:52:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Overview of RoboFind. (a) The user teaches a personal object once through guided smartphone recordings. (b) A later mission selects that object from the personal library. (c) The robot searches on its own. (d) At a stable stop, the candidate is verified against the stored references rather than accepted as the target. (e) Found is reported after verification succeeds.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.20330-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20330v2",
+      "page": 1,
+      "version": 2,
+      "width": 1032,
+      "height": 226,
+      "crop": [
+        48.0,
+        178.6,
+        563.99,
+        291.13
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.20388": {
+    "arxivId": "2609.20388",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.20388",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20388v2",
+      "version": 2,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.20388-v2.text.json",
+      "extractedAt": "2026-10-13T06:52:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Navi-Agent overview. The proposed agent builds a coordinate-free Visual Anchor Graph to maintain visual spatial memory for long-horizon navigation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.20388-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20388v2",
+      "page": 1,
+      "version": 2,
+      "width": 515,
+      "height": 667,
+      "crop": [
+        307.2,
+        163.64,
+        564.02,
+        496.95
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.20822": {
+    "arxivId": "2609.20822",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.20822",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20822v2",
+      "version": 2,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.20822-v2.text.json",
+      "extractedAt": "2026-10-13T06:52:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: SAFEHARNESS overview. The task is cut at its contact events into phases, and both components run once per phase. ❶Obstacle-aware route planning: the scene is grounded as boxes, the route of the current phase is planned, verified against the obstacle, and only then executed, with a failed verification or a halt during execution sending the loop back to planning. ❷Obstacle-aware contact execution: the contact target is tested for an adjacent obstacle, and the contact is made from the far side whenever one is found.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.20822-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20822v2",
+      "page": 5,
+      "version": 2,
+      "width": 801,
+      "height": 430,
+      "crop": [
+        104.85,
+        77.98,
+        504.63,
+        292.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.19347": {
+    "arxivId": "2609.19347",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.19347",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19347v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.19347-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of A-RAM from natural-language manufacturing intent to tool-grounded candidate evaluation and monitored execution. Candidate artifacts are retained throughout the workflow to provide traceability from user intent to G-code, robot motion, and extrusion commands.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.19347-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19347v1",
+      "page": 5,
+      "version": 1,
+      "width": 958,
+      "height": 530,
+      "crop": [
+        32.83,
+        47.86,
+        511.43,
+        312.05
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.18520": {
+    "arxivId": "2609.18520",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.18520",
+      "sourceUrl": "https://arxiv.org/pdf/2609.18520v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.18520-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of AeroWeaver. The embodied-agent harness (A) maps task context to a subset of Aerial Skills. Distributed swarm orchestration (B) instantiates role-conditioned local agents, binds each agent to one UAV, and supports directed peer coordination during execution. Experience-guided online reinforcement (C) retrieves role-relevant trajectories, estimates skill advantages from rewards, and updates the active skill ranking.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.18520-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.18520v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 602,
+      "crop": [
+        48.0,
+        44.08,
+        563.99,
+        344.55
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.18058": {
+    "arxivId": "2609.18058",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.18058",
+      "sourceUrl": "https://arxiv.org/pdf/2609.18058v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.18058-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of Finder. Object grounding is a core embodied primitive requiring multi-source context. Finder realizes it as a reusable closed-loop inner protocol, wrapped by an outer harness for task- and session-level context injection.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.18058-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.18058v1",
+      "page": 2,
+      "version": 1,
+      "width": 844,
+      "height": 511,
+      "crop": [
+        88.07,
+        22.39,
+        509.99,
+        277.34
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.19138": {
+    "arxivId": "2609.19138",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.19138",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19138v1",
+      "version": 1,
+      "pageCount": 32,
+      "textPages": 32,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.19138-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:50Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overall architecture of GPT-Policy. The task instruction, current state, task references, and interaction history are combined with shared instructions and tool schemas to form the VLM input. A fixed VLM selects tool requests, which constrained robot tools execute. Returned observations and execution feedback update the context for the next decision. The images illustrate inputs from different experimental conditions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.19138-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19138v1",
+      "page": 4,
+      "version": 1,
+      "width": 990,
+      "height": 541,
+      "crop": [
+        56.74,
+        45.92,
+        551.19,
+        315.88
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.16056": {
+    "arxivId": "2609.16056",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.16056",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16056v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.16056-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Precondition BN of FetchPickAndPlace describe active subgoals and when GRASP fires.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.16056-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16056v1",
+      "page": 3,
+      "version": 1,
+      "width": 821,
+      "height": 179,
+      "crop": [
+        104.69,
+        374.73,
+        514.57,
+        463.94
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.13335": {
+    "arxivId": "2609.13335",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.13335",
+      "sourceUrl": "https://arxiv.org/pdf/2609.13335v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.13335-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the custom-designed robotic platform developed for system evaluation. The platform integrates perception modules, facial emotion display, articulated arm gestures, and mobility components, all managed through a ROS-based control stack.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.13335-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.13335v1",
+      "page": 1,
+      "version": 1,
+      "width": 518,
+      "height": 410,
+      "crop": [
+        308.13,
+        205.48,
+        566.86,
+        409.52
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.13458": {
+    "arxivId": "2609.13458",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.13458",
+      "sourceUrl": "https://arxiv.org/pdf/2609.13458v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.13458-v1.text.json",
+      "extractedAt": "2026-10-13T06:52:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 6: Diagnostic pipeline for semantic-to-action transfer under fixed-observation prompt transformations.",
+      "figureLabel": "Figure 6",
+      "selection": "automatic",
+      "path": "assets/papers/2609.13458-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.13458v1",
+      "page": 12,
+      "version": 1,
+      "width": 490,
+      "height": 252,
+      "crop": [
+        285.73,
+        622.69,
+        530.41,
+        748.39
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
