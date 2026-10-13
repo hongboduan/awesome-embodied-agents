@@ -3307,6 +3307,11 @@
         522.0,
         584.03
       ]
+    },
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 2,
+      "message": "人工内容保留。"
     }
   },
   "2608.29896": {
@@ -3341,6 +3346,479 @@
         543.8,
         619.25
       ]
+    },
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 2,
+      "message": "人工内容保留。"
+    }
+  },
+  "2609.13082": {
+    "arxivId": "2609.13082",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.13082",
+      "sourceUrl": "https://arxiv.org/pdf/2609.13082v1",
+      "version": 1,
+      "pageCount": 49,
+      "textPages": 49,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.13082-v1.text.json",
+      "extractedAt": "2026-10-13T14:27:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of Embodied-BenchForge as a closed-loop agentic workflow for embodied benchmark construction. Skill-Orchestrated Artifact Synthesis selects and composes hierarchical skills to transform evaluation intents and embodied resources into structured benchmark artifacts. Requirement-Guided Verification and Repair applies requirement contracts and quality gates, traces failures through provenance, and triggers local repair, selective re-execution, or rollback. Ver- ified artifacts proceed to evaluation reporting and are compiled into the Offline EQA and Interactive Embodied tracks, while failed artifacts are returned to the affected construction path.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.13082-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.13082v1",
+      "page": 4,
+      "version": 1,
+      "width": 581,
+      "height": 313,
+      "crop": [
+        161.75,
+        75.24,
+        451.73,
+        231.06
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.11225": {
+    "arxivId": "2609.11225",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.11225",
+      "sourceUrl": "https://arxiv.org/pdf/2609.11225v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.11225-v1.text.json",
+      "extractedAt": "2026-10-13T14:27:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Harness Robotic OS architecture. The cognitive runtime combines voice and multimodal interaction, hierarchical agent memory, reusable embodied skills, and a safety-gated self-evolution loop that transforms execution experience into validated runtime updates.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.11225-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.11225v1",
+      "page": 3,
+      "version": 1,
+      "width": 920,
+      "height": 568,
+      "crop": [
+        66.28,
+        66.35,
+        525.99,
+        349.78
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.11043": {
+    "arxivId": "2609.11043",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.11043",
+      "sourceUrl": "https://arxiv.org/pdf/2609.11043v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.11043-v1.text.json",
+      "extractedAt": "2026-10-13T14:27:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. LTLDiff Pipeline. The task descriptions and conditions are transformed into atomic propositions and an LTLf formula by an LTLf generator. The encoded logic and compositional constraints [6] are used in offline data generation, whereas multi- agent observations and the LTLf embedding are utilized by LTLMAG for coordinated trajectory generation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.11043-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.11043v1",
+      "page": 4,
+      "version": 1,
+      "width": 703,
+      "height": 302,
+      "crop": [
+        132.22,
+        109.84,
+        483.14,
+        260.43
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.11660": {
+    "arxivId": "2609.11660",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.11660",
+      "sourceUrl": "https://arxiv.org/pdf/2609.11660v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.11660-v1.text.json",
+      "extractedAt": "2026-10-13T14:27:50Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2609.11660-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.11660v1",
+      "page": 1,
+      "version": 1,
+      "width": 1192,
+      "height": 1684,
+      "crop": [
+        0.0,
+        0.0,
+        596.0,
+        842.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.10873": {
+    "arxivId": "2609.10873",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.10873",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10873v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.10873-v1.text.json",
+      "extractedAt": "2026-10-13T14:27:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Evidence flow. Proposal and screening may reuse development feedback. Admission uses fresh environment pairs after commitment; all-candidate audit outcomes remain inaccessible to the learning loop.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.10873-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10873v1",
+      "page": 2,
+      "version": 1,
+      "width": 809,
+      "height": 135,
+      "crop": [
+        103.75,
+        69.66,
+        507.71,
+        136.8
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.08444": {
+    "arxivId": "2609.08444",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.08444",
+      "sourceUrl": "https://arxiv.org/pdf/2609.08444v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.08444-v1.text.json",
+      "extractedAt": "2026-10-13T14:27:57Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the SafeMem framework. In the Watering Plant task, SafeMem maintains a memory about the electrical hazard (power strip) through graph merge, and this memory guides the safety-aware task planner to generate a safe action of moving the plant away.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.08444-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.08444v1",
+      "page": 4,
+      "version": 1,
+      "width": 691,
+      "height": 355,
+      "crop": [
+        132.34,
+        104.26,
+        477.24,
+        281.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.04802": {
+    "arxivId": "2609.04802",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.04802",
+      "sourceUrl": "https://arxiv.org/pdf/2609.04802v3",
+      "version": 3,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.04802-v3.text.json",
+      "extractedAt": "2026-10-13T14:28:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: LTE-centric memory architecture. (1) Perception (left) converts egocentric video into structured per-frame observations. (2) The memory layer (centre) records dynamic objects with Linguistic Trajectory Encoding (captions C, sparse spatial anchors Aspatial, and visual anchors Avisual) and uses an octree as a static spatial index for region pruning. (3) Five complementary views feed a query router that dispatches to four tasks: NLQ and VQ2D from the Ego4D benchmark suite, and STR and LOR introduced in this paper as part of SMB.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.04802-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.04802v3",
+      "page": 4,
+      "version": 3,
+      "width": 816,
+      "height": 415,
+      "crop": [
+        102.0,
+        66.0,
+        510.0,
+        272.79
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.01556": {
+    "arxivId": "2609.01556",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.01556",
+      "sourceUrl": "https://arxiv.org/pdf/2609.01556v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.01556-v1.text.json",
+      "extractedAt": "2026-10-13T14:28:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The right answer is retrieved but not ranked first. Strict Hit@1 (bars) against Hit@10 (lines), 500 queries against the full 117,088-item corpus; the dashed span marks the recoverable gap",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.01556-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.01556v1",
+      "page": 6,
+      "version": 1,
+      "width": 961,
+      "height": 494,
+      "crop": [
+        66.0,
+        66.0,
+        546.02,
+        312.01
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.00619": {
+    "arxivId": "2609.00619",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.00619",
+      "sourceUrl": "https://arxiv.org/pdf/2609.00619v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.00619-v1.text.json",
+      "extractedAt": "2026-10-13T14:28:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the proposed DSG framework. Given RGB-D sequences captured at different times, a semantic 3D Gaussian map is constructed and object changes are detected via dual-view rendering comparison. The updated object nodes are then combined with VLM descriptions and LLM reasoning to infer spatial relationships, forming the final 3D scene graph.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.00619-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.00619v1",
+      "page": 1,
+      "version": 1,
+      "width": 477,
+      "height": 600,
+      "crop": [
+        316.67,
+        157.67,
+        554.87,
+        457.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.13643": {
+    "arxivId": "2610.13643",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.13643",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.13643-v1.text.json",
+      "extractedAt": "2026-10-13T14:28:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Overview of AutoBio+. AutoBio+ is a benchmark for dexterous manipulation in biological laboratories, comprising 14 tasks across four robot embodiments and incorporating three dynamic experimental phenomena, including flames, vapor, and bubbles. Its hybrid rendering pipeline integrates interactive simulated foregrounds with 3D Gaussian Splatting (3DGS) [1] backgrounds reconstructed from six real laboratory scenes, while parallel simulation supports efficient data generation and evaluation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.13643-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v1",
+      "page": 1,
+      "version": 1,
+      "width": 1107,
+      "height": 694,
+      "crop": [
+        42.71,
+        225.8,
+        596.0,
+        572.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12090": {
+    "arxivId": "2610.12090",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12090",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12090v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12090-v1.text.json",
+      "extractedAt": "2026-10-13T14:28:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of FLOWMEM. Successful latent reasoning is stored as ordered flow fragments, retrieved and recomposed according to the current embodied context, and refined before conditioning action generation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12090-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12090v1",
+      "page": 4,
+      "version": 1,
+      "width": 817,
+      "height": 393,
+      "crop": [
+        102.0,
+        129.72,
+        510.1,
+        325.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.11480": {
+    "arxivId": "2610.11480",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.11480",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11480v1",
+      "version": 1,
+      "pageCount": 34,
+      "textPages": 34,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.11480-v1.text.json",
+      "extractedAt": "2026-10-13T14:28:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Method overview of EAL in RoboAware. (1) State-locked counterfactual search repeats Selection (UCB), Expansion (SCB paired Mod/E2E branches from a restored ξi), Rollout (suffix return Gi), and Backup within budget K, retaining successful, failed, and nonpreferred transitions in DSCB. (2) A VLM backbone with an MLP head maps context–family tokens ending in <VALUE> to Qθ(xi, ci), trained by Bellman updates on skill-completion and terminal-task feedback. (3) At deployment, frozen Qθ induces ρθ and selects c∗",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.11480-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11480v1",
+      "page": 3,
+      "version": 1,
+      "width": 960,
+      "height": 311,
+      "crop": [
+        66.0,
+        322.15,
+        545.94,
+        477.17
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }
 }
