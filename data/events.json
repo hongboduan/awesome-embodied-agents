@@ -1,5 +1,297 @@
 [
   {
+    "id": "version-2610.12026-v2",
+    "paperId": "2610.12026",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "HWAM: Humanoid World Action Model With Joint State--Action Generation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.12026v2"
+  },
+  {
+    "id": "version-2610.09940-v2",
+    "paperId": "2610.09940",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.09940v2"
+  },
+  {
+    "id": "version-2610.11508-v2",
+    "paperId": "2610.11508",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "WARP-VLA: Wrist-Camera Adaptation for View-Robust Policy Execution in Vision-Language-Action Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.11508v2"
+  },
+  {
+    "id": "version-2610.12231-v2",
+    "paperId": "2610.12231",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Residual Modeling Closes the Regression and Generative Policy Gap in Robot Learning",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.12231v2"
+  },
+  {
+    "id": "version-2610.05062-v2",
+    "paperId": "2610.05062",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Beyond LLM Serving: Characterizing Vision-Language-Action Workloads for Embodied AI System Design",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.05062v2"
+  },
+  {
+    "id": "discovered-2610.14117",
+    "paperId": "2610.14117",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Make π0.5 Learn to Call Astra for Reliable Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.14117v1"
+  },
+  {
+    "id": "discovered-2610.14302",
+    "paperId": "2610.14302",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Learning to See through Action: Predictive Curiosity for Robots",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.14302v1"
+  },
+  {
+    "id": "discovered-2610.14601",
+    "paperId": "2610.14601",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "StateSkill-Agent: An Effective and Efficient Embodied Agent via State-conditioned Skill",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.14601v1"
+  },
+  {
+    "id": "discovered-2610.14635",
+    "paperId": "2610.14635",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.14635v1"
+  },
+  {
+    "id": "discovered-2610.14848",
+    "paperId": "2610.14848",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Learning Dynamic Grasping",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.14848v1"
+  },
+  {
+    "id": "discovered-2610.14977",
+    "paperId": "2610.14977",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "EnactOpt: Diagnosis-Guided Harness Evolution for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.14977v1"
+  },
+  {
+    "id": "discovered-2610.15814",
+    "paperId": "2610.15814",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "ReTrace: Cross-Stage Failure Attribution for Self-Improving Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.15814v1"
+  },
+  {
+    "id": "discovered-2610.15846",
+    "paperId": "2610.15846",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Mobility Helps Learning: Unsupervised Model Adaptation for Object Recognition via Movement",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.15846v1"
+  },
+  {
+    "id": "discovered-2610.16238",
+    "paperId": "2610.16238",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Embodied Skill Bench: Benchmarking How Well Agents with Embodied Skills Perform on Physical Tasks",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.16238v1"
+  },
+  {
+    "id": "version-2609.39207-v2",
+    "paperId": "2609.39207",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "ASENA: Self-evolving Agents for Embodied Navigation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.39207v2"
+  },
+  {
+    "id": "version-2610.10787-v2",
+    "paperId": "2610.10787",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.10787v2"
+  },
+  {
+    "id": "version-2610.13643-v2",
+    "paperId": "2610.13643",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.13643v2"
+  },
+  {
+    "id": "version-2609.39166-v4",
+    "paperId": "2609.39166",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Beyond the Remembered World: Predictive 4D Belief for Persistent Navigation in Evolving Worlds",
+    "message": "arXiv 更新至 v4；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 3,
+    "toVersion": 4,
+    "url": "https://arxiv.org/abs/2609.39166v4"
+  },
+  {
+    "id": "discovered-2610.16895",
+    "paperId": "2610.16895",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Observe, Share, or Predict? Disentangling Partner Information in Embodied Multi-Agent Collaboration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.16895v1"
+  },
+  {
+    "id": "version-2610.08862-v2",
+    "paperId": "2610.08862",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "CIRRA: Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.08862v2"
+  },
+  {
+    "id": "discovered-2610.17326",
+    "paperId": "2610.17326",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Evaluating Long-Horizon Robot Planning under Uncertainty",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.17326v1"
+  },
+  {
+    "id": "discovered-2610.17350",
+    "paperId": "2610.17350",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Can a Frontier VLM Serve as a Robot Policy for Memory-Dependent Manipulation?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.17350v1"
+  },
+  {
+    "id": "discovered-2610.17640",
+    "paperId": "2610.17640",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "MemAct: Streaming Spatial Understanding with Memory and Active Exploration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.17640v1"
+  },
+  {
+    "id": "discovered-2610.17881",
+    "paperId": "2610.17881",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Agentic Robot Creation through Generation, Verification, and Revision",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.17881v1"
+  },
+  {
+    "id": "discovered-2610.18053",
+    "paperId": "2610.18053",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "LADDER: A Long-Horizon Robot Manipulation Benchmark",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.18053v1"
+  },
+  {
+    "id": "discovered-2610.18617",
+    "paperId": "2610.18617",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Two Routes to Interoceptive Prioritisation: Dissociating Likelihood Precision and Preference Reweighting in Active Inference",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.18617v1"
+  },
+  {
+    "id": "version-2610.01939-v2",
+    "paperId": "2610.01939",
+    "type": "version",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.01939v2"
+  },
+  {
+    "id": "discovered-2610.18792",
+    "paperId": "2610.18792",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "SEAR: Self-Evolving Agentic Robotics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.18792v1"
+  },
+  {
+    "id": "discovered-2610.18822",
+    "paperId": "2610.18822",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.18822v1"
+  },
+  {
+    "id": "discovered-2610.18874",
+    "paperId": "2610.18874",
+    "type": "discovered",
+    "date": "2026-10-14T05:00:57Z",
+    "title": "ChunkAct: Action Chunking for Agentic Robotics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.18874v1"
+  },
+  {
     "id": "version-2610.07594-v2",
     "paperId": "2610.07594",
     "type": "version",

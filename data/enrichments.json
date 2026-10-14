@@ -313,27 +313,27 @@
   },
   "2610.10787": {
     "arxivId": "2610.10787",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.10787",
-      "sourceUrl": "https://arxiv.org/pdf/2610.10787v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.10787v2",
+      "version": 2,
       "pageCount": 36,
       "textPages": 36,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.10787-v1.text.json",
-      "extractedAt": "2026-10-11T08:59:31Z"
+      "textPath": ".cache/papers/2610.10787-v2.text.json",
+      "extractedAt": "2026-10-14T05:01:45Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of NAVGPT-3: (a) runtime abstraction with the planner, VLA, and spatial tools; (b) synchronous tool use versus asynchronous thread coordination; and (c) benchmark performance. NAVGPT-3 reaches human performance on RxR-CE.",
       "figureLabel": "Figure 1",
       "selection": "source-hint",
-      "path": "assets/papers/2610.10787-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.10787v1",
+      "path": "assets/papers/2610.10787-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10787v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 816,
       "height": 285,
       "crop": [
@@ -346,7 +346,7 @@
     "extractionFingerprint": "050c3aec1a4c75a8",
     "ai": {
       "status": "editorial-preserved",
-      "version": 1,
+      "version": 2,
       "message": "人工内容保留。"
     }
   },
@@ -703,27 +703,27 @@
   },
   "2610.08862": {
     "arxivId": "2610.08862",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.08862",
-      "sourceUrl": "https://arxiv.org/pdf/2610.08862v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.08862v2",
+      "version": 2,
       "pageCount": 20,
       "textPages": 20,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.08862-v1.text.json",
-      "extractedAt": "2026-10-11T09:07:37Z"
+      "textPath": ".cache/papers/2610.08862-v2.text.json",
+      "extractedAt": "2026-10-14T05:02:15Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: Overview of CIRRA: (1) instruction assessment and ambiguity resolution, (2) rule-constrained can- didate generation within location-matched segments, and (3) conflict-gated LLM arbitration that yields the revised sequence P′",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.08862-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.08862v1",
+      "path": "assets/papers/2610.08862-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08862v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 816,
       "height": 397,
       "crop": [
@@ -736,7 +736,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -1245,6 +1245,13 @@
       "status": "not-configured",
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    },
+    "lastPdfAttempt": {
+      "version": 2,
+      "at": "2026-10-14T05:02:18Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "http-500"
     }
   },
   "2609.40306": {
@@ -3812,6 +3819,273 @@
         322.15,
         545.94,
         477.17
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.18792": {
+    "arxivId": "2610.18792",
+    "version": 1,
+    "lastPdfAttempt": {
+      "version": 1,
+      "at": "2026-10-14T05:01:47Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "http-404"
+    }
+  },
+  "2610.18874": {
+    "arxivId": "2610.18874",
+    "version": 1,
+    "lastPdfAttempt": {
+      "version": 1,
+      "at": "2026-10-14T05:01:50Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "http-404"
+    }
+  },
+  "2610.17881": {
+    "arxivId": "2610.17881",
+    "version": 1,
+    "lastPdfAttempt": {
+      "version": 1,
+      "at": "2026-10-14T05:01:53Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "http-404"
+    }
+  },
+  "2610.16895": {
+    "arxivId": "2610.16895",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.16895",
+      "sourceUrl": "https://arxiv.org/pdf/2610.16895v1",
+      "version": 1,
+      "pageCount": 45,
+      "textPages": 45,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.16895-v1.text.json",
+      "extractedAt": "2026-10-14T05:01:57Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Decoupled architecture with Other Agent’s State (OAS) observation, object Knowledge Exchange (KE), and Other Agent’s Next Action (OANA) prediction. Both agents build a world graph using their own environmental object observations and their actions. The graph’s nodes represent the house, rooms, furniture, receptacles, objects, and agents. The edges represent the type of relation between them. If allowed, the agents also observe the OAS and exchange their knowledge about the objects when they are in the same room. Their high-level LLM planners call a High-Level Action (at replanning) and the corresponding low-level skills (action execution in the simulator), and predict the OANA. The predicted OANA is then compared with the other agent’s current and next actions (union target, Section 3.3), retrieved from its list of all called high-level actions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.16895-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.16895v1",
+      "page": 6,
+      "version": 1,
+      "width": 960,
+      "height": 383,
+      "crop": [
+        66.0,
+        75.86,
+        545.99,
+        266.94
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.16238": {
+    "arxivId": "2610.16238",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.16238",
+      "sourceUrl": "https://arxiv.org/pdf/2610.16238v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.16238-v1.text.json",
+      "extractedAt": "2026-10-14T05:02:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: EMBODIEDSKILLBENCH overview: Skill construction collects heterogeneous modules, structures them under a common protocol, and uses an agent to assemble reusable embodied skills. The environment lets agents compose selected skills into task-specific harnesses and interact with a simulator through a multi-turn observation-action loop. Benchmark evaluation logs the resulting interactions, computes per-task success, actions, tokens, and time, and aggregates them across tasks.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.16238-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.16238v1",
+      "page": 5,
+      "version": 1,
+      "width": 816,
+      "height": 420,
+      "crop": [
+        102.0,
+        75.86,
+        509.98,
+        285.12
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.15814": {
+    "arxivId": "2610.15814",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.15814",
+      "sourceUrl": "https://arxiv.org/pdf/2610.15814v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.15814-v1.text.json",
+      "extractedAt": "2026-10-14T05:02:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of the framework. The Executor plans and executes robot actions using current observations and accumulated experience. Across attempts, the Attributor diagnoses problems, proposes corrections, and refines them based on execution feedback. The Experience Memory stores skill, pending corrections, and execution history to guide subsequent attempts.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.15814-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.15814v1",
+      "page": 3,
+      "version": 1,
+      "width": 1017,
+      "height": 566,
+      "crop": [
+        52.5,
+        66.0,
+        560.57,
+        348.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.14601": {
+    "arxivId": "2610.14601",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.14601",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14601v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.14601-v1.text.json",
+      "extractedAt": "2026-10-14T05:02:06Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview. (a) StateSkill guides embodied execution through explicit state transitions and progressively loaded state-conditioned guidance, adapting to task progress and environment states. (b) StateSkill abstracts shared behavioral patterns from embodied trajectories into a finite- state machine, equipping each task-progress state with language guidance, a transition gate, and trajectory-derived action priors. (c) StateSkill-Evolve iteratively refines StateSkill by reviewing new successful and failed state-guided trajectories and validating candidate revisions. (d) StateGRPO integrates StateSkill evolution and state-conditioned embodied agent optimization into a unified iterative loop, enabling StateSkill and model capabilities to co-evolve.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.14601-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14601v1",
+      "page": 4,
+      "version": 1,
+      "width": 819,
+      "height": 364,
+      "crop": [
+        101.78,
+        75.86,
+        510.82,
+        257.08
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.14977": {
+    "arxivId": "2610.14977",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.14977",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14977v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.14977-v1.text.json",
+      "extractedAt": "2026-10-14T05:02:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of EnactOpt. (a) A source harness H = (S, C) executes training batch Br, recording actual model inputs, actions, observations, and episode outcomes. (b) Adjacent-decision diagnoses and episode summaries form its feedback Fr. (c) A joint optimizer uses the same H and Fr to propose candidates Cr through prompt-guided structured edit operators. Compatible candi- dates are compared with the previous pool Pr−1 on validation tasks to form Pr. Scenes are illustra- tive, not experimental results.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.14977-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14977v1",
+      "page": 5,
+      "version": 1,
+      "width": 817,
+      "height": 385,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        268.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.14117": {
+    "arxivId": "2610.14117",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.14117",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14117v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.14117-v1.text.json",
+      "extractedAt": "2026-10-14T05:02:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Method overview. (a) CALL reuses frozen π0.5 features to predict when help is needed. Normal execution proceeds without an Astra query; selected requests activate Astra recovery, followed by a fresh π0.5 proposal when control returns. (b) Counterfactual π0.5 continuations provide soft help labels for CALL training. (c) Real wrist-camera frames show execution, a CALL trigger, Astra recovery, resumed π0.5 control, and task completion within one episode.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.14117-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14117v1",
+      "page": 4,
+      "version": 1,
+      "width": 943,
+      "height": 680,
+      "crop": [
+        62.03,
+        211.24,
+        533.25,
+        550.82
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

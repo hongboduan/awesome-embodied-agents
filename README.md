@@ -10,7 +10,7 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 **50 curated entries · 46 papers · 3 projects · 1 perspective**
 
-49 source-checked · 1 full-review · 0 AI drafts · 263 discovery candidates
+49 source-checked · 1 full-review · 0 AI drafts · 282 discovery candidates
 
 ## Contents
 
