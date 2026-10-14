@@ -1373,27 +1373,27 @@
   },
   "2609.39207": {
     "arxivId": "2609.39207",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.39207",
-      "sourceUrl": "https://arxiv.org/pdf/2609.39207v1",
-      "version": 1,
-      "pageCount": 18,
-      "textPages": 18,
+      "sourceUrl": "https://arxiv.org/pdf/2609.39207v2",
+      "version": 2,
+      "pageCount": 20,
+      "textPages": 20,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.39207-v1.text.json",
-      "extractedAt": "2026-10-12T08:01:34Z"
+      "textPath": ".cache/papers/2609.39207-v2.text.json",
+      "extractedAt": "2026-10-14T07:43:45Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 3: Navigation policy architecture and atomic training examples. Left: language and monocular history enter a shared autoregressive decoder. Separate token blocks encode trajectories and pixel goals; visual QA uses text tokens. Motion tokens decode to body-frame waypoints. Architecture glyphs are schematic. Right: recorded training observations with instructions and overlaid trajectories. The overlays do not use metric camera projection. More examples appear in Fig. 6.",
+      "caption": "Figure 3: Navigation policy architecture and atomic training examples. Left: language and monocular history enter a shared autoregressive decoder. Separate token blocks encode trajectories and pixel goals. Visual QA uses text tokens. Motion tokens decode to body-frame waypoints. Architecture glyphs are schematic. Right: recorded training observations with instructions and overlaid trajectories. We show more examples in Fig. 6.",
       "figureLabel": "Figure 3",
       "selection": "automatic",
-      "path": "assets/papers/2609.39207-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.39207v1",
+      "path": "assets/papers/2609.39207-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39207v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 966,
       "height": 493,
       "crop": [
@@ -1406,7 +1406,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -3713,27 +3713,27 @@
   },
   "2610.13643": {
     "arxivId": "2610.13643",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.13643",
-      "sourceUrl": "https://arxiv.org/pdf/2610.13643v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.13643-v1.text.json",
-      "extractedAt": "2026-10-13T14:28:10Z"
+      "textPath": ".cache/papers/2610.13643-v2.text.json",
+      "extractedAt": "2026-10-14T07:44:20Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1: Overview of AutoBio+. AutoBio+ is a benchmark for dexterous manipulation in biological laboratories, comprising 14 tasks across four robot embodiments and incorporating three dynamic experimental phenomena, including flames, vapor, and bubbles. Its hybrid rendering pipeline integrates interactive simulated foregrounds with 3D Gaussian Splatting (3DGS) [1] backgrounds reconstructed from six real laboratory scenes, while parallel simulation supports efficient data generation and evaluation.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.13643-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.13643v1",
+      "path": "assets/papers/2610.13643-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 1107,
       "height": 694,
       "crop": [
@@ -3746,7 +3746,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -4086,6 +4086,368 @@
         211.24,
         533.25,
         550.82
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.17640": {
+    "arxivId": "2610.17640",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.17640",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17640v1",
+      "version": 1,
+      "pageCount": 49,
+      "textPages": 49,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.17640-v1.text.json",
+      "extractedAt": "2026-10-14T07:43:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Offline, passive streaming, and closed-loop streaming spatial understanding. MemAct combines rea- soning over incremental observations, historical memory retrieval, and active acquisition of missing evidence in a shared exploration-and-answering loop.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.17640-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17640v1",
+      "page": 2,
+      "version": 1,
+      "width": 818,
+      "height": 320,
+      "crop": [
+        101.98,
+        75.86,
+        510.01,
+        235.14
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.18053": {
+    "arxivId": "2610.18053",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.18053",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18053v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.18053-v1.text.json",
+      "extractedAt": "2026-10-14T07:43:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of our benchmark and key findings. Across all suites, orchestrating policy execution with sequential subgoal decomposition and visual verification substantially outperforms issuing the full instruction directly to the policy (bottom right). See Tables 1 and 3.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.18053-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18053v1",
+      "page": 1,
+      "version": 1,
+      "width": 758,
+      "height": 560,
+      "crop": [
+        116.78,
+        193.05,
+        495.36,
+        472.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.18617": {
+    "arxivId": "2610.18617",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.18617",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18617v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.18617-v1.text.json",
+      "extractedAt": "2026-10-14T07:43:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: The foraging task (illustrative, with layouts varying): one food and one water tile on a 6×6 grid. The needs panel (right) tracks three interoceptive levels and their lethal floors. Hunger and thirst decline over time. Drinking restores thirst but lowers oxygen, which recovers only on land. The best priority therefore depends on the current body state.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.18617-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18617v1",
+      "page": 3,
+      "version": 1,
+      "width": 413,
+      "height": 233,
+      "crop": [
+        204.85,
+        483.14,
+        410.52,
+        599.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.18822": {
+    "arxivId": "2610.18822",
+    "version": 1,
+    "lastPdfAttempt": {
+      "version": 1,
+      "at": "2026-10-14T07:43:57Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "ValueError"
+    }
+  },
+  "2610.17326": {
+    "arxivId": "2610.17326",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.17326",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17326v1",
+      "version": 1,
+      "pageCount": 7,
+      "textPages": 7,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.17326-v1.text.json",
+      "extractedAt": "2026-10-14T07:44:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overall task success, action-weighted SPL, task completion, and TC-SPLact across the three planning approaches.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.17326-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17326v1",
+      "page": 3,
+      "version": 1,
+      "width": 527,
+      "height": 242,
+      "crop": [
+        305.98,
+        573.14,
+        568.99,
+        693.82
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.17350": {
+    "arxivId": "2610.17350",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.17350",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17350v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.17350-v1.text.json",
+      "extractedAt": "2026-10-14T07:44:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Success on the 800 RoboMME test episodes, as reported by each source. GPT-6-Astra keeps the whole episode in context and commands every end-effector waypoint, with no RoboMME-specific training (single run). Light grey bars use RoboMME’s oracle skill interface, in which a privileged planner executes chosen skills. Details in Tables 1 and 3.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.17350-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17350v1",
+      "page": 1,
+      "version": 1,
+      "width": 972,
+      "height": 831,
+      "crop": [
+        63.37,
+        148.02,
+        548.63,
+        563.19
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.15846": {
+    "arxivId": "2610.15846",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.15846",
+      "sourceUrl": "https://arxiv.org/pdf/2610.15846v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.15846-v1.text.json",
+      "extractedAt": "2026-10-14T07:44:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the MoCaFe and p-MoCaFe frameworks detailed in Section 4. Multi-view predictions are aggregated via reliability weighting to construct a robust \"Filtered Teacher\" pseudo- label. Discrepancy scores against this teacher are then used to select the most informative student samples for training. In the p-MoCaFe extension, an additional public dataset is used to calibrate debiasing weights, yielding an unbiased empirical risk for robust model adaptation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.15846-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.15846v1",
+      "page": 4,
+      "version": 1,
+      "width": 805,
+      "height": 343,
+      "crop": [
+        104.97,
+        71.56,
+        506.69,
+        242.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.14635": {
+    "arxivId": "2610.14635",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.14635",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14635v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.14635-v1.text.json",
+      "extractedAt": "2026-10-14T07:44:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Premise-Induced Visual Fixation Hallucination example and PVFH-Bench construction pipeline.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.14635-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14635v1",
+      "page": 3,
+      "version": 1,
+      "width": 895,
+      "height": 440,
+      "crop": [
+        74.31,
+        66.04,
+        521.29,
+        285.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.14848": {
+    "arxivId": "2610.14848",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.14848",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14848v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.14848-v1.text.json",
+      "extractedAt": "2026-10-14T07:44:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Method overview. Given an object point cloud P0 and an initial hand state h0, both expressed in the initial wrist frame, a contact flow samples a sequence-level contact-distance mapbc (Sec. 4.1). Conditioned onbc, a pose flow generates the hand state bh(𝑡) independently at each queried motion time 𝑡, sharing one noise sample across the sequence (Sec. 4.2). A geometric stage then detects the attachment frame 𝑡att and propagates the object rigidly with the hand, yielding transforms {𝑇𝑘}, through contact-guided weighted registration (Sec. 4.3).",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.14848-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14848v1",
+      "page": 4,
+      "version": 1,
+      "width": 1008,
+      "height": 329,
+      "crop": [
+        53.6,
+        16.38,
+        557.19,
+        180.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.14302": {
+    "arxivId": "2610.14302",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.14302",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14302v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.14302-v1.text.json",
+      "extractedAt": "2026-10-14T07:44:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. DySCOVER Overview. (1) The recurrent policy collects action–observation transitions using the visual representation as state. (2) Intrinsic curiosity is calculated using the errors of the vision and world models. (3) Policy is updated online, visual and world models are updated using replayed experience.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.14302-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.14302v1",
+      "page": 2,
+      "version": 1,
+      "width": 1032,
+      "height": 235,
+      "crop": [
+        48.25,
+        44.33,
+        563.78,
+        161.27
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
