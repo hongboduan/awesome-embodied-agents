@@ -8,9 +8,9 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**50 curated entries · 46 papers · 3 projects · 1 perspective**
+**51 curated entries · 46 papers · 4 projects · 1 perspective**
 
-49 source-checked · 1 full-review · 0 AI drafts · 282 discovery candidates
+50 source-checked · 1 full-review · 0 AI drafts · 282 discovery candidates
 
 ## Contents
 
@@ -152,6 +152,11 @@ Project previews; collection dates are labeled when publication dates are unveri
   added 2026-10-13 · Project preview<br>
   An open embodied-agent framework composing planners, memory, perception and action services, including frozen VLA primitives and analytic control.<br>
   [![arXiv: 2607.08448](https://img.shields.io/badge/arXiv-2607.08448-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.08448v5) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RLinf/RPent) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://rpent.readthedocs.io/en/latest/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=rpent)
+
+- **[Frontier Models for Every Robot: Announcing our API beta](https://www.pi.website/blog/api-beta)**<br>
+  2026-10-13 · Project preview<br>
+  A managed API for adapting robotic foundation models with developer data and running fine-tuned policies through hosted inference.<br>
+  [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://www.pi.website/blog/api-beta) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=pi-api-beta)
 
 - **[Physical RSI 1.0: Recursive Self-Harness for Scaling Embodied Skills](https://mmlab.hk/research/PhysicalRSI)**<br>
   added 2026-10-12 · Project preview<br>

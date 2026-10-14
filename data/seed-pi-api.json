@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pi-api-beta",
+    "sourceType": "project",
+    "title": "Frontier Models for Every Robot: Announcing our API beta",
+    "shortTitle": "Pi API beta",
+    "date": "2026-10-13",
+    "year": 2026,
+    "addedAt": "2026-10-14",
+    "authors": "Physical Intelligence",
+    "categories": ["policies", "code"],
+    "tasks": ["manipulation"],
+    "environment": ["real"],
+    "summaryZh": "将机器人模型的微调与推理做成托管 API，让开发者用自己的数据和真机反馈迭代策略。",
+    "summaryEn": "A managed API for adapting robotic foundation models with developer data and running fine-tuned policies through hosted inference.",
+    "problem": "如何降低适配机器人基础模型所需的训练算力、基础设施与数据管线门槛？",
+    "method": "上传示范数据，由 PI 托管基础设施微调模型，再通过网关运行推理。开发者在机器人上评测，用失败指导下一轮数据采集与训练。",
+    "findings": [
+      "官方展示多个行业的真机应用；其中 Actor 的轮式装载机在商业现场向卡车装料，驾驶室内没有操作员。",
+      "Almond 团队迭代 API 四天后，展示 Axol 为自身装配所需的垫片去毛刺；这不等于已实现机器人完整自我制造。",
+      "研究地图定位（编辑解读）：动作模型与训练基础设施，可与 Agent 的任务规划、工具编排和记忆机制分层讨论。"
+    ],
+    "limitations": [
+      "目前为分批接入的 beta，需要申请。申请表询问本地推理需求，不代表本地部署已经开放。",
+      "公告以合作案例为主，未提供统一成功率或受控基准；多数展示采用云端推理，部分遇到网络连接问题。",
+      "仍需数据、微调和真机集成；失败驱动迭代由开发者组织，不能据此认定已具备 Agent 自主学习或在线恢复。"
+    ],
+    "role": {
+      "model": "机器人基础模型；在托管环境适配具体应用",
+      "output": "网关提供策略推理，官方图将机器人侧输出标为 actions",
+      "memory": "未披露 Agent 记忆或技能库机制",
+      "recovery": "开发者用评测失败决定补充哪些数据",
+      "adaptation": "上传示范数据，托管微调，真机评测后迭代"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://www.pi.website/blog/api-beta",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "发布日期、合作案例及云端推理的网络限制",
+        "source": "https://www.pi.website/blog/api-beta",
+        "label": "PI 官方发布公告 · 2026-10-13"
+      },
+      {
+        "claim": "数据上传、微调、推理与评测反馈闭环",
+        "source": "https://website.pi-asset.com/api-beta/73f2946d5b10/api-workflow-desktop.svg",
+        "label": "PI 官方 API 工作流原图"
+      },
+      {
+        "claim": "小范围、分批接入；可提交团队和机器人应用申请",
+        "source": "https://www.pi.website/waitlist",
+        "label": "API beta 申请页"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-14",
+    "curated": true,
+    "deepRead": false,
+    "tags": ["Physical Intelligence", "Pi API", "机器人模型服务", "托管微调", "云端推理", "开发者迭代", "Beta"],
+    "figure": {
+      "kind": "project-image",
+      "path": "assets/papers/pi-api-beta-workflow.png",
+      "figureLabel": "官方 API 工作流",
+      "sourceLabel": "Physical Intelligence",
+      "sourceUrl": "https://www.pi.website/blog/api-beta",
+      "originalUrl": "https://website.pi-asset.com/api-beta/73f2946d5b10/api-workflow-desktop.svg",
+      "width": 2560,
+      "height": 1100,
+      "caption": "PI 官方工作流：数据上传、托管微调、推理与评测反馈。原始 SVG 的静态呈现，图像归作者。"
+    },
+    "cardFindings": [
+      "官方展示装载机与机器人去毛刺等真机案例。",
+      "编辑定位：动作模型与训练基础设施。"
+    ],
+    "cardLimitations": [
+      "Beta 申请制；案例展示没有统一成功率。",
+      "仍需数据与工程集成；云端连接可能受限。"
+    ],
+    "cardEvidence": [
+      {"claim": "案例与服务边界", "label": "PI 官方公告", "source": "https://www.pi.website/blog/api-beta"},
+      {"claim": "分批接入", "label": "API beta 申请页", "source": "https://www.pi.website/waitlist"}
+    ],
+    "social": {
+      "xiaohongshu": {
+        "title": "Pi API：把机器人策略适配做成服务",
+        "body": "Physical Intelligence 发布 Pi API beta：上传数据、托管微调、网关推理，再由开发者用真机评测指导下一轮数据采集。\n\n我的关注点是系统分工：Agent 负责什么，动作模型负责什么，评测反馈又由谁来解释？API 让策略能力更容易接入，但任务规划、记忆与失败恢复仍需要自己的设计。\n\n目前需申请 beta，官方案例也没有给出统一成功率。\n\n原文：https://www.pi.website/blog/api-beta",
+        "tags": ["具身智能", "PhysicalIntelligence", "EmbodiedAgent", "机器人"]
+      },
+      "wechat": {
+        "title": "Pi API beta：机器人动作能力的服务化接口",
+        "body": "Physical Intelligence 在 2026 年 10 月 13 日公布 Pi API beta。其工作流把开发者的数据、托管微调、机器人推理和评测反馈连接起来。\n\n从具身 Agent 的研究视角看，我更关心接口带来的分工变化：上层规划如何选择和调用动作能力？如何判断这次执行失败？哪些经验应该写进记忆，哪些错误需要新的训练数据？这些是进一步研究的问题，不是公告已经验证的能力。\n\n当前需要申请接入。评估这项服务时，应同时关注数据需求、真机适配成本和云端连接条件。\n\n原文：https://www.pi.website/blog/api-beta"
+      }
+    }
+  }
+]
