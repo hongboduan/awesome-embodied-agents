@@ -820,27 +820,27 @@
   },
   "2610.02788": {
     "arxivId": "2610.02788",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.02788",
-      "sourceUrl": "https://arxiv.org/pdf/2610.02788v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.02788v2",
+      "version": 2,
       "pageCount": 40,
       "textPages": 40,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.02788-v1.text.json",
-      "extractedAt": "2026-10-11T09:07:48Z"
+      "textPath": ".cache/papers/2610.02788-v2.text.json",
+      "extractedAt": "2026-10-15T04:50:21Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: Skill2Real pipeline. All in-context skill learning occurs in simulated scenes. Stage I learns reusable Cerebellum skills for local manipulation; Stage II freezes the Cerebellum and learns Brain skills that compositionally organize the local library into task programs. In both stages, the Proposer generates programs from public observations, the Veriﬁer converts privileged execution evidence into publicly grounded feedback, and the Governor admits only updates supported by validation rollouts.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.02788-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.02788v1",
+      "path": "assets/papers/2610.02788-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02788v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 789,
       "height": 412,
       "crop": [
@@ -853,7 +853,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -1412,27 +1412,27 @@
   },
   "2609.39304": {
     "arxivId": "2609.39304",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.39304",
-      "sourceUrl": "https://arxiv.org/pdf/2609.39304v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2609.39304v3",
+      "version": 3,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.39304-v2.text.json",
-      "extractedAt": "2026-10-12T08:01:37Z"
+      "textPath": ".cache/papers/2609.39304-v3.text.json",
+      "extractedAt": "2026-10-15T04:50:22Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview. (a) The task agent is an unmodified coding agent that controls a robot through a visual interface; the agent’s harness is what we evolve. (b) Each round, an optimizer agent reads the full trajectories of B rollouts and proposes one bounded revision; under Champion–Challenger selection the revision is promoted only if it strictly beats the incumbent on the same fixed cases, whereas accepting every revision drifts downward within ten rounds (inset: training success at B = 100). (c) Held-out success of the evolved harness rises with the number of rollouts per round, from 47% at B = 5 to 67% at B = 100.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.39304-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.39304v2",
+      "path": "assets/papers/2609.39304-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39304v3",
       "page": 2,
-      "version": 2,
+      "version": 3,
       "width": 948,
       "height": 249,
       "crop": [
@@ -1445,7 +1445,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -4448,6 +4448,396 @@
         44.33,
         563.78,
         161.27
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19618": {
+    "arxivId": "2610.19618",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19618",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19618v1",
+      "version": 1,
+      "pageCount": 55,
+      "textPages": 55,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19618-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Architecture of the fixed modular framework used in Stage I.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19618-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19618v1",
+      "page": 8,
+      "version": 1,
+      "width": 186,
+      "height": 607,
+      "crop": [
+        249.59,
+        114.82,
+        342.05,
+        417.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19600": {
+    "arxivId": "2610.19600",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19600",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19600v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19600-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3 Overview of the failure-guided agentic system. The agentic planner leverages the skill library for task planning guidance, visual memory for relevant observation retrieval, and geometric skills for accessibility checking, base adjustment, and end-effector adjustment.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19600-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19600v1",
+      "page": 6,
+      "version": 1,
+      "width": 976,
+      "height": 550,
+      "crop": [
+        62.01,
+        163.68,
+        550.0,
+        438.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.20442": {
+    "arxivId": "2610.20442",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.20442",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20442v1",
+      "version": 1,
+      "pageCount": 79,
+      "textPages": 79,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.20442-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of agentic robots across Model, Data, Environment, and Harness. The four domains connect model decisions, robot execution, environmental interaction, and learning from experience.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.20442-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20442v1",
+      "page": 3,
+      "version": 1,
+      "width": 928,
+      "height": 490,
+      "crop": [
+        66.0,
+        46.0,
+        530.0,
+        291.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.20474": {
+    "arxivId": "2610.20474",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.20474",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20474v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.20474-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of AdaRSI. The agent improves its harness first and fine-tunes only the sub-steps that the harness cannot fix, raising success on every suite of RoboCasa365. In WaffleReheat (bottom), only the door opening is trained.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.20474-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20474v1",
+      "page": 1,
+      "version": 1,
+      "width": 916,
+      "height": 685,
+      "crop": [
+        77.0,
+        170.1,
+        534.75,
+        512.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19420": {
+    "arxivId": "2610.19420",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19420",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19420v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19420-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of WEDGE. Unlike existing environment generators, which are largely policy- agnostic, WEDGE uses agent failures to guide generation. (a) We mine policy-specific weaknesses from successful and failed rollouts. (b) The mined weaknesses determine which environmental factors to control and which learnable regimes to target. Training on the resulting environments improves the agent and can yield cross-domain transfer beyond the generation simulator.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19420-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19420v1",
+      "page": 2,
+      "version": 1,
+      "width": 988,
+      "height": 483,
+      "crop": [
+        16.0,
+        69.71,
+        510.0,
+        310.61
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.18867": {
+    "arxivId": "2610.18867",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.18867",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18867v2",
+      "version": 2,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.18867-v2.text.json",
+      "extractedAt": "2026-10-15T04:50:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of EmbodiedEvo. During task-specific Playground interaction, a coding agent develops control programs and revises reusable Skills and Lessons through physical feedback. The resulting harness is frozen and inherited by fresh Test agents on new scenes.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.18867-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18867v2",
+      "page": 1,
+      "version": 2,
+      "width": 966,
+      "height": 528,
+      "crop": [
+        64.87,
+        419.94,
+        547.16,
+        683.26
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19495": {
+    "arxivId": "2610.19495",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19495",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19495v1",
+      "version": 1,
+      "pageCount": 34,
+      "textPages": 34,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19495-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 | Robota-Embed architecture and objectives. Each query is paired with the next four seconds of recorded video and actions. Three objective groups train a joint VLA space.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19495-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19495v1",
+      "page": 4,
+      "version": 1,
+      "width": 966,
+      "height": 382,
+      "crop": [
+        56.36,
+        75.59,
+        538.91,
+        266.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19336": {
+    "arxivId": "2610.19336",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19336",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19336v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19336-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Visualization of location-valued consequence-field construction. The distribution of locations are sampled and constructed into a field.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19336-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19336v1",
+      "page": 3,
+      "version": 1,
+      "width": 514,
+      "height": 215,
+      "crop": [
+        307.2,
+        44.09,
+        563.98,
+        151.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19108": {
+    "arxivId": "2610.19108",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19108",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19108v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19108-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1 Taxonomy of data-centric spatial reasoning in MLLMs, organized by dataset design, con- struction, and evaluation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19108-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19108v1",
+      "page": 4,
+      "version": 1,
+      "width": 766,
+      "height": 913,
+      "crop": [
+        118.7,
+        67.81,
+        501.12,
+        523.94
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.19155": {
+    "arxivId": "2610.19155",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.19155",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19155v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.19155-v1.text.json",
+      "extractedAt": "2026-10-15T04:50:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 3: FACT architecture. The Track-Guided Coarse Planner jointly denoises future video, visual tracks, and a coarse action chunk with a block-causal video DiT; per-token noise conditioning lets clean context and noisy targets coexist. At the τ=0.4 handoff, video and tracks are read out and the coarse hidden states are frozen. The Force–Action Joint Refiner reads them through cached cross-attention and co-denoises the remaining action (τa : 0.4→0) with continuous future fingertip force (τf : 1→0), using observed tactile signals as clean context.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.19155-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19155v1",
+      "page": 4,
+      "version": 1,
+      "width": 1160,
+      "height": 561,
+      "crop": [
+        16.0,
+        46.32,
+        596.0,
+        326.36
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

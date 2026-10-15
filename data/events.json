@@ -1,5 +1,150 @@
 [
   {
+    "id": "version-2610.02626-v3",
+    "paperId": "2610.02626",
+    "type": "version",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.02626v3"
+  },
+  {
+    "id": "discovered-2610.19108",
+    "paperId": "2610.19108",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19108v1"
+  },
+  {
+    "id": "discovered-2610.19155",
+    "paperId": "2610.19155",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "FACT: A Multimodal Force-Action-Track Foundation Model for Human-to-Robot Dexterity",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19155v1"
+  },
+  {
+    "id": "discovered-2610.19336",
+    "paperId": "2610.19336",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Probabilistic Physics Digital Twin for Human-Robot Interaction",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19336v1"
+  },
+  {
+    "id": "discovered-2610.19420",
+    "paperId": "2610.19420",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19420v1"
+  },
+  {
+    "id": "discovered-2610.19495",
+    "paperId": "2610.19495",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19495v1"
+  },
+  {
+    "id": "discovered-2610.19600",
+    "paperId": "2610.19600",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Cracking Mobile Manipulation: From Failure Diagnosis to Agentic Robot System",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19600v1"
+  },
+  {
+    "id": "version-2610.09369-v2",
+    "paperId": "2610.09369",
+    "type": "version",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.09369v2"
+  },
+  {
+    "id": "discovered-2610.19618",
+    "paperId": "2610.19618",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "F2A-ObjectNav: An Adaptive Agentic Architecture for Object-Goal Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.19618v1"
+  },
+  {
+    "id": "version-2609.39304-v3",
+    "paperId": "2609.39304",
+    "type": "version",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2609.39304v3"
+  },
+  {
+    "id": "version-2610.02788-v2",
+    "paperId": "2610.02788",
+    "type": "version",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Skill2Real: Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.02788v2"
+  },
+  {
+    "id": "version-2610.13643-v3",
+    "paperId": "2610.13643",
+    "type": "version",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "DexBioLab: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.13643v3"
+  },
+  {
+    "id": "discovered-2610.20442",
+    "paperId": "2610.20442",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.20442v1"
+  },
+  {
+    "id": "discovered-2610.20474",
+    "paperId": "2610.20474",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.20474v1"
+  },
+  {
+    "id": "discovered-2610.18867",
+    "paperId": "2610.18867",
+    "type": "discovered",
+    "date": "2026-10-15T04:49:18Z",
+    "title": "EmbodiedEvo: Self-Evolving Coding Agent For Physical Intelligence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.18867v2"
+  },
+  {
     "id": "version-2610.12026-v2",
     "paperId": "2610.12026",
     "type": "version",
