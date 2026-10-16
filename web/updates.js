@@ -131,8 +131,23 @@
     if (event.type === 'version') {
       const from = event.fromVersion == null ? '' : 'v' + event.fromVersion + ' → ';
       const to = event.toVersion == null ? '新版本' : 'v' + event.toVersion;
-      const readVersion = event.paper?.reviewedVersion;
-      return from + to + '。' + (readVersion ? '当前精读对应 v' + readVersion + '，新版本内容需单独复核。' : '版本发现不表示已经重读或审核新版本。');
+      const prefix = from + to + '。';
+      const paper = event.paper;
+      // build.py also sets reviewedVersion on candidates; the field alone is not a review.
+      if (paper?.review === 'candidate') return prefix + '当前为自动发现候选，尚待人工阅读与核对。';
+      const versionNumber = value => Number.isInteger(Number(value)) && Number(value) > 0 ? Number(value) : null;
+      const readVersion = versionNumber(paper?.reviewedVersion ?? paper?.version);
+      if (paper?.review === 'ai-draft') return prefix + '当前 AI 草稿' + (readVersion ? '对应 v' + readVersion : '') + '，尚待人工复核。';
+      const reviewLabel = paper?.review === 'full-review' || paper?.deepRead === true ? '精读' : paper?.review === 'source-checked' ? '来源核对' : '';
+      if (!reviewLabel) return prefix + '版本发现不表示已经重读或审核新版本。';
+      if (!readVersion) return prefix + '当前已有' + reviewLabel + '记录，对应版本尚未记录。';
+      const eventVersion = versionNumber(event.toVersion);
+      const latestVersion = versionNumber(paper?.latestVersion);
+      const current = '当前' + reviewLabel + '对应 v' + readVersion + '。';
+      if (eventVersion && readVersion >= eventVersion) {
+        return prefix + '此为历史版本记录；' + current + (latestVersion && latestVersion > readVersion ? '最新原文为 v' + latestVersion + '，尚待复核。' : '');
+      }
+      return prefix + current + (eventVersion ? '本次记录的 v' + eventVersion + ' 尚待复核。' : '该次版本变化是否已纳入核对，尚未记录。');
     }
     return event.message || event.description || '研究动态记录。';
   }

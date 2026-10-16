@@ -67,3 +67,31 @@ test('UI escapes content, suppresses unsafe URLs, and keeps audit language disti
   assert.ok(page.innerHTML.includes('全部记录</a>'));
   delete global.document;
 });
+
+test('version events distinguish metadata, AI drafts, source checks, and full reviews', () => {
+  const page = {innerHTML: ''};
+  global.document = {getElementById: id => id === 'updates-view' ? page : null};
+  const description = (paper, toVersion = 3) => {
+    renderPage({papers: [{id: 'p', title: 'Paper', ...paper}], events: [event('p', '2026-10-16', {type: 'version', fromVersion: toVersion - 1, toVersion})]}, {now});
+    return page.innerHTML.match(/<article class="au-record">[\s\S]*?<p>([\s\S]*?)<\/p>/)[1];
+  };
+  try {
+    const candidate = description({review: 'candidate', reviewedVersion: 2, latestVersion: 3});
+    assert.match(candidate, /自动发现候选/);
+    assert.doesNotMatch(candidate, /当前精读|当前来源核对/);
+    const draft = description({review: 'ai-draft', reviewedVersion: 3, latestVersion: 3});
+    assert.match(draft, /AI 草稿对应 v3，尚待人工复核/);
+    assert.doesNotMatch(draft, /当前精读|当前来源核对/);
+    const checked = description({review: 'source-checked', reviewedVersion: 2, latestVersion: 3});
+    assert.match(checked, /当前来源核对对应 v2/);
+    assert.match(checked, /本次记录的 v3 尚待复核/);
+    assert.doesNotMatch(checked, /当前精读/);
+    const read = description({review: 'full-review', deepRead: true, reviewedVersion: 3, latestVersion: 3});
+    assert.match(read, /当前精读对应 v3/);
+    assert.doesNotMatch(read, /尚待复核/);
+    const historical = description({review: 'source-checked', reviewedVersion: 3, latestVersion: 5}, 2);
+    assert.match(historical, /历史版本记录/);
+    assert.match(historical, /最新原文为 v5，尚待复核/);
+    assert.doesNotMatch(historical, /本次记录的 v2 尚待复核/);
+  } finally { delete global.document; }
+});
