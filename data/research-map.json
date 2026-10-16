@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-16",
+  "routes": [
+    {
+      "id": "code-policy",
+      "title": "代码策略：谁决定下一步？",
+      "kicker": "决策边界 · 可执行工具 · 显式状态",
+      "question": "把动作写成代码之后，哪些决策仍需要模型在线完成？",
+      "summary": "从 URAI 的完整动作工具、RobotUse 的视觉动作接口，到 COAP 的固定程序，关键差异是模型何时接管，以及状态如何被测量和更新。RoboRSI 与 PhysEvo 进一步把可执行技能和接口变成可修订的对象。这里按设计问题组织阅读，不表示论文之间存在继承关系。",
+      "readingQuestion": "逐项记录：模型调用发生在哪里？一条工具调用包含多长动作？失败由谁发现和处理？开发成本是否计入？MoCaP 为新发现候选，尚待全文精读。",
+      "paperIds": ["2609.39018", "2610.04929", "2610.08995", "2610.12369", "2610.12424"],
+      "backgroundIds": ["2209.07753"],
+      "frontierIds": ["2610.20998"]
+    },
+    {
+      "id": "agent-policy",
+      "title": "Agent + VLA：规划与动作怎样分工？",
+      "kicker": "动作模型 · 工具接口 · 执行反馈",
+      "question": "强推理模型怎样把一个已有动作策略变成可检查、可重试的执行工具？",
+      "summary": "RPent 将冻结 VLA 与解析动作接入工具接口；RV-ICL 在 RPent 上增加分层示范查询；NavGPT-3 把这种分工带到导航与异步运行时。REMM 强调任务状态的修订。Pi API beta 则提供策略微调与推理服务，属于动作模型基础设施。",
+      "readingQuestion": "先区分高层规划与低层执行，再检查动作返回什么证据、何时允许重试，以及模型冻结发生在哪个阶段。Pi API 的托管微调和 Agent 运行时调用属于不同问题。",
+      "paperIds": ["rpent", "2610.06843", "2610.10787", "2610.12710", "pi-api-beta"],
+      "backgroundIds": ["2608.29896"],
+      "frontierIds": []
+    },
+    {
+      "id": "memory-recovery",
+      "title": "记忆与恢复：记住以后，还能改对吗？",
+      "kicker": "历史证据 · 状态失效 · 局部恢复",
+      "question": "旧观察什么时候仍然可信，什么时候必须撤回，并改变下一步动作？",
+      "summary": "RoboICL 保存动作前后的证据，RV-ICL 按需查阅示范；REMM 处理物理变化后的依赖失效；BT-Agent 用局部检查及时中断执行。RobotUse 与 NavGPT-3 展示经验手册、路线状态与执行反馈的不同组织方式。",
+      "readingQuestion": "区分历史记录、当前世界状态和跨回合经验：记忆是否会过期？谁验证完成条件？恢复发生在每个控制 tick、技能边界，还是下一次模型调用？",
+      "paperIds": ["2609.34261", "2610.06843", "2610.04929", "2610.10787", "2610.12710", "2610.13862"],
+      "backgroundIds": ["2411.17735", "2207.05608"],
+      "frontierIds": []
+    },
+    {
+      "id": "self-improvement",
+      "title": "自我改进：经验究竟改了什么？",
+      "kicker": "技能修订 · 运行框架 · 验证与继承",
+      "question": "一次成功经验怎样转化为可复用的改进，又怎样证明没有破坏已有能力？",
+      "summary": "PhysEvo 与 EMHO 修改模型外围的执行框架；RoboRSI 组织可验证的技能修订；COAP 将改进沉淀为固定代码库；PhysicalRSI 把技能、工具和记忆候选放进带版本的选择流程。ENPIRE 提供更早的真机自动实验参照。",
+      "readingQuestion": "检查改进载体、训练与测试隔离、人类参与、复位和判分来源，并同时计算机器人时间与模型调用成本。AdaRSI、EmbodiedEvo 目前仅列为待精读前沿，不据摘要建立技术继承关系。",
+      "paperIds": ["physicalrsi", "2610.08432", "2610.08995", "2610.12369", "2610.12424"],
+      "backgroundIds": ["2606.19980"],
+      "frontierIds": ["2610.20474", "2610.18867"]
+    }
+  ],
+  "resources": [
+    {
+      "id": "resource-robodojo",
+      "kind": "benchmark",
+      "name": "RoboDojo",
+      "summary": "覆盖记忆、精度、开放指令、泛化与长程操作的机器人基准。使用同一基准不代表使用同一任务子集、试验次数或预算。",
+      "url": "https://arxiv.org/abs/2607.04434"
+    },
+    {
+      "id": "resource-pi05",
+      "kind": "model",
+      "name": "π0.5",
+      "summary": "Physical Intelligence 的视觉语言动作模型；这里标记具体系统中实际采用的执行模型，不把所有 Pi API 模型统称为 π0.5。",
+      "url": "https://www.pi.website/blog/pi05"
+    },
+    {
+      "id": "resource-navgpt-vla",
+      "kind": "model",
+      "name": "NavGPT VLA",
+      "summary": "NavGPT-3 的导航动作策略，根据指令和视觉历史预测路点；与负责规划和检查的高层模型分工。",
+      "url": "https://metacognitionai.github.io/NavGPT3/"
+    },
+    {
+      "id": "resource-g05",
+      "kind": "model",
+      "name": "Galaxea G0.5",
+      "summary": "REMM 使用的冻结操作策略；接收当前原子指令并执行动作，任务状态修订由上层系统负责。",
+      "url": "https://arxiv.org/abs/2608.11739"
+    }
+  ],
+  "relations": [
+    {
+      "id": "coap-evaluated-robodojo",
+      "source": "2610.12369",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "评测于 RoboDojo",
+      "explanation": "COAP 在 RoboDojo 的 42 项双臂仿真任务上评测；执行时运行固定代码，开发期使用编码智能体。",
+      "sources": [{"label": "COAP · 第 4.1 节", "url": "https://arxiv.org/html/2610.12369v1#S4.SS1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "urai-evaluated-robodojo",
+      "source": "2609.39018",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "评测于 RoboDojo 子集",
+      "explanation": "URAI 采用 5 项任务、每条件每任务 5 个种子；不能把该子集结果直接与 42 任务总体成绩排序。",
+      "sources": [{"label": "URAI · 第 4.1 节与 Table 1", "url": "https://arxiv.org/html/2609.39018v1#S4.SS1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "physevo-evaluated-robodojo",
+      "source": "2610.08995",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "评测于 RoboDojo",
+      "explanation": "PhysEvo 在 42 项任务上使用留出布局；论文同时报告能力维度等权与任务等权结果，两种均值不可混用。",
+      "sources": [{"label": "PhysEvo · 第 5 节", "url": "https://arxiv.org/html/2610.08995v1#S5"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "roboicl-evaluated-robodojo",
+      "source": "2609.34261",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "评测于 RoboDojo 子集",
+      "explanation": "RoboICL 主报告覆盖 30 项任务；开放指令类别为零示范，其余类别使用一次示范，进度分数不等于完整成功率。",
+      "sources": [{"label": "RoboICL · 第 4 节", "url": "https://arxiv.org/html/2609.34261v1#S4"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "rvicl-extends-rpent",
+      "source": "2610.06843",
+      "target": "rpent",
+      "type": "extends",
+      "editorial": false,
+      "label": "基于 RPent 扩展示范接口",
+      "explanation": "作者明确说明 RV-ICL 构建在 RPent 上：保留机器人工具执行，新增四层视频示范结构和只读查询工具。",
+      "sources": [{"label": "RV-ICL · 引言与 Figure 2", "url": "https://arxiv.org/html/2610.06843v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "rpent-uses-pi05",
+      "source": "rpent",
+      "target": "resource-pi05",
+      "type": "uses_model",
+      "editorial": false,
+      "label": "LIBERO 后端使用 π0.5",
+      "explanation": "官方架构文档明确 LIBERO 环境、π0.5 与感知服务分开运行；其他环境可采用不同动作模型。",
+      "sources": [{"label": "RPent · Architecture and Execution", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "navgpt-uses-vla",
+      "source": "2610.10787",
+      "target": "resource-navgpt-vla",
+      "type": "uses_model",
+      "editorial": false,
+      "label": "调用 NavGPT VLA 执行",
+      "explanation": "Planner 可委派导航指令给 NavGPT VLA，并依据返回的路线图像、执行状态和观测继续检查或修复路线。",
+      "sources": [{"label": "NavGPT-3 · 第 3 节", "url": "https://arxiv.org/html/2610.10787v1#S3"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "remm-uses-g05",
+      "source": "2610.12710",
+      "target": "resource-g05",
+      "type": "uses_model",
+      "editorial": false,
+      "label": "使用冻结 G0.5 执行",
+      "explanation": "REMM 将当前原子指令发给冻结的 G0.5；显式证据、依赖失效与恢复调度发生在策略上层。",
+      "sources": [{"label": "REMM · Figure 2 与第 III 节", "url": "https://arxiv.org/html/2610.12710v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-coap-urai",
+      "source": "2610.12369",
+      "target": "2609.39018",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：模型何时接管",
+      "explanation": "COAP 执行时由固定程序持续决策；URAI 在完整工具调用之间把决策交还模型。对照的是控制分工，不能由不同协议的成绩判定路线优劣。",
+      "sources": [{"label": "COAP · 第 3 节", "url": "https://arxiv.org/html/2610.12369v1#S3"}, {"label": "URAI · 第 3 节", "url": "https://arxiv.org/html/2609.39018v1#S3"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-urai-robotuse",
+      "source": "2609.39018",
+      "target": "2610.04929",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：动作与上下文粒度",
+      "explanation": "URAI 把多阶段运动封装为一次调用；RobotUse 按子目标分配上下文并维护操作手册。两者适合一起检查一次模型决策承担多少工作。",
+      "sources": [{"label": "URAI · 工具与反馈", "url": "https://arxiv.org/html/2609.39018v1#S3"}, {"label": "RobotUse · 官方项目页", "url": "https://robotuse-team.github.io/"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-rpent-navgpt",
+      "source": "rpent",
+      "target": "2610.10787",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：操作与导航的执行接口",
+      "explanation": "RPent 组合 VLA 原语与解析动作；NavGPT-3 将导航委派、路线复核和异步监控接入运行时。共同问题是执行如何把有效证据返回规划器。",
+      "sources": [{"label": "RPent · 官方架构", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}, {"label": "NavGPT-3 · 第 3 节", "url": "https://arxiv.org/html/2610.10787v1#S3"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-emerge-rpent",
+      "source": "2608.29896",
+      "target": "rpent",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：技能组合与局部恢复",
+      "explanation": "EMERGE-Policy 用完成条件、分工子 Agent 和 Branch Stack 组织恢复；RPent 通过规划器、工具与记忆组织执行。这里比较架构选择，不表示 RPent 继承 EMERGE。",
+      "sources": [{"label": "EMERGE-Policy · 官方方法页", "url": "https://emerge-policy.github.io/EMERGE-Policy/"}, {"label": "RPent · 官方架构", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-roboicl-rvicl",
+      "source": "2609.34261",
+      "target": "2610.06843",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：示范怎样进入决策",
+      "explanation": "RoboICL 将示范与动作回执放进统一上下文，直接由冻结 VLM 生成动作；RV-ICL 按需查询分层视频，再调用冻结 VLA 与解析工具。名称相近不代表实现继承。",
+      "sources": [{"label": "RoboICL · 第 3 节", "url": "https://arxiv.org/html/2609.34261v1#S3"}, {"label": "RV-ICL · 第 3 节", "url": "https://arxiv.org/html/2610.06843v1#S3"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-roboicl-remm",
+      "source": "2609.34261",
+      "target": "2610.12710",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：保留历史与撤回状态",
+      "explanation": "RoboICL 用时间锚点保留早期经历；REMM 显式撤回失去物理支持的任务条件。阅读时分别判断记住了什么，以及世界变化后改掉了什么。",
+      "sources": [{"label": "RoboICL · 有界锚点记忆", "url": "https://arxiv.org/html/2609.34261v1#S3"}, {"label": "REMM · 依赖修订与恢复", "url": "https://arxiv.org/html/2610.12710v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-remm-btagent",
+      "source": "2610.12710",
+      "target": "2610.13862",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：何时中断，何时修复",
+      "explanation": "REMM 在技能边界根据失效依赖安排修复；BT-Agent 的局部 guard 每次 tick 检查执行条件，并把失败返回 Actor。两者处理不同时间尺度的恢复责任。",
+      "sources": [{"label": "REMM · 第 III 节", "url": "https://arxiv.org/html/2610.12710v1"}, {"label": "BT-Agent · 第 III 节", "url": "https://arxiv.org/html/2610.13862v1#S3"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-roborsi-physevo",
+      "source": "2610.12424",
+      "target": "2610.08995",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：技能修订与诊断工具修订",
+      "explanation": "RoboRSI 用分层技能和角色评审管理修改；PhysEvo 允许元 Agent 修订执行工具及自己的诊断工具。比较重点是可修改范围、验证门槛和人类参与。",
+      "sources": [{"label": "RoboRSI · 第 3 节", "url": "https://arxiv.org/html/2610.12424v1#S3"}, {"label": "PhysEvo · 第 3 节", "url": "https://arxiv.org/html/2610.08995v1#S3"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-emho-physevo",
+      "source": "2610.08432",
+      "target": "2610.08995",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：从失败轨迹修改运行框架",
+      "explanation": "二者都保留底层模型权重并从执行记录修改外围系统。应核对搜索轨迹与留出测试的隔离、候选选择规则及跨任务退化，而非只看最佳迭代成绩。",
+      "sources": [{"label": "EMHO · 方法与局限", "url": "https://arxiv.org/html/2610.08432v1"}, {"label": "PhysEvo · 方法与评测", "url": "https://arxiv.org/html/2610.08995v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-enpire-physicalrsi",
+      "source": "2606.19980",
+      "target": "physicalrsi",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：物理实验与候选版本选择",
+      "explanation": "ENPIRE 把复位、执行、判分和策略改进连成真机实验循环；PhysicalRSI 强调技能、工具、记忆候选的评测与版本继承。共同要问改进证据来自哪里。",
+      "sources": [{"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}, {"label": "PhysicalRSI · 官方架构", "url": "https://github.com/PhysicalRSI/PhysicalRSI/blob/main/docs/architecture.md"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-piapi-enpire",
+      "source": "pi-api-beta",
+      "target": "2606.19980",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：策略适配的服务与实验循环",
+      "explanation": "Pi API beta 提供上传数据、托管微调和推理；ENPIRE 让编码 Agent 组织物理试验并改进策略或训练程序。API 服务本身不等于已实现自主实验 Agent。",
+      "sources": [{"label": "Pi API beta · 官方公告", "url": "https://www.pi.website/blog/api-beta"}, {"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "checkedAt": "2026-10-16"
+    }
+  ],
+  "teams": [
+    {
+      "id": "ntu-ropedia",
+      "name": "南洋理工大学 / Ropedia",
+      "summary": "COAP 论文署名合作方。研究线围绕显式状态、共享代码库与离线代码改进；这里按该论文的机构署名组织，不将两方视为同一个实验室。",
+      "workIds": ["2610.12369"],
+      "sources": [{"label": "COAP · 作者与机构署名", "url": "https://arxiv.org/html/2610.12369v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "rlinf-rpent",
+      "name": "RLinf / RPent Contributors",
+      "summary": "按官方仓库与文档署名收录。研究线是以规划器、工具、记忆和机器人适配接口组织冻结动作策略；不同环境采用不同执行模型。",
+      "workIds": ["rpent"],
+      "sources": [{"label": "RLinf/RPent · 官方仓库", "url": "https://github.com/RLinf/RPent"}, {"label": "RPent · 架构与 Contributors 署名", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "physical-intelligence",
+      "name": "Physical Intelligence",
+      "summary": "Pi API beta 的官方发布方。关注机器人基础策略的适配、托管训练与推理，以及开发者用真机评测反馈持续补充数据的流程。",
+      "workIds": ["pi-api-beta"],
+      "sources": [{"label": "Physical Intelligence · Pi API beta 公告", "url": "https://www.pi.website/blog/api-beta"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "samsung-sjtu-roboicl",
+      "name": "Samsung / 上海交通大学 · RoboICL",
+      "summary": "按 RoboICL 的三星与上海交通大学机构署名收录。研究线是冻结模型的具身上下文学习：统一示范、动作回执和结果观察，并保存跨阶段经验。",
+      "workIds": ["2609.34261"],
+      "sources": [{"label": "RoboICL · 作者机构与方法", "url": "https://arxiv.org/html/2609.34261v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "hexafuture-urai",
+      "name": "Hexafuture 及 URAI 合作团队",
+      "summary": "URAI 署名包括 Hexafuture、北京大学、北京理工大学和清华大学。研究线是可复用机器人工具、动作调用粒度与反馈驱动的模型决策。",
+      "workIds": ["2609.39018"],
+      "sources": [{"label": "URAI · 作者机构与方法", "url": "https://arxiv.org/html/2609.39018v1"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "nvidia-cmu-berkeley-enpire",
+      "name": "NVIDIA / CMU / UC Berkeley · ENPIRE",
+      "summary": "按 ENPIRE 官方作者机构收录。研究线是可重复的真机策略改进实验：自动复位、结果验证、多机器人执行和实验分支演化。该工作作为 9 月前背景参照。",
+      "workIds": ["2606.19980"],
+      "sources": [{"label": "ENPIRE · 官方作者机构与框架", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "checkedAt": "2026-10-16"
+    }
+  ]
+}

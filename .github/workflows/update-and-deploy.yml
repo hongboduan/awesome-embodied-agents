@@ -54,6 +54,8 @@ jobs:
           restore-keys: papers-${{ runner.os }}-
       - name: Verify data pipeline
         run: python -m unittest discover -s tests -v
+      - name: Verify reading views and recent update dates
+        run: node --test tests/test_updates.cjs tests/test_reading_views.cjs
       - name: Discover candidates and check revisions
         id: update
         if: github.event_name == 'push' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh)

@@ -72,6 +72,96 @@ def entry_date(paper):
     return paper.get("date") or (paper.get("addedAt", "") if paper.get("sourceType") in {"project", "article"} else "")
 
 
+def load_research_map(root, papers):
+    """Publish only well-formed, source-backed editorial relationships."""
+    empty = {"version": 1, "routes": [], "resources": [], "relations": [], "teams": []}
+    path = Path(root) / "data/research-map.json"
+    if not path.exists():
+        return empty
+    atlas = read_json(path, empty)
+    if not isinstance(atlas, dict) or atlas.get("version") != 1:
+        raise ValueError("Research map: unsupported schema")
+    paper_by_id = {p["id"]: p for p in papers}
+
+    def check_date(value, context):
+        try:
+            dt.date.fromisoformat(value)
+        except (TypeError, ValueError):
+            raise ValueError(f"Research map: invalid check date in {context}") from None
+
+    def check_sources(item, context):
+        sources = item.get("sources", [])
+        if not isinstance(sources, list) or not sources:
+            raise ValueError(f"Research map: missing evidence in {context}")
+        for source in sources:
+            url = urlparse(source.get("url", ""))
+            if not source.get("label") or url.scheme != "https" or not url.netloc:
+                raise ValueError(f"Research map: invalid evidence source in {context}")
+        check_date(item.get("checkedAt"), context)
+
+    def collection(key):
+        values = atlas.get(key)
+        if not isinstance(values, list):
+            raise ValueError(f"Research map: {key} must be a list")
+        ids = [item.get("id") for item in values]
+        if any(not isinstance(i, str) or not re.fullmatch(r"[a-z0-9-]+", i) for i in ids) or len(ids) != len(set(ids)):
+            raise ValueError(f"Research map: invalid or duplicate {key} IDs")
+        return values
+
+    def paper_refs(ids, context, curated=False):
+        if not isinstance(ids, list) or len(ids) != len(set(ids)):
+            raise ValueError(f"Research map: duplicate paper references in {context}")
+        for identifier in ids:
+            if identifier not in paper_by_id:
+                raise ValueError(f"Research map: unknown paper {identifier} in {context}")
+            if curated and not paper_by_id[identifier].get("curated"):
+                raise ValueError(f"Research map: unreviewed paper {identifier} in {context}")
+
+    check_date(atlas.get("updatedAt"), "map")
+    resources = collection("resources")
+    resource_ids = {r["id"] for r in resources}
+    if resource_ids & paper_by_id.keys():
+        raise ValueError("Research map: resource IDs overlap papers")
+    for resource in resources:
+        url = urlparse(resource.get("url", ""))
+        if resource.get("kind") not in {"model", "benchmark", "platform"} or not resource.get("name") or url.scheme != "https" or not url.netloc:
+            raise ValueError(f"Research map: invalid resource {resource['id']}")
+    for route in collection("routes"):
+        if not all(route.get(k) for k in ("title", "question", "summary", "readingQuestion", "paperIds")):
+            raise ValueError(f"Research map: incomplete route {route['id']}")
+        all_ids = []
+        for key in ("paperIds", "backgroundIds", "frontierIds"):
+            refs = route.get(key, [])
+            paper_refs(refs, route["id"], curated=key != "frontierIds")
+            all_ids += refs
+        if len(all_ids) != len(set(all_ids)):
+            raise ValueError(f"Research map: overlapping reading groups in {route['id']}")
+    known = set(paper_by_id) | resource_ids
+    seen = set()
+    for relation in collection("relations"):
+        source, target = relation.get("source"), relation.get("target")
+        kind = relation.get("type")
+        if source not in paper_by_id or target not in known or source == target:
+            raise ValueError(f"Research map: invalid endpoints in {relation['id']}")
+        if kind not in {"uses_model", "evaluated_on", "extends", "distills", "comparison"}:
+            raise ValueError(f"Research map: invalid relationship type in {relation['id']}")
+        if type(relation.get("editorial")) is not bool or relation["editorial"] != (kind == "comparison"):
+            raise ValueError(f"Research map: editorial comparison must be distinguished in {relation['id']}")
+        if not relation.get("label") or not relation.get("explanation"):
+            raise ValueError(f"Research map: missing relationship explanation in {relation['id']}")
+        key = (kind, *sorted((source, target))) if kind == "comparison" else (kind, source, target)
+        if key in seen:
+            raise ValueError(f"Research map: duplicate relationship in {relation['id']}")
+        seen.add(key)
+        check_sources(relation, relation["id"])
+    for team in collection("teams"):
+        if not team.get("name") or not team.get("summary") or not team.get("workIds"):
+            raise ValueError(f"Research map: incomplete team {team['id']}")
+        paper_refs(team["workIds"], team["id"], curated=True)
+        check_sources(team, team["id"])
+    return atlas
+
+
 def load_papers(root=ROOT):
     """Editorial seeds take precedence over discovery; highest versions deduplicate candidates."""
     merged = {}
@@ -336,7 +426,10 @@ def build(root=ROOT):
     events = read_json(root / "data/events.json", [])
     config = read_json(root / "config.json", {})
     updated = utc_now()
-    result = {"papers": papers, "categories": CATEGORIES, "updatedAt": updated, "updateStatus": status, "events": events, "site": {"title": "Embodied Agent Atlas", "url": config.get("siteUrl", ""), "repository": config.get("repositoryUrl", ""), "focusSince": config.get("focusSince", "2026-09-01")}}
+    result = {"papers": papers, "categories": CATEGORIES, "updatedAt": updated, "updateStatus": status,
+              "enrichmentStatus": read_json(root / "data/enrichment-status.json", {}),
+              "researchMap": load_research_map(root, papers), "events": events,
+              "site": {"title": "Embodied Agent Atlas", "url": config.get("siteUrl", ""), "repository": config.get("repositoryUrl", ""), "focusSince": config.get("focusSince", "2026-09-01")}}
     write_json(out / "data.json", result)
     write_json(out / "papers.json", papers)
     payload = json.dumps(result, ensure_ascii=False).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
@@ -344,7 +437,7 @@ def build(root=ROOT):
     (out / "papers.bib").write_text(bibtex(papers), encoding="utf-8")
     (out / "feed.xml").write_bytes(make_rss(papers, events, config, updated))
     (out / ".nojekyll").touch()
-    for name in ["index.html", "app.js", "styles.css", "cards.js"]:
+    for name in ["index.html", "app.js", "styles.css", "cards.js", "map.js", "map.css", "updates.js", "updates.css"]:
         if (root / "web" / name).exists():
             shutil.copy2(root / "web" / name, out / name)
     if (root / "web/assets").exists():

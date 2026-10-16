@@ -6,6 +6,8 @@
 
 [浏览论文合集](https://hongboduan.github.io/awesome-embodied-agents/) · [English](README.md) · [推荐论文](https://github.com/hongboduan/awesome-embodied-agents/issues) · [订阅动态](https://hongboduan.github.io/awesome-embodied-agents/feed.xml)
 
+[梳理研究脉络](https://hongboduan.github.io/awesome-embodied-agents/#map) · [查看团队研究线](https://hongboduan.github.io/awesome-embodied-agents/#teams) · [最近七天更新](https://hongboduan.github.io/awesome-embodied-agents/#updates?range=7)
+
 <!-- ATLAS:START -->
 
 **精选 51 条 · 论文 46 篇 · 项目 4 个 · 观点 1 篇**

@@ -6,6 +6,8 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 [Read the paper collection](https://hongboduan.github.io/awesome-embodied-agents/) · [简体中文](README.zh-CN.md) · [Suggest a paper](https://github.com/hongboduan/awesome-embodied-agents/issues) · [RSS](https://hongboduan.github.io/awesome-embodied-agents/feed.xml)
 
+[Explore research connections](https://hongboduan.github.io/awesome-embodied-agents/#map) · [Team research lines](https://hongboduan.github.io/awesome-embodied-agents/#teams) · [Recent updates](https://hongboduan.github.io/awesome-embodied-agents/#updates?range=7)
+
 <!-- ATLAS:START -->
 
 **51 curated entries · 46 papers · 4 projects · 1 perspective**
