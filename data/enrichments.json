@@ -5275,5 +5275,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.11416": {
+    "arxivId": "2610.11416",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.11416",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11416v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.11416-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the proposed ACT3. The architecture comprises three specialized transformer streams for semantic understanding, action generation, and dynamics prediction. The semantic and dynamics streams maintain independent forward computation, while the action expert attends to semantic, action, and dynamics representations at every action transformer block, making the action stream the sole integration point for control.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.11416-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11416v1",
+      "page": 4,
+      "version": 1,
+      "width": 858,
+      "height": 563,
+      "crop": [
+        91.55,
+        59.61,
+        520.17,
+        340.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12231": {
+    "arxivId": "2610.12231",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12231",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12231v2",
+      "version": 2,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12231-v2.text.json",
+      "extractedAt": "2026-10-16T09:08:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: (a) We attribute the performance gap between MSE- and Flow-Policies to different statis- tical modeling of prediction residuals. (b) We found observation-dependent and heavy-tailed residu- als for MSE-Policies on multiple benchmarks. (c) Benchmark success rates (%) for different policy classes. We use flow-matching for RoboCasa-GR1 and SIMPLER, and diffusion for RoboMimic.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12231-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12231v2",
+      "page": 2,
+      "version": 2,
+      "width": 817,
+      "height": 282,
+      "crop": [
+        102.0,
+        70.54,
+        510.02,
+        211.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12285": {
+    "arxivId": "2610.12285",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12285",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12285v1",
+      "version": 1,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12285-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: PLaW-VLA overview. Three experts share structured attention for semantic grounding, latent future prediction, and continuous action generation. The world model predicts future represen- tations in a frozen V-JEPA 2 latent space using learnable queries. The action expert attends to the resulting future prediction tokens together with the observed context.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12285-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12285v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 387,
+      "crop": [
+        102.29,
+        67.21,
+        510.0,
+        260.41
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12089": {
+    "arxivId": "2610.12089",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12089",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12089v1",
+      "version": 1,
+      "pageCount": 27,
+      "textPages": 27,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12089-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: ManiUnit overview. Left: Long-horizon execution poses three challenges for skill learn- ing and evaluation. Center: Correspondingly, ManiUnit provides explicit subtask instructions to guide manipulation. Controlled tests measure starting-state sensitivity, while restored states and local BDDL goals enable independent skill evaluation. Right: ManiUnit organizes manipulation segments by skill type and subtask. Bottom: In a focused study on two long-horizon activities, skill-level training improves local manipulation success, and combining the task and skill policies through a planner improves full-task success.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12089-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12089v1",
+      "page": 1,
+      "version": 1,
+      "width": 817,
+      "height": 517,
+      "crop": [
+        102.0,
+        229.25,
+        510.0,
+        487.44
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12157": {
+    "arxivId": "2610.12157",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12157",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12157v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12157-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:33Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of instance-anchored interaction evidence (IAE). Objects of the execution scene are registered to their public identifiers and tracked backwards through the video. Hand and forearm geometry relative to each tracked instance forms the interaction evidence. An evidence network trained from task outcomes scores every candidate in every frame. For pointing tasks, a grammar-constrained dynamic program decodes object–destination operations; reference disambiguation applies a symbolic program to the learned video-level scores, and episodic tasks compare the places of tracked instances at both ends of the video without learning. Images are frames of WatchAct videos (a reference-disambiguation video, a pointing video and, for the episodic branch, the first and last frames of a restoration video); the evidence curves are schematic. Solid arrows denote inference and dashed orange arrows training-only paths.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12157-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12157v1",
+      "page": 5,
+      "version": 1,
+      "width": 958,
+      "height": 450,
+      "crop": [
+        32.83,
+        47.46,
+        511.42,
+        271.58
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12026": {
+    "arxivId": "2610.12026",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12026",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12026v2",
+      "version": 2,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12026-v2.text.json",
+      "extractedAt": "2026-10-16T09:08:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of HWAM. The high-level action at is executed through the low-level whole- body controller, producing the measured post-execution state st+1. HWAM represents the joint state–action pair as a single token. A frozen causal video VAE provides current and future visual latents, while the video and state–action experts interact through path-dependent mixed attention.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12026-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12026v2",
+      "page": 5,
+      "version": 2,
+      "width": 806,
+      "height": 247,
+      "crop": [
+        104.43,
+        192.23,
+        506.77,
+        315.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.11418": {
+    "arxivId": "2610.11418",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.11418",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11418v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.11418-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of EVIS. Historical execution experience from prior contexts is used to construct multiple scoring hypotheses over initiation configurations, which provide complementary proposals for a new unseen target context. Target-environment rollouts then behaviorally validate the proposed configurations under objective G and determine whether a candidate should be accepted or the search should continue. The underlying learned skill policy remains frozen throughout the process.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.11418-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11418v1",
+      "page": 3,
+      "version": 1,
+      "width": 1033,
+      "height": 541,
+      "crop": [
+        48.0,
+        48.0,
+        564.02,
+        317.69
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12470": {
+    "arxivId": "2610.12470",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12470",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12470v1",
+      "version": 1,
+      "pageCount": 49,
+      "textPages": 49,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12470-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of Dex-One2Many. (1) From a single human video, a VLM extracts a stage-wise scene graph of object relations. (2) Each stage graph constrains the sampling of object poses and synthesized grasps, yielding verified reset states for every stage. An RL policy trained from these resets with predicate-derived rewards acts in task space through a QP controller. (3) The policy transfers zero-shot to unseen initial poses, goal poses, and grasps on real hardware.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12470-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12470v1",
+      "page": 4,
+      "version": 1,
+      "width": 1079,
+      "height": 567,
+      "crop": [
+        47.86,
+        79.04,
+        586.79,
+        362.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.10515": {
+    "arxivId": "2610.10515",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10515",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10515v1",
+      "version": 1,
+      "pageCount": 73,
+      "textPages": 73,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10515-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure2 World-modelimaginationimproveswithscale. Decoded imagination rollouts on an AgiBot episode for RoboJEPA at 0.3B, 2B, and 8B parameters, compared against the ground-truth (GT) video (bottom row). Each row shows the same rollout sampled at equal-time steps; larger models track the true dynamics and preserve object and contact detail markedly better . All world models share the same encoder (V-JEPA 2.1-G) and decoder.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.10515-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10515v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 424,
+      "crop": [
+        64.87,
+        57.78,
+        547.13,
+        269.49
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09454": {
+    "arxivId": "2610.09454",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09454",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09454v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09454-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of RobotAPO. SFT rollouts are screened and annotated to build the condition-matched AgiBot-PhysPref. During post-training, an adversarial proposer learns a physical-failure-biased denoising direction to probe interaction boundaries, encouraging the policy to better respect the physical manifold. At inference, only the policy generator is deployed, maintaining a standard prompt-and-reference interface without any external structural conditioning. Displayed scores are schematic, while exact denoising rewards and objectives are defined in Sec. 3.3.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09454-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09454v1",
+      "page": 4,
+      "version": 1,
+      "width": 966,
+      "height": 538,
+      "crop": [
+        56.36,
+        79.04,
+        538.84,
+        347.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.10384": {
+    "arxivId": "2610.10384",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10384",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10384v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10384-v1.text.json",
+      "extractedAt": "2026-10-16T09:08:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of OpenViTac. OpenViTac establishes a unified benchmark for visuo-tactile manipulation, spanning four complementary capability dimensions: physical-property perception, fragility-aware interaction, contact-rich manipulation, and precision manipulation. It provides task-corresponding simulation and real-world settings with aligned assets, supports multiple gripper configurations and tactile sensors, and enables consistent evaluation of visuo-tactile policies across both domains.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.10384-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10384v1",
+      "page": 2,
+      "version": 1,
+      "width": 1063,
+      "height": 704,
+      "crop": [
+        64.87,
+        36.53,
+        596.0,
+        388.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09940": {
+    "arxivId": "2610.09940",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09940",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09940v2",
+      "version": 2,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09940-v2.text.json",
+      "extractedAt": "2026-10-16T09:08:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: We present Juno, a unified framework that makes predictive latents useful across the vision-language-action (VLA) lifecycle. Juno integrates control-aligned JEPA pretraining, visual feature fusion and decoupled future-latent distillation, and dynamics-first test-time adaptation that updates the world model before re-aligning the policy. It improves performance on SimplerEnv and RoboCasa and supports robust real-world manipulation under distribution shifts.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09940-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09940v2",
+      "page": 1,
+      "version": 2,
+      "width": 868,
+      "height": 451,
+      "crop": [
+        88.32,
+        443.37,
+        521.82,
+        668.4
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
