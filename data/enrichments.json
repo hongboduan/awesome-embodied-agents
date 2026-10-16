@@ -5743,5 +5743,473 @@
       "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.09369": {
+    "arxivId": "2610.09369",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09369",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09369v2",
+      "version": 2,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09369-v2.text.json",
+      "extractedAt": "2026-10-16T09:15:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 3. Overview of the five simulated manipulation tasks. From left to right: Push-T, Stack Blocks, Place Bread, Place Shoe, and Rotate QR Code.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09369-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09369v2",
+      "page": 5,
+      "version": 2,
+      "width": 1033,
+      "height": 168,
+      "crop": [
+        48.0,
+        44.06,
+        564.01,
+        127.95
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09280": {
+    "arxivId": "2610.09280",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09280",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09280v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09280-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Comparison of the simulation engines used for the evaluation of coevolved com- munication between robotic agents. (a) 2D engine with discrete environment representation, without physical modeling, used for low computational-cost simulations. (b) 3D engine based on PyBullet, with 240 Hz physical simulation and decoupled simulation time control through decision updates every 15 physics steps (≈16 Hz), equivalent to a control cycle commonly used in robotic simulators. Both environments contain two agents, shared obstacles, and shared objectives for performing cooperative tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09280-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09280v1",
+      "page": 3,
+      "version": 1,
+      "width": 932,
+      "height": 384,
+      "crop": [
+        64.87,
+        64.86,
+        530.41,
+        256.09
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09718": {
+    "arxivId": "2610.09718",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09718",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09718v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09718-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 | Overview of YUBI-STAG. The contact-object segmentation module extracts contact tracks—contact intervals with per-frame object masks—as spatio-temporal anchors for four annotation stages: scene configuration, PA stages and gripper coordination, object changes, and grounded PA descriptions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09718-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09718v1",
+      "page": 4,
+      "version": 1,
+      "width": 938,
+      "height": 386,
+      "crop": [
+        64.02,
+        330.98,
+        532.69,
+        523.17
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.10912": {
+    "arxivId": "2610.10912",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10912",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10912v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10912-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Visual shortcut-learning setup. During training (left), the model sees two different tasks with visual cues that match the language instruction. When the model is then evaluated (right) out-of-distribution where the visual cue does not match the language, the baseline model follows the visual cue rather than the language. Applying task scrubbing during training encourages the policy to follow the instruction.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.10912-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10912v1",
+      "page": 1,
+      "version": 1,
+      "width": 513,
+      "height": 346,
+      "crop": [
+        307.62,
+        164.06,
+        563.58,
+        336.65
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09451": {
+    "arxivId": "2610.09451",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09451",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09451v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09451-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of TempoBridge. Using the frozen VLM backbone within π0.5, a prototype-based tempo readout extracts an ordered tempo sequence from the instruction once and caches it for execution. At each replan, a causal phase router uses visual features reused from the policy forward pass and robot state to track task progress and select the active event. The corresponding tempo coefficient scales the translational components of the nominal action chunk.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09451-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09451v1",
+      "page": 3,
+      "version": 1,
+      "width": 1005,
+      "height": 461,
+      "crop": [
+        55.2,
+        43.58,
+        557.04,
+        273.81
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09496": {
+    "arxivId": "2610.09496",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09496",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09496v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09496-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 4: Overall framework. The proposed method provides a framework for improving robot policies by identifying and selectively modifying internal representations associated with undesirable behaviors. It first extracts visual-region-specific sparse features from policy activations and analyzes their activation patterns across execution outcomes, including clean success (CS), hallucination failure (HF), and non-hallucination failure (NF), characterized by task performance and hallucination occurrence. Based on these associations, region-feature pairs are selected as forget or retain targets. The policy is then updated to suppress hallucination-associated features while preserving reliable behavior. In this way, the policy is improved.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09496-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09496v1",
+      "page": 5,
+      "version": 1,
+      "width": 932,
+      "height": 245,
+      "crop": [
+        73.2,
+        44.08,
+        538.79,
+        166.17
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09696": {
+    "arxivId": "2610.09696",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09696",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09696v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09696-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 | RoboPace System Overview: TOPP-RA retimes each VLA action chunk as a joint path, limiting speed at waypoints where contact is predicted. This accelerates free-space motion while slowing at contact.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09696-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09696v1",
+      "page": 3,
+      "version": 1,
+      "width": 939,
+      "height": 282,
+      "crop": [
+        63.03,
+        74.37,
+        532.24,
+        214.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.10437": {
+    "arxivId": "2610.10437",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.10437",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10437v1",
+      "version": 1,
+      "pageCount": 38,
+      "textPages": 38,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.10437-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 8: Overview of the three real-world manipulation tasks. From top to bottom: flipping a plastic bag, placing a straw in a cup, and placing fruit in a pot and closing the lid. Each row illustrates the task progression from left to right.",
+      "figureLabel": "Figure 8",
+      "selection": "automatic",
+      "path": "assets/papers/2610.10437-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.10437v1",
+      "page": 9,
+      "version": 1,
+      "width": 966,
+      "height": 541,
+      "crop": [
+        56.36,
+        79.04,
+        538.84,
+        349.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09943": {
+    "arxivId": "2610.09943",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09943",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09943v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09943-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of DRIVE. (a) Rollouts are encoded as per-decision feature trajectories. (b) GAK computes behavioral similarity by softly aligning feature sequences over monotonic tempo- ral paths, handling execution-rate mismatch. (c) Pairwise similarities are converted into success- conditioned diversity rewards and added to environment rewards to promote exploration diversity.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09943-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09943v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 297,
+      "crop": [
+        102.0,
+        75.86,
+        509.98,
+        223.73
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08713": {
+    "arxivId": "2610.08713",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08713",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08713v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08713-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: SpaTime pipeline. Figure (a) illustrates the overall pipeline. Each frame is encoded by a frozen visual encoder and a frozen causal geometry encoder, then (b) a lightweight projector aligns the geometry tokens with the visual tokens, and fused via element-wise addition. In (c), a response time loss Ltime aligns the predicted response time with the ground truth.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08713-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08713v1",
+      "page": 3,
+      "version": 1,
+      "width": 902,
+      "height": 518,
+      "crop": [
+        80.76,
+        48.0,
+        531.33,
+        306.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08941": {
+    "arxivId": "2610.08941",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08941",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08941v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08941-v1.text.json",
+      "extractedAt": "2026-10-16T09:15:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of the SPW-Nav pipeline. Navigation. The vision-language backbone localizes the referenced target (box) in the latest panorama ¯Ik−1 and outputs a camera trajectory (R, t). Video generation. Memory tokens at long, mid, and short range and the noisy latents of chunk k enter the diffusion transformer, and pose tokens pk,j express t relative to the reference frame ρk. The chunk is denoised from coarse to fine, with guidance ˆv at the coarsest scale. Spherical rotation decoupling. The rotation R bypasses the video backbone (dashed line) and is applied to the rotation-free output by spherical resampling. The last frame ¯Ik is fed back for the next instruction (solid line).",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08941-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08941v1",
+      "page": 4,
+      "version": 1,
+      "width": 1028,
+      "height": 329,
+      "crop": [
+        50.15,
+        57.78,
+        563.89,
+        221.91
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07652": {
+    "arxivId": "2610.07652",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07652",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07652v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07652-v1.text.json",
+      "extractedAt": "2026-10-16T09:16:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of SMART-Sim. SMART-Sim provides versatile robot embodiment and asset support, flexible annotation and skills for motion generation, efficient demonstration collection, and comprehensive domain randomization features.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07652-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07652v1",
+      "page": 4,
+      "version": 1,
+      "width": 966,
+      "height": 645,
+      "crop": [
+        64.87,
+        57.78,
+        547.13,
+        379.95
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
