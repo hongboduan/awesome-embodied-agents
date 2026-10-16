@@ -3713,31 +3713,31 @@
   },
   "2610.13643": {
     "arxivId": "2610.13643",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.13643",
-      "sourceUrl": "https://arxiv.org/pdf/2610.13643v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v3",
+      "version": 3,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.13643-v2.text.json",
-      "extractedAt": "2026-10-14T07:44:20Z"
+      "textPath": ".cache/papers/2610.13643-v3.text.json",
+      "extractedAt": "2026-10-16T04:39:52Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Fig. 1: Overview of AutoBio+. AutoBio+ is a benchmark for dexterous manipulation in biological laboratories, comprising 14 tasks across four robot embodiments and incorporating three dynamic experimental phenomena, including flames, vapor, and bubbles. Its hybrid rendering pipeline integrates interactive simulated foregrounds with 3D Gaussian Splatting (3DGS) [1] backgrounds reconstructed from six real laboratory scenes, while parallel simulation supports efficient data generation and evaluation.",
+      "caption": "Fig. 1: Overview of DexBioLab. DexBioLab is a benchmark for dexterous manipulation in biological laboratories, comprising 14 tasks across four robot embodiments and incorporating three dynamic experimental phenomena, including flames, vapor, and bubbles. Its hybrid rendering pipeline integrates interactive simulated foregrounds with 3D Gaussian Splatting (3DGS) [1] backgrounds reconstructed from six real laboratory scenes, while parallel simulation supports efficient data generation and evaluation.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.13643-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.13643v2",
+      "path": "assets/papers/2610.13643-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v3",
       "page": 1,
-      "version": 2,
+      "version": 3,
       "width": 1107,
       "height": 694,
       "crop": [
-        42.71,
+        42.7,
         225.8,
         596.0,
         572.33
@@ -3746,7 +3746,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -4838,6 +4838,435 @@
         46.32,
         596.0,
         326.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22152": {
+    "arxivId": "2610.22152",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22152",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22152v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22152-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Mean final proxy reward (left) and true reward (right) for the exploiter and honest hand-coded policies, across 20 random layouts. Error bars show one standard deviation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22152-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22152v1",
+      "page": 5,
+      "version": 1,
+      "width": 774,
+      "height": 325,
+      "crop": [
+        112.8,
+        533.29,
+        499.2,
+        695.05
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22372": {
+    "arxivId": "2610.22372",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22372",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22372v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22372-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Top: LIBERO-PeRM contains five procedurally generated task suites with pipeline-generated, human- reviewed demonstrations. Bottom: we investigate five key research questions in personalized manipulation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22372-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22372v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 441,
+      "crop": [
+        102.24,
+        66.24,
+        509.74,
+        286.3
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22176": {
+    "arxivId": "2610.22176",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22176",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22176v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22176-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Block diagram of the framework, consisting of the physically consistent inertial EKF (Sec. III-A) coupled to the WB-MPC (Sec. III-B) and the VR operator interface (Sec. III-C). The VR operator interface runs on a separate machine.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22176-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22176v1",
+      "page": 2,
+      "version": 1,
+      "width": 967,
+      "height": 374,
+      "crop": [
+        64.21,
+        52.67,
+        547.48,
+        239.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.20998": {
+    "arxivId": "2610.20998",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.20998",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20998v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.20998-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. MoCaP overview. Passive human video provides reusable spatial memory and observations of how people prepare to manipulate. At task startup, an advisor VLM relates the spatial memory to the instruction and initial robot view. During execution, the system retrieves a recorded interaction with the target object and estimates where the person in the video stood relative to it from the frame preceding the reach. A closed-loop code policy coordinates navigation and manipulation through planning primitives that check actions against live geometry and robot constraints, revising execution from observations and feedback.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.20998-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20998v1",
+      "page": 2,
+      "version": 1,
+      "width": 1033,
+      "height": 331,
+      "crop": [
+        48.0,
+        44.08,
+        564.0,
+        209.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.20823": {
+    "arxivId": "2610.20823",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.20823",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20823v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.20823-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. (a) Closed-form R against Monte Carlo RMS radial error across the grid of Table I; the dashed line is y = x. (b) Growth of the uncertainty with lead time tc; dotted curves are the hand-tuned heuristic, whose error grows with tc.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.20823-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20823v1",
+      "page": 5,
+      "version": 1,
+      "width": 970,
+      "height": 414,
+      "crop": [
+        63.53,
+        44.54,
+        548.48,
+        251.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12007": {
+    "arxivId": "2610.12007",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12007",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12007v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12007-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of REACT. REACT reformulates flow-based action generation into a receding- horizon rolling denoising process. At each control step, the active horizon is refined conditioned on the latest observation embedding; the oldest refined chunk is executed, while the remaining buffer is shifted forward and replenished with fresh noise. The colored borders track the same action chunk as it is progressively refined across consecutive observations before execution. The right panels summarize throughput and overall performance, showing that REACT reaches the high-input, high-output regime while improving success, reactivity, smoothness, and efficiency.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12007-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12007v1",
+      "page": 1,
+      "version": 1,
+      "width": 748,
+      "height": 418,
+      "crop": [
+        115.87,
+        210.69,
+        489.05,
+        419.22
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.11771": {
+    "arxivId": "2610.11771",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.11771",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11771v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.11771-v1.text.json",
+      "extractedAt": "2026-10-16T04:39:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Path-time parameterization for VLA actions. Our representation separates fixed-progress path samples from interval durations defining t(s). Bottom: chunk-wise replanning and aggregate real-robot results for Coupled + DAgger versus the complete PathTime-VLA pipeline; throughput is averaged across tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.11771-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11771v1",
+      "page": 1,
+      "version": 1,
+      "width": 599,
+      "height": 521,
+      "crop": [
+        296.54,
+        151.68,
+        596.0,
+        411.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12684": {
+    "arxivId": "2610.12684",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12684",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12684v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12684-v1.text.json",
+      "extractedAt": "2026-10-16T04:40:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Architecture diagrams of the Joint prediction and Causal factorization planners. The Joint planner denoises both robot and object trajectories together. In contrast, the Causal planner makes two passes through a shared transformer decoder. The Robot phase runs first and Tweedie’s formula (Eq. (1)) turns this output into a clean robot estimate ˆτ R",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12684-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12684v1",
+      "page": 4,
+      "version": 1,
+      "width": 1086,
+      "height": 391,
+      "crop": [
+        53.04,
+        44.08,
+        596.0,
+        239.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.11508": {
+    "arxivId": "2610.11508",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.11508",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11508v2",
+      "version": 2,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.11508-v2.text.json",
+      "extractedAt": "2026-10-16T04:40:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of WARP-VLA. (a) Changes in wrist-camera configuration alter interaction-relevant visual cues and degrade VLA performance. (b) Existing methods rely on novel view synthesis or explicit camera geometry to handle viewpoint changes. (c) Our method, WARP-VLA, aligns perturbed wrist camera features with the canonical feature space through an anchor-guided mixture of experts, enabling calibration-free and plug-and-play adaptation at deployment without further policy fine-tuning. (d) Real-robot results demonstrate the robustness of π0.5 with WARP-VLA to wrist-camera perturbations.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.11508-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11508v2",
+      "page": 1,
+      "version": 2,
+      "width": 1033,
+      "height": 524,
+      "crop": [
+        47.66,
+        180.28,
+        563.96,
+        441.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.12451": {
+    "arxivId": "2610.12451",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.12451",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12451v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.12451-v1.text.json",
+      "extractedAt": "2026-10-16T04:40:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of VersaCamVLA. Stage I: A scene encoder aggregates posed RGB views into fixed-size scene tokens, with a training-only decoder predicting RGB, semantic, and edge signals at target views. Stage II: The decoder is discarded, the scene encoder is frozen, and a jointly-trained spatial encoder compresses the tokens into a supplementary visual condition for a pretrained VLA.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.12451-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.12451v1",
+      "page": 4,
+      "version": 1,
+      "width": 805,
+      "height": 454,
+      "crop": [
+        104.07,
+        68.78,
+        506.23,
+        295.3
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.11952": {
+    "arxivId": "2610.11952",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.11952",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11952v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.11952-v1.text.json",
+      "extractedAt": "2026-10-16T04:40:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the purposed NegaAlign framework: (a) shows the construction of only vision and language data, (b) Negation Transformation Layer revises intermediate instruction representa- tions, while (c) Teacher-Guided Visual Alignment transfers the revision of language representations to instruction-relevant visual tokens.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.11952-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.11952v1",
+      "page": 4,
+      "version": 1,
+      "width": 814,
+      "height": 494,
+      "crop": [
+        102.82,
+        76.38,
+        509.39,
+        322.53
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

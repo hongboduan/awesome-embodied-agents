@@ -1,5 +1,83 @@
 [
   {
+    "id": "version-2610.02054-v4",
+    "paperId": "2610.02054",
+    "type": "version",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "UniWAM: Unified World-Action Model",
+    "message": "arXiv 更新至 v4；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 3,
+    "toVersion": 4,
+    "url": "https://arxiv.org/abs/2610.02054v4"
+  },
+  {
+    "id": "version-2606.15568-v3",
+    "paperId": "2606.15568",
+    "type": "version",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2606.15568v3"
+  },
+  {
+    "id": "discovered-2610.20823",
+    "paperId": "2610.20823",
+    "type": "discovered",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "Feasibility Ceilings Before Learning: Sizing and Timing Bounds for Drone-Mesh Interception",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.20823v1"
+  },
+  {
+    "id": "discovered-2610.20998",
+    "paperId": "2610.20998",
+    "type": "discovered",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "MoCaP: Mobile Code-as-Policies for Zero-Shot Mobile Manipulation from Passive Human Videos",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.20998v1"
+  },
+  {
+    "id": "version-2609.38173-v3",
+    "paperId": "2609.38173",
+    "type": "version",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2609.38173v3"
+  },
+  {
+    "id": "discovered-2610.22152",
+    "paperId": "2610.22152",
+    "type": "discovered",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "Specification Gaming and a Constrained Reinforcement Learning Mitigation in a Cleaning Gridworld",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22152v1"
+  },
+  {
+    "id": "discovered-2610.22176",
+    "paperId": "2610.22176",
+    "type": "discovered",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22176v1"
+  },
+  {
+    "id": "discovered-2610.22372",
+    "paperId": "2610.22372",
+    "type": "discovered",
+    "date": "2026-10-16T04:39:13Z",
+    "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22372v1"
+  },
+  {
     "id": "version-2610.02626-v3",
     "paperId": "2610.02626",
     "type": "version",
