@@ -6211,5 +6211,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.07784": {
+    "arxivId": "2610.07784",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07784",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07784v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07784-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Four-robot execution of the eight-object stacking task with stochastic pick durations. Top: manipulation environment. Bottom: execution schedules for the same skill realization. The reactive policy adapts online to the realized pick durations, avoiding the idle time introduced by the conservative worst- case schedule.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07784-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07784v1",
+      "page": 1,
+      "version": 1,
+      "width": 514,
+      "height": 453,
+      "crop": [
+        307.2,
+        139.72,
+        564.0,
+        365.94
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07696": {
+    "arxivId": "2610.07696",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07696",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07696v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07696-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Energy-Score Policy (ESP) for one-step multimodal action generation. Flow matching can generate multimodal actions but requires integration of a velocity field over multiple network evaluations (NFE>1). Mean squared error (MSE) regression is single-step (NFE=1) but collapses to the conditional mean and cannot represent multimodality. Trained with the strictly proper energy score, ESP generates multimodal actions in one network evaluation (NFE=1).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07696-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07696v1",
+      "page": 1,
+      "version": 1,
+      "width": 520,
+      "height": 452,
+      "crop": [
+        305.97,
+        175.59,
+        565.16,
+        401.21
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09228": {
+    "arxivId": "2610.09228",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09228",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09228v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09228-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Two coupled loops for deployment-time improve- ment. The inner loop adapts the harness through episode reflection. The outer loop uses collected experience to update the policy, then revises memory so the harness can reassess the policy’s capabilities.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09228-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09228v1",
+      "page": 2,
+      "version": 1,
+      "width": 508,
+      "height": 369,
+      "crop": [
+        293.76,
+        324.76,
+        547.11,
+        508.85
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08526": {
+    "arxivId": "2610.08526",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08526",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08526v1",
+      "version": 1,
+      "pageCount": 41,
+      "textPages": 41,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08526-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Dataset overview. (a) Distribution of episode lengths; the dashed red line marks the mean. (b) Per-episode frame count sorted in ascending order. (c) Task-verb distribution across 15 phrasings; approach and follow dominate, with thirteen additional verb families ensuring paraphrase diversity.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08526-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08526v1",
+      "page": 8,
+      "version": 1,
+      "width": 957,
+      "height": 348,
+      "crop": [
+        58.52,
+        126.91,
+        536.76,
+        300.46
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08150": {
+    "arxivId": "2610.08150",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08150",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08150v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08150-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of ViDAL. (a) Action VAE supervised only by reconstruction. (b) VLAs supervised with visual prediction signals. (c) ViDAL (ours) grounds the action latent space in future visual dynamics, and uses the Action VAE as a plug-in action representation at deployment. Right column: consistent success-rate gains on simulation benchmarks and realrobot platforms.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08150-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08150v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 201,
+      "crop": [
+        102.0,
+        66.0,
+        509.97,
+        166.49
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08220": {
+    "arxivId": "2610.08220",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08220",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08220v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08220-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 3. Overview of VOMMI. The online branch estimates multi-horizon local motion from RGB and conditions the base-action residual. The offline branch combines the causal estimator with frozen VGGT anchors, initializes the Body trajectory at its first valid pose, and applies planar Body compensation to the Hand stream before forming demonstration targets. Reference pose supervision available only during data collection. A. Local Cross-Embodiment Action Representation",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08220-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08220v1",
+      "page": 4,
+      "version": 1,
+      "width": 1033,
+      "height": 502,
+      "crop": [
+        48.0,
+        46.07,
+        564.01,
+        296.57
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08133": {
+    "arxivId": "2610.08133",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08133",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08133v2",
+      "version": 2,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08133-v2.text.json",
+      "extractedAt": "2026-10-16T11:27:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of VLA-ACL. Modules with a snowflake symbol are kept frozen, modules with a flame symbol receive gradient updates. a) During training, two forward passes of the frozen LLM are performed. On the left, the full-vision-context teacher action is generated. On the right, vision embeddings enter our differentiable soft pruning gate and produce the soft-pruned action. b) During inference, the hard pruning gate only lets through K patches per view with the highest patch scores, obtained by the trained patch scorer. The pruned tokens never enter the VLA language backbone.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08133-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08133v2",
+      "page": 3,
+      "version": 2,
+      "width": 1033,
+      "height": 474,
+      "crop": [
+        48.0,
+        44.08,
+        564.0,
+        280.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07756": {
+    "arxivId": "2610.07756",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07756",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07756v2",
+      "version": 2,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07756-v2.text.json",
+      "extractedAt": "2026-10-16T11:27:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overall framework of StairVLA. The high-level VLA performs early denoising over a long- horizon trajectory and caches the partially denoised trajectory for reuse across multiple steps. For each local chunk, the refiner uses the corresponding segment and the latest observation to complete refinement. The top, middle, and bottom sequences denote the initial noise, partially denoised trajectory, and executable action chunk, respectively.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07756-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07756v2",
+      "page": 3,
+      "version": 2,
+      "width": 960,
+      "height": 400,
+      "crop": [
+        66.0,
+        66.0,
+        545.99,
+        265.19
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07558": {
+    "arxivId": "2610.07558",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07558",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07558v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07558-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of PG-VP framework.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07558-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07558v1",
+      "page": 2,
+      "version": 1,
+      "width": 528,
+      "height": 304,
+      "crop": [
+        305.98,
+        50.07,
+        569.04,
+        201.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09016": {
+    "arxivId": "2610.09016",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09016",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09016v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09016-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:57Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of PAIR. The Masked Action Autoencoder encodes expert actions into Ac- tion Latent Tokens, which guide the perception-derived Bridge Tokens through representation alignment. The Bridge Tokens are projected into the Action Token space and injected at the entrance of the Action Expert.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09016-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09016v1",
+      "page": 4,
+      "version": 1,
+      "width": 600,
+      "height": 389,
+      "crop": [
+        153.65,
+        78.82,
+        453.46,
+        272.97
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08425": {
+    "arxivId": "2610.08425",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08425",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08425v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08425-v1.text.json",
+      "extractedAt": "2026-10-16T11:27:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. MIM-VLA architecture. Multi-view observations and language are processed by the frozen SmolVLM backbone. The MIM interaction token conditions gripper-action prediction and supports evidence-conditioned comparison through the Material Explain Module (MEM).",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08425-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08425v1",
+      "page": 2,
+      "version": 1,
+      "width": 1032,
+      "height": 391,
+      "crop": [
+        48.0,
+        44.08,
+        563.98,
+        239.19
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.09170": {
+    "arxivId": "2610.09170",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.09170",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09170v1",
+      "version": 1,
+      "pageCount": 62,
+      "textPages": 62,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.09170-v1.text.json",
+      "extractedAt": "2026-10-16T11:28:05Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Expected validation reconstruction error Erec and FM action-noise tolerance on Robomimic. Each colored point shows a tokenizer’s error Erec and downstream rollout success. Black curves indicate the performance of an FM policy with an increasing amount of pose noise, revealing task-dependent action-error tolerance.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.09170-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09170v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 153,
+      "crop": [
+        102.21,
+        78.36,
+        509.79,
+        154.23
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
