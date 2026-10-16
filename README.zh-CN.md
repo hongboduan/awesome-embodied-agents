@@ -10,9 +10,9 @@
 
 <!-- ATLAS:START -->
 
-**精选 51 条 · 论文 46 篇 · 项目 4 个 · 观点 1 篇**
+**精选 52 条 · 论文 46 篇 · 项目 5 个 · 观点 1 篇**
 
-来源核对 50 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 297 篇
+来源核对 51 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 297 篇
 
 ## 目录
 
@@ -149,6 +149,11 @@
 ## 项目与系统
 
 官方项目预览；首发日期未核实时，明确标注收录日期。
+
+- **[Preliminary Indicators for Robotics Progress](https://robocurve.org/rci/)**<br>
+  2026-10-15 · 项目预览<br>
+  用真机任务进度拟合 RCI 能力指数，检验通用能力与空间推理榜单能否预测机器人表现。<br>
+  [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://robocurve.org/rci/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=robocurve-rci)
 
 - **[RPent: Agentic Infrastructure for the Physical World](https://rpent.readthedocs.io/en/latest/)**<br>
   收录于 2026-10-13 · 项目预览<br>

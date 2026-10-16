@@ -45,6 +45,17 @@
       "paperIds": ["physicalrsi", "2610.08432", "2610.08995", "2610.12369", "2610.12424"],
       "backgroundIds": ["2606.19980"],
       "frontierIds": ["2610.20474", "2610.18867"]
+    },
+    {
+      "id": "capability-evaluation",
+      "title": "能力评测：看懂、做对与真机表现怎样对应？",
+      "kicker": "局部能力 · 完整任务 · 真机测量",
+      "question": "通用模型的空间推理与工具能力，能在多大程度上预测机器人完成任务？",
+      "summary": "LIBERO-Agent 拆开感知、短程动作和长程组合；Embodied Agent Arena 检查局部能力与完整任务的差距；RobotWorld 扩展到多种机器人形态；RCI 用真机操作数据分析机器人能力与通用、空间基准的关系。阅读顺序围绕测量问题组织，不表示方法继承。",
+      "readingQuestion": "先核对任务覆盖、控制接口、执行预算与有效试验，再区分部分进度、完整成功率和拟合能力指数。跨基准的相关关系是否经过留出预测与敏感性检查？仿真成绩能否对应真机表现？",
+      "paperIds": ["2609.39507", "2610.00854", "2610.10409", "robocurve-rci"],
+      "backgroundIds": [],
+      "frontierIds": []
     }
   ],
   "resources": [
@@ -75,6 +86,13 @@
       "name": "Galaxea G0.5",
       "summary": "REMM 使用的冻结操作策略；接收当前原子指令并执行动作，任务状态修订由上层系统负责。",
       "url": "https://arxiv.org/abs/2608.11739"
+    },
+    {
+      "id": "resource-robodojo-rc-tier1",
+      "kind": "benchmark",
+      "name": "RoboDojo-RC Tier 1",
+      "summary": "Robocurve 将 RoboDojo 任务改编为 YAM 双臂真机评测，并采用部分进度评分。RCI 使用六项中的五项；该协议与 RoboDojo 仿真任务集不可直接混用。",
+      "url": "https://robocurve.org/opus-5-5-robodojo-rc-tier-1/"
     }
   ],
   "relations": [
@@ -286,6 +304,28 @@
       "explanation": "Pi API beta 提供上传数据、托管微调和推理；ENPIRE 让编码 Agent 组织物理试验并改进策略或训练程序。API 服务本身不等于已实现自主实验 Agent。",
       "sources": [{"label": "Pi API beta · 官方公告", "url": "https://www.pi.website/blog/api-beta"}, {"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
       "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "rci-evaluated-robodojo-rc",
+      "source": "robocurve-rci",
+      "target": "resource-robodojo-rc-tier1",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "基于真机子集拟合 RCI",
+      "explanation": "报告使用 RoboDojo-RC Tier 1 六项中的五项操作数据拟合能力指数；Stand Up Bottles 因过热停止与 API 超时造成新批次有效试验不足而排除。RCI 是拟合指数，不是新策略的成功率。",
+      "sources": [{"label": "RCI · 第 1.1 节与附录 2.1", "url": "https://robocurve.org/rci/"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "compare-rci-robotworld",
+      "source": "robocurve-rci",
+      "target": "2610.10409",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：真机指数与跨形态仿真",
+      "explanation": "RCI 分析双臂真机能力与通用、空间基准的对应关系；RobotWorld 扩展仿真任务和机器人形态，并诊断闭环执行。两者互补，但任务、指标与预算不同，不能直接比较分数。",
+      "sources": [{"label": "RCI · 分析与方法", "url": "https://robocurve.org/rci/"}, {"label": "RobotWorld · 任务覆盖与评测协议", "url": "https://robotworldai.github.io/"}],
+      "checkedAt": "2026-10-16"
     }
   ],
   "teams": [
@@ -335,6 +375,14 @@
       "summary": "按 ENPIRE 官方作者机构收录。研究线是可重复的真机策略改进实验：自动复位、结果验证、多机器人执行和实验分支演化。该工作作为 9 月前背景参照。",
       "workIds": ["2606.19980"],
       "sources": [{"label": "ENPIRE · 官方作者机构与框架", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "robocurve",
+      "name": "Robocurve",
+      "summary": "开展真实机器人独立评测并公开实验记录。RCI 研究线关注机器人能力如何测量，以及通用模型与空间推理基准能否预测物理任务表现。",
+      "workIds": ["robocurve-rci"],
+      "sources": [{"label": "Robocurve · 官方介绍", "url": "https://robocurve.org/"}, {"label": "RCI · 作者与报告", "url": "https://robocurve.org/rci/"}],
       "checkedAt": "2026-10-16"
     }
   ]

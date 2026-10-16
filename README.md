@@ -10,9 +10,9 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**51 curated entries · 46 papers · 4 projects · 1 perspective**
+**52 curated entries · 46 papers · 5 projects · 1 perspective**
 
-50 source-checked · 1 full-review · 0 AI drafts · 297 discovery candidates
+51 source-checked · 1 full-review · 0 AI drafts · 297 discovery candidates
 
 ## Contents
 
@@ -149,6 +149,11 @@ Selected earlier work relevant to current embodied-agent research. Original publ
 ## Projects and systems
 
 Project previews; collection dates are labeled when publication dates are unverified.
+
+- **[Preliminary Indicators for Robotics Progress](https://robocurve.org/rci/)**<br>
+  2026-10-15 · Project preview<br>
+  An exploratory real-robot capability index examining how general and spatial reasoning benchmarks relate to robotic task performance.<br>
+  [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://robocurve.org/rci/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=robocurve-rci)
 
 - **[RPent: Agentic Infrastructure for the Physical World](https://rpent.readthedocs.io/en/latest/)**<br>
   added 2026-10-13 · Project preview<br>

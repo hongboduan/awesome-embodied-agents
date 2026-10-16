@@ -1,0 +1,73 @@
+[
+  {
+    "id": "robocurve-rci",
+    "sourceType": "project",
+    "title": "Preliminary Indicators for Robotics Progress",
+    "shortTitle": "Robocurve RCI",
+    "date": "2026-10-15",
+    "year": 2026,
+    "addedAt": "2026-10-16",
+    "authors": "Drew Nguyen, Sravanthi Machcha, Achu Menon, Kevin Zhang, Christopher Leet, Tzu Kit Chan, Jay Chooi",
+    "categories": ["evaluation", "spatial"],
+    "tasks": ["manipulation"],
+    "environment": ["real"],
+    "summaryZh": "用真机任务进度拟合 RCI 能力指数，检验通用能力与空间推理榜单能否预测机器人表现。",
+    "summaryEn": "An exploratory real-robot capability index examining how general and spatial reasoning benchmarks relate to robotic task performance.",
+    "problem": "通用模型榜单上的进步，能在多大程度上预测真实机器人的任务表现？",
+    "method": "汇总 9 个模型、11 种配置在 5 项真机双臂任务中的 1,055 次有效试验，用项目反应理论（IRT）从连续进度分数拟合 RCI，再分析跨基准相关性与留出预测。",
+    "findings": [
+      "ECI 与 RCI 的相关系数在全部模型中为 0.20，去掉全部 Gemini 模型后为 0.96；结论对模型家族构成敏感。",
+      "Blueprint-Bench 2 与 RCI 在 7 个有实测分数的模型中相关为 0.85；它在 18 个候选基准中具有最高的留一模型预测 Brier skill（0.68）。"
+    ],
+    "limitations": [
+      "RCI 是带锚点的相对能力指数，不是成功率；5 项任务与少量模型不足以代表通用真机能力。",
+      "考虑从 18 项基准中择优后的预测 skill 置换检验 p=0.07，仍属探索性证据；这不是相关系数自身的 p 值。",
+      "原六项真机任务中的 Stand Up Bottles 因新批次过热停止、API 超时导致有效试验不足而排除；Figure 2 的两个估计点未参与相关性和回归。"
+    ],
+    "role": {
+      "model": "被评估对象：9 个前沿模型、11 种配置",
+      "output": "基于任务进度拟合的 RCI 指数",
+      "memory": "本报告不提出记忆机制",
+      "recovery": "记录实际试验与有效性边界，不提出恢复策略",
+      "adaptation": "任务难度校准与留出预测；不训练机器人策略"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://robocurve.org/rci/",
+      "code": null
+    },
+    "evidence": [
+      {"claim": "任务、试验规模与 RCI 构建", "label": "官方报告 · §1.1、§2.1 与 Table 1", "source": "https://robocurve.org/rci/"},
+      {"claim": "跨榜单比较、留出预测与统计限制", "label": "官方报告 · Figure 2、§2.3–2.4", "source": "https://robocurve.org/rci/"},
+      {"claim": "RoboDojo-RC Tier 1 的真机任务背景", "label": "Robocurve · 真机评测协议", "source": "https://robocurve.org/opus-5-5-robodojo-rc-tier-1/"}
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-10-16",
+    "curated": true,
+    "deepRead": false,
+    "tags": ["Robocurve", "RCI", "真机评测", "能力测量", "研究报告", "空间推理", "RoboDojo-RC"],
+    "figure": {
+      "kind": "project-image",
+      "path": "assets/papers/robocurve-rci-figure2.png",
+      "figureLabel": "Figure 2 · 跨基准能力比较",
+      "sourceLabel": "Robocurve · 2026-10-15",
+      "sourceUrl": "https://robocurve.org/rci/",
+      "originalUrl": "https://robocurve.org/rci/figures/rci_eci_blueprint.png",
+      "width": 2354,
+      "height": 939,
+      "caption": "官方 Figure 2：RCI 与 ECI、Blueprint-Bench 2 的关系。右图空心点为估计值，未参与回归与相关性计算。图像归原作者。"
+    },
+    "cardFindings": [
+      "9 个模型、11 种配置、1,055 次真机试验。",
+      "空间基准 BB2 与 RCI 的实测相关 r=0.85。"
+    ],
+    "cardLimitations": [
+      "RCI 是相对指数，不是成功率；只覆盖 5 项任务。",
+      "择优校正后的预测检验 p=0.07，结论仍属初步。"
+    ],
+    "cardEvidence": [
+      {"claim": "指数、试验与统计限制", "label": "Robocurve 官方报告", "source": "https://robocurve.org/rci/"}
+    ]
+  }
+]
