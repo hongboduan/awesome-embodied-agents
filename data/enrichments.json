@@ -6679,5 +6679,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.07946": {
+    "arxivId": "2610.07946",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07946",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07946v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07946-v1.text.json",
+      "extractedAt": "2026-10-17T04:36:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Visual disruption during an ongoing task. A VLA begins executing under nominal observations, but an unexpected visual corruption can arise during execution and alter its subsequent action predictions. Left: an example of task failure under the visual disruption. Right: deviation between each new action chunk and the aligned leftover of the previous chunk. It stays small under nominal observations (gray) but jumps at the first corrupted replan (red). See Appendix H for details.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07946-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07946v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 273,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        211.84
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.08444": {
+    "arxivId": "2610.08444",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.08444",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08444v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.08444-v1.text.json",
+      "extractedAt": "2026-10-17T04:36:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4: Overview of ActTune.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2610.08444-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08444v1",
+      "page": 5,
+      "version": 1,
+      "width": 427,
+      "height": 409,
+      "crop": [
+        105.44,
+        78.62,
+        318.24,
+        282.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.07346": {
+    "arxivId": "2610.07346",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.07346",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07346v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.07346-v1.text.json",
+      "extractedAt": "2026-10-17T04:36:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Comparison of temporal robustness evaluation. STLCG propagates ro- bustness through a sequential recurrence, while STLCG++ evaluates temporal candidates using parallel dense masks. ScanSTL combines compact segment representations through associative scans, computing complete robustness traces with linear work and storage and logarithmic parallel depth.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.07346-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07346v1",
+      "page": 1,
+      "version": 1,
+      "width": 512,
+      "height": 331,
+      "crop": [
+        309.62,
+        159.08,
+        565.4,
+        324.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06271": {
+    "arxivId": "2610.06271",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06271",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06271v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06271-v1.text.json",
+      "extractedAt": "2026-10-17T04:36:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of VLA-ZO.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06271-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06271v1",
+      "page": 5,
+      "version": 1,
+      "width": 433,
+      "height": 405,
+      "crop": [
+        102.0,
+        106.74,
+        318.24,
+        308.87
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06469": {
+    "arxivId": "2610.06469",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06469",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06469v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06469-v1.text.json",
+      "extractedAt": "2026-10-17T04:36:57Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Odyssey framework. (a) Previous closed-loop benchmarks suffer from limited scenario horizons, ambiguous command-based routing, and artifacts from 3DGS-only rendering. (b) Odyssey evaluates E2E planners over continuous closed-loop rollouts based on 100-second driving sequences with explicit SD-route guidance and diffusion-refined 3DGS observations, assessing sustained safe navigation toward the intended destination.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06469-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06469v1",
+      "page": 1,
+      "version": 1,
+      "width": 778,
+      "height": 497,
+      "crop": [
+        111.9,
+        229.63,
+        500.12,
+        477.58
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06306": {
+    "arxivId": "2610.06306",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06306",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06306v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06306-v1.text.json",
+      "extractedAt": "2026-10-17T04:36:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Inspect Robots’ architecture.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06306-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06306v1",
+      "page": 2,
+      "version": 1,
+      "width": 297,
+      "height": 162,
+      "crop": [
+        170.06,
+        66.0,
+        318.24,
+        146.93
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05719": {
+    "arxivId": "2610.05719",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05719",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05719v1",
+      "version": 1,
+      "pageCount": 32,
+      "textPages": 32,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05719-v1.text.json",
+      "extractedAt": "2026-10-17T04:37:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of RACE. Given an observation and instruction, the frozen VLM extracts fea- tures cached for both passes. RACE predicts a transition-timing prior via an auxiliary one-step denoising pass (Sec. 3.2), then restarts denoising from the same noise, conditioned on it (Sec. 3.3).",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05719-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05719v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 272,
+      "crop": [
+        102.0,
+        75.86,
+        509.99,
+        211.41
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05818": {
+    "arxivId": "2610.05818",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05818",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05818v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05818-v1.text.json",
+      "extractedAt": "2026-10-17T04:37:05Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Task success and monitor flag rates for π0.5 (left) and OpenVLA-OFT (right) with the task given bare (Original), with a harmless reason (Control), and with increasingly explicit harmful reasons (L1–L3). Guard: mean flag rate of the three guards on that robot’s rollout instructions. Probe: linear probe on that robot’s activations. Original has one instruction per task, so a single flag is 20–25%. Shading: gap between task success and guard flag rate; per-run leak rates are in Table 1a. 95% CIs over reasons.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05818-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05818v1",
+      "page": 3,
+      "version": 1,
+      "width": 817,
+      "height": 400,
+      "crop": [
+        102.0,
+        66.0,
+        510.01,
+        265.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06598": {
+    "arxivId": "2610.06598",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06598",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06598v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06598-v1.text.json",
+      "extractedAt": "2026-10-17T04:37:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of SimForcing. Simulation world model training: A mixture-of-transformers world model learns action-conditioned motion from augmented synthetic rollouts. Sim-to-real distillation: The pretrained model initializes a student and serves as a frozen teacher. Latent-motion distillation internalizes motion priors, while multi-block dropout conditioning provides simulation guidance. Joint training enables the final student to generate both simulation conditions and real videos, with CFG balancing explicit guidance and internalized knowledge at inference.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06598-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06598v1",
+      "page": 5,
+      "version": 1,
+      "width": 966,
+      "height": 470,
+      "crop": [
+        64.87,
+        52.24,
+        547.14,
+        286.8
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05994": {
+    "arxivId": "2610.05994",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05994",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05994v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05994-v1.text.json",
+      "extractedAt": "2026-10-17T04:37:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Augmentation can improve RL post-training of VLAs. Left: one LIBERO observation blended with a random ImageNet image at two strengths. The VLA sees cleanly during rollouts and evaluation, but receives augmented observations for training updates. Right: out-of-distribution suc- cess on sensor noise LIBERO-Plus environments for π0.5 post-trained with PPO. Naively augmenting both actor and critic destroys the policy within 100 epochs, while giving the critic the augmented view and the actor the clean one improves OOD generalization.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05994-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05994v1",
+      "page": 1,
+      "version": 1,
+      "width": 788,
+      "height": 216,
+      "crop": [
+        102.0,
+        397.91,
+        495.86,
+        505.21
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06235": {
+    "arxivId": "2610.06235",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06235",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06235v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06235-v1.text.json",
+      "extractedAt": "2026-10-17T04:37:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Target replacement reveals a gap in instruction following. Holding the scene fixed, we change the instruction to request another visible and reachable object. In both LIBERO-Object and real-world manipulation, policies rarely grasp the currently instructed target (dashed green trajecto- ries) and predominantly grasp the target named by the original instruction (solid red trajectories).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06235-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06235v1",
+      "page": 2,
+      "version": 1,
+      "width": 813,
+      "height": 175,
+      "crop": [
+        103.27,
+        70.46,
+        509.36,
+        157.24
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06184": {
+    "arxivId": "2610.06184",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06184",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06184v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06184-v1.text.json",
+      "extractedAt": "2026-10-17T04:37:18Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. ACG-Bench and the design study. We test familiar skills under new order, timing, and cross-task requirements. Using one shared 𝜋0.5 policy, we compare token grouping, skill-specific adapters, and arm-wise attention.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06184-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06184v1",
+      "page": 1,
+      "version": 1,
+      "width": 932,
+      "height": 282,
+      "crop": [
+        64.87,
+        287.3,
+        530.4,
+        427.77
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
