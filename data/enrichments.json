@@ -7147,5 +7147,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.06999": {
+    "arxivId": "2610.06999",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06999",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06999v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06999-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of ProactiveVLA. After completing the environment-provided task, the agent uses the remaining interaction budget to explore scene-related goals involving object affordances, state-changing interactions, and interaction compositions. An independent visual checker assesses exploratory outcomes and supplies feedback for continued exploration. Memory management pre- serves the complete interaction records, organizes experience within scenes, synthesizes knowledge across scenes, and independently reviews candidate rules. Accepted rules form a frozen global mem- ory that guides execution across tasks and variants.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06999-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06999v1",
+      "page": 4,
+      "version": 1,
+      "width": 817,
+      "height": 469,
+      "crop": [
+        102.0,
+        75.86,
+        510.02,
+        309.88
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05013": {
+    "arxivId": "2610.05013",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05013",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05013v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05013-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of EMBER-Bench. (a) Four types of memory required for long-horizon task scenarios. (b) Paired next-action prediction and causal traceback assess history-grounded action selection and identification of the historical event supporting a given action.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05013-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05013v1",
+      "page": 2,
+      "version": 1,
+      "width": 835,
+      "height": 443,
+      "crop": [
+        92.84,
+        75.85,
+        510.0,
+        296.74
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05249": {
+    "arxivId": "2610.05249",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05249",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05249v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05249-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of ArticuTable. From a single RGB tabletop image, ArticuTable reconstructs object-wise 3D proxies, converts operable proxies into executable URDF assets with GRAM, and registers them into a simulation-ready scene with PSGSR.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05249-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05249v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 439,
+      "crop": [
+        102.0,
+        75.87,
+        509.97,
+        294.73
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05418": {
+    "arxivId": "2610.05418",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05418",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05418v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05418-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:29Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Architecture of EvoMem-VLA. (a) A shared VLM performs action prediction, subtask generation, and keyframe selection from the current observation, state-evolution memory, instruction, and optional subtask history. Multi-stage tasks first generate an executable subtask as additional context for action generation. (b) The Delta Tokenizer maps an ordered frame pair to a directional, source-conditioned token. (c) State-Evolution Memory interleaves three recent delta-token groups with recent states and event-local delta tokens with selected keyframes.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05418-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05418v1",
+      "page": 4,
+      "version": 1,
+      "width": 966,
+      "height": 483,
+      "crop": [
+        64.87,
+        57.78,
+        547.14,
+        298.87
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05062": {
+    "arxivId": "2610.05062",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05062",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05062v2",
+      "version": 2,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05062-v2.text.json",
+      "extractedAt": "2026-10-18T04:42:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 11. System architecture of the closed-loop bench- mark. The client node runs a MuJoCo simulator and con- sumes actions from a FIFO queue at fixed intervals Δ𝑡, while asynchronously prefetching new action chunks from multi- platform model servers over WebSocket.",
+      "figureLabel": "Figure 11",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05062-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05062v2",
+      "page": 10,
+      "version": 2,
+      "width": 499,
+      "height": 269,
+      "crop": [
+        313.41,
+        322.88,
+        562.23,
+        456.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05273": {
+    "arxivId": "2610.05273",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05273",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05273v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05273-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of the framework.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05273-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05273v1",
+      "page": 4,
+      "version": 1,
+      "width": 433,
+      "height": 383,
+      "crop": [
+        102.07,
+        66.09,
+        318.24,
+        257.13
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.05230": {
+    "arxivId": "2610.05230",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.05230",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05230v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.05230-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of Vela. At inference, Vela jointly predicts a fixed set of spline control points and a motion-dependent horizon, defining a continuous action trajectory that can be sampled at arbitrary control rates. During training, motion-dependent horizon adaptation constructs supervision targets that adequately represent the demonstrated motion. The same control point budget thus covers longer spans for smooth motion and shorter spans when finer temporal resolution is needed.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.05230-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05230v1",
+      "page": 3,
+      "version": 1,
+      "width": 819,
+      "height": 329,
+      "crop": [
+        100.93,
+        75.86,
+        509.97,
+        239.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.06955": {
+    "arxivId": "2610.06955",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.06955",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06955v2",
+      "version": 2,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.06955-v2.text.json",
+      "extractedAt": "2026-10-18T04:42:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of ROMI-2K and the formulation of multi-sensory active perception tasks. ROMI-2K combines two complementary real-world data subsets: a large-scale handheld object collection for diverse single-object interactions and a robotic-arm tabletop collection for multi-object scenes, with synchronized visual, audio, tactile, and force feedback. We organize the active perception tasks into perception chains and construct three task types: (1) Single-Chain tasks for an individual attribute, (2) Multi-Chain tasks for multiple attributes requiring interaction planning, and (3) Intent-Driven tasks for inferring and perceiving target attributes from implicit user instructions. Multiple perception chains may also involve reusing feedback across chains.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.06955-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06955v2",
+      "page": 4,
+      "version": 2,
+      "width": 957,
+      "height": 454,
+      "crop": [
+        66.72,
+        71.84,
+        544.98,
+        298.14
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.04681": {
+    "arxivId": "2610.04681",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.04681",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04681v3",
+      "version": 3,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.04681-v3.text.json",
+      "extractedAt": "2026-10-18T04:42:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of the proposed RoboIRS framework. (a) RoboIRS intervenes between transformer blocks by adding a scaled steering vector to the selected residual-stream representation without updating the policy parameters. (b) To construct the steering vector, residual-stream representations are collected from successful and failed rollouts and used to train a linear classifier. The classifier weight provides the steering direction that is injected into the residual stream during inference.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.04681-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04681v3",
+      "page": 3,
+      "version": 3,
+      "width": 952,
+      "height": 479,
+      "crop": [
+        67.56,
+        49.32,
+        543.31,
+        288.39
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.03015": {
+    "arxivId": "2610.03015",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.03015",
+      "sourceUrl": "https://arxiv.org/pdf/2610.03015v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.03015-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of the feature flow in OMNIACT3D. The frozen VFM-based detector extracts visual features Fvis and pretrained geometry memory M0 from the ERP image. ERGA-RAY transforms M0 into the ERP-adapted memory M, after which the detector produces B, Q, and C. VARC retrieves evidence V and predicts an action A to obtain B′, while the AGHE updates its directed heading to produce the final prediction ˆB.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.03015-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.03015v1",
+      "page": 3,
+      "version": 1,
+      "width": 1050,
+      "height": 608,
+      "crop": [
+        43.86,
+        16.0,
+        568.3,
+        319.74
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02626": {
+    "arxivId": "2610.02626",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02626",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02626v3",
+      "version": 3,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02626-v3.text.json",
+      "extractedAt": "2026-10-18T04:42:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of our framework. (a) the overall architecture; (b) the latent spatiotemporal reasoning module learns to predict future visual keyframes; (c) the gist modules internalize reasoning- derived behavioral information into a compact Scene Gist Token.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02626-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02626v3",
+      "page": 4,
+      "version": 3,
+      "width": 816,
+      "height": 510,
+      "crop": [
+        102.0,
+        75.86,
+        509.97,
+        330.25
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02708": {
+    "arxivId": "2610.02708",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02708",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02708v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02708-v1.text.json",
+      "extractedAt": "2026-10-18T04:42:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: RoboChemGym Pipeline. (a) Given a textual protocol, the framework constructs an initial scene and executable action sequence using asset and atomic action libraries. (b) Dual-loop optimization refines actions and layouts under continuous monitoring, correcting execution errors and resolving global feasibility issues. (c) The memory module accumulates refinement histories to guide subsequent iterations and enable self-improvement. (d) Lab-centric data scaling applies randomization to generate diverse expert trajectories for policy training.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02708-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02708v1",
+      "page": 4,
+      "version": 1,
+      "width": 1029,
+      "height": 743,
+      "crop": [
+        49.6,
+        49.16,
+        563.52,
+        420.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
