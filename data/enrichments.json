@@ -8005,5 +8005,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2607.00272": {
+    "arxivId": "2607.00272",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2607.00272",
+      "sourceUrl": "https://arxiv.org/pdf/2607.00272v1",
+      "version": 1,
+      "pageCount": 43,
+      "textPages": 43,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2607.00272-v1.text.json",
+      "extractedAt": "2026-10-19T13:38:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Aspire system overview. A coordinator spawns an actor agent (coding agent) per task, enabling parallel learning across tasks. Each actor refines and validates robot programs through iterative debugging with the robot execution engine, which exposes per-primitive multimodal traces for failure attribution and repair. Evolutionary search samples diverse candidate programs (𝜋0, . . . , 𝜋𝑘), sends each through the engine, and conditions the next generation (𝜋′",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2607.00272-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2607.00272v1",
+      "page": 2,
+      "version": 1,
+      "width": 971,
+      "height": 599,
+      "crop": [
+        56.36,
+        79.04,
+        541.36,
+        378.23
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "editorial-preserved",
+      "version": 1,
+      "message": "人工内容保留。"
+    }
+  },
+  "2610.02691": {
+    "arxivId": "2610.02691",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02691",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02691v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02691-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the proposed physically consistent interactive world simulator. Stage 1 learns a compact 2D latent representation with an autoencoder. Stage 2 predicts action-induced latent changes with an autoregressive dynamics model. Comparing latent features of the original scene with those of a version lacking the interacting robot arm and object produces a mask that increases training weight near robot-object interactions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02691-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02691v1",
+      "page": 4,
+      "version": 1,
+      "width": 1039,
+      "height": 618,
+      "crop": [
+        46.31,
+        52.08,
+        565.27,
+        360.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02161": {
+    "arxivId": "2610.02161",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02161",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02161v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02161-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: (a) An illustration of DuoMind, a distributed framework combining an orchestrator and action model for multi-robot coordination. (b) RoboPoly is a benchmark we develop for long- horizon coordination under distributed robot control. (c) DuoMind consistently outperforms the baselines across both benchmarks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02161-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02161v1",
+      "page": 1,
+      "version": 1,
+      "width": 817,
+      "height": 317,
+      "crop": [
+        102.0,
+        462.16,
+        510.0,
+        620.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02368": {
+    "arxivId": "2610.02368",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02368",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02368v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02368-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of ViGAR. Our framework factorizes long-horizon compositional manipulation tasks into visual subgoal planning and subgoal execution, with both modules trained on task-diverse, long-horizon robot data. ViGAR achieves strong compositional manipulation performance in both simulated and real-world settings, and generalizes to unseen tasks through in-context steering.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02368-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02368v1",
+      "page": 2,
+      "version": 1,
+      "width": 953,
+      "height": 460,
+      "crop": [
+        67.93,
+        70.17,
+        543.91,
+        299.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02054": {
+    "arxivId": "2610.02054",
+    "version": 4,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02054",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02054v4",
+      "version": 4,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02054-v4.text.json",
+      "extractedAt": "2026-10-19T13:39:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 UniWAM unifies physical reasoning, visual generation, and action prediction in a unified architecture and pretrains on robot and human egocentric data as well as VQA data. The resulting model exhibits strong robustness, generalization, instruction-following, and reasoning abilities.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02054-v4.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02054v4",
+      "page": 1,
+      "version": 4,
+      "width": 1027,
+      "height": 620,
+      "crop": [
+        37.76,
+        374.11,
+        550.7,
+        683.64
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 4,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.01826": {
+    "arxivId": "2610.01826",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.01826",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01826v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.01826-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:17Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. A conceptual framework for CEAI. The figure illustrates three key components. Left: A diverse array of embodied intelligent agents. Center: The core capabilities of embodied intelligence, anchored by GFMs. These capabilities, including perception, memory, reasoning, communication, and action, drive advanced behaviors such as environmental interaction, multi-agent collaboration, and continuous evolution, ultimately fostering symbiosis with the physical world. Right: The requisite evolution of communication paradigms, shifting the focus from simple connectivity to intelligent collaboration.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.01826-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01826v1",
+      "page": 2,
+      "version": 1,
+      "width": 950,
+      "height": 245,
+      "crop": [
+        67.31,
+        50.85,
+        541.99,
+        172.69
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02089": {
+    "arxivId": "2610.02089",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02089",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02089v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02089-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of HumanoidToolBench. A benchmark for humanoid tool use with 18 tasks spanning three scenarios, three execution levels, and standard and decoy tool sets. With 55 tool assets and 3.1k demonstrations, we evaluate seven policies in simulation and three on the real robot.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02089-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02089v1",
+      "page": 1,
+      "version": 1,
+      "width": 1033,
+      "height": 440,
+      "crop": [
+        48.0,
+        194.08,
+        564.01,
+        413.64
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.01083": {
+    "arxivId": "2610.01083",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.01083",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01083v2",
+      "version": 2,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.01083-v2.text.json",
+      "extractedAt": "2026-10-19T13:39:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of WBAG. RGB-D observations reconstruct scene geometry, while robot BP-SDFs are fitted offline. Task-role exclusion defines scene obstacles, and the protected set expands from the articulated robot to include attached geometry after grasp confirmation. The resulting composite clearances are enforced by the grasp-conditioned geometric CBF-QP.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.01083-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01083v2",
+      "page": 3,
+      "version": 2,
+      "width": 1032,
+      "height": 403,
+      "crop": [
+        48.0,
+        44.08,
+        563.93,
+        245.1
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.39665": {
+    "arxivId": "2609.39665",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39665",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39665v2",
+      "version": 2,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39665-v2.text.json",
+      "extractedAt": "2026-10-19T13:39:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: ChronoGraphBench annotation pipeline. We convert interaction recordings into func- tional 4D scene graphs linking affordance-level actions to semantic and geometric state changes. The pipeline combines semantic graph initialization, object and affordance grounding, human veri- fication, and graph refinement. For an entire task with goal z, the scene evolves through a sequence of atomic interactions:",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39665-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39665v2",
+      "page": 4,
+      "version": 2,
+      "width": 783,
+      "height": 400,
+      "crop": [
+        109.68,
+        78.75,
+        500.95,
+        278.03
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.39166": {
+    "arxivId": "2609.39166",
+    "version": 4,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39166",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39166v4",
+      "version": 4,
+      "pageCount": 32,
+      "textPages": 32,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39166-v4.text.json",
+      "extractedAt": "2026-10-19T13:39:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of EvolvingNav for predictive embodied reasoning and action in evolving worlds.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39166-v4.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39166v4",
+      "page": 2,
+      "version": 4,
+      "width": 966,
+      "height": 400,
+      "crop": [
+        64.87,
+        57.78,
+        547.13,
+        257.03
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 4,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.39195": {
+    "arxivId": "2609.39195",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.39195",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39195v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.39195-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of URUQI. Top: Visual experiences are generated by instantiating reusable motifs in 3D scenes, searching for feasible camera trajectories, and rendering RGB observations together with privileged depth and instance identities. Bottom: Each verified trajectory is compiled into supervision over three stages: self-motion tracking (M1), persistent object mapping (M2), and operations over spatial state (M3). The example illustrates spatial information evolving along a shared trajectory, with solid and dashed markers denoting visible and previously observed objects.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.39195-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39195v1",
+      "page": 4,
+      "version": 1,
+      "width": 738,
+      "height": 499,
+      "crop": [
+        121.8,
+        75.88,
+        490.09,
+        324.96
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.00822": {
+    "arxivId": "2610.00822",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.00822",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00822v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.00822-v1.text.json",
+      "extractedAt": "2026-10-19T13:39:33Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of TRACE: robots maintain private local 3DGS maps, construct trajectory-conditioned masks, exchange factorized ray context, and optimize masked information gain for distributed NBV selection.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.00822-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00822v1",
+      "page": 2,
+      "version": 1,
+      "width": 1026,
+      "height": 364,
+      "crop": [
+        49.57,
+        47.97,
+        562.26,
+        229.11
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
