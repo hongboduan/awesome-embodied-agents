@@ -10,9 +10,9 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**52 curated entries · 46 papers · 5 projects · 1 perspective**
+**53 curated entries · 47 papers · 5 projects · 1 perspective**
 
-51 source-checked · 1 full-review · 0 AI drafts · 306 discovery candidates
+52 source-checked · 1 full-review · 0 AI drafts · 306 discovery candidates
 
 ## Contents
 
@@ -138,6 +138,11 @@ Selected earlier work relevant to current embodied-agent research. Original publ
   2026-08-30 · VLA & World Models · Reasoning & Planning · Memory & Knowledge · Monitoring & Recovery<br>
   主 Agent 统筹任务，子 Agent 分工处理感知与验证，把 VLA、世界模型和控制器作为可组合技能。<br>
   [![arXiv: 2608.29896](https://img.shields.io/badge/arXiv-2608.29896-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.29896v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EMERGE-Policy/EMERGE-Policy) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://emerge-policy.github.io/EMERGE-Policy/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2608.29896)
+
+- **[ASPIRE: Agentic /Skills Discovery for Robotics](https://arxiv.org/abs/2607.00272v1)**<br>
+  2026-06-30 · Self-improvement · Skills & Code · Memory & Knowledge · Monitoring & Recovery<br>
+  Coding agents diagnose execution traces, repair robot programs, and consolidate validated fixes into transferable skills. The June paper is complemented by an October project update.<br>
+  [![arXiv: 2607.00272](https://img.shields.io/badge/arXiv-2607.00272-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.00272v1) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/ASPIRE) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://research.nvidia.com/labs/gear/aspire/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2607.00272)
 
 - **[ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2)**<br>
   2026-06-18 · Self-improvement · Skills & Code · Benchmarks & Evaluation · Monitoring & Recovery<br>

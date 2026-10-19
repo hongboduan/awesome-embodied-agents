@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16",
+  "updatedAt": "2026-10-19",
   "routes": [
     {
       "id": "code-policy",
@@ -10,7 +10,7 @@
       "summary": "从 URAI 的完整动作工具、RobotUse 的视觉动作接口，到 COAP 的固定程序，关键差异是模型何时接管，以及状态如何被测量和更新。RoboRSI 与 PhysEvo 进一步把可执行技能和接口变成可修订的对象。这里按设计问题组织阅读，不表示论文之间存在继承关系。",
       "readingQuestion": "逐项记录：模型调用发生在哪里？一条工具调用包含多长动作？失败由谁发现和处理？开发成本是否计入？MoCaP 为新发现候选，尚待全文精读。",
       "paperIds": ["2609.39018", "2610.04929", "2610.08995", "2610.12369", "2610.12424"],
-      "backgroundIds": ["2209.07753"],
+      "backgroundIds": ["2209.07753", "2607.00272"],
       "frontierIds": ["2610.20998"]
     },
     {
@@ -40,9 +40,9 @@
       "title": "自我改进：经验究竟改了什么？",
       "kicker": "技能修订 · 运行框架 · 验证与继承",
       "question": "一次成功经验怎样转化为可复用的改进，又怎样证明没有破坏已有能力？",
-      "summary": "PhysEvo 与 EMHO 修改模型外围的执行框架；RoboRSI 组织可验证的技能修订；COAP 将改进沉淀为固定代码库；PhysicalRSI 把技能、工具和记忆候选放进带版本的选择流程。ENPIRE 提供更早的真机自动实验参照。",
+      "summary": "ASPIRE 把经验证的修复沉淀为可检索技能；PhysEvo 与 EMHO 修改执行框架；RoboRSI 组织技能修订；COAP 积累固定代码库；PhysicalRSI 管理候选版本。ENPIRE 提供真机自动实验参照。ASPIRE 的 6 月论文与 10 月项目更新分开标注。",
       "readingQuestion": "检查改进载体、训练与测试隔离、人类参与、复位和判分来源，并同时计算机器人时间与模型调用成本。AdaRSI、EmbodiedEvo 目前仅列为待精读前沿，不据摘要建立技术继承关系。",
-      "paperIds": ["physicalrsi", "2610.08432", "2610.08995", "2610.12369", "2610.12424"],
+      "paperIds": ["2607.00272", "physicalrsi", "2610.08432", "2610.08995", "2610.12369", "2610.12424"],
       "backgroundIds": ["2606.19980"],
       "frontierIds": ["2610.20474", "2610.18867"]
     },
@@ -306,6 +306,28 @@
       "checkedAt": "2026-10-16"
     },
     {
+      "id": "compare-aspire-coap",
+      "source": "2607.00272",
+      "target": "2610.12369",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：修复知识与固定程序",
+      "explanation": "ASPIRE 将修复经验保存为上下文技能；LIBERO-Pro 与 Robosuite 测试固定程序，但 BEHAVIOR-1K 逐块生成代码，10 月真机更新也在线调用模型。COAP 执行时仅运行固定代码。这里比较调用边界与经验载体，不表示继承关系。",
+      "sources": [{"label": "ASPIRE · 第 2.2、3.3 节", "url": "https://arxiv.org/html/2607.00272v1"}, {"label": "ASPIRE · 在线真机学习", "url": "https://research.nvidia.com/labs/gear/aspire/"}, {"label": "COAP · 第 3 节", "url": "https://arxiv.org/html/2610.12369v1#S3"}],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "compare-aspire-enpire",
+      "source": "2607.00272",
+      "target": "2606.19980",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：技能积累与真机实验循环",
+      "explanation": "ASPIRE 通过执行轨迹修复程序并积累可迁移技能，底座模型保持冻结；ENPIRE 将真机复位、判分、执行与策略改进组织成实验循环，可改进启发式代码，也可使用行为克隆或强化学习。比较的是改进对象与验证条件，不表示方法继承。",
+      "sources": [{"label": "ASPIRE · 方法与真机迁移", "url": "https://arxiv.org/html/2607.00272v1"}, {"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "checkedAt": "2026-10-19"
+    },
+    {
       "id": "rci-evaluated-robodojo-rc",
       "source": "robocurve-rci",
       "target": "resource-robodojo-rc-tier1",
@@ -376,6 +398,14 @@
       "workIds": ["2606.19980"],
       "sources": [{"label": "ENPIRE · 官方作者机构与框架", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
       "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "nvidia-aspire-collaboration",
+      "name": "NVIDIA / UMich / UIUC / UC Berkeley / CMU · ASPIRE",
+      "summary": "按 ASPIRE 官方合作机构收录。研究线是从机器人执行轨迹发现可复用修复技能，并研究跨任务、跨具身迁移；10 月更新加入更强模型与在线真机操作展示。",
+      "workIds": ["2607.00272"],
+      "sources": [{"label": "ASPIRE · 官方团队与机构", "url": "https://research.nvidia.com/labs/gear/aspire/"}, {"label": "ASPIRE · 10 月更新", "url": "https://github.com/NVlabs/ASPIRE"}],
+      "checkedAt": "2026-10-19"
     },
     {
       "id": "robocurve",

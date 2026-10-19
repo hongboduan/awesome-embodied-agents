@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2607.00272",
+    "arxivId": "2607.00272",
+    "version": 1,
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "shortTitle": "ASPIRE",
+    "date": "2026-06-30",
+    "year": 2026,
+    "addedAt": "2026-10-19",
+    "featuredBackground": true,
+    "authors": "Runyu Lu and Yubo Wu and Ethan Kou and Letian Fu and Wenli Xiao and Ajay Mandlekar and Yinzhen Xu and Guanya Shi and Ken Goldberg and Ang Chen and Mosharaf Chowdhury and Yuke Zhu and Linxi Jim Fan and Guanzhi Wang",
+    "categories": ["learning", "code", "memory", "recovery"],
+    "tasks": ["manipulation", "mobile"],
+    "environment": ["simulation", "real"],
+    "summaryZh": "让 Coding Agent 从执行证据中诊断失败、修复程序，并把验证有效的经验积累为跨任务可检索技能；10 月项目更新扩展了模型与真机演示。",
+    "summaryEn": "Coding agents diagnose execution traces, repair robot programs, and consolidate validated fixes into transferable skills. The June paper is complemented by an October project update.",
+    "problem": "机器人程序失败后，如何定位具体原因，并让下一项任务继承这次修好的经验？",
+    "method": "执行引擎记录每次感知、抓取与规划调用的输入输出和关键帧。Actor 修改并验证程序，Coordinator 将修复提炼为含适用条件的文本与代码示例；进化搜索探索多种候选策略，扩大技能库。",
+    "findings": [
+      "论文 v1：Robosuite 双臂交接从对照的 20% 提升到 92%；LIBERO-Pro Long 未见任务的两类扰动结果为 23% 与 38%，平均 30.5%（摘要约 31%）。",
+      "论文 v1 真机迁移：提汽水罐由 13/20 提升至 19/20；达到首个成功程序的总 token 从 61.94M 降至 6.58M。迁移的是仿真调试知识，仍需真机适配与调试。",
+      "2026 年 10 月项目 v1.0 更新：扩展底座模型比较，并展示 GPT-6 Astra 在线操作魔方等任务；这是项目更新，arXiv 当前仍为 6 月首发 v1。"
+    ],
+    "limitations": [
+      "执行方式因评测而异：LIBERO-Pro、Robosuite 使用调试后的固定程序，BEHAVIOR-1K 逐块生成代码；最新真机 System-2 也在线调用 Agent，不能统一称为执行时不调用大模型。",
+      "依赖预定义感知、规划与控制 API；调试搜索成本高，技能库的陈旧、冗余与失效尚未完全解决。真机仍需成功判定、复位与校准。",
+      "10 月 README 与官网的任务范围、模型覆盖描述存在差异；其 99% 不能直接当作论文 v1 的统一成绩，更不是通用真机成功率。",
+      "魔方演示使用符号求解器；新增真机操作配方来自演示经验，官方注明尚未经全新机器人会话再次验证，不等同于大规模统计评测。"
+    ],
+    "role": {
+      "model": "编写与调试程序；部分任务还在线逐块生成代码",
+      "output": "调用感知、运动规划与控制原语的 Python 程序",
+      "memory": "共享技能库：失败特征、适用条件、修复策略与代码示例",
+      "recovery": "检查原语级执行轨迹，定位失败后修补并重新验证",
+      "adaptation": "冻结底座模型，迭代程序与外部技能；真机另需适配"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00272v1",
+      "project": "https://research.nvidia.com/labs/gear/aspire/",
+      "code": "https://github.com/NVlabs/ASPIRE"
+    },
+    "evidence": [
+      {"claim": "首发日期、v1 版本与论文作者", "label": "arXiv · Submission history", "source": "https://arxiv.org/abs/2607.00272v1"},
+      {"claim": "执行证据、技能库与进化搜索", "label": "论文 v1 · §2、Figure 1", "source": "https://arxiv.org/html/2607.00272v1#S2"},
+      {"claim": "评测时是否在线生成代码、仿真结果及真机迁移", "label": "论文 v1 · §3.3–3.6、Table 1", "source": "https://arxiv.org/html/2607.00272v1#S3"},
+      {"claim": "API、长期记忆与真实世界学习边界", "label": "论文 v1 · §5", "source": "https://arxiv.org/html/2607.00272v1#S5"},
+      {"claim": "10 月项目更新与新真机配方的验证状态", "label": "官方仓库 · News / Real-robot demos", "source": "https://github.com/NVlabs/ASPIRE/blob/main/README.md"},
+      {"claim": "在线 System-2 与魔方求解器", "label": "官方真机方法说明", "source": "https://github.com/NVlabs/ASPIRE/blob/main/docs/system2.md"},
+      {"claim": "最新任务覆盖与模型评测范围", "label": "官方项目页 · Main Evaluation Results", "source": "https://research.nvidia.com/labs/gear/aspire/"}
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-19",
+    "curated": true,
+    "deepRead": false,
+    "tags": ["ASPIRE", "NVIDIA GEAR", "技能发现", "程序修复", "执行轨迹", "进化搜索", "Sim-to-Real", "2026-10项目更新"],
+    "figure": {
+      "kind": "figure",
+      "path": "assets/papers/aspire-v1-framework.png",
+      "figureLabel": "Figure 1 · 系统框架",
+      "version": 1,
+      "sourceUrl": "https://arxiv.org/abs/2607.00272v1",
+      "originalUrl": "https://arxiv.org/html/2607.00272v1/system_design.png",
+      "selection": "manual-original",
+      "width": 1455,
+      "height": 889,
+      "caption": "论文 v1 原图：执行引擎提供多模态证据，Agent 调试与搜索程序，协调器将经验证的修复沉淀到共享技能库。图像归原作者。"
+    },
+    "cardFindings": [
+      "论文 v1：双臂交接 20% → 92%。",
+      "真机提罐：13/20 → 19/20；仍需适配调试。"
+    ],
+    "cardLimitations": [
+      "依赖现有 API；调试消耗模型调用与试验。",
+      "部分任务仍在线调用模型；10 月演示与论文分开看。"
+    ],
+    "cardEvidence": [
+      {"claim": "方法与评测", "label": "论文 v1 · §2–3", "source": "https://arxiv.org/html/2607.00272v1"},
+      {"claim": "10 月项目动态", "label": "NVlabs 官方仓库", "source": "https://github.com/NVlabs/ASPIRE"}
+    ]
+  }
+]

@@ -10,9 +10,9 @@
 
 <!-- ATLAS:START -->
 
-**精选 52 条 · 论文 46 篇 · 项目 5 个 · 观点 1 篇**
+**精选 53 条 · 论文 47 篇 · 项目 5 个 · 观点 1 篇**
 
-来源核对 51 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 306 篇
+来源核对 52 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 306 篇
 
 ## 目录
 
@@ -138,6 +138,11 @@
   2026-08-30 · VLA / WAM · 推理与规划 · 记忆与知识 · 监控与恢复<br>
   主 Agent 统筹任务，子 Agent 分工处理感知与验证，把 VLA、世界模型和控制器作为可组合技能。<br>
   [![arXiv: 2608.29896](https://img.shields.io/badge/arXiv-2608.29896-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.29896v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EMERGE-Policy/EMERGE-Policy) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://emerge-policy.github.io/EMERGE-Policy/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2608.29896)
+
+- **[ASPIRE: Agentic /Skills Discovery for Robotics](https://arxiv.org/abs/2607.00272v1)**<br>
+  2026-06-30 · 自我改进 · 技能与代码 · 记忆与知识 · 监控与恢复<br>
+  让 Coding Agent 从执行证据中诊断失败、修复程序，并把验证有效的经验积累为跨任务可检索技能；10 月项目更新扩展了模型与真机演示。<br>
+  [![arXiv: 2607.00272](https://img.shields.io/badge/arXiv-2607.00272-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.00272v1) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NVlabs/ASPIRE) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://research.nvidia.com/labs/gear/aspire/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2607.00272)
 
 - **[ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2)**<br>
   2026-06-18 · 自我改进 · 技能与代码 · 基准与评测 · 监控与恢复<br>
