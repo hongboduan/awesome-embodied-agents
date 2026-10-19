@@ -3713,27 +3713,27 @@
   },
   "2610.13643": {
     "arxivId": "2610.13643",
-    "version": 3,
+    "version": 4,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.13643",
-      "sourceUrl": "https://arxiv.org/pdf/2610.13643v3",
-      "version": 3,
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v4",
+      "version": 4,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.13643-v3.text.json",
-      "extractedAt": "2026-10-16T04:39:52Z"
+      "textPath": ".cache/papers/2610.13643-v4.text.json",
+      "extractedAt": "2026-10-19T04:51:25Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1: Overview of DexBioLab. DexBioLab is a benchmark for dexterous manipulation in biological laboratories, comprising 14 tasks across four robot embodiments and incorporating three dynamic experimental phenomena, including flames, vapor, and bubbles. Its hybrid rendering pipeline integrates interactive simulated foregrounds with 3D Gaussian Splatting (3DGS) [1] backgrounds reconstructed from six real laboratory scenes, while parallel simulation supports efficient data generation and evaluation.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.13643-v3.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.13643v3",
+      "path": "assets/papers/2610.13643-v4.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.13643v4",
       "page": 1,
-      "version": 3,
+      "version": 4,
       "width": 1107,
       "height": 694,
       "crop": [
@@ -3746,7 +3746,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 3,
+      "version": 4,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -4264,27 +4264,27 @@
   },
   "2610.17350": {
     "arxivId": "2610.17350",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.17350",
-      "sourceUrl": "https://arxiv.org/pdf/2610.17350v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.17350v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.17350-v1.text.json",
-      "extractedAt": "2026-10-14T07:44:03Z"
+      "textPath": ".cache/papers/2610.17350-v2.text.json",
+      "extractedAt": "2026-10-19T04:51:21Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1 Success on the 800 RoboMME test episodes, as reported by each source. GPT-6-Astra keeps the whole episode in context and commands every end-effector waypoint, with no RoboMME-specific training (single run). Light grey bars use RoboMME’s oracle skill interface, in which a privileged planner executes chosen skills. Details in Tables 1 and 3.",
+      "caption": "Figure 1 Success on the 800 RoboMME test episodes, as reported by each source. GPT-6-Astra keeps the whole episode in context and commands every end-effector waypoint, with no RoboMME-specific training. Light grey bars use RoboMME’s oracle skill interface, in which a privileged planner executes chosen skills. Details in Tables 1 and 3.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.17350-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.17350v1",
+      "path": "assets/papers/2610.17350-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17350v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 972,
       "height": 831,
       "crop": [
@@ -4297,7 +4297,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -7607,6 +7607,396 @@
         49.16,
         563.52,
         420.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.23479": {
+    "arxivId": "2610.23479",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.23479",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.23479-v1.text.json",
+      "extractedAt": "2026-10-19T04:50:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. HexaShell turns robot failures into reusable tools. A coding agent operates a robot with two arms through a thin harness and sees RGB images only. After a failure, an optimizer agent diagnoses the episode and writes or fixes tools that use only what the robot observes. Both agents are Codex with GPT-6-Astra at medium reasoning effort. Bottom: where tools help (rigid, planar, tool use, clutter) and where they fall short (cloth).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.23479-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v1",
+      "page": 1,
+      "version": 1,
+      "width": 966,
+      "height": 1100,
+      "crop": [
+        64.79,
+        124.7,
+        547.22,
+        674.43
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.23319": {
+    "arxivId": "2610.23319",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.23319",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23319v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.23319-v1.text.json",
+      "extractedAt": "2026-10-19T04:50:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Scope–Persistence taxonomy illustrating the evolution of representative VLA memory",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.23319-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23319v1",
+      "page": 3,
+      "version": 1,
+      "width": 717,
+      "height": 301,
+      "crop": [
+        118.7,
+        431.4,
+        476.6,
+        581.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22496": {
+    "arxivId": "2610.22496",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22496",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22496v1",
+      "version": 1,
+      "pageCount": 77,
+      "textPages": 77,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22496-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 | Overview of RAX. By scaling online exploration, a coding agent masters robot tasks across embodiments without any action demonstrations, from precise insertion and articulated, deformable, and memory tasks to long-horizon mobile manipulation, and surpasses the state of the art on unseen scenes.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22496-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22496v1",
+      "page": 1,
+      "version": 1,
+      "width": 1022,
+      "height": 635,
+      "crop": [
+        16.0,
+        264.71,
+        526.98,
+        581.65
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22736": {
+    "arxivId": "2610.22736",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22736",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22736v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22736-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Spatial memory by agents, for agents. A shared component pool supports different implementations (puzzles) for the same question requirements (board). Coding agents revise their designs using public feedback. The human–agent contrast is conceptual.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22736-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22736v1",
+      "page": 1,
+      "version": 1,
+      "width": 515,
+      "height": 432,
+      "crop": [
+        307.2,
+        139.72,
+        564.01,
+        355.22
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22471": {
+    "arxivId": "2610.22471",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22471",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22471v1",
+      "version": 1,
+      "pageCount": 66,
+      "textPages": 66,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22471-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Probing the capability upper bound of GPT-6-Astra across 12 benchmarks under a unified protocol that 1) allows for in-context learning (ICL) on the training set and 2) extends the step limit (budget) up to 10×. RoboLab has no training set and thus no ICL; BEHAVIOR is not extended to 10× due to its large official budget. SOTA cut-off date: October 12, 2026. Details in Tab. 2.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22471-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22471v1",
+      "page": 1,
+      "version": 1,
+      "width": 972,
+      "height": 1006,
+      "crop": [
+        63.37,
+        176.89,
+        548.63,
+        679.39
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.23203": {
+    "arxivId": "2610.23203",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.23203",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23203v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.23203-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of SimpleVLN. At each decision, sampled history frames, current observation, and the instruction are fed to an MLLM, which directly predicts an action chunk for navigation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.23203-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23203v1",
+      "page": 3,
+      "version": 1,
+      "width": 800,
+      "height": 461,
+      "crop": [
+        104.72,
+        66.0,
+        504.48,
+        296.06
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.23010": {
+    "arxivId": "2610.23010",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.23010",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23010v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.23010-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Solver-Sufficient Symbolization for PWA Systems. Relative affine-TU groups optimiza- tion regions with a compact symbol set. Each conditional optimization subproblem Pψ",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.23010-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23010v1",
+      "page": 3,
+      "version": 1,
+      "width": 817,
+      "height": 227,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        188.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.23271": {
+    "arxivId": "2610.23271",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.23271",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23271v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.23271-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Motivation and overview of NestedVLA. (a) Model merging combines independently fine-tuned VLA weights into a shared model, where incompatible updates can impair the source tasks. (b) NestedVLA retains a compressed task-specific VLM update and uses an embedded task- conditioned hypernetwork to generate the action-expert update. Both updates are applied to a shared base to materialize the selected VLA.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.23271-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23271v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 203,
+      "crop": [
+        102.0,
+        66.0,
+        510.0,
+        166.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.22700": {
+    "arxivId": "2610.22700",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.22700",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22700v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.22700-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Cambrian-BEV architecture. Patch tokens leave the frozen encoder and the vision-to-language projector already in the language embedding space, so the parameter-free geometric module (steps 1–6) can pool them directly into a metric BEV grid whose cells become the BEV tokens that replace the frame tokens in the LLM context. The BEV projection (green) is introduced only in the final fine-tuning stage (stage 5, Tab. S3); the encoder, projector, and LLM are inherited from the unmodified four-stage Cambrian-S recipe, which trains on frame tokens.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.22700-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22700v1",
+      "page": 4,
+      "version": 1,
+      "width": 1015,
+      "height": 377,
+      "crop": [
+        52.5,
+        66.0,
+        559.5,
+        253.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.02662": {
+    "arxivId": "2610.02662",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.02662",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02662v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.02662-v1.text.json",
+      "extractedAt": "2026-10-19T04:51:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Horizontal view of the N2 false-safe action abstraction, where C is the forbidden construc- tion region. SPINE exposes only the destination, so RoboGuard accepts the surface plan. Graph execution traverses C and violates the same LTL rule.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.02662-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02662v1",
+      "page": 2,
+      "version": 1,
+      "width": 814,
+      "height": 180,
+      "crop": [
+        102.3,
+        66.3,
+        508.98,
+        155.58
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

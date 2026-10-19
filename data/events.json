@@ -1,5 +1,108 @@
 [
   {
+    "id": "discovered-2610.22471",
+    "paperId": "2610.22471",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22471v1"
+  },
+  {
+    "id": "discovered-2610.22496",
+    "paperId": "2610.22496",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "Scaling Online Exploration for Robot Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22496v1"
+  },
+  {
+    "id": "discovered-2610.22700",
+    "paperId": "2610.22700",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "Thinking from Above: Efficient Spatial Reasoning with Bird's-Eye-View Visual Tokens",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22700v1"
+  },
+  {
+    "id": "discovered-2610.22736",
+    "paperId": "2610.22736",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "Spatial Memory by Agents, for Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.22736v1"
+  },
+  {
+    "id": "version-2610.17350-v2",
+    "paperId": "2610.17350",
+    "type": "version",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "Can a Frontier VLM Serve as a Robot Policy for Memory-Dependent Manipulation?",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.17350v2"
+  },
+  {
+    "id": "discovered-2610.23010",
+    "paperId": "2610.23010",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.23010v1"
+  },
+  {
+    "id": "discovered-2610.23203",
+    "paperId": "2610.23203",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.23203v1"
+  },
+  {
+    "id": "discovered-2610.23271",
+    "paperId": "2610.23271",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.23271v1"
+  },
+  {
+    "id": "discovered-2610.23319",
+    "paperId": "2610.23319",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "From Sliding Windows to Self-evolving Lifelong Memory: A Dual-perspective Survey of Memory Paradigms for Long-Horizon Robotics VLA Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.23319v1"
+  },
+  {
+    "id": "discovered-2610.23479",
+    "paperId": "2610.23479",
+    "type": "discovered",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.23479v1"
+  },
+  {
+    "id": "version-2610.13643-v4",
+    "paperId": "2610.13643",
+    "type": "version",
+    "date": "2026-10-19T04:50:29Z",
+    "title": "DexBioLab: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories",
+    "message": "arXiv 更新至 v4；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 3,
+    "toVersion": 4,
+    "url": "https://arxiv.org/abs/2610.13643v4"
+  },
+  {
     "id": "version-2610.02054-v4",
     "paperId": "2610.02054",
     "type": "version",
