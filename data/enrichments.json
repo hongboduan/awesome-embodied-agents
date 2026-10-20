@@ -7774,27 +7774,27 @@
   },
   "2610.22471": {
     "arxivId": "2610.22471",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.22471",
-      "sourceUrl": "https://arxiv.org/pdf/2610.22471v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.22471v2",
+      "version": 2,
       "pageCount": 66,
       "textPages": 66,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.22471-v1.text.json",
-      "extractedAt": "2026-10-19T04:51:07Z"
+      "textPath": ".cache/papers/2610.22471-v2.text.json",
+      "extractedAt": "2026-10-20T04:59:31Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1 Probing the capability upper bound of GPT-6-Astra across 12 benchmarks under a unified protocol that 1) allows for in-context learning (ICL) on the training set and 2) extends the step limit (budget) up to 10×. RoboLab has no training set and thus no ICL; BEHAVIOR is not extended to 10× due to its large official budget. SOTA cut-off date: October 12, 2026. Details in Tab. 2.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.22471-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.22471v1",
+      "path": "assets/papers/2610.22471-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.22471v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 972,
       "height": 1006,
       "crop": [
@@ -7807,7 +7807,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -7891,27 +7891,27 @@
   },
   "2610.23271": {
     "arxivId": "2610.23271",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.23271",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23271v1",
-      "version": 1,
-      "pageCount": 23,
-      "textPages": 23,
+      "sourceUrl": "https://arxiv.org/pdf/2610.23271v2",
+      "version": 2,
+      "pageCount": 30,
+      "textPages": 30,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.23271-v1.text.json",
-      "extractedAt": "2026-10-19T04:51:15Z"
+      "textPath": ".cache/papers/2610.23271-v2.text.json",
+      "extractedAt": "2026-10-20T04:59:51Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Motivation and overview of NestedVLA. (a) Model merging combines independently fine-tuned VLA weights into a shared model, where incompatible updates can impair the source tasks. (b) NestedVLA retains a compressed task-specific VLM update and uses an embedded task- conditioned hypernetwork to generate the action-expert update. Both updates are applied to a shared base to materialize the selected VLA.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.23271-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23271v1",
+      "path": "assets/papers/2610.23271-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23271v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 816,
       "height": 203,
       "crop": [
@@ -7924,7 +7924,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -8465,6 +8465,396 @@
         47.97,
         562.26,
         229.11
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.26554": {
+    "arxivId": "2610.26554",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.26554",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26554v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.26554-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4: Six-layer memory architecture. Current observations (L0) update linked spatial (L1), entity (L2), and episodic (L3) records. Corroborated histories support experiential regularities (L4) and reusable procedures (L5). A shared event log, source evidence index, and finite archive preserve provenance across layers.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2610.26554-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26554v1",
+      "page": 7,
+      "version": 1,
+      "width": 932,
+      "height": 587,
+      "crop": [
+        64.87,
+        37.9,
+        530.41,
+        330.6
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.25959": {
+    "arxivId": "2610.25959",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.25959",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25959v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.25959-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of EmbodiedWorld-200K. A large-scale embodied-planning dataset designed to support the study of Embodied World Agents (EWAs)—general-purpose embodied agents operating across diverse open-world 3D environments. Each sample consists of an initial visual observation, a natural-language navigation instruction, and the corresponding action sequence.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.25959-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25959v1",
+      "page": 1,
+      "version": 1,
+      "width": 738,
+      "height": 378,
+      "crop": [
+        121.8,
+        232.13,
+        490.2,
+        420.88
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.26846": {
+    "arxivId": "2610.26846",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.26846",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26846v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.26846-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Benchmark-level results. Task-averaged success rates (%). Astra uses vision alone (blue) or vision with tactile RGB images (red). Grey bars show published specialist baselines. Models are ordered by their reported mean within each benchmark. Task-level results and evaluation scope appear in Section 5.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.26846-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26846v1",
+      "page": 1,
+      "version": 1,
+      "width": 989,
+      "height": 451,
+      "crop": [
+        50.69,
+        515.45,
+        544.6,
+        740.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.25114": {
+    "arxivId": "2610.25114",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.25114",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25114v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.25114-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Compile once, run cheap. Protocol A lets a strong author generate, repair and qualify a skill offline; an independent gate freezes it as an immutable FrozenSkill. Protocol B runs the same files with executors that never see the skill code, on new layouts. Both protocols share one non-bypassable runtime.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.25114-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25114v1",
+      "page": 2,
+      "version": 1,
+      "width": 949,
+      "height": 453,
+      "crop": [
+        69.3,
+        102.79,
+        543.14,
+        329.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.24177": {
+    "arxivId": "2610.24177",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.24177",
+      "sourceUrl": "https://arxiv.org/pdf/2610.24177v1",
+      "version": 1,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.24177-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Enabling long-horizon exploration with a video planner. Left: Random exploration struggles to reach later stages of long-horizon tasks that require specific sequences of actions. Right: The video planner guides exploration. As the V2A model learns from achieved transitions, the agent follows the plan more accurately and reaches progressively later stages of the task. These new transitions further improve the model, eventually enabling the agent to execute the full plan.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.24177-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.24177v1",
+      "page": 3,
+      "version": 1,
+      "width": 816,
+      "height": 263,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        206.66
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.26855": {
+    "arxivId": "2610.26855",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.26855",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26855v1",
+      "version": 1,
+      "pageCount": 54,
+      "textPages": 54,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.26855-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 | Xp-Data curation pipeline. Heterogeneous human and robot recordings pass through five stages. (1) Data sources: 14 public human egocentric datasets, 6,000 h of in-house four-camera recordings, and 13 public robot datasets. (2) Video filtering removes low-quality or task-irrelevant clips with a vision-language model. (3) Multimodal annotation produces geometry (metric camera poses via SLAM and DA3 [69]), kinematics (human hands via WiLoR [91] and MANO [96], robot keypoints via URDF forward kinematics, manual annotation, and correction), and semantics (hierarchical task, subtask, and atomic-action captions). (4) Quality check verifies completeness, correctness, and cross-modal consistency, pairing automated checks with a caption cascade (Gemini [25] annotation, Qwen [6] verification, and human review). (5) Training-clip construction cuts quality-verified subtasks into standardized 81-frame, 640 × 480, 16 fps multimodal clips, yielding the unified cross-embodiment corpus.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.26855-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26855v1",
+      "page": 5,
+      "version": 1,
+      "width": 1127,
+      "height": 661,
+      "crop": [
+        16.0,
+        16.0,
+        579.28,
+        346.22
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.25600": {
+    "arxivId": "2610.25600",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.25600",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25600v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.25600-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Overview of VQ-WM. The initial (green) and goal (red) images are encoded into latent states and vector-quantized ac- cording to controller reachability, so that each vector-quantized state serves as a target the controller is expected to reach. The planner performs discrete search over these vector-quantized states using a discrete latent predictor. A continuous controller then drives the robot toward each planned target in turn, using visual feedback to correct deviations along the way.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.25600-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25600v1",
+      "page": 1,
+      "version": 1,
+      "width": 528,
+      "height": 389,
+      "crop": [
+        305.98,
+        169.62,
+        569.05,
+        363.91
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.26711": {
+    "arxivId": "2610.26711",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.26711",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26711v1",
+      "version": 1,
+      "pageCount": 27,
+      "textPages": 27,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.26711-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of PVBench. (a) The benchmark comprises 46 evaluation dimensions organized into seven domains and three assessment layers: semantic, perceptual, and physical. (b) The physical layer contains 25 dimensions covering object-intrinsic properties, relations between objects and space, and object dynamics across space and time, encompassing most physical dimensions appearing in prior work. (c) PVBench uses three evaluation paradigms: physical-quantity measurement, MLLM evaluation, and a combination of both.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.26711-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.26711v1",
+      "page": 2,
+      "version": 1,
+      "width": 956,
+      "height": 347,
+      "crop": [
+        68.44,
+        391.63,
+        545.63,
+        564.81
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.25358": {
+    "arxivId": "2610.25358",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.25358",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25358v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.25358-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Rethinking visual localization with cacheable image matching via LateMatch. (A) Standard visual localization pipelines require matching a single query image against Top-K (e.g., K = 100) retrieved database images. (B) Traditional matching architectures interleave intra-image context building and inter- image cross-attention across all layers, preventing any caching and causing a severe computational bottleneck. (C) Our proposed LateMatch architecture breaks this bottleneck by deferring cross-image interaction to the final layers, decoupling the network into offline-cacheable Context Blocks (CBs) and online Interaction Blocks (IBs), reducing the effective compute cost by over 2× without sacrificing much on performance.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.25358-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25358v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 354,
+      "crop": [
+        102.0,
+        66.0,
+        509.99,
+        242.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.24767": {
+    "arxivId": "2610.24767",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.24767",
+      "sourceUrl": "https://arxiv.org/pdf/2610.24767v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.24767-v1.text.json",
+      "extractedAt": "2026-10-20T04:59:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Task overview with representative examples. In Phase 1, the agent receives time-aligned streams of posed RGB-D and dialogue. In Phase 2, the resulting memory supports navigation and QA tasks drawing on three memory contents: perceptual (object appearance and spatial relations), episodic (trajectory experience), and social (dialogue-derived facts). For QA, the arrow notation shows which memory content identifies the target (before the arrow) and which provides the answer (after the arrow). All Phase 2 examples share the same Phase 1 stream.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.24767-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.24767v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 702,
+      "crop": [
+        48.0,
+        48.0,
+        563.99,
+        398.83
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

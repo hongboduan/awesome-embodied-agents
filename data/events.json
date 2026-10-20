@@ -1,5 +1,128 @@
 [
   {
+    "id": "discovered-2610.24177",
+    "paperId": "2610.24177",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "Self-Improving Video-to-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.24177v1"
+  },
+  {
+    "id": "version-2610.19336-v2",
+    "paperId": "2610.19336",
+    "type": "version",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "Probabilistic Physics Digital Twin for Human-Robot Interaction",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.19336v2"
+  },
+  {
+    "id": "discovered-2610.24767",
+    "paperId": "2610.24767",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.24767v1"
+  },
+  {
+    "id": "discovered-2610.25114",
+    "paperId": "2610.25114",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "Compile Once, Run Cheap: Frozen, Portable Skills for Embodied Agents, and What Recursive Self-Improvement Adds",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.25114v1"
+  },
+  {
+    "id": "discovered-2610.25358",
+    "paperId": "2610.25358",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.25358v1"
+  },
+  {
+    "id": "discovered-2610.25600",
+    "paperId": "2610.25600",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.25600v1"
+  },
+  {
+    "id": "version-2610.23271-v2",
+    "paperId": "2610.23271",
+    "type": "version",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.23271v2"
+  },
+  {
+    "id": "discovered-2610.25959",
+    "paperId": "2610.25959",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.25959v1"
+  },
+  {
+    "id": "discovered-2610.26554",
+    "paperId": "2610.26554",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "BetaMem: Learning to Remember a Changing World for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.26554v1"
+  },
+  {
+    "id": "discovered-2610.26711",
+    "paperId": "2610.26711",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level Physical Measurements",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.26711v1"
+  },
+  {
+    "id": "version-2610.22471-v2",
+    "paperId": "2610.22471",
+    "type": "version",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.22471v2"
+  },
+  {
+    "id": "discovered-2610.26846",
+    "paperId": "2610.26846",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.26846v1"
+  },
+  {
+    "id": "discovered-2610.26855",
+    "paperId": "2610.26855",
+    "type": "discovered",
+    "date": "2026-10-20T04:58:40Z",
+    "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.26855v1"
+  },
+  {
     "id": "discovered-2610.22471",
     "paperId": "2610.22471",
     "type": "discovered",
