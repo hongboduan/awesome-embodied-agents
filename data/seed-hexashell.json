@@ -16,7 +16,7 @@
     "summaryZh": "在线 Coding Agent 通过薄命令行接口操作机器人，开发时由另一个 Agent 把失败修成可复用工具；用 RGB 几何测量支撑动作，在 RoboDojo 官方隐藏种子评测中取得 46.85% 加权成功率。",
     "summaryEn": "An online coding agent operates a robot through a thin command-line harness. Between development episodes, an optimizer turns failures into reusable RGB geometry and manipulation tools; frozen tools reach 46.85% weighted success in RoboDojo's official hidden-seed evaluation.",
     "problem": "如果让 Coding Agent 自己编写、测试并修复机器人工具，它能走多远，瓶颈又出现在推理、感知还是接触执行？",
-    "method": "Acting agent 在线依据 RGB 图像、相机标定和机械臂状态调用 robo 命令；工具通过多视角三角测量或射线与平面求交估计位置，必要时移动腕部相机。开发回合失败后，optimizer 读取命令、图像和对话轨迹，修改工具与测试，再重跑布局。官方评测冻结工具、停用 optimizer，执行 Agent 仍在线调用 GPT-6-Astra。",
+    "method": "在线 Agent 通过 robo 调用 RGB 几何工具；标定视角用于三角测量或平面求交。开发失败后，optimizer 查轨迹、修工具再测试；评测冻结工具，模型仍在线。",
     "findings": [
       "2026-10-20 RoboDojo 官方新闻将 HexaShell-Preview 加入仿真 Agent 榜：成功率 46.85%、进度分数 53.18；论文 v2 四舍五入为 46.9% 与 53.2。官方隐藏种子、42 项任务各 50 回合，共 2,100 回合；总分按五类任务等权计算，不是全部回合或 54 个变体的简单平均。",
       "官方评测中，Memory 成功率为 81.0%，Precision 为 32.0%；八项 Open 任务共用一套冻结工具和手册，没有单任务工具与笔记，该共享配置仅在其余 34 项任务场景上开发。",
