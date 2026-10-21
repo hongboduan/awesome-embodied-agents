@@ -4732,27 +4732,27 @@
   },
   "2610.19336": {
     "arxivId": "2610.19336",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.19336",
-      "sourceUrl": "https://arxiv.org/pdf/2610.19336v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.19336v2",
+      "version": 2,
       "pageCount": 9,
       "textPages": 9,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.19336-v1.text.json",
-      "extractedAt": "2026-10-15T04:50:28Z"
+      "textPath": ".cache/papers/2610.19336-v2.text.json",
+      "extractedAt": "2026-10-21T13:25:33Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 2: Visualization of location-valued consequence-field construction. The distribution of locations are sampled and constructed into a field.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.19336-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.19336v1",
+      "path": "assets/papers/2610.19336-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.19336v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 514,
       "height": 215,
       "crop": [
@@ -4765,7 +4765,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -7645,9 +7645,9 @@
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 2,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "人工内容保留。"
     }
   },
   "2610.23319": {
@@ -7886,27 +7886,27 @@
   },
   "2610.23271": {
     "arxivId": "2610.23271",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.23271",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23271v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.23271v3",
+      "version": 3,
       "pageCount": 30,
       "textPages": 30,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.23271-v2.text.json",
-      "extractedAt": "2026-10-20T04:59:51Z"
+      "textPath": ".cache/papers/2610.23271-v3.text.json",
+      "extractedAt": "2026-10-21T13:25:30Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Motivation and overview of NestedVLA. (a) Model merging combines independently fine-tuned VLA weights into a shared model, where incompatible updates can impair the source tasks. (b) NestedVLA retains a compressed task-specific VLM update and uses an embedded task- conditioned hypernetwork to generate the action-expert update. Both updates are applied to a shared base to materialize the selected VLA.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.23271-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23271v2",
+      "path": "assets/papers/2610.23271-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23271v3",
       "page": 2,
-      "version": 2,
+      "version": 3,
       "width": 816,
       "height": 203,
       "crop": [
@@ -7919,7 +7919,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -9279,6 +9279,396 @@
         64.99,
         438.72,
         188.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27040": {
+    "arxivId": "2610.27040",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27040",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27040v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27040-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of ACE-Brain-0.6. Our data pipeline converts diverse visual sources into verifiable grounding supervision for fine-tuning Qwen3.5-9B. The resulting model supports target identification, visual counting, spatial grounding, and interaction grounding. The radar chart compares performance across eight benchmarks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27040-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27040v1",
+      "page": 3,
+      "version": 1,
+      "width": 966,
+      "height": 554,
+      "crop": [
+        64.87,
+        71.95,
+        547.13,
+        348.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.38982": {
+    "arxivId": "2609.38982",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.38982",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38982v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.38982-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of SimEX. Preparation reconstructs the physical workspace in simulation and initializes the toolbox. Stage 1 runs independent probe–focus–optimize cycles, retaining improve- ments on focused tasks and capability-bank replay. Stage 2 executes one robot rollout, aligns the simulator through fixed-policy replay, creates candidate repairs, and returns simulated screening ev- idence to the coding agent as supportive evidence for repair selection.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.38982-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38982v1",
+      "page": 4,
+      "version": 1,
+      "width": 1087,
+      "height": 594,
+      "crop": [
+        16.0,
+        29.31,
+        559.39,
+        325.85
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.00575": {
+    "arxivId": "2610.00575",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.00575",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00575v2",
+      "version": 2,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.00575-v2.text.json",
+      "extractedAt": "2026-10-21T13:25:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Token-World overview. (a) Compact Token Construction. Qwen3-VL visual tokens are compressed into a compact latent space. (b) Dynamics Modeling. A spatiotemporal Transformer models action-conditioned dynamics in compact token space. (c) Training Objective. We train the model using an x0-parameterized flow objective with weighted shortcut forcing. (d) Autoregressive Rollout. Future compact tokens are generated with a sliding temporal window and recurrent state.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.00575-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00575v2",
+      "page": 3,
+      "version": 2,
+      "width": 1032,
+      "height": 396,
+      "crop": [
+        48.0,
+        44.08,
+        563.95,
+        241.62
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.38078": {
+    "arxivId": "2609.38078",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.38078",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38078v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.38078-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. Overview of MotorMind. The Planner specifies subgoals and success criteria. The Executor proposes short action batches, which the Controller converts into robot motion. During execution, the Monitor evaluates updated observations and can request interruption at an action boundary, cancelling pending commands. Outcome assessment then determines whether to advance, retry, or replan. Memory summarizes execution evidence and assessed outcomes in the background for subsequent decisions.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2609.38078-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38078v1",
+      "page": 6,
+      "version": 1,
+      "width": 984,
+      "height": 384,
+      "crop": [
+        60.47,
+        50.7,
+        551.53,
+        242.44
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.38640": {
+    "arxivId": "2609.38640",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.38640",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38640v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.38640-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:46Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: YGGDRASIL’s layer-first architecture: a DAG of lay- ers, each an isolated graph, with nesting relations connecting nodes across layers that share an edge in the DAG. A typed query interface answers semantic and spatial queries against this store in place, with no intermediate conversion.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.38640-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38640v1",
+      "page": 1,
+      "version": 1,
+      "width": 458,
+      "height": 331,
+      "crop": [
+        333.41,
+        151.68,
+        561.75,
+        316.79
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.36530": {
+    "arxivId": "2609.36530",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.36530",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36530v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.36530-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the proposed sampling-time guidance framework. The pretrained diffusion model reconstructs clean trajectories and incorporates planning costs and optional trajectory priors in the clean space during reverse diffusion, without modifying or retraining the model.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.36530-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36530v1",
+      "page": 3,
+      "version": 1,
+      "width": 488,
+      "height": 174,
+      "crop": [
+        52.83,
+        50.07,
+        296.16,
+        136.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.37089": {
+    "arxivId": "2609.37089",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.37089",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37089v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.37089-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of Real2Gym. Real2Gym reconstructs aligned Blender and MuJoCo scenes from human or robot demonstrations, refines them through event-driven correction and physics val- idation, and augments them into diverse interactive gyms. The agent then executes operation-stage code and distills feedback into reusable skills for simulation and real-robot deployment.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.37089-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37089v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 390,
+      "crop": [
+        102.0,
+        75.86,
+        509.99,
+        270.02
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.37554": {
+    "arxivId": "2609.37554",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.37554",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37554v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.37554-v1.text.json",
+      "extractedAt": "2026-10-21T13:25:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Architecture of the proposed Risk-Aware Semantic Grounding framework. Grounding risk is estimated prior to planning to support execute, clarify, or reject decisions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.37554-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37554v1",
+      "page": 5,
+      "version": 1,
+      "width": 719,
+      "height": 406,
+      "crop": [
+        128.35,
+        109.84,
+        487.0,
+        312.49
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.37907": {
+    "arxivId": "2609.37907",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.37907",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37907v2",
+      "version": 2,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.37907-v2.text.json",
+      "extractedAt": "2026-10-21T13:25:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Sample sequences and key-press dis- tributions for Trackmania (a) and Cyberpunk 2077 (b). Distributions are on a log scale: key usage is highly imbalanced.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.37907-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37907v2",
+      "page": 2,
+      "version": 2,
+      "width": 387,
+      "height": 470,
+      "crop": [
+        293.76,
+        208.59,
+        486.59,
+        443.06
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.37708": {
+    "arxivId": "2609.37708",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.37708",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37708v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.37708-v1.text.json",
+      "extractedAt": "2026-10-21T13:26:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: A generative model for multi-agent interaction. We propose Bilevel Representations for Agent Interaction Dynamics (BRAID), a unified model of multi-party group behaviour.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.37708-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37708v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 316,
+      "crop": [
+        102.03,
+        76.27,
+        509.5,
+        233.77
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
