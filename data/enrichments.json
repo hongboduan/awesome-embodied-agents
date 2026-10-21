@@ -7618,40 +7618,40 @@
   },
   "2610.23479": {
     "arxivId": "2610.23479",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.23479",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23479v1",
-      "version": 1,
-      "pageCount": 24,
-      "textPages": 24,
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v2",
+      "version": 2,
+      "pageCount": 26,
+      "textPages": 26,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.23479-v1.text.json",
-      "extractedAt": "2026-10-19T04:50:53Z"
+      "textPath": ".cache/papers/2610.23479-v2.text.json",
+      "extractedAt": "2026-10-21T04:58:28Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1. HexaShell turns robot failures into reusable tools. A coding agent operates a robot with two arms through a thin harness and sees RGB images only. After a failure, an optimizer agent diagnoses the episode and writes or fixes tools that use only what the robot observes. Both agents are Codex with GPT-6-Astra at medium reasoning effort. Bottom: where tools help (rigid, planar, tool use, clutter) and where they fall short (cloth).",
+      "caption": "Figure 1. HexaShell turns robot failures into reusable tools. A coding agent operates a robot with two arms through a thin harness and sees RGB images only. After a failure, an optimizer agent diagnoses the episode and writes or fixes tools that use only what the robot observes. Both agents are Codex with GPT-6-Astra. Bottom: where tools help (rigid, planar, tool use, clutter) and where they fall short (cloth).",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.23479-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23479v1",
+      "path": "assets/papers/2610.23479-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 966,
-      "height": 1100,
+      "height": 1084,
       "crop": [
         64.79,
-        124.7,
+        120.82,
         547.22,
-        674.43
+        662.47
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -8855,6 +8855,435 @@
         48.0,
         563.99,
         398.83
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.28259": {
+    "arxivId": "2610.28259",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.28259",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28259v1",
+      "version": 1,
+      "pageCount": 37,
+      "textPages": 37,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.28259-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:13Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of the systematic evaluation of GPT-6 Astra for robotic manipulation. (a) illustrates the closed-loop control framework. (b) represents the analysis of depth perception, embodied in-context learning, and tactile understanding. (c) summarizes benchmark performance, embodied capability profile and real-world validation. (d) highlights limitations in rotation orientation control through benchmark LIBERO-GeoMotion.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.28259-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28259v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 1032,
+      "crop": [
+        64.87,
+        51.77,
+        547.13,
+        567.49
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.28381": {
+    "arxivId": "2610.28381",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.28381",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28381v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.28381-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of the benchmark creation detailing the definitions and how they are utilised to generate safe and unsafe environments paired with actions. Unsafe environments are further utilised in the plan-level dataset. The rest of the objects and properties in safe and unsafe environments are omitted for brevity. (nested 1) denotes that the metal object (spoon) is placed inside another safe object (bowl).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.28381-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28381v1",
+      "page": 3,
+      "version": 1,
+      "width": 924,
+      "height": 453,
+      "crop": [
+        66.84,
+        66.59,
+        528.44,
+        292.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.28589": {
+    "arxivId": "2610.28589",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.28589",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28589v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.28589-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:18Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of AgenticRoboRL. (a) Agentic robotics systems combine planners with robot harnesses for multi-turn interaction with the environment. (b) We post-train planners through SFT on successful trajectories followed by multi-turn RL. (c) On LIBERO-PRO, post-training improves a 9B planner’s success rate from 18.1% to 71.0%, approaching the 72.1% achieved by Codex (GPT-5.5)with memory. Mem denotes external memory.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.28589-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28589v1",
+      "page": 2,
+      "version": 1,
+      "width": 1127,
+      "height": 641,
+      "crop": [
+        16.0,
+        59.11,
+        579.28,
+        379.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27613": {
+    "arxivId": "2610.27613",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27613",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27613v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27613-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Tactile-ETA performs fine manipulation by conditioning a frozen embodied task agent on (a) action-aligned expert demonstrations that preserve vision, motion, and tactile observations, together with (b) current observations and execution feedback—without parameter updates.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27613-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27613v1",
+      "page": 2,
+      "version": 1,
+      "width": 936,
+      "height": 377,
+      "crop": [
+        70.52,
+        92.51,
+        538.1,
+        280.77
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27039": {
+    "arxivId": "2610.27039",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27039",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27039v1",
+      "version": 1,
+      "pageCount": 38,
+      "textPages": 38,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27039-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Embodied Playground at a glance. Six trajectories illustrate Launch, Tower, Lock, Cube, and two Home environments, including successes and failures. The middle row compares GPT-6-Astra and Opus-5.5-extra by suite on Pass@2, condition outcomes, and mean duration of successful attempts. Frame timestamps use simulated seconds; the timing chart uses wall-clock minutes.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27039-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27039v1",
+      "page": 1,
+      "version": 1,
+      "width": 962,
+      "height": 996,
+      "crop": [
+        66.0,
+        187.6,
+        546.7,
+        685.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27618": {
+    "arxivId": "2610.27618",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27618",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27618v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27618-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of the visual planning, execution, and reflection workflow in JARVIS.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27618-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27618v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 311,
+      "crop": [
+        102.0,
+        75.86,
+        509.98,
+        230.92
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27865": {
+    "arxivId": "2610.27865",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27865",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27865v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27865-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Agent2Act’s LLM-driven control loop. The multimodal LLM uses task context and observations, queries read-only sensor evidence, and proposes actions. Agent2Act validates and converts proposals into robot commands; subsequent observations, robot responses, and task progress inform the next decision. RoboColiseum determines task outcomes through native evaluation. Camera panels show recorded observations.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27865-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27865v1",
+      "page": 3,
+      "version": 1,
+      "width": 1000,
+      "height": 465,
+      "crop": [
+        60.25,
+        59.83,
+        559.8,
+        291.98
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27677": {
+    "arxivId": "2610.27677",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27677",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27677v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27677-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of the CovNav framework. The agent incrementally builds an object-based semantic map from RGB-D observations. To efficiently infer object-goal relationships, we introduce a Fast-Slow inference mechanism: CP dynamically evaluates the uncertainty of the local LLM operating in Fast direct inference mode. Confident predictions (singleton sets) are directly utilized, while ambiguous cases trigger the same model in Slow deliberative reasoning mode. The resulting semantic scores are fused into a global value map to guide the agent toward the most promising exploration frontiers.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27677-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27677v1",
+      "page": 5,
+      "version": 1,
+      "width": 1054,
+      "height": 458,
+      "crop": [
+        42.96,
+        50.07,
+        569.03,
+        278.73
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.28476": {
+    "arxivId": "2610.28476",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.28476",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28476v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.28476-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. With CLOSER, the agent approaches an uncertain candidate and decides from closer views. Given the goal bed, the view at (1) shows a distant, partially occluded candidate and does not suffice for a decision. CLOSER therefore labels the candidate uncertain, and the agent approaches it to gather additional views (orange, dotted). At (2), the closer view reveals a sofa confuser; CLOSER labels it no, and the agent resumes exploration (blue, solid). At (3), the view of the next candidate suffices; CLOSER labels it yes, and the agent moves to the bed and stops near it. The bottom panels show the agent’s view and CLOSER’s label at each numbered location.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.28476-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28476v1",
+      "page": 1,
+      "version": 1,
+      "width": 528,
+      "height": 489,
+      "crop": [
+        305.98,
+        161.53,
+        569.07,
+        405.66
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27104": {
+    "arxivId": "2610.27104",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27104",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27104v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27104-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of the proposed pipeline. Each temporal segment is processed by PSFR, which selects the most informative frames; the first selected frame is stored as an image path alongside the resulting object-centric scene description. At query time, the VLM agent invokes a visual retrieval tool that returns the image paired with the most relevant description, enabling joint reasoning over textual and visual evidence to reason jointly over both modalities.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27104-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27104v1",
+      "page": 4,
+      "version": 1,
+      "width": 983,
+      "height": 454,
+      "crop": [
+        58.86,
+        44.08,
+        549.65,
+        270.83
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.27350": {
+    "arxivId": "2610.27350",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.27350",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27350v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.27350-v1.text.json",
+      "extractedAt": "2026-10-21T04:58:46Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The default loop carries out a harmful instruction that the runtime safety check would stop. Left: the vitamins scene at the start of a trial (fixed camera) and the model’s answer when the check asks whether it would carry out the instruction. Right: the wrist camera at the end of a trial in which the model, acting in the default loop, released a tablet into the kids’ snack bowl.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.27350-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27350v1",
+      "page": 2,
+      "version": 1,
+      "width": 532,
+      "height": 249,
+      "crop": [
+        173.28,
+        64.99,
+        438.72,
+        188.59
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

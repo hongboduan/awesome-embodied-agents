@@ -1,5 +1,135 @@
 [
   {
+    "id": "version-2610.23271-v3",
+    "paperId": "2610.23271",
+    "type": "version",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "NestedVLA: Learning to Consolidate and Generate Skills for Vision-Language-Action Models",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.23271v3"
+  },
+  {
+    "id": "discovered-2610.27039",
+    "paperId": "2610.27039",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "Embodied Playground: A Long-Horizon Agentic Robotics Benchmark for Physical, Strategic, and Spatial Reasoning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27039v1"
+  },
+  {
+    "id": "discovered-2610.27040",
+    "paperId": "2610.27040",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27040v1"
+  },
+  {
+    "id": "discovered-2610.27104",
+    "paperId": "2610.27104",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "LVMem: Image-Augmented Memory for Long-Horizon Question Answering",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27104v1"
+  },
+  {
+    "id": "discovered-2610.27350",
+    "paperId": "2610.27350",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "Refuses When Asked, Complies When Acting: A Runtime Safety Check for Robot Control Loops",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27350v1"
+  },
+  {
+    "id": "discovered-2610.27613",
+    "paperId": "2610.27613",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "Embodied Task Agents Can Perform Fine Manipulation through Tactile In-Context Learning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27613v1"
+  },
+  {
+    "id": "discovered-2610.27618",
+    "paperId": "2610.27618",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "JARVIS: From Visual Manuals to Autonomous Robotic Assembly",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27618v1"
+  },
+  {
+    "id": "discovered-2610.27677",
+    "paperId": "2610.27677",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27677v1"
+  },
+  {
+    "id": "discovered-2610.27865",
+    "paperId": "2610.27865",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "Frontier LLMs Enter the World of Robotics: A Cross-Model Evaluation on RoboColiseum",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.27865v1"
+  },
+  {
+    "id": "discovered-2610.28259",
+    "paperId": "2610.28259",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "Large Multimodal Models for Direct Robot Control: GPT-6 as a Beginning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.28259v1"
+  },
+  {
+    "id": "discovered-2610.28381",
+    "paperId": "2610.28381",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.28381v1"
+  },
+  {
+    "id": "version-2610.23479-v2",
+    "paperId": "2610.23479",
+    "type": "version",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.23479v2"
+  },
+  {
+    "id": "discovered-2610.28476",
+    "paperId": "2610.28476",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "CLOSER: Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.28476v1"
+  },
+  {
+    "id": "discovered-2610.28589",
+    "paperId": "2610.28589",
+    "type": "discovered",
+    "date": "2026-10-21T04:57:46Z",
+    "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.28589v1"
+  },
+  {
     "id": "discovered-2610.24177",
     "paperId": "2610.24177",
     "type": "discovered",
