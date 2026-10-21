@@ -9677,5 +9677,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2609.38173": {
+    "arxivId": "2609.38173",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.38173",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38173v3",
+      "version": 3,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.38173-v3.text.json",
+      "extractedAt": "2026-10-21T13:29:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of SimpleICL. We identify the prompt ambiguity problem in robot ICL and clarify the intrinsic semantics that the model should learn. We further improve task understanding and generalization through efficient data engineering. Our method achieves the best performance across eight evaluation tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.38173-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.38173v3",
+      "page": 1,
+      "version": 3,
+      "width": 816,
+      "height": 389,
+      "crop": [
+        102.0,
+        239.12,
+        509.99,
+        433.35
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.36416": {
+    "arxivId": "2609.36416",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.36416",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36416v3",
+      "version": 3,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.36416-v3.text.json",
+      "extractedAt": "2026-10-21T13:29:33Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. FineART dataset overview. (a) Distinct object classes represented in FineART and ABC-130K across semantic categories. (b) Frequency of descriptive object modifiers in subtask annotations. (c) Collected hours across manipulation primitives, highlighting the high-volume head and contact-rich tail. (d–f) Episode duration, subtask duration, and arm-speed distributions, respectively, compared with ABC-130K.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.36416-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36416v3",
+      "page": 4,
+      "version": 3,
+      "width": 1086,
+      "height": 458,
+      "crop": [
+        16.0,
+        21.6,
+        558.97,
+        250.4
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.34687": {
+    "arxivId": "2609.34687",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34687",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34687v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34687-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4 Benchmark construction pipeline.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2609.34687-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34687v1",
+      "page": 5,
+      "version": 1,
+      "width": 494,
+      "height": 366,
+      "crop": [
+        71.92,
+        57.84,
+        318.24,
+        240.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.34969": {
+    "arxivId": "2609.34969",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34969",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34969v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34969-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of NavJev. ACVC compresses candidate observations into compact action-centric representations, DASM filters shared semantics and maintains discriminative action-specific evidence across navigation steps, and Jev performs efficient typed action selection.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.34969-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34969v1",
+      "page": 3,
+      "version": 1,
+      "width": 1036,
+      "height": 459,
+      "crop": [
+        50.18,
+        66.14,
+        567.75,
+        295.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.36012": {
+    "arxivId": "2609.36012",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.36012",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36012v1",
+      "version": 1,
+      "pageCount": 100,
+      "textPages": 100,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.36012-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Six learning horizons. S1 encodes control explicitly; S2 learns reusable policies. With neural parameters fixed at deployment, S3 adapts to interaction outcomes, while S4 infers task requirements from teaching. S5 improves how subsequent tasks are learned; S6 extends this process through validated knowledge exchange across embodiments.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.36012-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.36012v1",
+      "page": 1,
+      "version": 1,
+      "width": 876,
+      "height": 539,
+      "crop": [
+        78.2,
+        437.76,
+        515.84,
+        706.84
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.34347": {
+    "arxivId": "2609.34347",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34347",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34347v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34347-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Illustration of the proposed SAIL architecture. The DSAT encoder disentangles binaural audio into Mel-based acoustic tokens and IPD-based spatial tokens, while the Dual-Stream Q-Former uses dual-stream queries to extract spatial-audio tokens for each sound source. The resulting audio tokens are combined with text tokens and fed into the LoRA-adapted LLM for spatial audio-language reasoning.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.34347-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34347v1",
+      "page": 3,
+      "version": 1,
+      "width": 794,
+      "height": 588,
+      "crop": [
+        108.13,
+        50.83,
+        504.52,
+        344.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35047": {
+    "arxivId": "2609.35047",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35047",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35047v1",
+      "version": 1,
+      "pageCount": 34,
+      "textPages": 34,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35047-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Learning missing physics as code. Top: in Bridge, lifting one block of a glued pair also lifts its partner, which a base simulator without glue does not predict; the agent writes the glue into a simulator program, infers its parameters, and plans with it. The lift images and code are illustrative. Bottom: initial and final scenes from successful EMPIRIC test episodes in five simulated domains and on a real robot; each domain has mechanisms or parameters that the agent must learn.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35047-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35047v1",
+      "page": 2,
+      "version": 1,
+      "width": 817,
+      "height": 501,
+      "crop": [
+        102.0,
+        75.86,
+        510.02,
+        325.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.34270": {
+    "arxivId": "2609.34270",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34270",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34270v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34270-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Overview of the proposed language-grounded Bayesian active learning framework. Given an ambiguous instruction and scene representation, an LLM proposes candidate user intents as STL task specifications with prior utility estimates. A grammar VAE maps these formulas into a continuous latent space, where a latent utility model (a Gaussian process in our implementation) is initialized from the LLM prior. An acquisition function contrasts the current best specification with an informative challenger, which may be an LLM candidate or a novel formula sampled directly in the latent space, and the contrast is converted into a clarification question. After each user response, the utility model is updated and the LLM regenerates the candidate set. After convergence, the inferred specification is decoded and passed to a formal planner to synthesize a feasible robot trajectory.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.34270-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34270v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 423,
+      "crop": [
+        48.0,
+        44.08,
+        563.98,
+        255.41
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.34707": {
+    "arxivId": "2609.34707",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.34707",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34707v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.34707-v1.text.json",
+      "extractedAt": "2026-10-21T13:29:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the SOR-Nav object-search workflow. RGB and depth observations update persistent 3D object clusters and a cluster decision graph in the autonomous semantic exploration system. The LLM-driven supervisor prioritizes confirmed target evidence; otherwise, its context gate determines whether to continue exploration or relocate to a graph-reachable frontier cluster. All outcomes share the same mission executor, and subsequent observations and mission results close the loop.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.34707-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34707v1",
+      "page": 3,
+      "version": 1,
+      "width": 832,
+      "height": 389,
+      "crop": [
+        98.4,
+        44.08,
+        513.53,
+        238.34
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35955": {
+    "arxivId": "2609.35955",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35955",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35955v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35955-v1.text.json",
+      "extractedAt": "2026-10-21T13:30:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: CoRISP overview. (a) Role-conditioned recurrent updates. (b) Role-preserving aggrega- tion over event, pair, and shared-entity neighborhoods. (c) Exact set normalization with cardinality and role-multiplicity potentials. Marginals score individual relations; joint probabilities score com- plete assignments. The displayed assignments illustrate the output structure.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35955-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35955v1",
+      "page": 5,
+      "version": 1,
+      "width": 816,
+      "height": 334,
+      "crop": [
+        102.0,
+        75.86,
+        509.99,
+        242.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35375": {
+    "arxivId": "2609.35375",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35375",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35375v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35375-v1.text.json",
+      "extractedAt": "2026-10-21T13:30:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Overview of the P2P-T framework. P2P-T leverages in-the-wild human demonstrations (both egocentric and allocentric) to efficiently teach robots complex tool manipulation. Raw video data is first processed through an automated pipeline utilizing foundation models (Grounded-SAM [1], SAM3D [2], and FoundationPose [3]). Stage 1 focuses on pose-aware world model pretraining to extract stable, object-centric pose priors from daily unstructured environments. Stage 2 integrates these learned priors into a low-level execution policy for robot fine-tuning and deployment, successfully bridging the human-robot morphological gap without requiring costly aligned data.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35375-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35375v1",
+      "page": 1,
+      "version": 1,
+      "width": 1033,
+      "height": 492,
+      "crop": [
+        50.29,
+        200.0,
+        566.24,
+        445.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.35479": {
+    "arxivId": "2609.35479",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.35479",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35479v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.35479-v1.text.json",
+      "extractedAt": "2026-10-21T13:30:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: The HOT framework. (a) A task specifies a scene and a desired physical outcome. (b) Tools are composed by a constructive grammar from a fixed handle and a library of searchable primitives. (c) Equivalent construction states are canonicalized into a directed acyclic graph (DAG) that aggregates their behavioral evidence. In Stage 1, BASS selects a promising partial state by Bayesian lookahead (d), samples a complete structure (e), evaluates it under action-only optimization (f), and propagates the achieved milestones back as behavioral feedback (g). Stage 2 co-refines the shape and action of each retained structure (h).",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.35479-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35479v1",
+      "page": 3,
+      "version": 1,
+      "width": 1097,
+      "height": 400,
+      "crop": [
+        16.0,
+        43.94,
+        564.01,
+        243.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
