@@ -10,16 +10,16 @@
 
 <!-- ATLAS:START -->
 
-**精选 53 条 · 论文 47 篇 · 项目 5 个 · 观点 1 篇**
+**精选 54 条 · 论文 48 篇 · 项目 5 个 · 观点 1 篇**
 
-来源核对 52 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 328 篇
+来源核对 53 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 327 篇
 
 ## 目录
 
 - [近期论文](#recent-papers)
   - [推理与规划 · 3](#recent-planning)
   - [记忆与知识 · 3](#recent-memory)
-  - [技能与代码 · 4](#recent-code)
+  - [技能与代码 · 5](#recent-code)
   - [自我改进 · 1](#recent-learning)
   - [基准与评测 · 4](#recent-evaluation)
 - [重点补充 · 早期首发](#selected-earlier)
@@ -74,6 +74,11 @@
 <a id="recent-code"></a>
 
 ### 技能与代码
+
+- **[HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents](https://arxiv.org/abs/2610.23479v2)**<br>
+  2026-10-16 · 技能与代码 · 自我改进 · 监控与恢复 · 基准与评测<br>
+  在线 Coding Agent 通过薄命令行接口操作机器人，开发时由另一个 Agent 把失败修成可复用工具；用 RGB 几何测量支撑动作，在 RoboDojo 官方隐藏种子评测中取得 46.85% 加权成功率。<br>
+  [![arXiv: 2610.23479](https://img.shields.io/badge/arXiv-2610.23479-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.23479v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HexaFuture/HexaShell) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://hexafuture.ai/blog/hexashell/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2610.23479)
 
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)**<br>
   2026-10-08 · 技能与代码 · 自我改进 · 监控与恢复 · 推理与规划<br>

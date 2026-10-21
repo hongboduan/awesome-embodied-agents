@@ -7632,21 +7632,16 @@
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1. HexaShell turns robot failures into reusable tools. A coding agent operates a robot with two arms through a thin harness and sees RGB images only. After a failure, an optimizer agent diagnoses the episode and writes or fixes tools that use only what the robot observes. Both agents are Codex with GPT-6-Astra. Bottom: where tools help (rigid, planar, tool use, clutter) and where they fall short (cloth).",
-      "figureLabel": "Figure 1",
-      "selection": "automatic",
-      "path": "assets/papers/2610.23479-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23479v2",
-      "page": 1,
+      "path": "assets/papers/hexashell-v2-framework.png",
+      "figureLabel": "Figure 1 · 失败到可复用工具",
       "version": 2,
-      "width": 966,
-      "height": 1084,
-      "crop": [
-        64.79,
-        120.82,
-        547.22,
-        662.47
-      ]
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v2",
+      "originalUrl": "https://arxiv.org/html/2610.23479v2/HexaShell_Figure1.png",
+      "page": 1,
+      "selection": "manual-original",
+      "width": 2037,
+      "height": 679,
+      "caption": "论文 v2 Figure 1 原图：在线 acting agent 通过薄接口执行，开发时 optimizer 将失败修成工具；最终冻结工具再评测。图像归原作者。"
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {

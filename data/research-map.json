@@ -1,17 +1,29 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-21",
   "routes": [
     {
       "id": "code-policy",
       "title": "代码策略：谁决定下一步？",
       "kicker": "决策边界 · 可执行工具 · 显式状态",
       "question": "把动作写成代码之后，哪些决策仍需要模型在线完成？",
-      "summary": "从 URAI 的完整动作工具、RobotUse 的视觉动作接口，到 COAP 的固定程序，关键差异是模型何时接管，以及状态如何被测量和更新。RoboRSI 与 PhysEvo 进一步把可执行技能和接口变成可修订的对象。这里按设计问题组织阅读，不表示论文之间存在继承关系。",
+      "summary": "从 URAI 的完整动作工具、RobotUse 的视觉动作接口，到 COAP 的固定程序，关键差异是模型何时接管。HexaShell 把在线 acting agent 与开发时工具修复分开：工具冻结后，模型仍参与每回合决策。RoboRSI 与 PhysEvo 则扩展可修订的技能和接口。这里按设计问题组织，不表示论文之间存在继承关系。",
       "readingQuestion": "逐项记录：模型调用发生在哪里？一条工具调用包含多长动作？失败由谁发现和处理？开发成本是否计入？MoCaP 为新发现候选，尚待全文精读。",
-      "paperIds": ["2609.39018", "2610.04929", "2610.08995", "2610.12369", "2610.12424"],
-      "backgroundIds": ["2209.07753", "2607.00272"],
-      "frontierIds": ["2610.20998"]
+      "paperIds": [
+        "2609.39018",
+        "2610.04929",
+        "2610.08995",
+        "2610.12369",
+        "2610.12424",
+        "2610.23479"
+      ],
+      "backgroundIds": [
+        "2209.07753",
+        "2607.00272"
+      ],
+      "frontierIds": [
+        "2610.20998"
+      ]
     },
     {
       "id": "agent-policy",
@@ -40,11 +52,24 @@
       "title": "自我改进：经验究竟改了什么？",
       "kicker": "技能修订 · 运行框架 · 验证与继承",
       "question": "一次成功经验怎样转化为可复用的改进，又怎样证明没有破坏已有能力？",
-      "summary": "ASPIRE 把经验证的修复沉淀为可检索技能；PhysEvo 与 EMHO 修改执行框架；RoboRSI 组织技能修订；COAP 积累固定代码库；PhysicalRSI 管理候选版本。ENPIRE 提供真机自动实验参照。ASPIRE 的 6 月论文与 10 月项目更新分开标注。",
+      "summary": "ASPIRE 把修复沉淀为可检索技能；HexaShell 从失败轨迹修订可执行工具，官方测试冻结工具、保留在线 Agent；PhysEvo 与 EMHO 修改执行框架；RoboRSI 组织技能修订；COAP 积累固定代码库；PhysicalRSI 管理版本。ENPIRE 提供真机自动实验参照。ASPIRE 的 6 月论文与 10 月项目更新分开标注。",
       "readingQuestion": "检查改进载体、训练与测试隔离、人类参与、复位和判分来源，并同时计算机器人时间与模型调用成本。AdaRSI、EmbodiedEvo 目前仅列为待精读前沿，不据摘要建立技术继承关系。",
-      "paperIds": ["2607.00272", "physicalrsi", "2610.08432", "2610.08995", "2610.12369", "2610.12424"],
-      "backgroundIds": ["2606.19980"],
-      "frontierIds": ["2610.20474", "2610.18867"]
+      "paperIds": [
+        "2607.00272",
+        "physicalrsi",
+        "2610.08432",
+        "2610.08995",
+        "2610.12369",
+        "2610.12424",
+        "2610.23479"
+      ],
+      "backgroundIds": [
+        "2606.19980"
+      ],
+      "frontierIds": [
+        "2610.20474",
+        "2610.18867"
+      ]
     },
     {
       "id": "capability-evaluation",
@@ -63,8 +88,8 @@
       "id": "resource-robodojo",
       "kind": "benchmark",
       "name": "RoboDojo",
-      "summary": "覆盖记忆、精度、开放指令、泛化与长程操作的机器人基准。使用同一基准不代表使用同一任务子集、试验次数或预算。",
-      "url": "https://arxiv.org/abs/2607.04434"
+      "summary": "覆盖记忆、精度、开放指令、泛化与长程操作的基准；链接可查看官方榜单及 News。2026-10-20 新闻收录 HexaShell-Preview。仿真与真机榜、成功率与进度分，以及任务范围和种子预算须分别核对。",
+      "url": "https://robodojo-benchmark.com/leaderboard#news"
     },
     {
       "id": "resource-pi05",
@@ -348,6 +373,90 @@
       "explanation": "RCI 分析双臂真机能力与通用、空间基准的对应关系；RobotWorld 扩展仿真任务和机器人形态，并诊断闭环执行。两者互补，但任务、指标与预算不同，不能直接比较分数。",
       "sources": [{"label": "RCI · 分析与方法", "url": "https://robocurve.org/rci/"}, {"label": "RobotWorld · 任务覆盖与评测协议", "url": "https://robotworldai.github.io/"}],
       "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "hexashell-evaluated-robodojo",
+      "source": "2610.23479",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "官方隐藏种子评测",
+      "explanation": "RoboDojo 官方在隐藏种子上评测 42 项任务，每项 50 回合；总成功率 46.85%、进度分 53.18，按五类任务等权汇总。2026-10-20 News 名称为 HexaShell-Preview，属于仿真 Agent 榜；论文 v2 写作 46.9% / 53.2。",
+      "sources": [
+        {
+          "label": "HexaShell · v2 §3–4",
+          "url": "https://arxiv.org/html/2610.23479v2"
+        },
+        {
+          "label": "RoboDojo · 2026-10-20 News",
+          "url": "https://robodojo-benchmark.com/leaderboard#news"
+        }
+      ],
+      "checkedAt": "2026-10-21"
+    },
+    {
+      "id": "compare-hexashell-coap",
+      "source": "2610.23479",
+      "target": "2610.12369",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：冻结工具还是冻结策略",
+      "explanation": "HexaShell 官方测试冻结工具并关闭 optimizer，但 acting agent 仍在线看图和选择动作；COAP 执行时只运行固定程序。两者都积累代码，却有不同模型调用边界；官方隐藏种子成绩与论文自报协议不能直接排名。",
+      "sources": [
+        {
+          "label": "HexaShell · v2 §3–4",
+          "url": "https://arxiv.org/html/2610.23479v2"
+        },
+        {
+          "label": "COAP · 第 3–4 节",
+          "url": "https://arxiv.org/html/2610.12369v1"
+        }
+      ],
+      "checkedAt": "2026-10-21"
+    },
+    {
+      "id": "compare-hexashell-aspire",
+      "source": "2610.23479",
+      "target": "2607.00272",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：可执行工具与修复技能",
+      "explanation": "HexaShell 将失败修复固化为工具代码与笔记；ASPIRE 将程序调试经验提炼为可检索技能，辅助后续任务。比较改进载体、验证布局与跨任务复用；这是阅读对照，不表示直接继承。",
+      "sources": [
+        {
+          "label": "HexaShell · v2 §3–4",
+          "url": "https://arxiv.org/html/2610.23479v2"
+        },
+        {
+          "label": "ASPIRE · 技能发现与程序修复",
+          "url": "https://arxiv.org/html/2607.00272v1"
+        }
+      ],
+      "checkedAt": "2026-10-21"
+    },
+    {
+      "id": "compare-hexashell-urai",
+      "source": "2610.23479",
+      "target": "2609.39018",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：动作封装与工具修复",
+      "explanation": "URAI 研究完整动作工具与模型调用的分工；HexaShell 将工具作为持续修订对象，并检查 RGB 几何测量和精细接触的边界。两项来自相关团队的工作可以连读，但这里不声称代码或方法直接继承。",
+      "sources": [
+        {
+          "label": "HexaShell · v2 §3–4",
+          "url": "https://arxiv.org/html/2610.23479v2"
+        },
+        {
+          "label": "URAI · 工具与执行接口",
+          "url": "https://arxiv.org/html/2609.39018v1#S3"
+        },
+        {
+          "label": "HexaFuture · Earlier work",
+          "url": "https://hexafuture.ai/blog/hexashell/"
+        }
+      ],
+      "checkedAt": "2026-10-21"
     }
   ],
   "teams": [
@@ -385,11 +494,27 @@
     },
     {
       "id": "hexafuture-urai",
-      "name": "Hexafuture 及 URAI 合作团队",
-      "summary": "URAI 署名包括 Hexafuture、北京大学、北京理工大学和清华大学。研究线是可复用机器人工具、动作调用粒度与反馈驱动的模型决策。",
-      "workIds": ["2609.39018"],
-      "sources": [{"label": "URAI · 作者机构与方法", "url": "https://arxiv.org/html/2609.39018v1"}],
-      "checkedAt": "2026-10-16"
+      "name": "HexaFuture 及合作团队",
+      "summary": "收录 HexaFuture 的 URAI 与 HexaShell 研究线：从可复用动作工具，到失败驱动的工具修复与 RGB 几何测量。URAI 还署名北京大学、北京理工大学和清华大学；此处按各篇来源分别记录合作关系，不把两篇论文的机构一概合并。",
+      "workIds": [
+        "2609.39018",
+        "2610.23479"
+      ],
+      "sources": [
+        {
+          "label": "URAI · 作者机构与方法",
+          "url": "https://arxiv.org/html/2609.39018v1"
+        },
+        {
+          "label": "HexaShell · 官方博客与研究方向",
+          "url": "https://hexafuture.ai/blog/hexashell/"
+        },
+        {
+          "label": "HexaShell · 作者与方法",
+          "url": "https://arxiv.org/html/2610.23479v2"
+        }
+      ],
+      "checkedAt": "2026-10-21"
     },
     {
       "id": "nvidia-cmu-berkeley-enpire",

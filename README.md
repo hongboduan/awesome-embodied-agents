@@ -10,16 +10,16 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**53 curated entries · 47 papers · 5 projects · 1 perspective**
+**54 curated entries · 48 papers · 5 projects · 1 perspective**
 
-52 source-checked · 1 full-review · 0 AI drafts · 328 discovery candidates
+53 source-checked · 1 full-review · 0 AI drafts · 327 discovery candidates
 
 ## Contents
 
 - [Recent papers](#recent-papers)
   - [Reasoning & Planning · 3](#recent-planning)
   - [Memory & Knowledge · 3](#recent-memory)
-  - [Skills & Code · 4](#recent-code)
+  - [Skills & Code · 5](#recent-code)
   - [Self-improvement · 1](#recent-learning)
   - [Benchmarks & Evaluation · 4](#recent-evaluation)
 - [Selected earlier foundations](#selected-earlier)
@@ -74,6 +74,11 @@ Each paper appears once under its primary topic; secondary topics remain visible
 <a id="recent-code"></a>
 
 ### Skills & Code
+
+- **[HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents](https://arxiv.org/abs/2610.23479v2)**<br>
+  2026-10-16 · Skills & Code · Self-improvement · Monitoring & Recovery · Benchmarks & Evaluation<br>
+  An online coding agent operates a robot through a thin command-line harness. Between development episodes, an optimizer turns failures into reusable RGB geometry and manipulation tools; frozen tools reach 46.85% weighted success in RoboDojo's official hidden-seed evaluation.<br>
+  [![arXiv: 2610.23479](https://img.shields.io/badge/arXiv-2610.23479-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.23479v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HexaFuture/HexaShell) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://hexafuture.ai/blog/hexashell/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2610.23479)
 
 - **[RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments](https://arxiv.org/abs/2610.12424v1)**<br>
   2026-10-08 · Skills & Code · Self-improvement · Monitoring & Recovery · Reasoning & Planning<br>
