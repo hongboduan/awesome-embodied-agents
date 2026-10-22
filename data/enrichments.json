@@ -8003,27 +8003,27 @@
   },
   "2607.00272": {
     "arxivId": "2607.00272",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2607.00272",
-      "sourceUrl": "https://arxiv.org/pdf/2607.00272v1",
-      "version": 1,
-      "pageCount": 43,
-      "textPages": 43,
+      "sourceUrl": "https://arxiv.org/pdf/2607.00272v2",
+      "version": 2,
+      "pageCount": 41,
+      "textPages": 41,
       "textTruncated": false,
-      "textPath": ".cache/papers/2607.00272-v1.text.json",
-      "extractedAt": "2026-10-19T13:38:58Z"
+      "textPath": ".cache/papers/2607.00272-v2.text.json",
+      "extractedAt": "2026-10-22T04:59:03Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: Aspire system overview. A coordinator spawns an actor agent (coding agent) per task, enabling parallel learning across tasks. Each actor refines and validates robot programs through iterative debugging with the robot execution engine, which exposes per-primitive multimodal traces for failure attribution and repair. Evolutionary search samples diverse candidate programs (𝜋0, . . . , 𝜋𝑘), sends each through the engine, and conditions the next generation (𝜋′",
+      "caption": "Figure 1: ASPIRE system overview. A coordinator spawns an actor agent (coding agent) per task, enabling parallel learning across tasks. Each actor refines and validates robot programs through iterative debugging with the robot execution engine, which exposes per-primitive multimodal traces for failure attribution and repair. Evolutionary search samples diverse candidate programs (𝜋0, . . . , 𝜋𝑘), sends each through the engine, and conditions the next generation (𝜋′",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2607.00272-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2607.00272v1",
+      "path": "assets/papers/2607.00272-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2607.00272v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 971,
       "height": 599,
       "crop": [
@@ -8036,7 +8036,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "editorial-preserved",
-      "version": 1,
+      "version": 2,
       "message": "人工内容保留。"
     }
   },
@@ -8705,27 +8705,27 @@
   },
   "2610.25600": {
     "arxivId": "2610.25600",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.25600",
-      "sourceUrl": "https://arxiv.org/pdf/2610.25600v1",
-      "version": 1,
-      "pageCount": 9,
-      "textPages": 9,
+      "sourceUrl": "https://arxiv.org/pdf/2610.25600v2",
+      "version": 2,
+      "pageCount": 8,
+      "textPages": 8,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.25600-v1.text.json",
-      "extractedAt": "2026-10-20T04:59:38Z"
+      "textPath": ".cache/papers/2610.25600-v2.text.json",
+      "extractedAt": "2026-10-22T04:59:29Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1: Overview of VQ-WM. The initial (green) and goal (red) images are encoded into latent states and vector-quantized ac- cording to controller reachability, so that each vector-quantized state serves as a target the controller is expected to reach. The planner performs discrete search over these vector-quantized states using a discrete latent predictor. A continuous controller then drives the robot toward each planned target in turn, using visual feedback to correct deviations along the way.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.25600-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.25600v1",
+      "path": "assets/papers/2610.25600-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25600v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 528,
       "height": 389,
       "crop": [
@@ -8738,7 +8738,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -10137,6 +10137,396 @@
         43.94,
         564.01,
         243.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30108": {
+    "arxivId": "2610.30108",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30108",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30108v1",
+      "version": 1,
+      "pageCount": 50,
+      "textPages": 50,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30108-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:05Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Chronological overview of representative work. Robotic systems progress from visual foresight and task planning to generalist policies, world models, and multi-site evaluation; multimodal agents from tool-augmented reasoning to GUI grounding and computer-use benchmarks. The middle trunk appears in 2022 as language-model planners meet robot skills and keeps widening.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30108-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30108v1",
+      "page": 2,
+      "version": 1,
+      "width": 904,
+      "height": 535,
+      "crop": [
+        80.4,
+        68.05,
+        531.52,
+        335.35
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.29560": {
+    "arxivId": "2610.29560",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.29560",
+      "sourceUrl": "https://arxiv.org/pdf/2610.29560v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.29560-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: From planner to agent for history-dependent manipulation. Top: Similar observations can require different decisions depending on task progress. (a) Memory-augmented policies equip VLA models with memory mechanisms to retain and use historical information. (b) Hierarchical planning separates high-level planning from low-level execution. (c) SERA uses an editable harness to organize the VLM as an agent that maintains task context from observation and interaction his- tory. Execution-driven self-evolution refines the harness using rollout feedback. The dashed arrow denotes the selected harness, fixed before testing.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.29560-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.29560v1",
+      "page": 2,
+      "version": 1,
+      "width": 778,
+      "height": 511,
+      "crop": [
+        111.9,
+        75.87,
+        500.1,
+        330.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30136": {
+    "arxivId": "2610.30136",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30136",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30136v1",
+      "version": 1,
+      "pageCount": 50,
+      "textPages": 50,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30136-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of AW-0. AW-0 is an agentic world action model that unifies code-based planning with world action modeling by jointly denoising skill programs, future video, and control trajectories. An agentic pipeline discovers reusable skills and annotates robot and human demonstra- tions with programs for both pretraining and downstream fine-tuning. The resulting policy achieves strong performance on both parallel-gripper and dexterous-hand tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30136-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30136v1",
+      "page": 1,
+      "version": 1,
+      "width": 816,
+      "height": 398,
+      "crop": [
+        102.2,
+        235.71,
+        509.86,
+        434.27
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30043": {
+    "arxivId": "2610.30043",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30043",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30043v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30043-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Robot execution and human interaction in a changing world. (1) Spatially grounded NPC communication depends on human availability and interaction range. (2) Policy-driven grasping uses contact feedback to verify a successful hold. (3) Evolving task requirements, such as recipient changes, trigger replanning. (4) Physical motion is governed by contact, friction, and balance, making collisions and falls part of execution evaluation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30043-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30043v1",
+      "page": 1,
+      "version": 1,
+      "width": 1060,
+      "height": 492,
+      "crop": [
+        45.07,
+        415.99,
+        574.68,
+        661.04
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.28698": {
+    "arxivId": "2610.28698",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.28698",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28698v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.28698-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. One physical world versus diverse virtual worlds. Left: Agents learn from varied physical scenes sharing common dynamics, where they can scale and generalize with broader experience (Wang et al., 2026a). Right: Agents play diverse games with varying dynamics. We want to investigate the question that whether continued pre-training scales and generalizes in virtual worlds.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.28698-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28698v1",
+      "page": 2,
+      "version": 1,
+      "width": 965,
+      "height": 463,
+      "crop": [
+        65.0,
+        16.0,
+        547.17,
+        247.01
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30051": {
+    "arxivId": "2610.30051",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30051",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30051v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30051-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:20Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of our closed-loop manipulation framework using frontier AI models.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30051-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30051v1",
+      "page": 3,
+      "version": 1,
+      "width": 960,
+      "height": 363,
+      "crop": [
+        66.0,
+        56.04,
+        545.99,
+        237.3
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.29936": {
+    "arxivId": "2610.29936",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.29936",
+      "sourceUrl": "https://arxiv.org/pdf/2610.29936v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.29936-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: DewHand architecture. Frozen encoders provide C = (Cgeo, Chand). At flow time τ, the model first applies spatio-temporal attention within each stream, then joint attention across the global motion, local hand, and condition streams at each frame. The Multimodal Diffusion Transformer (MMDiT) denoises xglobal",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.29936-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.29936v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 347,
+      "crop": [
+        102.0,
+        75.86,
+        509.98,
+        248.96
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.28925": {
+    "arxivId": "2610.28925",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.28925",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28925v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.28925-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:26Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Per-dimension preference sweep. Each panel shows the normalized reward achieved for one style dimension as its preference weight increases, mean ± std shading over 3 training seeds.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.28925-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28925v1",
+      "page": 6,
+      "version": 1,
+      "width": 816,
+      "height": 174,
+      "crop": [
+        102.0,
+        65.8,
+        509.99,
+        152.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.33218": {
+    "arxivId": "2609.33218",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.33218",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33218v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.33218-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:33Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of Scope-WM. Scope-WM scopes computation at the token, dynamics, and planning levels. At the token level, the action-conditioned DRS selector identifies a compact set of prediction-relevant foreground tokens from the encoded visual state. At the dynamics level, the sparse world-model predictor applies full dynamics prediction to the selected tokens, while FDBU uses a summarized foreground-dynamics context to update the remaining background tokens through a lightweight gated residual update, producing the complete latent rollout. At the planning level, EB-CEM performs test-time action optimization by retaining and reusing high-quality elite action sequences across MPC steps. Candidate action sequences are evaluated by a planning objective that compares the predicted latent rollout with the goal latent encoded by the frozen visual encoder.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.33218-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33218v1",
+      "page": 4,
+      "version": 1,
+      "width": 1012,
+      "height": 409,
+      "crop": [
+        53.04,
+        48.0,
+        558.96,
+        252.22
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.33165": {
+    "arxivId": "2609.33165",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.33165",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33165v1",
+      "version": 1,
+      "pageCount": 6,
+      "textPages": 6,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.33165-v1.text.json",
+      "extractedAt": "2026-10-22T04:59:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Illustration of how animal behavior remains responsive to the broader physical and social context even while pursuing an ongoing activity. In the left scene, the agent follows an externally directed activity while continuing to attend and respond to surrounding environmental stimuli. In the right scene, behavior is not determined solely by the immediate instruction: the agent may orient, pause, engage, or disengage and respond to other relevant physical and social cues. We explore the idea of an ethological behavioral substrate that continually coordinates behavior as conditions and competing demands change over time.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.33165-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33165v1",
+      "page": 1,
+      "version": 1,
+      "width": 1034,
+      "height": 248,
+      "crop": [
+        47.8,
+        198.88,
+        564.2,
+        322.27
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

@@ -1,5 +1,110 @@
 [
   {
+    "id": "discovered-2610.28698",
+    "paperId": "2610.28698",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.28698v1"
+  },
+  {
+    "id": "version-2607.00272-v2",
+    "paperId": "2607.00272",
+    "type": "version",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2607.00272v2"
+  },
+  {
+    "id": "version-2610.25600-v2",
+    "paperId": "2610.25600",
+    "type": "version",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.25600v2"
+  },
+  {
+    "id": "discovered-2610.28925",
+    "paperId": "2610.28925",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "One Policy, Many Styles: Where to Aggregate Preferences for Steerable Humanoid Control?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.28925v1"
+  },
+  {
+    "id": "version-2609.29166-v2",
+    "paperId": "2609.29166",
+    "type": "version",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "HarnessPAI: An Evolving Harness for Physical AI",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.29166v2"
+  },
+  {
+    "id": "discovered-2610.29560",
+    "paperId": "2610.29560",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.29560v1"
+  },
+  {
+    "id": "discovered-2610.29936",
+    "paperId": "2610.29936",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.29936v1"
+  },
+  {
+    "id": "discovered-2610.30043",
+    "paperId": "2610.30043",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30043v1"
+  },
+  {
+    "id": "discovered-2610.30051",
+    "paperId": "2610.30051",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30051v1"
+  },
+  {
+    "id": "discovered-2610.30108",
+    "paperId": "2610.30108",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30108v1"
+  },
+  {
+    "id": "discovered-2610.30136",
+    "paperId": "2610.30136",
+    "type": "discovered",
+    "date": "2026-10-22T04:58:34Z",
+    "title": "Agentic World Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30136v1"
+  },
+  {
     "id": "version-2610.23271-v3",
     "paperId": "2610.23271",
     "type": "version",
