@@ -1,13 +1,12 @@
 {
-  "mode": "error",
+  "mode": "active",
   "scheduleEnabled": true,
-  "lastSuccess": "2026-10-22T04:58:34Z",
-  "lastAttempt": "2026-10-23T04:59:55Z",
-  "message": "本次抓取失败，保留已有论文数据；等待下次重试。",
-  "fetched": 401,
+  "lastSuccess": "2026-10-23T10:22:57Z",
+  "lastAttempt": "2026-10-23T10:22:57Z",
+  "message": "最近发现 12 篇候选，记录 3 次版本变化。",
+  "fetched": 414,
   "discoverySince": "2026-09-01",
   "discoveryQuery": "(cat:cs.RO OR cat:cs.AI OR cat:cs.CV) AND (all:\"embodied agent\" OR all:\"robot agent\" OR all:\"robotic agent\" OR all:\"agentic robot\" OR all:\"robot planning\" OR all:\"robot reasoning\" OR all:\"code as policies\" OR all:\"embodied memory\" OR all:\"robot self-improvement\" OR (all:\"robot\" AND (all:\"GPT-6\" OR all:\"Astra\" OR all:\"in-context learning\" OR all:\"tool use\")))",
-  "newCandidates": 8,
-  "versionChanges": 3,
-  "error": "HTTPError: HTTP Error 429: Unknown Error"
+  "newCandidates": 12,
+  "versionChanges": 3
 }

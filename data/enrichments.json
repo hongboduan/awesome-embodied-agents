@@ -1412,27 +1412,27 @@
   },
   "2609.39304": {
     "arxivId": "2609.39304",
-    "version": 3,
+    "version": 4,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.39304",
-      "sourceUrl": "https://arxiv.org/pdf/2609.39304v3",
-      "version": 3,
-      "pageCount": 13,
-      "textPages": 13,
+      "sourceUrl": "https://arxiv.org/pdf/2609.39304v4",
+      "version": 4,
+      "pageCount": 15,
+      "textPages": 15,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.39304-v3.text.json",
-      "extractedAt": "2026-10-15T04:50:22Z"
+      "textPath": ".cache/papers/2609.39304-v4.text.json",
+      "extractedAt": "2026-10-23T10:23:40Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview. (a) The task agent is an unmodified coding agent that controls a robot through a visual interface; the agent’s harness is what we evolve. (b) Each round, an optimizer agent reads the full trajectories of B rollouts and proposes one bounded revision; under Champion–Challenger selection the revision is promoted only if it strictly beats the incumbent on the same fixed cases, whereas accepting every revision drifts downward within ten rounds (inset: training success at B = 100). (c) Held-out success of the evolved harness rises with the number of rollouts per round, from 47% at B = 5 to 67% at B = 100.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.39304-v3.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.39304v3",
+      "path": "assets/papers/2609.39304-v4.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.39304v4",
       "page": 2,
-      "version": 3,
+      "version": 4,
       "width": 948,
       "height": 249,
       "crop": [
@@ -1445,7 +1445,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 3,
+      "version": 4,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -8939,27 +8939,27 @@
   },
   "2610.28589": {
     "arxivId": "2610.28589",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.28589",
-      "sourceUrl": "https://arxiv.org/pdf/2610.28589v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.28589v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.28589-v1.text.json",
-      "extractedAt": "2026-10-21T04:58:18Z"
+      "textPath": ".cache/papers/2610.28589-v2.text.json",
+      "extractedAt": "2026-10-23T10:23:37Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of AgenticRoboRL. (a) Agentic robotics systems combine planners with robot harnesses for multi-turn interaction with the environment. (b) We post-train planners through SFT on successful trajectories followed by multi-turn RL. (c) On LIBERO-PRO, post-training improves a 9B planner’s success rate from 18.1% to 71.0%, approaching the 72.1% achieved by Codex (GPT-5.5)with memory. Mem denotes external memory.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.28589-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.28589v1",
+      "path": "assets/papers/2610.28589-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.28589v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 1127,
       "height": 641,
       "crop": [
@@ -8972,7 +8972,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -10258,9 +10258,9 @@
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "人工内容保留。"
     }
   },
   "2610.30043": {
@@ -10995,6 +10995,396 @@
         48.35,
         562.53,
         241.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.31162": {
+    "arxivId": "2610.31162",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.31162",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31162v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.31162-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 System overview of HiSTEVE, illustrating the agent harness mechanism.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.31162-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31162v1",
+      "page": 4,
+      "version": 1,
+      "width": 961,
+      "height": 386,
+      "crop": [
+        66.07,
+        68.67,
+        546.06,
+        261.34
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30587": {
+    "arxivId": "2610.30587",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30587",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30587v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30587-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: No fixed assignment of executors fits a whole task. The same rearrangement instance executed by (a) the local model only, (b) the cloud model only, and (c) CARE. By adapting the executor as interaction unfolds, CARE completes the task while retaining responsive execution.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30587-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30587v1",
+      "page": 1,
+      "version": 1,
+      "width": 552,
+      "height": 561,
+      "crop": [
+        293.76,
+        164.09,
+        569.03,
+        444.46
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.31494": {
+    "arxivId": "2610.31494",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.31494",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31494v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.31494-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. Dataset curation pipeline for AgentVQA. (1) Collect candidates across 23 datasets, task types, and input modalities spanning five agentic domains. (2) Standardize tasks as MCQs; Gemini 2.5 Pro proposes three hard negatives when needed. (3) Gemini and Claude flag ambiguity, annotation errors, and weak distractors, removing approximately 45% of candidates. (4) Human annotators review, edit, and repair the remaining samples, rejecting approximately 60% as ambiguous, incorrect, or too easy. (5) Verify exactly one correct answer and plausible, unambiguously incorrect hard negatives, then assemble 1,000 manually verified questions balanced across the five domains.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.31494-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31494v1",
+      "page": 4,
+      "version": 1,
+      "width": 1016,
+      "height": 219,
+      "crop": [
+        51.48,
+        61.14,
+        558.57,
+        170.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30478": {
+    "arxivId": "2610.30478",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30478",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30478v1",
+      "version": 1,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30478-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Where memory lives decides whether it transfers. Top: one representative episode per arm (final frame; the red cube is the left-arm target). A_ctrl_rat (the same-weights, no-retrieval control) and B_main (the full-teacher-behaviour distilled arm) both time out, while C_retrieval (the same A_ctrl_rat weights with an inference-time retrieval preamble) reaches the target. Over- laid is the live end-effector-to-target distance; each panel’s success rate (n/100) is the official episode- level rate, so a single rollout is one representative sample of 100, not the evidence itself. Episode selection: the early collect did not persist the environment seed, so the three panels are not the same seed; each is the episode nearest its arm’s median outcome (failures near the median failure, not extremes), with matched initial EE-to-target distance (≈20 cm; 19.2–20.3 cm for the three shown). Termination criteria (identical for all arms): a round is one VLM step + IK servo; success: the scored (left) arm is within 0.05 m of target; timeout: either 40 rounds elapse without reaching, or a plateau (5 consecutive rounds of no mean progress). Bottom: official success rate for all five arms. The four weight-substrate arms (grey) all sit near baseline; memory-in-context (C_retrieval, green) reaches the memory-teacher’s own 49.3% (dashed). An animated version is in the supple- mentary material.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30478-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30478v1",
+      "page": 10,
+      "version": 1,
+      "width": 961,
+      "height": 864,
+      "crop": [
+        66.0,
+        58.33,
+        546.01,
+        489.55
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.31427": {
+    "arxivId": "2610.31427",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.31427",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31427v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.31427-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: From VLA execution to experience-driven supervision. VLA-only execution generates actions from current observations. GPT-as-Policy adds GPT-6 Astra review at every action chunk. Using the same policy and reviewer, FastHarness skips redundant reviews as task experience accumulates and concentrates supervision on error recovery. Dots denote GPT reviews; the check mark indicates verified recovery, after which adaptive review resumes.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.31427-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31427v1",
+      "page": 2,
+      "version": 1,
+      "width": 932,
+      "height": 455,
+      "crop": [
+        64.87,
+        64.86,
+        530.41,
+        291.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.31432": {
+    "arxivId": "2610.31432",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.31432",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31432v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.31432-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of the proposed cross-session localization and navigation framework. Given depth Dt and odometry Ot inputs, the agent constructs a topometric graph using medial-axis decomposition and assigns geometric descriptors from local point clouds. Node correspondences M are estimated across reference graph Gref and current graph Gcur via graph matching. The correspondences are reused for both localization and navigation. The navigation policy combines the goal-directed score Sgoal with the frontier-based exploration score Sexplore to select a node as the next waypoint toward the goal position g of the cross-session navigation task.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.31432-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31432v1",
+      "page": 3,
+      "version": 1,
+      "width": 1084,
+      "height": 388,
+      "crop": [
+        28.53,
+        69.06,
+        570.23,
+        262.6
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.31540": {
+    "arxivId": "2610.31540",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.31540",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31540v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.31540-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. (a) Iterated Best Response, F = 7.5 + 10.0 = 17.5 s, vs. (b) Dispersive Tree Agreement, F = 8.0 + 5.5 = 13.5 s, where the total travel time F sums the arrival times of the blue and red robots.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.31540-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31540v1",
+      "page": 1,
+      "version": 1,
+      "width": 453,
+      "height": 516,
+      "crop": [
+        324.0,
+        160.05,
+        549.85,
+        417.72
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30607": {
+    "arxivId": "2610.30607",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30607",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30607v1",
+      "version": 1,
+      "pageCount": 62,
+      "textPages": 62,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30607-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Two robots, A and B, planned jointly among ellipsoidal obstacles; each obstacle and the other robot enter the program as a collision constraint (ellipses through the weighted norm of Appendix A2.1). Top: each robot’s path in its colour (A teal, B magenta), with both robots drawn at the time of the dark-grey A−B mark and a faded disc where each was earlier; red marks a collision. Bottom: robot A’s clearance to each coloured obstacle and the A−B clearance (dark grey) over time; below zero is a collision. (1) The direct (dashed) paths collide. (2) Checking the constraints at 8 sample times (open dots) misses collisions between them. (3) The final solid curves keep every clearance nonnegative on [0,1]; coloured dashed: an unrestored cost step; grey dashed: numerically refined alternatives, with cost relative to GlobMP’s.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30607-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30607v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 364,
+      "crop": [
+        102.0,
+        72.54,
+        510.0,
+        254.44
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30671": {
+    "arxivId": "2610.30671",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30671",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30671v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30671-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 5: Our framework for Collaborative Data Collection with a Human Verifier",
+      "figureLabel": "Figure 5",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30671-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30671v1",
+      "page": 5,
+      "version": 1,
+      "width": 529,
+      "height": 484,
+      "crop": [
+        307.2,
+        44.08,
+        571.19,
+        285.74
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.31275": {
+    "arxivId": "2610.31275",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.31275",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31275v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.31275-v1.text.json",
+      "extractedAt": "2026-10-23T10:23:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Predictions made by our model (→) and ground-truth actions (→) in four sample environments. The model has only ever seen priors comprised of mathematical abstractions, and never any robot data (sim or real). Average error is shown in each panel; the simulation environments use discrete unit actions (peak norm:",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.31275-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31275v1",
+      "page": 1,
+      "version": 1,
+      "width": 491,
+      "height": 271,
+      "crop": [
+        312.83,
+        150.95,
+        557.97,
+        285.89
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

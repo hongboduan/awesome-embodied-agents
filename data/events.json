@@ -1,5 +1,146 @@
 [
   {
+    "id": "version-2609.06114-v3",
+    "paperId": "2609.06114",
+    "type": "version",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2609.06114v3"
+  },
+  {
+    "id": "discovered-2610.30197",
+    "paperId": "2610.30197",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Alpha: Systematic Fault Injection and Robustness Evaluation for LLM-Driven Embodied Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30197v1"
+  },
+  {
+    "id": "version-2610.28589-v2",
+    "paperId": "2610.28589",
+    "type": "version",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.28589v2"
+  },
+  {
+    "id": "discovered-2610.30478",
+    "paperId": "2610.30478",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Externalise the Memory: A Pre-Registered Study of Where an Embodied Agent's Experience Should Live",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30478v1"
+  },
+  {
+    "id": "discovered-2610.30587",
+    "paperId": "2610.30587",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Know When to Escalate: Critic-Guided Adaptive Execution for Cloud-Local Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30587v1"
+  },
+  {
+    "id": "discovered-2610.30607",
+    "paperId": "2610.30607",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Continuous-Time Motion Planning and Steering with Global Convergence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30607v1"
+  },
+  {
+    "id": "discovered-2610.30671",
+    "paperId": "2610.30671",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Co^2Gen: Collaboratively Generating Task Plans for Decentralized Multi-Robot and Human Collaboration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30671v1"
+  },
+  {
+    "id": "version-2609.39304-v4",
+    "paperId": "2609.39304",
+    "type": "version",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Scale and Selection: What Makes Automatic Harness Evolution Work for Visual-Interface Robot Agents",
+    "message": "arXiv 更新至 v4；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 3,
+    "toVersion": 4,
+    "url": "https://arxiv.org/abs/2609.39304v4"
+  },
+  {
+    "id": "discovered-2610.30988",
+    "paperId": "2610.30988",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.30988v1"
+  },
+  {
+    "id": "discovered-2610.31162",
+    "paperId": "2610.31162",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.31162v1"
+  },
+  {
+    "id": "discovered-2610.31275",
+    "paperId": "2610.31275",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Learning Robot Behavior Priors from Non-Robotic Synthetic Data",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.31275v1"
+  },
+  {
+    "id": "discovered-2610.31427",
+    "paperId": "2610.31427",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.31427v1"
+  },
+  {
+    "id": "discovered-2610.31432",
+    "paperId": "2610.31432",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "A Sparse Topometric Graph for Scalable Cross-Session Indoor Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.31432v1"
+  },
+  {
+    "id": "discovered-2610.31494",
+    "paperId": "2610.31494",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.31494v1"
+  },
+  {
+    "id": "discovered-2610.31540",
+    "paperId": "2610.31540",
+    "type": "discovered",
+    "date": "2026-10-23T10:22:57Z",
+    "title": "Dispersive Tree Agreements for Multi-Robot Coordination",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.31540v1"
+  },
+  {
     "id": "discovered-2610.28698",
     "paperId": "2610.28698",
     "type": "discovered",
