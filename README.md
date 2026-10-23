@@ -10,14 +10,14 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**54 curated entries · 48 papers · 5 projects · 1 perspective**
+**55 curated entries · 49 papers · 5 projects · 1 perspective**
 
-53 source-checked · 1 full-review · 0 AI drafts · 335 discovery candidates
+54 source-checked · 1 full-review · 0 AI drafts · 327 discovery candidates
 
 ## Contents
 
 - [Recent papers](#recent-papers)
-  - [Reasoning & Planning · 3](#recent-planning)
+  - [Reasoning & Planning · 4](#recent-planning)
   - [Memory & Knowledge · 3](#recent-memory)
   - [Skills & Code · 5](#recent-code)
   - [Self-improvement · 1](#recent-learning)
@@ -36,6 +36,11 @@ Each paper appears once under its primary topic; secondary topics remain visible
 <a id="recent-planning"></a>
 
 ### Reasoning & Planning
+
+- **[Agentic World Action Models](https://arxiv.org/abs/2610.30136v1)**<br>
+  2026-10-21 · Reasoning & Planning · Skills & Code · VLA & World Models · Self-improvement · Benchmarks & Evaluation<br>
+  AW-0 jointly generates skill programs, future video and robot actions, using agentic annotation and reusable skills to connect planning with predictive control.<br>
+  [![arXiv: 2610.30136](https://img.shields.io/badge/arXiv-2610.30136-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.30136v1) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZhuoyangLiu2005/agentic-wam) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://agentic-wam.github.io/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2610.30136)
 
 - **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)**<br>
   2026-10-09 · Reasoning & Planning · Monitoring & Recovery · Benchmarks & Evaluation · Memory & Knowledge<br>

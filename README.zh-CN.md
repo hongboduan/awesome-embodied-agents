@@ -10,14 +10,14 @@
 
 <!-- ATLAS:START -->
 
-**精选 54 条 · 论文 48 篇 · 项目 5 个 · 观点 1 篇**
+**精选 55 条 · 论文 49 篇 · 项目 5 个 · 观点 1 篇**
 
-来源核对 53 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 335 篇
+来源核对 54 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 327 篇
 
 ## 目录
 
 - [近期论文](#recent-papers)
-  - [推理与规划 · 3](#recent-planning)
+  - [推理与规划 · 4](#recent-planning)
   - [记忆与知识 · 3](#recent-memory)
   - [技能与代码 · 5](#recent-code)
   - [自我改进 · 1](#recent-learning)
@@ -36,6 +36,11 @@
 <a id="recent-planning"></a>
 
 ### 推理与规划
+
+- **[Agentic World Action Models](https://arxiv.org/abs/2610.30136v1)**<br>
+  2026-10-21 · 推理与规划 · 技能与代码 · VLA / WAM · 自我改进 · 基准与评测<br>
+  AW-0 把代码计划、未来视频预测和机器人动作放进同一个世界动作模型，用自动代码标注与技能库连接长程规划、物理预测和执行。<br>
+  [![arXiv: 2610.30136](https://img.shields.io/badge/arXiv-2610.30136-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.30136v1) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZhuoyangLiu2005/agentic-wam) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://agentic-wam.github.io/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2610.30136)
 
 - **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)**<br>
   2026-10-09 · 推理与规划 · 监控与恢复 · 基准与评测 · 记忆与知识<br>

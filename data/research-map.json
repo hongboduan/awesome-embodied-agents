@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-23",
   "routes": [
     {
       "id": "code-policy",
@@ -15,7 +15,8 @@
         "2610.08995",
         "2610.12369",
         "2610.12424",
-        "2610.23479"
+        "2610.23479",
+        "2610.30136"
       ],
       "backgroundIds": [
         "2209.07753",
@@ -32,8 +33,17 @@
       "question": "强推理模型怎样把一个已有动作策略变成可检查、可重试的执行工具？",
       "summary": "RPent 将冻结 VLA 与解析动作接入工具接口；RV-ICL 在 RPent 上增加分层示范查询；NavGPT-3 把这种分工带到导航与异步运行时。REMM 强调任务状态的修订。Pi API beta 则提供策略微调与推理服务，属于动作模型基础设施。",
       "readingQuestion": "先区分高层规划与低层执行，再检查动作返回什么证据、何时允许重试，以及模型冻结发生在哪个阶段。Pi API 的托管微调和 Agent 运行时调用属于不同问题。",
-      "paperIds": ["rpent", "2610.06843", "2610.10787", "2610.12710", "pi-api-beta"],
-      "backgroundIds": ["2608.29896"],
+      "paperIds": [
+        "rpent",
+        "2610.06843",
+        "2610.10787",
+        "2610.12710",
+        "pi-api-beta",
+        "2610.30136"
+      ],
+      "backgroundIds": [
+        "2608.29896"
+      ],
       "frontierIds": []
     },
     {
@@ -43,8 +53,18 @@
       "question": "旧观察什么时候仍然可信，什么时候必须撤回，并改变下一步动作？",
       "summary": "RoboICL 保存动作前后的证据，RV-ICL 按需查阅示范；REMM 处理物理变化后的依赖失效；BT-Agent 用局部检查及时中断执行。RobotUse 与 NavGPT-3 展示经验手册、路线状态与执行反馈的不同组织方式。",
       "readingQuestion": "区分历史记录、当前世界状态和跨回合经验：记忆是否会过期？谁验证完成条件？恢复发生在每个控制 tick、技能边界，还是下一次模型调用？",
-      "paperIds": ["2609.34261", "2610.06843", "2610.04929", "2610.10787", "2610.12710", "2610.13862"],
-      "backgroundIds": ["2411.17735", "2207.05608"],
+      "paperIds": [
+        "2609.34261",
+        "2610.06843",
+        "2610.04929",
+        "2610.10787",
+        "2610.12710",
+        "2610.13862"
+      ],
+      "backgroundIds": [
+        "2411.17735",
+        "2207.05608"
+      ],
       "frontierIds": []
     },
     {
@@ -78,7 +98,12 @@
       "question": "通用模型的空间推理与工具能力，能在多大程度上预测机器人完成任务？",
       "summary": "LIBERO-Agent 拆开感知、短程动作和长程组合；Embodied Agent Arena 检查局部能力与完整任务的差距；RobotWorld 扩展到多种机器人形态；RCI 用真机操作数据分析机器人能力与通用、空间基准的关系。阅读顺序围绕测量问题组织，不表示方法继承。",
       "readingQuestion": "先核对任务覆盖、控制接口、执行预算与有效试验，再区分部分进度、完整成功率和拟合能力指数。跨基准的相关关系是否经过留出预测与敏感性检查？仿真成绩能否对应真机表现？",
-      "paperIds": ["2609.39507", "2610.00854", "2610.10409", "robocurve-rci"],
+      "paperIds": [
+        "2609.39507",
+        "2610.00854",
+        "2610.10409",
+        "robocurve-rci"
+      ],
       "backgroundIds": [],
       "frontierIds": []
     }
@@ -118,6 +143,13 @@
       "name": "RoboDojo-RC Tier 1",
       "summary": "Robocurve 将 RoboDojo 任务改编为 YAM 双臂真机评测，并采用部分进度评分。RCI 使用六项中的五项；该协议与 RoboDojo 仿真任务集不可直接混用。",
       "url": "https://robocurve.org/opus-5-5-robodojo-rc-tier-1/"
+    },
+    {
+      "id": "resource-aw0",
+      "kind": "model",
+      "name": "AW-0",
+      "summary": "Agentic World Action Model：联合生成技能代码、未来视频与机器人动作，并通过技能库与混合执行连接规划和控制。",
+      "url": "https://agentic-wam.github.io/"
     }
   ],
   "relations": [
@@ -129,7 +161,12 @@
       "editorial": false,
       "label": "评测于 RoboDojo",
       "explanation": "COAP 在 RoboDojo 的 42 项双臂仿真任务上评测；执行时运行固定代码，开发期使用编码智能体。",
-      "sources": [{"label": "COAP · 第 4.1 节", "url": "https://arxiv.org/html/2610.12369v1#S4.SS1"}],
+      "sources": [
+        {
+          "label": "COAP · 第 4.1 节",
+          "url": "https://arxiv.org/html/2610.12369v1#S4.SS1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -140,7 +177,12 @@
       "editorial": false,
       "label": "评测于 RoboDojo 子集",
       "explanation": "URAI 采用 5 项任务、每条件每任务 5 个种子；不能把该子集结果直接与 42 任务总体成绩排序。",
-      "sources": [{"label": "URAI · 第 4.1 节与 Table 1", "url": "https://arxiv.org/html/2609.39018v1#S4.SS1"}],
+      "sources": [
+        {
+          "label": "URAI · 第 4.1 节与 Table 1",
+          "url": "https://arxiv.org/html/2609.39018v1#S4.SS1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -151,7 +193,12 @@
       "editorial": false,
       "label": "评测于 RoboDojo",
       "explanation": "PhysEvo 在 42 项任务上使用留出布局；论文同时报告能力维度等权与任务等权结果，两种均值不可混用。",
-      "sources": [{"label": "PhysEvo · 第 5 节", "url": "https://arxiv.org/html/2610.08995v1#S5"}],
+      "sources": [
+        {
+          "label": "PhysEvo · 第 5 节",
+          "url": "https://arxiv.org/html/2610.08995v1#S5"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -162,7 +209,12 @@
       "editorial": false,
       "label": "评测于 RoboDojo 子集",
       "explanation": "RoboICL 主报告覆盖 30 项任务；开放指令类别为零示范，其余类别使用一次示范，进度分数不等于完整成功率。",
-      "sources": [{"label": "RoboICL · 第 4 节", "url": "https://arxiv.org/html/2609.34261v1#S4"}],
+      "sources": [
+        {
+          "label": "RoboICL · 第 4 节",
+          "url": "https://arxiv.org/html/2609.34261v1#S4"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -173,7 +225,12 @@
       "editorial": false,
       "label": "基于 RPent 扩展示范接口",
       "explanation": "作者明确说明 RV-ICL 构建在 RPent 上：保留机器人工具执行，新增四层视频示范结构和只读查询工具。",
-      "sources": [{"label": "RV-ICL · 引言与 Figure 2", "url": "https://arxiv.org/html/2610.06843v1"}],
+      "sources": [
+        {
+          "label": "RV-ICL · 引言与 Figure 2",
+          "url": "https://arxiv.org/html/2610.06843v1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -184,7 +241,12 @@
       "editorial": false,
       "label": "LIBERO 后端使用 π0.5",
       "explanation": "官方架构文档明确 LIBERO 环境、π0.5 与感知服务分开运行；其他环境可采用不同动作模型。",
-      "sources": [{"label": "RPent · Architecture and Execution", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}],
+      "sources": [
+        {
+          "label": "RPent · Architecture and Execution",
+          "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -195,7 +257,12 @@
       "editorial": false,
       "label": "调用 NavGPT VLA 执行",
       "explanation": "Planner 可委派导航指令给 NavGPT VLA，并依据返回的路线图像、执行状态和观测继续检查或修复路线。",
-      "sources": [{"label": "NavGPT-3 · 第 3 节", "url": "https://arxiv.org/html/2610.10787v1#S3"}],
+      "sources": [
+        {
+          "label": "NavGPT-3 · 第 3 节",
+          "url": "https://arxiv.org/html/2610.10787v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -206,7 +273,12 @@
       "editorial": false,
       "label": "使用冻结 G0.5 执行",
       "explanation": "REMM 将当前原子指令发给冻结的 G0.5；显式证据、依赖失效与恢复调度发生在策略上层。",
-      "sources": [{"label": "REMM · Figure 2 与第 III 节", "url": "https://arxiv.org/html/2610.12710v1"}],
+      "sources": [
+        {
+          "label": "REMM · Figure 2 与第 III 节",
+          "url": "https://arxiv.org/html/2610.12710v1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -217,7 +289,16 @@
       "editorial": true,
       "label": "编辑对照：模型何时接管",
       "explanation": "COAP 执行时由固定程序持续决策；URAI 在完整工具调用之间把决策交还模型。对照的是控制分工，不能由不同协议的成绩判定路线优劣。",
-      "sources": [{"label": "COAP · 第 3 节", "url": "https://arxiv.org/html/2610.12369v1#S3"}, {"label": "URAI · 第 3 节", "url": "https://arxiv.org/html/2609.39018v1#S3"}],
+      "sources": [
+        {
+          "label": "COAP · 第 3 节",
+          "url": "https://arxiv.org/html/2610.12369v1#S3"
+        },
+        {
+          "label": "URAI · 第 3 节",
+          "url": "https://arxiv.org/html/2609.39018v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -228,7 +309,16 @@
       "editorial": true,
       "label": "编辑对照：动作与上下文粒度",
       "explanation": "URAI 把多阶段运动封装为一次调用；RobotUse 按子目标分配上下文并维护操作手册。两者适合一起检查一次模型决策承担多少工作。",
-      "sources": [{"label": "URAI · 工具与反馈", "url": "https://arxiv.org/html/2609.39018v1#S3"}, {"label": "RobotUse · 官方项目页", "url": "https://robotuse-team.github.io/"}],
+      "sources": [
+        {
+          "label": "URAI · 工具与反馈",
+          "url": "https://arxiv.org/html/2609.39018v1#S3"
+        },
+        {
+          "label": "RobotUse · 官方项目页",
+          "url": "https://robotuse-team.github.io/"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -239,7 +329,16 @@
       "editorial": true,
       "label": "编辑对照：操作与导航的执行接口",
       "explanation": "RPent 组合 VLA 原语与解析动作；NavGPT-3 将导航委派、路线复核和异步监控接入运行时。共同问题是执行如何把有效证据返回规划器。",
-      "sources": [{"label": "RPent · 官方架构", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}, {"label": "NavGPT-3 · 第 3 节", "url": "https://arxiv.org/html/2610.10787v1#S3"}],
+      "sources": [
+        {
+          "label": "RPent · 官方架构",
+          "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"
+        },
+        {
+          "label": "NavGPT-3 · 第 3 节",
+          "url": "https://arxiv.org/html/2610.10787v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -250,7 +349,16 @@
       "editorial": true,
       "label": "编辑对照：技能组合与局部恢复",
       "explanation": "EMERGE-Policy 用完成条件、分工子 Agent 和 Branch Stack 组织恢复；RPent 通过规划器、工具与记忆组织执行。这里比较架构选择，不表示 RPent 继承 EMERGE。",
-      "sources": [{"label": "EMERGE-Policy · 官方方法页", "url": "https://emerge-policy.github.io/EMERGE-Policy/"}, {"label": "RPent · 官方架构", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}],
+      "sources": [
+        {
+          "label": "EMERGE-Policy · 官方方法页",
+          "url": "https://emerge-policy.github.io/EMERGE-Policy/"
+        },
+        {
+          "label": "RPent · 官方架构",
+          "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -261,7 +369,16 @@
       "editorial": true,
       "label": "编辑对照：示范怎样进入决策",
       "explanation": "RoboICL 将示范与动作回执放进统一上下文，直接由冻结 VLM 生成动作；RV-ICL 按需查询分层视频，再调用冻结 VLA 与解析工具。名称相近不代表实现继承。",
-      "sources": [{"label": "RoboICL · 第 3 节", "url": "https://arxiv.org/html/2609.34261v1#S3"}, {"label": "RV-ICL · 第 3 节", "url": "https://arxiv.org/html/2610.06843v1#S3"}],
+      "sources": [
+        {
+          "label": "RoboICL · 第 3 节",
+          "url": "https://arxiv.org/html/2609.34261v1#S3"
+        },
+        {
+          "label": "RV-ICL · 第 3 节",
+          "url": "https://arxiv.org/html/2610.06843v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -272,7 +389,16 @@
       "editorial": true,
       "label": "编辑对照：保留历史与撤回状态",
       "explanation": "RoboICL 用时间锚点保留早期经历；REMM 显式撤回失去物理支持的任务条件。阅读时分别判断记住了什么，以及世界变化后改掉了什么。",
-      "sources": [{"label": "RoboICL · 有界锚点记忆", "url": "https://arxiv.org/html/2609.34261v1#S3"}, {"label": "REMM · 依赖修订与恢复", "url": "https://arxiv.org/html/2610.12710v1"}],
+      "sources": [
+        {
+          "label": "RoboICL · 有界锚点记忆",
+          "url": "https://arxiv.org/html/2609.34261v1#S3"
+        },
+        {
+          "label": "REMM · 依赖修订与恢复",
+          "url": "https://arxiv.org/html/2610.12710v1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -283,7 +409,16 @@
       "editorial": true,
       "label": "编辑对照：何时中断，何时修复",
       "explanation": "REMM 在技能边界根据失效依赖安排修复；BT-Agent 的局部 guard 每次 tick 检查执行条件，并把失败返回 Actor。两者处理不同时间尺度的恢复责任。",
-      "sources": [{"label": "REMM · 第 III 节", "url": "https://arxiv.org/html/2610.12710v1"}, {"label": "BT-Agent · 第 III 节", "url": "https://arxiv.org/html/2610.13862v1#S3"}],
+      "sources": [
+        {
+          "label": "REMM · 第 III 节",
+          "url": "https://arxiv.org/html/2610.12710v1"
+        },
+        {
+          "label": "BT-Agent · 第 III 节",
+          "url": "https://arxiv.org/html/2610.13862v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -294,7 +429,16 @@
       "editorial": true,
       "label": "编辑对照：技能修订与诊断工具修订",
       "explanation": "RoboRSI 用分层技能和角色评审管理修改；PhysEvo 允许元 Agent 修订执行工具及自己的诊断工具。比较重点是可修改范围、验证门槛和人类参与。",
-      "sources": [{"label": "RoboRSI · 第 3 节", "url": "https://arxiv.org/html/2610.12424v1#S3"}, {"label": "PhysEvo · 第 3 节", "url": "https://arxiv.org/html/2610.08995v1#S3"}],
+      "sources": [
+        {
+          "label": "RoboRSI · 第 3 节",
+          "url": "https://arxiv.org/html/2610.12424v1#S3"
+        },
+        {
+          "label": "PhysEvo · 第 3 节",
+          "url": "https://arxiv.org/html/2610.08995v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -305,7 +449,16 @@
       "editorial": true,
       "label": "编辑对照：从失败轨迹修改运行框架",
       "explanation": "二者都保留底层模型权重并从执行记录修改外围系统。应核对搜索轨迹与留出测试的隔离、候选选择规则及跨任务退化，而非只看最佳迭代成绩。",
-      "sources": [{"label": "EMHO · 方法与局限", "url": "https://arxiv.org/html/2610.08432v1"}, {"label": "PhysEvo · 方法与评测", "url": "https://arxiv.org/html/2610.08995v1"}],
+      "sources": [
+        {
+          "label": "EMHO · 方法与局限",
+          "url": "https://arxiv.org/html/2610.08432v1"
+        },
+        {
+          "label": "PhysEvo · 方法与评测",
+          "url": "https://arxiv.org/html/2610.08995v1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -316,7 +469,16 @@
       "editorial": true,
       "label": "编辑对照：物理实验与候选版本选择",
       "explanation": "ENPIRE 把复位、执行、判分和策略改进连成真机实验循环；PhysicalRSI 强调技能、工具、记忆候选的评测与版本继承。共同要问改进证据来自哪里。",
-      "sources": [{"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}, {"label": "PhysicalRSI · 官方架构", "url": "https://github.com/PhysicalRSI/PhysicalRSI/blob/main/docs/architecture.md"}],
+      "sources": [
+        {
+          "label": "ENPIRE · 官方方法页",
+          "url": "https://research.nvidia.com/labs/gear/enpire/"
+        },
+        {
+          "label": "PhysicalRSI · 官方架构",
+          "url": "https://github.com/PhysicalRSI/PhysicalRSI/blob/main/docs/architecture.md"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -327,7 +489,16 @@
       "editorial": true,
       "label": "编辑对照：策略适配的服务与实验循环",
       "explanation": "Pi API beta 提供上传数据、托管微调和推理；ENPIRE 让编码 Agent 组织物理试验并改进策略或训练程序。API 服务本身不等于已实现自主实验 Agent。",
-      "sources": [{"label": "Pi API beta · 官方公告", "url": "https://www.pi.website/blog/api-beta"}, {"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "sources": [
+        {
+          "label": "Pi API beta · 官方公告",
+          "url": "https://www.pi.website/blog/api-beta"
+        },
+        {
+          "label": "ENPIRE · 官方方法页",
+          "url": "https://research.nvidia.com/labs/gear/enpire/"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -338,7 +509,20 @@
       "editorial": true,
       "label": "编辑对照：修复知识与固定程序",
       "explanation": "ASPIRE 将修复经验保存为上下文技能；LIBERO-Pro 与 Robosuite 测试固定程序，但 BEHAVIOR-1K 逐块生成代码，10 月真机更新也在线调用模型。COAP 执行时仅运行固定代码。这里比较调用边界与经验载体，不表示继承关系。",
-      "sources": [{"label": "ASPIRE · 第 2.2、3.3 节", "url": "https://arxiv.org/html/2607.00272v1"}, {"label": "ASPIRE · 在线真机学习", "url": "https://research.nvidia.com/labs/gear/aspire/"}, {"label": "COAP · 第 3 节", "url": "https://arxiv.org/html/2610.12369v1#S3"}],
+      "sources": [
+        {
+          "label": "ASPIRE · 第 2.2、3.3 节",
+          "url": "https://arxiv.org/html/2607.00272v1"
+        },
+        {
+          "label": "ASPIRE · 在线真机学习",
+          "url": "https://research.nvidia.com/labs/gear/aspire/"
+        },
+        {
+          "label": "COAP · 第 3 节",
+          "url": "https://arxiv.org/html/2610.12369v1#S3"
+        }
+      ],
       "checkedAt": "2026-10-19"
     },
     {
@@ -349,7 +533,16 @@
       "editorial": true,
       "label": "编辑对照：技能积累与真机实验循环",
       "explanation": "ASPIRE 通过执行轨迹修复程序并积累可迁移技能，底座模型保持冻结；ENPIRE 将真机复位、判分、执行与策略改进组织成实验循环，可改进启发式代码，也可使用行为克隆或强化学习。比较的是改进对象与验证条件，不表示方法继承。",
-      "sources": [{"label": "ASPIRE · 方法与真机迁移", "url": "https://arxiv.org/html/2607.00272v1"}, {"label": "ENPIRE · 官方方法页", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "sources": [
+        {
+          "label": "ASPIRE · 方法与真机迁移",
+          "url": "https://arxiv.org/html/2607.00272v1"
+        },
+        {
+          "label": "ENPIRE · 官方方法页",
+          "url": "https://research.nvidia.com/labs/gear/enpire/"
+        }
+      ],
       "checkedAt": "2026-10-19"
     },
     {
@@ -360,7 +553,12 @@
       "editorial": false,
       "label": "基于真机子集拟合 RCI",
       "explanation": "报告使用 RoboDojo-RC Tier 1 六项中的五项操作数据拟合能力指数；Stand Up Bottles 因过热停止与 API 超时造成新批次有效试验不足而排除。RCI 是拟合指数，不是新策略的成功率。",
-      "sources": [{"label": "RCI · 第 1.1 节与附录 2.1", "url": "https://robocurve.org/rci/"}],
+      "sources": [
+        {
+          "label": "RCI · 第 1.1 节与附录 2.1",
+          "url": "https://robocurve.org/rci/"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -371,7 +569,16 @@
       "editorial": true,
       "label": "编辑对照：真机指数与跨形态仿真",
       "explanation": "RCI 分析双臂真机能力与通用、空间基准的对应关系；RobotWorld 扩展仿真任务和机器人形态，并诊断闭环执行。两者互补，但任务、指标与预算不同，不能直接比较分数。",
-      "sources": [{"label": "RCI · 分析与方法", "url": "https://robocurve.org/rci/"}, {"label": "RobotWorld · 任务覆盖与评测协议", "url": "https://robotworldai.github.io/"}],
+      "sources": [
+        {
+          "label": "RCI · 分析与方法",
+          "url": "https://robocurve.org/rci/"
+        },
+        {
+          "label": "RobotWorld · 任务覆盖与评测协议",
+          "url": "https://robotworldai.github.io/"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -457,6 +664,62 @@
         }
       ],
       "checkedAt": "2026-10-21"
+    },
+    {
+      "id": "aw0-uses-aw0-model",
+      "source": "2610.30136",
+      "target": "resource-aw0",
+      "type": "uses_model",
+      "editorial": false,
+      "label": "提出 AW-0 架构",
+      "explanation": "论文提出 AW-0，以代码、视频和动作三个专家的联合去噪实现 Agentic WAM。",
+      "sources": [
+        {
+          "label": "AW-0 · 论文 v1",
+          "url": "https://arxiv.org/html/2610.30136v1#S2"
+        }
+      ],
+      "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "compare-aw0-coap",
+      "source": "2610.30136",
+      "target": "2610.12369",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：代码作为规划还是执行策略",
+      "explanation": "AW-0 将代码作为条件规划并在混合模式下选择性执行，同时保留动作专家；COAP 在执行阶段只运行固定程序。两者的代码调用边界和训练方式不同。",
+      "sources": [
+        {
+          "label": "AW-0 · 论文 v1",
+          "url": "https://arxiv.org/html/2610.30136v1#S2"
+        },
+        {
+          "label": "COAP · 论文 v1",
+          "url": "https://arxiv.org/html/2610.12369v1#S3"
+        }
+      ],
+      "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "compare-aw0-hexashell",
+      "source": "2610.30136",
+      "target": "2610.23479",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：训练式 WAM 与在线 Coding Agent",
+      "explanation": "AW-0 将程序结构蒸馏进联合生成模型；HexaShell 让在线 Agent 操作并在开发回合修复工具。两者都复用代码技能，但经验进入模型训练还是外部工具库，边界不同。",
+      "sources": [
+        {
+          "label": "AW-0 · 论文 v1",
+          "url": "https://arxiv.org/html/2610.30136v1"
+        },
+        {
+          "label": "HexaShell · 论文 v2",
+          "url": "https://arxiv.org/html/2610.23479v2"
+        }
+      ],
+      "checkedAt": "2026-10-23"
     }
   ],
   "teams": [
@@ -464,32 +727,64 @@
       "id": "ntu-ropedia",
       "name": "南洋理工大学 / Ropedia",
       "summary": "COAP 论文署名合作方。研究线围绕显式状态、共享代码库与离线代码改进；这里按该论文的机构署名组织，不将两方视为同一个实验室。",
-      "workIds": ["2610.12369"],
-      "sources": [{"label": "COAP · 作者与机构署名", "url": "https://arxiv.org/html/2610.12369v1"}],
+      "workIds": [
+        "2610.12369"
+      ],
+      "sources": [
+        {
+          "label": "COAP · 作者与机构署名",
+          "url": "https://arxiv.org/html/2610.12369v1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
       "id": "rlinf-rpent",
       "name": "RLinf / RPent Contributors",
       "summary": "按官方仓库与文档署名收录。研究线是以规划器、工具、记忆和机器人适配接口组织冻结动作策略；不同环境采用不同执行模型。",
-      "workIds": ["rpent"],
-      "sources": [{"label": "RLinf/RPent · 官方仓库", "url": "https://github.com/RLinf/RPent"}, {"label": "RPent · 架构与 Contributors 署名", "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"}],
+      "workIds": [
+        "rpent"
+      ],
+      "sources": [
+        {
+          "label": "RLinf/RPent · 官方仓库",
+          "url": "https://github.com/RLinf/RPent"
+        },
+        {
+          "label": "RPent · 架构与 Contributors 署名",
+          "url": "https://rpent.readthedocs.io/en/latest/rst_source/development/architecture.html"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
       "id": "physical-intelligence",
       "name": "Physical Intelligence",
       "summary": "Pi API beta 的官方发布方。关注机器人基础策略的适配、托管训练与推理，以及开发者用真机评测反馈持续补充数据的流程。",
-      "workIds": ["pi-api-beta"],
-      "sources": [{"label": "Physical Intelligence · Pi API beta 公告", "url": "https://www.pi.website/blog/api-beta"}],
+      "workIds": [
+        "pi-api-beta"
+      ],
+      "sources": [
+        {
+          "label": "Physical Intelligence · Pi API beta 公告",
+          "url": "https://www.pi.website/blog/api-beta"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
       "id": "samsung-sjtu-roboicl",
       "name": "Samsung / 上海交通大学 · RoboICL",
       "summary": "按 RoboICL 的三星与上海交通大学机构署名收录。研究线是冻结模型的具身上下文学习：统一示范、动作回执和结果观察，并保存跨阶段经验。",
-      "workIds": ["2609.34261"],
-      "sources": [{"label": "RoboICL · 作者机构与方法", "url": "https://arxiv.org/html/2609.34261v1"}],
+      "workIds": [
+        "2609.34261"
+      ],
+      "sources": [
+        {
+          "label": "RoboICL · 作者机构与方法",
+          "url": "https://arxiv.org/html/2609.34261v1"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
@@ -520,25 +815,69 @@
       "id": "nvidia-cmu-berkeley-enpire",
       "name": "NVIDIA / CMU / UC Berkeley · ENPIRE",
       "summary": "按 ENPIRE 官方作者机构收录。研究线是可重复的真机策略改进实验：自动复位、结果验证、多机器人执行和实验分支演化。该工作作为 9 月前背景参照。",
-      "workIds": ["2606.19980"],
-      "sources": [{"label": "ENPIRE · 官方作者机构与框架", "url": "https://research.nvidia.com/labs/gear/enpire/"}],
+      "workIds": [
+        "2606.19980"
+      ],
+      "sources": [
+        {
+          "label": "ENPIRE · 官方作者机构与框架",
+          "url": "https://research.nvidia.com/labs/gear/enpire/"
+        }
+      ],
       "checkedAt": "2026-10-16"
     },
     {
       "id": "nvidia-aspire-collaboration",
       "name": "NVIDIA / UMich / UIUC / UC Berkeley / CMU · ASPIRE",
       "summary": "按 ASPIRE 官方合作机构收录。研究线是从机器人执行轨迹发现可复用修复技能，并研究跨任务、跨具身迁移；10 月更新加入更强模型与在线真机操作展示。",
-      "workIds": ["2607.00272"],
-      "sources": [{"label": "ASPIRE · 官方团队与机构", "url": "https://research.nvidia.com/labs/gear/aspire/"}, {"label": "ASPIRE · 10 月更新", "url": "https://github.com/NVlabs/ASPIRE"}],
+      "workIds": [
+        "2607.00272"
+      ],
+      "sources": [
+        {
+          "label": "ASPIRE · 官方团队与机构",
+          "url": "https://research.nvidia.com/labs/gear/aspire/"
+        },
+        {
+          "label": "ASPIRE · 10 月更新",
+          "url": "https://github.com/NVlabs/ASPIRE"
+        }
+      ],
       "checkedAt": "2026-10-19"
     },
     {
       "id": "robocurve",
       "name": "Robocurve",
       "summary": "开展真实机器人独立评测并公开实验记录。RCI 研究线关注机器人能力如何测量，以及通用模型与空间推理基准能否预测物理任务表现。",
-      "workIds": ["robocurve-rci"],
-      "sources": [{"label": "Robocurve · 官方介绍", "url": "https://robocurve.org/"}, {"label": "RCI · 作者与报告", "url": "https://robocurve.org/rci/"}],
+      "workIds": [
+        "robocurve-rci"
+      ],
+      "sources": [
+        {
+          "label": "Robocurve · 官方介绍",
+          "url": "https://robocurve.org/"
+        },
+        {
+          "label": "RCI · 作者与报告",
+          "url": "https://robocurve.org/rci/"
+        }
+      ],
       "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "ucb-nvidia-aw0",
+      "name": "UC Berkeley / NVIDIA / University of Pennsylvania · AW-0",
+      "summary": "Agentic World Action Models 的合作团队，研究代码规划、世界动作模型、技能库与双臂操作。",
+      "workIds": [
+        "2610.30136"
+      ],
+      "sources": [
+        {
+          "label": "AW-0 · 作者机构",
+          "url": "https://arxiv.org/html/2610.30136v1"
+        }
+      ],
+      "checkedAt": "2026-10-23"
     }
   ]
 }

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "2610.30136",
+    "arxivId": "2610.30136",
+    "version": 1,
+    "title": "Agentic World Action Models",
+    "shortTitle": "AW-0",
+    "date": "2026-10-21",
+    "year": 2026,
+    "addedAt": "2026-10-23",
+    "authors": "Zhuoyang Liu and Dantong Niu and Botong Zhang and Boning Shao and Jing Wang and Ruijie Zheng and Yuvan Sharma and Runyu Lu and Jiaming Liu and Renrui Zhang and Roei Herzig and Yutong Bai and Ken Goldberg and Danfei Xu and Yuke Zhu and Guanzhi Wang and Linxi Jim Fan and Trevor Darrell",
+    "categories": [
+      "planning",
+      "code",
+      "policies",
+      "learning",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation",
+      "real"
+    ],
+    "summaryZh": "AW-0 把代码计划、未来视频预测和机器人动作放进同一个世界动作模型，用自动代码标注与技能库连接长程规划、物理预测和执行。",
+    "summaryEn": "AW-0 jointly generates skill programs, future video and robot actions, using agentic annotation and reusable skills to connect planning with predictive control.",
+    "problem": "WAM 能预测未来与动作，却缺少可组合技能；Agentic 系统能写代码和复用技能，却缺少物理动力学预测。能否把两者放进同一个模型？",
+    "method": "AW-0 使用三个通过 masked joint attention 连接的专家：代码专家生成技能程序，视频专家预测未来视觉状态，动作专家生成连续动作块，并按 code → video → action 的顺序联合去噪。代码既作为多步规划结构，也作为可复用技能；自动标注流水线用 Coding Agent 给机器人与人类视频配对程序并冻结 50 项技能。默认执行动作块，混合模式在代码通过阶段、依赖、语法和白名单检查时执行代码，否则回退到动作块。",
+    "findings": [
+      "RoboTwin 2.0 的 50 任务、每任务 50 次 rollout：AW-0 在 clean / random 设置分别为 80.8% / 20.6%，平均 50.7%；混合执行为 63.1% / 29.2%，平均 46.2%。",
+      "真实双臂实验覆盖 YAM 平行夹爪与 Tianji–Sharpa 灵巧手的 8 项任务，每任务 3×16 次 rollout；AW-0 平均 rubric score 为 71.1%，DreamZero、π0.5、WLA 分别为 46.0%、43.6%、39.9%。",
+      "混合执行在 YAM 的 Fold and Stack Towels 上为 90.6%，同一后训练模型的直接动作块为 84.4%。"
+    ],
+    "limitations": [
+      "仿真随机化下默认 AW-0 从 clean 的 80.8% 降至 20.6%；混合模式提高到 29.2%，但 clean 成绩降至 63.1%。",
+      "真实实验为 8 项任务、两种具身和每任务 3×16 次 rollout，不能直接推出开放世界通用能力；代码执行还依赖预定义感知与控制 primitive API。",
+      "训练和标注规模较大，包含约 2,000 小时 YAM 机器人数据与约 1,000 小时人类第一视角数据；技能库和下游演示均按固定流程构建，长期在线自我改进尚未验证。"
+    ],
+    "role": {
+      "model": "代码、视频和动作三个专家联合生成；训练标注使用 Gemini 3.1 Pro 与 Claude Code/Opus 4.8",
+      "output": "参数化技能程序、未来视频 latent 与连续动作块",
+      "memory": "每回合保存此前程序 slice 的压缩 memory slots",
+      "recovery": "混合执行用阶段、依赖、语法、白名单和空程序检查，不通过则回退动作块",
+      "adaptation": "预训练后按任务演示联合微调；技能库冻结后复用"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.30136v1",
+      "project": "https://agentic-wam.github.io/",
+      "code": "https://github.com/ZhuoyangLiu2005/agentic-wam"
+    },
+    "evidence": [
+      {
+        "claim": "论文元数据与摘要",
+        "label": "arXiv · v1",
+        "source": "https://arxiv.org/abs/2610.30136v1"
+      },
+      {
+        "claim": "三专家联合去噪与混合执行",
+        "label": "论文 v1 · §2",
+        "source": "https://arxiv.org/html/2610.30136v1#S2"
+      },
+      {
+        "claim": "RoboTwin 2.0 与真实实验",
+        "label": "论文 v1 · §3",
+        "source": "https://arxiv.org/html/2610.30136v1#S3"
+      },
+      {
+        "claim": "官方项目页与技能库",
+        "label": "AW-0 项目页",
+        "source": "https://agentic-wam.github.io/"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-10-23",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "AW-0",
+      "Agentic WAM",
+      "World Action Model",
+      "代码规划",
+      "技能库",
+      "联合去噪",
+      "RoboTwin 2.0",
+      "双臂操作"
+    ]
+  }
+]
