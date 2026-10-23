@@ -10535,5 +10535,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2609.33882": {
+    "arxivId": "2609.33882",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.33882",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33882v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.33882-v1.text.json",
+      "extractedAt": "2026-10-23T04:59:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. We present DexTaG, a tactile-guided RL framework for dexterous manipulation that uses contact measurements from a data-collection glove. From data collection to policy training, the pipeline enables non-trivial tool-use tasks involving in-hand reorientation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.33882-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33882v1",
+      "page": 1,
+      "version": 1,
+      "width": 1032,
+      "height": 299,
+      "crop": [
+        48.0,
+        165.62,
+        563.97,
+        314.96
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.32224": {
+    "arxivId": "2609.32224",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.32224",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32224v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.32224-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: We propose the RAO-Nav pipeline built on a single OLM to achieve zero-shot audio-visual navigation. It can be deployed in both real-world and virtual environments and iteratively performs navigation in three steps: AudioGoal Prediction, Global Reasoning, and Real-time Action.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.32224-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32224v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 319,
+      "crop": [
+        102.5,
+        98.85,
+        509.72,
+        257.83
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.32313": {
+    "arxivId": "2609.32313",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.32313",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32313v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.32313-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:06Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview. (A) The shared VLM policy receives the task, observation, pose, action feedback, recent interactions and historical memory. (B) Warehouse layout, start poses, target instances and route obstructions. (C) Demonstration starting poses and the six memory representations, with examples of their contents and input sizes. Section III-B defines the comparisons used for each RQ.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.32313-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32313v1",
+      "page": 3,
+      "version": 1,
+      "width": 1028,
+      "height": 624,
+      "crop": [
+        49.54,
+        46.07,
+        563.15,
+        357.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.33030": {
+    "arxivId": "2609.33030",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.33030",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33030v1",
+      "version": 1,
+      "pageCount": 32,
+      "textPages": 32,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.33030-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of experimental settings.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.33030-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.33030v1",
+      "page": 4,
+      "version": 1,
+      "width": 433,
+      "height": 326,
+      "crop": [
+        102.0,
+        70.19,
+        318.24,
+        232.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.30783": {
+    "arxivId": "2609.30783",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.30783",
+      "sourceUrl": "https://arxiv.org/pdf/2609.30783v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.30783-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of LIRSeg. Top: Latent reasoning via latent tokens produces a text description and bounding-box. Middle: Two-stage training: spatial alignment followed by RL optimization. Bottom: Three innovation components.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.30783-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.30783v1",
+      "page": 3,
+      "version": 1,
+      "width": 1012,
+      "height": 510,
+      "crop": [
+        53.04,
+        48.0,
+        558.97,
+        302.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.29166": {
+    "arxivId": "2609.29166",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.29166",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29166v2",
+      "version": 2,
+      "pageCount": 45,
+      "textPages": 45,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.29166-v2.text.json",
+      "extractedAt": "2026-10-23T05:00:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of HarnessPAI, a general physical harness framework.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.29166-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29166v2",
+      "page": 1,
+      "version": 2,
+      "width": 975,
+      "height": 1028,
+      "crop": [
+        61.99,
+        182.66,
+        548.63,
+        696.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.28236": {
+    "arxivId": "2609.28236",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.28236",
+      "sourceUrl": "https://arxiv.org/pdf/2609.28236v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.28236-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:18Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3 Overview of EMem-Bench. Representative examples cover fine-grained visual memory, dynamic world-state tracking, recording world state through interaction, and experience generalization.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2609.28236-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.28236v1",
+      "page": 4,
+      "version": 1,
+      "width": 872,
+      "height": 479,
+      "crop": [
+        88.38,
+        70.73,
+        523.54,
+        309.76
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.25666": {
+    "arxivId": "2609.25666",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.25666",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25666v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.25666-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Taxonomy: We consider 3 classes of FM-based methods for Embodied Navigation. The gray boxes indicate the classical pipeline. 1) FM as a Per- ceiver (in red) takes the input observation and instruction and produces seman- tic groundings to be used by a planner. 2) FM as a Planner (in blue) uses the outputs of a perception module to produce subgoals or sequences. 3) FM as a policy goes directly from the input to action.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.25666-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25666v1",
+      "page": 3,
+      "version": 1,
+      "width": 647,
+      "height": 364,
+      "crop": [
+        146.06,
+        284.14,
+        469.3,
+        465.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.25562": {
+    "arxivId": "2609.25562",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.25562",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25562v2",
+      "version": 2,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.25562-v2.text.json",
+      "extractedAt": "2026-10-23T05:00:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of IndustrialVLA-Bench. Six released VLA and World-Action Model systems are assessed on three complementary LIBERO-family tracks through four coordinated views: clean capability, robustness, language sensitivity, and execution and reproducibility evidence. Evidence status is kept explicit rather than hidden inside a single leaderboard.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.25562-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25562v2",
+      "page": 2,
+      "version": 2,
+      "width": 829,
+      "height": 767,
+      "crop": [
+        97.51,
+        66.0,
+        511.99,
+        448.62
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.25836": {
+    "arxivId": "2609.25836",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.25836",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25836v2",
+      "version": 2,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.25836-v2.text.json",
+      "extractedAt": "2026-10-23T05:00:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overall workflow of the proposed In-Context Guidance Multitask Bayesian Optimization (ICG-MTBO) framework. The upper pipeline corresponds to a conventional multitask Bayesian optimizer, where evaluated solutions are used to construct an MTGP surrogate for acquisition optimization and subsequent function evaluation. The lower pipeline augments inter-task coupling estimation through three sequential stages. (1) In-context query reorganizes the evaluated solutions into algorithm-specific prediction queries by partitioning the observations of each task into representative fitness classes (the better and worse halves in ICG-MTBO). (2) In-context guidance learning employs a frozen numerical foundational model (TabPFN) to perform cross-task prediction on the constructed queries, producing guidance signals that characterize predictive relationships among tasks. (3) Maximum-a-posteriori estimation translates the inferred guidance into reference coupling parameters and incorporates them as a prior for estimating the MTGP task coupling matrix. The resulting task kernel is used by the MTGP surrogate, while the remaining components of the Bayesian optimization framework remain unchanged.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.25836-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.25836v2",
+      "page": 4,
+      "version": 2,
+      "width": 950,
+      "height": 504,
+      "crop": [
+        68.67,
+        50.07,
+        543.34,
+        301.94
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.26467": {
+    "arxivId": "2609.26467",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.26467",
+      "sourceUrl": "https://arxiv.org/pdf/2609.26467v2",
+      "version": 2,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.26467-v2.text.json",
+      "extractedAt": "2026-10-23T05:00:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Conceptual illustration of RouteRLT: the frozen VLA acts by default, while a phase-aware coordination mechanism selects the RL specialist and intervention timing for critical phases.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.26467-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.26467v2",
+      "page": 1,
+      "version": 2,
+      "width": 514,
+      "height": 355,
+      "crop": [
+        307.2,
+        151.68,
+        563.99,
+        328.53
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.24189": {
+    "arxivId": "2609.24189",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.24189",
+      "sourceUrl": "https://arxiv.org/pdf/2609.24189v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.24189-v1.text.json",
+      "extractedAt": "2026-10-23T05:00:33Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of the proposed framework. The pipeline consists of four key components: Open-Vocabulary Semantic Segmentation for extracting object-level observations from RGB-D inputs, Object Scene Graph construction for encod- ing objects and their semantic relations, Traversability Navi- gation Graph for modeling navigable free-space connectivity, and Topological Navigation for performing goal-driven inter- node navigation using the constructed object–path graph representation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.24189-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.24189v1",
+      "page": 2,
+      "version": 1,
+      "width": 539,
+      "height": 387,
+      "crop": [
+        293.76,
+        48.35,
+        562.53,
+        241.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
