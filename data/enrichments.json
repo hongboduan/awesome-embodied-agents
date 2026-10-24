@@ -11393,5 +11393,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.30988": {
+    "arxivId": "2610.30988",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30988",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30988v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30988-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of the proposed pipeline, comprising three stages. i) Synthetic soft object manipulation demonstrations are collected in simulation using Isaac Lab, capturing partial point cloud observations and bimanual actions across randomized material properties and grasping configurations. ii) For each garment category, an expert model consists of training two components: a State Estimation Diffusion Model via flow matching; and a Dynamics Prediction Model via supervised learning. iii) Integrate the world model to evaluate action proposals generated via a Goal Conditioned Flow Matching policy.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30988-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30988v1",
+      "page": 3,
+      "version": 1,
+      "width": 1054,
+      "height": 475,
+      "crop": [
+        42.96,
+        50.07,
+        569.03,
+        287.4
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.30197": {
+    "arxivId": "2610.30197",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.30197",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30197v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.30197-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. System architecture of the Alpha evaluation harness. Controlled faults (F1–F4) are injected by ChaosRoboticsWrapper at four oper- ational boundaries without altering the Brain’s prompt definitions or the Body’s inverse-kinematics control routines. The PyBullet Safety Monitor synchronously inspects multi-link contact dynamics at 240 Hz.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.30197-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30197v1",
+      "page": 2,
+      "version": 1,
+      "width": 528,
+      "height": 295,
+      "crop": [
+        42.96,
+        50.07,
+        306.01,
+        197.04
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.23492": {
+    "arxivId": "2609.23492",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.23492",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23492v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.23492-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:29Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. CE4L benchmark overview. By constructing continuous task stream for both ego- and exocentric videos, CE4L comprehensively",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.23492-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.23492v1",
+      "page": 2,
+      "version": 1,
+      "width": 909,
+      "height": 343,
+      "crop": [
+        68.84,
+        41.23,
+        522.64,
+        212.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.22966": {
+    "arxivId": "2609.22966",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.22966",
+      "sourceUrl": "https://arxiv.org/pdf/2609.22966v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.22966-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of RoboDawn. RoboDawn conditions a pretrained VLM on (a) a human- intuitive semantic action interface and (b) in-context demonstrations. At each interaction round, the VLM receives (c) multi-view visual observations and robot state together with task context, execu- tion feedback, and memory, performs (d) reasoning, and generates (e) semantic action commands. The commands are grounded into (f) planned robot motions and executed in the environment; the resulting physical outcomes are then converted into (g) grounded feedback and memory updates for the next round. This loop enables continual observation, reasoning, execution, and adaptation with- out task-specific parameter updates.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.22966-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.22966v1",
+      "page": 5,
+      "version": 1,
+      "width": 825,
+      "height": 538,
+      "crop": [
+        99.8,
+        76.24,
+        511.79,
+        344.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.19666": {
+    "arxivId": "2609.19666",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.19666",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19666v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.19666-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of dexterous policy post-training. A learned hand-action representation provides a common interface for supervised fine-tuning, corrective data aggregation, and real-world latent residual reinforcement learning, which progressively improve task success. The curves on the right schematically illustrate improvement across post-training stages.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.19666-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19666v1",
+      "page": 2,
+      "version": 1,
+      "width": 808,
+      "height": 442,
+      "crop": [
+        39.35,
+        56.37,
+        442.52,
+        276.55
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.21008": {
+    "arxivId": "2609.21008",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.21008",
+      "sourceUrl": "https://arxiv.org/pdf/2609.21008v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.21008-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Motivating example showing a robot navigating a graph where temporary obstacles may block both the current route and downstream alternatives, requiring it to decide whether to wait, observe, or reroute while accounting for future obstacle encounters.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.21008-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.21008v1",
+      "page": 1,
+      "version": 1,
+      "width": 510,
+      "height": 270,
+      "crop": [
+        308.42,
+        151.67,
+        562.76,
+        286.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.19541": {
+    "arxivId": "2609.19541",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.19541",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19541v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.19541-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:41Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Case-study environments of Section IV: Cases I–II (left) and III–IV (right). The robot (black disk) must reach the goal (green star) in an unknown environment with non-movable furniture and movable boxes; green boxes are added in Cases II and IV. Only the sensed region (white) is known; the rest (gray) is unobserved. Cyan and red circles mark passages requiring joint relocations and resolving access dependencies, respectively.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.19541-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19541v1",
+      "page": 1,
+      "version": 1,
+      "width": 515,
+      "height": 252,
+      "crop": [
+        307.2,
+        151.68,
+        564.01,
+        277.01
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.20659": {
+    "arxivId": "2609.20659",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.20659",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20659v2",
+      "version": 2,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.20659-v2.text.json",
+      "extractedAt": "2026-10-24T04:45:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of HIL-UMI. In each round, we first run advantage OOD detector online to collect advantage data. We then run the current policy OOD detector and collect policy data from segments. Next, we update the advantage estimator then using it to construct the advantage-labeled training dataset and update policy through ACBC.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.20659-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20659v2",
+      "page": 3,
+      "version": 2,
+      "width": 1033,
+      "height": 384,
+      "crop": [
+        48.0,
+        44.08,
+        564.0,
+        235.68
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.19315": {
+    "arxivId": "2609.19315",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.19315",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19315v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.19315-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Overview of the GAVEL pipeline. The instruction is decomposed into tasks, objects, and extracted goals. Uncertain objects receive RSN predicted location beliefs. An LLM query generates task plans, which the graph world model verifies and repairs before execution. GAVEL then updates beliefs from observations and reorders the remaining tasks online.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.19315-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.19315v1",
+      "page": 4,
+      "version": 1,
+      "width": 1032,
+      "height": 462,
+      "crop": [
+        48.0,
+        44.08,
+        563.99,
+        274.73
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.18776": {
+    "arxivId": "2609.18776",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.18776",
+      "sourceUrl": "https://arxiv.org/pdf/2609.18776v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.18776-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of TRACER: CJTs are generated externally; the forward response model predicts per-entity responses for every candidate; safety filtering and cost ranking select the CJT to execute; only the executed prefix and the observed real responses update the identity-bound mode posterior that shapes the next window’s decisions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.18776-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.18776v1",
+      "page": 3,
+      "version": 1,
+      "width": 540,
+      "height": 261,
+      "crop": [
+        293.76,
+        44.53,
+        563.29,
+        174.76
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.16697": {
+    "arxivId": "2609.16697",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.16697",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16697v1",
+      "version": 1,
+      "pageCount": 51,
+      "textPages": 51,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.16697-v1.text.json",
+      "extractedAt": "2026-10-24T04:45:54Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2609.16697-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16697v1",
+      "page": 1,
+      "version": 1,
+      "width": 1224,
+      "height": 1584,
+      "crop": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.16705": {
+    "arxivId": "2609.16705",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.16705",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16705v1",
+      "version": 1,
+      "pageCount": 76,
+      "textPages": 76,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.16705-v1.text.json",
+      "extractedAt": "2026-10-24T04:46:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 5: Operational architecture of the proposed Robot Data Factory. The figure describes how the infrastructure organizes physical training grounds, agentic robot networks, robot agents, missions, tasks and skills, and execution episodes into a continuous Deploy, Measure, Learn, and Repeat cycle. During deployment, robots execute missions across representative environments, including Home for domestic service, Environment for marine and outdoor operations, and Energy for infrastructure monitoring and maintenance. During measurement, mission-control services, benchmark and evaluation tools, ubiquitous data pipelines, and structured robot datasets convert raw robot experience into validated records. During learning, the validated data support world models, VLA models, embodied policies, leaderboards, and evaluation artifacts. The repeat stage enables new environments, robots, missions, and shared benchmark releases to be incorporated over time. Concept and scientific content by the authors; graphical realization developed iteratively with assistance from OpenAI ChatGPT.",
+      "figureLabel": "Figure 5",
+      "selection": "automatic",
+      "path": "assets/papers/2609.16705-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16705v1",
+      "page": 10,
+      "version": 1,
+      "width": 914,
+      "height": 522,
+      "crop": [
+        77.7,
+        66.0,
+        534.29,
+        326.01
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
