@@ -11861,5 +11861,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2609.16810": {
+    "arxivId": "2609.16810",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.16810",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16810v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.16810-v1.text.json",
+      "extractedAt": "2026-10-25T04:52:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Steering procedures near obstacles: RRT vs HARG vs HARL vs HARF. (RRT) Only those samples qsampled in the blue region or projecting into the blue circle arcs (complementary of the orange and red ones) are productive. (Hit-and-Run global, HARG) In any direction, the ray centered at qfrom yields a productive (blue) segment on which a productive sample qnew can be obtained. (Hit-and-Run local, HARL) The ray centered at qfrom of length δ on which qnew is sampled also has a productive region identical to that of RRT. However, the likelihood to obtain a point in this region is higher than that of RRT. (Hit-and-Run fixed, HARF) The new node qnew is chosen at distance exactly δ of qfrom in the random direction θ.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.16810-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.16810v1",
+      "page": 6,
+      "version": 1,
+      "width": 721,
+      "height": 759,
+      "crop": [
+        117.54,
+        61.77,
+        477.73,
+        440.58
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.17257": {
+    "arxivId": "2609.17257",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.17257",
+      "sourceUrl": "https://arxiv.org/pdf/2609.17257v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.17257-v1.text.json",
+      "extractedAt": "2026-10-25T04:52:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Controlled pipeline used for the backbone comparison. (a) The RGB branch produces an FPN- compatible 2D feature hierarchy, and the depth branch produces a sparse-to-dense 3D feature volume. For both branches, feature resolutions decrease from left to right. Voxel centers or sparse voxel coordinates are projected to the selected image feature map, the corresponding descriptors are sampled, and the sampled descriptors are written back to the same 3D grid coordinates before RGB-D fusion. The projection step uses visibility and image-boundary masks but does not introduce an additional occlusion reasoning module. (b) The experi- mental intervention replaces only the image backbone with CLIP-ResNet, CLIP-ViT, BLIP2, or DINOv2. For transformer backbones, class tokens are discarded and patch tokens are reshaped into spatial maps before FPN adaptation. The projection rule, depth branch, fusion neck, occupancy head, losses, and training protocol are kept fixed.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.17257-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.17257v1",
+      "page": 4,
+      "version": 1,
+      "width": 996,
+      "height": 593,
+      "crop": [
+        57.0,
+        66.0,
+        555.0,
+        362.26
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.15726": {
+    "arxivId": "2609.15726",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.15726",
+      "sourceUrl": "https://arxiv.org/pdf/2609.15726v1",
+      "version": 1,
+      "pageCount": 43,
+      "textPages": 43,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.15726-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of Bench2Dex. Bench2Dex is a simulation benchmark for bimanual dexterous manipulation with 26 tasks, 12 robot embodiments, and about 1.3K human-teleoperated demonstration trajectories, collected across a range of objects and scenes. It supports teleoperated demonstration collection and 8 data modalities: RGB images, depth maps, joint states, object states, a shared visuo-tactile representation, 2D/3D bounding boxes, and occupancy grids. With this multimodal data and controlled domain randomization, Bench2Dex supports evaluation of policy performance, robustness, and generalization on everyday bimanual manipulation tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.15726-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.15726v1",
+      "page": 1,
+      "version": 1,
+      "width": 960,
+      "height": 548,
+      "crop": [
+        66.0,
+        310.1,
+        545.99,
+        583.72
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.14219": {
+    "arxivId": "2609.14219",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.14219",
+      "sourceUrl": "https://arxiv.org/pdf/2609.14219v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.14219-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Motivation and overview of task-specified active inspection for HMLV manufacturing. High part and specification variability makes conventional inspection preparation costly, while existing inspection technologies trade off accuracy, coverage, and per-part setup effort. A stated inspection task may require features distributed across visible, partially occluded, and hidden surfaces, motivating both task-specified measurement and active reorientation. Our system takes a natural-language instruction and structured specification, grounds the required features to the current part pose, alternates LOOK, SCAN, and REORIENT to acquire verified evidence, produces a deterministic conformance verdict, and invokes SORT for an authorized binary outcome.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.14219-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.14219v1",
+      "page": 2,
+      "version": 1,
+      "width": 1060,
+      "height": 747,
+      "crop": [
+        42.96,
+        47.13,
+        572.31,
+        420.11
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.14561": {
+    "arxivId": "2609.14561",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.14561",
+      "sourceUrl": "https://arxiv.org/pdf/2609.14561v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.14561-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of the GLAM NAV architecture for active exploration and object-goal naviga- tion. The system closes the loop among sensory encoding, mapping, memory retrieval, structured spatiotemporal memory, GLAM-based latent prediction, and action execution. Real RGB-D obser- vations update memory, while the learned predictive module supplies future map tokens and latent plans that guide navigation decisions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.14561-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.14561v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 471,
+      "crop": [
+        102.0,
+        75.86,
+        509.97,
+        310.59
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.14156": {
+    "arxivId": "2609.14156",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.14156",
+      "sourceUrl": "https://arxiv.org/pdf/2609.14156v2",
+      "version": 2,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.14156-v2.text.json",
+      "extractedAt": "2026-10-25T04:53:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of Visible Touch. A low-cost magnetic contact sensor captures per-taxel contact, which we render as an image-space overlay on the policy’s RGB observations. The augmented images are drop-in inputs for fine-tuning pretrained VLAs, requiring no architectural changes. Contact overlays improve average task success by +25.3pp on LIBERO fine-tuning suites and +30.3pp on real-world contact-rich manipulation tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.14156-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.14156v2",
+      "page": 2,
+      "version": 2,
+      "width": 817,
+      "height": 351,
+      "crop": [
+        102.0,
+        66.0,
+        510.01,
+        241.39
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.12937": {
+    "arxivId": "2609.12937",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.12937",
+      "sourceUrl": "https://arxiv.org/pdf/2609.12937v2",
+      "version": 2,
+      "pageCount": 4,
+      "textPages": 4,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.12937-v2.text.json",
+      "extractedAt": "2026-10-25T04:53:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Lab group study with a small non-humanoid robot sitting on a whiteboard. The same robot behaviors, such as nodding and shaking of the head as well as gaze-following, elicited different interpretations of the robot, depending on who owned the robot and how the members got along.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.12937-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.12937v2",
+      "page": 2,
+      "version": 2,
+      "width": 506,
+      "height": 346,
+      "crop": [
+        311.95,
+        77.69,
+        564.2,
+        250.04
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.10726": {
+    "arxivId": "2609.10726",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.10726",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10726v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.10726-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Hazardous exploration as a valuation problem. (a) Candidate paths trade off expected information and physical risk under failure-truncated execution. (b) The belief update, sensor model, risk model, candidate paths, and planner are fixed; only the valuation layer changes. (c) Different valuation objectives can rank the same candidate paths differently.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.10726-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10726v1",
+      "page": 2,
+      "version": 1,
+      "width": 717,
+      "height": 198,
+      "crop": [
+        128.76,
+        110.83,
+        486.57,
+        209.46
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.10895": {
+    "arxivId": "2609.10895",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.10895",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10895v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.10895-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: The ReactHuman pipeline. A frozen LLM planner and a seeded randomizer jointly populate a single SceneSpec. The LLM sets semantics (object, room, event family), and the seed sets all physics while Genesis simulates at 240 Hz into three synchronized views with simulator-derived ground truth. At a frozen observation, the evaluated MLLM (the brain) commits a structured reaction plan that a pre-trained controller (spine) executes on a simulated humanoid (body) in the same scene. The plan is scored on three axes: reasonable, safe, and physically grounded.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.10895-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10895v1",
+      "page": 5,
+      "version": 1,
+      "width": 1033,
+      "height": 454,
+      "crop": [
+        48.0,
+        48.0,
+        564.0,
+        274.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.09591": {
+    "arxivId": "2609.09591",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.09591",
+      "sourceUrl": "https://arxiv.org/pdf/2609.09591v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.09591-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "FIGURE 2. Overview of FedMVLA. (a) Heterogeneous local clients hold non-IID vision (V), language (L), and action (A) updates. (b) Client-side processing: MAPA calibrates per-modality clipping and noise injection before MACO applies modality-matched compression, so compression and transport are post-processing with respect to the differential privacy guarantee. (c) Each stream is uplinked over its transport slice—eMBB for vision and language and URLLC for action—and MAFA aggregates vision cluster-wise, language globally, and action group-wise by embodiment, after which the global adapter is broadcast back to all clients. Panels (d)–(g) detail MAFA’s aggregation topologies, MAPA’s privacy allocation, MACO’s per-modality compression, and the multi-rate synchronization schedule.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.09591-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.09591v1",
+      "page": 5,
+      "version": 1,
+      "width": 962,
+      "height": 598,
+      "crop": [
+        58.5,
+        35.9,
+        539.33,
+        334.09
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.09808": {
+    "arxivId": "2609.09808",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.09808",
+      "sourceUrl": "https://arxiv.org/pdf/2609.09808v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.09808-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of GTA-2. GTA-2 takes a task prompt, scene image, and controller library as inputs. Specialized agents process these inputs to decompose the task, generate abstract skill recipes, set task-specific parameters, and produce 3D visual groundings. These outputs are combined into an executable robot script. Human feedback provides a refinement loop for updating the subtasks, parameters, or groundings when needed.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.09808-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.09808v1",
+      "page": 3,
+      "version": 1,
+      "width": 1054,
+      "height": 430,
+      "crop": [
+        42.96,
+        50.07,
+        569.04,
+        264.91
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.10506": {
+    "arxivId": "2609.10506",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.10506",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10506v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.10506-v1.text.json",
+      "extractedAt": "2026-10-25T04:53:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. Architecture and training of DUET-DINO. The pretrained encoder maps side- and wrist-view observations into latent space. Cross-attention blocks condition each view on complementary information from the other view in the latent space. The view-specific predictor heads then predict future latents conditioned on the action and end-effector state. The dual-view prediction loss Lpred(ϕ, ψ) combines the teacher-forcing loss computed over all one-step predictions in the clip with an autoregressive loss over the K-step rollout predictions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.10506-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10506v1",
+      "page": 3,
+      "version": 1,
+      "width": 932,
+      "height": 342,
+      "crop": [
+        73.2,
+        44.08,
+        538.8,
+        214.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }
