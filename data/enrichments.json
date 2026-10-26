@@ -157,40 +157,40 @@
   },
   "2610.00854": {
     "arxivId": "2610.00854",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.00854",
-      "sourceUrl": "https://arxiv.org/pdf/2610.00854v2",
-      "version": 2,
-      "pageCount": 44,
-      "textPages": 44,
+      "sourceUrl": "https://arxiv.org/pdf/2610.00854v3",
+      "version": 3,
+      "pageCount": 73,
+      "textPages": 73,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.00854-v2.text.json",
-      "extractedAt": "2026-10-11T09:00:06Z"
+      "textPath": ".cache/papers/2610.00854-v3.text.json",
+      "extractedAt": "2026-10-26T04:56:44Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1. Overview of Embodied Agent Arena. Each row illustrates six tasks in one capability domain, spanning camera and scene estimation, spatial relations, functional grounding, goal-directed planning, and robot manipulation. Fixed-input probes test estimates and judgments; interactive episodes test goal completion. Spatial-tracing overlays show reference paths and a 3D target region.",
       "figureLabel": "Figure 1",
       "selection": "source-hint",
-      "path": "assets/papers/2610.00854-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.00854v2",
+      "path": "assets/papers/2610.00854-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.00854v3",
       "page": 2,
-      "version": 2,
+      "version": 3,
       "width": 1013,
-      "height": 641,
+      "height": 518,
       "crop": [
-        49.25,
+        49.26,
         50.69,
         555.5,
-        370.91
+        309.44
       ]
     },
     "extractionFingerprint": "e322812ec93c343e",
     "ai": {
       "status": "editorial-preserved",
-      "version": 2,
+      "version": 3,
       "message": "人工内容保留。"
     }
   },
@@ -12321,6 +12321,435 @@
         44.08,
         538.8,
         214.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.32978": {
+    "arxivId": "2610.32978",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.32978",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32978v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.32978-v1.text.json",
+      "extractedAt": "2026-10-26T04:56:46Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of SceneBloom. SceneBloom compiles visual proposals of functional zones into a simulation-ready 3D scene, and resampling the same prompt yields different layouts. Its scenes are more physically plausible than those of prior generators and train a better object- navigation policy than an equal number of real scans.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.32978-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32978v1",
+      "page": 1,
+      "version": 1,
+      "width": 805,
+      "height": 523,
+      "crop": [
+        104.15,
+        425.4,
+        506.37,
+        686.34
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.32554": {
+    "arxivId": "2610.32554",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.32554",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32554v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.32554-v1.text.json",
+      "extractedAt": "2026-10-26T04:56:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: HGWM architecture. The LLM generates a hypothetical room–anchor prior, observations populate spatial-semantic memory, and graph-guided reasoning informs navigation. Hallucinated Prior and Structural Verification denote prior generation and heuristic compatibility checks; neither establishes scene truth. System 1/2 labels are conceptual analogies.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.32554-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32554v1",
+      "page": 2,
+      "version": 1,
+      "width": 1032,
+      "height": 592,
+      "crop": [
+        48.0,
+        48.0,
+        564.0,
+        343.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.32969": {
+    "arxivId": "2610.32969",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.32969",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32969v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.32969-v1.text.json",
+      "extractedAt": "2026-10-26T04:56:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Portable dexterous data collection with DEXPORT. (a) The operator moves the hand-held device to control wrist motion and uses a small set of skills to control the fingers. The portable interface uses the same robot hand used at deployment and records commanded joint targets and measured joint states. (b) Visuomotor policies trained on these demonstrations predict wrist and hand commands directly, supporting varied grasps, bimanual coordination, in-hand manipulation, and opening a drawer while holding an object.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.32969-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32969v1",
+      "page": 1,
+      "version": 1,
+      "width": 1096,
+      "height": 360,
+      "crop": [
+        48.0,
+        122.5,
+        596.0,
+        301.94
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.10215": {
+    "arxivId": "2609.10215",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.10215",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10215v1",
+      "version": 1,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.10215-v1.text.json",
+      "extractedAt": "2026-10-26T04:56:55Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2609.10215-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.10215v1",
+      "page": 1,
+      "version": 1,
+      "width": 1191,
+      "height": 1565,
+      "crop": [
+        0.0,
+        0.0,
+        595.28,
+        782.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.08292": {
+    "arxivId": "2609.08292",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.08292",
+      "sourceUrl": "https://arxiv.org/pdf/2609.08292v2",
+      "version": 2,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.08292-v2.text.json",
+      "extractedAt": "2026-10-26T04:56:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: An illustration of lifelong navigation in an evolving environment. While navigating to the target object in stage k −1, the agent observes objects such as a TV, a sofa, a desk, and chairs, consolidating experience that can support future navigation. While the agent is in the bedroom, humans rearrange the living room. In this case, the agent should not blindly fuse new observations of the living room with prior experience. In such settings, prior observations can reduce redundant exploration, but they can also mislead later navigation when parts of the scene have evolved.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.08292-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.08292v2",
+      "page": 2,
+      "version": 2,
+      "width": 799,
+      "height": 408,
+      "crop": [
+        105.83,
+        67.68,
+        504.92,
+        271.1
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.07091": {
+    "arxivId": "2609.07091",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.07091",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07091v1",
+      "version": 1,
+      "pageCount": 6,
+      "textPages": 6,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.07091-v1.text.json",
+      "extractedAt": "2026-10-26T04:57:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: A custom differential drive robot follows a tagged person using vision, LiDAR, and topological map information.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.07091-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07091v1",
+      "page": 1,
+      "version": 1,
+      "width": 392,
+      "height": 421,
+      "crop": [
+        337.8,
+        151.67,
+        533.4,
+        361.9
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.07532": {
+    "arxivId": "2609.07532",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.07532",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07532v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.07532-v1.text.json",
+      "extractedAt": "2026-10-26T04:57:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of PhysReal. The framework consists of three key components: (1) Interactive Video Parsing, which performs temporally consistent object segmentation and 3D spatial localization from interactive videos to initialize the deformable object representation; (2) Differentiable Physics Simulation, which integrates MPM with a hybrid expert-neural constitutive model, where patch-level physical representations enable learning spatially varying material responses; and (3) Training, which adopts a curriculum strategy to gradually optimize global properties, local constitutive variations, and neural residuals with complementary motion and mask supervision.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.07532-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07532v1",
+      "page": 3,
+      "version": 1,
+      "width": 1044,
+      "height": 403,
+      "crop": [
+        46.0,
+        46.08,
+        567.5,
+        247.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.07350": {
+    "arxivId": "2609.07350",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.07350",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07350v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.07350-v1.text.json",
+      "extractedAt": "2026-10-26T04:57:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Robot Decision-Making Stages",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.07350-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07350v1",
+      "page": 4,
+      "version": 1,
+      "width": 476,
+      "height": 169,
+      "crop": [
+        318.53,
+        92.54,
+        556.48,
+        176.76
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.07747": {
+    "arxivId": "2609.07747",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.07747",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07747v3",
+      "version": 3,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.07747-v3.text.json",
+      "extractedAt": "2026-10-26T04:57:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: DEX-X Overview. DEX-X learns deployable visual-tactile dexterous manipulation poli- cies from human video demonstrations. Reconstructed human hand-object references guide interac- tion learning in simulation, where contact dynamics provide the missing force-level tactile supervi- sion. The resulting policies transfer zero-shot to real-world grasping and tool-use tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.07747-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.07747v3",
+      "page": 1,
+      "version": 3,
+      "width": 824,
+      "height": 285,
+      "crop": [
+        104.15,
+        539.32,
+        515.62,
+        681.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.06629": {
+    "arxivId": "2609.06629",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.06629",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06629v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.06629-v1.text.json",
+      "extractedAt": "2026-10-26T04:57:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Different cognitive systems used within our labo- ratory. Unitree Go1 (top left), vehicle (bottom left), Unitree G1 (top and bottom mid), wheelchair (top right) and tripod (bottom right) with custom modular sensory system setups. Images partially taken from [41].",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.06629-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06629v1",
+      "page": 3,
+      "version": 1,
+      "width": 527,
+      "height": 394,
+      "crop": [
+        34.84,
+        378.98,
+        297.57,
+        575.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.06476": {
+    "arxivId": "2609.06476",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.06476",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06476v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.06476-v1.text.json",
+      "extractedAt": "2026-10-26T04:57:17Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. The overall pipeline of our O2C-Nav framework. The Structured Waypoint Generator extracts sparse candidate waypoints from RGB-D inputs and projects them onto images as visual markers. In the visualizations, red dots represent previously traversed waypoints, cyan dots indicate unvisited candidate waypoints, and the blue dot marks the current position. A single MLLM then evaluates the instruction, history, and these Visualized Observations to select a target, which is finally executed by a low-level controller.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.06476-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06476v1",
+      "page": 3,
+      "version": 1,
+      "width": 1043,
+      "height": 485,
+      "crop": [
+        46.44,
+        51.15,
+        567.18,
+        293.19
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

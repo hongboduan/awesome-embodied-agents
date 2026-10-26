@@ -1,5 +1,54 @@
 [
   {
+    "id": "version-2607.12659-v7",
+    "paperId": "2607.12659",
+    "type": "version",
+    "date": "2026-10-26T04:56:16Z",
+    "title": "EagleVLA: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+    "message": "arXiv 更新至 v7；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 6,
+    "toVersion": 7,
+    "url": "https://arxiv.org/abs/2607.12659v7"
+  },
+  {
+    "id": "discovered-2610.32554",
+    "paperId": "2610.32554",
+    "type": "discovered",
+    "date": "2026-10-26T04:56:16Z",
+    "title": "HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.32554v1"
+  },
+  {
+    "id": "version-2610.00854-v3",
+    "paperId": "2610.00854",
+    "type": "version",
+    "date": "2026-10-26T04:56:16Z",
+    "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.00854v3"
+  },
+  {
+    "id": "discovered-2610.32969",
+    "paperId": "2610.32969",
+    "type": "discovered",
+    "date": "2026-10-26T04:56:16Z",
+    "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.32969v1"
+  },
+  {
+    "id": "discovered-2610.32978",
+    "paperId": "2610.32978",
+    "type": "discovered",
+    "date": "2026-10-26T04:56:16Z",
+    "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.32978v1"
+  },
+  {
     "id": "version-2609.06114-v3",
     "paperId": "2609.06114",
     "type": "version",
