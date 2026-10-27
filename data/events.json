@@ -1,5 +1,186 @@
 [
   {
+    "id": "version-2610.02626-v4",
+    "paperId": "2610.02626",
+    "type": "version",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
+    "message": "arXiv 更新至 v4；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 3,
+    "toVersion": 4,
+    "url": "https://arxiv.org/abs/2610.02626v4"
+  },
+  {
+    "id": "discovered-2610.33191",
+    "paperId": "2610.33191",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "Whale You Go Green? Immediate and Longitudinal Effects of Embodied Conversational AI Avatars on Sustainable Behavioral Tendencies and Pro-Environmental Attitudes",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.33191v1"
+  },
+  {
+    "id": "discovered-2610.33487",
+    "paperId": "2610.33487",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "ReSight: Task-Driven Self-Improving Memory for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.33487v1"
+  },
+  {
+    "id": "discovered-2610.33582",
+    "paperId": "2610.33582",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "Replicate What Varies: Resource Sharing for Domain-Randomized Embodied Simulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.33582v1"
+  },
+  {
+    "id": "discovered-2610.34041",
+    "paperId": "2610.34041",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "T-ConSG: A LiDAR-Based Real-Time Temporal Construction Scene Graph for Dynamic and Evolving Environments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.34041v1"
+  },
+  {
+    "id": "version-2610.25959-v2",
+    "paperId": "2610.25959",
+    "type": "version",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.25959v2"
+  },
+  {
+    "id": "discovered-2610.34093",
+    "paperId": "2610.34093",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "LegoOcc++: Towards Consistent Open-Vocabulary 3D Occupancy Prediction",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.34093v1"
+  },
+  {
+    "id": "version-2610.27039-v2",
+    "paperId": "2610.27039",
+    "type": "version",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "Embodied Playground: A Long-Horizon Agentic Robotics Benchmark for Physical, Strategic, and Spatial Reasoning",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.27039v2"
+  },
+  {
+    "id": "discovered-2610.34286",
+    "paperId": "2610.34286",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "ScheNav: Schematic-Guided Object Goal Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.34286v1"
+  },
+  {
+    "id": "discovered-2610.34370",
+    "paperId": "2610.34370",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.34370v1"
+  },
+  {
+    "id": "discovered-2610.34649",
+    "paperId": "2610.34649",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.34649v1"
+  },
+  {
+    "id": "version-2609.35032-v2",
+    "paperId": "2609.35032",
+    "type": "version",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.35032v2"
+  },
+  {
+    "id": "discovered-2610.35051",
+    "paperId": "2610.35051",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "VISTA: Active Exploration for Self-Improvement in Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.35051v1"
+  },
+  {
+    "id": "discovered-2610.35066",
+    "paperId": "2610.35066",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "MemVLN: Streaming Episodic Memory for Vision-Language Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.35066v1"
+  },
+  {
+    "id": "discovered-2610.35385",
+    "paperId": "2610.35385",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.35385v1"
+  },
+  {
+    "id": "version-2609.31418-v2",
+    "paperId": "2609.31418",
+    "type": "version",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "CognitiveReality: Robot-Agnostic Semantic Gaussian Mapping with an LLM Agent for Immersive Collaborative VR Teleoperation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.31418v2"
+  },
+  {
+    "id": "discovered-2610.35489",
+    "paperId": "2610.35489",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "TP-JSCC: Efficient Token Pruning and Joint Source-Channel Coding for LVLMs-based 3D-VQA in Cloud-Edge Collaboration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.35489v1"
+  },
+  {
+    "id": "discovered-2610.35817",
+    "paperId": "2610.35817",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.35817v1"
+  },
+  {
+    "id": "discovered-2610.35832",
+    "paperId": "2610.35832",
+    "type": "discovered",
+    "date": "2026-10-27T05:13:49Z",
+    "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.35832v1"
+  },
+  {
     "id": "version-2607.12659-v7",
     "paperId": "2607.12659",
     "type": "version",

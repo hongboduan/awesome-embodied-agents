@@ -1724,27 +1724,27 @@
   },
   "2609.35032": {
     "arxivId": "2609.35032",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.35032",
-      "sourceUrl": "https://arxiv.org/pdf/2609.35032v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2609.35032v2",
+      "version": 2,
       "pageCount": 22,
       "textPages": 22,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.35032-v1.text.json",
-      "extractedAt": "2026-10-12T08:02:04Z"
+      "textPath": ".cache/papers/2609.35032-v2.text.json",
+      "extractedAt": "2026-10-27T05:14:47Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of JRDB-AVR. Unlike passive visual reasoning, where relevant image/video observations are pre-selected and only the final answer is evaluated, JRDB-AVR requires an agent to actively observe across time and view angle, then evaluates both the answer and visual evidence.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.35032-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.35032v1",
+      "path": "assets/papers/2609.35032-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.35032v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 822,
       "height": 365,
       "crop": [
@@ -1757,7 +1757,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -2231,27 +2231,27 @@
   },
   "2609.31418": {
     "arxivId": "2609.31418",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.31418",
-      "sourceUrl": "https://arxiv.org/pdf/2609.31418v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2609.31418v2",
+      "version": 2,
       "pageCount": 8,
       "textPages": 8,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.31418-v1.text.json",
-      "extractedAt": "2026-10-12T09:06:03Z"
+      "textPath": ".cache/papers/2609.31418-v2.text.json",
+      "extractedAt": "2026-10-27T05:14:50Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 2. Architecture of CognitiveReality, showing the data flow between the robot backend, online geometric and semantic reconstruction, the shared scene-aware agent, and the two VR delivery modes. A common 3D scene representation connects robot sensing, semantic object state, agent reasoning, operator interaction, and robot control.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2609.31418-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.31418v1",
+      "path": "assets/papers/2609.31418-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.31418v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 1032,
       "height": 504,
       "crop": [
@@ -2264,7 +2264,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -8510,40 +8510,40 @@
   },
   "2610.25959": {
     "arxivId": "2610.25959",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.25959",
-      "sourceUrl": "https://arxiv.org/pdf/2610.25959v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.25959v2",
+      "version": 2,
       "pageCount": 30,
       "textPages": 30,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.25959-v1.text.json",
-      "extractedAt": "2026-10-20T04:59:14Z"
+      "textPath": ".cache/papers/2610.25959-v2.text.json",
+      "extractedAt": "2026-10-27T05:14:45Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of EmbodiedWorld-200K. A large-scale embodied-planning dataset designed to support the study of Embodied World Agents (EWAs)—general-purpose embodied agents operating across diverse open-world 3D environments. Each sample consists of an initial visual observation, a natural-language navigation instruction, and the corresponding action sequence.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.25959-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.25959v1",
+      "path": "assets/papers/2610.25959-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25959v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 738,
-      "height": 378,
+      "height": 379,
       "crop": [
         121.8,
-        232.13,
+        245.92,
         490.2,
-        420.88
+        434.67
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -9017,27 +9017,27 @@
   },
   "2610.27039": {
     "arxivId": "2610.27039",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.27039",
-      "sourceUrl": "https://arxiv.org/pdf/2610.27039v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.27039v2",
+      "version": 2,
       "pageCount": 38,
       "textPages": 38,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.27039-v1.text.json",
-      "extractedAt": "2026-10-21T04:58:25Z"
+      "textPath": ".cache/papers/2610.27039-v2.text.json",
+      "extractedAt": "2026-10-27T05:14:41Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1. Embodied Playground at a glance. Six trajectories illustrate Launch, Tower, Lock, Cube, and two Home environments, including successes and failures. The middle row compares GPT-6-Astra and Opus-5.5-extra by suite on Pass@2, condition outcomes, and mean duration of successful attempts. Frame timestamps use simulated seconds; the timing chart uses wall-clock minutes.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.27039-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.27039v1",
+      "path": "assets/papers/2610.27039-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.27039v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 962,
       "height": 996,
       "crop": [
@@ -9050,7 +9050,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -12750,6 +12750,318 @@
         51.15,
         567.18,
         293.19
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.35051": {
+    "arxivId": "2610.35051",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.35051",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35051v1",
+      "version": 1,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.35051-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of VISTA. The meta-agent develops an embodied harness from versioned implementations and multimodal execution evidence. Within a development iteration, it interleaves code revision, active exploration, and autonomous candidate testing. After submission, the frozen candidate undergoes a separate autonomous evaluation under the declared development conditions. The selection rule determines whether it replaces the incumbent; both promoted and rejected versions remain in the history. The inner loop acquires evidence and refines a candidate, while the outer loop selects and retains harnesses across development iterations.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.35051-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35051v1",
+      "page": 4,
+      "version": 1,
+      "width": 872,
+      "height": 482,
+      "crop": [
+        86.2,
+        85.27,
+        521.55,
+        325.57
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.35817": {
+    "arxivId": "2610.35817",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.35817",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35817v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.35817-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Motion learned in simulation carries over to new real tasks that need reasoning. Left: two of the simulated training tasks. These simple pick and place, stacking, and reorientation tasks with everyday objects teach the model only how to move. Right: the same model, trained exclusively in simulation, tested zero-shot on a real bi-manual robot. No real robot data is used in training. Each task is new in a different way. The test tube and rack are a new object and a new goal. The mid-air handoff strategy has nothing close to it in the training distribution. Similarly, drawing an X in the center of a tic-tac-toe grid is a new type of manipulation guided by reading the board. Playing a mate in one requires reasoning about chess, drawing from the model’s pretraining capabilities.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.35817-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35817v1",
+      "page": 1,
+      "version": 1,
+      "width": 817,
+      "height": 236,
+      "crop": [
+        102.2,
+        494.09,
+        510.2,
+        611.65
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.35385": {
+    "arxivId": "2610.35385",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.35385",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35385v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.35385-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:26Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of EmbodiedLab. Thirty quantitative experiments in five disciplines ask the agent to measure, predict or configure a system drawn anew per instance, by changing its state and reading the feedback on the instruments. Agents are ranked by their success rate at the lowest interface level, T0, and also evaluated at T1; the diagnostic level T2 and four capability dimensions serve the analysis.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.35385-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35385v1",
+      "page": 1,
+      "version": 1,
+      "width": 981,
+      "height": 988,
+      "crop": [
+        60.95,
+        185.07,
+        550.52,
+        678.96
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.35832": {
+    "arxivId": "2610.35832",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.35832",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35832v1",
+      "version": 1,
+      "pageCount": 51,
+      "textPages": 51,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.35832-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:29Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of the GPT-6-Astra control loop on EBench and executor timelines on a Microwave test scene. The input prompt combines the task instruction with a detailed task description annotated from a single training episode. The timeline bars compare active executors across an episode under direct control and under the harness with π0.5, with blue segments executed by the agent and purple segments by π0.5, and with keyframes showing right-wrist camera views from that episode at the marked steps.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.35832-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35832v1",
+      "page": 5,
+      "version": 1,
+      "width": 817,
+      "height": 335,
+      "crop": [
+        102.0,
+        75.86,
+        510.01,
+        242.79
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.34649": {
+    "arxivId": "2610.34649",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.34649",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34649v1",
+      "version": 1,
+      "pageCount": 48,
+      "textPages": 48,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.34649-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of RobotAgentBench.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.34649-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34649v1",
+      "page": 3,
+      "version": 1,
+      "width": 508,
+      "height": 579,
+      "crop": [
+        64.87,
+        62.34,
+        318.24,
+        351.11
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.34370": {
+    "arxivId": "2610.34370",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.34370",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34370v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.34370-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: (a) An overview of our method for indoor and in-the- wild loco-manipulation tasks. (b) Performance comparison of long- horizon real-world tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.34370-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34370v1",
+      "page": 1,
+      "version": 1,
+      "width": 522,
+      "height": 497,
+      "crop": [
+        307.48,
+        165.19,
+        567.57,
+        413.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.33487": {
+    "arxivId": "2610.33487",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.33487",
+      "sourceUrl": "https://arxiv.org/pdf/2610.33487v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.33487-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: ReSight architecture. The two agents access the same evidence memory through different interfaces. EDM converts exploration-derived solutions into tools, skills, and memory builders for reuse by the execution agent.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.33487-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.33487v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 279,
+      "crop": [
+        102.0,
+        75.86,
+        509.98,
+        214.95
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.35489": {
+    "arxivId": "2610.35489",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.35489",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35489v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.35489-v1.text.json",
+      "extractedAt": "2026-10-27T05:14:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Framework of the proposed Token Pruning Joint Source-Channel Coding (TP-JSCC). The LGS-HTP module effectively selects global semantic tokens to reduce visual redundancy and achieve a scalable compression ratio. Simultaneously, the T-JSCC module encodes and transmits the selected sparse tokens to maintain transmission robust to complex wireless channel conditions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.35489-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35489v1",
+      "page": 3,
+      "version": 1,
+      "width": 987,
+      "height": 560,
+      "crop": [
+        58.9,
+        48.5,
+        551.63,
+        327.58
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
