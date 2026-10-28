@@ -12371,27 +12371,27 @@
   },
   "2610.32554": {
     "arxivId": "2610.32554",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.32554",
-      "sourceUrl": "https://arxiv.org/pdf/2610.32554v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.32554v2",
+      "version": 2,
       "pageCount": 18,
       "textPages": 18,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.32554-v1.text.json",
-      "extractedAt": "2026-10-26T04:56:49Z"
+      "textPath": ".cache/papers/2610.32554-v2.text.json",
+      "extractedAt": "2026-10-28T05:52:49Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: HGWM architecture. The LLM generates a hypothetical room–anchor prior, observations populate spatial-semantic memory, and graph-guided reasoning informs navigation. Hallucinated Prior and Structural Verification denote prior generation and heuristic compatibility checks; neither establishes scene truth. System 1/2 labels are conceptual analogies.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.32554-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.32554v1",
+      "path": "assets/papers/2610.32554-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32554v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 1032,
       "height": 592,
       "crop": [
@@ -12404,7 +12404,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -12800,40 +12800,40 @@
   },
   "2610.35817": {
     "arxivId": "2610.35817",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.35817",
-      "sourceUrl": "https://arxiv.org/pdf/2610.35817v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.35817v2",
+      "version": 2,
       "pageCount": 25,
       "textPages": 25,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.35817-v1.text.json",
-      "extractedAt": "2026-10-27T05:14:22Z"
+      "textPath": ".cache/papers/2610.35817-v2.text.json",
+      "extractedAt": "2026-10-28T05:52:21Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: Motion learned in simulation carries over to new real tasks that need reasoning. Left: two of the simulated training tasks. These simple pick and place, stacking, and reorientation tasks with everyday objects teach the model only how to move. Right: the same model, trained exclusively in simulation, tested zero-shot on a real bi-manual robot. No real robot data is used in training. Each task is new in a different way. The test tube and rack are a new object and a new goal. The mid-air handoff strategy has nothing close to it in the training distribution. Similarly, drawing an X in the center of a tic-tac-toe grid is a new type of manipulation guided by reading the board. Playing a mate in one requires reasoning about chess, drawing from the model’s pretraining capabilities.",
+      "caption": "Figure 1: Motion learned in simulation carries over to new real tasks that need reasoning. Left: two of the simulated training tasks. These simple pick and place, stacking, and reorientation tasks with everyday objects teach the model only how to move. Right: the same model, trained exclusively in simulation, tested zero-shot on a real bi-manual robot. Without using any real robot data in training, ZAP generalizes to completely new objects (test tube), new goals (choosing a different hole in the rack), new strategies (mid-air handoff), and complex skills and reasoning (drawing an X on a tic-tac-toe board, playing chess). These tasks show the model composing reasoning from pretraining with motion learned in simulation.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.35817-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.35817v1",
+      "path": "assets/papers/2610.35817-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35817v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 817,
       "height": 236,
       "crop": [
         102.2,
-        494.09,
+        424.96,
         510.2,
-        611.65
+        542.45
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -13062,6 +13062,396 @@
         48.5,
         551.63,
         327.58
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.36013": {
+    "arxivId": "2610.36013",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.36013",
+      "sourceUrl": "https://arxiv.org/pdf/2610.36013v1",
+      "version": 1,
+      "pageCount": 40,
+      "textPages": 40,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.36013-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of OmniBrain-0. Top: Three-stage training: embodied pretraining, domain-specialized distillation into manipulation and navigation experts, and multi-expert consolidation (MOPD) into a single compact agent. Middle: Given a task instruction, observations, and an optional experience library, OmniBrain-0 understands, plans, orchestrates skills, and recovers from failures across manipulation and navigation. Bottom: Rubric-Guided Recursive Self-Improvement (RSI) uses interaction evidence to refine step-level reminders and curate verified trajectories, then updates domain experts and consolidates their capabilities through MOPD for the next interaction round. The radar chart reports success rates (%) on five benchmarks, comparing OmniBrain-0 with the baseline policy (π0.5 for LIBERO-Pro, LIBERO-Plus, RoboTwin 2.0, and RoboCasa365; InternVLA-N1 for R2R-CE Val-Unseen) and the few-shot teacher GPT-5.6-Sol.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.36013-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.36013v1",
+      "page": 3,
+      "version": 1,
+      "width": 966,
+      "height": 685,
+      "crop": [
+        64.87,
+        99.35,
+        547.13,
+        441.25
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.37533": {
+    "arxivId": "2610.37533",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.37533",
+      "sourceUrl": "https://arxiv.org/pdf/2610.37533v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.37533-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Which hand was late? One hand turns a key-tool in the lock while the other pushes the door (top). Each attempt is labelled from its recorded trace (strips): a wrong gesture (W), a push too weak while both hands acted (F), right gestures at different times (T), or success (S). A late attempt whose push was also below the hidden threshold τ has the same frames and two causes.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.37533-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.37533v1",
+      "page": 1,
+      "version": 1,
+      "width": 817,
+      "height": 512,
+      "crop": [
+        102.0,
+        203.83,
+        510.01,
+        459.41
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.36533": {
+    "arxivId": "2610.36533",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.36533",
+      "sourceUrl": "https://arxiv.org/pdf/2610.36533v1",
+      "version": 1,
+      "pageCount": 39,
+      "textPages": 39,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.36533-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of RoboAuto. The Hierarchical Knowledge Base (left) stores object-centric physical knowledge, comprising affor- dances, spatial relations, and action effects, together with executable skills. Physical Scene Grounding (middle) binds the entries relevant to a task to quantities measured in the current scene. Search and Exploration (right) plans the task as stages that end in verified state changes and designs experiments that separate competing physical hypotheses. Interaction evidence updates the knowledge, and verified programs return to the knowledge base as new skills. RoboAuto is evaluated across five benchmark families, LIBERO-PRO, LIBERO-PRO Long, LIBERO-Plus, Robosuite, and RoboTwin 2.0, where RoboTwin 2.0 tests transfer to a new simulator and embodiment.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.36533-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.36533v1",
+      "page": 2,
+      "version": 1,
+      "width": 1015,
+      "height": 417,
+      "crop": [
+        52.5,
+        65.13,
+        559.59,
+        273.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.35066": {
+    "arxivId": "2610.35066",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.35066",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35066v2",
+      "version": 2,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.35066-v2.text.json",
+      "extractedAt": "2026-10-28T05:52:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: MEMVLN overview. We design a streaming episodic memory framework that endows vision-language models (VLMs) with navigation memory for streaming video. MEMVLN employs a memory module that progressively stores compressed perceptual features and produces compact memory tokens via cross-attention. MEMVLN elevates vision-language navigation performance, including long-horizon and real-world scenarios.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.35066-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35066v2",
+      "page": 1,
+      "version": 2,
+      "width": 815,
+      "height": 328,
+      "crop": [
+        103.43,
+        221.12,
+        510.35,
+        384.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.36374": {
+    "arxivId": "2610.36374",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.36374",
+      "sourceUrl": "https://arxiv.org/pdf/2610.36374v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.36374-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:33Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of HIDRA. A frozen pretrained multimodal policy produces an instruction query qins",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.36374-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.36374v1",
+      "page": 4,
+      "version": 1,
+      "width": 787,
+      "height": 415,
+      "crop": [
+        108.5,
+        63.38,
+        501.15,
+        270.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.34041": {
+    "arxivId": "2610.34041",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.34041",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34041v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.34041-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overall workflow.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.34041-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34041v1",
+      "page": 3,
+      "version": 1,
+      "width": 541,
+      "height": 425,
+      "crop": [
+        48.0,
+        48.07,
+        318.24,
+        260.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.34286": {
+    "arxivId": "2610.34286",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.34286",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34286v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.34286-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of schematic-guided navigation. A human provides imperfect schematic guidance, such as a rough sketch or a pointed direction. ScheNav grounds the guidance in the agent’s observations and predicts a value field that rises toward the goal. Guided by the predicted field, the agent reaches the goal along an efficient route in an environment it has barely explored.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.34286-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34286v1",
+      "page": 1,
+      "version": 1,
+      "width": 474,
+      "height": 259,
+      "crop": [
+        317.16,
+        198.55,
+        553.59,
+        327.65
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.34093": {
+    "arxivId": "2610.34093",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.34093",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34093v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.34093-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Framework Overview. From a monocular image, a feed-forward Gaussian model produces Language-Embedded Gaussians. Training proceeds along two paths: Semantic learning, we differentiably render Gaussian features to the image with Progressive Temperature Decay and align them to a training-free open-vocabulary segmenter via a cosine objective Lfeat; Geometry learning, we convert Gaussians to occupancy using an opacity-aware Poisson-based Gaussian-to-Occupancy operator and supervise binary occupancy with Locc. At inference, the Language-Embedded Occupancy supports text-driven queries by computing cosine similarity between voxel embeddings and prompt embeddings, yielding open-vocabulary semantic occupancy without dense voxel-level semantic labels during training.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.34093-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34093v1",
+      "page": 5,
+      "version": 1,
+      "width": 1033,
+      "height": 383,
+      "crop": [
+        46.36,
+        50.07,
+        562.13,
+        241.21
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.33582": {
+    "arxivId": "2610.33582",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.33582",
+      "sourceUrl": "https://arxiv.org/pdf/2610.33582v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.33582-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 5: Overview of Patchwork. The pipeline transforms environment specifications into mutation representations, serves them with shared templates and patches, and materializes them through layered resource-sharing mechanisms.",
+      "figureLabel": "Figure 5",
+      "selection": "automatic",
+      "path": "assets/papers/2610.33582-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.33582v1",
+      "page": 6,
+      "version": 1,
+      "width": 1032,
+      "height": 224,
+      "crop": [
+        48.0,
+        66.0,
+        564.0,
+        177.9
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.33191": {
+    "arxivId": "2610.33191",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.33191",
+      "sourceUrl": "https://arxiv.org/pdf/2610.33191v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.33191-v1.text.json",
+      "extractedAt": "2026-10-28T05:52:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of the study design and two outcome categories. Participants were assigned to one of four embodied conversational-agent conditions, a text-only chatbot condition, or a no-intervention control. Outcomes were assessed at Wave 1 and approximately two months later at Wave 2. Sustainable behavioral tendencies comprised sustainable product choice, donation, and willingness to share climate information. Pro-environmental attitudes comprised retrospective self-reported habits, prospective intentions, GREEN attitudes, denial subscales, psychological distance, and policy support. The figure summarizes the study structure and does not depict estimated intervention effects.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.33191-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.33191v1",
+      "page": 1,
+      "version": 1,
+      "width": 1034,
+      "height": 496,
+      "crop": [
+        47.8,
+        202.88,
+        564.2,
+        450.27
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

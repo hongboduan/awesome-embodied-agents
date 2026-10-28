@@ -1,5 +1,85 @@
 [
   {
+    "id": "discovered-2610.36013",
+    "paperId": "2610.36013",
+    "type": "discovered",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.36013v1"
+  },
+  {
+    "id": "discovered-2610.36374",
+    "paperId": "2610.36374",
+    "type": "discovered",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "HIDRA: Hierarchical Dual-Routing Attention for Replay-Free Lifelong Imitation Learning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.36374v1"
+  },
+  {
+    "id": "discovered-2610.36533",
+    "paperId": "2610.36533",
+    "type": "discovered",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.36533v1"
+  },
+  {
+    "id": "version-2610.35066-v2",
+    "paperId": "2610.35066",
+    "type": "version",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "MemVLN: Streaming Episodic Memory for Vision-Language Navigation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.35066v2"
+  },
+  {
+    "id": "version-2610.35817-v2",
+    "paperId": "2610.35817",
+    "type": "version",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.35817v2"
+  },
+  {
+    "id": "version-2610.02662-v2",
+    "paperId": "2610.02662",
+    "type": "version",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "GARV: Graph-Aware Refinement and Safety Verification for High-Level Robot Plans",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.02662v2"
+  },
+  {
+    "id": "version-2610.32554-v2",
+    "paperId": "2610.32554",
+    "type": "version",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.32554v2"
+  },
+  {
+    "id": "discovered-2610.37533",
+    "paperId": "2610.37533",
+    "type": "discovered",
+    "date": "2026-10-28T05:51:48Z",
+    "title": "Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.37533v1"
+  },
+  {
     "id": "version-2610.02626-v4",
     "paperId": "2610.02626",
     "type": "version",
