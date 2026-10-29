@@ -7540,27 +7540,27 @@
   },
   "2610.02626": {
     "arxivId": "2610.02626",
-    "version": 3,
+    "version": 4,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.02626",
-      "sourceUrl": "https://arxiv.org/pdf/2610.02626v3",
-      "version": 3,
+      "sourceUrl": "https://arxiv.org/pdf/2610.02626v4",
+      "version": 4,
       "pageCount": 15,
       "textPages": 15,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.02626-v3.text.json",
-      "extractedAt": "2026-10-18T04:42:52Z"
+      "textPath": ".cache/papers/2610.02626-v4.text.json",
+      "extractedAt": "2026-10-29T05:56:44Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 3: Overview of our framework. (a) the overall architecture; (b) the latent spatiotemporal reasoning module learns to predict future visual keyframes; (c) the gist modules internalize reasoning- derived behavioral information into a compact Scene Gist Token.",
       "figureLabel": "Figure 3",
       "selection": "automatic",
-      "path": "assets/papers/2610.02626-v3.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.02626v3",
+      "path": "assets/papers/2610.02626-v4.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02626v4",
       "page": 4,
-      "version": 3,
+      "version": 4,
       "width": 816,
       "height": 510,
       "crop": [
@@ -7573,7 +7573,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 3,
+      "version": 4,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -7964,40 +7964,40 @@
   },
   "2610.02662": {
     "arxivId": "2610.02662",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.02662",
-      "sourceUrl": "https://arxiv.org/pdf/2610.02662v1",
-      "version": 1,
-      "pageCount": 5,
-      "textPages": 5,
+      "sourceUrl": "https://arxiv.org/pdf/2610.02662v2",
+      "version": 2,
+      "pageCount": 7,
+      "textPages": 7,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.02662-v1.text.json",
-      "extractedAt": "2026-10-19T04:51:27Z"
+      "textPath": ".cache/papers/2610.02662-v2.text.json",
+      "extractedAt": "2026-10-29T05:56:45Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: Horizontal view of the N2 false-safe action abstraction, where C is the forbidden construc- tion region. SPINE exposes only the destination, so RoboGuard accepts the surface plan. Graph execution traverses C and violates the same LTL rule.",
+      "caption": "Fig. 1. Concrete SPINE-RoboGuard instantiation of graph-aware refinement and verification. The high-level plan, semantic graph, action contract, and safety monitor are the algorithm inputs. Refinement exposes intermediate events before monitor evaluation. The right-hand replanning and robot-execution pathway is conceptual and is not evaluated in the current experiments.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.02662-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.02662v1",
-      "page": 2,
-      "version": 1,
-      "width": 814,
-      "height": 180,
+      "path": "assets/papers/2610.02662-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.02662v2",
+      "page": 3,
+      "version": 2,
+      "width": 1042,
+      "height": 432,
       "crop": [
-        102.3,
-        66.3,
-        508.98,
-        155.58
+        45.53,
+        44.54,
+        566.46,
+        260.11
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -13458,6 +13458,396 @@
     "ai": {
       "status": "not-configured",
       "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.06852": {
+    "arxivId": "2609.06852",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.06852",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06852v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.06852-v1.text.json",
+      "extractedAt": "2026-10-29T05:56:50Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: ContextFlow Model Architecture. We follow the mixture-of-experts de- sign and employ two experts: the context expert and the action expert. The cur- rent observation, text prompt, and in-context demonstrations are first encoded and passed through multimodal context compressors, and the resulting compressed tokens are routed to the context expert, while the current proprioceptive state and action noise tokens are routed to the action expert. The context expert encodes the current observation and contextual information, while the action expert performs flow match- ing steps to predict the actions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.06852-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06852v1",
+      "page": 5,
+      "version": 1,
+      "width": 697,
+      "height": 278,
+      "crop": [
+        133.71,
+        103.01,
+        481.53,
+        241.78
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.06114": {
+    "arxivId": "2609.06114",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.06114",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06114v3",
+      "version": 3,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.06114-v3.text.json",
+      "extractedAt": "2026-10-29T05:56:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of DLS Pipeline. The rollout policy from real-grounded behavioral prior inter- acts with the digital twin; semantic progress localization assigns progress-aware labels to trajecto- ries. Two mirrored branches are constructed around the stored rollout velocity, whose Mahalanobis errors drive directional boundary shaping, pulling the flow toward success-producing directions and pushing it away from failure-producing ones, anchored by real-data SFT regularization.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.06114-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.06114v3",
+      "page": 4,
+      "version": 3,
+      "width": 817,
+      "height": 354,
+      "crop": [
+        102.0,
+        65.32,
+        510.14,
+        241.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.05324": {
+    "arxivId": "2609.05324",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.05324",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05324v1",
+      "version": 1,
+      "pageCount": 36,
+      "textPages": 36,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.05324-v1.text.json",
+      "extractedAt": "2026-10-29T05:56:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of RoboSPA. RoboSPA centers on Fine-Grained Spatial Reasoning and Long-Horizon Procedural Planning, covering 10 task categories and 56 base tasks. Each task has 5 difficulty levels, yielding 280 variants. The dataset includes 527K trajectories across multiple embodiments and scene settings, supporting step-level evaluation of VLA limitations in spatial reasoning, long-horizon execution, and scalable embodied reasoning.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.05324-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05324v1",
+      "page": 3,
+      "version": 1,
+      "width": 887,
+      "height": 510,
+      "crop": [
+        76.21,
+        64.87,
+        519.05,
+        319.22
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.05178": {
+    "arxivId": "2609.05178",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.05178",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05178v3",
+      "version": 3,
+      "pageCount": 38,
+      "textPages": 38,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.05178-v3.text.json",
+      "extractedAt": "2026-10-29T05:57:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of LIBERO-Recover. LIBERO-Recover collects failure scenarios from SOTA models and expert recovery trajectories via human teleoperation. The plots summarize recovery performance across difficulty levels and performance degradation after failure.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.05178-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05178v3",
+      "page": 2,
+      "version": 3,
+      "width": 856,
+      "height": 430,
+      "crop": [
+        82.49,
+        75.86,
+        509.89,
+        290.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.04607": {
+    "arxivId": "2609.04607",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.04607",
+      "sourceUrl": "https://arxiv.org/pdf/2609.04607v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.04607-v1.text.json",
+      "extractedAt": "2026-10-29T05:57:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "FIGURE 2. Overview of the five field-test datasets. For each dataset, the satellite image (left) shows the spatial extent of the trajectory, while the three camera images (right) illustrate representative visual conditions encountered during data collection.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.04607-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.04607v1",
+      "page": 6,
+      "version": 1,
+      "width": 996,
+      "height": 1059,
+      "crop": [
+        68.23,
+        122.12,
+        565.57,
+        651.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.05260": {
+    "arxivId": "2609.05260",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.05260",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05260v2",
+      "version": 2,
+      "pageCount": 7,
+      "textPages": 7,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.05260-v2.text.json",
+      "extractedAt": "2026-10-29T05:57:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Illustration of decision invariance and decision sensitivity under a fixed physical decision state. The executable decision remains unchanged under the",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.05260-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05260v2",
+      "page": 1,
+      "version": 2,
+      "width": 1044,
+      "height": 492,
+      "crop": [
+        45.29,
+        210.65,
+        566.75,
+        456.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.03621": {
+    "arxivId": "2609.03621",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.03621",
+      "sourceUrl": "https://arxiv.org/pdf/2609.03621v1",
+      "version": 1,
+      "pageCount": 52,
+      "textPages": 52,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.03621-v1.text.json",
+      "extractedAt": "2026-10-29T05:57:16Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2609.03621-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.03621v1",
+      "page": 1,
+      "version": 1,
+      "width": 1191,
+      "height": 1684,
+      "crop": [
+        0.0,
+        0.0,
+        595.2,
+        841.92
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.03565": {
+    "arxivId": "2609.03565",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.03565",
+      "sourceUrl": "https://arxiv.org/pdf/2609.03565v2",
+      "version": 2,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.03565-v2.text.json",
+      "extractedAt": "2026-10-29T05:57:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the proposed model. The encoder E maps observations to latent representations, and the action-conditioned predictor F models their evolution. The inverse-dynamics head H predicts the executed action from consecutive representations, while the state-alignment head G grounds them in measured physical states. The dashed branch denotes the corresponding prediction at the preceding time step.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.03565-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.03565v2",
+      "page": 2,
+      "version": 2,
+      "width": 882,
+      "height": 405,
+      "crop": [
+        85.8,
+        44.08,
+        526.2,
+        246.35
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.02350": {
+    "arxivId": "2609.02350",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.02350",
+      "sourceUrl": "https://arxiv.org/pdf/2609.02350v2",
+      "version": 2,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.02350-v2.text.json",
+      "extractedAt": "2026-10-29T05:57:20Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Memory efficiency comparison of different methods in R2R. LookStep performs the best memory efficiency and does not require extra data for training.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.02350-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.02350v2",
+      "page": 1,
+      "version": 2,
+      "width": 461,
+      "height": 280,
+      "crop": [
+        300.14,
+        213.91,
+        530.41,
+        353.05
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.05533": {
+    "arxivId": "2609.05533",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.05533",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05533v2",
+      "version": 2,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.05533-v2.text.json",
+      "extractedAt": "2026-10-29T05:57:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: SimpleMemVLA architecture and streaming inference. (a) The architecture uses only standard VLA components, with self-attention over plaintext-timestamped history serving as mem- ory. (b) Consecutive decisions differ by only one temporal patch, enabling shared-prefix prefill dur- ing action execution and reducing latency from 1.02 s to 0.68 s with identical outputs (Section 4.6).",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.05533-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05533v2",
+      "page": 4,
+      "version": 2,
+      "width": 778,
+      "height": 452,
+      "crop": [
+        111.9,
+        75.86,
+        500.03,
+        301.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }
