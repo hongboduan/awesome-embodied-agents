@@ -3831,23 +3831,79 @@
   "2610.18792": {
     "arxivId": "2610.18792",
     "version": 1,
-    "lastPdfAttempt": {
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.18792",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18792v1",
       "version": 1,
-      "at": "2026-10-14T05:01:47Z",
-      "status": "failed",
-      "extractionFingerprint": "3ab234daa08f83f5",
-      "error": "http-404"
+      "pageCount": 49,
+      "textPages": 49,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.18792-v1.text.json",
+      "extractedAt": "2026-10-30T05:58:23Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. SEAR is a framework and benchmark for self-evolving agentic robotics: frontier language- model agents that can improve robot performance from their own experience. We disentangle real progress across (top) 330 simulated tasks, two physics engines, and (middle) five physical tasks on a two-arm rig, tested on human-designed scenes. Bottom: the same harness on a dexterous hand.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.18792-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18792v1",
+      "page": 1,
+      "version": 1,
+      "width": 747,
+      "height": 603,
+      "crop": [
+        119.96,
+        139.74,
+        492.99,
+        440.96
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
   "2610.18874": {
     "arxivId": "2610.18874",
     "version": 1,
-    "lastPdfAttempt": {
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.18874",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18874v1",
       "version": 1,
-      "at": "2026-10-14T05:01:50Z",
-      "status": "failed",
-      "extractionFingerprint": "3ab234daa08f83f5",
-      "error": "http-404"
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.18874-v1.text.json",
+      "extractedAt": "2026-10-30T05:58:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: ChunkAct introduces action chunking to agentic robotics, improving both task success and efficiency. Top: prior methods invoke the LLM planner once per primitive, so the number of LLM calls and the context length grow with every step. Bottom: ChunkAct invokes the planner once to launch an action chunk, which executes autonomously and returns a typed error only upon failure. Right: ChunkAct gains both task success and efficiency.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.18874-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.18874v1",
+      "page": 2,
+      "version": 1,
+      "width": 927,
+      "height": 385,
+      "crop": [
+        65.5,
+        60.6,
+        528.66,
+        252.78
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
   "2610.17881": {
@@ -9641,40 +9697,40 @@
   },
   "2609.37708": {
     "arxivId": "2609.37708",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.37708",
-      "sourceUrl": "https://arxiv.org/pdf/2609.37708v1",
-      "version": 1,
-      "pageCount": 26,
-      "textPages": 26,
+      "sourceUrl": "https://arxiv.org/pdf/2609.37708v2",
+      "version": 2,
+      "pageCount": 30,
+      "textPages": 30,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.37708-v1.text.json",
-      "extractedAt": "2026-10-21T13:26:02Z"
+      "textPath": ".cache/papers/2609.37708-v2.text.json",
+      "extractedAt": "2026-10-30T05:58:13Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: A generative model for multi-agent interaction. We propose Bilevel Representations for Agent Interaction Dynamics (BRAID), a unified model of multi-party group behaviour.",
+      "caption": "Figure 1. A generative model for multi‑agent interaction. We propose Bilevel Representations for Agent Interaction Dynamics (BRAID), a unified model of multi‑party group behaviour.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.37708-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.37708v1",
-      "page": 2,
-      "version": 1,
-      "width": 816,
-      "height": 316,
+      "path": "assets/papers/2609.37708-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.37708v2",
+      "page": 1,
+      "version": 2,
+      "width": 876,
+      "height": 467,
       "crop": [
-        102.03,
-        76.27,
-        509.5,
-        233.77
+        78.89,
+        160.96,
+        516.24,
+        393.82
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -11396,27 +11452,27 @@
   },
   "2610.30988": {
     "arxivId": "2610.30988",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.30988",
-      "sourceUrl": "https://arxiv.org/pdf/2610.30988v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.30988v2",
+      "version": 2,
       "pageCount": 12,
       "textPages": 12,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.30988-v1.text.json",
-      "extractedAt": "2026-10-24T04:45:22Z"
+      "textPath": ".cache/papers/2610.30988-v2.text.json",
+      "extractedAt": "2026-10-30T05:58:10Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 2. Overview of the proposed pipeline, comprising three stages. i) Synthetic soft object manipulation demonstrations are collected in simulation using Isaac Lab, capturing partial point cloud observations and bimanual actions across randomized material properties and grasping configurations. ii) For each garment category, an expert model consists of training two components: a State Estimation Diffusion Model via flow matching; and a Dynamics Prediction Model via supervised learning. iii) Integrate the world model to evaluate action proposals generated via a Goal Conditioned Flow Matching policy.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.30988-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.30988v1",
+      "path": "assets/papers/2610.30988-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.30988v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 1054,
       "height": 475,
       "crop": [
@@ -11429,7 +11485,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -12371,27 +12427,27 @@
   },
   "2610.32554": {
     "arxivId": "2610.32554",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.32554",
-      "sourceUrl": "https://arxiv.org/pdf/2610.32554v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.32554v3",
+      "version": 3,
       "pageCount": 18,
       "textPages": 18,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.32554-v2.text.json",
-      "extractedAt": "2026-10-28T05:52:49Z"
+      "textPath": ".cache/papers/2610.32554-v3.text.json",
+      "extractedAt": "2026-10-30T05:58:07Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: HGWM architecture. The LLM generates a hypothetical room–anchor prior, observations populate spatial-semantic memory, and graph-guided reasoning informs navigation. Hallucinated Prior and Structural Verification denote prior generation and heuristic compatibility checks; neither establishes scene truth. System 1/2 labels are conceptual analogies.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.32554-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.32554v2",
+      "path": "assets/papers/2610.32554-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.32554v3",
       "page": 2,
-      "version": 2,
+      "version": 3,
       "width": 1032,
       "height": 592,
       "crop": [
@@ -12404,7 +12460,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -13848,6 +13904,279 @@
     "ai": {
       "status": "not-configured",
       "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.40565": {
+    "arxivId": "2610.40565",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.40565",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40565v1",
+      "version": 1,
+      "pageCount": 39,
+      "textPages": 39,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.40565-v1.text.json",
+      "extractedAt": "2026-10-30T05:57:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of Gym-Anything for Robotics. Phase 1: We select 120 simulations grounded in U.S. GDP data, covering the most valuable physical work across occupations and everyday life, and build 25 of them. Phase 2: A creation agent builds each simulation in code and produces evidence of its quality, which four audit agents check against our criteria. Phase 3: A task creation agent proposes tasks of targeted difficulty, which six audit agents check, and each task runs with many robots and variations. Phase 4: Models learn from privileged simulation state through in- context learning, coaching, and code policies that train VLAs.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.40565-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40565v1",
+      "page": 2,
+      "version": 1,
+      "width": 817,
+      "height": 415,
+      "crop": [
+        102.0,
+        66.0,
+        510.09,
+        272.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.39180": {
+    "arxivId": "2610.39180",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.39180",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39180v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.39180-v1.text.json",
+      "extractedAt": "2026-10-30T05:57:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of EmbodiExp. The experience construction stage constructs a bank for outcome-grounded subgoal experience from both successful and failed trajectories, while the experience-guided execution stage retrieves and composes relevant experience to inform execution.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.39180-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39180v1",
+      "page": 4,
+      "version": 1,
+      "width": 814,
+      "height": 310,
+      "crop": [
+        102.76,
+        76.66,
+        509.0,
+        231.27
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.40016": {
+    "arxivId": "2610.40016",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.40016",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40016v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.40016-v1.text.json",
+      "extractedAt": "2026-10-30T05:57:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. LOGIV execution on the BiCoord build bridge task. (A) A validated reference plan is compiled into the initial task DAG before execution. (B) A previously placed support is displaced, invalidating a condition required by the remaining plan. (C) LOGIV repairs only the affected support operations, retains the unaffected beam operations, and resumes execution on the updated task DAG.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.40016-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40016v1",
+      "page": 2,
+      "version": 1,
+      "width": 495,
+      "height": 609,
+      "crop": [
+        313.05,
+        76.78,
+        560.03,
+        380.63
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.39446": {
+    "arxivId": "2610.39446",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.39446",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39446v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.39446-v1.text.json",
+      "extractedAt": "2026-10-30T05:58:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3 Online guide response generation. The navigation agent actively generates a question, while an independent multimodal guide generates a natural-language response based on the navigation instruction, current observations, target information, and reference route. The figure illustrates the current and target views, reference route, and spatial relationships between the agent and the destination. Only the generated natural-language response is returned to the navigation agent, which independently makes subsequent decisions. This process simulates natural human-to-human interaction, providing navigation guidance through directions, landmarks, and spatial relationships.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.39446-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39446v1",
+      "page": 8,
+      "version": 1,
+      "width": 960,
+      "height": 437,
+      "crop": [
+        67.27,
+        60.08,
+        546.64,
+        278.26
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.39825": {
+    "arxivId": "2610.39825",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.39825",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39825v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.39825-v1.text.json",
+      "extractedAt": "2026-10-30T05:58:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Toy Example. Vanilla represents the original flow which is trained to fit into the contour of a cat. Guidance stands for the case where the flow is guided towards two eyes of the cat. Although the guidance successfully steers the trajectory, many trajectories collide with the red yarn ball which serves as the obstacle. Correction means min-norm controller is applied to the former case. While all trajectories are safe, the quality is significantly degraded. Aegis successfully guides most of the trajectories towards the target while maintaining a safe distance from the obstacle.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.39825-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39825v1",
+      "page": 2,
+      "version": 1,
+      "width": 698,
+      "height": 556,
+      "crop": [
+        131.7,
+        66.0,
+        480.32,
+        343.32
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.00845": {
+    "arxivId": "2609.00845",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.00845",
+      "sourceUrl": "https://arxiv.org/pdf/2609.00845v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.00845-v1.text.json",
+      "extractedAt": "2026-10-30T05:58:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: The Data Construction Pipeline of VGEBench: This pipeline consists of three main phases: raw view collection, Annotation and state machine design, and instruction generation. In the Raw View Collection phase, we acquire high-fidelity visual observations, capturing views for each 3D object to ensure comprehensive coverage. The process then proceeds to Annotation and State Machine Design, where a Universal Category State Machine (UCSM) is instantiated into a Specific State Machine (SSM) based on manual annotations of visible interactive components. Building on this SSM, our environment simulator can generate state-dependent feedbacks. Finally, Instruction Generation synthesizes diverse tasks by sampling valid state transition paths from the SSM and refining them into natural language instructions via LLMs.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.00845-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.00845v1",
+      "page": 4,
+      "version": 1,
+      "width": 932,
+      "height": 562,
+      "crop": [
+        64.87,
+        64.87,
+        530.4,
+        345.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.00950": {
+    "arxivId": "2609.00950",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.00950",
+      "sourceUrl": "https://arxiv.org/pdf/2609.00950v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.00950-v1.text.json",
+      "extractedAt": "2026-10-30T05:58:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of HitMem. HitMem is a hierarchical 3D memory framework that integrates spatial-semantic information with a decay mechanism to model temporal dy- namics. It employs multi-modal context-aware retrieval for efficient target localization. When objects are displaced, it leverages external agent trajectories with class affinity to rapidly identify candidate regions, enhancing robustness in dynamic environments.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2609.00950-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.00950v1",
+      "page": 5,
+      "version": 1,
+      "width": 715,
+      "height": 281,
+      "crop": [
+        129.18,
+        105.85,
+        486.1,
+        245.58
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }

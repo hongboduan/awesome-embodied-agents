@@ -1,5 +1,83 @@
 [
   {
+    "id": "version-2610.32554-v3",
+    "paperId": "2610.32554",
+    "type": "version",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "HGWM: Hierarchical Graph-Guided World Model for Zero-Shot Object Navigation via Graph Matching",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.32554v3"
+  },
+  {
+    "id": "version-2609.37708-v2",
+    "paperId": "2609.37708",
+    "type": "version",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "Generative Interactions: Weaving Multiparty Human Motion with Bilevel Latent Dynamics",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.37708v2"
+  },
+  {
+    "id": "version-2610.30988-v2",
+    "paperId": "2610.30988",
+    "type": "version",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.30988v2"
+  },
+  {
+    "id": "discovered-2610.39180",
+    "paperId": "2610.39180",
+    "type": "discovered",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "EmbodiExp: Compositional Experience Transfer for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.39180v1"
+  },
+  {
+    "id": "discovered-2610.39446",
+    "paperId": "2610.39446",
+    "type": "discovered",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "Ask to Evolve: A Unified Harness for Lifelong Embodied Navigation with Hybrid Action Space and Persistent Memory",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.39446v1"
+  },
+  {
+    "id": "discovered-2610.39825",
+    "paperId": "2610.39825",
+    "type": "discovered",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "AegisFlow: Training-Free Non-Myopic Path-Safe Guided Flow Matching",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.39825v1"
+  },
+  {
+    "id": "discovered-2610.40016",
+    "paperId": "2610.40016",
+    "type": "discovered",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.40016v1"
+  },
+  {
+    "id": "discovered-2610.40565",
+    "paperId": "2610.40565",
+    "type": "discovered",
+    "date": "2026-10-30T05:57:20Z",
+    "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.40565v1"
+  },
+  {
     "id": "discovered-2610.36013",
     "paperId": "2610.36013",
     "type": "discovered",
