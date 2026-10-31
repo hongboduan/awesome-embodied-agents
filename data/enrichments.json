@@ -1210,48 +1210,41 @@
   },
   "2610.01939": {
     "arxivId": "2610.01939",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.01939",
-      "sourceUrl": "https://arxiv.org/pdf/2610.01939v1",
-      "version": 1,
-      "pageCount": 19,
-      "textPages": 19,
+      "sourceUrl": "https://arxiv.org/pdf/2610.01939v2",
+      "version": 2,
+      "pageCount": 29,
+      "textPages": 29,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.01939-v1.text.json",
-      "extractedAt": "2026-10-12T06:07:30Z"
+      "textPath": ".cache/papers/2610.01939-v2.text.json",
+      "extractedAt": "2026-10-31T05:54:31Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 2 PyRUA-Lean combines primitive composition with selective feedback. (a) The tool-calling agent invokes robot primitives through tool calls. Operations that depend on preceding results generally require another VLM turn, and motion calls automatically return images and state. (b) PyRUA-Lean instead generates Python cells that compose robot primitives with helper functions, conditional checks, and local retries. Intermediate execution stays within the runtime, while explicitly requested images and state messages are recorded and returned at cell end for replanning. (c) A recorded placement example illustrates both mechanisms: one PyRUA-Lean cell replaces baseline steps 14–17, reducing four LLM turns to one. The cell computes a placement target from scene geometry (compose), conditionally executes lowering and release (compose), and requests an image only if the task remains",
-      "figureLabel": "Figure 2",
+      "caption": "Figure 1 PyRUA-Lean at a glance. Top, the interface against tool calling with the same GPT-6 Astra planner and primitives: (a) success rate on all 700 instances, tagged by task property (semantic: perturbed layouts, objects, goals), RoboTwin 2.0 split by skill from task names; (b, c) input tokens and GPT-6 Astra list-price dollars per solved episode, on instances both agents solved (Avg: mean over all of them). Bottom left, RoboDojo, (d): success rate per capability dimension against the best entry of the public leaderboard in each dimension, and the average success rate of PyRUA-Lean and of the four highest-ranked of the board’s 33 entries. Bottom right, PyRUA-Lean Coder v0.1-4B, (e): generalization. Qwen3.5-4B is trained with GRPO on 45 LIBERO-PRO task instances only; shown is its success",
+      "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.01939-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.01939v1",
-      "page": 4,
-      "version": 1,
-      "width": 946,
-      "height": 376,
+      "path": "assets/papers/2610.01939-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.01939v2",
+      "page": 2,
+      "version": 2,
+      "width": 966,
+      "height": 691,
       "crop": [
-        69.57,
-        71.95,
-        542.37,
-        259.2
+        64.83,
+        71.96,
+        547.25,
+        416.81
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
-    },
-    "lastPdfAttempt": {
       "version": 2,
-      "at": "2026-10-14T05:02:18Z",
-      "status": "failed",
-      "extractionFingerprint": "3ab234daa08f83f5",
-      "error": "http-500"
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
   "2609.40306": {
@@ -3909,12 +3902,40 @@
   "2610.17881": {
     "arxivId": "2610.17881",
     "version": 1,
-    "lastPdfAttempt": {
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.17881",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17881v1",
       "version": 1,
-      "at": "2026-10-14T05:01:53Z",
-      "status": "failed",
-      "extractionFingerprint": "3ab234daa08f83f5",
-      "error": "http-404"
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.17881-v1.text.json",
+      "extractedAt": "2026-10-31T05:54:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of RoboForge: motion-guided, execution-grounded policy learning. Given a robot embodiment and task, the agent generates and validates a reference motion, configures the learning objective, and trains a policy. Execution feedback then refines the motion, reward, or both while keeping the embodiment and task fixed.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.17881-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17881v1",
+      "page": 5,
+      "version": 1,
+      "width": 657,
+      "height": 479,
+      "crop": [
+        141.8,
+        76.5,
+        469.76,
+        315.79
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
   "2610.16895": {
@@ -4273,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-10-14T07:43:57Z",
+      "at": "2026-10-31T05:54:33Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
