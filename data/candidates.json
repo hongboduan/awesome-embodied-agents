@@ -11126,60 +11126,6 @@
     "discoveredAt": "2026-10-11"
   },
   {
-    "id": "2610.01939",
-    "arxivId": "2610.01939",
-    "version": 2,
-    "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
-    "shortTitle": "Fewer Tokens, Better Action",
-    "date": "2026-10-01",
-    "year": 2026,
-    "authors": "Ruiyang Si and Jianxin Bi and Shunyu Yang and Rui Ni and Wenbo Huang and Qiang Wang and Shulong Jiang and Yintianrun Zhang and Feixiang Ruan and Kewei Zhang and Duomin Wang and Xiuyu Li and Haiwen Feng and Zhen Dong and Daquan Zhou",
-    "categories": [
-      "code",
-      "policies"
-    ],
-    "tasks": [
-      "general"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Vision-language model (VLM) agents can control robots through visual feedback and action primitives, but repeated LLM calls and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework in which the agent composes robot primitives, including vision-language-action (VLA) policies, into Python cells that check and retry locally and return only the images and state they request. Across 700 simulated task instances from LIBERO-PRO, RoboTwin 2.0, and RoboCasa365, it raises success from 63.1% to 71.7% over tool calling with the same GPT-6 Astra planner and primitives, using 49% fewer LLM calls and 65% fewer input tokens on jointly solved instances. On RoboDojo, without any VLA policy or privileged information, it reaches 51.6% average success rate (Score 58.2), 19.4 points above the top entry of the public leaderboard. Based on the PyRUA-Lean framework, we train PyRUA-Lean Coder v0.1-4B, an open 4B model, with GRPO on 45 LIBERO-PRO instances; it improves from 18.8% to 44.1% on unseen task instances, surpassing the Qwen3.5-27B base model.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2610.01939v2",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2610.01939v2",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-11-01",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-10-13T17:21:36Z",
-    "discoveredAt": "2026-10-11"
-  },
-  {
     "id": "2610.01826",
     "arxivId": "2610.01826",
     "version": 1,

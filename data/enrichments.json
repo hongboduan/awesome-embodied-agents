@@ -1242,9 +1242,9 @@
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 2,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "人工内容保留。"
     }
   },
   "2609.40306": {

@@ -10,14 +10,14 @@
 
 <!-- ATLAS:START -->
 
-**精选 55 条 · 论文 49 篇 · 项目 5 个 · 观点 1 篇**
+**精选 56 条 · 论文 50 篇 · 项目 5 个 · 观点 1 篇**
 
-来源核对 54 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 372 篇
+来源核对 55 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 371 篇
 
 ## 目录
 
 - [近期论文](#recent-papers)
-  - [推理与规划 · 4](#recent-planning)
+  - [推理与规划 · 5](#recent-planning)
   - [记忆与知识 · 3](#recent-memory)
   - [技能与代码 · 5](#recent-code)
   - [自我改进 · 1](#recent-learning)
@@ -41,6 +41,11 @@
   2026-10-21 · 推理与规划 · 技能与代码 · VLA / WAM · 自我改进 · 基准与评测<br>
   AW-0 把代码计划、未来视频预测和机器人动作放进同一个世界动作模型，用自动代码标注与技能库连接长程规划、物理预测和执行。<br>
   [![arXiv: 2610.30136](https://img.shields.io/badge/arXiv-2610.30136-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.30136v1) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ZhuoyangLiu2005/agentic-wam) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://agentic-wam.github.io/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2610.30136)
+
+- **[Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens](https://arxiv.org/abs/2610.01939v2)**<br>
+  2026-10-13 · 推理与规划 · 技能与代码 · VLA / WAM · 基准与评测<br>
+  PyRUA-Lean 把机器人封装成可编程 Python 对象，让 Agent 在一个代码单元内组合动作原语、按条件检查并局部重试，只把主动请求的图像和状态返回给模型。它把逐步工具调用改成可执行的短程序，减少重复上下文，同时保留 VLA 作为可调用的低层能力。<br>
+  [![arXiv: 2610.01939](https://img.shields.io/badge/arXiv-2610.01939-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.01939v2) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DAGroup-PKU/PyRUA-Lean) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://dagroup-pku.github.io/PyRUA-Lean/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2610.01939)
 
 - **[BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation](https://arxiv.org/abs/2610.13862v1)**<br>
   2026-10-09 · 推理与规划 · 监控与恢复 · 基准与评测 · 记忆与知识<br>
