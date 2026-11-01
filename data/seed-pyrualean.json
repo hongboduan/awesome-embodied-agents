@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2610.01939",
+    "arxivId": "2610.01939",
+    "version": 2,
+    "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+    "shortTitle": "PyRUA-Lean",
+    "date": "2026-10-13",
+    "year": 2026,
+    "addedAt": "2026-11-01",
+    "authors": "Ruiyang Si et al.",
+    "categories": ["planning", "code", "policies", "efficiency", "evaluation"],
+    "tasks": ["manipulation", "long-horizon"],
+    "environment": ["simulation", "real"],
+    "summaryZh": "PyRUA-Lean 把机器人封装成可编程 Python 对象，让 Agent 在一个代码单元内组合动作原语、按条件检查并局部重试，只把主动请求的图像和状态返回给模型。它把逐步工具调用改成可执行的短程序，减少重复上下文，同时保留 VLA 作为可调用的低层能力。",
+    "summaryEn": "PyRUA-Lean exposes the robot as a programmable Python object so an agent can compose primitives, check outcomes, retry locally and request only the observations it needs.",
+    "problem": "逐个工具调用会让模型在每个微小动作后重新接收历史、图像和状态；如何让 Agent 在机器人侧完成局部控制流，同时仍保留高层模型的规划能力？",
+    "method": "Agent 通过 `robo` Python API 编写代码单元，组合运动、夹爪、感知和 VLA 原语；条件判断、完成检查和局部重试在代码单元内执行，只有显式请求的图像与状态反馈回到下一次模型调用。论文以相同 GPT-6 Astra 规划器、相同底层原语和相同调用预算对比 tool-calling；另以 GRPO 在 45 个 LIBERO-PRO 实例上训练 4B Coder。",
+    "findings": [
+      "在 LIBERO-PRO、RoboTwin 2.0 和 RoboCasa365 共 700 个仿真任务实例上，相同规划器与原语下总体成功率由 63.1% 提升至 71.7%；在双方都成功的实例上，LLM 调用减少 49%，输入 token 减少 65%。",
+      "RoboDojo 的公开实验报告为 51.62% 平均成功率、Score 58.20；官方评测记录为 50.35%、Score 55.26。两者是不同运行/评测记录，不能混为单一数字。",
+      "PyRUA-Lean Coder v0.1-4B 在 45 个 LIBERO-PRO 实例上用 GRPO 训练后，在 655 个未见实例上的成功率由基座 Qwen3.5-4B 的 18.8% 提高到 44.1%；该结果说明接口内的逐步代码使用可以被小模型学习，但不是对所有任务的通用保证。"
+    ],
+    "limitations": [
+      "主对比是仿真，且依赖预定义的机器人原语、感知接口和任务套件；论文未给出完整的真机统计成功率。",
+      "PyRUA-Lean 并不取消模型推理：高层规划仍由 LLM 生成代码；节省来自局部控制流、选择性观测和减少重复上下文，不能直接解释为所有机器人系统都能同幅度降本。",
+      "RoboDojo 结果涉及特定观察、原语和评测快照；公开榜单、作者自测与官方评测的协议和数字不同，应分别引用。",
+      "真实机器人展示是少量 AF8 双臂演示，不能替代跨任务、跨场景的统计评测。"
+    ],
+    "role": {
+      "model": "GPT-6 Astra 或训练后的 PyRUA-Lean Coder 负责高层代码生成",
+      "output": "可执行 Python 单元，组合机器人原语、检查和局部重试",
+      "memory": "运行目录保存代码单元、输出、原语 ledger、token 使用和评测 verdict；不是自动获得长期世界记忆",
+      "recovery": "代码单元内执行条件检查与局部 retry，必要时把状态/图像返回模型重新规划",
+      "adaptation": "通过接口与 GRPO 训练让小模型学习代码式调用；运行时仍需模型生成任务程序"
+    },
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.01939v2",
+      "project": "https://dagroup-pku.github.io/PyRUA-Lean/",
+      "code": "https://github.com/DAGroup-PKU/PyRUA-Lean",
+      "model": "https://huggingface.co/DAGroup-PKU/PyRUA-Lean-Coder-v0.1-4B"
+    },
+    "evidence": [
+      {"claim": "论文摘要、方法与主对比", "label": "arXiv · 2610.01939", "source": "https://arxiv.org/abs/2610.01939"},
+      {"claim": "框架、RoboDojo、Coder 与评测数字", "label": "官方项目 README", "source": "https://github.com/DAGroup-PKU/PyRUA-Lean"},
+      {"claim": "接口与运行方式", "label": "PyRUA-Lean 官方文档", "source": "https://dagroup-pku.github.io/PyRUA-Lean/docs/"}
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-11-01",
+    "curated": true,
+    "deepRead": false,
+    "tags": ["PyRUA-Lean", "Robot Use Agent", "Python policy", "selective observation", "local retry", "GPT-6 Astra", "RoboDojo", "RPent"]
+  }
+]
