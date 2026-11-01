@@ -16,7 +16,8 @@
         "2610.12369",
         "2610.12424",
         "2610.23479",
-        "2610.30136"
+        "2610.30136",
+        "2610.01939"
       ],
       "backgroundIds": [
         "2209.07753",
@@ -39,7 +40,8 @@
         "2610.10787",
         "2610.12710",
         "pi-api-beta",
-        "2610.30136"
+        "2610.30136",
+        "2610.01939"
       ],
       "backgroundIds": [
         "2608.29896"
@@ -150,6 +152,13 @@
       "name": "AW-0",
       "summary": "Agentic World Action Model：联合生成技能代码、未来视频与机器人动作，并通过技能库与混合执行连接规划和控制。",
       "url": "https://agentic-wam.github.io/"
+    },
+    {
+      "id": "resource-pyrualean",
+      "kind": "platform",
+      "name": "PyRUA-Lean",
+      "summary": "Python for lean Robot-Use Agents：把机器人封装为可编程对象，支持原语组合、选择性观测、局部检查与重试，并可把 VLA 作为低层工具调用。",
+      "url": "https://dagroup-pku.github.io/PyRUA-Lean/"
     }
   ],
   "relations": [
@@ -720,6 +729,62 @@
         }
       ],
       "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "pyrualean-evaluated-robodojo",
+      "source": "2610.01939",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "评测于 RoboDojo",
+      "explanation": "PyRUA-Lean 官方项目记录 RoboDojo 自测与 RoboDojo 团队官方评测；两组协议和数字分别保留，不合并为单一榜单成绩。",
+      "sources": [
+        {
+          "label": "PyRUA-Lean · 官方 README",
+          "url": "https://github.com/DAGroup-PKU/PyRUA-Lean"
+        },
+        {
+          "label": "PyRUA-Lean · 论文",
+          "url": "https://arxiv.org/abs/2610.01939"
+        }
+      ],
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "pyrualean-extends-rpent",
+      "source": "2610.01939",
+      "target": "rpent",
+      "type": "extends",
+      "editorial": false,
+      "label": "复用 RPent 机器人栈",
+      "explanation": "官方 README 说明 LIBERO-PRO、RoboTwin 2.0 和 RoboCasa365 运行在 RPent 的机器人栈上；RoboDojo 使用独立的 XPolicyLab 适配。",
+      "sources": [
+        {
+          "label": "PyRUA-Lean · Quick start 与 Robots",
+          "url": "https://github.com/DAGroup-PKU/PyRUA-Lean"
+        }
+      ],
+      "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "compare-pyrualean-robotuse",
+      "source": "2610.01939",
+      "target": "2610.04929",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：代码单元还是逐步工具调用",
+      "explanation": "两者都让高层 Agent 调用机器人能力；PyRUA-Lean 将多个原语、检查和局部重试写入一次 Python 单元，RobotUse 的核心接口则是逐步视觉动作工具。该关系是按接口边界整理的编辑对照，不是论文宣称的直接基线关系。",
+      "sources": [
+        {
+          "label": "PyRUA-Lean · 论文与项目",
+          "url": "https://arxiv.org/abs/2610.01939"
+        },
+        {
+          "label": "RobotUse · 论文",
+          "url": "https://arxiv.org/abs/2610.04929"
+        }
+      ],
+      "checkedAt": "2026-11-01"
     }
   ],
   "teams": [
@@ -878,6 +943,25 @@
         }
       ],
       "checkedAt": "2026-10-23"
+    },
+    {
+      "id": "dagroup-pku-pyrualean",
+      "name": "北京大学 DAGroup · PyRUA-Lean",
+      "summary": "PyRUA-Lean 研究线把 Robot-Use Agent 的动作编排从逐步工具调用推进到可执行 Python 单元，并公开机器人接口、文档、模型和 RoboDojo 适配。",
+      "workIds": [
+        "2610.01939"
+      ],
+      "sources": [
+        {
+          "label": "PyRUA-Lean · 官方仓库",
+          "url": "https://github.com/DAGroup-PKU/PyRUA-Lean"
+        },
+        {
+          "label": "PyRUA-Lean · 论文",
+          "url": "https://arxiv.org/abs/2610.01939"
+        }
+      ],
+      "checkedAt": "2026-11-01"
     }
   ]
 }
