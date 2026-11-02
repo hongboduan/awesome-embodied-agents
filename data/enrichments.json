@@ -14200,5 +14200,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2610.41216": {
+    "arxivId": "2610.41216",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41216",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41216v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41216-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of TinyAstral. Stage 1: humans specify the rules and budget in advance. A master of frontier LLM agents reads trajectories of the frozen teacher acting through the harness (tools, feedback, memory, recovery) and proposes harness edits, which are accepted only if a paired A/B test on selection seeds passes a pre-registered statistical gate; model weights never change. Stage 2: after evolution ends, we freeze H∗and collect teacher trajectories, including reasoning and recovery branches. These are mixed with offline real-robot supervision to train tiny students (0.8B–4B), which replace the teacher in the same harness. Evaluation covers three training domains and three unseen benchmarks, plus three closed-loop real-robot tasks on an SO-ARM101 arm.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41216-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41216v1",
+      "page": 4,
+      "version": 1,
+      "width": 1015,
+      "height": 438,
+      "crop": [
+        52.5,
+        66.0,
+        559.51,
+        284.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.42053": {
+    "arxivId": "2610.42053",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.42053",
+      "sourceUrl": "https://arxiv.org/pdf/2610.42053v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.42053-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 | Overview of REA. System 0 runs generated code policies; System 1 selects them with a route table (route memory); System 2 is the agentic judge gate that reasons and predicts based on current state. Fix and",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.42053-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.42053v1",
+      "page": 1,
+      "version": 1,
+      "width": 966,
+      "height": 1013,
+      "crop": [
+        56.36,
+        214.16,
+        538.92,
+        720.23
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.42141": {
+    "arxivId": "2610.42141",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.42141",
+      "sourceUrl": "https://arxiv.org/pdf/2610.42141v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.42141-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: ROBOARCHITECT turns a frozen policy into a performant robotic agent without updating its weights: a coding model iteratively refines the harness from execution traces. Starting from a bare policy (VLA), ROBOARCHITECT evolves a robotic agent equipped with auxiliary tools and persistent memory. The right side illustrates experiment conditions (§4.1) that test how well the evolved harness generalizes.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.42141-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.42141v1",
+      "page": 4,
+      "version": 1,
+      "width": 817,
+      "height": 286,
+      "crop": [
+        102.0,
+        74.84,
+        510.2,
+        217.16
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41868": {
+    "arxivId": "2610.41868",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41868",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41868v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41868-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:17Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: META-Robot starts from a task description. Its framework consists of three components: (1) Loop Execution Agent, which generates programs and predicates, evaluates execution evidence, and repairs failures; (2) Proprioceptive Signal Orchestration, which supplements insufficient visual observations with physical feedback; and (3) coupled Predicate and Skill Libraries, which consoli- date validated criteria and repairs for cognitive and capability scaling.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41868-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41868v1",
+      "page": 4,
+      "version": 1,
+      "width": 960,
+      "height": 649,
+      "crop": [
+        66.0,
+        195.14,
+        546.0,
+        519.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.40754": {
+    "arxivId": "2610.40754",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.40754",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40754v1",
+      "version": 1,
+      "pageCount": 36,
+      "textPages": 36,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.40754-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of DYCRAFT on an example. A humanoid robot carries a wide panel through a narrow doorway. Following pose-to-pose animation, DYCRAFT breaks authoring into steps that the agent can check individually. The sparse user prompt (1) is first expanded into detailed scene and motion briefs (2), which the agent uses to build the scene in CAD (3). The agent then plans key poses and object states as a 3D storyboard (4). After inspecting and verifying these states, the agent authors motion connecting them with domain-specific tools (5). Verifiers check every frame (6), catching errors in the storyboard states and motions: here, the arm passes through the torso (orange). The agent repeatedly revises the scene and motion before rendering the final film (7).",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2610.40754-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40754v1",
+      "page": 4,
+      "version": 1,
+      "width": 817,
+      "height": 422,
+      "crop": [
+        102.0,
+        69.02,
+        510.01,
+        279.65
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.40799": {
+    "arxivId": "2610.40799",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.40799",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40799v1",
+      "version": 1,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.40799-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 CaPtain-4B, a 4B open model post-trained with our pipeline CaPtain, controls a robot by writing code against low-level primitives. It improves over SFT across LIBERO and three perturbation suites, reaches 78.5 on LIBERO-PRO, and transfers zero-shot.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.40799-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40799v1",
+      "page": 1,
+      "version": 1,
+      "width": 884,
+      "height": 454,
+      "crop": [
+        85.29,
+        184.03,
+        526.74,
+        410.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41688": {
+    "arxivId": "2610.41688",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41688",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41688v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41688-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of the survey. The scene illustrates how observations and interaction outcomes become unavailable to current perception yet remain relevant to later decisions. Embodied memory preserves this evidence as world state, task state, and experience through repeated writing, updating, and retrieval.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41688-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41688v1",
+      "page": 2,
+      "version": 1,
+      "width": 927,
+      "height": 472,
+      "crop": [
+        66.01,
+        66.0,
+        529.27,
+        301.47
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41320": {
+    "arxivId": "2610.41320",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41320",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41320v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41320-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4 Method overview. The context compiler combines task instructions, current observations and robot states, memory, and experience-derived feedback to condition the actor’s next action. Physical execution produces outcomes and subsequent observations that become evidence for later decisions. The planner tracks task progress and proposes a method for the current subtask. The experience module interprets this task-level structure alongside physical evidence and retained lessons, generating contextual feedback while extracting and revising reusable experience. Model weights and the action interface remain fixed throughout.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41320-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41320v1",
+      "page": 7,
+      "version": 1,
+      "width": 918,
+      "height": 385,
+      "crop": [
+        76.62,
+        71.95,
+        535.39,
+        263.9
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.42146": {
+    "arxivId": "2610.42146",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.42146",
+      "sourceUrl": "https://arxiv.org/pdf/2610.42146v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.42146-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of ID-WM. Our hierarchical planning framework decouples state-space reachability from local control, eliminating the reliance on task-specific value functions or pre-trained policies. Planning proceeds in two interleaved stages: (1) high-level planning, which discovers a sequence of temporally abstract subgoals spaced ∆steps apart, and (2) low-level control, which leverages a world model as an inverse dynamics solver to extract executable actions between each subgoal.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.42146-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.42146v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 327,
+      "crop": [
+        102.0,
+        66.0,
+        509.99,
+        229.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41548": {
+    "arxivId": "2610.41548",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41548",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41548v1",
+      "version": 1,
+      "pageCount": 6,
+      "textPages": 6,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41548-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Sequential contact insertion. (a) Initialization with unconstrained trajectories. (b) Algorithm loop: detect separation violations, insert a contact, and solve the algebraic system until collision-free. Colored tubes in (a,b) show planar robot trajectories in space-time, with time as the vertical axis; black dots mark contacts. (c) Full spatial trajectories for N = 1000 robots moving from a 40 × 25 grid to a double helix. Blue and rust identify the two target strands.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41548-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41548v1",
+      "page": 1,
+      "version": 1,
+      "width": 909,
+      "height": 370,
+      "crop": [
+        63.55,
+        155.6,
+        517.55,
+        340.12
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41235": {
+    "arxivId": "2610.41235",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41235",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41235v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41235-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. The escort problem. The primary must reach the goal with its localization uncertainty under a terminal bound, and the support is routed to hold it there. Support agent localizes with landmark and relays position data, enabling the primary agent to take a more direct path. Both trajectories are searched on the heading-aware hexagonal lattice and refined as B-splines.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41235-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41235v1",
+      "page": 1,
+      "version": 1,
+      "width": 505,
+      "height": 374,
+      "crop": [
+        309.69,
+        154.79,
+        561.77,
+        341.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41383": {
+    "arxivId": "2610.41383",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41383",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41383v1",
+      "version": 1,
+      "pageCount": 8,
+      "textPages": 8,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41383-v1.text.json",
+      "extractedAt": "2026-11-02T06:20:46Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. BioAgent overview. Human-reviewed protocol requirements guide the reuse of validated capabilities and targeted teaching for missing skills.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41383-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41383v1",
+      "page": 1,
+      "version": 1,
+      "width": 1054,
+      "height": 562,
+      "crop": [
+        42.96,
+        173.89,
+        569.04,
+        454.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }

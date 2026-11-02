@@ -1,5 +1,153 @@
 [
   {
+    "id": "discovered-2610.40754",
+    "paperId": "2610.40754",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "DyCraft: An Agentic System for Long-Horizon 4D Scene Generation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.40754v1"
+  },
+  {
+    "id": "discovered-2610.40799",
+    "paperId": "2610.40799",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.40799v1"
+  },
+  {
+    "id": "discovered-2610.41216",
+    "paperId": "2610.41216",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41216v1"
+  },
+  {
+    "id": "discovered-2610.41235",
+    "paperId": "2610.41235",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "CONSORT: Uncertainty-Constrained Multi-Robot Planning for Cooperative Localization in GPS-Denied Environments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41235v1"
+  },
+  {
+    "id": "version-2610.31540-v2",
+    "paperId": "2610.31540",
+    "type": "version",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "Dispersive Tree Agreements for Multi-Robot Coordination",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.31540v2"
+  },
+  {
+    "id": "discovered-2610.41320",
+    "paperId": "2610.41320",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41320v1"
+  },
+  {
+    "id": "discovered-2610.41377",
+    "paperId": "2610.41377",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41377v1"
+  },
+  {
+    "id": "discovered-2610.41383",
+    "paperId": "2610.41383",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon Laboratory Protocols",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41383v1"
+  },
+  {
+    "id": "discovered-2610.41548",
+    "paperId": "2610.41548",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "Contact-based optimization for collision-free motion planning for a million robots",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41548v1"
+  },
+  {
+    "id": "discovered-2610.41558",
+    "paperId": "2610.41558",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "A complete analytical characterization of optimal collision-free motion for two robots",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41558v1"
+  },
+  {
+    "id": "discovered-2610.41688",
+    "paperId": "2610.41688",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "When the Past Shapes Action: Understanding Embodied Memory",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41688v1"
+  },
+  {
+    "id": "version-2610.40016-v2",
+    "paperId": "2610.40016",
+    "type": "version",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.40016v2"
+  },
+  {
+    "id": "discovered-2610.41868",
+    "paperId": "2610.41868",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "META-Robot: Self-Cognition and Capability Scaling in Agentic Robots",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.41868v1"
+  },
+  {
+    "id": "discovered-2610.42053",
+    "paperId": "2610.42053",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.42053v1"
+  },
+  {
+    "id": "discovered-2610.42141",
+    "paperId": "2610.42141",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.42141v1"
+  },
+  {
+    "id": "discovered-2610.42146",
+    "paperId": "2610.42146",
+    "type": "discovered",
+    "date": "2026-11-02T06:19:38Z",
+    "title": "Hierarchical World Models with Implicit Dynamics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.42146v1"
+  },
+  {
     "id": "version-2610.32554-v3",
     "paperId": "2610.32554",
     "type": "version",
