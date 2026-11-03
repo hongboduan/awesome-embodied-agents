@@ -224,59 +224,6 @@
     "discoveredAt": "2026-11-03"
   },
   {
-    "id": "2611.01560",
-    "arxivId": "2611.01560",
-    "version": 1,
-    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
-    "shortTitle": "Democratizing Robot-Use Agents",
-    "date": "2026-11-01",
-    "year": 2026,
-    "authors": "Jiarui Yuan and Yuxin Zuo and Xiaoyu Huang and Wenbo Zhang and Kwanyoung Park and Junlin Yang and Tianxiang Zhang and Ruoqu Chen and Yutao Ouyang and Bingxiang He and Xingtai Lv and Hongjin Wu and Jiajun Liu and Jiahao Zhao and Tianwei Luo and Haozhan Li and Cheng Qian and Jiaxin Ge and Huan-ang Gao and Kaisen Yang and Jiaqi Deng and Qixin Xu and Siqiao Huang and Bowen Zhou and Mengdi Xu and Zhiyuan Liu and Pieter Abbeel and Ning Ding",
-    "categories": [
-      "policies"
-    ],
-    "tasks": [
-      "manipulation"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks. Our analysis across model generations, families, and sizes links effective robot use to four general capabilities, suggesting that future RUA training should develop them jointly.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2611.01560v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2611.01560v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-11-03",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-11-01T04:32:23Z",
-    "discoveredAt": "2026-11-03"
-  },
-  {
     "id": "2611.01404",
     "arxivId": "2611.01404",
     "version": 1,

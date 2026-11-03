@@ -10,14 +10,14 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**56 curated entries · 50 papers · 5 projects · 1 perspective**
+**57 curated entries · 51 papers · 5 projects · 1 perspective**
 
-55 source-checked · 1 full-review · 0 AI drafts · 397 discovery candidates
+56 source-checked · 1 full-review · 0 AI drafts · 396 discovery candidates
 
 ## Contents
 
 - [Recent papers](#recent-papers)
-  - [Reasoning & Planning · 5](#recent-planning)
+  - [Reasoning & Planning · 6](#recent-planning)
   - [Memory & Knowledge · 3](#recent-memory)
   - [Skills & Code · 5](#recent-code)
   - [Self-improvement · 1](#recent-learning)
@@ -36,6 +36,11 @@ Each paper appears once under its primary topic; secondary topics remain visible
 <a id="recent-planning"></a>
 
 ### Reasoning & Planning
+
+- **[Democratizing Robot-Use Agents: A Unified Harness with Open Models](https://huggingface.co/papers/2611.01560)**<br>
+  2026-11-02 · Reasoning & Planning · Skills & Code · VLA & World Models · Benchmarks & Evaluation<br>
+  uni-robot-agent is an open harness that standardizes robot tools, execution and monitoring across environments, enabling open models to act through a reusable interface.<br>
+  [![arXiv: 2611.01560](https://img.shields.io/badge/arXiv-2611.01560-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://huggingface.co/papers/2611.01560) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Open-RUA/uni-robot-agent) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://uni-robot-agent.com) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2611.01560)
 
 - **[Agentic World Action Models](https://arxiv.org/abs/2610.30136v1)**<br>
   2026-10-21 · Reasoning & Planning · Skills & Code · VLA & World Models · Self-improvement · Benchmarks & Evaluation<br>

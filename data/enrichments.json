@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-01T06:18:33Z",
+      "at": "2026-11-03T08:44:53Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -11317,40 +11317,40 @@
   },
   "2610.31540": {
     "arxivId": "2610.31540",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.31540",
-      "sourceUrl": "https://arxiv.org/pdf/2610.31540v1",
-      "version": 1,
-      "pageCount": 19,
-      "textPages": 19,
+      "sourceUrl": "https://arxiv.org/pdf/2610.31540v2",
+      "version": 2,
+      "pageCount": 18,
+      "textPages": 18,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.31540-v1.text.json",
-      "extractedAt": "2026-10-23T10:23:51Z"
+      "textPath": ".cache/papers/2610.31540-v2.text.json",
+      "extractedAt": "2026-11-03T08:44:51Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1. (a) Iterated Best Response, F = 7.5 + 10.0 = 17.5 s, vs. (b) Dispersive Tree Agreement, F = 8.0 + 5.5 = 13.5 s, where the total travel time F sums the arrival times of the blue and red robots.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.31540-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.31540v1",
+      "path": "assets/papers/2610.31540-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.31540v2",
       "page": 1,
-      "version": 1,
-      "width": 453,
-      "height": 516,
+      "version": 2,
+      "width": 543,
+      "height": 179,
       "crop": [
-        324.0,
-        160.05,
-        549.85,
-        417.72
+        301.65,
+        163.77,
+        572.65,
+        252.96
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -14008,40 +14008,40 @@
   },
   "2610.40016": {
     "arxivId": "2610.40016",
-    "version": 1,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.40016",
-      "sourceUrl": "https://arxiv.org/pdf/2610.40016v1",
-      "version": 1,
-      "pageCount": 13,
-      "textPages": 13,
+      "sourceUrl": "https://arxiv.org/pdf/2610.40016v3",
+      "version": 3,
+      "pageCount": 14,
+      "textPages": 14,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.40016-v1.text.json",
-      "extractedAt": "2026-10-30T05:57:58Z"
+      "textPath": ".cache/papers/2610.40016-v3.text.json",
+      "extractedAt": "2026-11-03T08:44:48Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1. LOGIV execution on the BiCoord build bridge task. (A) A validated reference plan is compiled into the initial task DAG before execution. (B) A previously placed support is displaced, invalidating a condition required by the remaining plan. (C) LOGIV repairs only the affected support operations, retains the unaffected beam operations, and resumes execution on the updated task DAG.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.40016-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.40016v1",
+      "path": "assets/papers/2610.40016-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.40016v3",
       "page": 2,
-      "version": 1,
+      "version": 3,
       "width": 495,
-      "height": 609,
+      "height": 608,
       "crop": [
         313.05,
-        76.78,
+        90.12,
         560.03,
-        380.63
+        393.97
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -14820,9 +14820,9 @@
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
-      "status": "not-configured",
+      "status": "editorial-preserved",
       "version": 1,
-      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+      "message": "人工内容保留。"
     }
   },
   "2611.01112": {
@@ -15128,6 +15128,84 @@
         166.11,
         455.21,
         577.53
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.00344": {
+    "arxivId": "2611.00344",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.00344",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00344v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.00344-v1.text.json",
+      "extractedAt": "2026-11-03T08:44:41Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of the SPARK correction loop. Episode 1 flies the source waypoints under a degraded view and builds memory H(1) from its own RGB-D observations (1–2). The semantic critic reads H(1) and the Episode 1 images alone, flagging regions by plausibility, density, and graph coverage (3). The planner turns those into viewpoints offset from the source waypoints for Episode 2 (4), and the selective merge removes, replaces, and adds entries to produce H(2) (5), which a fixed EQA set scores against H(1) (6). The oracle (blue) is evaluation-only and never reaches the critic, planner, or merge.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.00344-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00344v1",
+      "page": 4,
+      "version": 1,
+      "width": 871,
+      "height": 553,
+      "crop": [
+        75.1,
+        75.85,
+        510.01,
+        351.97
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41377": {
+    "arxivId": "2610.41377",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41377",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41377v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41377-v1.text.json",
+      "extractedAt": "2026-11-03T08:44:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Taxonomy of embodied commonsense reasoning capabilities, showing the diversity of tasks we test on. We organize tasks along three categories grounded in developmental cognitive science, and instantiate tasks within MolmoSpaces environments.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41377-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41377v1",
+      "page": 2,
+      "version": 1,
+      "width": 1012,
+      "height": 640,
+      "crop": [
+        53.04,
+        44.08,
+        558.96,
+        363.71
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

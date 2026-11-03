@@ -10,14 +10,14 @@
 
 <!-- ATLAS:START -->
 
-**精选 56 条 · 论文 50 篇 · 项目 5 个 · 观点 1 篇**
+**精选 57 条 · 论文 51 篇 · 项目 5 个 · 观点 1 篇**
 
-来源核对 55 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 397 篇
+来源核对 56 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 396 篇
 
 ## 目录
 
 - [近期论文](#recent-papers)
-  - [推理与规划 · 5](#recent-planning)
+  - [推理与规划 · 6](#recent-planning)
   - [记忆与知识 · 3](#recent-memory)
   - [技能与代码 · 5](#recent-code)
   - [自我改进 · 1](#recent-learning)
@@ -36,6 +36,11 @@
 <a id="recent-planning"></a>
 
 ### 推理与规划
+
+- **[Democratizing Robot-Use Agents: A Unified Harness with Open Models](https://huggingface.co/papers/2611.01560)**<br>
+  2026-11-02 · 推理与规划 · 技能与代码 · VLA / WAM · 基准与评测<br>
+  uni-robot-agent 是一个面向 Robot-Use Agent 的开源统一 harness：用共享工具接口、执行器和监控系统连接不同仿真环境与模型提供商，重点验证开源模型能否在不为单个任务定制 skill 的情况下完成跨任务机器人操作。<br>
+  [![arXiv: 2611.01560](https://img.shields.io/badge/arXiv-2611.01560-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://huggingface.co/papers/2611.01560) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Open-RUA/uni-robot-agent) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://uni-robot-agent.com) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2611.01560)
 
 - **[Agentic World Action Models](https://arxiv.org/abs/2610.30136v1)**<br>
   2026-10-21 · 推理与规划 · 技能与代码 · VLA / WAM · 自我改进 · 基准与评测<br>
