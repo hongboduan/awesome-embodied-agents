@@ -17,7 +17,8 @@
         "2610.12424",
         "2610.23479",
         "2610.30136",
-        "2610.01939"
+        "2610.01939",
+        "2611.01560"
       ],
       "backgroundIds": [
         "2209.07753",
@@ -41,7 +42,8 @@
         "2610.12710",
         "pi-api-beta",
         "2610.30136",
-        "2610.01939"
+        "2610.01939",
+        "2611.01560"
       ],
       "backgroundIds": [
         "2608.29896"
@@ -159,6 +161,13 @@
       "name": "PyRUA-Lean",
       "summary": "Python for lean Robot-Use Agents：把机器人封装为可编程对象，支持原语组合、选择性观测、局部检查与重试，并可把 VLA 作为低层工具调用。",
       "url": "https://dagroup-pku.github.io/PyRUA-Lean/"
+    },
+    {
+      "id": "resource-uni-robot-agent",
+      "kind": "platform",
+      "name": "uni-robot-agent",
+      "summary": "OpenRUA 的统一 Robot-Use Agent harness：共享工具接口、执行器、SDK 与 dashboard，支持 Direct/Hybrid 模式和多个仿真环境。",
+      "url": "https://uni-robot-agent.com"
     }
   ],
   "relations": [
@@ -785,6 +794,66 @@
         }
       ],
       "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "uni-robot-agent-evaluated-robodojo",
+      "source": "2611.01560",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "评测于 RoboDojo",
+      "explanation": "项目公开 RoboDojo 评测，并同时报告开源模型与 Astra 的分数和成本；具体比较须绑定项目版本、观察设置和调用预算。",
+      "sources": [
+        {
+          "label": "uni-robot-agent · 官方项目",
+          "url": "https://github.com/Open-RUA/uni-robot-agent"
+        },
+        {
+          "label": "uni-robot-agent · 论文入口",
+          "url": "https://huggingface.co/papers/2611.01560"
+        }
+      ],
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "id": "compare-uni-robot-agent-pyrualean",
+      "source": "2611.01560",
+      "target": "2610.01939",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：统一 harness 还是代码式策略",
+      "explanation": "uni-robot-agent 重点是跨模型、跨环境的共享工具接口和运行基础设施；PyRUA-Lean 重点是让 Agent 在 Python 单元内组合原语、检查和局部重试。两者都减少逐步工具调用的工程开销，但优化对象不同。",
+      "sources": [
+        {
+          "label": "uni-robot-agent · 官方 README",
+          "url": "https://github.com/Open-RUA/uni-robot-agent"
+        },
+        {
+          "label": "PyRUA-Lean · 官方 README",
+          "url": "https://github.com/DAGroup-PKU/PyRUA-Lean"
+        }
+      ],
+      "checkedAt": "2026-11-03"
+    },
+    {
+      "id": "compare-uni-robot-agent-openrua",
+      "source": "2611.01560",
+      "target": "2609.39018",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：工程 harness 与工具演化",
+      "explanation": "uni-robot-agent 提供标准化执行基础设施和可替换 adapter；URAI 让编程 Agent 构造并修订可复用机器人工具。前者降低统一运行与复现门槛，后者强调工具如何从反馈中演化。",
+      "sources": [
+        {
+          "label": "uni-robot-agent · 官方 README",
+          "url": "https://github.com/Open-RUA/uni-robot-agent"
+        },
+        {
+          "label": "URAI · 论文",
+          "url": "https://arxiv.org/abs/2609.39018"
+        }
+      ],
+      "checkedAt": "2026-11-03"
     }
   ],
   "teams": [
@@ -962,6 +1031,25 @@
         }
       ],
       "checkedAt": "2026-11-01"
+    },
+    {
+      "id": "openrua-uni-robot-agent",
+      "name": "OpenRUA · uni-robot-agent",
+      "summary": "OpenRUA 的研究线从 Robot-Use Agent 方法推进到统一开源 harness：标准化工具、执行、监控和环境 adapter，重点降低开源模型复现实验与跨环境迁移的门槛。",
+      "workIds": [
+        "2611.01560"
+      ],
+      "sources": [
+        {
+          "label": "uni-robot-agent · 官方仓库",
+          "url": "https://github.com/Open-RUA/uni-robot-agent"
+        },
+        {
+          "label": "uni-robot-agent · 官方博客",
+          "url": "https://openrua.ai/uni-robot-agent"
+        }
+      ],
+      "checkedAt": "2026-11-03"
     }
   ]
 }
