@@ -14668,5 +14668,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2611.03138": {
+    "arxivId": "2611.03138",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.03138",
+      "sourceUrl": "https://arxiv.org/pdf/2611.03138v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.03138-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. System architecture of the KlaskTron platform. The environment is interchangeable between the Isaac Lab simulation (for training) and the physical system (for deployment). State estimation in simulation is provided directly by the physics engine; on hardware, an Extended Kalman Filter processes camera observations. The control stack uses PPO during training and the frozen actor network during inference. Actions pass through the learned actuator model in simulation or directly to physical motors on hardware.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.03138-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.03138v1",
+      "page": 4,
+      "version": 1,
+      "width": 887,
+      "height": 407,
+      "crop": [
+        84.42,
+        48.2,
+        527.37,
+        251.2
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.01934": {
+    "arxivId": "2611.01934",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.01934",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01934v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.01934-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of TriPhysBench and TriPhys. Blue, yellow, and pink denote physical perception (W1), knowledge retrieval (W3), and reasoning (W2), respectively. Scenes and workflow are schematic.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.01934-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01934v1",
+      "page": 2,
+      "version": 1,
+      "width": 974,
+      "height": 554,
+      "crop": [
+        54.49,
+        50.69,
+        540.81,
+        327.13
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.01404": {
+    "arxivId": "2611.01404",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.01404",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01404v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.01404-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:17Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The embodied-agent program issues growing- context requests to the brain and action-chunk requests to the vision–language–action (VLA) service. Both layers are profiled on graphics processing units (GPUs); dependent brain requests are replayed on vLLM.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.01404-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01404v1",
+      "page": 2,
+      "version": 1,
+      "width": 503,
+      "height": 271,
+      "crop": [
+        309.2,
+        182.72,
+        560.49,
+        317.64
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.01560": {
+    "arxivId": "2611.01560",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.01560",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01560v1",
+      "version": 1,
+      "pageCount": 35,
+      "textPages": 35,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.01560-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:20Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 | uni-robot-agent: results and system overview. Top: shared tools, execution, and feedback connect models to environment adapters, supporting generalizable agentic training across environments. Bottom: Simulation and real-world scores.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.01560-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01560v1",
+      "page": 1,
+      "version": 1,
+      "width": 841,
+      "height": 592,
+      "crop": [
+        87.54,
+        404.73,
+        507.71,
+        700.41
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.01112": {
+    "arxivId": "2611.01112",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.01112",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01112v1",
+      "version": 1,
+      "pageCount": 51,
+      "textPages": 51,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.01112-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4 Overview of Auriga. Top: The model maintains a task belief and an evidence record, uses observations to localize targets, and previews actions while the world is paused. Every physical motion passes through the admission gateway A, which returns a receipt and a new observation. Bottom: Closed-loop execution on hang_mugs: (1) local- ization, (2) grasp preview, (3) execution, and (4) placement on the rack.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2611.01112-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01112v1",
+      "page": 8,
+      "version": 1,
+      "width": 1009,
+      "height": 582,
+      "crop": [
+        42.49,
+        135.26,
+        546.43,
+        425.54
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.34527": {
+    "arxivId": "2610.34527",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.34527",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34527v2",
+      "version": 2,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.34527-v2.text.json",
+      "extractedAt": "2026-11-03T06:57:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 LLM4Robot-Bench: hierarchical, matched Sim–Real evaluation of GPT-6 Astra’s contact- rich manipulation capabilities. (a) Sixteen tasks pair physically and visually matched simulated and real-world environments with shared task objectives and success criteria. (b) Three cumulative levels progress from contact selection and geometric alignment (L1), to force regulation within sustained contact (L2), and coordinated contact reconfiguration and force regulation (L3). The photographs illustrate task requirements. (c) Success declines across levels in both environments, with no L3 task completed. Rates average task-level success equally, using three trials per task in each environment. Ten of the 16 tasks have identical Sim–Real success counts. These shared trends support matched simulation as a repeatable testbed for studying Astra’s limits in contact-rich manipulation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.34527-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34527v2",
+      "page": 1,
+      "version": 2,
+      "width": 982,
+      "height": 1080,
+      "crop": [
+        60.9,
+        59.19,
+        551.11,
+        598.64
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.01600": {
+    "arxivId": "2611.01600",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.01600",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01600v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.01600-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:29Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of SCOUT. From partial RGB-D observations, GHOST reconstructs an object- centric hidden scene representation, which is converted into a relational planning state. An LLM generates structured action proposals, and MCTS with a learned world model evaluates simulated rollouts to guide selection of a multi-step plan.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.01600-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01600v1",
+      "page": 2,
+      "version": 1,
+      "width": 817,
+      "height": 281,
+      "crop": [
+        102.0,
+        66.0,
+        510.26,
+        206.27
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.02056": {
+    "arxivId": "2611.02056",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.02056",
+      "sourceUrl": "https://arxiv.org/pdf/2611.02056v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.02056-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Our scene-graph memory and three ways to give it to a VLM, with where its information is lost. Our pipeline (left) turns the agent’s frames into per-frame scene graphs and merges them into one episode graph, which reaches the model as memory text (blue), through a graph encoder (R-GCN), or both. The standard graph route (dashed) combines a mean-pooled vector added at the input and a gated cross-attention after the last layer. Our per-node route writes one token per node into the prompt. Numbered tags: the four findings of Sec. I, placed on the part of the pipeline each concerns.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.02056-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.02056v1",
+      "page": 3,
+      "version": 1,
+      "width": 1054,
+      "height": 274,
+      "crop": [
+        42.96,
+        44.54,
+        569.03,
+        181.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.00513": {
+    "arxivId": "2611.00513",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.00513",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00513v1",
+      "version": 1,
+      "pageCount": 40,
+      "textPages": 40,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.00513-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Three jobs for a VLM in a robot system, shown on the episode of Figure 2. (a) The VLM picks the next skill from a library, and the skill moves the robot. (b) The VLM writes the motion itself, here the program that Code as Policies wrote for this episode. (c) In WorldSketch, the VLM sketches a minimal kinematic world model with perception tools. The door becomes a link on a hinge with a goal angle, the rest of the kitchen stays as unlabelled voxels, and a planner finds the grasp and a collision-free motion on this sketch.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.00513-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00513v1",
+      "page": 2,
+      "version": 1,
+      "width": 607,
+      "height": 582,
+      "crop": [
+        154.92,
+        66.0,
+        457.78,
+        356.81
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.00612": {
+    "arxivId": "2611.00612",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.00612",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00612v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.00612-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Seeing that the shelf contains a ball (left, Scenario 1) should give a different representation than not gaining this information (right, Scenario 2), even if the end state is the same.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.00612-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00612v1",
+      "page": 3,
+      "version": 1,
+      "width": 460,
+      "height": 184,
+      "crop": [
+        191.1,
+        66.0,
+        420.87,
+        157.72
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.00180": {
+    "arxivId": "2611.00180",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.00180",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00180v1",
+      "version": 1,
+      "pageCount": 40,
+      "textPages": 40,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.00180-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of LIFE. Continuous perception detects changes in the environment, while active exploration extends observation coverage. Together, they accumulate memories with temporal and spatial information. The agent core combines the current context with historical evidence to reason, plan, and invoke tools, and in turn directs attention and exploration. Autonomous learning develops candidate methods to address capability gaps encountered through experience and adds validated methods to the tool and skill layer.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.00180-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00180v1",
+      "page": 3,
+      "version": 1,
+      "width": 966,
+      "height": 500,
+      "crop": [
+        64.87,
+        64.87,
+        547.15,
+        314.33
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.41558": {
+    "arxivId": "2610.41558",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.41558",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41558v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.41558-v1.text.json",
+      "extractedAt": "2026-11-03T06:57:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Two-robot contact structure in relative coordinates. (a–c) Numerical contact-family map",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.41558-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41558v1",
+      "page": 4,
+      "version": 1,
+      "width": 640,
+      "height": 824,
+      "crop": [
+        135.54,
+        166.11,
+        455.21,
+        577.53
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }

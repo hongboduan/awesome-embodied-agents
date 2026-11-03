@@ -1,5 +1,124 @@
 [
   {
+    "id": "discovered-2611.00180",
+    "paperId": "2611.00180",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.00180v1"
+  },
+  {
+    "id": "discovered-2611.00344",
+    "paperId": "2611.00344",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "SPARK: Self-Correcting Embodied Memory via Physical Re-Observation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.00344v1"
+  },
+  {
+    "id": "discovered-2611.00513",
+    "paperId": "2611.00513",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.00513v1"
+  },
+  {
+    "id": "discovered-2611.00612",
+    "paperId": "2611.00612",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "Roz: A Taste Test for World Model Latents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.00612v1"
+  },
+  {
+    "id": "discovered-2611.01112",
+    "paperId": "2611.01112",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.01112v1"
+  },
+  {
+    "id": "discovered-2611.01404",
+    "paperId": "2611.01404",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.01404v1"
+  },
+  {
+    "id": "discovered-2611.01560",
+    "paperId": "2611.01560",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.01560v1"
+  },
+  {
+    "id": "discovered-2611.01600",
+    "paperId": "2611.01600",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.01600v1"
+  },
+  {
+    "id": "discovered-2610.34527",
+    "paperId": "2610.34527",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Matched Sim-Real Benchmark",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.34527v2"
+  },
+  {
+    "id": "discovered-2611.01934",
+    "paperId": "2611.01934",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "TriPhysBench: Evaluating Physical Intelligence for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.01934v1"
+  },
+  {
+    "id": "discovered-2611.02056",
+    "paperId": "2611.02056",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "Do Embodied VLMs Actually Use Their Scene-Graph Memory?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.02056v1"
+  },
+  {
+    "id": "version-2610.40016-v3",
+    "paperId": "2610.40016",
+    "type": "version",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.40016v3"
+  },
+  {
+    "id": "discovered-2611.03138",
+    "paperId": "2611.03138",
+    "type": "discovered",
+    "date": "2026-11-03T06:56:39Z",
+    "title": "KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.03138v1"
+  },
+  {
     "id": "discovered-2610.40754",
     "paperId": "2610.40754",
     "type": "discovered",
