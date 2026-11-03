@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2611.01560",
+    "arxivId": "2611.01560",
+    "version": 1,
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "shortTitle": "uni-robot-agent",
+    "date": "2026-11-02",
+    "year": 2026,
+    "addedAt": "2026-11-03",
+    "authors": "Jiarui Yuan et al.",
+    "categories": ["planning", "code", "policies", "harness", "evaluation"],
+    "tasks": ["manipulation", "long-horizon"],
+    "environment": ["simulation"],
+    "summaryZh": "uni-robot-agent 是一个面向 Robot-Use Agent 的开源统一 harness：用共享工具接口、执行器和监控系统连接不同仿真环境与模型提供商，重点验证开源模型能否在不为单个任务定制 skill 的情况下完成跨任务机器人操作。",
+    "summaryEn": "uni-robot-agent is an open harness that standardizes robot tools, execution and monitoring across environments, enabling open models to act through a reusable interface.",
+    "problem": "Robot-use research often depends on复杂且任务定制的 harness，导致模型、工具和环境之间难以公平比较；能否用一套通用工具和反馈接口降低开源模型进入机器人 Agent 的门槛？",
+    "method": "项目提供统一 CLI、Python SDK、工具执行器、本地 dashboard 与环境 adapter。Direct 模式让 Agent 直接调用共享机器人工具；Hybrid 模式可加入兼容的动作模型（例如 Pi0.5）。设计强调统一工具/反馈接口、工具执行与 Agent 推理的并行、仅使用 RGB 与机器人本体信息的现实观测设置，以及可替换的 runtime、model provider、tools、environment 和 model service。",
+    "findings": [
+      "根据项目公开的 RoboDojo 评测，Qwen 在该 harness 上的分数由 1.90 提升到 31.39，超过 Astra 的 28.97；这里应以项目/论文的完整评测协议为准，不把分数直接与其他 RoboDojo 快照混排。",
+      "项目公开口径称单条轨迹约 1.09 美元，低于 Astra 的二十分之一；成本依赖模型价格、token、重试和运行配置，应与成功率一起报告。",
+      "工具接口不针对单一任务定制 skill，支持 RoboDojo、RoboUse 和 RoboLab 等集成；这一点更接近通用 Agent 基础设施，而不是单篇任务策略。"
+    ],
+    "limitations": [
+      "当前公开仓库主要提供仿真集成；README 标注 ARX One、Franka 等真机连接仍在开发中，因此不能把仿真结果解释为已验证的真机通用能力。",
+      "统一 harness 降低了工程门槛，但 Agent 仍依赖模型 provider、环境 adapter、机器人原语和评测后端；统一接口不等于消除了底层 embodiment 差异。",
+      "RoboDojo 分数和成本必须绑定版本、观察设置、调用预算、重试策略与价格快照；不同项目的榜单快照不能直接排序。",
+      "项目同时支持 Direct 与 Hybrid 两种模式，比较时需要明确动作模型是否参与，避免把 harness、planner 和低层 policy 的收益混在一起。"
+    ],
+    "role": {
+      "model": "Qwen、Astra 或其他兼容 provider 的 Agent runtime",
+      "output": "共享机器人工具调用、Python SDK 策略或 Hybrid 动作模型调用",
+      "memory": "运行目录保存 episode、工具调用、执行时间、视频和可用的环境结果",
+      "recovery": "执行器返回工具结果与状态，Agent 根据反馈重规划；局部恢复取决于工具和模型策略",
+      "adaptation": "通过 adapter 接入新环境和机器人，不要求为每个任务单独设计 skill"
+    },
+    "links": {
+      "paper": "https://huggingface.co/papers/2611.01560",
+      "project": "https://uni-robot-agent.com",
+      "code": "https://github.com/Open-RUA/uni-robot-agent",
+      "blog": "https://openrua.ai/uni-robot-agent"
+    },
+    "evidence": [
+      {"claim": "统一 harness、Direct/Hybrid 模式与环境集成", "label": "官方 GitHub README", "source": "https://github.com/Open-RUA/uni-robot-agent"},
+      {"claim": "论文入口与项目说明", "label": "Hugging Face Papers", "source": "https://huggingface.co/papers/2611.01560"},
+      {"claim": "项目定位与结果口径", "label": "OpenRUA 官方博客", "source": "https://openrua.ai/uni-robot-agent"}
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-11-03",
+    "curated": true,
+    "deepRead": false,
+    "tags": ["uni-robot-agent", "Robot-Use Agent", "harness", "open models", "Qwen", "RoboDojo", "Direct", "Hybrid"]
+  }
+]
