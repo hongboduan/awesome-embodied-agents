@@ -7032,27 +7032,27 @@
   },
   "2610.05818": {
     "arxivId": "2610.05818",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.05818",
-      "sourceUrl": "https://arxiv.org/pdf/2610.05818v1",
-      "version": 1,
-      "pageCount": 10,
-      "textPages": 10,
+      "sourceUrl": "https://arxiv.org/pdf/2610.05818v2",
+      "version": 2,
+      "pageCount": 12,
+      "textPages": 12,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.05818-v1.text.json",
-      "extractedAt": "2026-10-17T04:37:05Z"
+      "textPath": ".cache/papers/2610.05818-v2.text.json",
+      "extractedAt": "2026-11-04T06:38:18Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Task success and monitor flag rates for π0.5 (left) and OpenVLA-OFT (right) with the task given bare (Original), with a harmless reason (Control), and with increasingly explicit harmful reasons (L1–L3). Guard: mean flag rate of the three guards on that robot’s rollout instructions. Probe: linear probe on that robot’s activations. Original has one instruction per task, so a single flag is 20–25%. Shading: gap between task success and guard flag rate; per-run leak rates are in Table 1a. 95% CIs over reasons.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.05818-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.05818v1",
+      "path": "assets/papers/2610.05818-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.05818v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 817,
       "height": 400,
       "crop": [
@@ -7065,7 +7065,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -10030,40 +10030,40 @@
   },
   "2609.34270": {
     "arxivId": "2609.34270",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.34270",
-      "sourceUrl": "https://arxiv.org/pdf/2609.34270v1",
-      "version": 1,
-      "pageCount": 8,
-      "textPages": 8,
+      "sourceUrl": "https://arxiv.org/pdf/2609.34270v2",
+      "version": 2,
+      "pageCount": 25,
+      "textPages": 25,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.34270-v1.text.json",
-      "extractedAt": "2026-10-21T13:29:54Z"
+      "textPath": ".cache/papers/2609.34270-v2.text.json",
+      "extractedAt": "2026-11-04T06:38:22Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Fig. 1: Overview of the proposed language-grounded Bayesian active learning framework. Given an ambiguous instruction and scene representation, an LLM proposes candidate user intents as STL task specifications with prior utility estimates. A grammar VAE maps these formulas into a continuous latent space, where a latent utility model (a Gaussian process in our implementation) is initialized from the LLM prior. An acquisition function contrasts the current best specification with an informative challenger, which may be an LLM candidate or a novel formula sampled directly in the latent space, and the contrast is converted into a clarification question. After each user response, the utility model is updated and the LLM regenerates the candidate set. After convergence, the inferred specification is decoded and passed to a formal planner to synthesize a feasible robot trajectory.",
+      "caption": "Figure 1: Overview of the proposed Bayesian active learning framework. An LLM proposes candi- date specifications with priors, and a grammar VAE embeds them in a latent space where a Gaussian Process (GP) models utility. Queries are sampled by the acquisition function and translated into clarification questions by LLMs. User answers update the GP and the candidates. The final con- verged specification is decoded and passed to a formal planner for robot execution.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.34270-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.34270v1",
-      "page": 3,
-      "version": 1,
-      "width": 1032,
-      "height": 423,
+      "path": "assets/papers/2609.34270-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.34270v2",
+      "page": 2,
+      "version": 2,
+      "width": 816,
+      "height": 337,
       "crop": [
-        48.0,
-        44.08,
-        563.98,
-        255.41
+        102.0,
+        66.0,
+        509.99,
+        234.41
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -12877,40 +12877,40 @@
   },
   "2610.35817": {
     "arxivId": "2610.35817",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.35817",
-      "sourceUrl": "https://arxiv.org/pdf/2610.35817v2",
-      "version": 2,
-      "pageCount": 25,
-      "textPages": 25,
+      "sourceUrl": "https://arxiv.org/pdf/2610.35817v3",
+      "version": 3,
+      "pageCount": 26,
+      "textPages": 26,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.35817-v2.text.json",
-      "extractedAt": "2026-10-28T05:52:21Z"
+      "textPath": ".cache/papers/2610.35817-v3.text.json",
+      "extractedAt": "2026-11-04T06:37:59Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: Motion learned in simulation carries over to new real tasks that need reasoning. Left: two of the simulated training tasks. These simple pick and place, stacking, and reorientation tasks with everyday objects teach the model only how to move. Right: the same model, trained exclusively in simulation, tested zero-shot on a real bi-manual robot. Without using any real robot data in training, ZAP generalizes to completely new objects (test tube), new goals (choosing a different hole in the rack), new strategies (mid-air handoff), and complex skills and reasoning (drawing an X on a tic-tac-toe board, playing chess). These tasks show the model composing reasoning from pretraining with motion learned in simulation.",
+      "caption": "Figure 1: ZAP teaches small open VLMs the missing motion skill without frontier model distillation. Left: ZAP trains on simple simulated tasks. Right: ZAP generalizes to unseen real-world tasks with novel objects, goals, and complex strategies not present in training (e.g., test tube, mid-air handoff between arms, tic-tac-toe, and chess mate-in-one), without any real robot data.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.35817-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.35817v2",
+      "path": "assets/papers/2610.35817-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35817v3",
       "page": 1,
-      "version": 2,
+      "version": 3,
       "width": 817,
       "height": 236,
       "crop": [
         102.2,
-        424.96,
+        408.02,
         510.2,
-        542.45
+        525.58
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -13657,27 +13657,27 @@
   },
   "2609.05178": {
     "arxivId": "2609.05178",
-    "version": 3,
+    "version": 4,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.05178",
-      "sourceUrl": "https://arxiv.org/pdf/2609.05178v3",
-      "version": 3,
+      "sourceUrl": "https://arxiv.org/pdf/2609.05178v4",
+      "version": 4,
       "pageCount": 38,
       "textPages": 38,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.05178-v3.text.json",
-      "extractedAt": "2026-10-29T05:57:02Z"
+      "textPath": ".cache/papers/2609.05178-v4.text.json",
+      "extractedAt": "2026-11-04T06:38:28Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of LIBERO-Recover. LIBERO-Recover collects failure scenarios from SOTA models and expert recovery trajectories via human teleoperation. The plots summarize recovery performance across difficulty levels and performance degradation after failure.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.05178-v3.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.05178v3",
+      "path": "assets/papers/2609.05178-v4.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.05178v4",
       "page": 2,
-      "version": 3,
+      "version": 4,
       "width": 856,
       "height": 430,
       "crop": [
@@ -13690,7 +13690,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 3,
+      "version": 4,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -14788,27 +14788,27 @@
   },
   "2611.01560": {
     "arxivId": "2611.01560",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.01560",
-      "sourceUrl": "https://arxiv.org/pdf/2611.01560v1",
-      "version": 1,
-      "pageCount": 35,
-      "textPages": 35,
+      "sourceUrl": "https://arxiv.org/pdf/2611.01560v2",
+      "version": 2,
+      "pageCount": 37,
+      "textPages": 37,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.01560-v1.text.json",
-      "extractedAt": "2026-11-03T06:57:20Z"
+      "textPath": ".cache/papers/2611.01560-v2.text.json",
+      "extractedAt": "2026-11-04T06:37:51Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1 | uni-robot-agent: results and system overview. Top: shared tools, execution, and feedback connect models to environment adapters, supporting generalizable agentic training across environments. Bottom: Simulation and real-world scores.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.01560-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.01560v1",
+      "path": "assets/papers/2611.01560-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.01560v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 841,
       "height": 592,
       "crop": [
@@ -14821,7 +14821,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "editorial-preserved",
-      "version": 1,
+      "version": 2,
       "message": "人工内容保留。"
     }
   },
@@ -14866,40 +14866,40 @@
   },
   "2610.34527": {
     "arxivId": "2610.34527",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.34527",
-      "sourceUrl": "https://arxiv.org/pdf/2610.34527v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.34527v3",
+      "version": 3,
       "pageCount": 31,
       "textPages": 31,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.34527-v2.text.json",
-      "extractedAt": "2026-11-03T06:57:28Z"
+      "textPath": ".cache/papers/2610.34527-v3.text.json",
+      "extractedAt": "2026-11-04T06:38:04Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1 LLM4Robot-Bench: hierarchical, matched Sim–Real evaluation of GPT-6 Astra’s contact- rich manipulation capabilities. (a) Sixteen tasks pair physically and visually matched simulated and real-world environments with shared task objectives and success criteria. (b) Three cumulative levels progress from contact selection and geometric alignment (L1), to force regulation within sustained contact (L2), and coordinated contact reconfiguration and force regulation (L3). The photographs illustrate task requirements. (c) Success declines across levels in both environments, with no L3 task completed. Rates average task-level success equally, using three trials per task in each environment. Ten of the 16 tasks have identical Sim–Real success counts. These shared trends support matched simulation as a repeatable testbed for studying Astra’s limits in contact-rich manipulation.",
-      "figureLabel": "Figure 1",
+      "caption": "Figure 2 Contact-rich manipulation tasks and representative initial-state variations. (a) The 16 tasks span three interaction levels, identified by task tags colored by level: L1 (5 tasks) emphasizes contact selection and geometric alignment; L2 (7 tasks) adds force regulation within sustained contact; L3 (4 tasks) requires coordinated contact reconfiguration and force regulation. Each task unit pairs a simulated view (left, violet bar) with a real-world view (right, orange bar). (b) Four representative simulation tasks are each shown in three initial configurations, illustrating",
+      "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.34527-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.34527v2",
-      "page": 1,
-      "version": 2,
-      "width": 982,
-      "height": 1080,
+      "path": "assets/papers/2610.34527-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.34527v3",
+      "page": 3,
+      "version": 3,
+      "width": 978,
+      "height": 850,
       "crop": [
-        60.9,
-        59.19,
-        551.11,
-        598.64
+        61.89,
+        59.13,
+        550.12,
+        483.85
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15206,6 +15206,240 @@
         44.08,
         558.96,
         363.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.05058": {
+    "arxivId": "2611.05058",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.05058",
+      "sourceUrl": "https://arxiv.org/pdf/2611.05058v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.05058-v1.text.json",
+      "extractedAt": "2026-11-04T06:37:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Geometric abstraction between observation, reasoning, and action. Visual observations are grounded locally into metric 3D geometry and exposed to the language model through symbolic references and compact textual checkpoints. Policies reason in text and symbols over stable geometric roles whose metric values are rebound to the current scene during execution.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.05058-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.05058v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 266,
+      "crop": [
+        102.0,
+        66.0,
+        510.0,
+        199.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.03765": {
+    "arxivId": "2611.03765",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.03765",
+      "sourceUrl": "https://arxiv.org/pdf/2611.03765v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.03765-v1.text.json",
+      "extractedAt": "2026-11-04T06:37:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2: Overview of VAGUEBENCH and the Ambient Context Illusion paradigm, which illustrates how embodied agents rely on auxiliary contextual cues in original instructions and presents the VAGUEBENCH construction pipeline and a taxonomy of instruction transformation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.03765-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.03765v1",
+      "page": 5,
+      "version": 1,
+      "width": 926,
+      "height": 553,
+      "crop": [
+        61.77,
+        70.41,
+        524.36,
+        346.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.04518": {
+    "arxivId": "2611.04518",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.04518",
+      "sourceUrl": "https://arxiv.org/pdf/2611.04518v1",
+      "version": 1,
+      "pageCount": 6,
+      "textPages": 6,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.04518-v1.text.json",
+      "extractedAt": "2026-11-04T06:38:05Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the multi-agent mission-planning ar-",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.04518-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.04518v1",
+      "page": 3,
+      "version": 1,
+      "width": 501,
+      "height": 293,
+      "crop": [
+        41.09,
+        66.12,
+        291.41,
+        212.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.04836": {
+    "arxivId": "2611.04836",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.04836",
+      "sourceUrl": "https://arxiv.org/pdf/2611.04836v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.04836-v1.text.json",
+      "extractedAt": "2026-11-04T06:38:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Different scene representations, corresponding navigation structure. (a) Two schematic experience graphs describe a bed search from a living room to a bedroom. Scene B introduces a degree-two entryway before the corridor junction. (b) Structural correspondence reduction aligns compatible passage labels and suppresses the entryway, preserving the start and target endpoints, semantic anchors, and kitchen branch. Both reduced graphs describe a living-room-to-bedroom approach with a kitchen branch at the intervening junction. Suppressed-transition counts remain available to graded matching: the living-room-to-junction connections contain zero and one suppressed vertices, respectively.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.04836-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.04836v1",
+      "page": 2,
+      "version": 1,
+      "width": 1054,
+      "height": 454,
+      "crop": [
+        42.96,
+        49.9,
+        569.05,
+        276.1
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.04016": {
+    "arxivId": "2611.04016",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.04016",
+      "sourceUrl": "https://arxiv.org/pdf/2611.04016v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.04016-v1.text.json",
+      "extractedAt": "2026-11-04T06:38:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Conceptual organization of the continual spatial world-model experiment. (a) Repeated navigation exposes the agent to related spatial changes across episodes. (b) Reactive updating ob- serves a change, revises the current map, and recomputes the route, so each event is resolved from current evidence. (c) Spatial Change Memory pools transition observations across episodes to learn a relation shared across spatial locations. (d) The falsiﬁable boundary: structured change should support memory-based prediction, whereas random change (ε = 0.5) should not.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.04016-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.04016v1",
+      "page": 3,
+      "version": 1,
+      "width": 802,
+      "height": 213,
+      "crop": [
+        105.96,
+        66.0,
+        506.04,
+        171.69
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.03937": {
+    "arxivId": "2611.03937",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.03937",
+      "sourceUrl": "https://arxiv.org/pdf/2611.03937v1",
+      "version": 1,
+      "pageCount": 35,
+      "textPages": 35,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.03937-v1.text.json",
+      "extractedAt": "2026-11-04T06:38:17Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. A scalable, fully automatic, and accurate pipeline for counterfactual data that others can adapt to new simulators and tasks. (a) Four stages: find informative views, plan answer-changing motions, execute them in the simulator, and annotate. Answers are computed by rules on simulator metadata, so they are exact; a VLM only adds reasoning and language variation. (b) The pipeline needs no human labeling, scales to 420K questions across 9.7K houses, and records depth, flow, masks, and reasoning for every example. (c) A training example. The model sees only (I0, tm, tq); coloured nouns refer to the marks of the same colour. The outcome image, flow, depth, metadata, and the reasoning chain cgt →c1 →c0 (excerpts) are training annotations that supervise both VLMs and world models.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.03937-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.03937v1",
+      "page": 6,
+      "version": 1,
+      "width": 1014,
+      "height": 514,
+      "crop": [
+        52.5,
+        65.01,
+        559.5,
+        321.81
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

@@ -1,5 +1,125 @@
 [
   {
+    "id": "version-2610.05818-v2",
+    "paperId": "2610.05818",
+    "type": "version",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "What the Guard Misses, the Robot Executes: Implied Harm in VLA Instructions",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.05818v2"
+  },
+  {
+    "id": "discovered-2611.03765",
+    "paperId": "2611.03765",
+    "type": "discovered",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.03765v1"
+  },
+  {
+    "id": "version-2609.34270-v2",
+    "paperId": "2609.34270",
+    "type": "version",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.34270v2"
+  },
+  {
+    "id": "discovered-2611.03937",
+    "paperId": "2611.03937",
+    "type": "discovered",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "FlowBench: Counterfactual Imagination Training for Spatial Intelligence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.03937v1"
+  },
+  {
+    "id": "discovered-2611.04016",
+    "paperId": "2611.04016",
+    "type": "discovered",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "Physical Experience Builds Continual Spatial World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.04016v1"
+  },
+  {
+    "id": "discovered-2611.04518",
+    "paperId": "2611.04518",
+    "type": "discovered",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "LLM-Assisted Planning with Distributed Onboard Behaviour Tree Execution for Multi-AUV Missions",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.04518v1"
+  },
+  {
+    "id": "version-2609.05178-v4",
+    "paperId": "2609.05178",
+    "type": "version",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+    "message": "arXiv 更新至 v4；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 3,
+    "toVersion": 4,
+    "url": "https://arxiv.org/abs/2609.05178v4"
+  },
+  {
+    "id": "discovered-2611.04836",
+    "paperId": "2611.04836",
+    "type": "discovered",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "HTCE: Homeomorphism-inspired Topological Cross-Scene Experience Canonicalization and Reuse for Object Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.04836v1"
+  },
+  {
+    "id": "version-2610.34527-v3",
+    "paperId": "2610.34527",
+    "type": "version",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical, Paired Sim-Real Benchmark",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.34527v3"
+  },
+  {
+    "id": "discovered-2611.05058",
+    "paperId": "2611.05058",
+    "type": "discovered",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "Do Agentic Policies Need to Look at Every Step? Geometric Abstraction for Reasoning and Action",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.05058v1"
+  },
+  {
+    "id": "version-2611.01560-v2",
+    "paperId": "2611.01560",
+    "type": "version",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.01560v2"
+  },
+  {
+    "id": "version-2610.35817-v3",
+    "paperId": "2610.35817",
+    "type": "version",
+    "date": "2026-11-04T06:37:20Z",
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization for Agentic Robotics",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.35817v3"
+  },
+  {
     "id": "discovered-2611.00180",
     "paperId": "2611.00180",
     "type": "discovered",
