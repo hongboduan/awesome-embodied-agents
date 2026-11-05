@@ -1,5 +1,94 @@
 [
   {
+    "id": "version-2610.06598-v2",
+    "paperId": "2610.06598",
+    "type": "version",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.06598v2"
+  },
+  {
+    "id": "version-2610.23479-v3",
+    "paperId": "2610.23479",
+    "type": "version",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.23479v3"
+  },
+  {
+    "id": "version-2611.00180-v2",
+    "paperId": "2611.00180",
+    "type": "version",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.00180v2"
+  },
+  {
+    "id": "version-2610.41868-v2",
+    "paperId": "2610.41868",
+    "type": "version",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "META-Robot: Self-Cognition and Capability Scaling in Agentic Robots",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.41868v2"
+  },
+  {
+    "id": "discovered-2611.06627",
+    "paperId": "2611.06627",
+    "type": "discovered",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "Interactive World Simulation with Cosmos for Physical AI",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.06627v1"
+  },
+  {
+    "id": "discovered-2611.06768",
+    "paperId": "2611.06768",
+    "type": "discovered",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.06768v1"
+  },
+  {
+    "id": "discovered-2611.06817",
+    "paperId": "2611.06817",
+    "type": "discovered",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.06817v1"
+  },
+  {
+    "id": "discovered-2611.06863",
+    "paperId": "2611.06863",
+    "type": "discovered",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "Rethinking Self-Repair in Code-as-Policy Agents: What Drives Retry Success?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.06863v1"
+  },
+  {
+    "id": "discovered-2611.06881",
+    "paperId": "2611.06881",
+    "type": "discovered",
+    "date": "2026-11-05T06:56:55Z",
+    "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.06881v1"
+  },
+  {
     "id": "version-2610.05818-v2",
     "paperId": "2610.05818",
     "type": "version",

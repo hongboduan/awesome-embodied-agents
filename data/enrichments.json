@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-03T08:44:53Z",
+      "at": "2026-11-05T06:57:56Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -7071,27 +7071,27 @@
   },
   "2610.06598": {
     "arxivId": "2610.06598",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.06598",
-      "sourceUrl": "https://arxiv.org/pdf/2610.06598v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.06598v2",
+      "version": 2,
       "pageCount": 24,
       "textPages": 24,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.06598-v1.text.json",
-      "extractedAt": "2026-10-17T04:37:08Z"
+      "textPath": ".cache/papers/2610.06598-v2.text.json",
+      "extractedAt": "2026-11-05T06:57:54Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2 Overview of SimForcing. Simulation world model training: A mixture-of-transformers world model learns action-conditioned motion from augmented synthetic rollouts. Sim-to-real distillation: The pretrained model initializes a student and serves as a frozen teacher. Latent-motion distillation internalizes motion priors, while multi-block dropout conditioning provides simulation guidance. Joint training enables the final student to generate both simulation conditions and real videos, with CFG balancing explicit guidance and internalized knowledge at inference.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.06598-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.06598v1",
+      "path": "assets/papers/2610.06598-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.06598v2",
       "page": 5,
-      "version": 1,
+      "version": 2,
       "width": 966,
       "height": 470,
       "crop": [
@@ -7104,7 +7104,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -7695,35 +7695,40 @@
   },
   "2610.23479": {
     "arxivId": "2610.23479",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.23479",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23479v2",
-      "version": 2,
-      "pageCount": 26,
-      "textPages": 26,
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v3",
+      "version": 3,
+      "pageCount": 47,
+      "textPages": 47,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.23479-v2.text.json",
-      "extractedAt": "2026-10-21T04:58:28Z"
+      "textPath": ".cache/papers/2610.23479-v3.text.json",
+      "extractedAt": "2026-11-05T06:57:30Z"
     },
     "figure": {
       "kind": "figure",
-      "path": "assets/papers/hexashell-v2-framework.png",
-      "figureLabel": "Figure 1 · 失败到可复用工具",
-      "version": 2,
-      "sourceUrl": "https://arxiv.org/pdf/2610.23479v2",
-      "originalUrl": "https://arxiv.org/html/2610.23479v2/HexaShell_Figure1.png",
-      "page": 1,
-      "selection": "manual-original",
-      "width": 2037,
-      "height": 679,
-      "caption": "论文 v2 Figure 1 原图：在线 acting agent 通过薄接口执行，开发时 optimizer 将失败修成工具；最终冻结工具再评测。图像归原作者。"
+      "caption": "Figure 2. Overview. At each turn the model writes one Python cell, which runs in a sandbox. Its robot calls go to the host, where perception locates objects and an adapter turns motions into the actions of each setting.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2610.23479-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23479v3",
+      "page": 4,
+      "version": 3,
+      "width": 966,
+      "height": 751,
+      "crop": [
+        64.87,
+        18.44,
+        547.14,
+        393.25
+      ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "editorial-preserved",
-      "version": 2,
+      "version": 3,
       "message": "人工内容保留。"
     }
   },
@@ -14320,40 +14325,40 @@
   },
   "2610.41868": {
     "arxivId": "2610.41868",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.41868",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41868v1",
-      "version": 1,
-      "pageCount": 30,
-      "textPages": 30,
+      "sourceUrl": "https://arxiv.org/pdf/2610.41868v2",
+      "version": 2,
+      "pageCount": 21,
+      "textPages": 21,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.41868-v1.text.json",
-      "extractedAt": "2026-11-02T06:20:17Z"
+      "textPath": ".cache/papers/2610.41868-v2.text.json",
+      "extractedAt": "2026-11-05T06:57:38Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: META-Robot starts from a task description. Its framework consists of three components: (1) Loop Execution Agent, which generates programs and predicates, evaluates execution evidence, and repairs failures; (2) Proprioceptive Signal Orchestration, which supplements insufficient visual observations with physical feedback; and (3) coupled Predicate and Skill Libraries, which consoli- date validated criteria and repairs for cognitive and capability scaling.",
+      "caption": "Figure 1: META-Robot starts from a task description. Its framework consists of three components: (1) Loop Execution Agent, which generates programs and predicates, evaluates execution evidence, and repairs failures; (2) Proprioceptive Signal Orchestration, which supplements insufficient visual observations with physical feedback; and (3) coupled Predicate and Skill Libraries, which consolidate validated criteria and repairs for cognitive and capability scaling.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.41868-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41868v1",
-      "page": 4,
-      "version": 1,
-      "width": 960,
-      "height": 649,
+      "path": "assets/papers/2610.41868-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41868v2",
+      "page": 2,
+      "version": 2,
+      "width": 816,
+      "height": 549,
       "crop": [
-        66.0,
-        195.14,
-        546.0,
-        519.15
+        102.0,
+        202.77,
+        510.0,
+        476.79
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15061,27 +15066,27 @@
   },
   "2611.00180": {
     "arxivId": "2611.00180",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.00180",
-      "sourceUrl": "https://arxiv.org/pdf/2611.00180v1",
-      "version": 1,
-      "pageCount": 40,
-      "textPages": 40,
+      "sourceUrl": "https://arxiv.org/pdf/2611.00180v2",
+      "version": 2,
+      "pageCount": 39,
+      "textPages": 39,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.00180-v1.text.json",
-      "extractedAt": "2026-11-03T06:57:42Z"
+      "textPath": ".cache/papers/2611.00180-v2.text.json",
+      "extractedAt": "2026-11-05T06:57:52Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: Overview of LIFE. Continuous perception detects changes in the environment, while active exploration extends observation coverage. Together, they accumulate memories with temporal and spatial information. The agent core combines the current context with historical evidence to reason, plan, and invoke tools, and in turn directs attention and exploration. Autonomous learning develops candidate methods to address capability gaps encountered through experience and adds validated methods to the tool and skill layer.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2611.00180-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.00180v1",
+      "path": "assets/papers/2611.00180-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00180v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 966,
       "height": 500,
       "crop": [
@@ -15094,7 +15099,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15440,6 +15445,201 @@
         65.01,
         559.5,
         321.81
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.06863": {
+    "arxivId": "2611.06863",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.06863",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06863v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.06863-v1.text.json",
+      "extractedAt": "2026-11-05T06:57:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Template-based feedback improves recovery over resampling. (a) Reset-and-retry loop and feedback methods. (b) Recovery on 252 initial failures, with similar outcomes for Compiled, Different-Label Feedback, and Fixed Task Template.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.06863-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06863v1",
+      "page": 2,
+      "version": 1,
+      "width": 818,
+      "height": 485,
+      "crop": [
+        101.8,
+        65.3,
+        510.01,
+        307.34
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.06881": {
+    "arxivId": "2611.06881",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.06881",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06881v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.06881-v1.text.json",
+      "extractedAt": "2026-11-05T06:57:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: Overview. Inspired by industrial applications, VABAR includes six manipulation task classes: (1) Tool Sorting, (2) Tool Hanging, (3) Gear Meshing, (4) Syringe Packing, (5) Cable Insertion, and (6) Cable Routing. The benchmark includes both single-arm and bimanual robot embodiments and evaluates manipulation under specific tiers of geometric and physical variations. VABAR is open access and runs on GPU workstations and on Isaac Lab Arena.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.06881-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06881v1",
+      "page": 1,
+      "version": 1,
+      "width": 1033,
+      "height": 513,
+      "crop": [
+        48.0,
+        221.42,
+        564.0,
+        477.3
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.06768": {
+    "arxivId": "2611.06768",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.06768",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06768v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.06768-v1.text.json",
+      "extractedAt": "2026-11-05T06:57:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. PyRUA-REAL: Python-based Robot-Use Agents for Robot Exploration and Adaptive Learning. (a) Coding agents iteratively explore, execute, diagnose, and revise robot programs, retaining rollout experience as",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.06768-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06768v1",
+      "page": 2,
+      "version": 1,
+      "width": 1057,
+      "height": 597,
+      "crop": [
+        37.84,
+        71.95,
+        565.92,
+        369.84
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.06627": {
+    "arxivId": "2611.06627",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.06627",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06627v1",
+      "version": 1,
+      "pageCount": 119,
+      "textPages": 119,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.06627-v1.text.json",
+      "extractedAt": "2026-11-05T06:57:47Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: From Cosmos 3 to interactive world simulation. A shared post-training recipe adapts Cosmos3- Nano from the Cosmos 3 family (NVIDIA, 2026a) into three example models for camera navigation and robot manipulation, single-view video transfer, and multi-view autonomous vehicle (AV) simulation. Each specialized model incorporates domain-specific controls tailored to its application and trained on datasets reflecting the types of interactions and physical dynamics relevant to that domain.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.06627-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06627v1",
+      "page": 5,
+      "version": 1,
+      "width": 965,
+      "height": 420,
+      "crop": [
+        56.75,
+        79.53,
+        538.55,
+        289.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.06817": {
+    "arxivId": "2611.06817",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.06817",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06817v1",
+      "version": 1,
+      "pageCount": 53,
+      "textPages": 53,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.06817-v1.text.json",
+      "extractedAt": "2026-11-05T06:57:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of Open-HumanScale. Using a curated 50,000-hour egocentric corpus, we show that scaling human data improves robot generalization after post-training, with greater task and scene diversity yielding steeper scaling curves. We then extend this pretraining approach to combine human and robot data, finding that hybrid scaling improves zero-shot success in simulation and across 20 real-world tasks.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.06817-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06817v1",
+      "page": 3,
+      "version": 1,
+      "width": 966,
+      "height": 472,
+      "crop": [
+        64.87,
+        81.03,
+        547.13,
+        316.97
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
