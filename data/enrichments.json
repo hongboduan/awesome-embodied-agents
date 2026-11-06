@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-05T06:57:56Z",
+      "at": "2026-11-06T06:58:04Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -15612,27 +15612,27 @@
   },
   "2611.06817": {
     "arxivId": "2611.06817",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.06817",
-      "sourceUrl": "https://arxiv.org/pdf/2611.06817v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.06817v2",
+      "version": 2,
       "pageCount": 53,
       "textPages": 53,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.06817-v1.text.json",
-      "extractedAt": "2026-11-05T06:57:49Z"
+      "textPath": ".cache/papers/2611.06817-v2.text.json",
+      "extractedAt": "2026-11-06T06:58:03Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1 Overview of Open-HumanScale. Using a curated 50,000-hour egocentric corpus, we show that scaling human data improves robot generalization after post-training, with greater task and scene diversity yielding steeper scaling curves. We then extend this pretraining approach to combine human and robot data, finding that hybrid scaling improves zero-shot success in simulation and across 20 real-world tasks.",
+      "caption": "Figure 1 Overview of Open-HumanWAM. Using a curated 50,000-hour egocentric corpus, we show that scaling human data improves robot generalization after post-training, with greater task and scene diversity yielding steeper scaling curves. We then extend this pretraining approach to combine human and robot data, finding that hybrid scaling improves zero-shot success in simulation and across 20 real-world tasks.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.06817-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.06817v1",
+      "path": "assets/papers/2611.06817-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06817v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 966,
       "height": 472,
       "crop": [
@@ -15640,6 +15640,162 @@
         81.03,
         547.13,
         316.97
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.08209": {
+    "arxivId": "2611.08209",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.08209",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08209v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.08209-v1.text.json",
+      "extractedAt": "2026-11-06T06:57:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Representative tasks from RoboARCade. The benchmark includes 22 tasks spanning single and bimanual manipulation, assembly, physical puzzles, and biolab-inspired procedures. This figure shows 20 of them. Tasks require combinations of visual understanding, precise control, mem- ory, and multi-step planning. RoboARCade supports rendering with Blender for high-fidelity visual observations.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.08209-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08209v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 659,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        404.66
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.08318": {
+    "arxivId": "2611.08318",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.08318",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08318v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.08318-v1.text.json",
+      "extractedAt": "2026-11-06T06:57:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of the self-improvement loop. Left, learning: the actor (GPT-6 Astra, high reasoning effort) writes and executes Python cells that call the robot’s primitives on five development layouts, and sees the result of each cell. Between batches the learner (Claude Code with Opus 5.5, high reasoning effort) turns the evidence into one revision of the library ℒ𝑘, whose skills are callable code that reports what it did and whose memory entries say when to apply what, with the evidence for it; a revision is usually tried first in verification rollouts, and the loop rolls back to the best revision so far when a batch falls clearly below it. Whether the learner also sees the success criteria is the one switch between the two settings, w/ CE and w/o CE (the switch under the learner). Right, evaluation: the final library ℒ𝐾is frozen and read-only, and the same actor runs alone on layouts the loop never saw.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.08318-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08318v1",
+      "page": 4,
+      "version": 1,
+      "width": 932,
+      "height": 382,
+      "crop": [
+        64.87,
+        71.95,
+        530.36,
+        262.12
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.07825": {
+    "arxivId": "2611.07825",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.07825",
+      "sourceUrl": "https://arxiv.org/pdf/2611.07825v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.07825-v1.text.json",
+      "extractedAt": "2026-11-06T06:57:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Our two-stage generate-then-rank approach on an example record. Stage 1: given the instruction, scene objects, and task prompt, the fine-tuned LLM generates 𝐾= 9 outputs, of which three are unique candidate goals; each is drawn as the dishwasher contents it specifies and written as node (N), edge (E), and action (A) goals. Stage 2: the candidates and their likelihoods are the input. Contrastive learning pairs the positive, the best candidate, with each negative, a lower-quality candidate; the ranking loss raises the positive’s score and lowers the negatives’, more strongly for the pair with the larger quality gap. The output is the candidate with the highest likelihood after training. Likelihood is the average per-token probability; changes are in percentage points.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.07825-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.07825v1",
+      "page": 4,
+      "version": 1,
+      "width": 648,
+      "height": 506,
+      "crop": [
+        144.94,
+        109.84,
+        468.36,
+        362.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.07850": {
+    "arxivId": "2611.07850",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.07850",
+      "sourceUrl": "https://arxiv.org/pdf/2611.07850v1",
+      "version": 1,
+      "pageCount": 27,
+      "textPages": 27,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.07850-v1.text.json",
+      "extractedAt": "2026-11-06T06:57:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Complementary feedback for robot world models. Preserved appearance can coexist with stalled task progress, while task advance- ment can coexist with local visual artifacts. Visual fidelity and task seman- tics therefore provide complementary feedback. Scenes are conceptual illustrations, not experimental predictions or measured rankings.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.07850-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.07850v1",
+      "page": 1,
+      "version": 1,
+      "width": 529,
+      "height": 611,
+      "crop": [
+        306.0,
+        383.07,
+        570.0,
+        688.18
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
