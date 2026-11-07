@@ -1,14 +1,14 @@
 {
-  "lastAttempt": "2026-11-06T06:57:41Z",
-  "pdfExtracted": 5,
-  "pdfFailed": 1,
+  "lastAttempt": "2026-11-07T06:09:39Z",
+  "pdfExtracted": 0,
+  "pdfFailed": 0,
   "llmCalls": 0,
   "aiDraftsGenerated": 0,
   "aiFailed": 0,
   "eligible": 406,
-  "deferred": 0,
+  "deferred": 1,
   "llmMode": "not-configured",
-  "mode": "partial",
-  "lastFinished": "2026-11-06T06:58:04Z",
-  "message": "PDF 图片更新 5 篇；新增 AI 草稿 0 篇。未配置 LLM_API_KEY / LLM_MODEL，未调用大模型；PDF 图片照常更新。"
+  "mode": "active",
+  "lastFinished": "2026-11-07T06:09:41Z",
+  "message": "PDF 图片更新 0 篇；新增 AI 草稿 0 篇。未配置 LLM_API_KEY / LLM_MODEL，未调用大模型；PDF 图片照常更新。"
 }
