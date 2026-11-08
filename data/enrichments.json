@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-06T06:58:04Z",
+      "at": "2026-11-08T06:14:10Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
