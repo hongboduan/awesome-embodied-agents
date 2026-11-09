@@ -1,5 +1,52 @@
 [
   {
+    "id": "version-2610.08220-v2",
+    "paperId": "2610.08220",
+    "type": "version",
+    "date": "2026-11-09T06:47:11Z",
+    "title": "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.08220v2"
+  },
+  {
+    "id": "discovered-2611.08577",
+    "paperId": "2611.08577",
+    "type": "discovered",
+    "date": "2026-11-09T06:47:11Z",
+    "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.08577v1"
+  },
+  {
+    "id": "discovered-2611.08698",
+    "paperId": "2611.08698",
+    "type": "discovered",
+    "date": "2026-11-09T06:47:11Z",
+    "title": "VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.08698v1"
+  },
+  {
+    "id": "discovered-2611.09030",
+    "paperId": "2611.09030",
+    "type": "discovered",
+    "date": "2026-11-09T06:47:11Z",
+    "title": "A Controlled Study of Models, Skills, Feedback, and Curriculum in Agentic Robotics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.09030v1"
+  },
+  {
+    "id": "discovered-2611.09036",
+    "paperId": "2611.09036",
+    "type": "discovered",
+    "date": "2026-11-09T06:47:11Z",
+    "title": "ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.09036v1"
+  },
+  {
     "id": "discovered-2611.07825",
     "paperId": "2611.07825",
     "type": "discovered",

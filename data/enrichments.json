@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-08T06:14:10Z",
+      "at": "2026-11-09T06:48:15Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -6486,27 +6486,27 @@
   },
   "2610.08220": {
     "arxivId": "2610.08220",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.08220",
-      "sourceUrl": "https://arxiv.org/pdf/2610.08220v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.08220v2",
+      "version": 2,
       "pageCount": 9,
       "textPages": 9,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.08220-v1.text.json",
-      "extractedAt": "2026-10-16T11:27:44Z"
+      "textPath": ".cache/papers/2610.08220-v2.text.json",
+      "extractedAt": "2026-11-09T06:48:13Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 3. Overview of VOMMI. The online branch estimates multi-horizon local motion from RGB and conditions the base-action residual. The offline branch combines the causal estimator with frozen VGGT anchors, initializes the Body trajectory at its first valid pose, and applies planar Body compensation to the Hand stream before forming demonstration targets. Reference pose supervision available only during data collection. A. Local Cross-Embodiment Action Representation",
       "figureLabel": "Figure 3",
       "selection": "automatic",
-      "path": "assets/papers/2610.08220-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.08220v1",
+      "path": "assets/papers/2610.08220-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.08220v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 1033,
       "height": 502,
       "crop": [
@@ -6519,7 +6519,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15796,6 +15796,162 @@
         383.07,
         570.0,
         688.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.09030": {
+    "arxivId": "2611.09030",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.09030",
+      "sourceUrl": "https://arxiv.org/pdf/2611.09030v1",
+      "version": 1,
+      "pageCount": 50,
+      "textPages": 50,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.09030-v1.text.json",
+      "extractedAt": "2026-11-09T06:48:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of our controlled study of agentic robot self-learning of model, skill, feedback, and cur- riculum design. A coding agent initializes a policy π0, executes the current policy πk in simulation, receives feedback fk, and iteratively edits its policy as πk+1 = A(πk, fk, {(πj, fj)}j<k). We evaluate zero-shot and self-learning performance, and final task success across VABAR and MimicGen manipulation tasks.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.09030-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.09030v1",
+      "page": 2,
+      "version": 1,
+      "width": 671,
+      "height": 296,
+      "crop": [
+        141.6,
+        75.86,
+        476.82,
+        223.01
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.09036": {
+    "arxivId": "2611.09036",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.09036",
+      "sourceUrl": "https://arxiv.org/pdf/2611.09036v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.09036-v1.text.json",
+      "extractedAt": "2026-11-09T06:48:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: TOOLDEX Overview. The dataset captures creative physical tool-use behaviors in everyday tabletop scenarios, where humans repurpose available objects as tools for manipulation (left). It explicitly models full hand–tool–target-object interactions, including for challenging deformable tar- gets (middle). Using synchronized ego-exo multi-view capture, TOOLDEX provides rich annotations across views, including hand pose, tool, and target-object segmentation (right). A major obstacle is the lack of datasets and benchmarks that capture human physical tool-use capabilities at sufficient scale, fidelity, and diversity. Existing robot tool-use benchmarks are often simulation-based or focus on simplified object interactions, making it difficult to evaluate the com- plexity of real-world manipulation (Xu et al., 2023; Gao et al., 2026; Bakhtin et al., 2019; Zhang et al., 2025). Meanwhile, recent egocentric human manipulation datasets have greatly expanded the coverage of hand-object interactions (Hoque et al., 2026; Punamiya et al., 2026; Li et al., 2026; Liu et al., 2024). Among them, TACO explicitly captures tool-action-object compositions for hand-object manipulation (Liu et al., 2024). However, it does not explicitly model the target objects manipulated by the tools, such as cakes to be cut or water to be stirred. As a result, existing datasets either contain limited tool-use instances or lack the full hand–tool–target-object interactions and annotations needed to study physical tool use.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.09036-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.09036v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 240,
+      "crop": [
+        102.0,
+        75.86,
+        510.0,
+        195.03
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.08577": {
+    "arxivId": "2611.08577",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.08577",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08577v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.08577-v1.text.json",
+      "extractedAt": "2026-11-09T06:48:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of Meituan-Robotics-0. The framework integrates large-scale multimodal data, three-stage VLA training, an event-driven embodied-agent system, and real-robot deployment. The RoboDojo panel orders the displayed VLA models in ascending order of average success rate.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.08577-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08577v1",
+      "page": 2,
+      "version": 1,
+      "width": 943,
+      "height": 635,
+      "crop": [
+        70.59,
+        65.18,
+        541.66,
+        382.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.08698": {
+    "arxivId": "2611.08698",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.08698",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08698v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.08698-v1.text.json",
+      "extractedAt": "2026-11-09T06:48:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 2. VICTR method overview. The IC-VFE (ϕ) conditions on the reference demonstration τctx, the shortest in the pool Dℓ, to produce a progress estimate ˆvt for the current observation ot. This is then optionally fused with visual similarity, driving retrieval of a context chunk ct from the demonstration pool. The IC-VLA (θ) conditions on ct to predict the next action chunk, closing the loop without any parameter updates.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.08698-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08698v1",
+      "page": 3,
+      "version": 1,
+      "width": 1012,
+      "height": 373,
+      "crop": [
+        53.04,
+        44.08,
+        558.97,
+        230.02
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
