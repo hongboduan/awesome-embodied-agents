@@ -15960,5 +15960,473 @@
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
+  },
+  "2611.11941": {
+    "arxivId": "2611.11941",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.11941",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11941v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.11941-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:07Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: FlipAnything benchmark: 24 objects, with successes out of 15 evaluation episodes for the best tuned controller.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.11941-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11941v1",
+      "page": 2,
+      "version": 1,
+      "width": 587,
+      "height": 499,
+      "crop": [
+        158.89,
+        67.38,
+        451.6,
+        316.06
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12885": {
+    "arxivId": "2611.12885",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12885",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12885v1",
+      "version": 1,
+      "pageCount": 33,
+      "textPages": 33,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12885-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Infrastructure of RoboScript. Every component runs as an independent service, and any method, benchmark, embodiment, or extension plugs in as a replaceable module. All model calls pass through one gateway. The agent plane reaches the world only through the deployable interface (D), and only the control plane accesses privileged data (P).",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12885-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12885v1",
+      "page": 3,
+      "version": 1,
+      "width": 960,
+      "height": 339,
+      "crop": [
+        66.17,
+        73.65,
+        545.79,
+        242.93
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.11509": {
+    "arxivId": "2611.11509",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.11509",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11509v1",
+      "version": 1,
+      "pageCount": 37,
+      "textPages": 37,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.11509-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:13Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of SimplEvo. During online adaptation (left), an annotator instance of GPT-6-Astra reviews one training demonstration and writes a coordinate-free task memory of the stages and the completed state, and after every training episode, GPT-6-Astra rewrites the working memory from the trajectory and outcome of that episode into lessons on procedure, completion, and recovery. Once fixed (right), both memories are read in new scenes, and other MLLMs read the working memory of GPT-6-Astra without modification. All panels show peg insertion on EBench.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.11509-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11509v1",
+      "page": 4,
+      "version": 1,
+      "width": 816,
+      "height": 277,
+      "crop": [
+        102.0,
+        75.86,
+        509.9,
+        213.98
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.11438": {
+    "arxivId": "2611.11438",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.11438",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11438v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.11438-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:16Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2611.11438-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11438v1",
+      "page": 1,
+      "version": 1,
+      "width": 1224,
+      "height": 1584,
+      "crop": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12175": {
+    "arxivId": "2611.12175",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12175",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12175v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12175-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of GEOMIND. GEOMIND organizes structured spatial understanding along two diagnostic dimensions: spatial memory and spatial reasoning. The six task families cover different combinations of these dimensions. Surrounding examples illustrate how GEOMIND couples spatial instructions with structured object layouts and scene changes. The instructions are illustrative; evaluated actions and success criteria are specified in Appendix D.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12175-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12175v1",
+      "page": 2,
+      "version": 1,
+      "width": 816,
+      "height": 380,
+      "crop": [
+        102.0,
+        66.0,
+        509.56,
+        255.12
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12557": {
+    "arxivId": "2611.12557",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12557",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12557v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12557-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of WanderBench. (a) Data collection and curation. (b) Six evaluation dimen- sions with 24 sub-metrics. (c) Task setting: given a source video and action keys, a model re-renders the scene from novel viewpoints while staying synchronized with the source.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12557-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12557v1",
+      "page": 4,
+      "version": 1,
+      "width": 956,
+      "height": 473,
+      "crop": [
+        102.0,
+        64.76,
+        579.7,
+        300.75
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12286": {
+    "arxivId": "2611.12286",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12286",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12286v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12286-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:25Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 VLA-MOPD consolidation. Student rollouts provide observations and ODE states; the task-routed specialist labels transitions. The student matches these targets and refreshes rollouts. Velocity and ODE step- mean regression are Euler-equivalent; the transition-KL interpretation assumes shared Gaussian covariance (Eq. 4).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12286-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12286v1",
+      "page": 6,
+      "version": 1,
+      "width": 982,
+      "height": 785,
+      "crop": [
+        60.76,
+        65.22,
+        551.24,
+        457.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.11789": {
+    "arxivId": "2611.11789",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.11789",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11789v1",
+      "version": 1,
+      "pageCount": 72,
+      "textPages": 72,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.11789-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. An overview of HOLIDAYFACTORY 1.0. Human-specified workplaces and tasks guide agents to generate assets, scene variants, and process logic, and to propose evaluations for human confirmation. HOLIDAY-SIM simulates contact, actuation, and sensor responses. The top row is schematic, and the bottom panel shows 24/7-BENCH including seven industrial robot tasks in simulation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.11789-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11789v1",
+      "page": 1,
+      "version": 1,
+      "width": 955,
+      "height": 1043,
+      "crop": [
+        59.2,
+        193.39,
+        536.08,
+        714.44
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12177": {
+    "arxivId": "2611.12177",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12177",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12177v1",
+      "version": 1,
+      "pageCount": 86,
+      "textPages": 86,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12177-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 | Overview of the Embodied First Exam, a comprehensive evaluation framework for coding agents on robotics tasks. It is large and diverse, spanning 1,156 tasks, 35 suites and 47 robots, and easy to run and evaluate: one command runs any coding agent, and each task can be graded in up to three evaluation settings.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12177-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12177v1",
+      "page": 1,
+      "version": 1,
+      "width": 897,
+      "height": 361,
+      "crop": [
+        73.68,
+        211.32,
+        521.6,
+        391.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12139": {
+    "arxivId": "2611.12139",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12139",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12139v1",
+      "version": 1,
+      "pageCount": 47,
+      "textPages": 47,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12139-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1: BioMARS across three levels of experimental decision-making. a, Three tasks supported by a shared platform: protocol formulation, phenotype-guided culture optimization and evidence-guided intervention selection. Drug candidates undergo researcher-led testing. b, Automated cell-culture laboratory supporting 13 action interfaces, with single-channel aspiration and eight-channel plate dispensing shown at right.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12139-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12139v1",
+      "page": 4,
+      "version": 1,
+      "width": 921,
+      "height": 839,
+      "crop": [
+        79.96,
+        67.7,
+        539.86,
+        486.7
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.11921": {
+    "arxivId": "2611.11921",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.11921",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11921v1",
+      "version": 1,
+      "pageCount": 12,
+      "textPages": 12,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.11921-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: In-context inference vs. other uses of the same H transitions. All methods receive the same context window; dotted: LSTM trained on full data. Bands: 95% bootstrap intervals.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.11921-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11921v1",
+      "page": 3,
+      "version": 1,
+      "width": 761,
+      "height": 230,
+      "crop": [
+        114.62,
+        66.0,
+        494.9,
+        180.09
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.11023": {
+    "arxivId": "2611.11023",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.11023",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11023v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.11023-v1.text.json",
+      "extractedAt": "2026-11-10T07:28:41Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Illustrative architecture of collaborative inference across device, edge and cloud aligned with ITU-T Y.4509.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.11023-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.11023v1",
+      "page": 4,
+      "version": 1,
+      "width": 745,
+      "height": 305,
+      "crop": [
+        56.54,
+        50.69,
+        428.89,
+        202.66
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
   }
 }

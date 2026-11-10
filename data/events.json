@@ -1,5 +1,153 @@
 [
   {
+    "id": "discovered-2611.10182",
+    "paperId": "2611.10182",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "ATLAS: A Multi-Procedure Benchmark and Context-Aware Model for Surgical Anatomy Segmentation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.10182v1"
+  },
+  {
+    "id": "discovered-2611.10451",
+    "paperId": "2611.10451",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "Grip, Trace, Write: Force-Aware Imitation and Reinforcement Learning for High-DoF Robotic Handwriting",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.10451v1"
+  },
+  {
+    "id": "discovered-2611.11023",
+    "paperId": "2611.11023",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "Where Should Models Run? A Collaborative Inference Framework for Embodied Intelligence in 6G",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.11023v1"
+  },
+  {
+    "id": "discovered-2611.11438",
+    "paperId": "2611.11438",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.11438v1"
+  },
+  {
+    "id": "version-2610.41558-v2",
+    "paperId": "2610.41558",
+    "type": "version",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "A complete analytical characterization of optimal collision-free motion for two robots",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.41558v2"
+  },
+  {
+    "id": "discovered-2611.11509",
+    "paperId": "2611.11509",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.11509v1"
+  },
+  {
+    "id": "discovered-2611.11789",
+    "paperId": "2611.11789",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.11789v1"
+  },
+  {
+    "id": "discovered-2611.11921",
+    "paperId": "2611.11921",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "An Evaluation of Tabular Foundation Models as Training-Free World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.11921v1"
+  },
+  {
+    "id": "discovered-2611.11941",
+    "paperId": "2611.11941",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "Flip Anything with Agentic Robotics Self-Learning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.11941v1"
+  },
+  {
+    "id": "discovered-2611.12139",
+    "paperId": "2611.12139",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "BioMARS 2.0: a robotic biologist for formulating and adapting biological experiments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12139v1"
+  },
+  {
+    "id": "discovered-2611.12175",
+    "paperId": "2611.12175",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12175v1"
+  },
+  {
+    "id": "discovered-2611.12177",
+    "paperId": "2611.12177",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "Embodied First Exam",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12177v1"
+  },
+  {
+    "id": "discovered-2611.12286",
+    "paperId": "2611.12286",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12286v1"
+  },
+  {
+    "id": "version-2609.32313-v2",
+    "paperId": "2609.32313",
+    "type": "version",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "MemTransfer: Benchmarking Memory Beyond Matched Experience in Embodied Decision-Making",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.32313v2"
+  },
+  {
+    "id": "discovered-2611.12557",
+    "paperId": "2611.12557",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "WanderBench: Can World Models Explore Dynamic Worlds from Video?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12557v1"
+  },
+  {
+    "id": "discovered-2611.12885",
+    "paperId": "2611.12885",
+    "type": "discovered",
+    "date": "2026-11-10T07:27:33Z",
+    "title": "World In-Context Learning for Agentic Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12885v1"
+  },
+  {
     "id": "version-2610.08220-v2",
     "paperId": "2610.08220",
     "type": "version",
