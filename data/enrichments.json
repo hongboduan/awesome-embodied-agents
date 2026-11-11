@@ -4302,40 +4302,40 @@
   },
   "2610.17326": {
     "arxivId": "2610.17326",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.17326",
-      "sourceUrl": "https://arxiv.org/pdf/2610.17326v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.17326v2",
+      "version": 2,
       "pageCount": 7,
       "textPages": 7,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.17326-v1.text.json",
-      "extractedAt": "2026-10-14T07:44:00Z"
+      "textPath": ".cache/papers/2610.17326-v2.text.json",
+      "extractedAt": "2026-11-11T06:39:03Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Fig. 1. Overall task success, action-weighted SPL, task completion, and TC-SPLact across the three planning approaches.",
-      "figureLabel": "Figure 1",
+      "caption": "Fig. 2. ReAct architecture.",
+      "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.17326-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.17326v1",
+      "path": "assets/papers/2610.17326-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.17326v2",
       "page": 3,
-      "version": 1,
-      "width": 527,
-      "height": 242,
+      "version": 2,
+      "width": 552,
+      "height": 153,
       "crop": [
-        305.98,
-        573.14,
-        568.99,
-        693.82
+        293.76,
+        163.37,
+        569.02,
+        239.29
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15105,27 +15105,27 @@
   },
   "2610.41558": {
     "arxivId": "2610.41558",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.41558",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41558v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.41558v2",
+      "version": 2,
       "pageCount": 30,
       "textPages": 30,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.41558-v1.text.json",
-      "extractedAt": "2026-11-03T06:57:45Z"
+      "textPath": ".cache/papers/2610.41558-v2.text.json",
+      "extractedAt": "2026-11-11T06:39:01Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Two-robot contact structure in relative coordinates. (a–c) Numerical contact-family map",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.41558-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41558v1",
+      "path": "assets/papers/2610.41558-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41558v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 640,
       "height": 824,
       "crop": [
@@ -15138,7 +15138,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15612,27 +15612,27 @@
   },
   "2611.06817": {
     "arxivId": "2611.06817",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.06817",
-      "sourceUrl": "https://arxiv.org/pdf/2611.06817v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2611.06817v3",
+      "version": 3,
       "pageCount": 53,
       "textPages": 53,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.06817-v2.text.json",
-      "extractedAt": "2026-11-06T06:58:03Z"
+      "textPath": ".cache/papers/2611.06817-v3.text.json",
+      "extractedAt": "2026-11-11T06:38:58Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1 Overview of Open-HumanWAM. Using a curated 50,000-hour egocentric corpus, we show that scaling human data improves robot generalization after post-training, with greater task and scene diversity yielding steeper scaling curves. We then extend this pretraining approach to combine human and robot data, finding that hybrid scaling improves zero-shot success in simulation and across 20 real-world tasks.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.06817-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.06817v2",
+      "path": "assets/papers/2611.06817-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.06817v3",
       "page": 3,
-      "version": 2,
+      "version": 3,
       "width": 966,
       "height": 472,
       "crop": [
@@ -15645,7 +15645,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15885,40 +15885,40 @@
   },
   "2611.08577": {
     "arxivId": "2611.08577",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.08577",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08577v1",
-      "version": 1,
-      "pageCount": 25,
-      "textPages": 25,
+      "sourceUrl": "https://arxiv.org/pdf/2611.08577v2",
+      "version": 2,
+      "pageCount": 24,
+      "textPages": 24,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.08577-v1.text.json",
-      "extractedAt": "2026-11-09T06:48:07Z"
+      "textPath": ".cache/papers/2611.08577-v2.text.json",
+      "extractedAt": "2026-11-11T06:38:54Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of Meituan-Robotics-0. The framework integrates large-scale multimodal data, three-stage VLA training, an event-driven embodied-agent system, and real-robot deployment. The RoboDojo panel orders the displayed VLA models in ascending order of average success rate.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.08577-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08577v1",
+      "path": "assets/papers/2611.08577-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08577v2",
       "page": 2,
-      "version": 1,
-      "width": 943,
+      "version": 2,
+      "width": 940,
       "height": 635,
       "crop": [
-        70.59,
-        65.18,
-        541.66,
-        382.42
+        71.95,
+        65.69,
+        541.46,
+        382.75
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -16420,6 +16420,318 @@
         50.69,
         428.89,
         202.66
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.14115": {
+    "arxivId": "2611.14115",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.14115",
+      "sourceUrl": "https://arxiv.org/pdf/2611.14115v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.14115-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of RoboRisk. Each wedge shows frames of one risk category from RoboRisk-R (physical robot) and RoboRisk-S (simulation). Frames from harmful runs show the final state of the run.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.14115-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.14115v1",
+      "page": 4,
+      "version": 1,
+      "width": 1015,
+      "height": 403,
+      "crop": [
+        52.5,
+        65.99,
+        559.51,
+        266.68
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.13034": {
+    "arxivId": "2611.13034",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.13034",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13034v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.13034-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:32Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 From fixed practice to adversarial co-evolution. (a) Fixed practice improves execution against an unchanged challenge source. (b) In RoboACE, the curriculum exposes current execution weaknesses, while execution expands its capabilities through reusable harness revisions. As capabilities grow, the curriculum targets new weaknesses, sustaining adversarial co- evolution. The blue and orange robots represent the execution and curriculum harnesses, respectively.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.13034-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13034v1",
+      "page": 1,
+      "version": 1,
+      "width": 969,
+      "height": 788,
+      "crop": [
+        64.87,
+        175.12,
+        548.63,
+        568.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.12958": {
+    "arxivId": "2611.12958",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.12958",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12958v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.12958-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:36Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: The architecture of the Embodied Science Agent (ESA), a hybrid cognitive–embodied paradigm for self-driving laboratories with three components. The Digital Agent, the cognitive core and central novelty of ESA, evolves open-endedly by integrating online knowledge, embodied experimentation, and past experience for reasoning, planning, and decision-making. The Embodied Agent orchestrates diverse robots and scientific instruments through multiple control modules for generalised, reliable, and adaptive operation. The Embodied Unified Interface connects digital intelligence with heterogeneous laboratory devices via standardised, low-latency, and safe protocols. Together, they close the loop between perception, reasoning, and embodied execution for autonomous scientific discovery.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.12958-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.12958v1",
+      "page": 4,
+      "version": 1,
+      "width": 1034,
+      "height": 295,
+      "crop": [
+        47.8,
+        77.69,
+        564.2,
+        224.62
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.13779": {
+    "arxivId": "2611.13779",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.13779",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13779v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.13779-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Phase–space admissible region (passive leg).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.13779-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13779v1",
+      "page": 2,
+      "version": 1,
+      "width": 294,
+      "height": 206,
+      "crop": [
+        362.28,
+        44.08,
+        508.92,
+        146.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.14432": {
+    "arxivId": "2611.14432",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.14432",
+      "sourceUrl": "https://arxiv.org/pdf/2611.14432v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.14432-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The 2026 model. The VLM (left) encodes three camera images, register and scratch tokens, the task and stage embeddings and the robot state; the smaller action expert (right) denoises a 30-step action chunk and reads the VLM through a learnable mixture of the keys and values of all VLM layers. The task and stage embeddings also enter the expert directly through two conditioning tokens. Every attention layer of both transformers has a learnable sink. FAST tokens are used only in training.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.14432-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.14432v1",
+      "page": 3,
+      "version": 1,
+      "width": 952,
+      "height": 406,
+      "crop": [
+        68.16,
+        47.99,
+        543.84,
+        250.43
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.13000": {
+    "arxivId": "2611.13000",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.13000",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13000v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.13000-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of the PhysMoE framework. (a) Comparison between conventional coupled architectures and our decoupled ap- proach. (b) The proposed PhysMoE framework featuring continuous pixel position encoding, Semi-MoE token routing with decoupled linguistic (FFNlang) and spatial (FFNpix) experts, and Mask-SDF supervision.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.13000-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13000v1",
+      "page": 1,
+      "version": 1,
+      "width": 1014,
+      "height": 582,
+      "crop": [
+        52.5,
+        236.04,
+        559.49,
+        526.63
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.10451": {
+    "arxivId": "2611.10451",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.10451",
+      "sourceUrl": "https://arxiv.org/pdf/2611.10451v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.10451-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Training pipeline. Panels 1–3 correspond to the three stages in Sec. 2.3: grasp BC and hold RL, all-task writing BC with the learned grasp, and full-task outcome RL on the composed policy.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.10451-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.10451v1",
+      "page": 3,
+      "version": 1,
+      "width": 810,
+      "height": 287,
+      "crop": [
+        104.02,
+        66.9,
+        508.93,
+        209.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.10182": {
+    "arxivId": "2611.10182",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.10182",
+      "sourceUrl": "https://arxiv.org/pdf/2611.10182v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.10182-v1.text.json",
+      "extractedAt": "2026-11-11T06:38:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4: Overview of ATLAS. For each frame, a ViT encoder jointly processes the patch tokens 𝑃𝑡and the query tokens 𝑄𝑡, which consist of segmentation, procedure and phase queries. The output querieŝ 𝑄𝑡predict the masks and classes, the procedure label and a phase embedding 𝑧𝑡. They are then propagated to the next frame as 𝑄𝑡+1 = Linear(̂𝑄𝑡) + 𝑄0. Only past frames are used, so the model runs online. This schematic was created with the assistance of Claude (Anthropic).",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2611.10182-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.10182v1",
+      "page": 6,
+      "version": 1,
+      "width": 863,
+      "height": 381,
+      "crop": [
+        82.25,
+        49.28,
+        513.02,
+        239.29
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

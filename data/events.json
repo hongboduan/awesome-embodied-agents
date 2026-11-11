@@ -1,5 +1,92 @@
 [
   {
+    "id": "discovered-2611.12958",
+    "paperId": "2611.12958",
+    "type": "discovered",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "Embodied Science Agents: Making Embodied Experimental Design Learnable",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.12958v1"
+  },
+  {
+    "id": "discovered-2611.13000",
+    "paperId": "2611.13000",
+    "type": "discovered",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "PhysMoE: Fast Spatial Grounding with Single-Token Coordinate Representation in Modality-Decoupled VLMs",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.13000v1"
+  },
+  {
+    "id": "discovered-2611.13034",
+    "paperId": "2611.13034",
+    "type": "discovered",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "RoboACE: Adversarial Co-Evolution for Robot Self-Improvement",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.13034v1"
+  },
+  {
+    "id": "version-2610.17326-v2",
+    "paperId": "2610.17326",
+    "type": "version",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "Evaluating Long-Horizon Robot Planning under Uncertainty",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.17326v2"
+  },
+  {
+    "id": "version-2611.06817-v3",
+    "paperId": "2611.06817",
+    "type": "version",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2611.06817v3"
+  },
+  {
+    "id": "discovered-2611.13779",
+    "paperId": "2611.13779",
+    "type": "discovered",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "Softness is something you also need! Why compliance helps control: information metrics of a passive walker with compliant ankle",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.13779v1"
+  },
+  {
+    "id": "discovered-2611.14115",
+    "paperId": "2611.14115",
+    "type": "discovered",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "LEASH: Stay Safe in Agentic Robotics",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.14115v1"
+  },
+  {
+    "id": "version-2611.08577-v2",
+    "paperId": "2611.08577",
+    "type": "version",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.08577v2"
+  },
+  {
+    "id": "discovered-2611.14432",
+    "paperId": "2611.14432",
+    "type": "discovered",
+    "date": "2026-11-11T06:37:56Z",
+    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.14432v1"
+  },
+  {
     "id": "discovered-2611.10182",
     "paperId": "2611.10182",
     "type": "discovered",
