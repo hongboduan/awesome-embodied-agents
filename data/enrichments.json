@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-09T06:48:15Z",
+      "at": "2026-11-12T07:21:46Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -10698,27 +10698,27 @@
   },
   "2609.32313": {
     "arxivId": "2609.32313",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.32313",
-      "sourceUrl": "https://arxiv.org/pdf/2609.32313v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2609.32313v2",
+      "version": 2,
       "pageCount": 9,
       "textPages": 9,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.32313-v1.text.json",
-      "extractedAt": "2026-10-23T05:00:06Z"
+      "textPath": ".cache/papers/2609.32313-v2.text.json",
+      "extractedAt": "2026-11-12T07:21:44Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 2: Overview. (A) The shared VLM policy receives the task, observation, pose, action feedback, recent interactions and historical memory. (B) Warehouse layout, start poses, target instances and route obstructions. (C) Demonstration starting poses and the six memory representations, with examples of their contents and input sizes. Section III-B defines the comparisons used for each RQ.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2609.32313-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.32313v1",
+      "path": "assets/papers/2609.32313-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.32313v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 1028,
       "height": 624,
       "crop": [
@@ -10731,7 +10731,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
