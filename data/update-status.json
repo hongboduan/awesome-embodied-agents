@@ -1,12 +1,12 @@
 {
   "mode": "active",
   "scheduleEnabled": true,
-  "lastSuccess": "2026-11-12T07:21:09Z",
-  "lastAttempt": "2026-11-12T07:21:09Z",
-  "message": "最近发现 0 篇候选，记录 0 次版本变化。",
-  "fetched": 503,
+  "lastSuccess": "2026-11-13T06:54:08Z",
+  "lastAttempt": "2026-11-13T06:54:08Z",
+  "message": "最近发现 8 篇候选，记录 5 次版本变化。",
+  "fetched": 513,
   "discoverySince": "2026-09-01",
   "discoveryQuery": "(cat:cs.RO OR cat:cs.AI OR cat:cs.CV) AND (all:\"embodied agent\" OR all:\"robot agent\" OR all:\"robotic agent\" OR all:\"agentic robot\" OR all:\"robot planning\" OR all:\"robot reasoning\" OR all:\"code as policies\" OR all:\"embodied memory\" OR all:\"robot self-improvement\" OR (all:\"robot\" AND (all:\"GPT-6\" OR all:\"Astra\" OR all:\"in-context learning\" OR all:\"tool use\")))",
-  "newCandidates": 0,
-  "versionChanges": 0
+  "newCandidates": 8,
+  "versionChanges": 5
 }

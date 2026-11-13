@@ -625,27 +625,27 @@
   },
   "2610.07594": {
     "arxivId": "2610.07594",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.07594",
-      "sourceUrl": "https://arxiv.org/pdf/2610.07594v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.07594v3",
+      "version": 3,
       "pageCount": 23,
       "textPages": 23,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.07594-v2.text.json",
-      "extractedAt": "2026-10-12T06:07:22Z"
+      "textPath": ".cache/papers/2610.07594-v3.text.json",
+      "extractedAt": "2026-11-13T06:54:55Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1: BiGym 2.0: Auditing learned and agent-developed household manipulation on a walking humanoid. The suite evaluates data-driven policies and coding agents across 20 tasks spanning reaching, tabletop, dishwasher and kitchen-counter scenes. Tasks test hand choice, bimanual coordination, articulated fixtures, multi-object transport and cross-workspace block stacking. Human demonstrations, learned policies and agent programs execute through the same frozen whole-body controller, evaluating manipulation reliability under dynamic balance and footfall disturbances.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.07594-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.07594v2",
+      "path": "assets/papers/2610.07594-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.07594v3",
       "page": 1,
-      "version": 2,
+      "version": 3,
       "width": 882,
       "height": 703,
       "crop": [
@@ -658,7 +658,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -14208,27 +14208,27 @@
   },
   "2610.41216": {
     "arxivId": "2610.41216",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.41216",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41216v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.41216v2",
+      "version": 2,
       "pageCount": 16,
       "textPages": 16,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.41216-v1.text.json",
-      "extractedAt": "2026-11-02T06:20:08Z"
+      "textPath": ".cache/papers/2610.41216-v2.text.json",
+      "extractedAt": "2026-11-13T06:54:52Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2. Overview of TinyAstral. Stage 1: humans specify the rules and budget in advance. A master of frontier LLM agents reads trajectories of the frozen teacher acting through the harness (tools, feedback, memory, recovery) and proposes harness edits, which are accepted only if a paired A/B test on selection seeds passes a pre-registered statistical gate; model weights never change. Stage 2: after evolution ends, we freeze H∗and collect teacher trajectories, including reasoning and recovery branches. These are mixed with offline real-robot supervision to train tiny students (0.8B–4B), which replace the teacher in the same harness. Evaluation covers three training domains and three unseen benchmarks, plus three closed-loop real-robot tasks on an SO-ARM101 arm.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.41216-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41216v1",
+      "path": "assets/papers/2610.41216-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41216v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 1015,
       "height": 438,
       "crop": [
@@ -14241,7 +14241,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15885,27 +15885,27 @@
   },
   "2611.08577": {
     "arxivId": "2611.08577",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.08577",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08577v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2611.08577v3",
+      "version": 3,
       "pageCount": 24,
       "textPages": 24,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.08577-v2.text.json",
-      "extractedAt": "2026-11-11T06:38:54Z"
+      "textPath": ".cache/papers/2611.08577-v3.text.json",
+      "extractedAt": "2026-11-13T06:55:14Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Overview of Meituan-Robotics-0. The framework integrates large-scale multimodal data, three-stage VLA training, an event-driven embodied-agent system, and real-robot deployment. The RoboDojo panel orders the displayed VLA models in ascending order of average success rate.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.08577-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08577v2",
+      "path": "assets/papers/2611.08577-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08577v3",
       "page": 2,
-      "version": 2,
+      "version": 3,
       "width": 940,
       "height": 635,
       "crop": [
@@ -15918,33 +15918,33 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
   "2611.08698": {
     "arxivId": "2611.08698",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.08698",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08698v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.08698v2",
+      "version": 2,
       "pageCount": 11,
       "textPages": 11,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.08698-v1.text.json",
-      "extractedAt": "2026-11-09T06:48:10Z"
+      "textPath": ".cache/papers/2611.08698-v2.text.json",
+      "extractedAt": "2026-11-13T06:55:16Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 2. VICTR method overview. The IC-VFE (ϕ) conditions on the reference demonstration τctx, the shortest in the pool Dℓ, to produce a progress estimate ˆvt for the current observation ot. This is then optionally fused with visual similarity, driving retrieval of a context chunk ct from the demonstration pool. The IC-VLA (θ) conditions on ct to predict the next action chunk, closing the loop without any parameter updates.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2611.08698-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08698v1",
+      "path": "assets/papers/2611.08698-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08698v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 1012,
       "height": 373,
       "crop": [
@@ -15957,7 +15957,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -16732,6 +16732,318 @@
         49.28,
         513.02,
         239.29
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.16487": {
+    "arxivId": "2611.16487",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.16487",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16487v1",
+      "version": 1,
+      "pageCount": 40,
+      "textPages": 40,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.16487-v1.text.json",
+      "extractedAt": "2026-11-13T06:54:44Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: HEMER overview. During long-horizon inference, new observations can modify the memory context and switch the active procedural adapter. HEMER indexes memory chunks, updates affected KV ranges, and preserves compatible cache states across decision steps.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.16487-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16487v1",
+      "page": 5,
+      "version": 1,
+      "width": 809,
+      "height": 462,
+      "crop": [
+        102.73,
+        66.0,
+        506.78,
+        296.4
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.16590": {
+    "arxivId": "2611.16590",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.16590",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16590v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.16590-v1.text.json",
+      "extractedAt": "2026-11-13T06:54:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of AstroMemBench. Top: a schematic supply-line task with a simplified action menu shows how historical evidence supports action selection through memory, with deterministic environment scoring. Bottom: scenario, challenge, and capability coverage and test-set construction.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.16590-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16590v1",
+      "page": 2,
+      "version": 1,
+      "width": 920,
+      "height": 688,
+      "crop": [
+        67.7,
+        67.71,
+        527.39,
+        411.19
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.16009": {
+    "arxivId": "2611.16009",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.16009",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16009v1",
+      "version": 1,
+      "pageCount": 30,
+      "textPages": 30,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.16009-v1.text.json",
+      "extractedAt": "2026-11-13T06:54:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: From the official L3 harness to JustRUA. Left, every design we tested, by axis, with its score on the evaluation set, 111 episodes that cover all 42 tasks. Right, the designs JustRUA keeps, in the order they were added. Each bar is one evaluation-set run, the ring its first-round subset of 42 episodes, and the dashed line the cost of one first-round episode, a lower bound that assumes all cacheable input hits the cache. Reusing experience draws on the tasks being scored, so none of its forms is kept, whatever the score.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.16009-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16009v1",
+      "page": 1,
+      "version": 1,
+      "width": 802,
+      "height": 483,
+      "crop": [
+        105.96,
+        436.19,
+        506.03,
+        677.09
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.16872": {
+    "arxivId": "2611.16872",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.16872",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16872v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.16872-v1.text.json",
+      "extractedAt": "2026-11-13T06:54:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 ACE-CaP-0: from targeted experience to standalone robot execution. Left: a coding agent refines policies on the robot, requesting robot demonstrations and using simulation as needed. Right: eight manipulation tasks, with each panel reporting the success rate and mean physical execution time in minutes. Each frozen policy is evaluated in 30 trials and executes with runtime perception and control, without a human or coding agent in the loop.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.16872-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16872v1",
+      "page": 1,
+      "version": 1,
+      "width": 972,
+      "height": 908,
+      "crop": [
+        63.37,
+        205.19,
+        548.63,
+        658.68
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.17160": {
+    "arxivId": "2611.17160",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.17160",
+      "sourceUrl": "https://arxiv.org/pdf/2611.17160v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.17160-v1.text.json",
+      "extractedAt": "2026-11-13T06:55:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Thinker–Talker–Actor architecture of XBot-Omni. Thinker representations provide response semantics and scene context, while native Talker states provide speech-generation conditions. For motion generation, semantic control translates interaction context into gesture requirements, including spatial pointing targets. These requirements and speech–action alignment guide an autoregressive generator whose tokens are decoded into body motion. The facial expression pathway combines a chunk transformer with a flow-matching generator. Output illustrations are schematic.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.17160-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.17160v1",
+      "page": 4,
+      "version": 1,
+      "width": 961,
+      "height": 423,
+      "crop": [
+        66.0,
+        66.0,
+        546.01,
+        277.2
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.15689": {
+    "arxivId": "2611.15689",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.15689",
+      "sourceUrl": "https://arxiv.org/pdf/2611.15689v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.15689-v1.text.json",
+      "extractedAt": "2026-11-13T06:55:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: One step of BAMOS. The observation model links both beliefs to the view-selection and stopping decisions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.15689-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.15689v1",
+      "page": 2,
+      "version": 1,
+      "width": 596,
+      "height": 259,
+      "crop": [
+        157.44,
+        66.0,
+        454.6,
+        194.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.16116": {
+    "arxivId": "2611.16116",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.16116",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16116v1",
+      "version": 1,
+      "pageCount": 5,
+      "textPages": 5,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.16116-v1.text.json",
+      "extractedAt": "2026-11-13T06:55:06Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2611.16116-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.16116v1",
+      "page": 1,
+      "version": 1,
+      "width": 1224,
+      "height": 1584,
+      "crop": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.15429": {
+    "arxivId": "2611.15429",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.15429",
+      "sourceUrl": "https://arxiv.org/pdf/2611.15429v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.15429-v1.text.json",
+      "extractedAt": "2026-11-13T06:55:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of our IncR-3DSGG framework. Given an RGB image It and camera poses T T",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.15429-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.15429v1",
+      "page": 3,
+      "version": 1,
+      "width": 718,
+      "height": 197,
+      "crop": [
+        126.75,
+        66.0,
+        485.23,
+        164.46
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

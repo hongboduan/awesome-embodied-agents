@@ -1,5 +1,132 @@
 [
   {
+    "id": "version-2610.07594-v3",
+    "paperId": "2610.07594",
+    "type": "version",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "BiGym 2.0: Benchmarking Learned and Agent-Developed Policies for Humanoid Household Manipulation",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.07594v3"
+  },
+  {
+    "id": "version-2611.08698-v2",
+    "paperId": "2611.08698",
+    "type": "version",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.08698v2"
+  },
+  {
+    "id": "discovered-2611.15429",
+    "paperId": "2611.15429",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "IncR-3DSGG: Incremental Posed RGB Image Based 3D Scene Graph Generation via Privileged Depth Supervision",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.15429v1"
+  },
+  {
+    "id": "discovered-2611.15689",
+    "paperId": "2611.15689",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "What World Model Does Active Object Search Need? A Study under Imperfect Detection",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.15689v1"
+  },
+  {
+    "id": "discovered-2611.16009",
+    "paperId": "2611.16009",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.16009v1"
+  },
+  {
+    "id": "discovered-2611.16116",
+    "paperId": "2611.16116",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "Robo-SWE: An Executable Issue-Resolution Dataset Mined from Robot Software Repositories",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.16116v1"
+  },
+  {
+    "id": "discovered-2611.16487",
+    "paperId": "2611.16487",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.16487v1"
+  },
+  {
+    "id": "discovered-2611.16590",
+    "paperId": "2611.16590",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.16590v1"
+  },
+  {
+    "id": "version-2611.00180-v3",
+    "paperId": "2611.00180",
+    "type": "version",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2611.00180v3"
+  },
+  {
+    "id": "discovered-2611.16872",
+    "paperId": "2611.16872",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.16872v1"
+  },
+  {
+    "id": "version-2610.41216-v2",
+    "paperId": "2610.41216",
+    "type": "version",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.41216v2"
+  },
+  {
+    "id": "version-2611.08577-v3",
+    "paperId": "2611.08577",
+    "type": "version",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2611.08577v3"
+  },
+  {
+    "id": "discovered-2611.17160",
+    "paperId": "2611.17160",
+    "type": "discovered",
+    "date": "2026-11-13T06:54:08Z",
+    "title": "XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.17160v1"
+  },
+  {
     "id": "discovered-2611.12958",
     "paperId": "2611.12958",
     "type": "discovered",
