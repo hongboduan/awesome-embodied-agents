@@ -1,0 +1,73 @@
+[
+  {
+    "id": "worldscape-r2si",
+    "sourceType": "project",
+    "title": "WorldScape-R²SI",
+    "shortTitle": "WorldScape-R²SI",
+    "date": "2026-10-17",
+    "year": 2026,
+    "addedAt": "2026-11-15",
+    "authors": "Manifold AI",
+    "categories": [
+      "agent",
+      "self-improvement",
+      "memory",
+      "policies",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "WorldScape-R²SI 是双层机器人 Agent：内层 Agent 执行动作，外层 Recursion Agent 复盘轨迹、更新技能与记忆，并验证候选版本后激活。",
+    "summaryEn": "A two-layer robot agent whose outer recursion loop revises reusable skills, memory and reactive policies.",
+    "problem": "如何把一次任务的执行经验转化为后续回合可验证、可激活的技能和记忆更新？",
+    "method": "内层 Agent 根据视觉观察调用原生操作工具或 WorldScape Flash/Memory policy；外层 Agent 收集 episode、进行多模态反思、构造候选、成对验证并激活版本。官方适配器通过冻结 Harness 边界连接两层系统。",
+    "findings": [
+      "RoboDojo-Sim Agent 榜单记录 WorldScape-R²SI 为 46.58 Score / 39.35% success，Memory 65.78/63.67，Open 49.16/47.50。"
+    ],
+    "limitations": [
+      "官方 README 说明 WSP training interface 仍是预留 stub，WAM 训练尚未接入外层循环。",
+      "榜单成绩是特定版本和协议下的快照，不能直接与其他方法推导因果优劣。"
+    ],
+    "role": {
+      "model": "内层视觉 Agent + 外层 Recursion Agent",
+      "output": "工具动作、Flash/Memory policy 调用、技能和记忆候选",
+      "memory": "共享 Skills 与 Memory",
+      "recovery": "候选版本成对验证后局部激活",
+      "adaptation": "跨回合递归自我改进"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://github.com/manifoldai-research/R2SI",
+      "code": "https://github.com/manifoldai-research/R2SI"
+    },
+    "evidence": [
+      {
+        "claim": "双层 Agent 与 R²SI 流程",
+        "label": "官方 GitHub",
+        "source": "https://github.com/manifoldai-research/R2SI"
+      },
+      {
+        "claim": "RoboDojo 指标",
+        "label": "RoboDojo leaderboard",
+        "source": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-11-15",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "WorldScape-R²SI",
+      "Manifold AI",
+      "recursive self-improvement",
+      "Skills",
+      "Memory",
+      "RoboDojo"
+    ]
+  }
+]
