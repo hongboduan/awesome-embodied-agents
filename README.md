@@ -10,9 +10,9 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**57 curated entries · 51 papers · 5 projects · 1 perspective**
+**62 curated entries · 52 papers · 9 projects · 1 perspective**
 
-56 source-checked · 1 full-review · 0 AI drafts · 443 discovery candidates
+61 source-checked · 1 full-review · 0 AI drafts · 443 discovery candidates
 
 ## Contents
 
@@ -20,6 +20,7 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
   - [Reasoning & Planning · 6](#recent-planning)
   - [Memory & Knowledge · 3](#recent-memory)
   - [Skills & Code · 5](#recent-code)
+  - [VLA & World Models · 1](#recent-policies)
   - [Self-improvement · 1](#recent-learning)
   - [Benchmarks & Evaluation · 4](#recent-evaluation)
 - [Selected earlier foundations](#selected-earlier)
@@ -115,6 +116,15 @@ Each paper appears once under its primary topic; secondary topics remain visible
   把多阶段动作封装成可执行工具，每次工具运行后再由 Agent 根据反馈决定下一步。<br>
   [![arXiv: 2609.39018](https://img.shields.io/badge/arXiv-2609.39018-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.39018v1) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://hexafuture.ai/blog/urai/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2609.39018)
 
+<a id="recent-policies"></a>
+
+### VLA & World Models
+
+- **[Training Reasoning Models in Simulation to Natively Use Real Robots](https://mit-han-lab.github.io/pear-blog/paper.pdf)**<br>
+  2026-11-14 · VLA & World Models · Benchmarks & Evaluation<br>
+  PEAR trains an open reasoning model with robot-use reinforcement learning in simulation so it directly emits end-effector poses for real robots without a harness.<br>
+  [![Read the paper](https://img.shields.io/badge/Paper-B31B1B?style=flat-square)](https://mit-han-lab.github.io/pear-blog/paper.pdf) [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mit-han-lab/pear) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://mit-han-lab.github.io/pear-blog/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=pear)
+
 <a id="recent-learning"></a>
 
 ### Self-improvement
@@ -175,10 +185,30 @@ Selected earlier work relevant to current embodied-agent research. Original publ
 
 Project previews; collection dates are labeled when publication dates are unverified.
 
+- **[Q0-Preview](https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview)**<br>
+  2026-10-30 · Project preview<br>
+  A physical robot agent using multimodal spatial computation to derive world-frame points, end-effector orientation and contact information.<br>
+  [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=q0-preview)
+
+- **[GO-3 Nano Preview](https://www.agibot.com/article/231/detail/133.html)**<br>
+  2026-10-27 · Project preview<br>
+  AGIBOT's Agent+WAM entry combining task understanding, world reasoning and action generation.<br>
+  [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://www.agibot.com/article/231/detail/133.html) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=go3-nano-preview)
+
+- **[WorldScape-R²SI](https://github.com/manifoldai-research/R2SI)**<br>
+  2026-10-17 · Project preview<br>
+  A two-layer robot agent whose outer recursion loop revises reusable skills, memory and reactive policies.<br>
+  [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/manifoldai-research/R2SI) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://github.com/manifoldai-research/R2SI) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=worldscape-r2si)
+
 - **[Preliminary Indicators for Robotics Progress](https://robocurve.org/rci/)**<br>
   2026-10-15 · Project preview<br>
   An exploratory real-robot capability index examining how general and spatial reasoning benchmarks relate to robotic task performance.<br>
   [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://robocurve.org/rci/) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=robocurve-rci)
+
+- **[EmbodiedEvo](https://github.com/Einsia/EmbodiedEvo)**<br>
+  2026-10-14 · Project preview<br>
+  A self-evolving coding agent that edits executable robot code and learns reusable skills and lessons from physical feedback.<br>
+  [![GitHub source code](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Einsia/EmbodiedEvo) [![Project website](https://img.shields.io/badge/Project-2563EB?style=flat-square)](https://github.com/Einsia/EmbodiedEvo) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=embodiedevo)
 
 - **[RPent: Agentic Infrastructure for the Physical World](https://rpent.readthedocs.io/en/latest/)**<br>
   added 2026-10-13 · Project preview<br>
