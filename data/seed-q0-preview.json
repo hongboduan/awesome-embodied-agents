@@ -1,0 +1,71 @@
+[
+  {
+    "id": "q0-preview",
+    "sourceType": "project",
+    "title": "Q0-Preview",
+    "shortTitle": "Q0-Preview",
+    "date": "2026-10-30",
+    "year": 2026,
+    "addedAt": "2026-11-15",
+    "authors": "Qoo Tech",
+    "categories": [
+      "agent",
+      "planning",
+      "perception",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "Q0-Preview 是一个以多模态 Agent 进行空间计算的物理机器人 Agent：从多视角图像和相机标定中计算世界坐标，再由空间点推导末端姿态与接触信息。",
+    "summaryEn": "A physical robot agent using multimodal spatial computation to derive world-frame points, end-effector orientation and contact information.",
+    "problem": "如何让多模态 Agent 直接把视觉空间理解转化为机器人末端位姿，而不依赖任务专用 skill？",
+    "method": "使用头部和腕部 RGB、相机内外参、机械臂状态与指令，由多模态模型计算世界坐标空间点，再由本地运动控制器执行；官方 XPolicyLab 适配说明不使用私有模拟器相机接口。",
+    "findings": [
+      "RoboDojo-Sim Agent 榜单记录 Q0-Preview 为 74.20 Score / 68.87% success，Generalization 64.00/58.67，Precision 65.30/58.50，Long-Horizon 69.80/58.50，Memory 93.68/93.67，Open 78.20/75.00。"
+    ],
+    "limitations": [
+      "当前公开结果是 RoboDojo 特定配置与评测快照；真实机器人结果仍标注为后续发布。",
+      "空间坐标计算依赖相机标定、坐标系约定和完整观察字段，不能等同于完全无结构的端到端控制。"
+    ],
+    "role": {
+      "model": "多模态 Agent",
+      "output": "世界坐标空间点、末端位姿与接触相关几何",
+      "memory": "上下文回合历史",
+      "recovery": "基于后续观测继续调整",
+      "adaptation": "可扩展到灵巧手和人形机器人"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview",
+      "code": "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview"
+    },
+    "evidence": [
+      {
+        "claim": "空间计算方法与接口",
+        "label": "XPolicyLab 官方适配",
+        "source": "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview/README.md"
+      },
+      {
+        "claim": "RoboDojo 指标",
+        "label": "RoboDojo leaderboard",
+        "source": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-11-15",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "Q0-Preview",
+      "Qoo Tech",
+      "spatial computation",
+      "RoboDojo",
+      "Agent"
+    ]
+  }
+]
