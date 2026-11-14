@@ -22,7 +22,8 @@
         "q0-preview",
         "go3-nano-preview",
         "worldscape-r2si",
-        "embodiedevo"
+        "embodiedevo",
+        "pear"
       ],
       "backgroundIds": [
         "2209.07753",
@@ -51,7 +52,8 @@
         "q0-preview",
         "go3-nano-preview",
         "worldscape-r2si",
-        "embodiedevo"
+        "embodiedevo",
+        "pear"
       ],
       "backgroundIds": [
         "2608.29896"
@@ -97,7 +99,8 @@
         "q0-preview",
         "go3-nano-preview",
         "worldscape-r2si",
-        "embodiedevo"
+        "embodiedevo",
+        "pear"
       ],
       "backgroundIds": [
         "2606.19980"
@@ -208,6 +211,13 @@
       "name": "EmbodiedEvo",
       "summary": "Einsia.AI 的自进化 Coding Agent，在持久化 RoboDojo workspace 中修改代码并从物理反馈学习。",
       "url": "https://github.com/Einsia/EmbodiedEvo"
+    },
+    {
+      "id": "resource-pear",
+      "kind": "platform",
+      "name": "PEAR",
+      "summary": "Post-training Engine for Agentic Robotics：用仿真 Robot-Use RL 训练推理模型直接输出末端位姿，提供面向具身 Agent 的后训练基础设施。",
+      "url": "https://mit-han-lab.github.io/pear-blog/"
     }
   ],
   "relations": [
@@ -978,6 +988,42 @@
         }
       ],
       "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "pear-evaluated-robodojo",
+      "source": "pear",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "训练/评测于 RoboDojo",
+      "explanation": "PEAR 论文先在 LIBERO 训练，再使用 RoboDojo 任务继续训练并报告新机器人和新环境迁移。",
+      "sources": [
+        {
+          "label": "PEAR 论文",
+          "url": "https://mit-han-lab.github.io/pear-blog/paper.pdf"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "compare-pear-pyrualean",
+      "source": "pear",
+      "target": "2610.01939",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：无 harness RL 还是代码式 Agent",
+      "explanation": "PEAR 让推理模型直接输出末端位姿并用仿真 RL 学习；PyRUA-Lean 让模型生成 Python 单元调用工具。两者代表把能力放进模型参数与放进外部代码执行框架的不同路线。",
+      "sources": [
+        {
+          "label": "PEAR 论文",
+          "url": "https://mit-han-lab.github.io/pear-blog/paper.pdf"
+        },
+        {
+          "label": "PyRUA-Lean 论文",
+          "url": "https://arxiv.org/abs/2610.01939"
+        }
+      ],
+      "checkedAt": "2026-11-15"
     }
   ],
   "teams": [
@@ -1231,6 +1277,25 @@
         {
           "label": "EmbodiedEvo 官方仓库",
           "url": "https://github.com/Einsia/EmbodiedEvo"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "mit-han-pear",
+      "name": "MIT / UC Berkeley / UCSD / NVIDIA · PEAR",
+      "summary": "PEAR 研究线关注仿真 Robot-Use RL、开放推理模型后训练和无 harness 的 sim-to-real 迁移。",
+      "workIds": [
+        "pear"
+      ],
+      "sources": [
+        {
+          "label": "PEAR 官方博客",
+          "url": "https://mit-han-lab.github.io/pear-blog/"
+        },
+        {
+          "label": "PEAR 论文",
+          "url": "https://mit-han-lab.github.io/pear-blog/paper.pdf"
         }
       ],
       "checkedAt": "2026-11-15"
