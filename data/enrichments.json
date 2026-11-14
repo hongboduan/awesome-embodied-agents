@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-12T07:21:46Z",
+      "at": "2026-11-14T06:38:05Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -15066,27 +15066,27 @@
   },
   "2611.00180": {
     "arxivId": "2611.00180",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.00180",
-      "sourceUrl": "https://arxiv.org/pdf/2611.00180v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2611.00180v3",
+      "version": 3,
       "pageCount": 39,
       "textPages": 39,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.00180-v2.text.json",
-      "extractedAt": "2026-11-05T06:57:52Z"
+      "textPath": ".cache/papers/2611.00180-v3.text.json",
+      "extractedAt": "2026-11-14T06:38:03Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: Overview of LIFE. Continuous perception detects changes in the environment, while active exploration extends observation coverage. Together, they accumulate memories with temporal and spatial information. The agent core combines the current context with historical evidence to reason, plan, and invoke tools, and in turn directs attention and exploration. Autonomous learning develops candidate methods to address capability gaps encountered through experience and adds validated methods to the tool and skill layer.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2611.00180-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.00180v2",
+      "path": "assets/papers/2611.00180-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.00180v3",
       "page": 3,
-      "version": 2,
+      "version": 3,
       "width": 966,
       "height": 500,
       "crop": [
@@ -15099,7 +15099,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
