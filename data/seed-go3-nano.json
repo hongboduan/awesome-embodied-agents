@@ -1,0 +1,70 @@
+[
+  {
+    "id": "go3-nano-preview",
+    "sourceType": "project",
+    "title": "GO-3 Nano Preview",
+    "shortTitle": "GO-3 Nano",
+    "date": "2026-10-27",
+    "year": 2026,
+    "addedAt": "2026-11-15",
+    "authors": "AGIBOT",
+    "categories": [
+      "agent",
+      "policies",
+      "world-model",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "GO-3 Nano Preview 是 AGIBOT 的 Agent+WAM 路线，结合高层任务理解、世界状态预测与动作生成，面向跨任务的具身操作。",
+    "summaryEn": "AGIBOT's Agent+WAM entry combining task understanding, world reasoning and action generation.",
+    "problem": "如何把 Agent 的任务理解与 WAM 的未来状态和动作生成结合起来，提升跨任务操作泛化？",
+    "method": "按 RoboDojo 类型标注为 Agent + WAM；AGIBOT 对 GO-3 Preview 的公开介绍将其描述为 WRAM（World Reasoning Action Model），连接任务理解、未来状态预测和动作生成。Nano Preview 的具体模型配置以 RoboDojo 条目为准。",
+    "findings": [
+      "RoboDojo-Sim Agent 榜单记录 GO-3 Nano Preview 为 61.90 Score / 56.42% success，Generalization 36.45/33.66，Precision 78.65/76.00，Long-Horizon 68.21/53.50，Memory 64.50/63.67，Open 61.71/55.25。"
+    ],
+    "limitations": [
+      "Nano Preview 的公开榜单条目与完整 GO-3 Preview 不应混为同一模型。",
+      "RoboDojo 条目未提供统一的训练数据、参数规模和试验分母，跨项目比较应限于官方榜单口径。"
+    ],
+    "role": {
+      "model": "Agent + WAM/WRAM",
+      "output": "任务理解、未来状态表征与动作",
+      "memory": "WAM/Agent 上下文",
+      "recovery": "依赖闭环执行反馈",
+      "adaptation": "AGIBOT 公开路线强调 pretrain、post-train 与 post-deployment learning"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://www.agibot.com/article/231/detail/133.html",
+      "code": null
+    },
+    "evidence": [
+      {
+        "claim": "GO-3 Preview 的 WRAM 路线",
+        "label": "AGIBOT 官方介绍",
+        "source": "https://www.agibot.com/article/231/detail/133.html"
+      },
+      {
+        "claim": "Nano Preview RoboDojo 指标",
+        "label": "RoboDojo leaderboard",
+        "source": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "unknown",
+    "lastChecked": "2026-11-15",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "GO-3 Nano Preview",
+      "AGIBOT",
+      "Agent + WAM",
+      "RoboDojo"
+    ]
+  }
+]
