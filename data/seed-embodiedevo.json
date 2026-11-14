@@ -1,0 +1,72 @@
+[
+  {
+    "id": "embodiedevo",
+    "sourceType": "project",
+    "title": "EmbodiedEvo",
+    "shortTitle": "EmbodiedEvo",
+    "date": "2026-10-14",
+    "year": 2026,
+    "addedAt": "2026-11-15",
+    "authors": "Einsia.AI",
+    "categories": [
+      "agent",
+      "code",
+      "self-improvement",
+      "evaluation"
+    ],
+    "tasks": [
+      "manipulation"
+    ],
+    "environment": [
+      "simulation"
+    ],
+    "summaryZh": "EmbodiedEvo 将 Coding Agent 接入持续的 RoboDojo 仿真会话：观察、修改 Python 控制代码、执行，再根据物理反馈学习可复用技能和经验。",
+    "summaryEn": "A self-evolving coding agent that edits executable robot code and learns reusable skills and lessons from physical feedback.",
+    "problem": "如何让 Coding Agent 把执行反馈转化为可复用代码与经验，而不是每个任务从零开始？",
+    "method": "Agent 在持久化 RoboDojo workspace 中查看观察、编辑 Python 控制代码、执行并根据物理结果修订；知识以 workspace 中的可复用代码和 lessons 保存。",
+    "findings": [
+      "RoboDojo-Sim Agent 榜单记录 EmbodiedEvo 为 45.08 Score / 38.95% success，Memory 79.40/76.67，Open 51.81/49.25。"
+    ],
+    "limitations": [
+      "项目需要独立配置 RoboDojo/Isaac Sim、GPU、Docker 和模型凭据。",
+      "榜单结果不能单独证明长期在线自我改进在未知真实环境中有效。"
+    ],
+    "role": {
+      "model": "Coding Agent",
+      "output": "可执行 Python 控制代码、Skills、Lessons",
+      "memory": "workspace 中的代码和文字经验",
+      "recovery": "基于物理反馈循环修订代码",
+      "adaptation": "跨 episode 持久化和复用"
+    },
+    "links": {
+      "paper": null,
+      "project": "https://github.com/Einsia/EmbodiedEvo",
+      "code": "https://github.com/Einsia/EmbodiedEvo"
+    },
+    "evidence": [
+      {
+        "claim": "观察—修改—执行—学习循环",
+        "label": "官方 GitHub",
+        "source": "https://github.com/Einsia/EmbodiedEvo"
+      },
+      {
+        "claim": "RoboDojo 指标",
+        "label": "RoboDojo leaderboard",
+        "source": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+      }
+    ],
+    "review": "source-checked",
+    "codeStatus": "code",
+    "lastChecked": "2026-11-15",
+    "curated": true,
+    "deepRead": false,
+    "tags": [
+      "EmbodiedEvo",
+      "Einsia.AI",
+      "Coding Agent",
+      "Skills",
+      "Lessons",
+      "RoboDojo"
+    ]
+  }
+]
