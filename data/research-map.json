@@ -18,7 +18,11 @@
         "2610.23479",
         "2610.30136",
         "2610.01939",
-        "2611.01560"
+        "2611.01560",
+        "q0-preview",
+        "go3-nano-preview",
+        "worldscape-r2si",
+        "embodiedevo"
       ],
       "backgroundIds": [
         "2209.07753",
@@ -43,7 +47,11 @@
         "pi-api-beta",
         "2610.30136",
         "2610.01939",
-        "2611.01560"
+        "2611.01560",
+        "q0-preview",
+        "go3-nano-preview",
+        "worldscape-r2si",
+        "embodiedevo"
       ],
       "backgroundIds": [
         "2608.29896"
@@ -85,7 +93,11 @@
         "2610.08995",
         "2610.12369",
         "2610.12424",
-        "2610.23479"
+        "2610.23479",
+        "q0-preview",
+        "go3-nano-preview",
+        "worldscape-r2si",
+        "embodiedevo"
       ],
       "backgroundIds": [
         "2606.19980"
@@ -168,6 +180,34 @@
       "name": "uni-robot-agent",
       "summary": "OpenRUA 的统一 Robot-Use Agent harness：共享工具接口、执行器、SDK 与 dashboard，支持 Direct/Hybrid 模式和多个仿真环境。",
       "url": "https://uni-robot-agent.com"
+    },
+    {
+      "id": "resource-q0-preview",
+      "kind": "platform",
+      "name": "Q0-Preview",
+      "summary": "Qoo Tech 的空间计算型 Robot-Use Agent，通过多视角 RGB、标定和世界坐标计算直接产生末端位姿。",
+      "url": "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview"
+    },
+    {
+      "id": "resource-go3-nano",
+      "kind": "model",
+      "name": "GO-3 Nano Preview",
+      "summary": "AGIBOT 的 Agent + WAM 条目；官方 GO-3 路线将任务理解、未来状态推理和动作生成连接起来。",
+      "url": "https://www.agibot.com/article/231/detail/133.html"
+    },
+    {
+      "id": "resource-worldscape-r2si",
+      "kind": "platform",
+      "name": "WorldScape-R²SI",
+      "summary": "Manifold AI 的双层 Robot Agent 与递归自我改进框架，联合 Skills、Memory 和 WorldScape policy。",
+      "url": "https://github.com/manifoldai-research/R2SI"
+    },
+    {
+      "id": "resource-embodiedevo",
+      "kind": "platform",
+      "name": "EmbodiedEvo",
+      "summary": "Einsia.AI 的自进化 Coding Agent，在持久化 RoboDojo workspace 中修改代码并从物理反馈学习。",
+      "url": "https://github.com/Einsia/EmbodiedEvo"
     }
   ],
   "relations": [
@@ -854,6 +894,90 @@
         }
       ],
       "checkedAt": "2026-11-03"
+    },
+    {
+      "id": "q0-evaluated-robodojo",
+      "source": "q0-preview",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "RoboDojo Agent 榜单",
+      "explanation": "Q0-Preview 在 RoboDojo-Sim Agent 榜单报告 74.20 Score / 68.87% success。",
+      "sources": [
+        {
+          "label": "RoboDojo leaderboard",
+          "url": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "go3-evaluated-robodojo",
+      "source": "go3-nano-preview",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "RoboDojo Agent + WAM 榜单",
+      "explanation": "GO-3 Nano Preview 在 RoboDojo-Sim Agent 榜单报告 61.90 Score / 56.42% success。",
+      "sources": [
+        {
+          "label": "RoboDojo leaderboard",
+          "url": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "worldscape-evaluated-robodojo",
+      "source": "worldscape-r2si",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "RoboDojo Agent + WAM 榜单",
+      "explanation": "WorldScape-R²SI 在 RoboDojo-Sim Agent 榜单报告 46.58 Score / 39.35% success。",
+      "sources": [
+        {
+          "label": "RoboDojo leaderboard",
+          "url": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "embodiedevo-evaluated-robodojo",
+      "source": "embodiedevo",
+      "target": "resource-robodojo",
+      "type": "evaluated_on",
+      "editorial": false,
+      "label": "RoboDojo Agent 榜单",
+      "explanation": "EmbodiedEvo 在 RoboDojo-Sim Agent 榜单报告 45.08 Score / 38.95% success。",
+      "sources": [
+        {
+          "label": "RoboDojo leaderboard",
+          "url": "https://robodojo-benchmark.com/leaderboard?bench=sim"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "compare-worldscape-embodiedevo",
+      "source": "worldscape-r2si",
+      "target": "embodiedevo",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：递归循环还是 workspace 演化",
+      "explanation": "WorldScape-R²SI 将外层递归 Agent、Skills、Memory 和候选版本验证显式组织起来；EmbodiedEvo 将演化知识保存在 workspace 的代码和 lessons 中。两者都把经验沉淀到外部载体，但闭环结构不同。",
+      "sources": [
+        {
+          "label": "WorldScape-R²SI 官方仓库",
+          "url": "https://github.com/manifoldai-research/R2SI"
+        },
+        {
+          "label": "EmbodiedEvo 官方仓库",
+          "url": "https://github.com/Einsia/EmbodiedEvo"
+        }
+      ],
+      "checkedAt": "2026-11-15"
     }
   ],
   "teams": [
@@ -1050,6 +1174,66 @@
         }
       ],
       "checkedAt": "2026-11-03"
+    },
+    {
+      "id": "qoo-tech-q0",
+      "name": "Qoo Tech · Q0-Preview",
+      "summary": "研究线关注多模态 Agent 的空间计算、世界坐标和机器人末端控制。",
+      "workIds": [
+        "q0-preview"
+      ],
+      "sources": [
+        {
+          "label": "Q0-Preview 适配说明",
+          "url": "https://github.com/XPolicyLab/XPolicyLab/tree/main/policy/Q0_Preview"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "agibot-go3",
+      "name": "AGIBOT · GO-3",
+      "summary": "GO-3 路线将具身预训练、后训练和部署后学习连接到 Agent + WAM 系统。",
+      "workIds": [
+        "go3-nano-preview"
+      ],
+      "sources": [
+        {
+          "label": "AGIBOT 官方介绍",
+          "url": "https://www.agibot.com/article/231/detail/133.html"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "manifold-r2si",
+      "name": "Manifold AI · WorldScape-R²SI",
+      "summary": "研究递归机器人自我改进，将 Agent、Skills、Memory 与 WorldScape policy 连接。",
+      "workIds": [
+        "worldscape-r2si"
+      ],
+      "sources": [
+        {
+          "label": "R2SI 官方仓库",
+          "url": "https://github.com/manifoldai-research/R2SI"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "einsia-embodiedevo",
+      "name": "Einsia.AI · EmbodiedEvo",
+      "summary": "研究 Coding Agent 如何通过持久化 workspace、物理反馈、代码和 lessons 持续演化。",
+      "workIds": [
+        "embodiedevo"
+      ],
+      "sources": [
+        {
+          "label": "EmbodiedEvo 官方仓库",
+          "url": "https://github.com/Einsia/EmbodiedEvo"
+        }
+      ],
+      "checkedAt": "2026-11-15"
     }
   ]
 }
