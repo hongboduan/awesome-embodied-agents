@@ -53,7 +53,8 @@
         "go3-nano-preview",
         "worldscape-r2si",
         "embodiedevo",
-        "pear"
+        "pear",
+        "2611.16487"
       ],
       "backgroundIds": [
         "2608.29896"
@@ -73,7 +74,8 @@
         "2610.04929",
         "2610.10787",
         "2610.12710",
-        "2610.13862"
+        "2610.13862",
+        "2611.16487"
       ],
       "backgroundIds": [
         "2411.17735",
@@ -218,6 +220,13 @@
       "name": "PEAR",
       "summary": "Post-training Engine for Agentic Robotics：用仿真 Robot-Use RL 训练推理模型直接输出末端位姿，提供面向具身 Agent 的后训练基础设施。",
       "url": "https://mit-han-lab.github.io/pear-blog/"
+    },
+    {
+      "id": "resource-hemer",
+      "kind": "platform",
+      "name": "HeMeR",
+      "summary": "异构记忆协调与 KV 复用框架，跟踪 declarative、procedural、working memory 的结构化 chunks，并只重算受影响缓存。",
+      "url": "https://arxiv.org/abs/2611.16487"
     }
   ],
   "relations": [
@@ -1024,6 +1033,42 @@
         }
       ],
       "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "hemer-evaluated-memory",
+      "source": "2611.16487",
+      "target": "resource-robodojo",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：记忆缓存效率与机器人榜单",
+      "explanation": "HeMeR 的评测重点是 ALFWorld、Habitat 和真实机器人中的记忆更新、任务成功率与推理延迟，并非 RoboDojo 排名；地图将其放在记忆与推理效率路线，而不与 RoboDojo 分数直接比较。",
+      "sources": [
+        {
+          "label": "HeMeR · 论文",
+          "url": "https://arxiv.org/abs/2611.16487"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "compare-hemer-remm",
+      "source": "2611.16487",
+      "target": "2610.12710",
+      "type": "comparison",
+      "editorial": true,
+      "label": "编辑对照：缓存协调还是状态修订",
+      "explanation": "HeMeR 解决记忆内容变化后的 KV 状态复用与推理效率；REMM 解决物理依赖失效后的任务状态撤回与恢复。前者偏 serving/inference，后者偏 embodied execution/recovery。",
+      "sources": [
+        {
+          "label": "HeMeR · 论文",
+          "url": "https://arxiv.org/abs/2611.16487"
+        },
+        {
+          "label": "REMM · 论文",
+          "url": "https://arxiv.org/abs/2610.12710"
+        }
+      ],
+      "checkedAt": "2026-11-15"
     }
   ],
   "teams": [
@@ -1296,6 +1341,21 @@
         {
           "label": "PEAR 论文",
           "url": "https://mit-han-lab.github.io/pear-blog/paper.pdf"
+        }
+      ],
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "id": "skku-hemer",
+      "name": "成均馆大学 · HeMeR",
+      "summary": "HeMeR 研究线关注异构具身记忆的结构化表示、KV cache reconciliation 和长时程推理效率。",
+      "workIds": [
+        "2611.16487"
+      ],
+      "sources": [
+        {
+          "label": "HeMeR · arXiv",
+          "url": "https://arxiv.org/abs/2611.16487"
         }
       ],
       "checkedAt": "2026-11-15"
