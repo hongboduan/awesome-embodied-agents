@@ -50,7 +50,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2611.16487",
       "project": null,
-      "code": null
+      "code": null,
+      "conference": "https://neurips.cc/virtual/2026/loc/sydney/poster/148497"
     },
     "evidence": [
       {
@@ -62,6 +63,11 @@
         "claim": "真实机器人与跨基准结果",
         "label": "论文 PDF",
         "source": "https://arxiv.org/pdf/2611.16487"
+      },
+      {
+        "claim": "NeurIPS 2026 Oral poster",
+        "label": "NeurIPS 2026 官方 poster",
+        "source": "https://neurips.cc/virtual/2026/loc/sydney/poster/148497"
       }
     ],
     "review": "source-checked",
@@ -75,7 +81,10 @@
       "KV reuse",
       "memory reconciliation",
       "inference efficiency",
-      "NeurIPS 2026"
-    ]
+      "NeurIPS 2026",
+      "NeurIPS 2026 Oral"
+    ],
+    "venue": "NeurIPS 2026",
+    "acceptance": "Oral"
   }
 ]
