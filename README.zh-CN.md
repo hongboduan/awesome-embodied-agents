@@ -10,15 +10,15 @@
 
 <!-- ATLAS:START -->
 
-**精选 62 条 · 论文 52 篇 · 项目 9 个 · 观点 1 篇**
+**精选 63 条 · 论文 53 篇 · 项目 9 个 · 观点 1 篇**
 
-来源核对 61 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 443 篇
+来源核对 62 条 · 全文核读 1 篇 · AI 草稿 0 篇 · 自动候选 442 篇
 
 ## 目录
 
 - [近期论文](#recent-papers)
   - [推理与规划 · 6](#recent-planning)
-  - [记忆与知识 · 3](#recent-memory)
+  - [记忆与知识 · 4](#recent-memory)
   - [技能与代码 · 5](#recent-code)
   - [VLA / WAM · 1](#recent-policies)
   - [自我改进 · 1](#recent-learning)
@@ -71,6 +71,11 @@
 <a id="recent-memory"></a>
 
 ### 记忆与知识
+
+- **[HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse](https://arxiv.org/abs/2611.16487)**<br>
+  2026-11-12 · 记忆与知识 · 基准与评测<br>
+  HeMeR 将声明式记忆、程序记忆和工作记忆组织成结构化 memory chunks，并在记忆上下文变化时只重算受影响的 KV 状态，复用未变化内容的 KV cache。它把具身 Agent 的记忆更新问题转化为推理服务与缓存一致性问题。<br>
+  [![arXiv: 2611.16487](https://img.shields.io/badge/arXiv-2611.16487-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.16487) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2611.16487)
 
 - **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)**<br>
   2026-10-08 · 记忆与知识 · 推理与规划 · 监控与恢复 · VLA / WAM<br>

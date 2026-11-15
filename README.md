@@ -10,15 +10,15 @@ A curated reading list on **foundation-model-driven embodied agents**: reasoning
 
 <!-- ATLAS:START -->
 
-**62 curated entries · 52 papers · 9 projects · 1 perspective**
+**63 curated entries · 53 papers · 9 projects · 1 perspective**
 
-61 source-checked · 1 full-review · 0 AI drafts · 443 discovery candidates
+62 source-checked · 1 full-review · 0 AI drafts · 442 discovery candidates
 
 ## Contents
 
 - [Recent papers](#recent-papers)
   - [Reasoning & Planning · 6](#recent-planning)
-  - [Memory & Knowledge · 3](#recent-memory)
+  - [Memory & Knowledge · 4](#recent-memory)
   - [Skills & Code · 5](#recent-code)
   - [VLA & World Models · 1](#recent-policies)
   - [Self-improvement · 1](#recent-learning)
@@ -71,6 +71,11 @@ Each paper appears once under its primary topic; secondary topics remain visible
 <a id="recent-memory"></a>
 
 ### Memory & Knowledge
+
+- **[HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse](https://arxiv.org/abs/2611.16487)**<br>
+  2026-11-12 · Memory & Knowledge · Benchmarks & Evaluation<br>
+  HeMeR reconciles structured heterogeneous memory with reusable KV states, recomputing only cache ranges affected by memory updates.<br>
+  [![arXiv: 2611.16487](https://img.shields.io/badge/arXiv-2611.16487-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.16487) [![中文阅读与横竖屏卡片](https://img.shields.io/badge/Reading%20card-0F766E?style=flat-square)](https://hongboduan.github.io/awesome-embodied-agents/#paper=2611.16487)
 
 - **[REMM: Revisable Embodied Memory for Manipulation](https://arxiv.org/abs/2610.12710v1)**<br>
   2026-10-08 · Memory & Knowledge · Reasoning & Planning · Monitoring & Recovery · VLA & World Models<br>

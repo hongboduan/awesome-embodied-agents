@@ -162,59 +162,6 @@
     "discoveredAt": "2026-11-13"
   },
   {
-    "id": "2611.16487",
-    "arxivId": "2611.16487",
-    "version": 1,
-    "title": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
-    "shortTitle": "HeMeR",
-    "date": "2026-11-12",
-    "year": 2026,
-    "authors": "Saehun Chun and Wonje Choi and Jinwoo Jang and Taeyoon Kwack and Honguk Woo",
-    "categories": [
-      "memory"
-    ],
-    "tasks": [
-      "general"
-    ],
-    "environment": [],
-    "summaryZh": "自动发现候选；中文解读待审核。",
-    "abstractEn": "Embodied agents make decisions by combining information from heterogeneous memory modules, including declarative memory for explicit knowledge, procedural memory for learned routines, and working memory for current observations. During interaction, the memory contents required for decision making change with the agent's state, goal, and task progress, while many contents remain shared across consecutive decisions. However, existing memory modules are typically accessed through separate interfaces, so each updated memory context is often processed as a new input to the foundation model. This prevents selective key-value (KV) cache reuse for unchanged memory contents and forces full KV cache recomputation even when much of the memory context remains valid. We introduce HeMeR, an inference framework that performs KV reconciliation between dynamically updated memory contexts and reusable KV states. HeMeR tracks declarative, procedural, and working memory contents across action decisions, preserves KV states for unchanged contents, and reconciles only the KV states affected by memory-content updates. This enables efficient and stable inference as memory contents evolve during interaction. We evaluate HeMeR on ALFWorld, Habitat, and real-world robotic deployments requiring coordinated use of heterogeneous memory contents. In the real-world setting, HeMeR achieves 83.20% task success and reduces per-step inference time from 2.94 to 1.87 seconds compared with MemRL, while preserving compatible KV states as task progress updates the memory context.",
-    "problem": "未核实",
-    "method": "未核实",
-    "findings": [],
-    "limitations": [],
-    "role": {
-      "model": "未核实",
-      "output": "未核实",
-      "memory": "未核实",
-      "recovery": "未核实",
-      "adaptation": "未核实"
-    },
-    "links": {
-      "paper": "https://arxiv.org/abs/2611.16487v1",
-      "project": null,
-      "code": null
-    },
-    "evidence": [
-      {
-        "claim": "基础元数据与英文摘要由 arXiv API 获取，尚未进行中文精读。",
-        "source": "https://arxiv.org/abs/2611.16487v1",
-        "label": "arXiv 元数据"
-      }
-    ],
-    "review": "candidate",
-    "codeStatus": "unknown",
-    "lastChecked": "2026-11-15",
-    "tags": [
-      "自动候选",
-      "标签待审核"
-    ],
-    "curated": false,
-    "deepRead": false,
-    "sourceUpdatedAt": "2026-11-12T08:58:20Z",
-    "discoveredAt": "2026-11-13"
-  },
-  {
     "id": "2611.16116",
     "arxivId": "2611.16116",
     "version": 1,
