@@ -1,5 +1,52 @@
 [
   {
+    "id": "version-2610.39180-v2",
+    "paperId": "2610.39180",
+    "type": "version",
+    "date": "2026-11-16T06:43:44Z",
+    "title": "EmbodiExp: Compositional Experience Transfer for Embodied Agents",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.39180v2"
+  },
+  {
+    "id": "discovered-2611.18176",
+    "paperId": "2611.18176",
+    "type": "discovered",
+    "date": "2026-11-16T06:43:44Z",
+    "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.18176v1"
+  },
+  {
+    "id": "discovered-2611.18359",
+    "paperId": "2611.18359",
+    "type": "discovered",
+    "date": "2026-11-16T06:43:44Z",
+    "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.18359v1"
+  },
+  {
+    "id": "discovered-2611.18484",
+    "paperId": "2611.18484",
+    "type": "discovered",
+    "date": "2026-11-16T06:43:44Z",
+    "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.18484v1"
+  },
+  {
+    "id": "discovered-2611.18562",
+    "paperId": "2611.18562",
+    "type": "discovered",
+    "date": "2026-11-16T06:43:44Z",
+    "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.18562v1"
+  },
+  {
     "id": "version-2610.07594-v3",
     "paperId": "2610.07594",
     "type": "version",

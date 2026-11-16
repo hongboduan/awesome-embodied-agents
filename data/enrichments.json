@@ -13974,27 +13974,27 @@
   },
   "2610.39180": {
     "arxivId": "2610.39180",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.39180",
-      "sourceUrl": "https://arxiv.org/pdf/2610.39180v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.39180v2",
+      "version": 2,
       "pageCount": 28,
       "textPages": 28,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.39180-v1.text.json",
-      "extractedAt": "2026-10-30T05:57:54Z"
+      "textPath": ".cache/papers/2610.39180-v2.text.json",
+      "extractedAt": "2026-11-16T06:44:27Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: Overview of EmbodiExp. The experience construction stage constructs a bank for outcome-grounded subgoal experience from both successful and failed trajectories, while the experience-guided execution stage retrieves and composes relevant experience to inform execution.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.39180-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.39180v1",
+      "path": "assets/papers/2610.39180-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39180v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 814,
       "height": 310,
       "crop": [
@@ -14007,7 +14007,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -17044,6 +17044,162 @@
         66.0,
         485.23,
         164.46
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.18176": {
+    "arxivId": "2611.18176",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.18176",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18176v1",
+      "version": 1,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.18176-v1.text.json",
+      "extractedAt": "2026-11-16T06:44:18Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: ESI architecture and round-level updates. The agent combines a fixed LLM with decision guidance 𝑃𝑟, a shared skill catalog 𝑆𝑟, and a VLA policy 𝜃𝑟. Interaction across tasks produces records for three update paths: reviewing difficulties to refine guidance, consolidating recurring custom operations into reusable skills, and constructing policy supervision from locally effective execution. Prompt and skill review uses the interaction records, while VLA training uses the retained effective actions. Training windows preserve continuity across teacher–student handoffs and retain useful behavior from unsuccessful episodes. Updated components form the next-round agent.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.18176-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18176v1",
+      "page": 6,
+      "version": 1,
+      "width": 966,
+      "height": 635,
+      "crop": [
+        63.8,
+        38.68,
+        546.02,
+        355.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.18359": {
+    "arxivId": "2611.18359",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.18359",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18359v1",
+      "version": 1,
+      "pageCount": 84,
+      "textPages": 84,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.18359-v1.text.json",
+      "extractedAt": "2026-11-16T06:44:22Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3 | A reference framework for agentic robotics. An Embodied S2 consists of a foundation model and an embodied harness, whose five core parts manage context, tools, planning, memory, and verification. S2 runs on demand or in response to events, whereas S1 and S0 execute at their own rates. A real-time event monitor outside the three systems watches the user, the robot body, and the physical world at a high rate. It interrupts S2 when an event may change the task and, under predefined safety rules, triggers an immediate reaction in S0 without waiting for S2. S2 may call S0 directly through the tool interface; S0 keeps its own real-time loop.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.18359-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18359v1",
+      "page": 7,
+      "version": 1,
+      "width": 949,
+      "height": 874,
+      "crop": [
+        60.59,
+        150.46,
+        534.62,
+        586.63
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.18484": {
+    "arxivId": "2611.18484",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.18484",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18484v1",
+      "version": 1,
+      "pageCount": 34,
+      "textPages": 34,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.18484-v1.text.json",
+      "extractedAt": "2026-11-16T06:44:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 PRISMA-ScR-aligned flow diagram showing database identification, deduplication, screening, consensus resolution, and allocation of included records into core and background evidence streams. Abbreviation: PRISMA- ScR, Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.18484-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18484v1",
+      "page": 6,
+      "version": 1,
+      "width": 620,
+      "height": 768,
+      "crop": [
+        151.45,
+        105.89,
+        460.55,
+        489.14
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.18562": {
+    "arxivId": "2611.18562",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.18562",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18562v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.18562-v1.text.json",
+      "extractedAt": "2026-11-16T06:44:30Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of robot-use reinforcement learning (RURL). Like a computer-use agent, the robot-use agent (RUA) observes the",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.18562-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18562v1",
+      "page": 1,
+      "version": 1,
+      "width": 982,
+      "height": 584,
+      "crop": [
+        53.38,
+        192.47,
+        543.54,
+        483.65
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
