@@ -1,12 +1,13 @@
 {
-  "mode": "active",
+  "mode": "error",
   "scheduleEnabled": true,
   "lastSuccess": "2026-11-16T06:43:44Z",
-  "lastAttempt": "2026-11-16T06:43:44Z",
-  "message": "最近发现 4 篇候选，记录 1 次版本变化。",
+  "lastAttempt": "2026-11-17T08:02:39Z",
+  "message": "本次抓取失败，保留已有论文数据；等待下次重试。",
   "fetched": 511,
   "discoverySince": "2026-09-01",
   "discoveryQuery": "(cat:cs.RO OR cat:cs.AI OR cat:cs.CV) AND (all:\"embodied agent\" OR all:\"robot agent\" OR all:\"robotic agent\" OR all:\"agentic robot\" OR all:\"robot planning\" OR all:\"robot reasoning\" OR all:\"code as policies\" OR all:\"embodied memory\" OR all:\"robot self-improvement\" OR (all:\"robot\" AND (all:\"GPT-6\" OR all:\"Astra\" OR all:\"in-context learning\" OR all:\"tool use\")))",
   "newCandidates": 4,
-  "versionChanges": 1
+  "versionChanges": 1,
+  "error": "TimeoutError: The read operation timed out"
 }
