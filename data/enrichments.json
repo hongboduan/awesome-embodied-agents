@@ -2926,27 +2926,27 @@
   },
   "2609.20388": {
     "arxivId": "2609.20388",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.20388",
-      "sourceUrl": "https://arxiv.org/pdf/2609.20388v2",
-      "version": 2,
-      "pageCount": 8,
-      "textPages": 8,
+      "sourceUrl": "https://arxiv.org/pdf/2609.20388v3",
+      "version": 3,
+      "pageCount": 9,
+      "textPages": 9,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.20388-v2.text.json",
-      "extractedAt": "2026-10-13T06:52:35Z"
+      "textPath": ".cache/papers/2609.20388-v3.text.json",
+      "extractedAt": "2026-11-18T07:40:24Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1. Navi-Agent overview. The proposed agent builds a coordinate-free Visual Anchor Graph to maintain visual spatial memory for long-horizon navigation.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.20388-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.20388v2",
+      "path": "assets/papers/2609.20388-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.20388v3",
       "page": 1,
-      "version": 2,
+      "version": 3,
       "width": 515,
       "height": 667,
       "crop": [
@@ -2959,7 +2959,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -4653,40 +4653,40 @@
   },
   "2610.20474": {
     "arxivId": "2610.20474",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.20474",
-      "sourceUrl": "https://arxiv.org/pdf/2610.20474v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.20474v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.20474-v1.text.json",
-      "extractedAt": "2026-10-15T04:50:10Z"
+      "textPath": ".cache/papers/2610.20474-v2.text.json",
+      "extractedAt": "2026-11-18T07:40:21Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1. Overview of AdaRSI. The agent improves its harness first and fine-tunes only the sub-steps that the harness cannot fix, raising success on every suite of RoboCasa365. In WaffleReheat (bottom), only the door opening is trained.",
+      "caption": "Figure 1. Overview of AdaRSI. The agent refines its harness, validates self-collected demonstrations with temporary probes, and pools accepted data to train a specialist VLA for persistent execution bottlenecks. Bottom: simulated and real-world task examples.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.20474-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.20474v1",
+      "path": "assets/papers/2610.20474-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20474v2",
       "page": 1,
-      "version": 1,
-      "width": 916,
-      "height": 685,
+      "version": 2,
+      "width": 940,
+      "height": 669,
       "crop": [
-        77.0,
-        170.1,
-        534.75,
-        512.16
+        71.06,
+        222.81,
+        540.79,
+        556.59
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -17055,27 +17055,27 @@
   },
   "2611.18176": {
     "arxivId": "2611.18176",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.18176",
-      "sourceUrl": "https://arxiv.org/pdf/2611.18176v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.18176v2",
+      "version": 2,
       "pageCount": 25,
       "textPages": 25,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.18176-v1.text.json",
-      "extractedAt": "2026-11-16T06:44:18Z"
+      "textPath": ".cache/papers/2611.18176-v2.text.json",
+      "extractedAt": "2026-11-18T07:40:18Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: ESI architecture and round-level updates. The agent combines a fixed LLM with decision guidance 𝑃𝑟, a shared skill catalog 𝑆𝑟, and a VLA policy 𝜃𝑟. Interaction across tasks produces records for three update paths: reviewing difficulties to refine guidance, consolidating recurring custom operations into reusable skills, and constructing policy supervision from locally effective execution. Prompt and skill review uses the interaction records, while VLA training uses the retained effective actions. Training windows preserve continuity across teacher–student handoffs and retain useful behavior from unsuccessful episodes. Updated components form the next-round agent.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2611.18176-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.18176v1",
+      "path": "assets/papers/2611.18176-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18176v2",
       "page": 6,
-      "version": 1,
+      "version": 2,
       "width": 966,
       "height": 635,
       "crop": [
@@ -17088,7 +17088,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -17200,6 +17200,357 @@
         192.47,
         543.54,
         483.65
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.22584": {
+    "arxivId": "2611.22584",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.22584",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22584v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.22584-v1.text.json",
+      "extractedAt": "2026-11-18T07:39:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Geometric guidance enables task-target generaliza- tion. Changing the language instruction to specify a new target sharply reduces VLA success. Incorporating the target pose into action generation enables task transfer while maintaining high suc- cess rates.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.22584-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22584v1",
+      "page": 1,
+      "version": 1,
+      "width": 555,
+      "height": 394,
+      "crop": [
+        293.76,
+        247.3,
+        570.74,
+        443.64
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.20771": {
+    "arxivId": "2611.20771",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.20771",
+      "sourceUrl": "https://arxiv.org/pdf/2611.20771v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.20771-v1.text.json",
+      "extractedAt": "2026-11-18T07:39:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 | Average benchmark score versus time to first token (TTFT). Scores are averaged across MultiChal- lenge, RoleMRC, BFCL-v3, IHEval, SysBench, and RelyToolBench. Local models use Q4_K_M quantization and are measured on RTX 5090 with input/output sequence lengths of approximately 3,000/50 tokens. Cloud reference results (score; TTFT): Gemini 3.8 Flash (77.1; 2,449.5ms) and Claude Sonnet 5.5 (76.2; 3,002.2ms).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.20771-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.20771v1",
+      "page": 1,
+      "version": 1,
+      "width": 919,
+      "height": 479,
+      "crop": [
+        68.13,
+        431.74,
+        527.14,
+        670.72
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.21789": {
+    "arxivId": "2611.21789",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.21789",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21789v1",
+      "version": 1,
+      "pageCount": 7,
+      "textPages": 7,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.21789-v1.text.json",
+      "extractedAt": "2026-11-18T07:40:02Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Demonstration of the Isaac Sim simulation environment and the main features supporting sim-to-real transfer research.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.21789-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21789v1",
+      "page": 1,
+      "version": 1,
+      "width": 528,
+      "height": 335,
+      "crop": [
+        305.98,
+        188.01,
+        569.01,
+        355.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.19952": {
+    "arxivId": "2611.19952",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.19952",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19952v1",
+      "version": 1,
+      "pageCount": 37,
+      "textPages": 37,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.19952-v1.text.json",
+      "extractedAt": "2026-11-18T07:40:06Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The reach of a correction: an illustrative household scenario. (a) A drink is placed beside a laptop, near the table’s edge, and the person objects. (b) The two panels show the same arrangement after the laptop moves to the centre. The original spot satisfies one possible rule but violates the other. One correction does not distinguish the rules.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.19952-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19952v1",
+      "page": 2,
+      "version": 1,
+      "width": 961,
+      "height": 285,
+      "crop": [
+        66.0,
+        66.0,
+        546.03,
+        208.01
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.20230": {
+    "arxivId": "2611.20230",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.20230",
+      "sourceUrl": "https://arxiv.org/pdf/2611.20230v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.20230-v1.text.json",
+      "extractedAt": "2026-11-18T07:40:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The two parts of one memory. The matrix is the finder: a goal finds the procedure, and a bound step finds the next step. The records hold order, outcome counts and deletion, and the matrix is rebuilt from them.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.20230-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.20230v1",
+      "page": 4,
+      "version": 1,
+      "width": 812,
+      "height": 247,
+      "crop": [
+        93.13,
+        65.07,
+        498.68,
+        188.02
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.19081": {
+    "arxivId": "2611.19081",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.19081",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19081v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.19081-v1.text.json",
+      "extractedAt": "2026-11-18T07:40:12Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of RoboCoEvo. The co-evolution framework of agent and policy improving each other over successive rounds. (a) Policy-Guided Agent Evolution: the agent locates failures in the policy’s failed rollouts and groups recurring failures into failure modes (FMs), shown at the top for each round. For each FM, it writes a detector that identifies the failure state in a rollout (red) and a recovery program that completes the failed subtask from this state in simulation (green). As the policy improves, its rollouts expose FMs that did not occur in earlier rounds. In each subsequent round, the agent writes detectors and recovery programs for the newly identified FMs and refines those of persisting FMs to improve detection accuracy and recovery success. (b) Agent-Guided Policy Capability Expansion: the policy is fine-tuned on the corrective experience together with the original demonstrations, which enables the policy itself to avoid or recover from the targeted failures. The rollouts of the updated policy initiate the next round, and its task success increases over successive rounds. The scores compare the base policy with the policy after RoboCoEvo.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.19081-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19081v1",
+      "page": 2,
+      "version": 1,
+      "width": 942,
+      "height": 575,
+      "crop": [
+        69.02,
+        66.0,
+        539.67,
+        353.19
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.19274": {
+    "arxivId": "2611.19274",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.19274",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19274v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.19274-v1.text.json",
+      "extractedAt": "2026-11-18T07:40:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. One chain of chore T1 (instrument count before closure): five sub-tasks in one simulation with no reset, after two unscored warm-ups. Top: a scripted robot passes all five (frames from an earlier scene version, before the KEEP card). Arrows: what the next sub-task takes from the scene or the picture: V a trolley pose, C a choice the robot made, P what the last step placed. The first link is also F, a fact shown once (a KEEP card in the first picture of T1.01 names the forceps to leave). Bottom: first results, 15 of 60 planned runs. Each row is a chore and start state, each group of chips a model at high effort, each chip a sub-task T#.01 to T#.05. Chores T1 and T10 ran from both start states and T3 from start 0, one run per cell.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.19274-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19274v1",
+      "page": 1,
+      "version": 1,
+      "width": 892,
+      "height": 201,
+      "crop": [
+        111.47,
+        445.86,
+        556.87,
+        545.92
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.02653": {
+    "arxivId": "2609.02653",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.02653",
+      "sourceUrl": "https://arxiv.org/pdf/2609.02653v3",
+      "version": 3,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.02653-v3.text.json",
+      "extractedAt": "2026-11-18T07:40:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Motivation and overview of HINT (Human-INTent INcepTion). (a) Human manipulation strategies that inspire HINT: humans identify the intended target before acting, track it throughout motion, and maintain target-focused attention during interaction. (b) HINT translates these strategies into semantic reasoning at manipulation-pattern transitions, continuous target tracking between transitions, and spatial-intent injection into the action policy via visual highlighting and an attention prior. (c) HINT is evaluated under unseen semantic-compositional variations in objects, layouts, colors, and instructions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.02653-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.02653v3",
+      "page": 1,
+      "version": 3,
+      "width": 1012,
+      "height": 593,
+      "crop": [
+        53.04,
+        193.52,
+        558.95,
+        489.84
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.22483": {
+    "arxivId": "2611.22483",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.22483",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22483v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.22483-v1.text.json",
+      "extractedAt": "2026-11-18T07:40:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Planner and accelerator design for efficient planning. (a) A sampling-based planning event: ①Planner samples P action",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.22483-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22483v1",
+      "page": 2,
+      "version": 1,
+      "width": 997,
+      "height": 443,
+      "crop": [
+        49.44,
+        60.97,
+        547.39,
+        281.86
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

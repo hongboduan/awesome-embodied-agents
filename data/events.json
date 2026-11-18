@@ -1,5 +1,197 @@
 [
   {
+    "id": "discovered-2611.19081",
+    "paperId": "2611.19081",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "RoboCoEvo: Expanding Robot Capabilities through Agent-Policy Co-Evolution",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.19081v1"
+  },
+  {
+    "id": "discovered-2611.19274",
+    "paperId": "2611.19274",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "HospitalBench: Diagnosing Where and Why Embodied Agents Fail on Long Hospital Task Chains",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.19274v1"
+  },
+  {
+    "id": "version-2610.23203-v2",
+    "paperId": "2610.23203",
+    "type": "version",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.23203v2"
+  },
+  {
+    "id": "discovered-2611.19332",
+    "paperId": "2611.19332",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "NI-ACT: A Neural Intent Interface for Brain-Embodied Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.19332v1"
+  },
+  {
+    "id": "version-2609.20388-v3",
+    "paperId": "2609.20388",
+    "type": "version",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "Navi-Agent: Unlocalized Monocular Navigation Agent",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2609.20388v3"
+  },
+  {
+    "id": "discovered-2611.19952",
+    "paperId": "2611.19952",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "CRAFT: A Robot-Agent Harness with Scope-Aware Adaptation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.19952v1"
+  },
+  {
+    "id": "version-2611.17160-v2",
+    "paperId": "2611.17160",
+    "type": "version",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.17160v2"
+  },
+  {
+    "id": "discovered-2611.20230",
+    "paperId": "2611.20230",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "A Matrix with Steps: An Episodic and Procedural Memory Method for Tool-Using Agents and Robots",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.20230v1"
+  },
+  {
+    "id": "discovered-2609.02653",
+    "paperId": "2609.02653",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "HINT: Human-Intent Inception for Agentic Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.02653v3"
+  },
+  {
+    "id": "version-2611.18176-v2",
+    "paperId": "2611.18176",
+    "type": "version",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.18176v2"
+  },
+  {
+    "id": "discovered-2611.20771",
+    "paperId": "2611.20771",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "Nemotron 3.5 Bolt E4B 4GB: An Open and Efficient Small Language Model for Fast Conversational Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.20771v1"
+  },
+  {
+    "id": "discovered-2611.21485",
+    "paperId": "2611.21485",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.21485v1"
+  },
+  {
+    "id": "discovered-2611.21607",
+    "paperId": "2611.21607",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.21607v1"
+  },
+  {
+    "id": "discovered-2611.21782",
+    "paperId": "2611.21782",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.21782v1"
+  },
+  {
+    "id": "discovered-2611.21789",
+    "paperId": "2611.21789",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "ASTRA: ASV Simulator for Transferable Realistic Autonomy",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.21789v1"
+  },
+  {
+    "id": "discovered-2611.22483",
+    "paperId": "2611.22483",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.22483v1"
+  },
+  {
+    "id": "discovered-2611.22543",
+    "paperId": "2611.22543",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.22543v1"
+  },
+  {
+    "id": "discovered-2611.22584",
+    "paperId": "2611.22584",
+    "type": "discovered",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.22584v1"
+  },
+  {
+    "id": "version-2610.20474-v2",
+    "paperId": "2610.20474",
+    "type": "version",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.20474v2"
+  },
+  {
+    "id": "version-2610.41548-v2",
+    "paperId": "2610.41548",
+    "type": "version",
+    "date": "2026-11-18T07:39:21Z",
+    "title": "Contact-based optimization for collision-free motion planning for a million robots",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.41548v2"
+  },
+  {
     "id": "version-2610.39180-v2",
     "paperId": "2610.39180",
     "type": "version",
