@@ -1,5 +1,54 @@
 [
   {
+    "id": "discovered-2611.23855",
+    "paperId": "2611.23855",
+    "type": "discovered",
+    "date": "2026-11-19T07:34:44Z",
+    "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.23855v1"
+  },
+  {
+    "id": "discovered-2611.23917",
+    "paperId": "2611.23917",
+    "type": "discovered",
+    "date": "2026-11-19T07:34:44Z",
+    "title": "Vanguard: Knowing When to Trust the Draft in Speculative Vision-Language Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.23917v1"
+  },
+  {
+    "id": "version-2610.20823-v2",
+    "paperId": "2610.20823",
+    "type": "version",
+    "date": "2026-11-19T07:34:44Z",
+    "title": "Feasibility Ceilings Before Learning: Sizing and Timing Bounds for Drone-Mesh Interception",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.20823v2"
+  },
+  {
+    "id": "version-2610.35385-v2",
+    "paperId": "2610.35385",
+    "type": "version",
+    "date": "2026-11-19T07:34:44Z",
+    "title": "EmbodiedLab: Beyond Manipulation, Benchmarking Embodied Agents That Act to Know",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.35385v2"
+  },
+  {
+    "id": "discovered-2611.24494",
+    "paperId": "2611.24494",
+    "type": "discovered",
+    "date": "2026-11-19T07:34:44Z",
+    "title": "RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.24494v1"
+  },
+  {
     "id": "discovered-2611.19081",
     "paperId": "2611.19081",
     "type": "discovered",

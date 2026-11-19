@@ -7890,27 +7890,27 @@
   },
   "2610.23203": {
     "arxivId": "2610.23203",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.23203",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23203v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.23203v2",
+      "version": 2,
       "pageCount": 11,
       "textPages": 11,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.23203-v1.text.json",
-      "extractedAt": "2026-10-19T04:51:09Z"
+      "textPath": ".cache/papers/2610.23203-v2.text.json",
+      "extractedAt": "2026-11-19T07:36:08Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2: Overview of SimpleVLN. At each decision, sampled history frames, current observation, and the instruction are fed to an MLLM, which directly predicts an action chunk for navigation.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.23203-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.23203v1",
+      "path": "assets/papers/2610.23203-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.23203v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 800,
       "height": 461,
       "crop": [
@@ -7923,7 +7923,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -12921,40 +12921,40 @@
   },
   "2610.35385": {
     "arxivId": "2610.35385",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.35385",
-      "sourceUrl": "https://arxiv.org/pdf/2610.35385v1",
-      "version": 1,
-      "pageCount": 19,
-      "textPages": 19,
+      "sourceUrl": "https://arxiv.org/pdf/2610.35385v2",
+      "version": 2,
+      "pageCount": 23,
+      "textPages": 23,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.35385-v1.text.json",
-      "extractedAt": "2026-10-27T05:14:26Z"
+      "textPath": ".cache/papers/2610.35385-v2.text.json",
+      "extractedAt": "2026-11-19T07:35:41Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1. Overview of EmbodiedLab. Thirty quantitative experiments in five disciplines ask the agent to measure, predict or configure a system drawn anew per instance, by changing its state and reading the feedback on the instruments. Agents are ranked by their success rate at the lowest interface level, T0, and also evaluated at T1; the diagnostic level T2 and four capability dimensions serve the analysis.",
+      "caption": "Figure 1. Overview of EmbodiedLab. 35 quantitative experiments in five disciplines: 30 determination tasks ask for what the goal names, and 5 optimization tasks for the best result the apparatus allows. Agents are ranked by success rate with native control (T0).",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.35385-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.35385v1",
+      "path": "assets/papers/2610.35385-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.35385v2",
       "page": 1,
-      "version": 1,
-      "width": 981,
-      "height": 988,
+      "version": 2,
+      "width": 966,
+      "height": 1023,
       "crop": [
-        60.95,
-        185.07,
-        550.52,
-        678.96
+        64.79,
+        178.56,
+        547.22,
+        689.56
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -14559,40 +14559,40 @@
   },
   "2610.41548": {
     "arxivId": "2610.41548",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.41548",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41548v1",
-      "version": 1,
-      "pageCount": 6,
-      "textPages": 6,
+      "sourceUrl": "https://arxiv.org/pdf/2610.41548v2",
+      "version": 2,
+      "pageCount": 7,
+      "textPages": 7,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.41548-v1.text.json",
-      "extractedAt": "2026-11-02T06:20:40Z"
+      "textPath": ".cache/papers/2610.41548-v2.text.json",
+      "extractedAt": "2026-11-19T07:36:05Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1. Sequential contact insertion. (a) Initialization with unconstrained trajectories. (b) Algorithm loop: detect separation violations, insert a contact, and solve the algebraic system until collision-free. Colored tubes in (a,b) show planar robot trajectories in space-time, with time as the vertical axis; black dots mark contacts. (c) Full spatial trajectories for N = 1000 robots moving from a 40 × 25 grid to a double helix. Blue and rust identify the two target strands.",
+      "caption": "Fig. 1. Sequential contact insertion. (a) Initialization with unconstrained trajectories. (b) Algorithm loop: detect separation violations, insert a contact, and solve the algebraic system until collision-free. Colored tubes in (a,b) show planar robot trajectories in space-time, with time as the vertical axis; black dots mark contacts. (c) Grid-to-double-helix transition for N = 1000 robots on a 40 × 25 grid (Experiment 1): snapshots at t = 0, 50, 100 s; trails show the preceding 20 s. Blue and rust identify the two target strands.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.41548-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.41548v1",
+      "path": "assets/papers/2610.41548-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.41548v2",
       "page": 1,
-      "version": 1,
-      "width": 909,
+      "version": 2,
+      "width": 1065,
       "height": 370,
       "crop": [
-        63.55,
-        155.6,
-        517.55,
-        340.12
+        23.84,
+        155.58,
+        555.63,
+        340.26
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -16934,6 +16934,13 @@
       "status": "not-configured",
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    },
+    "lastPdfAttempt": {
+      "version": 2,
+      "at": "2026-11-19T07:36:01Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "http-404"
     }
   },
   "2611.15689": {
@@ -17551,6 +17558,318 @@
         60.97,
         547.39,
         281.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.23917": {
+    "arxivId": "2611.23917",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.23917",
+      "sourceUrl": "https://arxiv.org/pdf/2611.23917v1",
+      "version": 1,
+      "pageCount": 67,
+      "textPages": 67,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.23917-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:35Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Vanguard keeps a drafted step only when a decision model, looking at the screenshot, judges it right. The small draft proposes K = 4 candidate steps; a general decision model scores each action against the screenshot in one forward pass; the best is kept if it clears τ, otherwise the target writes the step.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.23917-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.23917v1",
+      "page": 2,
+      "version": 1,
+      "width": 964,
+      "height": 233,
+      "crop": [
+        65.21,
+        72.3,
+        546.8,
+        188.48
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.23855": {
+    "arxivId": "2611.23855",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.23855",
+      "sourceUrl": "https://arxiv.org/pdf/2611.23855v1",
+      "version": 1,
+      "pageCount": 44,
+      "textPages": 44,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.23855-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:38Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. AI agents design robots that pass in simulation, and we physically build and test them; videos of real failures drive a simulator update and a redesign. (1) Agents assemble standard parts, design a custom part that we 3D print, and write the program. (2) Agents iterate in simulation. (3) We build and test each passing design on the real course. (4) From videos of its real failures, the agent updates its simulator and redesigns. (5) We rebuild and retest. Bottom: the task, ten real obstacles at three difficulty levels each.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.23855-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.23855v1",
+      "page": 1,
+      "version": 1,
+      "width": 1015,
+      "height": 555,
+      "crop": [
+        52.5,
+        229.69,
+        559.51,
+        506.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.24494": {
+    "arxivId": "2611.24494",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.24494",
+      "sourceUrl": "https://arxiv.org/pdf/2611.24494v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.24494-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. RECLAIM framework. GAL combines persistent attention with projected robot occupancy to propose regions. ARP evaluates fresh edits and recalled pairs on the current image, requiring cross-family support and ranking eligible treatments by attention reduction and bounded entropy gain. Protected selection yields a local edit or PASS for action generation by the frozen VLA. MTR stores selected pairs, recalls them at full decisions, and checks geometry and action validity between decisions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.24494-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.24494v1",
+      "page": 4,
+      "version": 1,
+      "width": 1015,
+      "height": 574,
+      "crop": [
+        52.5,
+        65.99,
+        559.5,
+        352.02
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.22543": {
+    "arxivId": "2611.22543",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.22543",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22543v1",
+      "version": 1,
+      "pageCount": 21,
+      "textPages": 21,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.22543-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:46Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of JointGV. Given the current RGB observation and action, the original visual world model (yellow) predicts the uncorrected next visual state Zt+1 and its change ∆Zt. In parallel, JointGV (blue) uses Relation Transformer (RelTR) features to construct a task-conditioned scene graph and predicts the node-feature change ∆bNt. For the spatial-token case shown here, learned projections map the visual-token and graph-node changes into a shared space, where a change-alignment adapter produces the graph-motion context. The predicted node positions provide a complementary position context. A bounded, gated correction combines these contexts with the original visual prediction to produce bZt+1 = Zt+1 + Ct. Setting Ct = 0 recovers the original prediction. Decoded images are shown only for visualization; the global-state adapter is described in Sec. 3.4.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.22543-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22543v1",
+      "page": 4,
+      "version": 1,
+      "width": 817,
+      "height": 505,
+      "crop": [
+        102.0,
+        66.0,
+        509.96,
+        318.08
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.21485": {
+    "arxivId": "2611.21485",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.21485",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21485v1",
+      "version": 1,
+      "pageCount": 24,
+      "textPages": 24,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.21485-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:50Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3 Benchmark statistics and construction pipeline. (a) Question distribution across the 3 task families and 9 tasks. (b) The 3-stage construction pipeline for synthetic and real homes, with automated checks and human quality control. The camera path is illustrative.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.21485-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21485v1",
+      "page": 6,
+      "version": 1,
+      "width": 949,
+      "height": 523,
+      "crop": [
+        70.5,
+        75.59,
+        544.49,
+        336.9
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.21607": {
+    "arxivId": "2611.21607",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.21607",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21607v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.21607-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 ScaleVLA overview. Top left: backbone sizes. Top right: the VLM encodes images and the instruction, and the action DiT uses these features and robot state to generate an action chunk. Middle: task success by backbone size. Base is the best dense backbone at or below each size. Bottom: inference latency on RoboCasa, sample efficiency on LIBERO Goal, and success on LIBERO and LIBERO-PRO.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.21607-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21607v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 671,
+      "crop": [
+        64.87,
+        57.78,
+        547.14,
+        392.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.21782": {
+    "arxivId": "2611.21782",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.21782",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21782v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.21782-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Camera-height regression in interactive video world models. (a) From a start frame, a world model generates the views along a camera path, here a 180° turn in place and a walk. By frame 160, ground-truth rendering keeps a 2.2 m and a 0.15 m camera at their heights, whereas SANA-WM shows the castle hall from inferred heights of 1.59 m and 0.39 m. (b) Our new benchmark, EYEHEIGHT, starts cameras at six heights (0.15 m to 2.2 m) in seven rendered scenes and at four rig heights in calibrated photographs of five real scenes. (c) On rendered turn rollouts, all six models pull low and high starts toward default heights of 1.1 m to 1.5 m, near human eye level (medians over start spots). (d) Viewpoint drift alone biases embodied control: re-rendering the castle at the drifted height and pitch of the low SANA-WM clip shifts the path endpoint predicted by GNM [30] by 0.26 m, close to its 0.28 m median shift across turn clips.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.21782-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.21782v1",
+      "page": 1,
+      "version": 1,
+      "width": 1015,
+      "height": 241,
+      "crop": [
+        52.5,
+        226.53,
+        559.51,
+        346.7
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.19332": {
+    "arxivId": "2611.19332",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.19332",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19332v1",
+      "version": 1,
+      "pageCount": 20,
+      "textPages": 20,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.19332-v1.text.json",
+      "extractedAt": "2026-11-19T07:35:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The NI-ACT framework. (A) Control division. Conventional BCIs decode continuous velocity commands at every time step and keep the user inside the fast control loop. In NI-ACT, cortical activity supplies a task-level intent token once per task, sent at task start, and an embodied policy closes the fast perception–action loop with the robot and its environment. (B) Network architecture. A temporal convolutional network (TCN) maps binned PMd and M1 spikes to a 128-D population latent, a 2-D goal direction, and 7-class direction logits; an intent interface (Hard-7, Soft-2D, or Full-Latent) passes one of these to an action-chunking transformer (ACT) that also observes two cameras and the joint state, and the policy predicts 32 future joint targets. Fig. 3a gives how each interface enters the policy.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.19332-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.19332v1",
+      "page": 3,
+      "version": 1,
+      "width": 942,
+      "height": 342,
+      "crop": [
+        70.68,
+        65.99,
+        541.34,
+        236.44
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
