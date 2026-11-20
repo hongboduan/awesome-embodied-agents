@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-17T08:03:28Z",
+      "at": "2026-11-20T07:27:33Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -5082,27 +5082,27 @@
   },
   "2610.20823": {
     "arxivId": "2610.20823",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.20823",
-      "sourceUrl": "https://arxiv.org/pdf/2610.20823v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.20823v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.20823-v1.text.json",
-      "extractedAt": "2026-10-16T04:39:49Z"
+      "textPath": ".cache/papers/2610.20823-v2.text.json",
+      "extractedAt": "2026-11-20T07:27:30Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1. (a) Closed-form R against Monte Carlo RMS radial error across the grid of Table I; the dashed line is y = x. (b) Growth of the uncertainty with lead time tc; dotted curves are the hand-tuned heuristic, whose error grows with tc.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.20823-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.20823v1",
-      "page": 5,
-      "version": 1,
+      "path": "assets/papers/2610.20823-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.20823v2",
+      "page": 4,
+      "version": 2,
       "width": 970,
       "height": 414,
       "crop": [
@@ -5115,7 +5115,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -17876,6 +17876,396 @@
     "ai": {
       "status": "not-configured",
       "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26341": {
+    "arxivId": "2611.26341",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26341",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26341v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26341-v1.text.json",
+      "extractedAt": "2026-11-20T07:26:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 5. Qualitative comparison on RMBench without event- triggered agent intervention (top) and with the full RoC framework (bottom).",
+      "figureLabel": "Figure 5",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26341-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26341v1",
+      "page": 6,
+      "version": 1,
+      "width": 570,
+      "height": 231,
+      "crop": [
+        311.25,
+        455.42,
+        596.0,
+        570.0
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26613": {
+    "arxivId": "2611.26613",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26613",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26613v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26613-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of AgentRoboCritic. (a) Local intent makes action-level critique fine-grained and well-posed. (b) Capabilities of frontier agents on direct robot control. (c) Evaluation of action-level critics on the human-labeled benchmark.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26613-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26613v1",
+      "page": 2,
+      "version": 1,
+      "width": 1015,
+      "height": 285,
+      "crop": [
+        52.5,
+        66.0,
+        559.51,
+        207.5
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26519": {
+    "arxivId": "2611.26519",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26519",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26519v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26519-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:05Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 From egocentric video to annotation-derived questions, on one head-camera recording of a person putting oranges into a drawer (conventions as in Figure 1; each column is one window). (1) The recording is cut into windows of time-stamped frames. (2) A vision–language annotator writes a record per window, citing the frames that show every item. (3) Records are compared with the recording’s step timeline. (4) At a sampled moment t (shaded column), questions are derived from the timeline.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26519-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26519v1",
+      "page": 6,
+      "version": 1,
+      "width": 890,
+      "height": 512,
+      "crop": [
+        83.68,
+        71.95,
+        528.34,
+        327.07
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.25580": {
+    "arxivId": "2611.25580",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.25580",
+      "sourceUrl": "https://arxiv.org/pdf/2611.25580v1",
+      "version": 1,
+      "pageCount": 7,
+      "textPages": 7,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.25580-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Proposed experience retrieval-based WAM inference using VLM- based retrieval and warm-starting.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.25580-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.25580v1",
+      "page": 2,
+      "version": 1,
+      "width": 528,
+      "height": 175,
+      "crop": [
+        42.96,
+        44.54,
+        306.02,
+        131.74
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26196": {
+    "arxivId": "2611.26196",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26196",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26196v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26196-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: The EmbodyAgent full-pipeline post-training framework; the photographs are LIBERO Spatial frames. Left: the single output contract shared verbatim across all stages—at every turn the VLM emits a forced explanation et followed by an executable program ct over two raw runtime operations, shown for two turns of the episode below. Center: the three-stage pipeline. Stage 1 (black-box data synthesis) queries Astra Medium on training-split initial states without accessing teacher weights and filters successful think-then-code episodes into 1,475 targets; Stage 2 (multimodal SFT) distills these targets into an open-weight 9B VLM; Stage 3 (online RL) optimizes the student’s own rollouts via group-relative outcome credit. Bottom: a successful held-out episode from the post-trained 9B VLM (RL round 64), pairing each frame with its verbatim explanation and program through grasp, lift, lower, and place.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26196-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26196v1",
+      "page": 4,
+      "version": 1,
+      "width": 1006,
+      "height": 669,
+      "crop": [
+        54.97,
+        65.99,
+        557.0,
+        399.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.25656": {
+    "arxivId": "2611.25656",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.25656",
+      "sourceUrl": "https://arxiv.org/pdf/2611.25656v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.25656-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:15Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. A2-VLA overview. (a) The agent reconstructs demonstrated scenes, autonomously determines task-relevant affordance features, develops affordance-extraction skills, and tests cross-tool retargeting in simulation. Diagnostic feedback guides revisions; refined extraction skills enter the reusable library. (b) Encoded functional-region features join image, language, and robot-state tokens to condition the π0.5 action expert. It iteratively denoises action tokens, decoded into robot actions and an auxiliary affordance trajectory.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.25656-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.25656v1",
+      "page": 5,
+      "version": 1,
+      "width": 960,
+      "height": 545,
+      "crop": [
+        66.0,
+        66.0,
+        546.0,
+        337.69
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26389": {
+    "arxivId": "2611.26389",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26389",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26389v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26389-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Method overview. (a) Instead of jointly generating a fixed-length clip, the model generates state transitions causally and ends with a visual EOS frame. (b) The decision-focused schedule moves training to high noise levels, where the next state is hidden and must be inferred from the rules and the history. (c) From the state hd before a failed decision, CFT resamples a successful continuation and trains the noise ϵ−",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26389-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26389v1",
+      "page": 4,
+      "version": 1,
+      "width": 1014,
+      "height": 481,
+      "crop": [
+        52.5,
+        66.0,
+        559.39,
+        306.21
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26127": {
+    "arxivId": "2611.26127",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26127",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26127v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26127-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Training and inference of the map-conditioned trajectory diffuser. During training, the temporal U-Net predicts noise added to normalized expert trajectories, conditioned on spatial occupancy-map tokens and the dif- fusion timestep. Endpoints are fixed by inpainting and excluded from the loss. During single-agent inference, map tokens depend only on the map and are therefore identical at every reverse step; endpoints are restored after every update. The raw trajectory is converted back to world coordinates without static-obstacle-cost guidance or a sepa- rate smoother; this describes the single-agent pipeline, not the multi-agent system. Start/goal markers on the maps are illustrative only.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26127-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26127v1",
+      "page": 5,
+      "version": 1,
+      "width": 860,
+      "height": 737,
+      "crop": [
+        82.98,
+        49.96,
+        512.28,
+        417.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.25589": {
+    "arxivId": "2611.25589",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.25589",
+      "sourceUrl": "https://arxiv.org/pdf/2611.25589v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.25589-v1.text.json",
+      "extractedAt": "2026-11-20T07:27:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. System diagram for GraF-VTA. The STL specification is represented as a syntax tree and a deterministic finite automaton (DFA), both encoded by GNNs. Logic tokens from the syntax tree and visual tokens from multi-view observations are fused through bidirectional cross-attention. The fused features, DFA embedding, and current state condition a Temporal U-Net to generate the planned trajectory via an ODE solver.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.25589-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.25589v1",
+      "page": 4,
+      "version": 1,
+      "width": 1013,
+      "height": 389,
+      "crop": [
+        53.69,
+        67.28,
+        559.97,
+        261.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2610.39454": {
+    "arxivId": "2610.39454",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2610.39454",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39454v2",
+      "version": 2,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2610.39454-v2.text.json",
+      "extractedAt": "2026-11-20T07:27:27Z"
+    },
+    "figure": {
+      "kind": "page-preview",
+      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
+      "figureLabel": null,
+      "selection": "automatic-fallback",
+      "path": "assets/papers/2610.39454-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39454v2",
+      "page": 1,
+      "version": 2,
+      "width": 1089,
+      "height": 1486,
+      "crop": [
+        0.0,
+        0.0,
+        544.25,
+        742.68
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }

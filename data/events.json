@@ -1,5 +1,95 @@
 [
   {
+    "id": "discovered-2611.25580",
+    "paperId": "2611.25580",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "FlashX: Scaling Robotic Experience Reuse for Embodied Agents with CBA-Based NAND Flash",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.25580v1"
+  },
+  {
+    "id": "discovered-2611.25589",
+    "paperId": "2611.25589",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "GraF-VTA: Neuro-Symbolic Trajectory Generation from Vision and Temporal Logic via Graph-Based Fusion",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.25589v1"
+  },
+  {
+    "id": "discovered-2611.25656",
+    "paperId": "2611.25656",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.25656v1"
+  },
+  {
+    "id": "discovered-2610.39454",
+    "paperId": "2610.39454",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "Kairos: A Unified PDDL Planner for Robots: Plans in Milliseconds, with a Guarantee for Every Answer",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2610.39454v2"
+  },
+  {
+    "id": "discovered-2611.26127",
+    "paperId": "2611.26127",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "Spatially Conditioned Trajectory Diffusion",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26127v1"
+  },
+  {
+    "id": "discovered-2611.26196",
+    "paperId": "2611.26196",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "EmbodyAgent: Post-Training Embodied VLM Agents via Distillation, SFT, and RL",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26196v1"
+  },
+  {
+    "id": "discovered-2611.26341",
+    "paperId": "2611.26341",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "Reasoning on Call: Efficient Agentic Robot Control for Long-Horizon Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26341v1"
+  },
+  {
+    "id": "discovered-2611.26389",
+    "paperId": "2611.26389",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26389v1"
+  },
+  {
+    "id": "discovered-2611.26519",
+    "paperId": "2611.26519",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26519v1"
+  },
+  {
+    "id": "discovered-2611.26613",
+    "paperId": "2611.26613",
+    "type": "discovered",
+    "date": "2026-11-20T07:26:22Z",
+    "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26613v1"
+  },
+  {
     "id": "discovered-2611.23855",
     "paperId": "2611.23855",
     "type": "discovered",
