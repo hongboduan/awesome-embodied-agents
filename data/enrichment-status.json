@@ -1,5 +1,5 @@
 {
-  "lastAttempt": "2026-11-21T07:20:47Z",
+  "lastAttempt": "2026-11-22T07:01:45Z",
   "pdfExtracted": 0,
   "pdfFailed": 1,
   "llmCalls": 0,
@@ -9,6 +9,6 @@
   "deferred": 1,
   "llmMode": "not-configured",
   "mode": "partial",
-  "lastFinished": "2026-11-21T07:20:50Z",
+  "lastFinished": "2026-11-22T07:01:48Z",
   "message": "PDF 图片更新 0 篇；新增 AI 草稿 0 篇。未配置 LLM_API_KEY / LLM_MODEL，未调用大模型；PDF 图片照常更新。"
 }
