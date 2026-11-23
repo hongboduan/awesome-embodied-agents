@@ -16937,7 +16937,7 @@
     },
     "lastPdfAttempt": {
       "version": 2,
-      "at": "2026-11-21T07:20:50Z",
+      "at": "2026-11-23T07:52:10Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "http-404"
@@ -17179,27 +17179,27 @@
   },
   "2611.18562": {
     "arxivId": "2611.18562",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.18562",
-      "sourceUrl": "https://arxiv.org/pdf/2611.18562v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.18562v2",
+      "version": 2,
       "pageCount": 21,
       "textPages": 21,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.18562-v1.text.json",
-      "extractedAt": "2026-11-16T06:44:30Z"
+      "textPath": ".cache/papers/2611.18562-v2.text.json",
+      "extractedAt": "2026-11-23T07:52:08Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1. Overview of robot-use reinforcement learning (RURL). Like a computer-use agent, the robot-use agent (RUA) observes the",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.18562-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.18562v1",
+      "path": "assets/papers/2611.18562-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18562v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 982,
       "height": 584,
       "crop": [
@@ -17212,7 +17212,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -18266,6 +18266,396 @@
     "ai": {
       "status": "not-configured",
       "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27499": {
+    "arxivId": "2611.27499",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27499",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27499v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27499-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:37Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of NavRSI. (a) One RSI round: in harness hk, the frozen navigator runs training episodes, and the designer reads the closed-loop logs and its experience Ek to write hk+1 and Ek+1. An isolation wall splits what the two see at the same step: the navigator gets the camera view but no simulator diagnostics, and the designer gets the diagnostics but no image. (b) Search-set SR of each round’s best harness, and the growing experience. (c) The final harness for evaluation.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27499-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27499v1",
+      "page": 4,
+      "version": 1,
+      "width": 1004,
+      "height": 295,
+      "crop": [
+        55.35,
+        65.22,
+        556.67,
+        212.31
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27306": {
+    "arxivId": "2611.27306",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27306",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27306v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27306-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure1 Anagent-centricworldformobileembodiedintelligence. γ-Scape brings diverse interactive worlds and embodiments together with complete-task benchmarking and experience collection. Privileged feedback guides agentic contact manipulation, while human teleoperation provides a complementary source of demonstrations.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27306-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27306v1",
+      "page": 2,
+      "version": 1,
+      "width": 985,
+      "height": 386,
+      "crop": [
+        55.33,
+        57.78,
+        547.12,
+        250.09
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27182": {
+    "arxivId": "2611.27182",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27182",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27182v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27182-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:43Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of TRIP. Given an instruction ℓ, the agent selects a call c and a tripwire w. During execution, the tripwire reads observations ot, queries a compact VLM, and combines the results with depth and memory m to produce zt. A false output allows execution to continue; a firing stops the call and returns control to the agent with the reason and memory. The agent then reassesses the scene and updates the call and tripwire. Snowflakes denote frozen models; calls and VLM queries are illustrative.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27182-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27182v1",
+      "page": 3,
+      "version": 1,
+      "width": 497,
+      "height": 370,
+      "crop": [
+        52.5,
+        66.0,
+        300.75,
+        250.45
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27797": {
+    "arxivId": "2611.27797",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27797",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27797v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27797-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:46Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of EvoTER. Left: Embodied tool-use agent. Skills guide the selection and composition of heterogeneous tools through a unified interface, while execution feedback closes the decision loop. Right: Experience-driven skill evolution. Explorer collects execution trajectories; Diagnoser extracts and revises skills, with privileged simulator information available only after exploration stagnates; Validator evaluates candidate and current libraries using ordinary observations and tools, retains candidates improving aggregate validation success, and returns rejected candidates to Diagnoser for revision.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27797-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27797v1",
+      "page": 3,
+      "version": 1,
+      "width": 1032,
+      "height": 481,
+      "crop": [
+        48.0,
+        44.08,
+        564.0,
+        284.37
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2609.08402": {
+    "arxivId": "2609.08402",
+    "version": 3,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2609.08402",
+      "sourceUrl": "https://arxiv.org/pdf/2609.08402v3",
+      "version": 3,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2609.08402-v3.text.json",
+      "extractedAt": "2026-11-23T07:51:49Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of the AGOS-Bench. An episode succeeds only when the UGV stops within 30 m of the target with line of sight, shows the target in its six views, and issues a MATCH verdict.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2609.08402-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.08402v3",
+      "page": 1,
+      "version": 3,
+      "width": 876,
+      "height": 451,
+      "crop": [
+        87.15,
+        260.47,
+        524.85,
+        485.29
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 3,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27166": {
+    "arxivId": "2611.27166",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27166",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27166v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27166-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:53Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of the Mem-X benchmark. (a) Three memory-dependent levels: In-Trajectory Memory Recall, In-Memory Localization and Episodic Indexing, and Off-Memory Relocalization and Route Re-entry. (b) Mem-X requires historical memory, unlike prior VLN benchmarks; MemBridge is evaluated with memory-aware metrics. (c) Memory-task results of four VLN agents with and without MemBridge.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27166-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27166v1",
+      "page": 2,
+      "version": 1,
+      "width": 1032,
+      "height": 733,
+      "crop": [
+        48.0,
+        44.08,
+        564.0,
+        410.45
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27418": {
+    "arxivId": "2611.27418",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27418",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27418v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27418-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2: Overview of FS-Nav. The Future State World Model encodes the accumulated spatial memory and navigation instruction, fuses their geometry and language features, and predicts a short-horizon waypoint together with a mid-horizon corridor. The Future State Renderer deterministically renders the same prediction as either a top-down canvas or a first-person overlay. Conditioned on the instruction, observation history, and rendered guidance, the Future-State-Guided Navigator generates an action chunk and interacts with the environment in a closed loop. Flame symbols indicate trainable modules.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27418-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27418v1",
+      "page": 3,
+      "version": 1,
+      "width": 994,
+      "height": 558,
+      "crop": [
+        47.46,
+        29.23,
+        543.85,
+        307.83
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.27305": {
+    "arxivId": "2611.27305",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.27305",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27305v1",
+      "version": 1,
+      "pageCount": 49,
+      "textPages": 49,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.27305-v1.text.json",
+      "extractedAt": "2026-11-23T07:51:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of MANIPSCOPE. Forty-eight scenes span six task families and three design levels. Policies and tool-using agents are evaluated through their respective interfaces. Diagnostics distinguish selection from completion, prediction–action agreement from instruction correctness, and action sensitivity from goal-directed transfer. Open resources support evaluation and separate policy and agent leaderboards.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.27305-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27305v1",
+      "page": 2,
+      "version": 1,
+      "width": 960,
+      "height": 566,
+      "crop": [
+        30.08,
+        23.18,
+        509.99,
+        305.76
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26858": {
+    "arxivId": "2611.26858",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26858",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26858v1",
+      "version": 1,
+      "pageCount": 6,
+      "textPages": 6,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26858-v1.text.json",
+      "extractedAt": "2026-11-23T07:52:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: (a,b) A corridor sign and a delivery request. (c) The latest checked switch Tsafe from tracking to braking. (d) The robot tracks its current plan during reasoning, brakes at the deadline, and adopts a revised plan after a timed clearance check.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26858-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26858v1",
+      "page": 2,
+      "version": 1,
+      "width": 736,
+      "height": 213,
+      "crop": [
+        121.42,
+        66.42,
+        488.7,
+        172.28
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.26902": {
+    "arxivId": "2611.26902",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.26902",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26902v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.26902-v1.text.json",
+      "extractedAt": "2026-11-23T07:52:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Escalation without re-watching. (a) Compute of the large VLM (Qwen3-VL 8B) for one escalation vs. history length: re-watching grows linearly, RaReCache [26] more slowly, and BATON stays nearly flat, 8× lower at 64 frames. (b) With 25% of decisions escalated, BATON keeps nearly all the accuracy that re-watching adds (Sec. 6.4).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.26902-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.26902v1",
+      "page": 1,
+      "version": 1,
+      "width": 498,
+      "height": 309,
+      "crop": [
+        311.25,
+        197.81,
+        559.5,
+        351.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   }

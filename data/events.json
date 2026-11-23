@@ -1,5 +1,106 @@
 [
   {
+    "id": "discovered-2611.26858",
+    "paperId": "2611.26858",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Staleness Deadlines for Motion Plans during Onboard Reasoning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26858v1"
+  },
+  {
+    "id": "discovered-2611.26902",
+    "paperId": "2611.26902",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.26902v1"
+  },
+  {
+    "id": "discovered-2609.08402",
+    "paperId": "2609.08402",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2609.08402v3"
+  },
+  {
+    "id": "discovered-2611.27166",
+    "paperId": "2611.27166",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27166v1"
+  },
+  {
+    "id": "discovered-2611.27182",
+    "paperId": "2611.27182",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27182v1"
+  },
+  {
+    "id": "version-2611.18562-v2",
+    "paperId": "2611.18562",
+    "type": "version",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.18562v2"
+  },
+  {
+    "id": "discovered-2611.27305",
+    "paperId": "2611.27305",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "ManipScope: A Diagnostic Benchmark for Instruction Following and Generalization in Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27305v1"
+  },
+  {
+    "id": "discovered-2611.27306",
+    "paperId": "2611.27306",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "$γ$-Scape: An Agent-Centric World for Mobile Embodied Intelligence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27306v1"
+  },
+  {
+    "id": "discovered-2611.27418",
+    "paperId": "2611.27418",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "Beyond Future Views: Exploring Future-State World Models for Vision-Language Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27418v1"
+  },
+  {
+    "id": "discovered-2611.27499",
+    "paperId": "2611.27499",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27499v1"
+  },
+  {
+    "id": "discovered-2611.27797",
+    "paperId": "2611.27797",
+    "type": "discovered",
+    "date": "2026-11-23T07:51:00Z",
+    "title": "EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.27797v1"
+  },
+  {
     "id": "discovered-2611.25580",
     "paperId": "2611.25580",
     "type": "discovered",
