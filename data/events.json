@@ -1,5 +1,262 @@
 [
   {
+    "id": "discovered-2611.28387",
+    "paperId": "2611.28387",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Knowing What You Carry: Scalable Physics-Anchored World Models for Robotic Planning with Liquid Payloads",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.28387v1"
+  },
+  {
+    "id": "discovered-2611.28553",
+    "paperId": "2611.28553",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "WorldWeave: Rethinking Embodied Navigation through Cross-Task World Modeling",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.28553v1"
+  },
+  {
+    "id": "version-2610.04916-v2",
+    "paperId": "2610.04916",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Visual Foresight for Agentic Reasoning Before Action in Urban Navigation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.04916v2"
+  },
+  {
+    "id": "discovered-2611.28732",
+    "paperId": "2611.28732",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.28732v1"
+  },
+  {
+    "id": "version-2611.22543-v2",
+    "paperId": "2611.22543",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.22543v2"
+  },
+  {
+    "id": "discovered-2611.29195",
+    "paperId": "2611.29195",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.29195v1"
+  },
+  {
+    "id": "discovered-2611.29230",
+    "paperId": "2611.29230",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "InfoField3D: Differentiable Information Field for Embodied Task-Oriented View Planning",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.29230v1"
+  },
+  {
+    "id": "discovered-2611.29377",
+    "paperId": "2611.29377",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Contact Harness: Enabling VLM Agents to Perform Contact-Rich Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.29377v1"
+  },
+  {
+    "id": "discovered-2611.29501",
+    "paperId": "2611.29501",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "MAWAM: Joint Imagination for Collaborative Robot Manipulation with a Multi-Agent World Action Model",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.29501v1"
+  },
+  {
+    "id": "discovered-2611.29969",
+    "paperId": "2611.29969",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.29969v1"
+  },
+  {
+    "id": "version-2610.25600-v3",
+    "paperId": "2610.25600",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.25600v3"
+  },
+  {
+    "id": "version-2611.08209-v2",
+    "paperId": "2611.08209",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "RoboARCade: Benchmarking Agentic Robot Control",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.08209v2"
+  },
+  {
+    "id": "discovered-2611.30047",
+    "paperId": "2611.30047",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "RoboLiveMem: Is Robot Memory Solved When the World Does Not Wait?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30047v1"
+  },
+  {
+    "id": "version-2611.27166-v2",
+    "paperId": "2611.27166",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.27166v2"
+  },
+  {
+    "id": "discovered-2611.30101",
+    "paperId": "2611.30101",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Agent on Guard: Self-Improving Runtime Intervention for Robust Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30101v1"
+  },
+  {
+    "id": "discovered-2611.30111",
+    "paperId": "2611.30111",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "RoboThink: Let the Agent Think, Let the Policy Act",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30111v1"
+  },
+  {
+    "id": "version-2611.27182-v2",
+    "paperId": "2611.27182",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.27182v2"
+  },
+  {
+    "id": "version-2611.13000-v2",
+    "paperId": "2611.13000",
+    "type": "version",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "PhysMoE: Fast Spatial Grounding with Single-Token Coordinate Representation in Modality-Decoupled VLMs",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.13000v2"
+  },
+  {
+    "id": "discovered-2611.30516",
+    "paperId": "2611.30516",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "JEPA-ICL: Progress-Aligned Latent Plans for In-Context Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30516v1"
+  },
+  {
+    "id": "discovered-2611.30555",
+    "paperId": "2611.30555",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "RoboInF: A Benchmark for Instruction Fidelity in Robotic Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30555v1"
+  },
+  {
+    "id": "discovered-2611.30989",
+    "paperId": "2611.30989",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "WorldLeague: Benchmarking Physical Agency",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30989v1"
+  },
+  {
+    "id": "discovered-2611.30997",
+    "paperId": "2611.30997",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.30997v1"
+  },
+  {
+    "id": "discovered-2611.31002",
+    "paperId": "2611.31002",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim Environments",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31002v1"
+  },
+  {
+    "id": "discovered-2611.31053",
+    "paperId": "2611.31053",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "ReWeave: Emergent Physical Task Topologies for Embodied Harness Optimization and Cross-Task Meta-Distillation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31053v1"
+  },
+  {
+    "id": "discovered-2611.31115",
+    "paperId": "2611.31115",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31115v1"
+  },
+  {
+    "id": "discovered-2611.31117",
+    "paperId": "2611.31117",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Self-Upgrading Embodied Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31117v1"
+  },
+  {
+    "id": "discovered-2611.31201",
+    "paperId": "2611.31201",
+    "type": "discovered",
+    "date": "2026-11-24T10:03:10Z",
+    "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31201v1"
+  },
+  {
     "id": "discovered-2611.26858",
     "paperId": "2611.26858",
     "type": "discovered",

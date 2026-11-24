@@ -781,40 +781,40 @@
   },
   "2610.04916": {
     "arxivId": "2610.04916",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.04916",
-      "sourceUrl": "https://arxiv.org/pdf/2610.04916v1",
-      "version": 1,
-      "pageCount": 25,
-      "textPages": 25,
+      "sourceUrl": "https://arxiv.org/pdf/2610.04916v2",
+      "version": 2,
+      "pageCount": 10,
+      "textPages": 10,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.04916-v1.text.json",
-      "extractedAt": "2026-10-11T09:07:43Z"
+      "textPath": ".cache/papers/2610.04916-v2.text.json",
+      "extractedAt": "2026-11-24T10:04:20Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 2: Overview of PreAct-Nav. A shared VLM coordinates Navigation Memory and the Predictive Sandbox through Action Preview, Action Review, Action Execute, and Memory Update. Memory provides observed experience and the current subgoal; the sandbox supplies predicted visual cues. Revised actions return to preview. After execution, real observations are checked against expected cues to update subgoal status and open-question progress.",
+      "caption": "Figure 2. Overview of PREACT-NAV. A shared VLM reviews actions using Navigation Memory and the Predictive Sandbox. Revised actions return to preview, and real execution feedback updates subgoal status and open-question progress.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.04916-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.04916v1",
+      "path": "assets/papers/2610.04916-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.04916v2",
       "page": 4,
-      "version": 1,
-      "width": 816,
-      "height": 301,
+      "version": 2,
+      "width": 1014,
+      "height": 295,
       "crop": [
-        102.0,
-        75.86,
-        509.94,
-        225.51
+        52.5,
+        66.0,
+        559.49,
+        213.03
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -15651,27 +15651,27 @@
   },
   "2611.08209": {
     "arxivId": "2611.08209",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.08209",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08209v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.08209v2",
+      "version": 2,
       "pageCount": 23,
       "textPages": 23,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.08209-v1.text.json",
-      "extractedAt": "2026-11-06T06:57:42Z"
+      "textPath": ".cache/papers/2611.08209-v2.text.json",
+      "extractedAt": "2026-11-24T10:04:18Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: Representative tasks from RoboARCade. The benchmark includes 22 tasks spanning single and bimanual manipulation, assembly, physical puzzles, and biolab-inspired procedures. This figure shows 20 of them. Tasks require combinations of visual understanding, precise control, mem- ory, and multi-step planning. RoboARCade supports rendering with Blender for high-fidelity visual observations.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.08209-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.08209v1",
+      "path": "assets/papers/2611.08209-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.08209v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 816,
       "height": 659,
       "crop": [
@@ -15684,7 +15684,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -18349,27 +18349,27 @@
   },
   "2611.27182": {
     "arxivId": "2611.27182",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.27182",
-      "sourceUrl": "https://arxiv.org/pdf/2611.27182v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.27182v2",
+      "version": 2,
       "pageCount": 15,
       "textPages": 15,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.27182-v1.text.json",
-      "extractedAt": "2026-11-23T07:51:43Z"
+      "textPath": ".cache/papers/2611.27182-v2.text.json",
+      "extractedAt": "2026-11-24T10:04:15Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2. Overview of TRIP. Given an instruction ℓ, the agent selects a call c and a tripwire w. During execution, the tripwire reads observations ot, queries a compact VLM, and combines the results with depth and memory m to produce zt. A false output allows execution to continue; a firing stops the call and returns control to the agent with the reason and memory. The agent then reassesses the scene and updates the call and tripwire. Snowflakes denote frozen models; calls and VLM queries are illustrative.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2611.27182-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.27182v1",
+      "path": "assets/papers/2611.27182-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27182v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 497,
       "height": 370,
       "crop": [
@@ -18382,7 +18382,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -18650,6 +18650,357 @@
         197.81,
         559.5,
         351.86
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31117": {
+    "arxivId": "2611.31117",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31117",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31117v1",
+      "version": 1,
+      "pageCount": 57,
+      "textPages": 57,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31117-v1.text.json",
+      "extractedAt": "2026-11-24T10:03:48Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 The self-upgrading loop: the agent works by day and rewrites its own weights at night. Top: its life on the job, as a schematic. By day the agent works with the weights it has; at night it turns to",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31117-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31117v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 593,
+      "crop": [
+        64.87,
+        71.95,
+        547.14,
+        367.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30101": {
+    "arxivId": "2611.30101",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30101",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30101v1",
+      "version": 1,
+      "pageCount": 14,
+      "textPages": 14,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30101-v1.text.json",
+      "extractedAt": "2026-11-24T10:03:51Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of AoG. (a) A planner coordinates agent reasoning with ongoing observation and frozen-policy execution under physical time constraints. Three coupled inner loops refine intervention timing, recovery programs, and policy resumption. Across RSI rounds, the agent revises planner guidance and inner-loop rules and programs from complete trajectories; subsequent executions use the updated harness. (b) Online execution efficiency on RoboDojo-Sim, comparing AoG with agentic baselines in terms of token consumption and end-to-end latency per episode. Both metrics measure deployment costs, excluding RSI training costs. (c) Success rate and score across five task categories on RoboDojo-Sim, comparing AoG with policy-only and agentic baselines.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30101-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30101v1",
+      "page": 2,
+      "version": 1,
+      "width": 996,
+      "height": 520,
+      "crop": [
+        32.98,
+        51.57,
+        530.42,
+        311.02
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30111": {
+    "arxivId": "2611.30111",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30111",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30111v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30111-v1.text.json",
+      "extractedAt": "2026-11-24T10:03:54Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. RoboThink lets the reasoning agent think and the robot policy act. Left: three ways to combine a robot policy with a reasoning agent. (a) The agent controls the robot itself, which is general but slow. (b) The agent sends instructions, which a policy follows only from a fresh start. (c) In RoboThink, the agent’s conclusions reach the policy through two channels: [INST] rewrites the instruction, and [FB], learned from the agent, reaches the trained action module ( ) while the world module stays frozen ( ). Right: share of LIBERO episodes under drift solved within a wall-clock budget. Median time per success: 55 s for RoboThink, 2.1 min and 2.3 min for the agents alone.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30111-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30111v1",
+      "page": 1,
+      "version": 1,
+      "width": 1010,
+      "height": 274,
+      "crop": [
+        52.8,
+        211.16,
+        557.02,
+        347.81
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.29969": {
+    "arxivId": "2611.29969",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.29969",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29969v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.29969-v1.text.json",
+      "extractedAt": "2026-11-24T10:03:56Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of CARE-3D. At inference, the agent selects a grounding tool and reasons over its returned evidence. During post-training, GCS supplements free rollouts with underrepresented tools, while CARE computes Evidence Gain by contrasting ground truth answer likelihood under factual and evidence masked contexts. GRPO updates the agent using the resulting rewards.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.29969-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29969v1",
+      "page": 3,
+      "version": 1,
+      "width": 1029,
+      "height": 458,
+      "crop": [
+        16.0,
+        22.72,
+        530.49,
+        251.42
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31002": {
+    "arxivId": "2611.31002",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31002",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31002v1",
+      "version": 1,
+      "pageCount": 29,
+      "textPages": 29,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31002-v1.text.json",
+      "extractedAt": "2026-11-24T10:04:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of RoboUniverse-10K. (a) An agentic Real2Sim pipeline turns real robot videos into verifiable simulation environments spanning eight task families. (b) RoboUniverse-10K is far larger than existing robot simulation benchmarks. (c) SFT on RoboUniverse-10K lifts Qwen3.6-35B-A3B from 0.8% to 21.2% on RoboUniverse-Verified, and the resulting model transfers zero-shot to a real Franka arm.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31002-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31002v1",
+      "page": 2,
+      "version": 1,
+      "width": 966,
+      "height": 572,
+      "crop": [
+        64.87,
+        57.78,
+        547.15,
+        343.05
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30997": {
+    "arxivId": "2611.30997",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30997",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30997v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30997-v1.text.json",
+      "extractedAt": "2026-11-24T10:04:03Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of Robo-MOPD. (1) Shared SFT initializes the unified 9B student planner πθ once (πθ0). (2) In each round, πθ runs closed-loop rollouts across LIBERO-PRO and RoboCasa365, mapping camera views and history to reasoning and a tool call. (3) The matching frozen specialist (πtea",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30997-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30997v1",
+      "page": 4,
+      "version": 1,
+      "width": 1055,
+      "height": 405,
+      "crop": [
+        43.56,
+        60.19,
+        570.69,
+        262.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.29501": {
+    "arxivId": "2611.29501",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.29501",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29501v1",
+      "version": 1,
+      "pageCount": 28,
+      "textPages": 28,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.29501-v1.text.json",
+      "extractedAt": "2026-11-24T10:04:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 4. Overview of MAWAM. (a) Each robot provides its views and role ℓk, with fixed identity and role encodings added once at the input. Every shared DiT block runs joint self-attention across all robots, gated global cross-attention to g, and local cross-attention to ℓk, producing a spatiotemporally aligned joint imagination latent ˆz1:N from which the action head decodes ˆAk. (b) Training supervises video and action jointly; inference denoises joint video latents before actions, then grounds the sliding joint KV cache with real observations.",
+      "figureLabel": "Figure 4",
+      "selection": "automatic",
+      "path": "assets/papers/2611.29501-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29501v1",
+      "page": 6,
+      "version": 1,
+      "width": 1012,
+      "height": 412,
+      "crop": [
+        53.07,
+        65.76,
+        558.9,
+        271.38
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.29377": {
+    "arxivId": "2611.29377",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.29377",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29377v1",
+      "version": 1,
+      "pageCount": 45,
+      "textPages": 45,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.29377-v1.text.json",
+      "extractedAt": "2026-11-24T10:04:14Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 Overview of Contact Harness. A frozen VLM agent uses textual skills to assess contact states from visual, force, and tactile evidence, while compliant execution responds to contact changes between agent decisions.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.29377-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29377v1",
+      "page": 1,
+      "version": 1,
+      "width": 1008,
+      "height": 583,
+      "crop": [
+        54.0,
+        395.0,
+        558.0,
+        686.15
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31201": {
+    "arxivId": "2611.31201",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31201",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31201v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31201-v1.text.json",
+      "extractedAt": "2026-11-24T10:04:24Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. Overview of the Robotic Agentic Loop. A robotic harness consists of four key dimensions: 1) Prompting, including task instructions and visual observations; 2) Planning, including context management, planning strategies, and model and reason- ing effort selection; 3) Tool Use, including acting tools and policy models; and 4) Action Execution, including action formats, action chunking, and asynchronous execution. These dimensions operate within a closed-loop framework and form the design space sys- tematically explored in Embo-Harness.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31201-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31201v1",
+      "page": 3,
+      "version": 1,
+      "width": 443,
+      "height": 181,
+      "crop": [
+        323.09,
+        66.09,
+        544.4,
+        156.24
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
