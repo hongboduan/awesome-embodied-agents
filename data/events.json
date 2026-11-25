@@ -1,5 +1,130 @@
 [
   {
+    "id": "version-2610.09696-v2",
+    "paperId": "2610.09696",
+    "type": "version",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.09696v2"
+  },
+  {
+    "id": "version-2610.09718-v2",
+    "paperId": "2610.09718",
+    "type": "version",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "YUBI-STAG: Contact and Semantic-Rich Alignment for VLAs via Automated Video-Language Grounding",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.09718v2"
+  },
+  {
+    "id": "discovered-2611.31694",
+    "paperId": "2611.31694",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "CATWAY: Cost-sensitive agentic three-way robot decisions with calibrated language-model confidence",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31694v1"
+  },
+  {
+    "id": "discovered-2611.31822",
+    "paperId": "2611.31822",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "G0.7: Scaling Up a Fast World Action Model with Long Context",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.31822v1"
+  },
+  {
+    "id": "version-2611.30555-v2",
+    "paperId": "2611.30555",
+    "type": "version",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "RoboInF: A Benchmark for Instruction Fidelity in Robotic Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.30555v2"
+  },
+  {
+    "id": "discovered-2611.32152",
+    "paperId": "2611.32152",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "RoboProbe: Benchmarking Physical Plausibility of Robot World Models",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32152v1"
+  },
+  {
+    "id": "version-2609.29389-v2",
+    "paperId": "2609.29389",
+    "type": "version",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2609.29389v2"
+  },
+  {
+    "id": "discovered-2611.32218",
+    "paperId": "2611.32218",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "PoseVLN: Learning Geometric State Evolution for Vision-Language Navigation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32218v1"
+  },
+  {
+    "id": "discovered-2611.32353",
+    "paperId": "2611.32353",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "Any2Act: Scaling In-Context Robot Learning from Heterogeneous Demonstrations",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32353v1"
+  },
+  {
+    "id": "discovered-2611.32564",
+    "paperId": "2611.32564",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "MXI-MemICL: Towards In-Context Robot Manipulation through Self-Retrieved Interaction Memory",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32564v1"
+  },
+  {
+    "id": "discovered-2611.32649",
+    "paperId": "2611.32649",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32649v1"
+  },
+  {
+    "id": "discovered-2611.32765",
+    "paperId": "2611.32765",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "EviCraft: Can Minecraft Agents Find What They Cannot See?",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32765v1"
+  },
+  {
+    "id": "discovered-2611.32967",
+    "paperId": "2611.32967",
+    "type": "discovered",
+    "date": "2026-11-25T08:45:59Z",
+    "title": "VidForce: Predicting Force-Aware Articulation by Observing Humans",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.32967v1"
+  },
+  {
     "id": "discovered-2611.28387",
     "paperId": "2611.28387",
     "type": "discovered",

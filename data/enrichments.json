@@ -2458,40 +2458,40 @@
   },
   "2609.29389": {
     "arxivId": "2609.29389",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2609.29389",
-      "sourceUrl": "https://arxiv.org/pdf/2609.29389v1",
-      "version": 1,
-      "pageCount": 35,
-      "textPages": 35,
+      "sourceUrl": "https://arxiv.org/pdf/2609.29389v2",
+      "version": 2,
+      "pageCount": 38,
+      "textPages": 38,
       "textTruncated": false,
-      "textPath": ".cache/papers/2609.29389-v1.text.json",
-      "extractedAt": "2026-10-12T14:09:51Z"
+      "textPath": ".cache/papers/2609.29389-v2.text.json",
+      "extractedAt": "2026-11-25T08:46:49Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 2 Robo-Harness K1: perception-augmented Robot-Use Agents. (A) Agent harness loop. The VLM receives RGB views, the instruction, and robot state. It queries region grounding, calibrated geometry, anchor tracking, and grasp hypotheses as needed, while depth and calibration stay behind the tool interface. (B) Training. Qwen3.5-9B learns from tool-call traces via SFT, and generalizes well. Bars show epoch-5 accuracy on new-state and held-out-task evaluation. Qwen K1 RUA uses our harness, Qwen RUA is the RGB-only direct-action baseline. All methods share source episodes but differ in inputs and tools. (C) Transfer. Gemini with K1 transfers from LIBERO to RoboSuite (Panda, UR5e, IIWA) without target fine-tuning, using explicit embodiment adapters and the same Panda gripper.",
-      "figureLabel": "Figure 2",
+      "caption": "Figure 1 Perception tools strengthen robot-use agents. On 60 matched LIBERO-PRO configurations, K1 raises Gemini from 16.7% to 71.7% and Astra from 63.3% to 93.3%. Hatched bars show published references under their respective protocols (Zhang et al., 2026a; Sun et al., 2026).",
+      "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2609.29389-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2609.29389v1",
-      "page": 3,
-      "version": 1,
-      "width": 1060,
-      "height": 610,
+      "path": "assets/papers/2609.29389-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2609.29389v2",
+      "page": 1,
+      "version": 2,
+      "width": 1032,
+      "height": 1050,
       "crop": [
-        66.0,
-        66.0,
-        596.0,
-        370.57
+        30.0,
+        67.41,
+        546.0,
+        591.62
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -19001,6 +19001,435 @@
         66.09,
         544.4,
         156.24
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32649": {
+    "arxivId": "2611.32649",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32649",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32649v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32649-v1.text.json",
+      "extractedAt": "2026-11-25T08:46:39Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of ICLWorld. Each task comes in three rule versions that require different behavior for the same goal, and the rule is given as text, as a video, or not at all. The same agent acts in the digital and the physical world through one harness, UIverse, and is evaluated with rule-specific verifiers, rule questions, and a no-rule control across three difficulty levels and three generalization levels. Right: the 160 tasks by domain and rule type, and the success rates of six frontier agents with text rules.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32649-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32649v1",
+      "page": 1,
+      "version": 1,
+      "width": 1015,
+      "height": 437,
+      "crop": [
+        52.5,
+        292.56,
+        559.5,
+        510.81
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32765": {
+    "arxivId": "2611.32765",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32765",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32765v1",
+      "version": 1,
+      "pageCount": 27,
+      "textPages": 27,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32765-v1.text.json",
+      "extractedAt": "2026-11-25T08:46:42Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. One world, one call, two knowledge states. Under the perception-grounded regime (G), tools know only what the agent has seen, so mineBlock finds no target; under the loaded-state regime (L) of standard tool stacks, it routes to an ore the agent never saw.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32765-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32765v1",
+      "page": 1,
+      "version": 1,
+      "width": 1015,
+      "height": 322,
+      "crop": [
+        52.5,
+        183.76,
+        559.51,
+        344.08
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31694": {
+    "arxivId": "2611.31694",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31694",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31694v1",
+      "version": 1,
+      "pageCount": 46,
+      "textPages": 46,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31694-v1.text.json",
+      "extractedAt": "2026-11-25T08:46:45Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Overview of CATWAY. Probes of the language model are fused into a calibrated posterior over the four conditions, and the minimum-expected-loss rule of the loss matrix chooses execute, ask or refuse. After a question, the reply is appended and the same frozen estimate feeds a two-way decision between execute and refuse. Dashed: the CATWAY-Lite path, which replaces the vote by one stated-probability answer.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31694-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31694v1",
+      "page": 4,
+      "version": 1,
+      "width": 998,
+      "height": 318,
+      "crop": [
+        48.48,
+        51.58,
+        546.62,
+        210.49
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32152": {
+    "arxivId": "2611.32152",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32152",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32152v1",
+      "version": 1,
+      "pageCount": 42,
+      "textPages": 42,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32152-v1.text.json",
+      "extractedAt": "2026-11-25T08:46:52Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Generated robot videos look real but break physical laws. Left, the benchmark covers serial manipulators and humanoids in first- and third-person views. Middle, for each generator, the share of videos that RoboProbe finds plausible against the share the annotators do on the 130 shared tasks; the rankings agree (Kendall τ=1.00). Right, one generated video per violation type, with the violation circled in red and the metric’s score, a higher score meaning a likelier violation.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32152-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32152v1",
+      "page": 1,
+      "version": 1,
+      "width": 1015,
+      "height": 535,
+      "crop": [
+        52.5,
+        194.82,
+        559.51,
+        461.97
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32218": {
+    "arxivId": "2611.32218",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32218",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32218v1",
+      "version": 1,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32218-v1.text.json",
+      "extractedAt": "2026-11-25T08:46:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. The PoseVLN framework and comparison with prior methods. Left: pose-aware memory and geometric state evolution. Right: comparison with prior VLN methods by navigation performance and temporal focus.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32218-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32218v1",
+      "page": 2,
+      "version": 1,
+      "width": 940,
+      "height": 421,
+      "crop": [
+        62.1,
+        59.2,
+        531.79,
+        269.23
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32967": {
+    "arxivId": "2611.32967",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32967",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32967v1",
+      "version": 1,
+      "pageCount": 46,
+      "textPages": 46,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32967-v1.text.json",
+      "extractedAt": "2026-11-25T08:46:59Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: VidForce overview. The model takes an RGB video, with an optional contact click and text describing the object and its motion. Frozen D4RT, DA3, and Qwen3-VL backbones extract motion, geometry, visual, and language features. A fusion transformer combines these features into a shared representation that routes and adapts learned force prototypes to form a video-specific force prior. A joint conditional flow refines this prior together with the initial tracked trajectory, producing the final 3D trajectory and force profile.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32967-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32967v1",
+      "page": 3,
+      "version": 1,
+      "width": 642,
+      "height": 211,
+      "crop": [
+        145.56,
+        75.86,
+        466.44,
+        180.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32564": {
+    "arxivId": "2611.32564",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32564",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32564v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32564-v1.text.json",
+      "extractedAt": "2026-11-25T08:47:01Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overall architecture of MXI-MemICL. Stage embeddings from observations and instructions combine with predicted intent for retrieval. A visual–action causal encoder encodes completed interactions and optional demonstrations into memory. Retrieved experience and recent context form n experience tokens that condition the shared backbone via prefixes and gated cross-attention, whose learned gates regulate injection strength. Backbone outputs support action generation and next-step intent prediction. The intention decoder and intention predictor use residual MLPs. Detailed diagrams of all modules are provided in the supplementary material.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32564-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32564v1",
+      "page": 3,
+      "version": 1,
+      "width": 1014,
+      "height": 440,
+      "crop": [
+        52.5,
+        66.0,
+        559.44,
+        285.76
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.32353": {
+    "arxivId": "2611.32353",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.32353",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32353v1",
+      "version": 1,
+      "pageCount": 23,
+      "textPages": 23,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.32353-v1.text.json",
+      "extractedAt": "2026-11-25T08:47:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. Model overview. Top: from a demonstration window, given as sparse multi-view frames and dense proprioception, together with the current observation and the language, the video model predicts the future frame, and the action expert, cross-attending to its layers, denoises the action chunk. Bottom left: progress tracking advances the window along the execution and rolls it back to an earlier phase after a failure. Bottom middle: source-routed adapters (SRA) act only on demonstration tokens, leaving the pretrained model unchanged.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.32353-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.32353v1",
+      "page": 6,
+      "version": 1,
+      "width": 1014,
+      "height": 531,
+      "crop": [
+        52.5,
+        58.29,
+        559.49,
+        323.39
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31822": {
+    "arxivId": "2611.31822",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31822",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31822v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31822-v1.text.json",
+      "extractedAt": "2026-11-25T08:47:08Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: G0.7 architecture and control loop. The context caches up to five minutes of real camera observations, combining the robot’s own history with an optional demonstration video. Conditioned at every layer by the language expert, the vision/action expert attends over this context to decode the next 16-step action chunk directly in 60 ms (Fast mode), or optionally imagines future frames first (IDM mode). After each chunk executes, the newest frame joins the context and the oldest slides out of the window.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31822-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31822v1",
+      "page": 2,
+      "version": 1,
+      "width": 817,
+      "height": 618,
+      "crop": [
+        102.0,
+        66.0,
+        510.01,
+        374.39
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30989": {
+    "arxivId": "2611.30989",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30989",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30989v1",
+      "version": 1,
+      "pageCount": 38,
+      "textPages": 38,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30989-v1.text.json",
+      "extractedAt": "2026-11-25T08:47:10Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1: Example tasks across six dimensions in WorldSeek (blue, right), WorldShape (green, left), and WorldShift (red, below).",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30989-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30989v1",
+      "page": 1,
+      "version": 1,
+      "width": 960,
+      "height": 648,
+      "crop": [
+        65.07,
+        361.36,
+        544.57,
+        684.74
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30047": {
+    "arxivId": "2611.30047",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30047",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30047v1",
+      "version": 1,
+      "pageCount": 15,
+      "textPages": 15,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30047-v1.text.json",
+      "extractedAt": "2026-11-25T08:47:13Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Robot memory benchmarks pause the world, and ROBOLIVEMEM does not. Left: one recorded episode of Grandpa’s mug (BEHAVIOR-1K, Claude Opus 5.5). Grandpa’s mug stands at mark 1 among identical look-alikes. Under the paused clock thinking costs no world time and the episode succeeds. Under the live clock the son swaps the mugs while the model thinks, the model commits to “pick 1” from the frame at 13.0 s (a) before the swap is over (b, c), and it lifts the look-alike (d), although the swap was in its own camera stream. Right: success of the 8 Claude and GPT models on the realistic episodes in which a remembered object changes, with the world paused and running, and the drop.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30047-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30047v1",
+      "page": 1,
+      "version": 1,
+      "width": 1015,
+      "height": 341,
+      "crop": [
+        52.5,
+        242.64,
+        559.51,
+        412.73
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
