@@ -10269,40 +10269,40 @@
   },
   "2610.29560": {
     "arxivId": "2610.29560",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.29560",
-      "sourceUrl": "https://arxiv.org/pdf/2610.29560v1",
-      "version": 1,
-      "pageCount": 17,
-      "textPages": 17,
+      "sourceUrl": "https://arxiv.org/pdf/2610.29560v2",
+      "version": 2,
+      "pageCount": 19,
+      "textPages": 19,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.29560-v1.text.json",
-      "extractedAt": "2026-10-22T04:59:07Z"
+      "textPath": ".cache/papers/2610.29560-v2.text.json",
+      "extractedAt": "2026-11-26T08:32:13Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1: From planner to agent for history-dependent manipulation. Top: Similar observations can require different decisions depending on task progress. (a) Memory-augmented policies equip VLA models with memory mechanisms to retain and use historical information. (b) Hierarchical planning separates high-level planning from low-level execution. (c) SERA uses an editable harness to organize the VLM as an agent that maintains task context from observation and interaction his- tory. Execution-driven self-evolution refines the harness using rollout feedback. The dashed arrow denotes the selected harness, fixed before testing.",
+      "caption": "Figure 1. From planner to agent for history-dependent manip- ulation. Top: Similar observations can require different actions depending on task progress. (a) Memory-augmented VLAs retain historical information. (b) Hierarchical planners issue subtasks to low-level executors. (c) SERA maintains task context through an editable harness, revised using rollout feedback. The dashed arrow marks the selected harness, fixed before testing.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.29560-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.29560v1",
-      "page": 2,
-      "version": 1,
-      "width": 778,
-      "height": 511,
+      "path": "assets/papers/2610.29560-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.29560v2",
+      "page": 1,
+      "version": 2,
+      "width": 521,
+      "height": 324,
       "crop": [
-        111.9,
-        75.87,
-        500.1,
-        330.75
+        305.34,
+        215.66,
+        565.4,
+        377.27
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -17101,27 +17101,27 @@
   },
   "2611.18359": {
     "arxivId": "2611.18359",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.18359",
-      "sourceUrl": "https://arxiv.org/pdf/2611.18359v1",
-      "version": 1,
-      "pageCount": 84,
-      "textPages": 84,
+      "sourceUrl": "https://arxiv.org/pdf/2611.18359v2",
+      "version": 2,
+      "pageCount": 85,
+      "textPages": 85,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.18359-v1.text.json",
-      "extractedAt": "2026-11-16T06:44:22Z"
+      "textPath": ".cache/papers/2611.18359-v2.text.json",
+      "extractedAt": "2026-11-26T08:32:11Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 3 | A reference framework for agentic robotics. An Embodied S2 consists of a foundation model and an embodied harness, whose five core parts manage context, tools, planning, memory, and verification. S2 runs on demand or in response to events, whereas S1 and S0 execute at their own rates. A real-time event monitor outside the three systems watches the user, the robot body, and the physical world at a high rate. It interrupts S2 when an event may change the task and, under predefined safety rules, triggers an immediate reaction in S0 without waiting for S2. S2 may call S0 directly through the tool interface; S0 keeps its own real-time loop.",
       "figureLabel": "Figure 3",
       "selection": "automatic",
-      "path": "assets/papers/2611.18359-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.18359v1",
+      "path": "assets/papers/2611.18359-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.18359v2",
       "page": 7,
-      "version": 1,
+      "version": 2,
       "width": 949,
       "height": 874,
       "crop": [
@@ -17134,7 +17134,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -18774,6 +18774,13 @@
       "status": "not-configured",
       "version": 1,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    },
+    "lastPdfAttempt": {
+      "version": 2,
+      "at": "2026-11-26T08:32:05Z",
+      "status": "failed",
+      "extractionFingerprint": "3ab234daa08f83f5",
+      "error": "http-404"
     }
   },
   "2611.29969": {
@@ -19430,6 +19437,357 @@
         242.64,
         559.51,
         412.73
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.34675": {
+    "arxivId": "2611.34675",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.34675",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34675v1",
+      "version": 1,
+      "pageCount": 19,
+      "textPages": 19,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.34675-v1.text.json",
+      "extractedAt": "2026-11-26T08:31:55Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of RoboEvo2. Co-evolution loop (top): the policy is rolled out on a task batch, and failed tasks are passed to a coding agent, which repairs the harness through parallel Code, Code+ICL, and Code+Policy routes. Verified repairs are kept as skills, memory, and routing rules, and the verified trajectories update the policy. Results (bottom): on LIBERO-PRO and RoboTwin C2R, success of the policy alone and with the harness rises while API cost falls over rounds; in MolmoSpaces, the system improves on tasks it proposes itself; on the Unitree G1-D, the harness evolved in RoboTwin transfers to the real robot and collects the demonstrations that train the policy.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.34675-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34675v1",
+      "page": 1,
+      "version": 1,
+      "width": 1005,
+      "height": 493,
+      "crop": [
+        56.22,
+        219.73,
+        558.28,
+        465.99
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.34778": {
+    "arxivId": "2611.34778",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.34778",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34778v1",
+      "version": 1,
+      "pageCount": 37,
+      "textPages": 37,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.34778-v1.text.json",
+      "extractedAt": "2026-11-26T08:31:58Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1 | Overview of the policy-harness study. We study the policy harness, which connects vision-language models (VLMs) to robots, on eight simulation benchmarks across seven design aspects. X-Harness is the weight-update-free reference",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.34778-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34778v1",
+      "page": 1,
+      "version": 1,
+      "width": 835,
+      "height": 455,
+      "crop": [
+        87.92,
+        214.07,
+        504.6,
+        441.03
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.33915": {
+    "arxivId": "2611.33915",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.33915",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33915v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.33915-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:00Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Motivation and central idea of SEEK. Top: GPT-6 Astra [29] acting directly keeps what the robot learns only in its working context and loses it once the task ends, so the next attempt may repeat the same mistakes; on a real robot, the last cube of a square is again grasped and set down, leaving a gap. Bottom: SEEK retains this execution knowledge across attempts as action-effect evidence (PAEB), including that of failed attempts, and reusable procedures (SEPP), while the model remains fixed; its next attempt pushes the cube in. Right: with GPT-6.2 Astra on 34 RoboDojo tasks, task score by category and model requests per episode of SEEK after 5 attempts and of the model acting directly [38].",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.33915-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33915v1",
+      "page": 2,
+      "version": 1,
+      "width": 961,
+      "height": 415,
+      "crop": [
+        66.0,
+        66.0,
+        546.01,
+        272.71
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.33739": {
+    "arxivId": "2611.33739",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.33739",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33739v1",
+      "version": 1,
+      "pageCount": 18,
+      "textPages": 18,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.33739-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:04Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. RATs fails this trial in all six attempts; run-time governance and RegHarness both solve it. RATs [26], run with our low-cost model, writes six programs; none lifts the bowl. With the released skills, run-time governance (+ Harness) replans after a grasp knocks the bowl off the cabinet and succeeds on its third plan; RegHarness succeeds on its first. Blue marks a reset scene with the committed steps replayed; orange borders mark rejected executions (for RATs, failed task checks), green ones commits, and row-end marks show the task check. Right: success of all five configurations on the 180 paired trials, with gray bars for the RATs loop, purple bars for run-time governance and dark bars for the refined skills, and of RegHarness on its 300.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.33739-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33739v1",
+      "page": 1,
+      "version": 1,
+      "width": 1014,
+      "height": 400,
+      "crop": [
+        52.5,
+        191.74,
+        559.39,
+        391.2
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.33819": {
+    "arxivId": "2611.33819",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.33819",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33819v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.33819-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:16Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Overview of the MMotion pipeline. In our work, cross-scale semantic, latent dynamics, and causal working memories jointly refine backbone features through a bounded residual correction, enabling coherent text-to-motion generation while preserving the pretrained model’s generation pathway.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.33819-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33819v1",
+      "page": 4,
+      "version": 1,
+      "width": 1014,
+      "height": 426,
+      "crop": [
+        52.5,
+        66.0,
+        559.5,
+        278.52
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.33560": {
+    "arxivId": "2611.33560",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.33560",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33560v1",
+      "version": 1,
+      "pageCount": 17,
+      "textPages": 17,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.33560-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:19Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of SKEPTIC. Left: the grounded event log organizes execution measurements into action outcomes and object end states. Center: the coding agent uses this evidence to revise and execute robot programs. Right: a proposed skill enters the shared library when its source program meets a development-success threshold and an independent verifier reproduces the repair. On LIBERO-Pro, the threshold is at least 8 of 15 development seeds.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.33560-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33560v1",
+      "page": 4,
+      "version": 1,
+      "width": 1015,
+      "height": 501,
+      "crop": [
+        52.5,
+        66.0,
+        559.51,
+        315.56
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.34352": {
+    "arxivId": "2611.34352",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.34352",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34352v1",
+      "version": 1,
+      "pageCount": 10,
+      "textPages": 10,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.34352-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:21Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. TL-VLA: from structured task intent to continuous actions. (a) Semantic and structural graph readouts combine with visual features for action-token pretraining; a frozen language teacher (padlock) aligns only the pre-fusion semantic readout. (b) The pretrained Qwen backbone and TL encoder transfer; the fusion module and action head are learned on downstream demonstrations from the current observation, task graph, and robot state. Scene thumbnails are illustrative simulator observations. The schematic depicts the TL policy; NL controls use task text. Solid arrows carry features; dashed arrows mark training-only supervision or weight transfer.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.34352-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34352v1",
+      "page": 2,
+      "version": 1,
+      "width": 1042,
+      "height": 489,
+      "crop": [
+        45.84,
+        43.44,
+        566.17,
+        287.36
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.34347": {
+    "arxivId": "2611.34347",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.34347",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34347v1",
+      "version": 1,
+      "pageCount": 48,
+      "textPages": 48,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.34347-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:26Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 AIRIS construction pipeline. Web videos are screened, human-verified, and segmented into episodes. Clips then receive fully manual Attention labels and model-assisted, multi-annotator Intention, Reaction, and Inter- action labels with group adjudication. Verified A-I-R-I annotations are templated into a candidate question pool and expert-curated into the final benchmark.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.34347-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.34347v1",
+      "page": 4,
+      "version": 1,
+      "width": 966,
+      "height": 462,
+      "crop": [
+        64.87,
+        57.78,
+        547.09,
+        288.18
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.33390": {
+    "arxivId": "2611.33390",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.33390",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33390v1",
+      "version": 1,
+      "pageCount": 72,
+      "textPages": 72,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.33390-v1.text.json",
+      "extractedAt": "2026-11-26T08:32:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 | Overview of RoboARC. Top: the two regimes share the scene, physics and grader. In the Standard regime a coding agent sends action chunks and receives RGB-D images, joint readings and the instruction, without resets. In the Privileged regime it also reads the full simulator state and may reset. VLA policies run under the Standard rules with RGB images. One grader replays the physics of every run. Bottom: one task per constraint type, from the initial to the solved state.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.33390-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.33390v1",
+      "page": 2,
+      "version": 1,
+      "width": 929,
+      "height": 570,
+      "crop": [
+        64.41,
+        81.31,
+        528.15,
+        365.89
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",

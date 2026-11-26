@@ -1,5 +1,152 @@
 [
   {
+    "id": "version-2610.39454-v3",
+    "paperId": "2610.39454",
+    "type": "version",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "Kairos: Fast and Reliable Symbolic Task Planning for Autonomous Robots",
+    "message": "arXiv 更新至 v3；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 2,
+    "toVersion": 3,
+    "url": "https://arxiv.org/abs/2610.39454v3"
+  },
+  {
+    "id": "version-2611.30111-v2",
+    "paperId": "2611.30111",
+    "type": "version",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "RoboThink: Let the Agent Think, Let the Policy Act",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.30111v2"
+  },
+  {
+    "id": "discovered-2611.33390",
+    "paperId": "2611.33390",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "RoboARC: Physical Puzzles for Robotic Manipulation under Spatial Constraints",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.33390v1"
+  },
+  {
+    "id": "discovered-2611.33560",
+    "paperId": "2611.33560",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "Skeptic: Grounding Failure Diagnosis for Robot Skill Discovery",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.33560v1"
+  },
+  {
+    "id": "discovered-2611.33739",
+    "paperId": "2611.33739",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "RegHarness: Regulating What Code-as-Policy Agents Keep from Steps to Skills",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.33739v1"
+  },
+  {
+    "id": "discovered-2611.33819",
+    "paperId": "2611.33819",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "MMotion: Collaborative Cross-Scale Memory for Text-to-Motion Generation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.33819v1"
+  },
+  {
+    "id": "discovered-2611.33915",
+    "paperId": "2611.33915",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.33915v1"
+  },
+  {
+    "id": "version-2611.31822-v2",
+    "paperId": "2611.31822",
+    "type": "version",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "G0.7: Scaling Up a Fast World Action Model with Long Context",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.31822v2"
+  },
+  {
+    "id": "version-2611.18359-v2",
+    "paperId": "2611.18359",
+    "type": "version",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.18359v2"
+  },
+  {
+    "id": "version-2611.28732-v2",
+    "paperId": "2611.28732",
+    "type": "version",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2611.28732v2"
+  },
+  {
+    "id": "discovered-2611.34347",
+    "paperId": "2611.34347",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.34347v1"
+  },
+  {
+    "id": "discovered-2611.34352",
+    "paperId": "2611.34352",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "Beyond Natural-Language Instructions: Temporal Logic as a Task Language for VLA Models with Visual-Logical Fusion",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.34352v1"
+  },
+  {
+    "id": "discovered-2611.34675",
+    "paperId": "2611.34675",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.34675v1"
+  },
+  {
+    "id": "version-2610.29560-v2",
+    "paperId": "2610.29560",
+    "type": "version",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+    "message": "arXiv 更新至 v2；已有编辑解读保留，待复核新版本。",
+    "fromVersion": 1,
+    "toVersion": 2,
+    "url": "https://arxiv.org/abs/2610.29560v2"
+  },
+  {
+    "id": "discovered-2611.34778",
+    "paperId": "2611.34778",
+    "type": "discovered",
+    "date": "2026-11-26T08:31:13Z",
+    "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
+    "message": "发现新论文，已进入待审核候选。",
+    "url": "https://arxiv.org/abs/2611.34778v1"
+  },
+  {
     "id": "version-2610.09696-v2",
     "paperId": "2610.09696",
     "type": "version",
