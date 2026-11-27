@@ -17686,27 +17686,27 @@
   },
   "2611.22543": {
     "arxivId": "2611.22543",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.22543",
-      "sourceUrl": "https://arxiv.org/pdf/2611.22543v1",
-      "version": 1,
-      "pageCount": 21,
-      "textPages": 21,
+      "sourceUrl": "https://arxiv.org/pdf/2611.22543v2",
+      "version": 2,
+      "pageCount": 23,
+      "textPages": 23,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.22543-v1.text.json",
-      "extractedAt": "2026-11-19T07:35:46Z"
+      "textPath": ".cache/papers/2611.22543-v2.text.json",
+      "extractedAt": "2026-11-27T08:47:44Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2. Overview of JointGV. Given the current RGB observation and action, the original visual world model (yellow) predicts the uncorrected next visual state Zt+1 and its change ∆Zt. In parallel, JointGV (blue) uses Relation Transformer (RelTR) features to construct a task-conditioned scene graph and predicts the node-feature change ∆bNt. For the spatial-token case shown here, learned projections map the visual-token and graph-node changes into a shared space, where a change-alignment adapter produces the graph-motion context. The predicted node positions provide a complementary position context. A bounded, gated correction combines these contexts with the original visual prediction to produce bZt+1 = Zt+1 + Ct. Setting Ct = 0 recovers the original prediction. Decoded images are shown only for visualization; the global-state adapter is described in Sec. 3.4.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2611.22543-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.22543v1",
+      "path": "assets/papers/2611.22543-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.22543v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 817,
       "height": 505,
       "crop": [
@@ -17719,7 +17719,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -18466,27 +18466,27 @@
   },
   "2611.27166": {
     "arxivId": "2611.27166",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.27166",
-      "sourceUrl": "https://arxiv.org/pdf/2611.27166v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.27166v2",
+      "version": 2,
       "pageCount": 9,
       "textPages": 9,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.27166-v1.text.json",
-      "extractedAt": "2026-11-23T07:51:53Z"
+      "textPath": ".cache/papers/2611.27166-v2.text.json",
+      "extractedAt": "2026-11-27T08:47:37Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Fig. 1. Overview of the Mem-X benchmark. (a) Three memory-dependent levels: In-Trajectory Memory Recall, In-Memory Localization and Episodic Indexing, and Off-Memory Relocalization and Route Re-entry. (b) Mem-X requires historical memory, unlike prior VLN benchmarks; MemBridge is evaluated with memory-aware metrics. (c) Memory-task results of four VLN agents with and without MemBridge.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.27166-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.27166v1",
+      "path": "assets/papers/2611.27166-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.27166v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 1032,
       "height": 733,
       "crop": [
@@ -18499,7 +18499,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -19331,27 +19331,27 @@
   },
   "2611.31822": {
     "arxivId": "2611.31822",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.31822",
-      "sourceUrl": "https://arxiv.org/pdf/2611.31822v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.31822v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.31822-v1.text.json",
-      "extractedAt": "2026-11-25T08:47:08Z"
+      "textPath": ".cache/papers/2611.31822-v2.text.json",
+      "extractedAt": "2026-11-27T08:47:06Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 1: G0.7 architecture and control loop. The context caches up to five minutes of real camera observations, combining the robot’s own history with an optional demonstration video. Conditioned at every layer by the language expert, the vision/action expert attends over this context to decode the next 16-step action chunk directly in 60 ms (Fast mode), or optionally imagines future frames first (IDM mode). After each chunk executes, the newest frame joins the context and the oldest slides out of the window.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.31822-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.31822v1",
+      "path": "assets/papers/2611.31822-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31822v2",
       "page": 2,
-      "version": 1,
+      "version": 2,
       "width": 817,
       "height": 618,
       "crop": [
@@ -19364,7 +19364,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -19788,6 +19788,357 @@
         81.31,
         528.15,
         365.89
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30555": {
+    "arxivId": "2611.30555",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30555",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30555v2",
+      "version": 2,
+      "pageCount": 25,
+      "textPages": 25,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30555-v2.text.json",
+      "extractedAt": "2026-11-27T08:47:09Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. RoboInF-4K dataset overview. Top: eight tasks with six to twelve branches per scene. Middle: demonstrations follow different instructions from a shared initial state, varying the target goal, object orientation, or execution order; dashed arrows indicate requested table-frame directions. Bottom: simulator-grounded intermediate representations (IR), including visible boxes, measured 3D traces with 2D projections, 6D poses, actual contact points/times, and arm information with gripper commands. Requested conditions and observed outcomes are distinguished.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30555-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30555v2",
+      "page": 5,
+      "version": 2,
+      "width": 1015,
+      "height": 630,
+      "crop": [
+        52.5,
+        66.0,
+        559.5,
+        380.23
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31053": {
+    "arxivId": "2611.31053",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31053",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31053v1",
+      "version": 1,
+      "pageCount": 22,
+      "textPages": 22,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31053-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:11Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of ReWeave. (a) Physical trials induce and refine a task topology to re-read progress. (b) Topology steers parent selection and search width. (c) Causal units guide specialist consolidation and continual learning.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31053-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31053v1",
+      "page": 3,
+      "version": 1,
+      "width": 1024,
+      "height": 466,
+      "crop": [
+        50.16,
+        54.48,
+        561.73,
+        286.67
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.31115": {
+    "arxivId": "2611.31115",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.31115",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31115v1",
+      "version": 1,
+      "pageCount": 31,
+      "textPages": 31,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.31115-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:13Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3. Overview of RUIKit. The RUI is the only variable for a fixed agent and task, while the harness, 24 underlying tools, evaluation protocol, and robot backend re- main shared. The scorer’s verdict is withheld from the agent.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.31115-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.31115v1",
+      "page": 6,
+      "version": 1,
+      "width": 477,
+      "height": 478,
+      "crop": [
+        293.76,
+        310.39,
+        532.0,
+        548.84
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.30516": {
+    "arxivId": "2611.30516",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.30516",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30516v1",
+      "version": 1,
+      "pageCount": 13,
+      "textPages": 13,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.30516-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:17Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. A progress-aligned latent plan guides execution and reads demonstrations. Top: from the current observation, the plan Zt predicts the JEPA features of the checkpoints that remain in the current subtask. Bottom: the same plan locates the demon- stration stage at the same progress, where a time index points to the wrong stage; what the demonstration shows next at that stage is fed back to the policy.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.30516-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.30516v1",
+      "page": 1,
+      "version": 1,
+      "width": 479,
+      "height": 308,
+      "crop": [
+        315.97,
+        256.34,
+        554.77,
+        409.57
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.29230": {
+    "arxivId": "2611.29230",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.29230",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29230v1",
+      "version": 1,
+      "pageCount": 61,
+      "textPages": 61,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.29230-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:27Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 3: Overview of InfoField3D. Task-relevance maps (A1, B1) can be obtained from multimodal foundation models conditioned on the task and the reconstructed 3D scene; the figure shows one illustrative example. InfoField3D lifts geometry-bound information into a differentiable analytic field, whose value encodes task-relevant information accessibility at each observation position (A2, B2). The field is then restricted to the feasible domain (A3, B3), and the recommended observation position is obtained through constrained optimization over this field (A4, B4). Within the same scene, viewpoints recommended according to different task requirements are provided to a frozen VLA to execute the corresponding tasks.",
+      "figureLabel": "Figure 3",
+      "selection": "automatic",
+      "path": "assets/papers/2611.29230-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29230v1",
+      "page": 4,
+      "version": 1,
+      "width": 666,
+      "height": 579,
+      "crop": [
+        139.62,
+        75.86,
+        472.39,
+        364.82
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.29195": {
+    "arxivId": "2611.29195",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.29195",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29195v1",
+      "version": 1,
+      "pageCount": 9,
+      "textPages": 9,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.29195-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:28Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Fig. 1. Overview of FunGrasp-Zero. (a) Multi-embodiment co-training of an FC-GAT policy conditioned on functional potential field guidance. (b) Zero-shot deployment on unseen hands and novel tools without fine-tuning.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.29195-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.29195v1",
+      "page": 1,
+      "version": 1,
+      "width": 465,
+      "height": 503,
+      "crop": [
+        319.83,
+        199.94,
+        551.68,
+        450.72
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.28553": {
+    "arxivId": "2611.28553",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.28553",
+      "sourceUrl": "https://arxiv.org/pdf/2611.28553v1",
+      "version": 1,
+      "pageCount": 11,
+      "textPages": 11,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.28553-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:31Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2. Overview of WORLDWEAVE. Shared predictive dynamics are learned from state changes in consecutive observations through inverse–forward dynamics and transferred across VLN and EVT without relying on task-specific action definitions. Task-specific adapta- tion then incorporates the predicted future states into each task’s decision process.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.28553-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.28553v1",
+      "page": 4,
+      "version": 1,
+      "width": 1008,
+      "height": 337,
+      "crop": [
+        54.18,
+        60.18,
+        558.0,
+        228.45
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 1,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.28732": {
+    "arxivId": "2611.28732",
+    "version": 2,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.28732",
+      "sourceUrl": "https://arxiv.org/pdf/2611.28732v2",
+      "version": 2,
+      "pageCount": 26,
+      "textPages": 26,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.28732-v2.text.json",
+      "extractedAt": "2026-11-27T08:47:34Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 2 Overview of the Ent-Dataset. (a) Ent-Syn pipeline: source robot trajectories undergo (1) keyframe hand editing, (2) motion-guided video generation, and (3) VLM verification for visual quality and action consistency, before pairing the generated human video with the original robot observations and actions. (b) Dataset composition: concentric rings (from inner to outer) break down all 21,269 paired episodes by data source (Ent-Real, Astribot, AgiBot), human-video source (Human, Seedance, Wan), train/validation split (19,115 / 2,154), and task category (635 tasks). (c) Paired demonstrations: examples from the Ent-Real and Ent-Syn subsets across five matched timestamps, illustrating temporally aligned robot and human executions.",
+      "figureLabel": "Figure 2",
+      "selection": "automatic",
+      "path": "assets/papers/2611.28732-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.28732v2",
+      "page": 4,
+      "version": 2,
+      "width": 962,
+      "height": 579,
+      "crop": [
+        65.94,
+        73.03,
+        546.05,
+        362.34
+      ]
+    },
+    "extractionFingerprint": "3ab234daa08f83f5",
+    "ai": {
+      "status": "not-configured",
+      "version": 2,
+      "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
+    }
+  },
+  "2611.28387": {
+    "arxivId": "2611.28387",
+    "version": 1,
+    "pdf": {
+      "status": "extracted",
+      "arxivId": "2611.28387",
+      "sourceUrl": "https://arxiv.org/pdf/2611.28387v1",
+      "version": 1,
+      "pageCount": 16,
+      "textPages": 16,
+      "textTruncated": false,
+      "textPath": ".cache/papers/2611.28387-v1.text.json",
+      "extractedAt": "2026-11-27T08:47:40Z"
+    },
+    "figure": {
+      "kind": "figure",
+      "caption": "Figure 1. Liquid payloads in a planner’s world model. (a) PLiMB (Parallel Liquid–MultiBody), our GPU-parallel slosh simulator, couples FLIP liquid two-way to many vehicles in one batch, each on its own road and plan (front: tank opened). (b) One standard-tank decision: list of candidate plans with the peak load transfer ordered by progress. Red frames mark plans the reference finds unsafe. The rigid-payload planner picks an unsafe plan while ours picks the best safe one. (c) Three world models a planner can use, each with its avoidable unsafe choices in 60 standard-tank decisions at the calibrated operating point. Renders come from the simulator, started from each run’s decision- time vehicle state with the liquid at rest.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2611.28387-v1.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.28387v1",
+      "page": 1,
+      "version": 1,
+      "width": 1160,
+      "height": 658,
+      "crop": [
+        16.0,
+        186.11,
+        596.0,
+        514.91
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
