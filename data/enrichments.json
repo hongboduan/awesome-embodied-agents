@@ -4294,7 +4294,7 @@
     "version": 1,
     "lastPdfAttempt": {
       "version": 1,
-      "at": "2026-11-22T07:01:48Z",
+      "at": "2026-11-28T07:59:40Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "ValueError"
@@ -5901,40 +5901,40 @@
   },
   "2610.09718": {
     "arxivId": "2610.09718",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.09718",
-      "sourceUrl": "https://arxiv.org/pdf/2610.09718v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.09718v2",
+      "version": 2,
       "pageCount": 15,
       "textPages": 15,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.09718-v1.text.json",
-      "extractedAt": "2026-10-16T09:15:28Z"
+      "textPath": ".cache/papers/2610.09718-v2.text.json",
+      "extractedAt": "2026-11-28T07:59:28Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2 | Overview of YUBI-STAG. The contact-object segmentation module extracts contact tracks—contact intervals with per-frame object masks—as spatio-temporal anchors for four annotation stages: scene configuration, PA stages and gripper coordination, object changes, and grounded PA descriptions.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.09718-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.09718v1",
+      "path": "assets/papers/2610.09718-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09718v2",
       "page": 4,
-      "version": 1,
+      "version": 2,
       "width": 938,
       "height": 386,
       "crop": [
         64.02,
-        330.98,
+        290.93,
         532.69,
-        523.17
+        483.11
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -6057,27 +6057,27 @@
   },
   "2610.09696": {
     "arxivId": "2610.09696",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.09696",
-      "sourceUrl": "https://arxiv.org/pdf/2610.09696v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2610.09696v2",
+      "version": 2,
       "pageCount": 13,
       "textPages": 13,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.09696-v1.text.json",
-      "extractedAt": "2026-10-16T09:15:40Z"
+      "textPath": ".cache/papers/2610.09696-v2.text.json",
+      "extractedAt": "2026-11-28T07:59:31Z"
     },
     "figure": {
       "kind": "figure",
       "caption": "Figure 2 | RoboPace System Overview: TOPP-RA retimes each VLA action chunk as a joint path, limiting speed at waypoints where contact is predicted. This accelerates free-space motion while slowing at contact.",
       "figureLabel": "Figure 2",
       "selection": "automatic",
-      "path": "assets/papers/2610.09696-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.09696v1",
+      "path": "assets/papers/2610.09696-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.09696v2",
       "page": 3,
-      "version": 1,
+      "version": 2,
       "width": 939,
       "height": 282,
       "crop": [
@@ -6090,7 +6090,7 @@
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -8787,40 +8787,40 @@
   },
   "2610.25600": {
     "arxivId": "2610.25600",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.25600",
-      "sourceUrl": "https://arxiv.org/pdf/2610.25600v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.25600v3",
+      "version": 3,
       "pageCount": 8,
       "textPages": 8,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.25600-v2.text.json",
-      "extractedAt": "2026-10-22T04:59:29Z"
+      "textPath": ".cache/papers/2610.25600-v3.text.json",
+      "extractedAt": "2026-11-28T07:59:25Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Fig. 1: Overview of VQ-WM. The initial (green) and goal (red) images are encoded into latent states and vector-quantized ac- cording to controller reachability, so that each vector-quantized state serves as a target the controller is expected to reach. The planner performs discrete search over these vector-quantized states using a discrete latent predictor. A continuous controller then drives the robot toward each planned target in turn, using visual feedback to correct deviations along the way.",
+      "caption": "Fig. 1. Overview of VQ-WM. The initial (green) and goal (red) images are encoded into latent states and vector-quantized according to controller reachability, so that each vector-quantized state serves as a target the controller is expected to reach. The planner performs discrete search over these vector- quantized states using a discrete latent predictor. A continuous controller then drives the robot toward each planned target in turn, using visual feedback to correct deviations along the way.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2610.25600-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.25600v2",
+      "path": "assets/papers/2610.25600-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.25600v3",
       "page": 1,
-      "version": 2,
+      "version": 3,
       "width": 528,
-      "height": 389,
+      "height": 399,
       "crop": [
         305.98,
-        169.62,
+        170.33,
         569.05,
-        363.91
+        369.18
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -16626,40 +16626,40 @@
   },
   "2611.13000": {
     "arxivId": "2611.13000",
-    "version": 1,
+    "version": 2,
     "pdf": {
       "status": "extracted",
       "arxivId": "2611.13000",
-      "sourceUrl": "https://arxiv.org/pdf/2611.13000v1",
-      "version": 1,
+      "sourceUrl": "https://arxiv.org/pdf/2611.13000v2",
+      "version": 2,
       "pageCount": 11,
       "textPages": 11,
       "textTruncated": false,
-      "textPath": ".cache/papers/2611.13000-v1.text.json",
-      "extractedAt": "2026-11-11T06:38:45Z"
+      "textPath": ".cache/papers/2611.13000-v2.text.json",
+      "extractedAt": "2026-11-28T07:59:19Z"
     },
     "figure": {
       "kind": "figure",
-      "caption": "Figure 1. Overview of the PhysMoE framework. (a) Comparison between conventional coupled architectures and our decoupled ap- proach. (b) The proposed PhysMoE framework featuring continuous pixel position encoding, Semi-MoE token routing with decoupled linguistic (FFNlang) and spatial (FFNpix) experts, and Mask-SDF supervision.",
+      "caption": "Figure 1. Overview of the PhysMoE framework. The figure illustrates (1) direct continuous coordinate encoding, (2) the model overview with routed language and pixel FFNs, (3) unified pixel-space generation across downstream tasks (bounding box, trajectory, visual planning, and point prediction), and (4) quantitative results on coordinate inference throughput and benchmark performance.",
       "figureLabel": "Figure 1",
       "selection": "automatic",
-      "path": "assets/papers/2611.13000-v1.png",
-      "sourceUrl": "https://arxiv.org/pdf/2611.13000v1",
+      "path": "assets/papers/2611.13000-v2.png",
+      "sourceUrl": "https://arxiv.org/pdf/2611.13000v2",
       "page": 1,
-      "version": 1,
+      "version": 2,
       "width": 1014,
-      "height": 582,
+      "height": 574,
       "crop": [
         52.5,
-        236.04,
+        178.66,
         559.49,
-        526.63
+        465.02
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 1,
+      "version": 2,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -16937,7 +16937,7 @@
     },
     "lastPdfAttempt": {
       "version": 2,
-      "at": "2026-11-23T07:52:10Z",
+      "at": "2026-11-28T07:59:37Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "http-404"
@@ -18232,40 +18232,40 @@
   },
   "2610.39454": {
     "arxivId": "2610.39454",
-    "version": 2,
+    "version": 3,
     "pdf": {
       "status": "extracted",
       "arxivId": "2610.39454",
-      "sourceUrl": "https://arxiv.org/pdf/2610.39454v2",
-      "version": 2,
+      "sourceUrl": "https://arxiv.org/pdf/2610.39454v3",
+      "version": 3,
       "pageCount": 29,
       "textPages": 29,
       "textTruncated": false,
-      "textPath": ".cache/papers/2610.39454-v2.text.json",
-      "extractedAt": "2026-11-20T07:27:27Z"
+      "textPath": ".cache/papers/2610.39454-v3.text.json",
+      "extractedAt": "2026-11-28T07:59:22Z"
     },
     "figure": {
-      "kind": "page-preview",
-      "caption": "论文 PDF 第 1 页预览；未自动定位可靠框架图。",
-      "figureLabel": null,
-      "selection": "automatic-fallback",
-      "path": "assets/papers/2610.39454-v2.png",
-      "sourceUrl": "https://arxiv.org/pdf/2610.39454v2",
-      "page": 1,
-      "version": 2,
-      "width": 1089,
-      "height": 1486,
+      "kind": "figure",
+      "caption": "Figure 1: The pipeline of Kairos. The orchestrator runs phases over the engines that the task profile allows, all under one budget of time and memory; grounding hands over to the lifted engine when it does not fit. The validator reads the parsed PDDL, not the planner’s task.",
+      "figureLabel": "Figure 1",
+      "selection": "automatic",
+      "path": "assets/papers/2610.39454-v3.png",
+      "sourceUrl": "https://arxiv.org/pdf/2610.39454v3",
+      "page": 6,
+      "version": 3,
+      "width": 957,
+      "height": 413,
       "crop": [
-        0.0,
-        0.0,
-        544.25,
-        742.68
+        33.05,
+        48.07,
+        511.22,
+        254.27
       ]
     },
     "extractionFingerprint": "3ab234daa08f83f5",
     "ai": {
       "status": "not-configured",
-      "version": 2,
+      "version": 3,
       "message": "PDF 图片已处理；配置模型后可生成中文 AI 草稿。"
     }
   },
@@ -18777,7 +18777,7 @@
     },
     "lastPdfAttempt": {
       "version": 2,
-      "at": "2026-11-26T08:32:05Z",
+      "at": "2026-11-28T07:59:34Z",
       "status": "failed",
       "extractionFingerprint": "3ab234daa08f83f5",
       "error": "http-404"
